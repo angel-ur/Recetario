@@ -198,12 +198,15 @@
     var cb = MAPA.canarias_caja, s = '<svg class="mapa" viewBox="0 0 ' + MAPA.vb[0] + ' ' + MAPA.vb[1] + '" role="group" aria-label="Mapa de España por comunidades autónomas">' +
       '<path class="pt" d="' + MAPA.portugal + '"/><rect class="caja-cnr" x="' + cb.x + '" y="' + cb.y + '" width="' + cb.w + '" height="' + cb.h + '" rx="6"/>';
     MAPA.regiones.forEach(function (g) {
+      s += '<path class="reg-hit" data-reg="' + g.id + '" d="' + g.d + '" aria-hidden="true"/>';
+    });
+    MAPA.regiones.forEach(function (g) {
       var rs = recetasDe(g.id), hechas = rs.filter(function (r) { return cocinados[r.id]; }).length;
       s += '<path class="reg' + (hechas ? ' cocinada' : '') + (regionSel === g.id ? ' sel' : '') + '" data-reg="' + g.id + '" d="' + g.d + '" tabindex="0" role="button" aria-label="' + esc(g.n) + ': ' + rs.length + (rs.length === 1 ? ' plato' : ' platos') + (hechas ? ', ' + hechas + ' cocinado' + (hechas > 1 ? 's' : '') : '') + '" aria-pressed="' + (regionSel === g.id) + '"><title>' + esc(g.n) + '</title></path>';
     });
     MAPA.regiones.forEach(function (g) {
       var rs = recetasDe(g.id), llena = rs.length && rs.every(function (r) { return cocinados[r.id]; });
-      s += '<g class="chapa' + (llena ? ' llena' : '') + '" data-reg="' + g.id + '" transform="translate(' + g.cx + ' ' + g.cy + ')" aria-hidden="true"><circle r="7.5"/><text text-anchor="middle" dy="3.2">' + rs.length + '</text></g>';
+      s += '<g class="chapa' + (llena ? ' llena' : '') + '" data-reg="' + g.id + '" transform="translate(' + g.cx + ' ' + g.cy + ')" aria-hidden="true"><circle class="chapa-hit" r="18"/><circle r="7.5"/><text text-anchor="middle" dy="3.2">' + rs.length + '</text></g>';
     });
     return s + '</svg>';
   }

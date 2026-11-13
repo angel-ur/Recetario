@@ -43,6 +43,9 @@
 
 html { scroll-behavior: smooth; }
 
+/* el atributo hidden siempre manda sobre el display de la clase (.pagina, etc.) */
+[hidden] { display: none !important; }
+
 body {
   background: var(--papel);
   color: var(--tinta);
@@ -154,6 +157,8 @@ body {
   fill: var(--region); stroke: var(--tarjeta-bg); stroke-width: 1.6;
   cursor: pointer; transition: fill .15s ease;
 }
+.mapa .reg-hit { fill: none; stroke: transparent; stroke-width: 12; pointer-events: all; }
+.mapa .chapa-hit { fill: transparent; pointer-events: all; }
 .mapa .reg:hover, .mapa .reg:focus-visible { fill: var(--ocre); outline: none; }
 .mapa .reg.cocinada { fill: var(--vino); }
 .mapa .reg.sel { fill: var(--anil); stroke: var(--azul-osc); }
@@ -165,10 +170,11 @@ body {
 .mapa-leyenda i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
 .chip-es {
   justify-self: start;
+  display: inline-flex; align-items: center;
   font: inherit; font-weight: 700; font-size: 14.5px;
   color: var(--anil); background: var(--anil-suave);
   border: 1.5px solid transparent; border-radius: 999px;
-  padding: 7px 16px; cursor: pointer;
+  padding: 7px 16px; cursor: pointer; min-height: 44px;
 }
 .chip-es[aria-pressed="true"] { background: var(--anil); color: #fff; }
 .panel-region h3 { font-family: var(--f-display); font-weight: 900; font-size: 21px; color: var(--azul-osc); margin-bottom: 8px; }
@@ -208,10 +214,11 @@ body {
 .buscar:focus { outline: 2px solid var(--anil); border-color: var(--anil); }
 .chips-fila { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
 .filtro {
+  display: inline-flex; align-items: center;
   font: inherit; font-size: 14.5px; font-weight: 700;
   color: var(--azul-osc); background: var(--tarjeta-bg);
   border: 1.5px solid var(--linea); border-radius: 999px;
-  padding: 6px 15px; cursor: pointer;
+  padding: 6px 15px; cursor: pointer; min-height: 44px;
 }
 .filtro[aria-pressed="true"] { background: var(--anil); border-color: var(--anil); color: #fff; }
 
