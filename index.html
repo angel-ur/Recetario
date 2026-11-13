@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recetario de la abuela</title>
+<meta name="description" content="Las recetas de la abuela, guardadas para siempre: cocina de siempre, paso a paso.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400&family=Caveat:wght@500;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%232e4f9e'/><circle cx='50' cy='50' r='16' fill='%23e8b83a'/></svg>">
+</head>
+<body>
+
+<div class="azulejo" aria-hidden="true"></div>
+
+<header class="hero">
+  <p class="kicker">Cocina de siempre, paso a paso</p>
+  <h1>Recetario<br><em>de la abuela</em></h1>
+  <p class="lema">Los platos de cada rincón de España con los gestos que no salen
+  en las recetas: chafar, chascar, asustar, menear y esperar.</p>
+  <p class="stats" id="stats"></p>
+</header>
+
+<main id="vista-lista">
+  <div class="buscador">
+    <input id="q" type="search" placeholder="Busca un plato, un ingrediente, un lugar…" autocomplete="off" aria-label="Buscar receta">
+  </div>
+  <div class="chips" id="chips"></div>
+  <section class="grid" id="grid" aria-live="polite"></section>
+  <p class="vacio" id="vacio" hidden>Nada por aquí… prueba con «arroz», «postre» o «la abuela».</p>
+</main>
+
+<main id="vista-receta" hidden>
+  <a class="volver" href="#/">← Volver al recetario</a>
+  <article id="detalle"></article>
+</main>
+
+<footer>
+  <div class="azulejo fin" aria-hidden="true"></div>
+  <p>Guardado con mimo para que no se pierda ni una receta.<br>
+  <span class="firma">Para añadir una, copia <code>recipes/_plantilla.md</code> en el repo.</span></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
