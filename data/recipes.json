@@ -1,2362 +1,7081 @@
 [
  {
   "id": "arrozleche",
-  "nombre": "Arroz con leche",
-  "subtitulo": "cremoso, con canela y requemado",
-  "region": "ast",
+  "n": "Arroz con leche",
+  "sub": "cremoso, con canela y requemado",
+  "reg": "ast",
   "lugar": "Asturias y toda España",
-  "categoria": "postre",
-  "dificultad": 1,
-  "raciones": 6,
-  "tiempo_min": 200,
-  "tags": [
-   "leche",
-   "arroz",
-   "azucar",
-   "piel",
-   "canela",
-   "mantequilla"
+  "cat": "postre",
+  "dif": 1,
+  "b": 6,
+  "rac": [
+   4,
+   6,
+   8
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cuenco",
+   "c": "#F5ECD6",
+   "polvo": "#8A5A2E",
+   "i": [
+    [
+     "canela",
+     1
+    ]
+   ]
+  },
+  "regs": [
+   "ast"
   ],
   "intro": "Fuego lento, cuchara de madera y paciencia. El azúcar al final y, si te atreves, requemado con hierro como en las casas asturianas.",
-  "ingredientes": [
-   "1.25 l de leche entera",
-   "125 g de arroz redondo",
-   "125 g de azúcar",
-   "1 piel de limón (sin lo blanco)",
-   "1 rama de canela",
-   "20 g de mantequilla (opcional)",
-   "canela molida",
-   "a r de P",
-   "4 cda de azúcar"
+  "secretos": [
+   [
+    "Arroz redondo",
+    "El de grano redondo suelta más almidón que el largo y queda mucho más cremoso."
+   ],
+   [
+    "Fuego bajo y cuchara de palo",
+    "La leche se pega con facilidad. Fuego suave y remover a menudo, rascando el fondo con suavidad."
+   ],
+   [
+    "Templado o frío",
+    "En cada casa se toma de una forma: templado recién hecho o frío de nevera."
+   ]
+  ],
+  "ing": [
+   [
+    "leche",
+    "leche entera",
+    1.25,
+    "l"
+   ],
+   [
+    "arroz",
+    "arroz redondo",
+    125,
+    "g"
+   ],
+   [
+    "azucar",
+    "azúcar",
+    125,
+    "g"
+   ],
+   [
+    "piel",
+    "piel de limón (sin lo blanco)|pieles de limón (sin lo blanco)",
+    1,
+    "ud"
+   ],
+   [
+    "canela",
+    "rama de canela|ramas de canela",
+    1,
+    "ud"
+   ],
+   [
+    "mantequilla",
+    "mantequilla (opcional)",
+    20,
+    "g"
+   ],
+   [
+    "canelam",
+    "canela molida",
+    null
+   ],
+   "#Para requemar (opcional)",
+   [
+    "azucarq",
+    "azúcar",
+    4,
+    "cda"
+   ]
   ],
   "fases": [
    {
     "n": "Aromatizar",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Perfuma la leche",
       "m": 15,
-      "x": "Calienta leche entera con piel de limón (sin lo blanco) y rama de canela hasta que esté a punto de hervir. Apaga y deja que repose diez minutos para que coja aroma.",
+      "x": "Calienta {leche} con {piel} y {canela} hasta que esté a punto de hervir. Apaga y deja que repose diez minutos para que coja aroma.",
+      "tim": 10,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#FBF8F2",
+       "i": [
+        [
+         "piel",
+         2
+        ],
+        [
+         "canela",
+         1
+        ]
+       ]
+      },
       "ab": "La piel del limón, sin nada de la parte blanca, que amarga."
      }
     ]
    },
    {
     "n": "Cocer despacio",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Añade el arroz",
       "m": 5,
-      "x": "Vuelve a encender a fuego suave y echa arroz redondo en forma de lluvia, sin lavar.",
+      "x": "Vuelve a encender a fuego suave y echa {arroz} en forma de lluvia, sin lavar.",
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#FBF8F2",
+       "i": [
+        [
+         "piel",
+         1
+        ],
+        [
+         "canela",
+         1
+        ]
+       ],
+       "cae": [
+        "arroz",
+        "arroz",
+        "arroz",
+        "arroz",
+        "arroz"
+       ]
+      },
       "ab": "El arroz no se lava: su almidón es lo que hace el arroz con leche cremoso."
      },
      {
       "t": "Cuece con paciencia",
       "m": 45,
       "x": "Cuece a fuego suave unos 45 minutos, removiendo a menudo con una cuchara de madera para que no se pegue, hasta que el arroz esté muy tierno.",
+      "tim": 45,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#F5ECD6",
+       "i": [
+        [
+         "arroz",
+         30
+        ]
+       ],
+       "cuchara": 1
+      },
       "ab": "Cuanto más lento, más cremoso. Si se pega al fondo, cambia de olla sin rascar: el sabor a quemado no se va."
      },
      {
       "t": "El azúcar, al final",
       "m": 10,
-      "x": "Añade azúcar y mantequilla (opcional), y cuece diez minutos más removiendo sin parar. Retira la piel de limón y la canela.",
+      "x": "Añade {azucar} y {mantequilla}, y cuece diez minutos más removiendo sin parar. Retira la piel de limón y la canela.",
+      "tim": 10,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#F5ECD6",
+       "i": [
+        [
+         "arroz",
+         26
+        ]
+       ],
+       "cae": [
+        "azucar",
+        "azucar",
+        "azucar",
+        "azucar"
+       ],
+       "cuchara": 1
+      },
       "ab": "Si echas el azúcar al principio, el grano se endurece y no termina de hacerse."
      }
     ]
    },
    {
     "n": "Reposo",
-    "pasos": [
+    "tipo": "espera",
+    "p": [
      {
       "t": "Deja que enfríe",
       "m": 120,
       "x": "Reparte en cuencos y deja que se enfríe. Espesa bastante al enfriar.",
+      "f": "n",
+      "w": 1,
+      "e": {
+       "k": "nevera",
+       "v": "cuenco",
+       "c": "#F5ECD6",
+       "t": "2 h",
+       "rf": 0.17
+      },
       "ab": "Si lo quieres más suelto, apártalo del fuego un poco antes de lo que crees."
      },
      {
       "t": "Canela o requemado",
       "m": 5,
-      "x": "Antes de servir, espolvorea canela molida. O, al estilo asturiano, cubre con azúcar y quémalo con un hierro al rojo o un soplete.",
+      "x": "Antes de servir, espolvorea {canelam}. O, al estilo asturiano, cubre con {azucarq} y quémalo con un hierro al rojo o un soplete.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "cuenco",
+       "c": "#F5ECD6",
+       "polvo": "#8A5A2E",
+       "i": [
+        [
+         "canela",
+         1
+        ]
+       ],
+       "hierro": 1
+      },
       "ab": "En Asturias el requemado es casi obligatorio: una costra fina de caramelo que cruje con la cuchara."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Arroz redondo",
-    "texto": "El de grano redondo suelta más almidón que el largo y queda mucho más cremoso."
-   },
-   {
-    "titulo": "Fuego bajo y cuchara de palo",
-    "texto": "La leche se pega con facilidad. Fuego suave y remover a menudo, rascando el fondo con suavidad."
-   },
-   {
-    "titulo": "Templado o frío",
-    "texto": "En cada casa se toma de una forma: templado recién hecho o frío de nevera."
    }
   ]
  },
  {
   "id": "caldo",
-  "nombre": "Caldo de huesos",
-  "subtitulo": "de cocción lenta, que cuaja como gelatina",
-  "region": "es",
+  "n": "Caldo de huesos",
+  "sub": "de cocción lenta, que cuaja como gelatina",
+  "reg": "es",
   "lugar": "Receta de casa",
-  "categoria": "cuchara",
-  "dificultad": 1,
-  "raciones": 2,
-  "tiempo_min": 1195,
-  "tags": [
-   "#",
-   "rodilla",
-   "tuetano",
-   "oreja",
-   "pata",
-   "carcasa"
+  "cat": "cuchara",
+  "dif": 1,
+  "b": 2,
+  "rac": [
+   1,
+   1.5,
+   2
+  ],
+  "ud": "kg de huesos",
+  "listo": 1,
+  "met": [
+   {
+    "id": "lenta",
+    "n": "Olla lenta",
+    "d": "12–14 h en LOW"
+   },
+   {
+    "id": "olla",
+    "n": "Olla normal",
+    "d": "3–4 h a hervor mínimo"
+   }
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "taza",
+   "c": "#D9A54A"
+  },
+  "regs": [
+   "es"
   ],
   "intro": "Buenos huesos, partes con mucho colágeno y muchas horas a fuego mínimo. Si sale bien, al enfriarse cuaja como una gelatina.",
-  "ingredientes": [
-   "u e de H",
-   "1 kg de huesos de rodilla de ternera",
-   "1 kg de huesos de tuétano",
-   "x t de E",
-   "1 oreja de cerdo",
-   "1 pata de ternera (o 2 manitas de cerdo)",
-   "o l de P",
-   "1 carcasa de pollo",
-   "si consigues undefined de patas de pollo",
-   "e r de V",
-   "2 cebollas",
-   "6 dientes de ajo",
-   "3 zanahorias",
-   "2 puerros grandes",
-   "3 ramas de apio",
-   "opcional undefined de nabo o chirivía",
-   "opcional undefined de perejil",
-   "s p de E",
-   "1 cdta de cúrcuma molida (o 3 cm de raíz fresca)",
-   "1 cdta de pimienta negra en grano",
-   "1 trozo de jengibre fresco de 4 cm",
-   "1 rama de romero",
-   "3 hojas de laurel",
-   "opcional undefined de unas hebras de azafrán",
-   "6 cda de vinagre de manzana sin filtrar",
-   "hasta cubrir undefined de agua mineral",
-   "al servir undefined de sal"
+  "secretos": [
+   [
+    "La sal, al servir",
+    "El caldo se guarda sin sal. Se la pones al calentar cada taza, a tu gusto."
+   ],
+   [
+    "Cuánto aguanta",
+    "En la nevera, 3 o 4 días a 4 °C o menos. Congelado, mejor tomarlo en 2 o 3 meses."
+   ],
+   [
+    "Más colágeno, más gelatina",
+    "Cuantas más articulaciones, patas y orejas, y menos agua, más firme cuaja. Las patas de pollo son de lo que más colágeno tienen."
+   ],
+   [
+    "Huesos de buena procedencia",
+    "Mejor ecológicos o de pasto. Aun así, la etiqueta no garantiza menos metales pesados: importan más la procedencia y los controles."
+   ]
+  ],
+  "ing": [
+   "#Huesos",
+   [
+    "rodilla",
+    "huesos de rodilla de ternera",
+    1,
+    "kg"
+   ],
+   [
+    "tuetano",
+    "huesos de tuétano",
+    1,
+    "kg"
+   ],
+   "#Extras con colágeno (uno o dos)",
+   [
+    "oreja",
+    "oreja de cerdo|orejas de cerdo",
+    1,
+    "ud"
+   ],
+   [
+    "pata",
+    "pata de ternera (o 2 manitas de cerdo)|patas de ternera",
+    1,
+    "ud"
+   ],
+   "#Pollo",
+   [
+    "carcasa",
+    "carcasa de pollo|carcasas de pollo",
+    1,
+    "ud"
+   ],
+   [
+    "patapollo",
+    "patas de pollo",
+    "si consigues"
+   ],
+   "#Verduras",
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    6,
+    "ud"
+   ],
+   [
+    "zanahoria",
+    "zanahoria|zanahorias",
+    3,
+    "ud"
+   ],
+   [
+    "puerro",
+    "puerro grande|puerros grandes",
+    2,
+    "ud"
+   ],
+   [
+    "apio",
+    "rama de apio|ramas de apio",
+    3,
+    "ud"
+   ],
+   [
+    "nabo",
+    "nabo o chirivía",
+    "opcional"
+   ],
+   [
+    "perejil",
+    "perejil",
+    "opcional"
+   ],
+   "#Especias y otros",
+   [
+    "curcuma",
+    "cúrcuma molida (o 3 cm de raíz fresca)",
+    1,
+    "cdta"
+   ],
+   [
+    "pimienta",
+    "pimienta negra en grano",
+    1,
+    "cdta"
+   ],
+   [
+    "jengibre",
+    "trozo de jengibre fresco de 4 cm|trozos de jengibre fresco de 4 cm",
+    1,
+    "ud"
+   ],
+   [
+    "romero",
+    "rama de romero|ramas de romero",
+    1,
+    "ud"
+   ],
+   [
+    "laurel",
+    "hoja de laurel|hojas de laurel",
+    3,
+    "ud"
+   ],
+   [
+    "azafran",
+    "unas hebras de azafrán",
+    "opcional"
+   ],
+   [
+    "vinagre",
+    "vinagre de manzana sin filtrar",
+    6,
+    "cda"
+   ],
+   [
+    "agua",
+    "agua mineral",
+    "hasta cubrir"
+   ],
+   [
+    "sal",
+    "sal",
+    "al servir"
+   ]
   ],
   "fases": [
    {
     "n": "Preparar",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Tuesta los huesos",
       "m": 10,
-      "x": "Enciende el horno a 200 °C y coloca huesos de rodilla de ternera y huesos de tuétano en una bandeja. Cuando esté caliente, mételos unos 20 minutos, hasta que estén dorados pero sin llegar a quemarse.",
+      "x": "Enciende el horno a 200 °C y coloca {rodilla} y {tuetano} en una bandeja. Cuando esté caliente, mételos unos 20 minutos, hasta que estén dorados pero sin llegar a quemarse.",
+      "tim": 20,
+      "f": "h200",
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "i": [
+        [
+         "hueso",
+         3,
+         1.3,
+         "h-tostado"
+        ],
+        [
+         "tuetano",
+         3,
+         1.25,
+         "h-tostado"
+        ]
+       ]
+      },
       "ab": "Tostar los huesos le da al caldo muchísimo más sabor y un color dorado. Ojo: es cosa de sabor; no sirve para quitar contaminantes."
      },
      {
       "t": "Escalda el resto",
       "m": 20,
-      "x": "Mientras se tuestan, pon a hervir agua en una olla y echa carcasa de pollo, las patas de pollo si tienes, oreja de cerdo y pata de ternera (o 2 manitas de cerdo). Deja que hierva unos 5 minutos. Luego tira el agua, enjuaga las piezas y quítales los restos de espuma.",
+      "x": "Mientras se tuestan, pon a hervir agua en una olla y echa {carcasa}, las patas de pollo si tienes, {oreja} y {pata}. Deja que hierva unos 5 minutos. Luego tira el agua, enjuaga las piezas y quítales los restos de espuma.",
+      "tim": 5,
+      "f": 5,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 5,
+       "c": "#DCCDA9",
+       "i": [
+        [
+         "pollo",
+         2
+        ],
+        [
+         "oreja",
+         1
+        ],
+        [
+         "manita",
+         1
+        ],
+        [
+         "patapollo",
+         2
+        ]
+       ],
+       "espuma": 1
+      },
       "ab": "Esa espuma blanquecina son sobre todo proteínas que cuajan con el calor. Tirar esa primera agua es lo que deja el caldo limpio."
      },
      {
       "t": "Vinagre y reposo",
       "m": 20,
-      "x": "Pasa a la olla lenta los huesos tostados y todo lo escaldado. Añade vinagre de manzana sin filtrar y un poco de agua, y deja reposar unos 20 minutos mientras preparas lo demás.",
+      "x": "Pasa a la olla lenta los huesos tostados y todo lo escaldado. Añade {vinagre} y un poco de agua, y deja reposar unos 20 minutos mientras preparas lo demás.",
+      "tim": 20,
+      "f": 0,
+      "w": 1,
+      "alt": {
+       "olla": {
+        "x": "Pasa a una olla grande los huesos tostados y todo lo escaldado. Añade {vinagre} y un poco de agua, y deja reposar unos 20 minutos mientras preparas lo demás.",
+        "e": {
+         "k": "fuego",
+         "v": "olla",
+         "f": 0,
+         "c": "#CDB27F",
+         "i": [
+          [
+           "hueso",
+           2,
+           1,
+           "h-tostado"
+          ],
+          [
+           "tuetano",
+           2,
+           1,
+           "h-tostado"
+          ],
+          [
+           "oreja",
+           1
+          ],
+          [
+           "pollo",
+           1
+          ]
+         ],
+         "vierte": "vinagre"
+        }
+       }
+      },
+      "e": {
+       "k": "fuego",
+       "v": "lenta",
+       "f": 0,
+       "c": "#CDB27F",
+       "i": [
+        [
+         "hueso",
+         2,
+         1,
+         "h-tostado"
+        ],
+        [
+         "tuetano",
+         2,
+         1,
+         "h-tostado"
+        ],
+        [
+         "oreja",
+         1
+        ],
+        [
+         "pollo",
+         1
+        ]
+       ],
+       "vierte": "vinagre"
+      },
       "ab": "El vinagre aporta acidez y puede ayudar a sacar algo de minerales de los huesos. No hace falta que sea con madre."
      }
     ]
    },
    {
     "n": "Horas de olla",
-    "pasos": [
+    "tipo": "espera",
+    "p": [
      {
       "t": "Agua, especias y a dormir",
       "m": 480,
       "x": "Cubre con agua mineral sin pasar la marca máxima de la olla, y deja sitio para las verduras. Añade cúrcuma molida (o 3 cm de raíz fresca), pimienta negra en grano, trozo de jengibre fresco de 4 cm en rodajas, rama de romero, hojas de laurel y, si tienes, el azafrán. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.",
+      "tim": 480,
+      "f": "l",
+      "w": 1,
+      "alt": {
+       "olla": {
+        "t": "Todo a la olla, a hervor mínimo",
+        "m": 210,
+        "tim": 210,
+        "f": 1,
+        "x": "Cubre con {agua} y añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y, si tienes, el azafrán. Sin sal. Trocea ya {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio}, y el nabo, la chirivía o el perejil si los usas, y échalo todo. Mantén un hervor muy suave unas 3 horas y media, y vigila que no se evapore demasiada agua.",
+        "ab": "En olla normal las verduras van desde el principio. El hervor, que apenas se note: si borbotea fuerte, el caldo se enturbia.",
+        "e": {
+         "k": "fuego",
+         "v": "olla",
+         "f": 1,
+         "tapa": 2,
+         "c": "#D9B06A",
+         "i": [
+          [
+           "zanahoria",
+           3
+          ],
+          [
+           "puerro",
+           2
+          ],
+          [
+           "cebolla",
+           2
+          ],
+          [
+           "apio",
+           2
+          ],
+          [
+           "hueso",
+           1,
+           1,
+           "h-tostado"
+          ]
+         ],
+         "reloj": "3½ h",
+         "rf": 0.29
+        }
+       }
+      },
+      "e": {
+       "k": "fuego",
+       "v": "lenta",
+       "f": 0,
+       "tapa": 1,
+       "c": "#C99A3E",
+       "luna": "8 h"
+      },
       "ab": "La pimienta negra va con la cúrcuma por algo: su piperina puede ayudar a absorber la curcumina."
      },
      {
       "t": "Las verduras, por la mañana",
       "m": 270,
-      "x": "A la mañana siguiente, trocea cebollas, dientes de ajo, zanahorias, puerros grandes y ramas de apio, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.",
+      "x": "A la mañana siguiente, trocea {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio}, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.",
+      "tim": 270,
+      "f": "l",
+      "w": 1,
+      "solo": [
+       "lenta"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "lenta",
+       "f": 0,
+       "c": "#D9B06A",
+       "i": [
+        [
+         "zanahoria",
+         3
+        ],
+        [
+         "puerro",
+         3
+        ],
+        [
+         "cebolla",
+         2
+        ],
+        [
+         "apio",
+         3
+        ],
+        [
+         "ajo",
+         2
+        ]
+       ],
+       "cae": [
+        "zanahoria",
+        "apio",
+        "puerro"
+       ],
+       "reloj": "4½ h",
+       "rf": 0.375
+      },
       "ab": "Las verduras entran al final para que no se pasen y conserven mejor su sabor."
      }
     ]
    },
    {
     "n": "Colar y guardar",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Cuela el caldo",
       "m": 20,
       "x": "Apaga la olla y saca los huesos, las verduras y todos los restos sólidos. Pasa el caldo por un colador fino y después por una tela limpia apta para alimentos. Si lo quieres muy limpio, fíltralo dos o tres veces.",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#D9A54A",
+       "colador": 1,
+       "vierte": "caldo"
+      },
       "ab": "La tela atrapa lo que el colador deja pasar: cada pasada lo deja más limpio."
      },
      {
       "t": "Reparte y a la nevera",
       "m": 10,
       "x": "Reparte el caldo en recipientes pequeños, deja que pierda un poco de calor y mételo en la nevera cuanto antes. No lo dejes horas a temperatura ambiente.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "tarros",
+       "c": "#D9A54A",
+       "vapor": 1
+      },
       "ab": "En recipientes pequeños se enfría mucho antes, y cuanto menos rato pase templado, mejor se conserva."
      }
     ]
    },
    {
     "n": "En frío",
-    "pasos": [
+    "tipo": "despues",
+    "p": [
      {
       "t": "Deja que cuaje",
       "m": 360,
       "x": "Déjalo en la nevera hasta que esté frío del todo: unas 6 horas, o de un día para otro.",
+      "f": "n",
+      "w": 1,
+      "post": 1,
+      "e": {
+       "k": "nevera",
+       "v": "tarros",
+       "c": "#C99A3E",
+       "tapa": 1,
+       "luna": 1,
+       "t": "6 h"
+      },
       "ab": "Con el frío se nota todo el colágeno que han soltado las patas, las orejas y las articulaciones: el caldo cuaja como una gelatina."
      },
      {
       "t": "Desgrasa y comprueba",
       "m": 5,
       "x": "Arriba verás una capa sólida de grasa, parecida al ghee. Retírala con una cuchara y tírala. Debajo, el caldo debería estar cuajado: tan firme que casi no se mueve al inclinar el tarro.",
+      "f": 0,
+      "post": 1,
+      "e": {
+       "k": "plato",
+       "v": "tarros",
+       "c": "#C99A3E",
+       "grasa": 1,
+       "cuchara": 1,
+       "gel": 1
+      },
       "ab": "Esa es la prueba de que ha salido bien. Si no cuaja del todo, no significa que esté mal: solo que está más diluido."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "La sal, al servir",
-    "texto": "El caldo se guarda sin sal. Se la pones al calentar cada taza, a tu gusto."
-   },
-   {
-    "titulo": "Cuánto aguanta",
-    "texto": "En la nevera, 3 o 4 días a 4 °C o menos. Congelado, mejor tomarlo en 2 o 3 meses."
-   },
-   {
-    "titulo": "Más colágeno, más gelatina",
-    "texto": "Cuantas más articulaciones, patas y orejas, y menos agua, más firme cuaja. Las patas de pollo son de lo que más colágeno tienen."
-   },
-   {
-    "titulo": "Huesos de buena procedencia",
-    "texto": "Mejor ecológicos o de pasto. Aun así, la etiqueta no garantiza menos metales pesados: importan más la procedencia y los controles."
    }
   ]
  },
  {
   "id": "chilindron",
-  "nombre": "Pollo al chilindrón",
-  "subtitulo": "con pimientos, tomate y jamón",
-  "region": "ara",
+  "n": "Pollo al chilindrón",
+  "sub": "con pimientos, tomate y jamón",
+  "reg": "ara",
   "lugar": "Aragón y Navarra",
-  "categoria": "carne",
-  "dificultad": 1,
-  "raciones": 4,
-  "tiempo_min": 82,
-  "tags": [
-   "pollo",
-   "jamon",
-   "pimrojo",
-   "pimiento",
-   "cebolla",
-   "ajo"
+  "cat": "carne",
+  "dif": 1,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#B5402F",
+   "i": [
+    [
+     "pollo",
+     4,
+     1,
+     "p-dorado"
+    ],
+    [
+     "pimiento",
+     4,
+     1,
+     "rojo"
+    ],
+    [
+     "jamon",
+     6
+    ],
+    [
+     "perejil",
+     1,
+     0.8
+    ]
+   ]
+  },
+  "regs": [
+   "ara",
+   "nav"
   ],
   "intro": "Guiso de huerta y corral del valle del Ebro: pollo dorado, pimiento rojo, tomate y unos tacos de jamón que le dan el punto. Aragón y Navarra se lo disputan.",
-  "ingredientes": [
-   "1.2 kg de pollo troceado",
-   "100 g de jamón serrano en tacos",
-   "2 pimientos rojos",
-   "1 pimiento verde",
-   "1 cebolla",
-   "3 dientes de ajo",
-   "500 g de tomates maduros",
-   "1 cda de carne de pimiento choricero",
-   "100 ml de vino blanco",
-   "4 cda de aceite de oliva",
-   "sal",
-   "pimienta"
+  "secretos": [
+   [
+    "Pimientos asados",
+    "En muchas casas asan antes los pimientos rojos, los dejan sudar tapados y los pelan. La salsa queda más dulce y ahumada."
+   ],
+   [
+    "Mejor de corral",
+    "Con un pollo de corral o de campo la carne aguanta mejor el guiso y el sabor no tiene comparación."
+   ],
+   [
+    "También con cordero",
+    "El chilindrón se hace igual con cordero o con conejo."
+   ]
+  ],
+  "ing": [
+   [
+    "pollo",
+    "pollo troceado",
+    1.2,
+    "kg"
+   ],
+   [
+    "jamon",
+    "jamón serrano en tacos",
+    100,
+    "g"
+   ],
+   [
+    "pimrojo",
+    "pimiento rojo|pimientos rojos",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "pimiento",
+    "pimiento verde|pimientos verdes",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    3,
+    "ud"
+   ],
+   [
+    "tomate",
+    "tomates maduros",
+    500,
+    "g"
+   ],
+   [
+    "choricero",
+    "carne de pimiento choricero",
+    1,
+    "cda"
+   ],
+   [
+    "vino",
+    "vino blanco",
+    100,
+    "ml"
+   ],
+   [
+    "aceite",
+    "aceite de oliva",
+    4,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ],
+   [
+    "pimienta",
+    "pimienta",
+    null
+   ]
   ],
   "fases": [
    {
     "n": "Dorar y sofreír",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Dora el pollo",
       "m": 12,
-      "x": "Salpimienta pollo troceado y dóralo en una cazuela con aceite de oliva hasta que esté bien tostado por todos lados. Sácalo y resérvalo.",
+      "x": "Salpimienta {pollo} y dóralo en una cazuela con {aceite} hasta que esté bien tostado por todos lados. Sácalo y resérvalo.",
+      "tim": 12,
+      "f": 4,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 4,
+       "c": "#D9A548",
+       "i": [
+        [
+         "pollo",
+         4,
+         1,
+         "p-dorado"
+        ]
+       ],
+       "chisp": 1
+      },
       "ab": "Piel bien dorada, que es lo que da color y sabor a la salsa."
      },
      {
       "t": "Sofrito con jamón",
       "m": 15,
       "x": "En el mismo aceite, rehoga cebolla y dientes de ajo picados. Añade jamón serrano en tacos y, al minuto, pimientos rojos y pimiento verde en tiras. Deja que se ablanden.",
+      "tim": 15,
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#C9673A",
+       "i": [
+        [
+         "pimiento",
+         4,
+         1,
+         "rojo"
+        ],
+        [
+         "pimiento",
+         2
+        ],
+        [
+         "jamon",
+         8
+        ],
+        [
+         "cebolla",
+         3,
+         1,
+         "o-pochada"
+        ]
+       ],
+       "cuchara": 1
+      },
       "ab": "El jamón entra con la cebolla ya pochada, para que suelte su sabor sin endurecerse."
      },
      {
       "t": "Tomate y choricero",
       "m": 10,
-      "x": "Añade tomates maduros pelados y troceados y carne de pimiento choricero, y deja que se haga diez minutos hasta que reduzca.",
+      "x": "Añade {tomate} pelados y troceados y {choricero}, y deja que se haga diez minutos hasta que reduzca.",
+      "tim": 10,
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#B8402B",
+       "i": [
+        [
+         "pimiento",
+         3,
+         1,
+         "rojo"
+        ],
+        [
+         "jamon",
+         6
+        ],
+        [
+         "tomate",
+         2
+        ]
+       ]
+      },
       "ab": "Para pelar el tomate, un corte en cruz y treinta segundos en agua hirviendo: la piel sale sola."
      }
     ]
    },
    {
     "n": "Guisar",
-    "pasos": [
+    "tipo": "espera",
+    "p": [
      {
       "t": "Vino y a guisar",
       "m": 40,
-      "x": "Vuelve a meter el pollo, riega con vino blanco y deja que se evapore el alcohol un par de minutos. Tapa y guisa a fuego suave unos 40 minutos.",
+      "x": "Vuelve a meter el pollo, riega con {vino} y deja que se evapore el alcohol un par de minutos. Tapa y guisa a fuego suave unos 40 minutos.",
+      "tim": 40,
+      "f": 2,
+      "w": 1,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#B5402F",
+       "i": [
+        [
+         "pollo",
+         4,
+         1,
+         "p-dorado"
+        ],
+        [
+         "pimiento",
+         3,
+         1,
+         "rojo"
+        ],
+        [
+         "jamon",
+         5
+        ]
+       ],
+       "vierte": "vinoblanco"
+      },
       "ab": "Si la salsa se queda corta, un chorrito de agua caliente. Al final tiene que quedar espesa y pegada al pollo."
      },
      {
       "t": "Sirve",
       "m": 5,
       "x": "Prueba de sal y sirve con la salsa por encima. Con pan, claro.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#B5402F",
+       "i": [
+        [
+         "pollo",
+         4,
+         1,
+         "p-dorado"
+        ],
+        [
+         "pimiento",
+         3,
+         1,
+         "rojo"
+        ],
+        [
+         "jamon",
+         6
+        ],
+        [
+         "perejil",
+         1,
+         0.8
+        ]
+       ]
+      },
       "ab": "Como todos los guisos, de un día para otro gana mucho."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Pimientos asados",
-    "texto": "En muchas casas asan antes los pimientos rojos, los dejan sudar tapados y los pelan. La salsa queda más dulce y ahumada."
-   },
-   {
-    "titulo": "Mejor de corral",
-    "texto": "Con un pollo de corral o de campo la carne aguanta mejor el guiso y el sabor no tiene comparación."
-   },
-   {
-    "titulo": "También con cordero",
-    "texto": "El chilindrón se hace igual con cordero o con conejo."
    }
   ]
  },
  {
   "id": "cocido",
-  "nombre": "Cocido madrileño",
-  "subtitulo": "en tres vuelcos: sopa, garbanzos y carnes",
-  "region": "mad",
+  "n": "Cocido madrileño",
+  "sub": "en tres vuelcos: sopa, garbanzos y carnes",
+  "reg": "mad",
   "lugar": "Comunidad de Madrid",
-  "categoria": "cuchara",
-  "dificultad": 2,
-  "raciones": 6,
-  "tiempo_min": 950,
-  "tags": [
-   "#",
-   "garbanzo",
-   "carne",
-   "pollo",
-   "tocino",
-   "hueso"
+  "cat": "cuchara",
+  "dif": 2,
+  "b": 6,
+  "rac": [
+   4,
+   6,
+   8
+  ],
+  "met": [
+   {
+    "id": "olla",
+    "n": "Olla grande",
+    "d": "2½ h a fuego suave"
+   },
+   {
+    "id": "expres",
+    "n": "Olla exprés",
+    "d": "40 min con presión"
+   }
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "fuente",
+   "i": [
+    [
+     "garbanzo",
+     20
+    ],
+    [
+     "patata",
+     3
+    ],
+    [
+     "zanahoria",
+     3
+    ],
+    [
+     "chorizo",
+     2
+    ],
+    [
+     "morcilla",
+     2
+    ],
+    [
+     "carne",
+     2
+    ],
+    [
+     "tocino",
+     1
+    ]
+   ]
+  },
+  "regs": [
+   "mad"
   ],
   "intro": "El de los domingos: garbanzos a remojo la víspera, carnes a fuego lento y servido en tres vuelcos. El chorizo y la morcilla van aparte para que el caldo salga limpio.",
-  "ingredientes": [
-   "a r de P",
-   "500 g de garbanzos",
-   "500 g de morcillo de ternera",
-   "500 g de gallina o muslos de pollo",
-   "150 g de tocino fresco o veteado",
-   "1 hueso de caña (con tuétano)",
-   "1 punta de jamón",
-   "4 l de agua",
-   "3 zanahorias",
-   "1 puerro",
-   "4 patatas medianas",
-   "p a de A",
-   "2 chorizos para cocido",
-   "1 morcilla de cebolla",
-   "1 repollo pequeño",
-   "2 dientes de ajo",
-   "3 cda de aceite de oliva",
-   "150 g de fideo cabellín",
-   "sal"
+  "secretos": [
+   [
+    "Agua caliente para el garbanzo",
+    "Es la regla de oro: el garbanzo entra en agua hirviendo y, si hay que añadir, siempre caliente. En frío se encalla."
+   ],
+   [
+    "Espumar con paciencia",
+    "Los primeros minutos de hervor sueltan la espuma de las carnes. Retirarla deja un caldo limpio y dorado."
+   ],
+   [
+    "Nada se tira",
+    "Con las sobras salen ropa vieja, croquetas o la pringá en pan. El caldo sobrante se congela para otra sopa."
+   ]
+  ],
+  "ing": [
+   "#Para el caldo",
+   [
+    "garbanzo",
+    "garbanzos",
+    500,
+    "g"
+   ],
+   [
+    "carne",
+    "morcillo de ternera",
+    500,
+    "g"
+   ],
+   [
+    "pollo",
+    "gallina o muslos de pollo",
+    500,
+    "g"
+   ],
+   [
+    "tocino",
+    "tocino fresco o veteado",
+    150,
+    "g"
+   ],
+   [
+    "hueso",
+    "hueso de caña (con tuétano)|huesos de caña",
+    1,
+    "ud"
+   ],
+   [
+    "huesoj",
+    "punta de jamón|puntas de jamón",
+    1,
+    "ud"
+   ],
+   [
+    "agua",
+    "agua",
+    4,
+    "l"
+   ],
+   [
+    "zanahoria",
+    "zanahoria|zanahorias",
+    3,
+    "ud",
+    0.5
+   ],
+   [
+    "puerro",
+    "puerro|puerros",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "patata",
+    "patata mediana|patatas medianas",
+    4,
+    "ud",
+    0.5
+   ],
+   "#Aparte",
+   [
+    "chorizo",
+    "chorizo para cocido|chorizos para cocido",
+    2,
+    "ud"
+   ],
+   [
+    "morcilla",
+    "morcilla de cebolla|morcillas de cebolla",
+    1,
+    "ud"
+   ],
+   [
+    "repollo",
+    "repollo pequeño|repollos pequeños",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    2,
+    "ud"
+   ],
+   [
+    "aceite",
+    "aceite de oliva",
+    3,
+    "cda"
+   ],
+   [
+    "fideo",
+    "fideo cabellín",
+    150,
+    "g"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ]
   ],
   "fases": [
    {
     "n": "La víspera",
-    "pasos": [
+    "tipo": "previo",
+    "p": [
      {
       "t": "Garbanzos en remojo",
       "m": 720,
-      "x": "Pon garbanzos en remojo en abundante agua templada con un puñado de sal, unas doce horas.",
+      "x": "Pon {garbanzo} en remojo en abundante agua templada con un puñado de sal, unas doce horas.",
+      "f": 0,
+      "pre": 1,
+      "e": {
+       "k": "remojo",
+       "i": [
+        [
+         "garbanzo",
+         30
+        ]
+       ],
+       "t": "12 h"
+      },
       "ab": "Agua templada y sal en el remojo: así la piel queda fina y el garbanzo, mantecoso."
      }
     ]
    },
    {
     "n": "El caldo",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Carnes a la olla",
       "m": 15,
-      "x": "Pon en una olla grande morcillo de ternera, gallina o muslos de pollo, tocino fresco o veteado, hueso de caña (con tuétano) y punta de jamón, cubiertos con agua fría. Llévalo a hervir y ve quitando la espuma que sube.",
+      "x": "Pon en una olla grande {carne}, {pollo}, {tocino}, {hueso} y {huesoj}, cubiertos con {agua} fría. Llévalo a hervir y ve quitando la espuma que sube.",
+      "tim": 15,
+      "f": 4,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 4,
+       "c": "#D9B36B",
+       "i": [
+        [
+         "carne",
+         2
+        ],
+        [
+         "pollo",
+         1
+        ],
+        [
+         "tocino",
+         1
+        ],
+        [
+         "hueso",
+         1
+        ]
+       ],
+       "espuma": 1
+      },
       "ab": "Espumar bien al principio es lo que hace que el caldo salga limpio y no sepa a turbio."
      },
      {
       "t": "Garbanzos al agua caliente",
       "m": 5,
       "x": "Cuando hierva, añade los garbanzos escurridos dentro de una malla, para sacarlos luego enteros.",
+      "f": 4,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 4,
+       "c": "#D9B36B",
+       "malla": 1,
+       "i": [
+        [
+         "carne",
+         2
+        ],
+        [
+         "hueso",
+         1
+        ]
+       ]
+      },
       "ab": "Los garbanzos siempre en agua ya caliente: si los echas en frío se encallan y quedan duros. La malla es su truco para servirlos sin romperlos."
      }
     ]
    },
    {
     "n": "Chup-chup",
-    "pasos": [
+    "tipo": "espera",
+    "p": [
      {
       "t": "A fuego suave",
       "m": 90,
       "x": "Baja a fuego suave, tapa a medias y deja que cueza hora y media. Si hace falta, añade agua caliente, nunca fría.",
+      "tim": 90,
+      "f": 2,
+      "w": 1,
+      "alt": {
+       "expres": {
+        "t": "Olla exprés",
+        "m": 55,
+        "tim": 40,
+        "f": 3,
+        "x": "Cierra la olla exprés con las carnes y los garbanzos. Cuando suba la válvula, baja el fuego y cuenta 40 minutos; deja que baje la presión y abre.",
+        "ab": "En olla exprés pon menos agua: lo justo para cubrir, sin pasar de dos tercios de la olla.",
+        "e": {
+         "k": "fuego",
+         "v": "olla",
+         "f": 3,
+         "tapa": 1,
+         "vapor": 1,
+         "reloj": "40 min",
+         "rf": 0.67
+        }
+       }
+      },
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#D9B36B",
+       "tapa": 2,
+       "reloj": "1½ h",
+       "rf": 0.125
+      },
       "ab": "Desde que entran los garbanzos, toda el agua que añadas, caliente: la fría los encalla."
      },
      {
       "t": "La verdura al caldo",
       "m": 60,
       "x": "Añade zanahorias y puerro enteros y deja otra hora, hasta que los garbanzos estén tiernos. En la última media hora, mete patatas medianas peladas y enteras.",
+      "tim": 60,
+      "f": 2,
+      "w": 1,
+      "alt": {
+       "expres": {
+        "m": 30,
+        "tim": 25,
+        "x": "Abre la olla, añade {zanahoria}, {puerro} y {patata} enteros, y deja cocer sin tapar unos 25 minutos, hasta que estén tiernos."
+       }
+      },
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#D9B36B",
+       "i": [
+        [
+         "zanahoria",
+         3
+        ],
+        [
+         "puerro",
+         2
+        ],
+        [
+         "patata",
+         2
+        ]
+       ],
+       "tapa": 2
+      },
       "ab": "Patatas enteras, que cortadas se deshacen y enturbian el caldo."
      },
      {
       "t": "Chorizo, morcilla y repollo, aparte",
       "m": 40,
       "x": "Mientras, cuece chorizos para cocido y morcilla de cebolla en otra olla con agua, unos 30 minutos. Cuece también repollo pequeño troceado y luego rehógalo en una sartén con aceite de oliva y dientes de ajo laminado.",
+      "tim": 30,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#B8603A",
+       "i": [
+        [
+         "chorizo",
+         3
+        ],
+        [
+         "morcilla",
+         2
+        ]
+       ]
+      },
       "ab": "El chorizo y la morcilla van aparte para que el caldo no salga rojo ni grasiento. Es la diferencia entre un cocido fino y uno basto."
      }
     ]
    },
    {
     "n": "Los tres vuelcos",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Primer vuelco: la sopa",
       "m": 10,
-      "x": "Cuela parte del caldo en una cazuela, llévalo a hervir y cuece fideo cabellín tres o cuatro minutos. Sirve la sopa bien caliente.",
+      "x": "Cuela parte del caldo en una cazuela, llévalo a hervir y cuece {fideo} tres o cuatro minutos. Sirve la sopa bien caliente.",
+      "tim": 4,
+      "f": 4,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 4,
+       "c": "#E2BE6E",
+       "i": [
+        [
+         "fideo",
+         12
+        ]
+       ],
+       "vapor": 1
+      },
       "ab": "Prueba el caldo antes de echar el fideo: el punto de sal se ajusta ahora."
      },
      {
       "t": "Segundo y tercer vuelco",
       "m": 10,
       "x": "Sirve en una fuente los garbanzos con las patatas, la verdura y el repollo; en otra, las carnes troceadas con el chorizo, la morcilla y el tocino.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "fuente",
+       "i": [
+        [
+         "garbanzo",
+         18
+        ],
+        [
+         "patata",
+         3
+        ],
+        [
+         "zanahoria",
+         3
+        ],
+        [
+         "chorizo",
+         2
+        ],
+        [
+         "morcilla",
+         2
+        ],
+        [
+         "carne",
+         2
+        ],
+        [
+         "tocino",
+         1
+        ]
+       ]
+      },
       "ab": "Cada casa tiene su orden, pero la regla es la misma: primero la sopa, luego garbanzos con verdura y, por último, la carne."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Agua caliente para el garbanzo",
-    "texto": "Es la regla de oro: el garbanzo entra en agua hirviendo y, si hay que añadir, siempre caliente. En frío se encalla."
-   },
-   {
-    "titulo": "Espumar con paciencia",
-    "texto": "Los primeros minutos de hervor sueltan la espuma de las carnes. Retirarla deja un caldo limpio y dorado."
-   },
-   {
-    "titulo": "Nada se tira",
-    "texto": "Con las sobras salen ropa vieja, croquetas o la pringá en pan. El caldo sobrante se congela para otra sopa."
    }
   ]
  },
  {
   "id": "cremacatalana",
-  "nombre": "Crema catalana",
-  "subtitulo": "con la costra quemada en el momento",
-  "region": "cat",
+  "n": "Crema catalana",
+  "sub": "con la costra quemada en el momento",
+  "reg": "cat",
   "lugar": "Cataluña",
-  "categoria": "postre",
-  "dificultad": 2,
-  "raciones": 6,
-  "tiempo_min": 276,
-  "tags": [
-   "leche",
-   "yema",
-   "azucar",
-   "maicena",
-   "piel",
-   "canela"
+  "cat": "postre",
+  "dif": 2,
+  "b": 6,
+  "rac": [
+   4,
+   6,
+   8
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuelitas",
+   "c": "#C98A2E"
+  },
+  "regs": [
+   "cat"
   ],
   "intro": "El postre de Sant Josep: leche perfumada con limón y canela, yemas y una costra de azúcar quemada con la pala de hierro justo antes de servir.",
-  "ingredientes": [
-   "1 l de leche entera",
-   "6 yemas de huevo",
-   "150 g de azúcar",
-   "40 g de maicena",
-   "1 piel de limón (sin lo blanco)",
-   "1 rama de canela",
-   "a r de P",
-   "6 cda de azúcar"
+  "secretos": [
+   [
+    "Sant Josep",
+    "Es el postre del 19 de marzo en Cataluña; por eso también se llama crema de Sant Josep."
+   ],
+   [
+    "Ni hervir ni grumos",
+    "Fuego suave y varillas sin parar. Si se forman grumos, pásala por un colador antes de repartirla."
+   ],
+   [
+    "Costra fina",
+    "Poca azúcar y bien repartida: una capa gruesa queda dura y amarga."
+   ]
+  ],
+  "ing": [
+   [
+    "leche",
+    "leche entera",
+    1,
+    "l"
+   ],
+   [
+    "yema",
+    "yema de huevo|yemas de huevo",
+    6,
+    "ud"
+   ],
+   [
+    "azucar",
+    "azúcar",
+    150,
+    "g"
+   ],
+   [
+    "maicena",
+    "maicena",
+    40,
+    "g"
+   ],
+   [
+    "piel",
+    "piel de limón (sin lo blanco)|pieles de limón (sin lo blanco)",
+    1,
+    "ud"
+   ],
+   [
+    "canela",
+    "rama de canela|ramas de canela",
+    1,
+    "ud"
+   ],
+   "#Para quemar",
+   [
+    "azucarq",
+    "azúcar",
+    6,
+    "cda"
+   ]
   ],
   "fases": [
    {
     "n": "La crema",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Perfuma la leche",
       "m": 15,
-      "x": "Calienta leche entera, guardando un vaso aparte, con piel de limón (sin lo blanco) y rama de canela. Cuando hierva, apaga y deja que repose diez minutos.",
+      "x": "Calienta {leche}, guardando un vaso aparte, con {piel} y {canela}. Cuando hierva, apaga y deja que repose diez minutos.",
+      "tim": 10,
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 3,
+       "c": "#FBF8F2",
+       "i": [
+        [
+         "piel",
+         2
+        ],
+        [
+         "canela",
+         1
+        ]
+       ]
+      },
       "ab": "Así la leche coge todo el perfume sin que el limón amargue."
      },
      {
       "t": "Yemas, azúcar y maicena",
       "m": 5,
-      "x": "Bate yemas de huevo con azúcar hasta que blanqueen. Disuelve maicena en el vaso de leche fría que reservaste y añádelo.",
+      "x": "Bate {yema} con {azucar} hasta que blanqueen. Disuelve {maicena} en el vaso de leche fría que reservaste y añádelo.",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#F3D477",
+       "varillas": 1
+      },
       "ab": "La maicena, siempre disuelta en frío: en caliente hace grumos."
      },
      {
       "t": "Junta poco a poco",
       "m": 3,
       "x": "Cuela la leche caliente y viértela sobre las yemas poco a poco, sin dejar de batir.",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#F6E3A2",
+       "vierte": "leche",
+       "varillas": 1
+      },
       "ab": "Si la echas de golpe, las yemas se cuajan y la crema sale con grumos."
      },
      {
       "t": "Espesa a fuego suave",
       "m": 8,
       "x": "Vuelve todo a la olla a fuego suave y remueve sin parar hasta que espese y cubra la cuchara. Que no llegue a hervir fuerte.",
+      "tim": 8,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#F3D77E",
+       "cuchara": 1
+      },
       "ab": "Remueve siempre en el mismo sentido «para que no se corte». Lo que de verdad importa es no parar y no pasarse de fuego."
      }
     ]
    },
    {
     "n": "A enfriar",
-    "pasos": [
+    "tipo": "espera",
+    "p": [
      {
       "t": "Reparte y enfría",
       "m": 240,
       "x": "Reparte la crema en cazuelitas de barro, deja que se temple y guárdala en la nevera al menos cuatro horas.",
+      "f": "n",
+      "w": 1,
+      "e": {
+       "k": "nevera",
+       "v": "cazuelitas",
+       "c": "#F1D27A",
+       "t": "4 h"
+      },
       "ab": "Cazuelitas planas y anchas: más superficie para la costra de azúcar."
      }
     ]
    },
    {
     "n": "Al servir",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Quema el azúcar",
       "m": 5,
-      "x": "Justo antes de servir, cubre cada cazuelita con una capa fina de azúcar y quémala con la pala de hierro al rojo o con un soplete, hasta que caramelice.",
+      "x": "Justo antes de servir, cubre cada cazuelita con una capa fina de {azucarq} y quémala con la pala de hierro al rojo o con un soplete, hasta que caramelice.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "cazuelitas",
+       "c": "#C98A2E",
+       "hierro": 1
+      },
       "ab": "La pala de hierro, el «cremador», se calienta en el fuego hasta que está al rojo. La costra tiene que crujir, por eso se quema en el último momento."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Sant Josep",
-    "texto": "Es el postre del 19 de marzo en Cataluña; por eso también se llama crema de Sant Josep."
-   },
-   {
-    "titulo": "Ni hervir ni grumos",
-    "texto": "Fuego suave y varillas sin parar. Si se forman grumos, pásala por un colador antes de repartirla."
-   },
-   {
-    "titulo": "Costra fina",
-    "texto": "Poca azúcar y bien repartida: una capa gruesa queda dura y amarga."
    }
   ]
  },
  {
   "id": "croquetas",
-  "nombre": "Croquetas de jamón",
-  "subtitulo": "cremosas por dentro, crujientes por fuera",
-  "region": "es",
+  "n": "Croquetas de jamón",
+  "sub": "cremosas por dentro, crujientes por fuera",
+  "reg": "es",
   "lugar": "Toda España",
-  "categoria": "picar",
-  "dificultad": 2,
-  "raciones": 30,
-  "tiempo_min": 313,
-  "tags": [
-   "mantequilla",
-   "cebolla",
-   "jamon",
-   "harina",
-   "leche",
-   "nuez"
+  "cat": "picar",
+  "dif": 2,
+  "b": 30,
+  "rac": [
+   15,
+   30,
+   45
+  ],
+  "ud": "croquetas",
+  "heroe": {
+   "k": "plato",
+   "i": [
+    [
+     "croqueta",
+     7
+    ]
+   ],
+   "guarn": [
+    [
+     "perejil",
+     1
+    ]
+   ]
+  },
+  "regs": [
+   "es"
   ],
   "intro": "Las de aprovechar: una bechamel espesa y bien cocida, el jamón rehogado y una noche de nevera. Así salen las de la abuela.",
-  "ingredientes": [
-   "100 g de mantequilla",
-   "0.5 cebolla pequeña",
-   "150 g de jamón serrano muy picado",
-   "100 g de harina de trigo",
-   "1 l de leche entera",
-   "nuez moscada",
-   "sal",
-   "a r de P",
-   "2 huevos",
-   "150 g de pan rallado",
-   "500 ml de aceite de oliva para freír"
+  "secretos": [
+   [
+    "Masa que no se pega",
+    "Si al formarla se te pega a las manos, no estaba fría del todo o le faltó cocción. Vuelve a la nevera media hora."
+   ],
+   [
+    "De sobras",
+    "Con pollo asado, la carne del cocido, bacalao o setas. La bechamel es siempre la misma."
+   ],
+   [
+    "Doble rebozado",
+    "Para una costra más gruesa y que no revienten, pásalas dos veces por huevo y pan rallado."
+   ]
+  ],
+  "ing": [
+   [
+    "mantequilla",
+    "mantequilla",
+    100,
+    "g"
+   ],
+   [
+    "cebolla",
+    "cebolla pequeña|cebollas pequeñas",
+    0.5,
+    "ud",
+    0.5
+   ],
+   [
+    "jamon",
+    "jamón serrano muy picado",
+    150,
+    "g"
+   ],
+   [
+    "harina",
+    "harina de trigo",
+    100,
+    "g"
+   ],
+   [
+    "leche",
+    "leche entera",
+    1,
+    "l"
+   ],
+   [
+    "nuez",
+    "nuez moscada",
+    null
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ],
+   "#Para rebozar y freír",
+   [
+    "huevo",
+    "huevo|huevos",
+    2,
+    "ud"
+   ],
+   [
+    "panrallado",
+    "pan rallado",
+    150,
+    "g"
+   ],
+   [
+    "aceite",
+    "aceite de oliva para freír",
+    500,
+    "ml"
+   ]
   ],
   "fases": [
    {
     "n": "La masa",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Rehoga la cebolla y el jamón",
       "m": 10,
-      "x": "Derrite mantequilla en una cazuela amplia y pocha cebolla pequeña muy picada, sin que coja color. Añade jamón serrano muy picado y rehógalo un minuto.",
+      "x": "Derrite {mantequilla} en una cazuela amplia y pocha {cebolla} muy picada, sin que coja color. Añade {jamon} y rehógalo un minuto.",
+      "tim": 8,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#F1D27A",
+       "i": [
+        [
+         "jamon",
+         14
+        ],
+        [
+         "cebolla",
+         5,
+         0.7,
+         "o-pochada"
+        ]
+       ],
+       "cuchara": 1
+      },
       "ab": "El jamón se rehoga lo justo. Si se fríe mucho se endurece y suelta demasiada sal."
      },
      {
       "t": "Tuesta la harina",
       "m": 3,
-      "x": "Echa harina de trigo de golpe y remueve dos o tres minutos, hasta que huela a galleta.",
+      "x": "Echa {harina} de golpe y remueve dos o tres minutos, hasta que huela a galleta.",
+      "tim": 3,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#E8C98A",
+       "i": [
+        [
+         "jamon",
+         10
+        ]
+       ],
+       "cuchara": 1
+      },
       "ab": "Si no tuestas la harina, la croqueta sabe a crudo. Ese olor a galleta es la señal de que está."
      },
      {
       "t": "La leche, poco a poco",
       "m": 25,
-      "x": "Ve añadiendo leche entera caliente, un cazo cada vez, sin dejar de remover. Sazona con sal y nuez moscada, y cuece hasta que la masa se despegue de las paredes.",
+      "x": "Ve añadiendo {leche} caliente, un cazo cada vez, sin dejar de remover. Sazona con sal y {nuez}, y cuece hasta que la masa se despegue de las paredes.",
+      "tim": 25,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#F3E8CF",
+       "i": [
+        [
+         "jamon",
+         10
+        ]
+       ],
+       "vierte": "leche",
+       "cuchara": 1
+      },
       "ab": "Leche caliente y poco a poco: así no salen grumos. Y cocerla bien, veinte minutos largos, para que quede fina y no sepa a harina."
      }
     ]
    },
    {
     "n": "Reposo en frío",
-    "pasos": [
+    "tipo": "espera",
+    "p": [
      {
       "t": "Enfría la masa",
       "m": 240,
       "x": "Extiende la masa en una fuente, tápala con film tocando la superficie y déjala en la nevera al menos cuatro horas.",
+      "f": "n",
+      "w": 1,
+      "e": {
+       "k": "nevera",
+       "v": "fuente",
+       "c": "#EAD7B0",
+       "t": "4 h",
+       "i": [
+        [
+         "jamon",
+         10
+        ]
+       ]
+      },
       "ab": "El film «a piel» evita que se forme costra. Lo ideal es hacerla la víspera: fría del todo se forma mucho mejor."
      }
     ]
    },
    {
     "n": "Formar y freír",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Forma las croquetas",
       "m": 25,
-      "x": "Coge porciones con una cuchara, dales forma con las manos untadas en aceite y pásalas por huevos batido y por pan rallado.",
+      "x": "Coge porciones con una cuchara, dales forma con las manos untadas en aceite y pásalas por {huevo} batido y por {panrallado}.",
+      "f": 0,
+      "e": {
+       "k": "formar"
+      },
       "ab": "Con las manos aceitadas la masa no se pega. Si vas a congelar, este es el momento: luego se fríen sin descongelar."
      },
      {
       "t": "Fríe en tandas",
       "m": 10,
-      "x": "Calienta aceite de oliva para freír abundante y fríe las croquetas de pocas en pocas, uno o dos minutos, hasta que estén doradas. Escúrrelas sobre papel de cocina.",
+      "x": "Calienta {aceite} abundante y fríe las croquetas de pocas en pocas, uno o dos minutos, hasta que estén doradas. Escúrrelas sobre papel de cocina.",
+      "tim": 2,
+      "f": 5,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 5,
+       "c": "#E9C46A",
+       "i": [
+        [
+         "croqueta",
+         6
+        ]
+       ],
+       "burbujas": "#FFF3C4"
+      },
       "ab": "Pocas a la vez: si echas muchas, el aceite se enfría y revientan. Tiene que cubrirlas al menos hasta la mitad."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Masa que no se pega",
-    "texto": "Si al formarla se te pega a las manos, no estaba fría del todo o le faltó cocción. Vuelve a la nevera media hora."
-   },
-   {
-    "titulo": "De sobras",
-    "texto": "Con pollo asado, la carne del cocido, bacalao o setas. La bechamel es siempre la misma."
-   },
-   {
-    "titulo": "Doble rebozado",
-    "texto": "Para una costra más gruesa y que no revienten, pásalas dos veces por huevo y pan rallado."
    }
   ]
  },
  {
   "id": "fabada",
-  "nombre": "Fabada asturiana",
-  "subtitulo": "fabes mantecosas y su compango",
-  "region": "ast",
+  "n": "Fabada asturiana",
+  "sub": "fabes mantecosas y su compango",
+  "reg": "ast",
   "lugar": "Asturias",
-  "categoria": "cuchara",
-  "dificultad": 2,
-  "raciones": 4,
-  "tiempo_min": 935,
-  "tags": [
-   "faba",
-   "chorizo",
-   "morcilla",
-   "tocino",
-   "lacon",
-   "azafran"
+  "cat": "cuchara",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#E9C79A",
+   "i": [
+    [
+     "faba",
+     28
+    ],
+    [
+     "chorizo",
+     3
+    ],
+    [
+     "morcilla",
+     2
+    ],
+    [
+     "tocino",
+     2
+    ]
+   ]
+  },
+  "regs": [
+   "ast"
   ],
   "intro": "Fabes de La Granja, compango asturiano y tres cosas que no se negocian: remojo en frío, asustarlas y no meter nunca la cuchara.",
-  "ingredientes": [
-   "500 g de fabes de La Granja",
-   "2 chorizos asturianos",
-   "2 morcillas asturianas",
-   "200 g de panceta o tocino",
-   "200 g de lacón (opcional)",
-   "unas hebras de azafrán",
-   "sal"
+  "secretos": [
+   [
+    "Agua fría, siempre",
+    "Remojo en frío, cocción empezando en frío y los sustos con agua fría. Nunca agua caliente."
+   ],
+   [
+    "El meneo",
+    "Ni cuchara ni espumadera una vez espumada: solo menear la cazuela. Así las fabes llegan enteras al plato."
+   ],
+   [
+    "Mejor de víspera",
+    "Reposada de un día para otro queda más mantecosa. Recaliéntala despacio, con un poco de agua si hace falta."
+   ]
+  ],
+  "ing": [
+   [
+    "faba",
+    "fabes de La Granja",
+    500,
+    "g"
+   ],
+   [
+    "chorizo",
+    "chorizo asturiano|chorizos asturianos",
+    2,
+    "ud"
+   ],
+   [
+    "morcilla",
+    "morcilla asturiana|morcillas asturianas",
+    2,
+    "ud"
+   ],
+   [
+    "tocino",
+    "panceta o tocino",
+    200,
+    "g"
+   ],
+   [
+    "lacon",
+    "lacón (opcional)",
+    200,
+    "g"
+   ],
+   [
+    "azafran",
+    "unas hebras de azafrán",
+    null
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ]
   ],
   "fases": [
    {
     "n": "La víspera",
-    "pasos": [
+    "tipo": "previo",
+    "p": [
      {
       "t": "Fabes en remojo",
       "m": 720,
-      "x": "Pon fabes de La Granja en remojo en agua fría, unas doce horas. Si el lacón es salado, ponlo también a remojo, aparte.",
+      "x": "Pon {faba} en remojo en agua fría, unas doce horas. Si el lacón es salado, ponlo también a remojo, aparte.",
+      "f": 0,
+      "pre": 1,
+      "e": {
+       "k": "remojo",
+       "i": [
+        [
+         "faba",
+         22
+        ]
+       ],
+       "t": "12 h"
+      },
       "ab": "Agua fría y abundante, porque las fabes casi doblan su tamaño."
      }
     ]
    },
    {
     "n": "Al fuego",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Fabes y compango, en frío",
       "m": 5,
-      "x": "Escurre las fabes y colócalas en una cazuela ancha. Pon encima chorizos asturianos, morcillas asturianas, panceta o tocino y lacón (opcional), y cubre con agua fría dos dedos por encima.",
+      "x": "Escurre las fabes y colócalas en una cazuela ancha. Pon encima {chorizo}, {morcilla}, {tocino} y {lacon}, y cubre con agua fría dos dedos por encima.",
+      "f": 0,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 0,
+       "c": "#BFDDF2",
+       "i": [
+        [
+         "faba",
+         26
+        ],
+        [
+         "chorizo",
+         2
+        ],
+        [
+         "morcilla",
+         2
+        ],
+        [
+         "tocino",
+         1
+        ]
+       ]
+      },
       "ab": "El compango va encima, sin enterrarlo: así suelta la grasa y el sabor sin romper las fabes."
      },
      {
       "t": "Hierve y espuma",
       "m": 15,
       "x": "Ponla a fuego fuerte y, cuando hierva, retira con una espumadera la espuma y parte de la grasa que suben.",
+      "tim": 15,
+      "f": 5,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 5,
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "faba",
+         22
+        ],
+        [
+         "chorizo",
+         2
+        ],
+        [
+         "morcilla",
+         2
+        ]
+       ],
+       "espuma": 1
+      },
       "ab": "Espumar al principio deja la fabada más fina y menos pesada."
      },
      {
       "t": "Asústalas",
       "m": 10,
       "x": "Corta el hervor echando un chorrito de agua fría. Repítelo dos o tres veces durante la primera hora, cada vez que vuelva a hervir con fuerza.",
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "faba",
+         22
+        ],
+        [
+         "chorizo",
+         2
+        ]
+       ],
+       "vierte": "agua"
+      },
       "ab": "Asustar las fabes las encoge un momento y la piel se queda pegada al grano. Por eso salen enteras y tiernas."
      }
     ]
    },
    {
     "n": "Fuego mínimo",
-    "pasos": [
+    "tipo": "espera",
+    "p": [
      {
       "t": "Sin cuchara",
       "m": 150,
-      "x": "Deja que se hagan a fuego mínimo dos horas y media, que apenas tiemble. Añade unas hebras de azafrán a mitad de cocción. Nunca remuevas: menea la cazuela cogiéndola por las asas.",
+      "x": "Deja que se hagan a fuego mínimo dos horas y media, que apenas tiemble. Añade {azafran} a mitad de cocción. Nunca remuevas: menea la cazuela cogiéndola por las asas.",
+      "tim": 150,
+      "f": 1,
+      "w": 1,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#E9C79A",
+       "i": [
+        [
+         "faba",
+         22
+        ],
+        [
+         "chorizo",
+         2
+        ],
+        [
+         "morcilla",
+         2
+        ],
+        [
+         "tocino",
+         1
+        ]
+       ],
+       "agita": 1,
+       "reloj": "2½ h",
+       "rf": 0.21
+      },
       "ab": "Con cuchara se rompen. Coge la cazuela con dos trapos y le da un meneo suave de vez en cuando."
      },
      {
       "t": "Sal y reposo",
       "m": 30,
       "x": "Prueba y sala solo al final, porque el compango ya da mucha sal. Apaga y deja reposar media hora tapada.",
+      "f": 0,
+      "w": 1,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 0,
+       "c": "#E9C79A",
+       "tapa": 1
+      },
       "ab": "Si el caldo está claro, chafa cuatro o cinco fabes contra la pared de la cazuela y menea: espesa sin añadir nada."
      }
     ]
    },
    {
     "n": "A la mesa",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Sirve el compango aparte",
       "m": 5,
       "x": "Saca el compango, trocéalo y sírvelo en una fuente aparte, con las fabes bien calientes en su caldo.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#E9C79A",
+       "i": [
+        [
+         "faba",
+         26
+        ],
+        [
+         "chorizo",
+         3
+        ],
+        [
+         "morcilla",
+         3
+        ],
+        [
+         "tocino",
+         2
+        ]
+       ],
+       "pan": 1
+      },
       "ab": "En Asturias se sirve así, en dos fuentes: las fabes por un lado y el compango en trozos por otro."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Agua fría, siempre",
-    "texto": "Remojo en frío, cocción empezando en frío y los sustos con agua fría. Nunca agua caliente."
-   },
-   {
-    "titulo": "El meneo",
-    "texto": "Ni cuchara ni espumadera una vez espumada: solo menear la cazuela. Así las fabes llegan enteras al plato."
-   },
-   {
-    "titulo": "Mejor de víspera",
-    "texto": "Reposada de un día para otro queda más mantecosa. Recaliéntala despacio, con un poco de agua si hace falta."
    }
   ]
  },
  {
   "id": "gazpacho",
-  "nombre": "Gazpacho andaluz",
-  "subtitulo": "fresquito, emulsionado y sin hielo",
-  "region": "and",
+  "n": "Gazpacho andaluz",
+  "sub": "fresquito, emulsionado y sin hielo",
+  "reg": "and",
   "lugar": "Andalucía",
-  "categoria": "huerta",
-  "dificultad": 1,
-  "raciones": 4,
-  "tiempo_min": 158,
-  "tags": [
-   "tomate",
-   "pimiento",
-   "pepino",
-   "ajo",
-   "pan",
-   "aceite"
+  "cat": "huerta",
+  "dif": 1,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "vaso",
+   "c": "#E9733F",
+   "guarn": [
+    [
+     "pepino",
+     3,
+     0.6
+    ],
+    [
+     "pimiento",
+     2,
+     0.6
+    ],
+    [
+     "picatoste",
+     4
+    ]
+   ]
+  },
+  "regs": [
+   "and"
   ],
   "intro": "Tomate muy maduro, pan del día anterior y el aceite al final, poco a poco, para que emulsione y quede anaranjado y cremoso.",
-  "ingredientes": [
-   "1 kg de tomates pera muy maduros",
-   "1 pimiento verde italiano",
-   "0.5 pepino",
-   "1 diente de ajo",
-   "50 g de pan del día anterior",
-   "100 ml de aceite de oliva virgen extra",
-   "30 ml de vinagre de Jerez",
-   "200 ml de agua fría",
-   "sal",
-   "a r de P",
-   "daditos de pepino, pimiento y pan"
+  "secretos": [
+   [
+    "Tomate de verdad",
+    "Todo depende del tomate: muy maduro, de rama o pera. Con tomate de invierno no hay truco que lo salve."
+   ],
+   [
+    "Ajo con mesura",
+    "Un diente basta para un kilo. El ajo crudo crece con las horas en la nevera."
+   ],
+   [
+    "De un día para otro",
+    "Aguanta perfecto dos días en la nevera, y al segundo está más redondo."
+   ]
+  ],
+  "ing": [
+   [
+    "tomate",
+    "tomates pera muy maduros",
+    1,
+    "kg"
+   ],
+   [
+    "pimiento",
+    "pimiento verde italiano|pimientos verdes italianos",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "pepino",
+    "pepino|pepinos",
+    0.5,
+    "ud",
+    0.5
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    1,
+    "ud"
+   ],
+   [
+    "pan",
+    "pan del día anterior",
+    50,
+    "g"
+   ],
+   [
+    "aceite",
+    "aceite de oliva virgen extra",
+    100,
+    "ml"
+   ],
+   [
+    "vinagre",
+    "vinagre de Jerez",
+    30,
+    "ml"
+   ],
+   [
+    "agua",
+    "agua fría",
+    200,
+    "ml"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ],
+   "#Para acompañar",
+   [
+    "tropezones",
+    "daditos de pepino, pimiento y pan",
+    null
+   ]
   ],
   "fases": [
    {
     "n": "Preparar",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Remoja el pan",
       "m": 10,
-      "x": "Trocea pan del día anterior y ponlo en remojo con agua fría mientras preparas las verduras.",
+      "x": "Trocea {pan} y ponlo en remojo con {agua} mientras preparas las verduras.",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#BFDDF2",
+       "i": [
+        [
+         "pan",
+         3,
+         0.8
+        ]
+       ]
+      },
       "ab": "El pan duro no se tira: le da cuerpo al gazpacho y lo vuelve más suave."
      },
      {
       "t": "Trocea las verduras",
       "m": 10,
-      "x": "Trocea tomates pera muy maduros, pimiento verde italiano sin semillas, pepino pelado y diente de ajo sin el germen.",
+      "x": "Trocea {tomate}, {pimiento} sin semillas, {pepino} pelado y {ajo} sin el germen.",
+      "f": 0,
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "tomate",
+         4
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "pepino",
+         4
+        ],
+        [
+         "ajo",
+         2
+        ]
+       ]
+      },
       "ab": "Quitarle al ajo el brote verde del centro evita que repita."
      }
     ]
    },
    {
     "n": "Triturar",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Tritura",
       "m": 5,
-      "x": "Tritura las verduras con el pan escurrido, vinagre de Jerez y sal hasta que no quede ningún trozo.",
+      "x": "Tritura las verduras con el pan escurrido, {vinagre} y sal hasta que no quede ningún trozo.",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#E0552F",
+       "i": [
+        [
+         "tomate",
+         2
+        ],
+        [
+         "pepino",
+         2
+        ]
+       ],
+       "cae": [
+        "tomate",
+        "pimiento"
+       ]
+      },
       "ab": "Ella lo pasaba por el pasapurés. Con batidora va en un minuto, pero luego hay que colarlo."
      },
      {
       "t": "Emulsiona con el aceite",
       "m": 3,
-      "x": "Con la batidora en marcha, añade aceite de oliva virgen extra en un hilo fino. El color se vuelve anaranjado y la textura, cremosa.",
+      "x": "Con la batidora en marcha, añade {aceite} en un hilo fino. El color se vuelve anaranjado y la textura, cremosa.",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#E9733F",
+       "vierte": "aceite"
+      },
       "ab": "El aceite al final y poco a poco es lo que hace que emulsione. Si lo echas de golpe, se separa."
      },
      {
       "t": "Cuela",
       "m": 5,
       "x": "Pásalo por un colador fino o un chino, apretando con el dorso de un cazo. Prueba de sal y de vinagre.",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#E9733F",
+       "colador": 1
+      },
       "ab": "Colado queda fino como la seda, sin pieles ni pepitas."
      }
     ]
    },
    {
     "n": "A la nevera",
-    "pasos": [
+    "tipo": "espera",
+    "p": [
      {
       "t": "Enfría",
       "m": 120,
       "x": "Guárdalo en la nevera al menos dos horas. Si queda muy espeso, aligéralo con un poco de agua fría.",
+      "f": "n",
+      "w": 1,
+      "e": {
+       "k": "nevera",
+       "v": "cuenco",
+       "c": "#E9733F",
+       "t": "2 h",
+       "rf": 0.17
+      },
       "ab": "Nunca con hielo: lo agua y le quita sabor. Bien frío de nevera."
      },
      {
       "t": "Sirve con tropezones",
       "m": 5,
-      "x": "Sírvelo muy frío en vaso o en cuenco, con daditos de pepino, pimiento y pan aparte para que cada uno se ponga.",
+      "x": "Sírvelo muy frío en vaso o en cuenco, con {tropezones} aparte para que cada uno se ponga.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "vaso",
+       "c": "#E9733F",
+       "guarn": [
+        [
+         "pepino",
+         3,
+         0.6
+        ],
+        [
+         "pimiento",
+         2,
+         0.6
+        ],
+        [
+         "picatoste",
+         4
+        ]
+       ]
+      },
       "ab": "En muchas casas andaluzas se toma en vaso, a cualquier hora del verano."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Tomate de verdad",
-    "texto": "Todo depende del tomate: muy maduro, de rama o pera. Con tomate de invierno no hay truco que lo salve."
-   },
-   {
-    "titulo": "Ajo con mesura",
-    "texto": "Un diente basta para un kilo. El ajo crudo crece con las horas en la nevera."
-   },
-   {
-    "titulo": "De un día para otro",
-    "texto": "Aguanta perfecto dos días en la nevera, y al segundo está más redondo."
    }
   ]
  },
  {
   "id": "lentejas",
-  "nombre": "Lentejas estofadas",
-  "subtitulo": "con chorizo, melosas como las de casa",
-  "region": "es",
+  "n": "Lentejas estofadas",
+  "sub": "con chorizo, melosas como las de casa",
+  "reg": "es",
   "lugar": "Toda España",
-  "categoria": "cuchara",
-  "dificultad": 1,
-  "raciones": 4,
-  "tiempo_min": 71,
-  "tags": [
-   "lenteja",
-   "chorizo",
-   "patata",
-   "zanahoria",
-   "pimiento",
-   "cebolla"
+  "cat": "cuchara",
+  "dif": 1,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "met": [
+   {
+    "id": "olla",
+    "n": "Olla normal",
+    "d": "45 min a fuego suave"
+   },
+   {
+    "id": "expres",
+    "n": "Olla exprés",
+    "d": "12 min con presión"
+   }
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cuenco",
+   "c": "#7A4A2E",
+   "i": [
+    [
+     "lenteja",
+     34
+    ],
+    [
+     "chorizo",
+     4
+    ],
+    [
+     "patata",
+     3
+    ],
+    [
+     "zanahoria",
+     3
+    ]
+   ],
+   "pan": 1
+  },
+  "regs": [
+   "es"
   ],
   "intro": "Todo a la olla en frío, un refrito de ajo y pimentón y el gesto que lo cambia todo: chafar un cazo de lentejas con la patata para que el caldo quede meloso.",
-  "ingredientes": [
-   "300 g de lentejas pardinas",
-   "1 chorizo para guisar",
-   "1 patata mediana",
-   "1 zanahoria",
-   "0.5 pimiento verde",
-   "0.5 cebolla",
-   "1 hoja de laurel",
-   "1.2 l de agua fría",
-   "a r de P",
-   "2 dientes de ajo",
-   "1 tomate maduro",
-   "1 cdta de pimentón dulce",
-   "3 cda de aceite de oliva virgen extra",
-   "sal",
-   "un chorrito de vinagre (opcional)"
+  "secretos": [
+   [
+    "Agua fría para empezar",
+    "Lentejas, alubias y fabes empiezan en agua fría; los garbanzos, en agua ya caliente. Así no se encallan."
+   ],
+   [
+    "Chafar en vez de espesar",
+    "Nada de harina: un cazo de lentejas y patata chafado devuelve el almidón al caldo y lo vuelve meloso."
+   ],
+   [
+    "El pimentón, fuera del fuego",
+    "Se quema en segundos y amarga. Siempre con la sartén apartada."
+   ]
+  ],
+  "ing": [
+   [
+    "lenteja",
+    "lentejas pardinas",
+    300,
+    "g"
+   ],
+   [
+    "chorizo",
+    "chorizo para guisar|chorizos para guisar",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "patata",
+    "patata mediana|patatas medianas",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "zanahoria",
+    "zanahoria|zanahorias",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "pimiento",
+    "pimiento verde|pimientos verdes",
+    0.5,
+    "ud",
+    0.5
+   ],
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    0.5,
+    "ud",
+    0.5
+   ],
+   [
+    "laurel",
+    "hoja de laurel|hojas de laurel",
+    1,
+    "ud"
+   ],
+   [
+    "agua",
+    "agua fría",
+    1.2,
+    "l"
+   ],
+   "#Para el refrito",
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    2,
+    "ud"
+   ],
+   [
+    "tomate",
+    "tomate maduro|tomates maduros",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "pimenton",
+    "pimentón dulce",
+    1,
+    "cdta"
+   ],
+   [
+    "aceite",
+    "aceite de oliva virgen extra",
+    3,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ],
+   [
+    "vinagre",
+    "un chorrito de vinagre (opcional)",
+    null
+   ]
   ],
   "fases": [
    {
     "n": "Preparar",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Repasa y lava las lentejas",
       "m": 5,
-      "x": "Extiende lentejas pardinas en un plato, quita alguna piedrecita y lávalas bajo el grifo. Las pardinas no necesitan remojo.",
+      "x": "Extiende {lenteja} en un plato, quita alguna piedrecita y lávalas bajo el grifo. Las pardinas no necesitan remojo.",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#BFDDF2",
+       "i": [
+        [
+         "lenteja",
+         40
+        ]
+       ]
+      },
       "ab": "Las repasa siempre sobre un plato blanco: todavía sale alguna piedra."
      },
      {
       "t": "Haz el refrito",
       "m": 8,
       "x": "En una sartén pequeña con aceite de oliva virgen extra, dora a fuego suave dientes de ajo laminados. Añade tomate maduro rallado y deja que se haga cinco minutos. Aparta del fuego y añade pimentón dulce.",
+      "tim": 5,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 2,
+       "c": "#C8402B",
+       "i": [
+        [
+         "ajo",
+         4,
+         0.8
+        ]
+       ],
+       "polvo": "#8E1B13"
+      },
       "ab": "El pimentón, siempre con el fuego apagado: en un segundo se quema y amarga todo el guiso."
      },
      {
       "t": "Todo a la olla, en frío",
       "m": 5,
-      "x": "Pon en la olla las lentejas con agua fría, zanahoria en rodajas, pimiento verde y cebolla en trozos grandes, hoja de laurel y chorizo para guisar en rodajas gruesas.",
+      "x": "Pon en la olla las lentejas con {agua}, {zanahoria} en rodajas, {pimiento} y {cebolla} en trozos grandes, {laurel} y {chorizo} en rodajas gruesas.",
+      "f": 0,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 0,
+       "c": "#9CC8EA",
+       "i": [
+        [
+         "lenteja",
+         26
+        ],
+        [
+         "zanahoria",
+         4
+        ],
+        [
+         "chorizo",
+         4
+        ],
+        [
+         "laurel",
+         1
+        ]
+       ],
+       "cae": [
+        "pimiento",
+        "cebolla"
+       ]
+      },
       "ab": "Las legumbres secas empiezan en agua fría, salvo los garbanzos: así se hidratan despacio y no se les suelta la piel."
      }
     ]
    },
    {
     "n": "Chup-chup",
-    "pasos": [
+    "tipo": "espera",
+    "p": [
      {
       "t": "Hierve y asústalas",
       "m": 15,
       "x": "Ponlo a fuego fuerte. Cuando rompa a hervir, échale un chorrito de agua fría, baja a fuego suave y deja que se hagan con la tapa entreabierta.",
+      "tim": 15,
+      "f": 2,
+      "solo": [
+       "olla"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#7A5235",
+       "i": [
+        [
+         "lenteja",
+         26
+        ],
+        [
+         "zanahoria",
+         4
+        ],
+        [
+         "chorizo",
+         4
+        ]
+       ],
+       "vierte": "agua"
+      },
       "ab": "Ese chorro de agua fría es «asustarlas»: corta el hervor de golpe y la piel se queda en su sitio."
      },
      {
       "t": "Patata chascada y refrito",
       "m": 3,
-      "x": "Añade patata mediana chascada en trozos y el refrito. Remueve con suavidad.",
+      "x": "Añade {patata} chascada en trozos y el refrito. Remueve con suavidad.",
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#8A4A2E",
+       "i": [
+        [
+         "lenteja",
+         22
+        ],
+        [
+         "chorizo",
+         4
+        ],
+        [
+         "zanahoria",
+         3
+        ]
+       ],
+       "cae": [
+        "patata",
+        "patata"
+       ]
+      },
       "ab": "Chascar es clavar el cuchillo y romper la patata en vez de cortarla del todo. El borde irregular suelta almidón y espesa el caldo."
      },
      {
       "t": "A fuego suave",
       "m": 20,
       "x": "Deja que sigan a fuego suave veinte minutos, hasta que la patata y las lentejas estén tiernas. Si se quedan cortas de caldo, añade agua caliente.",
+      "tim": 20,
+      "f": 2,
+      "w": 1,
+      "alt": {
+       "expres": {
+        "t": "Cierra la olla exprés",
+        "m": 25,
+        "tim": 12,
+        "f": 3,
+        "x": "Cierra la olla y ponla a fuego fuerte. Cuando suba la válvula, baja el fuego y cuenta doce minutos. Apaga y deja que baje la presión sola.",
+        "ab": "En olla exprés basta con que el agua cubra dos dedos por encima: casi no se evapora.",
+        "e": {
+         "k": "fuego",
+         "v": "olla",
+         "f": 3,
+         "tapa": 1,
+         "vapor": 1,
+         "reloj": "12 min",
+         "rf": 0.2
+        }
+       }
+      },
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#8A4A2E",
+       "i": [
+        [
+         "lenteja",
+         22
+        ],
+        [
+         "chorizo",
+         4
+        ],
+        [
+         "patata",
+         4
+        ],
+        [
+         "zanahoria",
+         3
+        ]
+       ],
+       "tapa": 2
+      },
       "ab": "Prueba una lenteja: tiene que estar mantecosa, sin punto duro. Y la sal al final, que el chorizo ya sala."
      }
     ]
    },
    {
     "n": "El toque final",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Chafa para que queden melosas",
       "m": 5,
       "x": "Saca un cazo de lentejas con la patata y las verduras, cháfalo con un tenedor o pásalo por la batidora y devuélvelo a la olla. Prueba de sal.",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#7A4A2E",
+       "i": [
+        [
+         "lenteja",
+         16
+        ],
+        [
+         "patata",
+         3
+        ],
+        [
+         "zanahoria",
+         2
+        ]
+       ],
+       "tenedor": 1
+      },
       "ab": "Es su gesto de siempre: el puré de patata y lenteja liga el caldo y lo deja meloso, sin harina ni nada más."
      },
      {
       "t": "Reposa y sirve",
       "m": 10,
-      "x": "Apaga el fuego y deja reposar diez minutos antes de servir. Si te gusta, un chorrito de vinagre (opcional) en el plato.",
+      "x": "Apaga el fuego y deja reposar diez minutos antes de servir. Si te gusta, {vinagre} en el plato.",
+      "f": 0,
+      "w": 1,
+      "e": {
+       "k": "plato",
+       "v": "cuenco",
+       "c": "#7A4A2E",
+       "i": [
+        [
+         "lenteja",
+         30
+        ],
+        [
+         "chorizo",
+         4
+        ],
+        [
+         "patata",
+         3
+        ],
+        [
+         "zanahoria",
+         3
+        ]
+       ],
+       "pan": 1,
+       "vapor": 1
+      },
       "ab": "Como todos los guisos de cuchara, al día siguiente están todavía mejor."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Agua fría para empezar",
-    "texto": "Lentejas, alubias y fabes empiezan en agua fría; los garbanzos, en agua ya caliente. Así no se encallan."
-   },
-   {
-    "titulo": "Chafar en vez de espesar",
-    "texto": "Nada de harina: un cazo de lentejas y patata chafado devuelve el almidón al caldo y lo vuelve meloso."
-   },
-   {
-    "titulo": "El pimentón, fuera del fuego",
-    "texto": "Se quema en segundos y amarga. Siempre con la sartén apartada."
    }
   ]
  },
  {
   "id": "marmitako",
-  "nombre": "Marmitako",
-  "subtitulo": "de bonito, como en los barcos",
-  "region": "pv",
+  "n": "Marmitako",
+  "sub": "de bonito, como en los barcos",
+  "reg": "pv",
   "lugar": "País Vasco",
-  "categoria": "mar",
-  "dificultad": 1,
-  "raciones": 4,
-  "tiempo_min": 75,
-  "tags": [
-   "bonito",
-   "patata",
-   "cebolla",
-   "pimiento",
-   "pimrojo",
-   "ajo"
+  "cat": "mar",
+  "dif": 1,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#C77A3E",
+   "i": [
+    [
+     "patata",
+     6
+    ],
+    [
+     "bonito",
+     6
+    ],
+    [
+     "pimiento",
+     2
+    ],
+    [
+     "perejil",
+     1,
+     0.8
+    ]
+   ]
+  },
+  "regs": [
+   "pv"
   ],
   "intro": "Guiso de pescadores del Cantábrico: patatas chascadas que espesan el caldo y el bonito al final, con el fuego apagado, para que quede jugoso.",
-  "ingredientes": [
-   "600 g de bonito del norte limpio, en tacos",
-   "1 kg de patatas",
-   "1 cebolla",
-   "1 pimiento verde",
-   "0.5 pimiento rojo",
-   "2 dientes de ajo",
-   "2 cda de carne de pimiento choricero",
-   "1 l de caldo de pescado (o agua)",
-   "4 cda de aceite de oliva",
-   "guindilla (opcional)",
-   "sal"
+  "secretos": [
+   [
+    "Bonito de temporada",
+    "El bonito del norte se pesca de junio a octubre. Fuera de temporada, vale un buen atún fresco o congelado."
+   ],
+   [
+    "Patata chascada",
+    "Cortada a cuchillo limpio no suelta almidón y el caldo queda aguado. Chascada, espesa sola."
+   ],
+   [
+    "Pimiento choricero",
+    "Es la carne de un pimiento seco. Se vende en tarro; si tienes los pimientos secos, remójalos y raspa la carne."
+   ]
+  ],
+  "ing": [
+   [
+    "bonito",
+    "bonito del norte limpio, en tacos",
+    600,
+    "g"
+   ],
+   [
+    "patata",
+    "patatas",
+    1,
+    "kg"
+   ],
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "pimiento",
+    "pimiento verde|pimientos verdes",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "pimrojo",
+    "pimiento rojo|pimientos rojos",
+    0.5,
+    "ud",
+    0.5
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    2,
+    "ud"
+   ],
+   [
+    "choricero",
+    "carne de pimiento choricero",
+    2,
+    "cda"
+   ],
+   [
+    "caldo",
+    "caldo de pescado (o agua)",
+    1,
+    "l"
+   ],
+   [
+    "aceite",
+    "aceite de oliva",
+    4,
+    "cda"
+   ],
+   [
+    "guindilla",
+    "guindilla (opcional)",
+    null
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ]
   ],
   "fases": [
    {
     "n": "El caldo",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Caldo con las espinas",
       "m": 20,
-      "x": "Si en la pescadería te dan la espina y la cabeza del bonito, cuécelas veinte minutos en agua con una cebolla y un puerro, y cuela. Si no, usa caldo de pescado (o agua) ya hecho o agua.",
+      "x": "Si en la pescadería te dan la espina y la cabeza del bonito, cuécelas veinte minutos en agua con una cebolla y un puerro, y cuela. Si no, usa {caldo} ya hecho o agua.",
+      "tim": 20,
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 3,
+       "c": "#E9D9A9",
+       "i": [
+        [
+         "cebolla",
+         3
+        ],
+        [
+         "puerro",
+         3
+        ]
+       ],
+       "espuma": 1
+      },
       "ab": "La espina nunca se queda en la pescadería: es el caldo gratis que da sabor al guiso."
      }
     ]
    },
    {
     "n": "Sofrito y patatas",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "El sofrito",
       "m": 15,
       "x": "En una cazuela con aceite de oliva, pocha a fuego suave cebolla, pimiento verde, pimiento rojo y dientes de ajo, todo picado.",
+      "tim": 15,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#D9A548",
+       "i": [
+        [
+         "cebolla",
+         6,
+         1,
+         "o-pochada"
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "pimiento",
+         2,
+         1,
+         "rojo"
+        ],
+        [
+         "ajo",
+         2
+        ]
+       ],
+       "cuchara": 1
+      },
       "ab": "Despacio y sin dorar: la cebolla tiene que quedar dulce y transparente."
      },
      {
       "t": "Choricero y patata chascada",
       "m": 5,
-      "x": "Añade carne de pimiento choricero, remueve y echa patatas chascada en trozos medianos. Rehoga dos minutos para que se impregne.",
+      "x": "Añade {choricero}, remueve y echa {patata} chascada en trozos medianos. Rehoga dos minutos para que se impregne.",
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#B5492C",
+       "i": [
+        [
+         "patata",
+         10
+        ],
+        [
+         "pimiento",
+         2
+        ]
+       ],
+       "cae": [
+        "patata",
+        "patata"
+       ]
+      },
       "ab": "Chascar es clavar el cuchillo y romper la patata en vez de cortarla del todo. Los bordes rotos sueltan almidón y espesan el caldo solos."
      },
      {
       "t": "Cubre y cuece",
       "m": 25,
       "x": "Cubre con el caldo caliente, sala con cuidado y deja cocer a fuego suave unos 25 minutos, hasta que la patata esté tierna.",
+      "tim": 25,
+      "f": 2,
+      "w": 1,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#C77A3E",
+       "i": [
+        [
+         "patata",
+         10
+        ]
+       ],
+       "tapa": 2
+      },
       "ab": "Sin remover mucho: menea la cazuela para que las patatas no se deshagan."
      }
     ]
    },
    {
     "n": "El bonito",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Bonito con el fuego apagado",
       "m": 5,
-      "x": "Apaga el fuego, añade bonito del norte limpio, en tacos salado y tapa. Déjalo cinco minutos: se hace con el calor del guiso.",
+      "x": "Apaga el fuego, añade {bonito} salado y tapa. Déjalo cinco minutos: se hace con el calor del guiso.",
+      "tim": 5,
+      "f": "a",
+      "w": 1,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 0,
+       "c": "#C77A3E",
+       "i": [
+        [
+         "patata",
+         8
+        ],
+        [
+         "bonito",
+         8
+        ]
+       ]
+      },
       "ab": "Es el truco de los barcos. Si el bonito hierve, se queda seco y como de lata; con el fuego apagado queda jugoso y rosado."
      },
      {
       "t": "Sirve",
       "m": 5,
-      "x": "Sírvelo enseguida, con un poco de perejil y guindilla (opcional) si te gusta el picante.",
+      "x": "Sírvelo enseguida, con un poco de perejil y {guindilla} si te gusta el picante.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#C77A3E",
+       "i": [
+        [
+         "patata",
+         6
+        ],
+        [
+         "bonito",
+         6
+        ],
+        [
+         "perejil",
+         1,
+         0.8
+        ]
+       ]
+      },
       "ab": "El marmitako se come el día que se hace: recalentado, el bonito se seca."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Bonito de temporada",
-    "texto": "El bonito del norte se pesca de junio a octubre. Fuera de temporada, vale un buen atún fresco o congelado."
-   },
-   {
-    "titulo": "Patata chascada",
-    "texto": "Cortada a cuchillo limpio no suelta almidón y el caldo queda aguado. Chascada, espesa sola."
-   },
-   {
-    "titulo": "Pimiento choricero",
-    "texto": "Es la carne de un pimiento seco. Se vende en tarro; si tienes los pimientos secos, remójalos y raspa la carne."
    }
   ]
  },
  {
   "id": "migas",
-  "nombre": "Migas extremeñas",
-  "subtitulo": "de pastor, con ajo, chorizo y panceta",
-  "region": "ext",
+  "n": "Migas extremeñas",
+  "sub": "de pastor, con ajo, chorizo y panceta",
+  "reg": "ext",
   "lugar": "Extremadura",
-  "categoria": "carne",
-  "dificultad": 2,
-  "raciones": 4,
-  "tiempo_min": 762,
-  "tags": [
-   "pan",
-   "agua",
-   "ajo",
-   "panceta",
-   "chorizo",
-   "pimenton"
+  "cat": "carne",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "sarten",
+   "c": "#D08A4A",
+   "i": [
+    [
+     "picatoste",
+     20
+    ],
+    [
+     "chorizo",
+     4
+    ],
+    [
+     "tocino",
+     2
+    ],
+    [
+     "uva",
+     2
+    ]
+   ]
+  },
+  "regs": [
+   "ext"
   ],
   "intro": "Plato de pastores para aprovechar el pan duro: se humedece la víspera y se le dan vueltas en la sartén, sin parar, hasta que queda suelto y dorado.",
-  "ingredientes": [
-   "500 g de pan de pueblo de dos o tres días",
-   "150 ml de agua con sal",
-   "1 cabeza de ajos",
-   "150 g de panceta",
-   "150 g de chorizo",
-   "1 cdta de pimentón dulce",
-   "150 ml de aceite de oliva",
-   "a r de P",
-   "uvas, melón o un huevo frito"
+  "secretos": [
+   [
+    "Pan de pueblo",
+    "Necesita miga prieta: pan de hogaza de dos o tres días. El de barra se deshace."
+   ],
+   [
+    "Humedad justa",
+    "Si al día siguiente el pan está muy mojado, déjalo destapado un rato antes de freírlo."
+   ],
+   [
+    "Cada casa, su compaña",
+    "En unas casas con uvas, en otras con melón, sardinas, pimientos fritos o un huevo frito."
+   ]
+  ],
+  "ing": [
+   [
+    "pan",
+    "pan de pueblo de dos o tres días",
+    500,
+    "g"
+   ],
+   [
+    "agua",
+    "agua con sal",
+    150,
+    "ml"
+   ],
+   [
+    "ajo",
+    "cabeza de ajos|cabezas de ajos",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "panceta",
+    "panceta",
+    150,
+    "g"
+   ],
+   [
+    "chorizo",
+    "chorizo",
+    150,
+    "g"
+   ],
+   [
+    "pimenton",
+    "pimentón dulce",
+    1,
+    "cdta"
+   ],
+   [
+    "aceite",
+    "aceite de oliva",
+    150,
+    "ml"
+   ],
+   "#Para acompañar",
+   [
+    "uvas",
+    "uvas, melón o un huevo frito",
+    null
+   ]
   ],
   "fases": [
    {
     "n": "La víspera",
-    "pasos": [
+    "tipo": "previo",
+    "p": [
      {
       "t": "Humedece el pan",
       "m": 720,
-      "x": "Corta pan de pueblo de dos o tres días en láminas finas o en daditos, rocíalo con agua con sal y tápalo con un paño húmedo toda la noche.",
+      "x": "Corta {pan} en láminas finas o en daditos, rocíalo con {agua} y tápalo con un paño húmedo toda la noche.",
+      "f": 0,
+      "pre": 1,
+      "e": {
+       "k": "plato",
+       "v": "fuente",
+       "i": [
+        [
+         "picatoste",
+         26
+        ]
+       ]
+      },
       "ab": "El pan tiene que quedar húmedo, no mojado. Si se empapa, las migas salen apelmazadas."
      }
     ]
    },
    {
     "n": "En la sartén",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Fríe los ajos y la carne",
       "m": 12,
-      "x": "En una sartén grande y honda con aceite de oliva, fríe los dientes de cabeza de ajos enteros, chafados y con piel. Añade panceta y chorizo en trozos y fríelos. Sácalo todo y resérvalo.",
+      "x": "En una sartén grande y honda con {aceite}, fríe los dientes de {ajo} enteros, chafados y con piel. Añade {panceta} y {chorizo} en trozos y fríelos. Sácalo todo y resérvalo.",
+      "tim": 10,
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 3,
+       "c": "#E3BC4A",
+       "i": [
+        [
+         "ajo",
+         5
+        ],
+        [
+         "chorizo",
+         5
+        ],
+        [
+         "tocino",
+         3
+        ]
+       ],
+       "chisp": 1
+      },
       "ab": "El ajo con su piel, chafado de un golpe con la palma: así no se quema y perfuma el aceite."
      },
      {
       "t": "Las migas, sin parar",
       "m": 25,
       "x": "Echa el pan en ese aceite y ve dándole vueltas sin parar con una paleta, cortándolo y removiendo, unos 20 o 30 minutos, hasta que esté suelto y dorado.",
+      "tim": 25,
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 3,
+       "c": "#D9B26F",
+       "i": [
+        [
+         "picatoste",
+         22
+        ]
+       ],
+       "cuchara": 1,
+       "agita": 1
+      },
       "ab": "Las migas se hacen «a brazo»: no deja de moverlas y cortarlas con la rasera. Si paras, se pegan."
      },
      {
       "t": "Pimentón y carne",
       "m": 3,
-      "x": "Aparta del fuego, añade pimentón dulce, mezcla y vuelve a poner los ajos, la panceta y el chorizo.",
+      "x": "Aparta del fuego, añade {pimenton}, mezcla y vuelve a poner los ajos, la panceta y el chorizo.",
+      "f": "a",
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 0,
+       "c": "#D08A4A",
+       "i": [
+        [
+         "picatoste",
+         18
+        ],
+        [
+         "chorizo",
+         4
+        ],
+        [
+         "tocino",
+         2
+        ],
+        [
+         "ajo",
+         3
+        ]
+       ],
+       "polvo": "#8E1B13"
+      },
       "ab": "El pimentón fuera del fuego: con el calor de las migas es suficiente."
      },
      {
       "t": "Sirve",
       "m": 2,
-      "x": "Sírvelas calientes con uvas, melón o un huevo frito.",
+      "x": "Sírvelas calientes con {uvas}.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "sarten",
+       "c": "#D08A4A",
+       "i": [
+        [
+         "picatoste",
+         20
+        ],
+        [
+         "chorizo",
+         4
+        ],
+        [
+         "tocino",
+         2
+        ],
+        [
+         "uva",
+         2
+        ]
+       ]
+      },
       "ab": "Uvas o melón: el contraste dulce y fresco con el pan frito es parte del plato."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Pan de pueblo",
-    "texto": "Necesita miga prieta: pan de hogaza de dos o tres días. El de barra se deshace."
-   },
-   {
-    "titulo": "Humedad justa",
-    "texto": "Si al día siguiente el pan está muy mojado, déjalo destapado un rato antes de freírlo."
-   },
-   {
-    "titulo": "Cada casa, su compaña",
-    "texto": "En unas casas con uvas, en otras con melón, sardinas, pimientos fritos o un huevo frito."
    }
   ]
  },
  {
   "id": "paella",
-  "nombre": "Paella valenciana",
-  "subtitulo": "de pollo y conejo, con socarrat",
-  "region": "val",
+  "n": "Paella valenciana",
+  "sub": "de pollo y conejo, con socarrat",
+  "reg": "val",
   "lugar": "Comunitat Valenciana",
-  "categoria": "arroz",
-  "dificultad": 3,
-  "raciones": 4,
-  "tiempo_min": 93,
-  "tags": [
-   "arroz",
-   "pollo",
-   "conejo",
-   "judia",
-   "garrofo",
-   "tomate"
+  "cat": "arroz",
+  "dif": 3,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "paellera",
+   "c": "#E5B54C",
+   "i": [
+    [
+     "arroz",
+     46
+    ],
+    [
+     "pollo",
+     5,
+     1,
+     "p-dorado"
+    ],
+    [
+     "judia",
+     5
+    ],
+    [
+     "garrofo",
+     5
+    ],
+    [
+     "limon",
+     2
+    ],
+    [
+     "romero",
+     1
+    ]
+   ]
+  },
+  "regs": [
+   "val"
   ],
   "intro": "La tradicional: pollo, conejo, ferraura, garrofó, tomate, azafrán y arroz. Ni guisantes ni chorizo. Y una vez echado el arroz, no se toca.",
-  "ingredientes": [
-   "400 g de arroz bomba o senia",
-   "600 g de pollo troceado",
-   "400 g de conejo troceado",
-   "200 g de judía verde plana (ferraura)",
-   "150 g de garrofó",
-   "1 tomate maduro",
-   "1 cdta de pimentón dulce",
-   "unas hebras de azafrán",
-   "1 ramita de romero",
-   "100 ml de aceite de oliva",
-   "1.6 l de agua",
-   "sal"
+  "secretos": [
+   [
+    "Ni guisantes ni chorizo",
+    "La tradicional lleva aceite, pollo, conejo, ferraura, garrofó, tomate, agua, sal, azafrán y arroz. En invierno se le añade alcachofa y en algunas comarcas, caracoles."
+   ],
+   [
+    "Capa fina de arroz",
+    "El arroz tiene que quedar en una capa fina, de un dedo como mucho. Para cuatro, una paella de unos 40 o 45 cm."
+   ],
+   [
+    "Se come de la paella",
+    "La paella va al centro de la mesa y cada uno come de su triángulo, con cuchara de madera."
+   ]
+  ],
+  "ing": [
+   [
+    "arroz",
+    "arroz bomba o senia",
+    400,
+    "g"
+   ],
+   [
+    "pollo",
+    "pollo troceado",
+    600,
+    "g"
+   ],
+   [
+    "conejo",
+    "conejo troceado",
+    400,
+    "g"
+   ],
+   [
+    "judia",
+    "judía verde plana (ferraura)",
+    200,
+    "g"
+   ],
+   [
+    "garrofo",
+    "garrofó",
+    150,
+    "g"
+   ],
+   [
+    "tomate",
+    "tomate maduro|tomates maduros",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "pimenton",
+    "pimentón dulce",
+    1,
+    "cdta"
+   ],
+   [
+    "azafran",
+    "unas hebras de azafrán",
+    null
+   ],
+   [
+    "romero",
+    "ramita de romero|ramitas de romero",
+    1,
+    "ud"
+   ],
+   [
+    "aceite",
+    "aceite de oliva",
+    100,
+    "ml"
+   ],
+   [
+    "agua",
+    "agua",
+    1.6,
+    "l"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ]
   ],
   "fases": [
    {
     "n": "El sofrito",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Nivela la paella",
       "m": 5,
-      "x": "Pon la paella sobre el fuego, bien nivelada, con aceite de oliva y un poco de sal. El aceite tiene que quedar en el centro, sin irse hacia un lado.",
+      "x": "Pon la paella sobre el fuego, bien nivelada, con {aceite} y un poco de sal. El aceite tiene que quedar en el centro, sin irse hacia un lado.",
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "paellera",
+       "f": 3,
+       "c": "#E3BC4A",
+       "chisp": 1
+      },
       "ab": "Una paella torcida hace un arroz con un lado pasado y otro crudo. El aceite hace de nivel de burbuja."
      },
      {
       "t": "Dora la carne",
       "m": 20,
-      "x": "Echa pollo troceado y conejo troceado salados y dóralos a fuego medio, dándoles la vuelta, hasta que estén bien tostados.",
+      "x": "Echa {pollo} y {conejo} salados y dóralos a fuego medio, dándoles la vuelta, hasta que estén bien tostados.",
+      "tim": 20,
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "paellera",
+       "f": 3,
+       "c": "#D9A54A",
+       "i": [
+        [
+         "pollo",
+         7,
+         1,
+         "p-dorado"
+        ]
+       ],
+       "chisp": 1
+      },
       "ab": "Sin prisa: esta carne bien dorada es la base del sabor del caldo. Dorada, no quemada."
      },
      {
       "t": "La verdura",
       "m": 5,
-      "x": "Aparta la carne a los lados y rehoga en el centro judía verde plana (ferraura) troceada y garrofó unos minutos."
+      "x": "Aparta la carne a los lados y rehoga en el centro {judia} troceada y {garrofo} unos minutos.",
+      "tim": 5,
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "paellera",
+       "f": 3,
+       "c": "#D9A54A",
+       "i": [
+        [
+         "pollo",
+         5,
+         1,
+         "p-dorado"
+        ],
+        [
+         "judia",
+         6
+        ],
+        [
+         "garrofo",
+         6
+        ]
+       ]
+      }
      },
      {
       "t": "Tomate y pimentón",
       "m": 6,
-      "x": "Haz un hueco en el centro, echa tomate maduro rallado y sofríe cinco minutos. Añade pimentón dulce, remueve unos segundos y echa el agua enseguida.",
+      "x": "Haz un hueco en el centro, echa {tomate} rallado y sofríe cinco minutos. Añade {pimenton}, remueve unos segundos y echa el agua enseguida.",
+      "tim": 5,
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "paellera",
+       "f": 3,
+       "c": "#C8452E",
+       "i": [
+        [
+         "pollo",
+         5,
+         1,
+         "p-dorado"
+        ],
+        [
+         "judia",
+         5
+        ],
+        [
+         "garrofo",
+         5
+        ]
+       ],
+       "polvo": "#8E1B13"
+      },
       "ab": "El pimentón se quema en un suspiro y amarga. En cuanto lo eches, el agua detrás."
      }
     ]
    },
    {
     "n": "El caldo",
-    "pasos": [
+    "tipo": "espera",
+    "p": [
      {
       "t": "Haz el caldo en la paella",
       "m": 30,
-      "x": "Vierte agua y añade unas hebras de azafrán. Deja que hierva unos 30 minutos, hasta que el agua baje a la altura de los remaches de las asas. Prueba: tiene que quedar un punto salado.",
+      "x": "Vierte {agua} y añade {azafran}. Deja que hierva unos 30 minutos, hasta que el agua baje a la altura de los remaches de las asas. Prueba: tiene que quedar un punto salado.",
+      "tim": 30,
+      "f": 4,
+      "w": 1,
+      "e": {
+       "k": "fuego",
+       "v": "paellera",
+       "f": 4,
+       "c": "#E2B04A",
+       "i": [
+        [
+         "pollo",
+         5,
+         1,
+         "p-dorado"
+        ],
+        [
+         "judia",
+         5
+        ],
+        [
+         "garrofo",
+         5
+        ]
+       ],
+       "burbujas": 1,
+       "vierte": "agua"
+      },
       "ab": "Es el momento de probar la sal, porque luego ya no se puede corregir."
      }
     ]
    },
    {
     "n": "El arroz",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Reparte el arroz",
       "m": 2,
-      "x": "Echa arroz bomba o senia en forma de lluvia, repartido por toda la paella, y extiéndelo con la espumadera de una vez. A partir de aquí, no se remueve.",
+      "x": "Echa {arroz} en forma de lluvia, repartido por toda la paella, y extiéndelo con la espumadera de una vez. A partir de aquí, no se remueve.",
+      "f": 5,
+      "e": {
+       "k": "fuego",
+       "v": "paellera",
+       "f": 5,
+       "c": "#E2B04A",
+       "i": [
+        [
+         "pollo",
+         4,
+         1,
+         "p-dorado"
+        ],
+        [
+         "judia",
+         4
+        ],
+        [
+         "garrofo",
+         4
+        ],
+        [
+         "arroz",
+         40
+        ]
+       ]
+      },
       "ab": "El arroz de una paella nunca se remueve: si lo mueves suelta almidón y queda pastoso."
      },
      {
       "t": "Fuerte y luego suave",
       "m": 18,
-      "x": "Diez minutos a fuego fuerte y unos ocho más a fuego suave, hasta que el grano esté hecho y el caldo, consumido. Pon ramita de romero encima en los últimos minutos.",
+      "x": "Diez minutos a fuego fuerte y unos ocho más a fuego suave, hasta que el grano esté hecho y el caldo, consumido. Pon {romero} encima en los últimos minutos.",
+      "tim": 18,
+      "f": 4,
+      "w": 1,
+      "e": {
+       "k": "fuego",
+       "v": "paellera",
+       "f": 4,
+       "c": "#E5B54C",
+       "i": [
+        [
+         "arroz",
+         50
+        ],
+        [
+         "pollo",
+         4,
+         1,
+         "p-dorado"
+        ],
+        [
+         "judia",
+         4
+        ],
+        [
+         "garrofo",
+         4
+        ],
+        [
+         "romero",
+         1
+        ]
+       ]
+      },
       "ab": "Si el fuego no llega igual a toda la paella, gírala de vez en cuando, sin tocar el arroz."
      },
      {
       "t": "Socarrat y reposo",
       "m": 7,
       "x": "Sube el fuego un minuto o dos y escucha: cuando el arroz crepite como papel, apaga. Retira el romero, tapa con un paño limpio y deja reposar cinco minutos.",
+      "tim": 5,
+      "f": 5,
+      "e": {
+       "k": "plato",
+       "v": "paellera",
+       "c": "#E5B54C",
+       "i": [
+        [
+         "arroz",
+         46
+        ],
+        [
+         "pollo",
+         5,
+         1,
+         "p-dorado"
+        ],
+        [
+         "judia",
+         5
+        ],
+        [
+         "garrofo",
+         5
+        ],
+        [
+         "limon",
+         2
+        ]
+       ],
+       "cuchara": 1
+      },
       "ab": "El socarrat se oye antes de olerse. Si huele a quemado, ya te has pasado."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Ni guisantes ni chorizo",
-    "texto": "La tradicional lleva aceite, pollo, conejo, ferraura, garrofó, tomate, agua, sal, azafrán y arroz. En invierno se le añade alcachofa y en algunas comarcas, caracoles."
-   },
-   {
-    "titulo": "Capa fina de arroz",
-    "texto": "El arroz tiene que quedar en una capa fina, de un dedo como mucho. Para cuatro, una paella de unos 40 o 45 cm."
-   },
-   {
-    "titulo": "Se come de la paella",
-    "texto": "La paella va al centro de la mesa y cada uno come de su triángulo, con cuchara de madera."
    }
   ]
  },
  {
   "id": "papas",
-  "nombre": "Papas arrugadas",
-  "subtitulo": "con mojo picón y mojo verde",
-  "region": "cnr",
+  "n": "Papas arrugadas",
+  "sub": "con mojo picón y mojo verde",
+  "reg": "cnr",
   "lugar": "Canarias",
-  "categoria": "picar",
-  "dificultad": 1,
-  "raciones": 4,
-  "tiempo_min": 55,
-  "tags": [
-   "papa",
-   "salg",
-   "#",
-   "ajo",
-   "guindilla",
-   "comino"
+  "cat": "picar",
+  "dif": 1,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "i": [
+    [
+     "papa",
+     10
+    ]
+   ],
+   "mojos": 1
+  },
+  "regs": [
+   "cnr"
   ],
   "intro": "Papas pequeñas cocidas en agua muy salada hasta que la piel se arruga y blanquea. Los mojos, en el mortero, como en las casas canarias.",
-  "ingredientes": [
-   "1 kg de papas pequeñas (mejor papa negra o bonita)",
-   "150 g de sal gorda",
-   "o j de M",
-   "4 dientes de ajo",
-   "2 pimientas palmeras o guindillas secas",
-   "1 cdta de comino en grano",
-   "1 cdta de pimentón dulce",
-   "100 ml de aceite de oliva",
-   "2 cda de vinagre de vino",
-   "o j de M",
-   "1 manojo de cilantro",
-   "1 pimiento verde",
-   "2 dientes de ajo",
-   "80 ml de aceite de oliva",
-   "1 cda de vinagre de vino"
+  "secretos": [
+   [
+    "La papa",
+    "Las papas canarias (negra, bonita, borralla) son pequeñas y de piel fina. Con patatas nuevas pequeñas también salen."
+   ],
+   [
+    "Mojo de un día para otro",
+    "Los mojos ganan reposando unas horas. En la nevera aguantan varios días."
+   ],
+   [
+    "El agua justa",
+    "Si pones mucha agua no se arrugan: tiene que evaporarse casi del todo en la olla."
+   ]
+  ],
+  "ing": [
+   [
+    "papa",
+    "papas pequeñas (mejor papa negra o bonita)",
+    1,
+    "kg"
+   ],
+   [
+    "salg",
+    "sal gorda",
+    150,
+    "g"
+   ],
+   "#Mojo picón",
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    4,
+    "ud"
+   ],
+   [
+    "guindilla",
+    "pimienta palmera o guindilla seca|pimientas palmeras o guindillas secas",
+    2,
+    "ud"
+   ],
+   [
+    "comino",
+    "comino en grano",
+    1,
+    "cdta"
+   ],
+   [
+    "pimenton",
+    "pimentón dulce",
+    1,
+    "cdta"
+   ],
+   [
+    "aceite",
+    "aceite de oliva",
+    100,
+    "ml"
+   ],
+   [
+    "vinagre",
+    "vinagre de vino",
+    2,
+    "cda"
+   ],
+   "#Mojo verde",
+   [
+    "cilantro",
+    "manojo de cilantro|manojos de cilantro",
+    1,
+    "ud"
+   ],
+   [
+    "pimiento",
+    "pimiento verde|pimientos verdes",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "ajov",
+    "diente de ajo|dientes de ajo",
+    2,
+    "ud"
+   ],
+   [
+    "aceitev",
+    "aceite de oliva",
+    80,
+    "ml"
+   ],
+   [
+    "vinagrev",
+    "vinagre de vino",
+    1,
+    "cda"
+   ]
   ],
   "fases": [
    {
     "n": "Las papas",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Cuece con mucha sal",
       "m": 25,
-      "x": "Lava bien papas pequeñas (mejor papa negra o bonita) sin pelar y ponlas en una olla con agua que apenas las cubra y sal gorda. Cuécelas unos 20 o 25 minutos, hasta que se pinchen con facilidad.",
+      "x": "Lava bien {papa} sin pelar y ponlas en una olla con agua que apenas las cubra y {salg}. Cuécelas unos 20 o 25 minutos, hasta que se pinchen con facilidad.",
+      "tim": 25,
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 3,
+       "c": "#BFDDF2",
+       "i": [
+        [
+         "papa",
+         10
+        ]
+       ],
+       "burbujas": 1
+      },
       "ab": "Poca agua y mucha sal, «como agua de mar». Por eso luego se cubren de sal blanca."
      },
      {
       "t": "Arrúgalas",
       "m": 8,
       "x": "Escurre casi toda el agua y vuelve a poner la olla a fuego mínimo, meneándola, hasta que el agua se evapore y la piel se arrugue y se cubra de sal.",
+      "tim": 6,
+      "f": 1,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#D8D4C8",
+       "i": [
+        [
+         "papa",
+         12
+        ]
+       ],
+       "agita": 1
+      },
       "ab": "En muchas casas tapan la olla con un paño limpio en este punto, para que suden y se arruguen mejor."
      }
     ]
    },
    {
     "n": "Los mojos",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Mojo picón",
       "m": 10,
-      "x": "En el mortero, maja dientes de ajo con pimientas palmeras o guindillas secas sin semillas, comino en grano y una pizca de sal gorda. Añade pimentón dulce y ve incorporando aceite de oliva y vinagre de vino poco a poco.",
+      "x": "En el mortero, maja {ajo} con {guindilla} sin semillas, {comino} y una pizca de sal gorda. Añade {pimenton} y ve incorporando {aceite} y {vinagre} poco a poco.",
+      "f": 0,
+      "e": {
+       "k": "mortero",
+       "c": "#B83A22",
+       "i": [
+        [
+         "ajo",
+         3
+        ],
+        [
+         "guindilla",
+         2
+        ]
+       ],
+       "fuera": [
+        [
+         "guindilla",
+         2
+        ]
+       ],
+       "vierte": "aceite"
+      },
       "ab": "En el mortero, no en batidora: la textura rústica es la gracia. El aceite, en hilo, para que ligue."
      },
      {
       "t": "Mojo verde",
       "m": 10,
       "x": "Maja dientes de ajo con sal, añade manojo de cilantro y pimiento verde picados y machácalos bien. Liga con aceite de oliva y vinagre de vino.",
+      "f": 0,
+      "e": {
+       "k": "mortero",
+       "c": "#5E8C2E",
+       "i": [
+        [
+         "perejil",
+         3
+        ],
+        [
+         "pimiento",
+         2
+        ]
+       ],
+       "fuera": [
+        [
+         "perejil",
+         1
+        ]
+       ]
+      },
       "ab": "Hay casas de mojo verde con cilantro y casas con perejil. Las dos son de verdad."
      },
      {
       "t": "Sirve",
       "m": 2,
       "x": "Sirve las papas enteras, con su piel, y los mojos en cuencos para mojar.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "i": [
+        [
+         "papa",
+         10
+        ]
+       ],
+       "mojos": 1
+      },
       "ab": "Se comen con piel. La sal se queda en ella y no pasa al interior."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "La papa",
-    "texto": "Las papas canarias (negra, bonita, borralla) son pequeñas y de piel fina. Con patatas nuevas pequeñas también salen."
-   },
-   {
-    "titulo": "Mojo de un día para otro",
-    "texto": "Los mojos ganan reposando unas horas. En la nevera aguantan varios días."
-   },
-   {
-    "titulo": "El agua justa",
-    "texto": "Si pones mucha agua no se arrugan: tiene que evaporarse casi del todo en la olla."
    }
   ]
  },
  {
   "id": "pisto",
-  "nombre": "Pisto manchego",
-  "subtitulo": "verdura confitada, con huevo frito",
-  "region": "clm",
+  "n": "Pisto manchego",
+  "sub": "verdura confitada, con huevo frito",
+  "reg": "clm",
   "lugar": "Castilla-La Mancha",
-  "categoria": "huerta",
-  "dificultad": 1,
-  "raciones": 4,
-  "tiempo_min": 110,
-  "tags": [
-   "cebolla",
-   "pimiento",
-   "pimrojo",
-   "calabacin",
-   "tomate",
-   "aceite"
+  "cat": "huerta",
+  "dif": 1,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#B8432C",
+   "i": [
+    [
+     "huevofrito",
+     1
+    ],
+    [
+     "calabacin",
+     3
+    ],
+    [
+     "pimiento",
+     2,
+     1,
+     "rojo"
+    ],
+    [
+     "pimiento",
+     2
+    ]
+   ],
+   "pan": 1
+  },
+  "regs": [
+   "clm"
   ],
   "intro": "Cada verdura entra cuando la anterior se ha ablandado, y todo a fuego lento hasta que el tomate lo confita. Se remata con un huevo frito encima.",
-  "ingredientes": [
-   "2 cebollas",
-   "2 pimientos verdes",
-   "1 pimiento rojo",
-   "2 calabacines",
-   "1 kg de tomates maduros",
-   "6 cda de aceite de oliva virgen extra",
-   "una pizca de azúcar, si el tomate está ácido",
-   "sal",
-   "4 huevos"
+  "secretos": [
+   [
+    "Sin prisa",
+    "Un buen pisto lleva más de una hora. Con fuego fuerte se fríe en vez de confitarse."
+   ],
+   [
+    "Mejor al día siguiente",
+    "Reposado gana sabor. Aguanta varios días en la nevera y se congela bien."
+   ],
+   [
+    "Para todo",
+    "Además de con huevo, sirve para rellenar empanadillas, con bacalao o como guarnición."
+   ]
+  ],
+  "ing": [
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "pimiento",
+    "pimiento verde|pimientos verdes",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "pimrojo",
+    "pimiento rojo|pimientos rojos",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "calabacin",
+    "calabacín|calabacines",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "tomate",
+    "tomates maduros",
+    1,
+    "kg"
+   ],
+   [
+    "aceite",
+    "aceite de oliva virgen extra",
+    6,
+    "cda"
+   ],
+   [
+    "azucar",
+    "una pizca de azúcar, si el tomate está ácido",
+    null
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ],
+   [
+    "huevo",
+    "huevo|huevos",
+    4,
+    "ud"
+   ]
   ],
   "fases": [
    {
     "n": "Preparar",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Pica la verdura",
       "m": 15,
       "x": "Pica cebollas, pimientos verdes, pimiento rojo y calabacines en daditos del mismo tamaño.",
+      "f": 0,
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "cebolla",
+         4
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "pimiento",
+         3,
+         1,
+         "rojo"
+        ],
+        [
+         "calabacin",
+         4
+        ]
+       ]
+      },
       "ab": "Del mismo tamaño para que se hagan a la vez. Ella lo pica todo a cuchillo, sin prisa."
      },
      {
       "t": "Pela el tomate",
       "m": 10,
-      "x": "Haz un corte en cruz en la base de tomates maduros, escáldalos treinta segundos en agua hirviendo, pélalos y trocéalos.",
+      "x": "Haz un corte en cruz en la base de {tomate}, escáldalos treinta segundos en agua hirviendo, pélalos y trocéalos.",
+      "f": 4,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 4,
+       "c": "#9CC8EA",
+       "i": [
+        [
+         "tomate",
+         5
+        ]
+       ],
+       "burbujas": 1
+      },
       "ab": "Con la piel, el pisto queda con hebras duras. Escaldado, la piel sale sola."
      }
     ]
    },
    {
     "n": "La verdura, por turnos",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Cebolla y pimientos",
       "m": 25,
-      "x": "Pocha la cebolla en aceite de oliva virgen extra a fuego suave diez minutos. Añade los pimientos y deja otros quince, hasta que estén blandos.",
+      "x": "Pocha la cebolla en {aceite} a fuego suave diez minutos. Añade los pimientos y deja otros quince, hasta que estén blandos.",
+      "tim": 25,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#D9A548",
+       "i": [
+        [
+         "cebolla",
+         6,
+         1,
+         "o-pochada"
+        ],
+        [
+         "pimiento",
+         4
+        ],
+        [
+         "pimiento",
+         3,
+         1,
+         "rojo"
+        ]
+       ],
+       "cuchara": 1
+      },
       "ab": "Fuego suave y tapado al principio: las verduras sudan y se ablandan sin dorarse."
      },
      {
       "t": "El calabacín",
       "m": 15,
-      "x": "Añade el calabacín con una pizca de sal y cocina quince minutos más."
+      "x": "Añade el calabacín con una pizca de sal y cocina quince minutos más.",
+      "tim": 15,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#C9A24A",
+       "i": [
+        [
+         "calabacin",
+         7
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "pimiento",
+         2,
+         1,
+         "rojo"
+        ]
+       ],
+       "cae": [
+        "calabacin",
+        "calabacin"
+       ]
+      }
      }
     ]
    },
    {
     "n": "Confitar",
-    "pasos": [
+    "tipo": "espera",
+    "p": [
      {
       "t": "El tomate, despacio",
       "m": 40,
-      "x": "Incorpora el tomate y deja que se haga a fuego mínimo unos 40 minutos, removiendo de vez en cuando, hasta que no quede caldo. Prueba y, si está ácido, añade una pizca de azúcar, si el tomate está ácido.",
+      "x": "Incorpora el tomate y deja que se haga a fuego mínimo unos 40 minutos, removiendo de vez en cuando, hasta que no quede caldo. Prueba y, si está ácido, añade {azucar}.",
+      "tim": 40,
+      "f": 1,
+      "w": 1,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#B8432C",
+       "i": [
+        [
+         "calabacin",
+         5
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "pimiento",
+         2,
+         1,
+         "rojo"
+        ]
+       ],
+       "cuchara": 1
+      },
       "ab": "Está hecho cuando, al pasar la cuchara por el fondo, el camino no se llena de líquido."
      },
      {
       "t": "Con huevo frito",
       "m": 5,
-      "x": "Fríe huevos y sírvelos encima del pisto, con la yema para romper.",
+      "x": "Fríe {huevo} y sírvelos encima del pisto, con la yema para romper.",
+      "tim": 3,
+      "f": 4,
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#B8432C",
+       "i": [
+        [
+         "huevofrito",
+         1
+        ],
+        [
+         "calabacin",
+         3
+        ],
+        [
+         "pimiento",
+         2,
+         1,
+         "rojo"
+        ]
+       ],
+       "pan": 1
+      },
       "ab": "En La Mancha, con pan para mojar la yema y el pisto a la vez."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Sin prisa",
-    "texto": "Un buen pisto lleva más de una hora. Con fuego fuerte se fríe en vez de confitarse."
-   },
-   {
-    "titulo": "Mejor al día siguiente",
-    "texto": "Reposado gana sabor. Aguanta varios días en la nevera y se congela bien."
-   },
-   {
-    "titulo": "Para todo",
-    "texto": "Además de con huevo, sirve para rellenar empanadillas, con bacalao o como guarnición."
    }
   ]
  },
  {
   "id": "pulpo",
-  "nombre": "Pulpo á feira",
-  "subtitulo": "con cachelos, pimentón y aceite",
-  "region": "gal",
+  "n": "Pulpo á feira",
+  "sub": "con cachelos, pimentón y aceite",
+  "reg": "gal",
   "lugar": "Galicia",
-  "categoria": "mar",
-  "dificultad": 2,
-  "raciones": 4,
-  "tiempo_min": 1527,
-  "tags": [
-   "pulpo",
-   "patata",
-   "salg",
-   "pimenton",
-   "pimentonp",
-   "aceite"
+  "cat": "mar",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "madera",
+   "i": [
+    [
+     "pulpo",
+     14
+    ],
+    [
+     "patata",
+     4
+    ]
+   ],
+   "polvo": "#B3261E"
+  },
+  "regs": [
+   "gal"
   ],
   "intro": "Como en las ferias gallegas: el pulpo asustado tres veces, cortado con tijera sobre plato de madera, sal gorda, pimentón y buen aceite. Y los cachelos, cocidos en su agua.",
-  "ingredientes": [
-   "2 kg de pulpo (mejor congelado)",
-   "4 patatas medianas para cachelos",
-   "sal gorda",
-   "1 cda de pimentón dulce",
-   "1 cdta de pimentón picante",
-   "80 ml de aceite de oliva virgen extra"
+  "secretos": [
+   [
+    "El tamaño",
+    "Un pulpo de 2 a 3 kg es lo ideal. Los muy pequeños quedan duros y los muy grandes, fibrosos."
+   ],
+   [
+    "Sin sal en el agua",
+    "La sal se pone al final, gorda y por encima. En el agua, el pulpo ya suelta la suya."
+   ],
+   [
+    "Con vino del Ribeiro",
+    "En las ferias se toma con vino del Ribeiro en cunca, la taza de barro."
+   ]
+  ],
+  "ing": [
+   [
+    "pulpo",
+    "pulpo (mejor congelado)",
+    2,
+    "kg"
+   ],
+   [
+    "patata",
+    "patata mediana para cachelos|patatas medianas para cachelos",
+    4,
+    "ud",
+    0.5
+   ],
+   [
+    "salg",
+    "sal gorda",
+    null
+   ],
+   [
+    "pimenton",
+    "pimentón dulce",
+    1,
+    "cda"
+   ],
+   [
+    "pimentonp",
+    "pimentón picante",
+    1,
+    "cdta"
+   ],
+   [
+    "aceite",
+    "aceite de oliva virgen extra",
+    80,
+    "ml"
+   ]
   ],
   "fases": [
    {
     "n": "Antes de empezar",
-    "pasos": [
+    "tipo": "previo",
+    "p": [
      {
       "t": "Descongela en la nevera",
       "m": 1440,
-      "x": "Pasa pulpo (mejor congelado) a la nevera 24 horas antes para que se descongele despacio. Si lo compras fresco, congélalo unos días antes.",
+      "x": "Pasa {pulpo} a la nevera 24 horas antes para que se descongele despacio. Si lo compras fresco, congélalo unos días antes.",
+      "f": "n",
+      "pre": 1,
+      "e": {
+       "k": "nevera",
+       "v": "fuente",
+       "i": [
+        [
+         "pulpo",
+         6
+        ]
+       ],
+       "t": "24 h",
+       "luna": 1
+      },
       "ab": "Congelarlo lo ablanda. Antes las pulpeiras lo «mazaban»: lo golpeaban contra una piedra para romper las fibras."
      }
     ]
    },
    {
     "n": "Cocer",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Asusta el pulpo",
       "m": 5,
       "x": "Lleva a ebullición una olla grande con agua, sin sal. Coge el pulpo por la cabeza y mételo y sácalo del agua tres veces, contando hasta tres cada vez. Luego déjalo dentro.",
+      "f": 5,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 5,
+       "c": "#9CC8EA",
+       "burbujas": 1,
+       "i": [
+        [
+         "pulpo",
+         3
+        ]
+       ]
+      },
       "ab": "Asustarlo hace que los tentáculos se ricen y que la piel no se despegue al cocer."
      },
      {
       "t": "Cuece",
       "m": 40,
       "x": "Cuece a fuego medio unos 40 minutos para un pulpo de 2 kg, unos 20 minutos por kilo. Pincha la parte gruesa de un tentáculo: debe entrar con facilidad, con un punto firme.",
+      "tim": 40,
+      "f": 3,
+      "w": 1,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 3,
+       "c": "#B78A9A",
+       "i": [
+        [
+         "pulpo",
+         5
+        ]
+       ],
+       "burbujas": 1,
+       "reloj": "40 min",
+       "rf": 0.67
+      },
       "ab": "Ni duro ni chicloso: tierno, pero que la piel no se deshaga."
      },
      {
       "t": "Reposa en su agua",
       "m": 10,
       "x": "Apaga el fuego y déjalo reposar en el agua diez minutos. Sácalo y resérvalo.",
+      "tim": 10,
+      "f": "a",
+      "w": 1,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 0,
+       "c": "#B78A9A",
+       "i": [
+        [
+         "pulpo",
+         5
+        ]
+       ]
+      },
       "ab": "El reposo termina de ablandarlo y asienta la piel."
      },
      {
       "t": "Cachelos en el agua del pulpo",
       "m": 25,
-      "x": "Cuece patatas medianas para cachelos peladas y en trozos grandes en esa misma agua, unos 20 o 25 minutos, hasta que estén tiernas.",
+      "x": "Cuece {patata} peladas y en trozos grandes en esa misma agua, unos 20 o 25 minutos, hasta que estén tiernas.",
+      "tim": 25,
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 3,
+       "c": "#C79AA8",
+       "i": [
+        [
+         "patata",
+         7
+        ]
+       ]
+      },
       "ab": "El agua del pulpo les da a los cachelos un color rosado y un sabor que no se consigue de otra forma."
      }
     ]
    },
    {
     "n": "Al plato",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Corta con tijera",
       "m": 5,
       "x": "Corta los tentáculos en rodajas con unas tijeras, directamente sobre un plato de madera, con los cachelos en rodajas debajo.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "madera",
+       "i": [
+        [
+         "pulpo",
+         14
+        ],
+        [
+         "patata",
+         4
+        ]
+       ]
+      },
       "ab": "La tijera y el plato de madera son de feria: la madera absorbe el agua y el pulpo no se enfría."
      },
      {
       "t": "Sal, pimentón y aceite",
       "m": 2,
-      "x": "Espolvorea sal gorda, pimentón dulce y pimentón picante, y riega con aceite de oliva virgen extra. A la mesa enseguida.",
+      "x": "Espolvorea {salg}, {pimenton} y {pimentonp}, y riega con {aceite}. A la mesa enseguida.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "madera",
+       "i": [
+        [
+         "pulpo",
+         14
+        ],
+        [
+         "patata",
+         4
+        ]
+       ],
+       "polvo": "#B3261E",
+       "pan": 1
+      },
       "ab": "El orden de las pulpeiras: primero la sal gorda, luego el pimentón y el aceite al final."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "El tamaño",
-    "texto": "Un pulpo de 2 a 3 kg es lo ideal. Los muy pequeños quedan duros y los muy grandes, fibrosos."
-   },
-   {
-    "titulo": "Sin sal en el agua",
-    "texto": "La sal se pone al final, gorda y por encima. En el agua, el pulpo ya suelta la suya."
-   },
-   {
-    "titulo": "Con vino del Ribeiro",
-    "texto": "En las ferias se toma con vino del Ribeiro en cunca, la taza de barro."
    }
   ]
  },
  {
   "id": "rabo",
-  "nombre": "Rabo de toro",
-  "subtitulo": "estofado al estilo cordobés",
-  "region": "and",
+  "n": "Rabo de toro",
+  "sub": "estofado al estilo cordobés",
+  "reg": "and",
   "lugar": "Córdoba, Andalucía",
-  "categoria": "carne",
-  "dificultad": 2,
-  "raciones": 4,
-  "tiempo_min": 325,
-  "tags": [
-   "rabo",
-   "sal",
-   "pimienta",
-   "harina",
-   "aceite",
-   "#"
+  "cat": "carne",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   3,
+   4,
+   6
+  ],
+  "notaRac": [
+   3,
+   "Para 3 personas, todo va ajustado a 1 kg de rabo."
+  ],
+  "fac": {
+   "3": 0.6666666666666666
+  },
+  "met": [
+   {
+    "id": "cazuela",
+    "n": "Cazuela",
+    "d": "4 h a fuego mínimo"
+   },
+   {
+    "id": "horno",
+    "n": "Horno",
+    "d": "3½ h a 150 °C"
+   },
+   {
+    "id": "olla",
+    "n": "Olla exprés",
+    "d": "50 min con presión"
+   }
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#5A1A1E",
+   "i": [
+    [
+     "rabo",
+     3,
+     1,
+     "r-guisado"
+    ],
+    [
+     "laurel",
+     1
+    ],
+    [
+     "perejil",
+     1,
+     0.8
+    ]
+   ]
+  },
+  "regs": [
+   "and"
   ],
   "intro": "Guiso de horas al vino tinto hasta que la carne se separa sola del hueso. Mejor de un día para otro.",
-  "ingredientes": [
-   "1.5 kg de rabo de toro (o de vaca), troceado",
-   "2 cdta de sal",
-   "1 cdta de pimienta negra molida",
-   "50 g de harina",
-   "100 ml de aceite de oliva virgen extra",
-   "e r de V",
-   "2 cebollas",
-   "6 dientes de ajo",
-   "3 zanahorias",
-   "2 pimientos verdes",
-   "1 puerro",
-   "200 g de tomate triturado",
-   "a r de P",
-   "750 ml de vino tinto",
-   "500 ml de caldo de carne",
-   "2 hojas de laurel",
-   "3 ramitas de perejil",
-   "a r de P",
-   "3 patatas para freír"
+  "secretos": [
+   [
+    "Mejor al día siguiente",
+    "Reposado gana sabor, y en frío la grasa cuaja arriba y se quita con una cuchara. Recaliéntalo a fuego suave."
+   ],
+   [
+    "Menear, no remover",
+    "Con la cuchara se rompe la carne. Coge la cazuela por las asas y dale un meneo."
+   ],
+   [
+    "Las cantidades",
+    "Para 3 personas, todo va ajustado a 1 kg de rabo. Los tres vasos de vino de la receta cordobesa son más o menos una botella."
+   ]
+  ],
+  "ing": [
+   [
+    "rabo",
+    "rabo de toro (o de vaca), troceado",
+    1.5,
+    "kg"
+   ],
+   [
+    "sal",
+    "sal",
+    2,
+    "cdta"
+   ],
+   [
+    "pimienta",
+    "pimienta negra molida",
+    1,
+    "cdta"
+   ],
+   [
+    "harina",
+    "harina",
+    50,
+    "g"
+   ],
+   [
+    "aceite",
+    "aceite de oliva virgen extra",
+    100,
+    "ml"
+   ],
+   "#Verduras",
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    6,
+    "ud"
+   ],
+   [
+    "zanahoria",
+    "zanahoria|zanahorias",
+    3,
+    "ud",
+    0.5
+   ],
+   [
+    "pimiento",
+    "pimiento verde|pimientos verdes",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "puerro",
+    "puerro|puerros",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "tomate",
+    "tomate triturado",
+    200,
+    "g"
+   ],
+   "#Para guisar",
+   [
+    "vino",
+    "vino tinto",
+    750,
+    "ml"
+   ],
+   [
+    "caldo",
+    "caldo de carne",
+    500,
+    "ml"
+   ],
+   [
+    "laurel",
+    "hoja de laurel|hojas de laurel",
+    2,
+    "ud"
+   ],
+   [
+    "perejil",
+    "ramita de perejil|ramitas de perejil",
+    3,
+    "ud"
+   ],
+   "#Para acompañar",
+   [
+    "patata",
+    "patata para freír|patatas para freír",
+    3,
+    "ud"
+   ]
   ],
   "fases": [
    {
     "n": "Preparar y sofreír",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Pica las verduras",
       "m": 15,
       "x": "Limpia y trocea cebollas, dientes de ajo, zanahorias, pimientos verdes y puerro en trozos medianos. No hace falta picarlas fino, porque al final se tritura todo.",
+      "f": 0,
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "cebolla",
+         4
+        ],
+        [
+         "zanahoria",
+         4
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "puerro",
+         3
+        ],
+        [
+         "ajo",
+         3
+        ]
+       ]
+      },
       "ab": "La cebolla y el ajo van en un cuenco y el resto en otro, porque entran en momentos distintos."
      },
      {
       "t": "Prepara el rabo",
       "m": 5,
-      "x": "Seca rabo de toro (o de vaca), troceado con papel de cocina y quítale la grasa que sobre. Salpiméntalo con sal y pimienta negra molida, y pasa cada trozo por harina, sacudiendo el exceso.",
+      "x": "Seca {rabo} con papel de cocina y quítale la grasa que sobre. Salpiméntalo con {sal} y {pimienta}, y pasa cada trozo por {harina}, sacudiendo el exceso.",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#F5F1E8",
+       "i": [
+        [
+         "rabo",
+         3,
+         1,
+         "r-harina"
+        ]
+       ]
+      },
       "ab": "La harina ayuda a dorar y, más tarde, espesa la salsa sin que se note."
      },
      {
       "t": "Dora el rabo",
       "m": 15,
-      "x": "Calienta aceite de oliva virgen extra en una cazuela grande de fondo grueso. Dora el rabo por tandas, sin amontonarlo, hasta que esté bien tostado por todas las caras. Sácalo y resérvalo.",
+      "x": "Calienta {aceite} en una cazuela grande de fondo grueso. Dora el rabo por tandas, sin amontonarlo, hasta que esté bien tostado por todas las caras. Sácalo y resérvalo.",
+      "tim": 15,
+      "f": 4,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 4,
+       "c": "#C99A3A",
+       "i": [
+        [
+         "rabo",
+         3,
+         1,
+         "r-dorado"
+        ]
+       ],
+       "chisp": 1
+      },
       "ab": "Si echas muchos trozos a la vez, la carne suelta agua y se cuece en vez de dorarse. Ese tostado es medio sabor del guiso."
      },
      {
       "t": "Pocha la cebolla y el ajo",
       "m": 10,
       "x": "En el mismo aceite, echa la cebolla y el ajo. Rehógalos rascando el fondo para aprovechar lo que ha soltado la carne.",
+      "tim": 10,
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#D3A548",
+       "i": [
+        [
+         "cebolla",
+         7,
+         1,
+         "o-pochada"
+        ],
+        [
+         "ajo",
+         3
+        ]
+       ],
+       "cuchara": 1
+      },
       "ab": "Lo pegado al fondo no se tira, que es sabor. Un chorrito de vino ayuda a despegarlo."
      },
      {
       "t": "Añade el resto de verduras",
       "m": 10,
-      "x": "Incorpora la zanahoria, el puerro y el pimiento, y cocina removiendo de vez en cuando hasta que estén tiernos."
+      "x": "Incorpora la zanahoria, el puerro y el pimiento, y cocina removiendo de vez en cuando hasta que estén tiernos.",
+      "tim": 10,
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#CF9B45",
+       "i": [
+        [
+         "zanahoria",
+         3
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "puerro",
+         2
+        ],
+        [
+         "cebolla",
+         2,
+         1,
+         "o-pochada"
+        ]
+       ],
+       "cae": [
+        "zanahoria",
+        "pimiento",
+        "puerro"
+       ]
+      }
      },
      {
       "t": "Añade el tomate",
       "m": 5,
-      "x": "Echa tomate triturado y deja que reduzca un poco, removiendo, hasta que el sofrito quede ligado."
+      "x": "Echa {tomate} y deja que reduzca un poco, removiendo, hasta que el sofrito quede ligado.",
+      "tim": 5,
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#B9482F",
+       "i": [
+        [
+         "zanahoria",
+         2
+        ],
+        [
+         "pimiento",
+         2
+        ]
+       ],
+       "vierte": "tomate"
+      }
      }
     ]
    },
    {
     "n": "Guisar",
-    "pasos": [
+    "tipo": "espera",
+    "p": [
      {
       "t": "Vino y caldo",
       "m": 10,
-      "x": "Vuelve a meter el rabo. Vierte vino tinto y caldo de carne, añade hojas de laurel y ramitas de perejil, y cuece a fuego fuerte sin tapar.",
+      "x": "Vuelve a meter el rabo. Vierte {vino} y {caldo}, añade {laurel} y {perejil}, y cuece a fuego fuerte sin tapar.",
+      "tim": 10,
+      "f": 5,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 5,
+       "c": "#6A1C24",
+       "i": [
+        [
+         "rabo",
+         3,
+         1,
+         "r-dorado"
+        ],
+        [
+         "laurel",
+         2
+        ]
+       ],
+       "vierte": "vino",
+       "burbujas": "#A2434C"
+      },
       "ab": "Diez minutos sin tapa para que se vaya el alcohol. Si el líquido no cubre la carne, completa con agua."
      },
      {
       "t": "Cocción lenta",
       "m": 240,
       "x": "Baja a fuego mínimo, tapa y deja que se haga despacio. Si se queda corto de líquido, añade un chorrito de caldo o de agua. Está listo cuando la carne se separa sola del hueso.",
+      "tim": 240,
+      "f": 1,
+      "w": 1,
+      "alt": {
+       "horno": {
+        "t": "Al horno",
+        "m": 225,
+        "tim": 210,
+        "f": "h150",
+        "x": "Tapa la cazuela (si el pomo de la tapa es de plástico, usa doble papel de aluminio bien ajustado) y métela en el horno precalentado a 150 °C, calor arriba y abajo. Unas tres horas y media; míralo cada hora y añade caldo si baja mucho.",
+        "ab": "En el horno el calor llega por todos lados y no se pega en el fondo. Ojo al sacarlo: las asas queman.",
+        "e": {
+         "k": "horno",
+         "t": "150 °C",
+         "d": "cazuela",
+         "c": "#5A1A1E",
+         "i": [
+          [
+           "rabo",
+           2,
+           0.9,
+           "r-guisado"
+          ]
+         ]
+        }
+       },
+       "olla": {
+        "t": "Olla exprés",
+        "m": 70,
+        "tim": 50,
+        "f": 2,
+        "x": "Cierra la olla, sin llenarla más de dos tercios, y ponla a fuego fuerte. Cuando suba la válvula, baja el fuego y cuenta 50 minutos. Apaga y deja que baje la presión sola antes de abrir.",
+        "ab": "Si la carne aún no se separa del hueso, vuelve a cerrar y dale diez minutos más.",
+        "e": {
+         "k": "fuego",
+         "v": "olla",
+         "f": 2,
+         "tapa": 1,
+         "vapor": 1,
+         "reloj": "50 min",
+         "rf": 0.83
+        }
+       }
+      },
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "tapa": 1,
+       "vapor": 1,
+       "reloj": "4 h",
+       "rf": 0.33
+      },
       "ab": "Chup-chup, sin hervor fuerte. De vez en cuando menea la cazuela en vez de remover, para no romper la carne."
      }
     ]
    },
    {
     "n": "Terminar",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Tritura la salsa",
       "m": 10,
       "x": "Saca los trozos de rabo y las hojas de laurel. Tritura las verduras con el líquido hasta tener una salsa fina, y pásala por un colador si la quieres más sedosa. Prueba de sal.",
+      "f": 0,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 0,
+       "c": "#7A2329",
+       "batidora": 1
+      },
       "ab": "Si la salsa queda clara, redúcela unos minutos a fuego vivo; si queda espesa, aligérala con caldo."
      },
      {
       "t": "Junta y sirve",
       "m": 5,
       "x": "Devuelve el rabo a la salsa y dale un hervor suave para que se caliente todo. Sirve la carne bien bañada en salsa.",
-      "ab": "Con patatas para freír fritas y pan para mojar."
+      "tim": 5,
+      "f": 2,
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#5A1A1E",
+       "i": [
+        [
+         "rabo",
+         3,
+         1,
+         "r-guisado"
+        ],
+        [
+         "perejil",
+         1,
+         0.8
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "Con {patata} fritas y pan para mojar."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Mejor al día siguiente",
-    "texto": "Reposado gana sabor, y en frío la grasa cuaja arriba y se quita con una cuchara. Recaliéntalo a fuego suave."
-   },
-   {
-    "titulo": "Menear, no remover",
-    "texto": "Con la cuchara se rompe la carne. Coge la cazuela por las asas y dale un meneo."
-   },
-   {
-    "titulo": "Las cantidades",
-    "texto": "Para 3 personas, todo va ajustado a 1 kg de rabo. Los tres vasos de vino de la receta cordobesa son más o menos una botella."
    }
   ]
  },
  {
   "id": "riojana",
-  "nombre": "Patatas a la riojana",
-  "subtitulo": "con chorizo y pimiento choricero",
-  "region": "rio",
+  "n": "Patatas a la riojana",
+  "sub": "con chorizo y pimiento choricero",
+  "reg": "rio",
   "lugar": "La Rioja",
-  "categoria": "cuchara",
-  "dificultad": 1,
-  "raciones": 4,
-  "tiempo_min": 61,
-  "tags": [
-   "patata",
-   "chorizo",
-   "cebolla",
-   "pimiento",
-   "ajo",
-   "choricero"
+  "cat": "cuchara",
+  "dif": 1,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#C8552F",
+   "i": [
+    [
+     "patata",
+     8
+    ],
+    [
+     "chorizo",
+     5
+    ],
+    [
+     "laurel",
+     1
+    ]
+   ]
+  },
+  "regs": [
+   "rio"
   ],
   "intro": "Guiso humilde y redondo: patatas chascadas que espesan el caldo, buen chorizo riojano y la carne del pimiento choricero.",
-  "ingredientes": [
-   "1 kg de patatas",
-   "200 g de chorizo riojano",
-   "1 cebolla",
-   "1 pimiento verde",
-   "2 dientes de ajo",
-   "1 cda de carne de pimiento choricero",
-   "1 cdta de pimentón dulce o picante",
-   "1 hoja de laurel",
-   "1.2 l de agua",
-   "3 cda de aceite de oliva",
-   "sal",
-   "guindillas en vinagre para acompañar"
+  "secretos": [
+   [
+    "Chorizo riojano",
+    "Curado y con buen pimentón. Dulce o picante, según la casa."
+   ],
+   [
+    "Patata de guisar",
+    "Mejor variedades harinosas, que espesan más el caldo."
+   ],
+   [
+    "Con guindilla",
+    "Unas guindillas en vinagre al lado del plato son la compañía de toda la vida."
+   ]
+  ],
+  "ing": [
+   [
+    "patata",
+    "patatas",
+    1,
+    "kg"
+   ],
+   [
+    "chorizo",
+    "chorizo riojano",
+    200,
+    "g"
+   ],
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "pimiento",
+    "pimiento verde|pimientos verdes",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    2,
+    "ud"
+   ],
+   [
+    "choricero",
+    "carne de pimiento choricero",
+    1,
+    "cda"
+   ],
+   [
+    "pimenton",
+    "pimentón dulce o picante",
+    1,
+    "cdta"
+   ],
+   [
+    "laurel",
+    "hoja de laurel|hojas de laurel",
+    1,
+    "ud"
+   ],
+   [
+    "agua",
+    "agua",
+    1.2,
+    "l"
+   ],
+   [
+    "aceite",
+    "aceite de oliva",
+    3,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ],
+   [
+    "guindilla",
+    "guindillas en vinagre para acompañar",
+    null
+   ]
   ],
   "fases": [
    {
     "n": "El sofrito",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Sofrito suave",
       "m": 12,
-      "x": "En una cazuela con aceite de oliva, pocha a fuego suave cebolla, pimiento verde y dientes de ajo picados."
+      "x": "En una cazuela con aceite de oliva, pocha a fuego suave cebolla, pimiento verde y dientes de ajo picados.",
+      "tim": 10,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#D9A548",
+       "i": [
+        [
+         "cebolla",
+         6,
+         1,
+         "o-pochada"
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "ajo",
+         2
+        ]
+       ],
+       "cuchara": 1
+      }
      },
      {
       "t": "Chorizo y choricero",
       "m": 4,
-      "x": "Añade chorizo riojano en rodajas gruesas y rehógalo un par de minutos. Agrega carne de pimiento choricero y pimentón dulce o picante, sin que se queme.",
+      "x": "Añade {chorizo} en rodajas gruesas y rehógalo un par de minutos. Agrega {choricero} y {pimenton}, sin que se queme.",
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#B5492C",
+       "i": [
+        [
+         "chorizo",
+         7
+        ],
+        [
+         "pimiento",
+         2
+        ]
+       ],
+       "polvo": "#8E1B13"
+      },
       "ab": "El chorizo suelta su grasa roja, que es el color del guiso."
      }
     ]
    },
    {
     "n": "Guisar",
-    "pasos": [
+    "tipo": "espera",
+    "p": [
      {
       "t": "Patatas chascadas",
       "m": 5,
-      "x": "Echa patatas chascadas en trozos medianos y dales unas vueltas para que se impregnen.",
+      "x": "Echa {patata} chascadas en trozos medianos y dales unas vueltas para que se impregnen.",
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#B5492C",
+       "i": [
+        [
+         "patata",
+         9
+        ],
+        [
+         "chorizo",
+         5
+        ]
+       ],
+       "cae": [
+        "patata",
+        "patata"
+       ]
+      },
       "ab": "Chascar es clavar el cuchillo y romper la patata en vez de cortarla del todo. Así suelta almidón y el caldo espesa solo."
      },
      {
       "t": "Cubre y cuece",
       "m": 30,
-      "x": "Cubre con agua caliente justo hasta tapar las patatas, añade hoja de laurel y sal, y cuece a fuego suave unos 30 minutos.",
+      "x": "Cubre con {agua} caliente justo hasta tapar las patatas, añade {laurel} y sal, y cuece a fuego suave unos 30 minutos.",
+      "tim": 30,
+      "f": 2,
+      "w": 1,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#C8552F",
+       "i": [
+        [
+         "patata",
+         9
+        ],
+        [
+         "chorizo",
+         5
+        ],
+        [
+         "laurel",
+         1
+        ]
+       ],
+       "agita": 1
+      },
       "ab": "No remuevas con cuchara: menea la cazuela para que no se rompan las patatas."
      },
      {
       "t": "Reposa y sirve",
       "m": 10,
-      "x": "Apaga y deja reposar diez minutos antes de servir: el caldo espesa y los sabores se asientan. Con guindillas en vinagre para acompañar.",
+      "x": "Apaga y deja reposar diez minutos antes de servir: el caldo espesa y los sabores se asientan. Con {guindilla}.",
+      "f": 0,
+      "w": 1,
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#C8552F",
+       "i": [
+        [
+         "patata",
+         8
+        ],
+        [
+         "chorizo",
+         5
+        ],
+        [
+         "laurel",
+         1
+        ]
+       ],
+       "vapor": 1
+      },
       "ab": "Si el caldo queda claro, chafa un par de trozos de patata contra la cazuela y menea."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Chorizo riojano",
-    "texto": "Curado y con buen pimentón. Dulce o picante, según la casa."
-   },
-   {
-    "titulo": "Patata de guisar",
-    "texto": "Mejor variedades harinosas, que espesan más el caldo."
-   },
-   {
-    "titulo": "Con guindilla",
-    "texto": "Unas guindillas en vinagre al lado del plato son la compañía de toda la vida."
    }
   ]
  },
  {
   "id": "sobaos",
-  "nombre": "Sobaos pasiegos",
-  "subtitulo": "de mantequilla, tiernos y esponjosos",
-  "region": "can",
+  "n": "Sobaos pasiegos",
+  "sub": "de mantequilla, tiernos y esponjosos",
+  "reg": "can",
   "lugar": "Cantabria",
-  "categoria": "postre",
-  "dificultad": 1,
-  "raciones": 12,
-  "tiempo_min": 130,
-  "tags": [
-   "mantequilla",
-   "azucar",
-   "huevo",
-   "harina",
-   "levadura",
-   "limon"
+  "cat": "postre",
+  "dif": 1,
+  "b": 12,
+  "rac": [
+   6,
+   12,
+   18
+  ],
+  "ud": "sobaos",
+  "heroe": {
+   "k": "plato",
+   "v": "fuente",
+   "i": [
+    [
+     "sobao",
+     4
+    ]
+   ]
+  },
+  "regs": [
+   "can"
   ],
   "intro": "De los valles pasiegos: mantequilla, azúcar, huevo y harina a partes casi iguales. El nombre viene de «sobar» la masa, que antes se batía a mano mucho rato.",
-  "ingredientes": [
-   "250 g de mantequilla",
-   "250 g de azúcar",
-   "4 huevos",
-   "250 g de harina de trigo",
-   "8 g de levadura química",
-   "1 limón (su ralladura)",
-   "1 cda de ron o anís (opcional)",
-   "una pizca de sal"
+  "secretos": [
+   [
+    "Todo a temperatura ambiente",
+    "Mantequilla y huevos fuera de la nevera desde una hora antes: así la masa emulsiona y no se corta."
+   ],
+   [
+    "Partes iguales",
+    "La receta de toda la vida es fácil de recordar: el mismo peso de mantequilla, azúcar y harina."
+   ],
+   [
+    "La quesada",
+    "En los mismos valles pasiegos se hace la quesada, otro dulce de siempre con leche cuajada."
+   ]
+  ],
+  "ing": [
+   [
+    "mantequilla",
+    "mantequilla",
+    250,
+    "g"
+   ],
+   [
+    "azucar",
+    "azúcar",
+    250,
+    "g"
+   ],
+   [
+    "huevo",
+    "huevo|huevos",
+    4,
+    "ud"
+   ],
+   [
+    "harina",
+    "harina de trigo",
+    250,
+    "g"
+   ],
+   [
+    "levadura",
+    "levadura química",
+    8,
+    "g"
+   ],
+   [
+    "limon",
+    "limón (su ralladura)|limones (su ralladura)",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "ron",
+    "ron o anís (opcional)",
+    1,
+    "cda"
+   ],
+   [
+    "sal",
+    "una pizca de sal",
+    null
+   ]
   ],
   "fases": [
    {
     "n": "La masa",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Mantequilla a punto de pomada",
       "m": 60,
-      "x": "Saca mantequilla de la nevera una hora antes: tiene que estar blanda como una pomada.",
+      "x": "Saca {mantequilla} de la nevera una hora antes: tiene que estar blanda como una pomada.",
+      "f": 0,
+      "w": 1,
+      "e": {
+       "k": "bol",
+       "c": "#F3D66E",
+       "i": [
+        [
+         "mantequilla",
+         2
+        ]
+       ]
+      },
       "ab": "Si la ablandas en el microondas y se derrite, el sobao queda pesado. Blanda, no líquida."
      },
      {
       "t": "Bate con el azúcar",
       "m": 10,
-      "x": "Bate la mantequilla con azúcar y una pizca de sal hasta que blanquee y esté esponjosa, de cinco a diez minutos.",
+      "x": "Bate la mantequilla con {azucar} y {sal} hasta que blanquee y esté esponjosa, de cinco a diez minutos.",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#F7E7B0",
+       "varillas": 1
+      },
       "ab": "Aquí está el «sobado»: cuanto más aire metas ahora, más esponjoso saldrá."
      },
      {
       "t": "Los huevos, de uno en uno",
       "m": 5,
       "x": "Añade huevos de uno en uno, sin echar el siguiente hasta que el anterior esté integrado. Agrega la ralladura de limón (su ralladura) y ron o anís (opcional).",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#F3D477",
+       "varillas": 1,
+       "cae": [
+        "huevo"
+       ]
+      },
       "ab": "De uno en uno, o la masa se corta. Si se corta, una cucharada de harina la arregla."
      },
      {
       "t": "La harina, sin batir de más",
       "m": 5,
-      "x": "Incorpora harina de trigo tamizada con levadura química, con movimientos suaves de abajo arriba, solo hasta que no se vea harina.",
+      "x": "Incorpora {harina} tamizada con {levadura}, con movimientos suaves de abajo arriba, solo hasta que no se vea harina.",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#F2DFA0",
+       "cae": [
+        "azucar",
+        "azucar",
+        "azucar"
+       ]
+      },
       "ab": "Mezclar lo justo: si bates de más, el sobao queda duro como un bizcocho seco."
      }
     ]
    },
    {
     "n": "Al horno",
-    "pasos": [
+    "tipo": "espera",
+    "p": [
      {
       "t": "Llena los moldes",
       "m": 10,
       "x": "Reparte la masa en moldes de papel rectangulares, llenándolos hasta la mitad, y espolvorea un poco de azúcar por encima.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "fuente",
+       "i": [
+        [
+         "sobao",
+         5
+        ]
+       ]
+      },
       "ab": "Los sobaos tienen su papel rectangular. Si no lo encuentras, valen cápsulas de magdalena grandes."
      },
      {
       "t": "Hornea",
       "m": 20,
       "x": "Hornea en el horno precalentado a 190 °C unos 20 minutos, hasta que estén dorados y un palillo pinchado en el centro salga limpio.",
+      "tim": 20,
+      "f": "h190",
+      "w": 1,
+      "e": {
+       "k": "horno",
+       "t": "190 °C",
+       "i": [
+        [
+         "sobao",
+         4
+        ]
+       ]
+      },
       "ab": "No abras el horno en los primeros quince minutos, o se bajan."
      },
      {
       "t": "Enfría y guarda",
       "m": 20,
       "x": "Déjalos enfriar sobre una rejilla. En una caja de lata o un tarro aguantan tiernos varios días.",
+      "f": 0,
+      "w": 1,
+      "e": {
+       "k": "plato",
+       "v": "fuente",
+       "i": [
+        [
+         "sobao",
+         4
+        ]
+       ]
+      },
       "ab": "En casa pasiega se mojan en leche o en café con leche para desayunar."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Todo a temperatura ambiente",
-    "texto": "Mantequilla y huevos fuera de la nevera desde una hora antes: así la masa emulsiona y no se corta."
-   },
-   {
-    "titulo": "Partes iguales",
-    "texto": "La receta de toda la vida es fácil de recordar: el mismo peso de mantequilla, azúcar y harina."
-   },
-   {
-    "titulo": "La quesada",
-    "texto": "En los mismos valles pasiegos se hace la quesada, otro dulce de siempre con leche cuajada."
    }
   ]
  },
  {
   "id": "sopacastellana",
-  "nombre": "Sopa castellana",
-  "subtitulo": "de ajo, con pan duro, jamón y huevo",
-  "region": "cyl",
+  "n": "Sopa castellana",
+  "sub": "de ajo, con pan duro, jamón y huevo",
+  "reg": "cyl",
   "lugar": "Castilla y León",
-  "categoria": "cuchara",
-  "dificultad": 1,
-  "raciones": 4,
-  "tiempo_min": 36,
-  "tags": [
-   "pan",
-   "ajo",
-   "jamon",
-   "pimenton",
-   "caldo",
-   "huevo"
+  "cat": "cuchara",
+  "dif": 1,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#C87A3A",
+   "i": [
+    [
+     "huevofrito",
+     3,
+     0.8
+    ],
+    [
+     "jamon",
+     6
+    ],
+    [
+     "pan",
+     2,
+     0.8
+    ]
+   ]
+  },
+  "regs": [
+   "cyl"
   ],
   "intro": "La sopa de ajo de los inviernos castellanos: pan de varios días, ajo, pimentón y un buen caldo, con el huevo cuajado encima. Nada se tira.",
-  "ingredientes": [
-   "200 g de pan de pueblo duro",
-   "6 dientes de ajo",
-   "100 g de jamón serrano en taquitos",
-   "1 cda de pimentón dulce o de la Vera",
-   "1.25 l de caldo de cocido o de pollo",
-   "4 huevos",
-   "5 cda de aceite de oliva",
-   "sal"
+  "secretos": [
+   [
+    "Cazuela de barro",
+    "Guarda el calor y la sopa llega humeante al plato. Si es nueva, cúrala antes de usarla."
+   ],
+   [
+    "Caldo con fundamento",
+    "Con el caldo del cocido sale otra sopa. Con agua sola queda pobre."
+   ],
+   [
+    "Pimentón de la Vera",
+    "Si es ahumado, de la Vera, la sopa coge un punto que recuerda a la matanza."
+   ]
+  ],
+  "ing": [
+   [
+    "pan",
+    "pan de pueblo duro",
+    200,
+    "g"
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    6,
+    "ud"
+   ],
+   [
+    "jamon",
+    "jamón serrano en taquitos",
+    100,
+    "g"
+   ],
+   [
+    "pimenton",
+    "pimentón dulce o de la Vera",
+    1,
+    "cda"
+   ],
+   [
+    "caldo",
+    "caldo de cocido o de pollo",
+    1.25,
+    "l"
+   ],
+   [
+    "huevo",
+    "huevo|huevos",
+    4,
+    "ud"
+   ],
+   [
+    "aceite",
+    "aceite de oliva",
+    5,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ]
   ],
   "fases": [
    {
     "n": "El sofrito",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Corta el pan muy fino",
       "m": 5,
-      "x": "Corta pan de pueblo duro en rebanadas muy finas.",
+      "x": "Corta {pan} en rebanadas muy finas.",
+      "f": 0,
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "pan",
+         4
+        ]
+       ]
+      },
       "ab": "Cuanto más duro el pan, mejor. El tierno se deshace y la sopa queda como un engrudo."
      },
      {
       "t": "Ajos a fuego suave",
       "m": 6,
-      "x": "En una cazuela de barro con aceite de oliva, dora a fuego suave dientes de ajo laminados. Añade jamón serrano en taquitos y rehógalo un minuto.",
+      "x": "En una cazuela de barro con {aceite}, dora a fuego suave {ajo} laminados. Añade {jamon} y rehógalo un minuto.",
+      "tim": 5,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#E3BC4A",
+       "i": [
+        [
+         "ajo",
+         6
+        ],
+        [
+         "jamon",
+         8
+        ]
+       ],
+       "chisp": 1
+      },
       "ab": "Fuego suave: el ajo dorado perfuma; el quemado amarga toda la sopa."
      },
      {
       "t": "Pan y pimentón, fuera del fuego",
       "m": 4,
-      "x": "Añade el pan y dale unas vueltas para que se empape. Aparta la cazuela del fuego y echa pimentón dulce o de la Vera, removiendo rápido.",
+      "x": "Añade el pan y dale unas vueltas para que se empape. Aparta la cazuela del fuego y echa {pimenton}, removiendo rápido.",
+      "f": "a",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 0,
+       "c": "#C8552F",
+       "i": [
+        [
+         "pan",
+         4,
+         0.8
+        ],
+        [
+         "ajo",
+         3
+        ],
+        [
+         "jamon",
+         5
+        ]
+       ],
+       "polvo": "#8E1B13"
+      },
       "ab": "El pimentón, siempre con el fuego apagado, que en un segundo se quema y amarga."
      }
     ]
    },
    {
     "n": "Al caldo",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "El caldo, caliente",
       "m": 15,
-      "x": "Vierte caldo de cocido o de pollo caliente, prueba de sal y deja que hierva suave unos quince minutos, hasta que el pan se deshaga un poco.",
+      "x": "Vierte {caldo} caliente, prueba de sal y deja que hierva suave unos quince minutos, hasta que el pan se deshaga un poco.",
+      "tim": 15,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#C87A3A",
+       "i": [
+        [
+         "pan",
+         4,
+         0.8
+        ],
+        [
+         "jamon",
+         5
+        ]
+       ],
+       "vierte": "caldo"
+      },
       "ab": "Usa el caldo que sobra del cocido. Si no hay, agua con un hueso de jamón."
      },
      {
       "t": "Cuaja los huevos",
       "m": 4,
-      "x": "Casca huevos sobre la sopa y deja que cuajen tres o cuatro minutos, sin remover. O mete la cazuela al horno a 200 °C hasta que cuaje la clara.",
+      "x": "Casca {huevo} sobre la sopa y deja que cuajen tres o cuatro minutos, sin remover. O mete la cazuela al horno a 200 °C hasta que cuaje la clara.",
+      "tim": 4,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#C87A3A",
+       "i": [
+        [
+         "huevofrito",
+         3,
+         0.8
+        ],
+        [
+         "pan",
+         2,
+         0.8
+        ]
+       ]
+      },
       "ab": "La yema tiene que quedar líquida, para romperla dentro de la sopa."
      },
      {
       "t": "A la mesa en la cazuela",
       "m": 2,
       "x": "Sírvela en la misma cazuela de barro, muy caliente.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#C87A3A",
+       "i": [
+        [
+         "huevofrito",
+         3,
+         0.8
+        ],
+        [
+         "jamon",
+         5
+        ]
+       ],
+       "vapor": 1
+      },
       "ab": "En las casas de pueblo se pone la cazuela en el centro de la mesa y cada uno se sirve."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Cazuela de barro",
-    "texto": "Guarda el calor y la sopa llega humeante al plato. Si es nueva, cúrala antes de usarla."
-   },
-   {
-    "titulo": "Caldo con fundamento",
-    "texto": "Con el caldo del cocido sale otra sopa. Con agua sola queda pobre."
-   },
-   {
-    "titulo": "Pimentón de la Vera",
-    "texto": "Si es ahumado, de la Vera, la sopa coge un punto que recuerda a la matanza."
    }
   ]
  },
  {
   "id": "tortilla",
-  "nombre": "Tortilla de patatas",
-  "subtitulo": "jugosa, con cebolla y bien pochada",
-  "region": "es",
+  "n": "Tortilla de patatas",
+  "sub": "jugosa, con cebolla y bien pochada",
+  "reg": "es",
   "lugar": "Toda España",
-  "categoria": "picar",
-  "dificultad": 2,
-  "raciones": 4,
-  "tiempo_min": 58,
-  "tags": [
-   "patata",
-   "cebolla",
-   "huevo",
-   "aceite",
-   "sal"
+  "cat": "picar",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "tortilla": 1,
+   "pan": 1
+  },
+  "regs": [
+   "es"
   ],
   "intro": "La de casa: patata pochada despacio en mucho aceite, el huevo justo y el famoso reposo. Con o sin cebolla, eso ya es cosa de cada familia.",
-  "ingredientes": [
-   "700 g de patatas",
-   "1 cebolla",
-   "6 huevos",
-   "400 ml de aceite de oliva para pochar",
-   "sal"
+  "secretos": [
+   [
+    "Patata de guisar",
+    "Las algo harinosas se deshacen un poco y ligan con el huevo. Las nuevas quedan más enteras y la tortilla se abre al cortarla."
+   ],
+   [
+    "El aceite templado",
+    "Si está demasiado caliente, la patata se dora por fuera y queda cruda por dentro. Templado y con paciencia."
+   ],
+   [
+    "Huevo en proporción",
+    "Una buena medida es un huevo por cada 100 o 120 g de patata ya pochada. Si la mezcla queda espesa, añade otro."
+   ]
+  ],
+  "ing": [
+   [
+    "patata",
+    "patatas",
+    700,
+    "g"
+   ],
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "huevo",
+    "huevo|huevos",
+    6,
+    "ud"
+   ],
+   [
+    "aceite",
+    "aceite de oliva para pochar",
+    400,
+    "ml"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ]
   ],
   "fases": [
    {
     "n": "Pochar la patata",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Corta la patata y la cebolla",
       "m": 10,
-      "x": "Pela patatas y córtalas en láminas finas e irregulares, y cebolla en juliana. Sálalo todo y mézclalo con las manos.",
+      "x": "Pela {patata} y córtalas en láminas finas e irregulares, y {cebolla} en juliana. Sálalo todo y mézclalo con las manos.",
+      "f": 0,
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "patata",
+         6
+        ],
+        [
+         "cebolla",
+         5
+        ]
+       ]
+      },
       "ab": "No usa tabla: va cascando la patata con el cuchillo directamente sobre el cuenco. Los bordes irregulares sueltan almidón y luego ligan mejor con el huevo."
      },
      {
       "t": "Pocha a fuego suave",
       "m": 25,
-      "x": "Calienta aceite de oliva para pochar en una sartén honda y echa la patata y la cebolla cuando el aceite esté templado, no humeante. Deja que se hagan despacio, removiendo de vez en cuando, hasta que estén tiernas y apenas doradas.",
+      "x": "Calienta {aceite} en una sartén honda y echa la patata y la cebolla cuando el aceite esté templado, no humeante. Deja que se hagan despacio, removiendo de vez en cuando, hasta que estén tiernas y apenas doradas.",
+      "tim": 20,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 2,
+       "c": "#E3C062",
+       "i": [
+        [
+         "patata",
+         9
+        ],
+        [
+         "cebolla",
+         5,
+         1,
+         "o-pochada"
+        ]
+       ],
+       "burbujas": "#F7DC8F"
+      },
       "ab": "Las patatas se pochan, no se fríen. Tienen que quedar blandas, casi confitadas; si chisporrotean mucho, baja el fuego."
      },
      {
       "t": "Escurre",
       "m": 3,
       "x": "Sácalas con una espumadera a un colador y deja que suelten el aceite. Guarda ese aceite para la tortilla y para otros guisos.",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#EDD08C",
+       "i": [
+        [
+         "patata",
+         8
+        ],
+        [
+         "cebolla",
+         3,
+         1,
+         "o-pochada"
+        ]
+       ],
+       "colador": 1
+      },
       "ab": "El aceite de pochar sabe a patata y cebolla. Lo guarda en una aceitera aparte y le da vida a cualquier sofrito."
      }
     ]
    },
    {
     "n": "Cuajar",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Bate y deja reposar",
       "m": 10,
-      "x": "Bate huevos con una pizca de sal, sin hacer espuma. Añade la patata aún templada, mezcla y deja reposar diez minutos.",
+      "x": "Bate {huevo} con una pizca de sal, sin hacer espuma. Añade la patata aún templada, mezcla y deja reposar diez minutos.",
+      "tim": 10,
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#F3C43B",
+       "i": [
+        [
+         "patata",
+         8
+        ],
+        [
+         "cebolla",
+         3,
+         1,
+         "o-pochada"
+        ]
+       ],
+       "tenedor": 1
+      },
       "ab": "Este reposo es el secreto de la jugosidad: la patata se empapa de huevo y la tortilla queda cremosa por dentro."
      },
      {
       "t": "Cuaja el primer lado",
       "m": 3,
       "x": "Pon una sartén de unos 24 cm con una cucharada del aceite reservado, bien caliente. Vierte la mezcla, baja a fuego medio y mueve la sartén en círculos mientras metes los bordes hacia dentro con una espátula.",
+      "tim": 3,
+      "f": 4,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 4,
+       "c": "#E9B44E",
+       "i": [
+        [
+         "patata",
+         6
+        ]
+       ],
+       "agita": 1
+      },
       "ab": "Ese meneo en círculos le da la forma abombada de las tortillas de casa y evita que se pegue."
      },
      {
       "t": "Dale la vuelta",
       "m": 2,
       "x": "Tapa la sartén con un plato llano un poco más grande, dale la vuelta de un golpe decidido y desliza la tortilla de nuevo a la sartén. Uno o dos minutos más.",
+      "tim": 2,
+      "f": 3,
+      "e": {
+       "k": "volteo"
+      },
       "ab": "Sin miedo y de una vez, sobre el fregadero. Si se rompe un poco, se recoloca con la espátula y nadie se entera."
      },
      {
       "t": "Reposa y sirve",
       "m": 5,
       "x": "Pásala a un plato y déjala reposar cinco minutos antes de cortarla. Termina de cuajarse con su propio calor.",
+      "f": 0,
+      "w": 1,
+      "e": {
+       "k": "plato",
+       "tortilla": 1,
+       "pan": 1
+      },
       "ab": "Está en su punto cuando, al apretar el centro con el dedo, cede un poco. Fría o del día siguiente también está buenísima."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Patata de guisar",
-    "texto": "Las algo harinosas se deshacen un poco y ligan con el huevo. Las nuevas quedan más enteras y la tortilla se abre al cortarla."
-   },
-   {
-    "titulo": "El aceite templado",
-    "texto": "Si está demasiado caliente, la patata se dora por fuera y queda cruda por dentro. Templado y con paciencia."
-   },
-   {
-    "titulo": "Huevo en proporción",
-    "texto": "Una buena medida es un huevo por cada 100 o 120 g de patata ya pochada. Si la mezcla queda espesa, añade otro."
    }
   ]
  },
  {
   "id": "tumbet",
-  "nombre": "Tumbet mallorquín",
-  "subtitulo": "capas de verdura frita y tomate",
-  "region": "bal",
+  "n": "Tumbet mallorquín",
+  "sub": "capas de verdura frita y tomate",
+  "reg": "bal",
   "lugar": "Illes Balears",
-  "categoria": "huerta",
-  "dificultad": 2,
-  "raciones": 4,
-  "tiempo_min": 115,
-  "tags": [
-   "berenjena",
-   "patata",
-   "pimrojo",
-   "#",
-   "tomate",
-   "ajo"
+  "cat": "huerta",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#C0392B",
+   "i": [
+    [
+     "berenjena",
+     3
+    ],
+    [
+     "pimiento",
+     3,
+     1,
+     "rojo"
+    ],
+    [
+     "patata",
+     2
+    ],
+    [
+     "perejil",
+     1,
+     0.8
+    ]
+   ]
+  },
+  "regs": [
+   "bal"
   ],
   "intro": "Patata, berenjena y pimiento fritos por separado y una salsa de tomate de cocción lenta, todo por capas en la greixonera, la cazuela de barro mallorquina.",
-  "ingredientes": [
-   "2 berenjenas",
-   "600 g de patatas",
-   "2 pimientos rojos",
-   "a r de P",
-   "800 g de tomates maduros",
-   "3 dientes de ajo",
-   "1 cdta de azúcar",
-   "400 ml de aceite de oliva para freír",
-   "sal"
+  "secretos": [
+   [
+    "Solo o acompañando",
+    "Se toma como plato o acompañando pescado frito, carne o un huevo frito."
+   ],
+   [
+    "La greixonera",
+    "Es la cazuela de barro mallorquina. Cualquier fuente de barro o de horno sirve."
+   ],
+   [
+    "El aceite se aprovecha",
+    "Fríe de más suave a más fuerte de sabor y filtra el aceite después: aún sirve para otra fritura."
+   ]
+  ],
+  "ing": [
+   [
+    "berenjena",
+    "berenjena|berenjenas",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "patata",
+    "patatas",
+    600,
+    "g"
+   ],
+   [
+    "pimrojo",
+    "pimiento rojo|pimientos rojos",
+    2,
+    "ud",
+    0.5
+   ],
+   "#Para la salsa",
+   [
+    "tomate",
+    "tomates maduros",
+    800,
+    "g"
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    3,
+    "ud"
+   ],
+   [
+    "azucar",
+    "azúcar",
+    1,
+    "cdta"
+   ],
+   [
+    "aceite",
+    "aceite de oliva para freír",
+    400,
+    "ml"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ]
   ],
   "fases": [
    {
     "n": "Preparar",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Sala la berenjena",
       "m": 30,
-      "x": "Corta berenjenas en rodajas de medio centímetro, sálalas y déjalas en un colador media hora. Sécalas con papel.",
+      "x": "Corta {berenjena} en rodajas de medio centímetro, sálalas y déjalas en un colador media hora. Sécalas con papel.",
+      "tim": 30,
+      "f": 0,
+      "w": 1,
+      "e": {
+       "k": "bol",
+       "c": "#EDE3CB",
+       "i": [
+        [
+         "berenjena",
+         7
+        ]
+       ],
+       "colador": 1
+      },
       "ab": "La sal le saca el amargor y el agua, y luego chupa mucho menos aceite al freírla."
      },
      {
       "t": "Salsa de tomate lenta",
       "m": 30,
-      "x": "Mientras, sofríe dientes de ajo laminado en un poco de aceite, añade tomates maduros pelados y troceados, sal y azúcar, y deja que se haga despacio media hora, hasta que espese.",
+      "x": "Mientras, sofríe {ajo} laminado en un poco de aceite, añade {tomate} pelados y troceados, sal y {azucar}, y deja que se haga despacio media hora, hasta que espese.",
+      "tim": 30,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#C0392B",
+       "i": [
+        [
+         "ajo",
+         3
+        ],
+        [
+         "tomate",
+         2
+        ]
+       ],
+       "cuchara": 1
+      },
       "ab": "La pizca de azúcar corrige la acidez del tomate. Tiene que quedar espesa, casi como una mermelada."
      }
     ]
    },
    {
     "n": "Freír",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Fríe la patata",
       "m": 15,
-      "x": "Fríe patatas en rodajas finas en aceite de oliva para freír hasta que estén tiernas y doradas. Escúrrelas y sálalas.",
+      "x": "Fríe {patata} en rodajas finas en {aceite} hasta que estén tiernas y doradas. Escúrrelas y sálalas.",
+      "tim": 12,
+      "f": 4,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 4,
+       "c": "#E3C062",
+       "i": [
+        [
+         "patata",
+         9
+        ]
+       ],
+       "burbujas": "#F7DC8F"
+      },
       "ab": "Cada verdura se fríe por separado, porque cada una necesita su tiempo."
      },
      {
       "t": "Fríe berenjena y pimiento",
       "m": 15,
-      "x": "En el mismo aceite, fríe la berenjena hasta que esté dorada y luego pimientos rojos en tiras. Escurre todo sobre papel.",
+      "x": "En el mismo aceite, fríe la berenjena hasta que esté dorada y luego {pimrojo} en tiras. Escurre todo sobre papel.",
+      "tim": 12,
+      "f": 4,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 4,
+       "c": "#E3C062",
+       "i": [
+        [
+         "berenjena",
+         6
+        ],
+        [
+         "pimiento",
+         4,
+         1,
+         "rojo"
+        ]
+       ],
+       "burbujas": "#F7DC8F"
+      },
       "ab": "El aceite, siempre caliente: la berenjena en aceite tibio se empapa como una esponja."
      }
     ]
    },
    {
     "n": "Montar",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Monta las capas",
       "m": 10,
       "x": "En una greixonera o fuente de horno, pon una capa de patata, otra de berenjena y otra de pimiento, y cubre con la salsa de tomate.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#C0392B",
+       "i": [
+        [
+         "berenjena",
+         3
+        ],
+        [
+         "pimiento",
+         3,
+         1,
+         "rojo"
+        ],
+        [
+         "tomate",
+         1
+        ]
+       ]
+      },
       "ab": "El orden de siempre: la patata abajo, que aguanta, y el tomate cubriéndolo todo."
      },
      {
       "t": "Un golpe de horno",
       "m": 15,
       "x": "Si quieres, mételo diez o quince minutos en el horno a 180 °C para que se asienten los sabores. Se toma templado.",
+      "tim": 15,
+      "f": "h180",
+      "w": 1,
+      "e": {
+       "k": "horno",
+       "t": "180 °C",
+       "d": "cazuela",
+       "c": "#C0392B",
+       "i": [
+        [
+         "berenjena",
+         2
+        ],
+        [
+         "pimiento",
+         2,
+         1,
+         "rojo"
+        ]
+       ]
+      },
       "ab": "Recién hecho está rico, pero al día siguiente, a temperatura ambiente, está mejor."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Solo o acompañando",
-    "texto": "Se toma como plato o acompañando pescado frito, carne o un huevo frito."
-   },
-   {
-    "titulo": "La greixonera",
-    "texto": "Es la cazuela de barro mallorquina. Cualquier fuente de barro o de horno sirve."
-   },
-   {
-    "titulo": "El aceite se aprovecha",
-    "texto": "Fríe de más suave a más fuerte de sabor y filtra el aceite después: aún sirve para otra fritura."
    }
   ]
  },
  {
   "id": "xato",
-  "nombre": "Xató",
-  "subtitulo": "del Garraf y el Penedès, con su salsa",
-  "region": "cat",
+  "n": "Xató",
+  "sub": "del Garraf y el Penedès, con su salsa",
+  "reg": "cat",
   "lugar": "Garraf y Penedès, Cataluña",
-  "categoria": "huerta",
-  "dificultad": 2,
-  "raciones": 4,
-  "tiempo_min": 2990,
-  "tags": [
-   "#",
-   "escarola",
-   "bacalao",
-   "atun",
-   "anchoa",
-   "aceituna"
+  "cat": "huerta",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "fuente",
+   "i": [
+    [
+     "escarola",
+     4
+    ],
+    [
+     "bacalao",
+     4
+    ],
+    [
+     "atun",
+     3
+    ],
+    [
+     "anchoa",
+     3
+    ],
+    [
+     "aceituna",
+     5
+    ]
+   ],
+   "salsera": "#B4542C"
+  },
+  "regs": [
+   "cat"
   ],
   "intro": "La ensalada de invierno de Vilanova, Sitges y Vilafranca: escarola, bacalao, atún, anchoas y olivas, con una salsa de ñoras, almendras y avellanas majada en el mortero, prima hermana del romesco de Tarragona.",
-  "ingredientes": [
-   "a   de L",
-   "1 escarola",
-   "200 g de bacalao desalado",
-   "120 g de atún en aceite",
-   "8 anchoas",
-   "100 g de olivas arbequinas",
-   "a   de L",
-   "4 ñoras",
-   "40 g de almendras tostadas",
-   "20 g de avellanas tostadas",
-   "4 dientes de ajo",
-   "1 rebanada de pan tostado",
-   "1 tomate maduro",
-   "150 ml de aceite de oliva virgen extra",
-   "2 cda de vinagre de vino",
-   "sal"
+  "secretos": [
+   [
+    "Plato de invierno",
+    "De enero a marzo hay xatonadas populares en Vilanova i la Geltrú, Sitges, Vilafranca y El Vendrell."
+   ],
+   [
+    "Primo del romesco",
+    "La salsa es pariente del romesco de Tarragona: ñora, frutos secos, ajo, pan y aceite. Cambian las proporciones y el uso."
+   ],
+   [
+    "La salsa aguanta",
+    "Hecha la víspera está todavía mejor. Guárdala tapada en la nevera."
+   ]
+  ],
+  "ing": [
+   "#La ensalada",
+   [
+    "escarola",
+    "escarola|escarolas",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "bacalao",
+    "bacalao desalado",
+    200,
+    "g"
+   ],
+   [
+    "atun",
+    "atún en aceite",
+    120,
+    "g"
+   ],
+   [
+    "anchoa",
+    "anchoa|anchoas",
+    8,
+    "ud"
+   ],
+   [
+    "aceituna",
+    "olivas arbequinas",
+    100,
+    "g"
+   ],
+   "#La salsa",
+   [
+    "nora",
+    "ñora|ñoras",
+    4,
+    "ud"
+   ],
+   [
+    "almendra",
+    "almendras tostadas",
+    40,
+    "g"
+   ],
+   [
+    "avellana",
+    "avellanas tostadas",
+    20,
+    "g"
+   ],
+   [
+    "ajos",
+    "diente de ajo|dientes de ajo",
+    4,
+    "ud"
+   ],
+   [
+    "pans",
+    "rebanada de pan tostado|rebanadas de pan tostado",
+    1,
+    "ud"
+   ],
+   [
+    "tomates",
+    "tomate maduro|tomates maduros",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "aceite",
+    "aceite de oliva virgen extra",
+    150,
+    "ml"
+   ],
+   [
+    "vinagre",
+    "vinagre de vino",
+    2,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ]
   ],
   "fases": [
    {
     "n": "Antes de empezar",
-    "pasos": [
+    "tipo": "previo",
+    "p": [
      {
       "t": "Desala el bacalao",
       "m": 2880,
       "x": "Si el bacalao es salado, desálalo 48 horas en agua fría en la nevera, cambiando el agua tres o cuatro veces. O cómpralo ya desalado.",
+      "f": 0,
+      "pre": 1,
+      "e": {
+       "k": "remojo",
+       "i": [
+        [
+         "bacalao",
+         6
+        ]
+       ],
+       "t": "48 h"
+      },
       "ab": "Agua fría y nevera. A temperatura ambiente se estropea."
      }
     ]
    },
    {
     "n": "La salsa",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Ñoras a remojo",
       "m": 60,
-      "x": "Quita el tallo y las semillas a ñoras y ponlas en remojo en agua tibia una hora. Luego raspa la carne con una cuchara.",
+      "x": "Quita el tallo y las semillas a {nora} y ponlas en remojo en agua tibia una hora. Luego raspa la carne con una cuchara.",
+      "tim": 60,
+      "f": 0,
+      "w": 1,
+      "e": {
+       "k": "bol",
+       "c": "#BFDDF2",
+       "i": [
+        [
+         "nora",
+         4
+        ]
+       ]
+      },
       "ab": "La ñora da el color y el dulzor ahumado de la salsa. La piel no se usa, solo la carne."
      },
      {
       "t": "Asa el tomate y los ajos",
       "m": 20,
       "x": "Mientras, asa tomate maduro y dientes de ajo con piel en el horno a 200 °C unos veinte minutos. Pélalos.",
+      "tim": 20,
+      "f": "h200",
+      "w": 1,
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "i": [
+        [
+         "tomate",
+         2,
+         1.4
+        ],
+        [
+         "ajo",
+         4,
+         1.3
+        ]
+       ]
+      },
       "ab": "Hay pueblos que los usan crudos y pueblos que los asan. Asados dan una salsa más dulce y redonda."
      },
      {
       "t": "Maja en el mortero",
       "m": 15,
-      "x": "En el mortero, maja los ajos con sal y luego almendras tostadas, avellanas tostadas, rebanada de pan tostado, la carne de ñora y el tomate. Ve añadiendo aceite de oliva virgen extra en hilo y vinagre de vino hasta tener una pasta espesa.",
+      "x": "En el mortero, maja los ajos con sal y luego {almendra}, {avellana}, {pans}, la carne de ñora y el tomate. Ve añadiendo {aceite} en hilo y {vinagre} hasta tener una pasta espesa.",
+      "f": 0,
+      "e": {
+       "k": "mortero",
+       "c": "#B4542C",
+       "i": [
+        [
+         "almendra",
+         4
+        ],
+        [
+         "avellana",
+         3
+        ],
+        [
+         "ajo",
+         2
+        ]
+       ],
+       "fuera": [
+        [
+         "almendra",
+         3
+        ]
+       ],
+       "fuera2": [
+        [
+         "avellana",
+         3
+        ]
+       ],
+       "vierte": "aceite"
+      },
       "ab": "Siempre en el mortero y con paciencia: la textura algo rústica es la gracia. Cada familia defiende su punto de vinagre."
      }
     ]
    },
    {
     "n": "Montar",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Escarola crujiente",
       "m": 10,
-      "x": "Lava escarola, trocéala y déjala unos minutos en agua muy fría. Escúrrela bien.",
+      "x": "Lava {escarola}, trocéala y déjala unos minutos en agua muy fría. Escúrrela bien.",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#BFDDF2",
+       "i": [
+        [
+         "escarola",
+         5
+        ]
+       ]
+      },
       "ab": "El agua helada la riza y la deja crujiente, como tiene que estar en un buen xató."
      },
      {
       "t": "Monta y sirve",
       "m": 5,
-      "x": "Pon la escarola en una fuente con bacalao desalado desmigado, atún en aceite, anchoas y olivas arbequinas. Añade la salsa justo al servir y mezcla en la mesa.",
+      "x": "Pon la escarola en una fuente con {bacalao} desmigado, {atun}, {anchoa} y {aceituna}. Añade la salsa justo al servir y mezcla en la mesa.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "fuente",
+       "i": [
+        [
+         "escarola",
+         4
+        ],
+        [
+         "bacalao",
+         4
+        ],
+        [
+         "atun",
+         3
+        ],
+        [
+         "anchoa",
+         3
+        ],
+        [
+         "aceituna",
+         5
+        ]
+       ],
+       "salsera": "#B4542C"
+      },
       "ab": "La salsa en el último momento, o la escarola se ablanda."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Plato de invierno",
-    "texto": "De enero a marzo hay xatonadas populares en Vilanova i la Geltrú, Sitges, Vilafranca y El Vendrell."
-   },
-   {
-    "titulo": "Primo del romesco",
-    "texto": "La salsa es pariente del romesco de Tarragona: ñora, frutos secos, ajo, pan y aceite. Cambian las proporciones y el uso."
-   },
-   {
-    "titulo": "La salsa aguanta",
-    "texto": "Hecha la víspera está todavía mejor. Guárdala tapada en la nevera."
    }
   ]
  },
  {
   "id": "zarangollo",
-  "nombre": "Zarangollo murciano",
-  "subtitulo": "calabacín y cebolla pochados con huevo",
-  "region": "mur",
+  "n": "Zarangollo murciano",
+  "sub": "calabacín y cebolla pochados con huevo",
+  "reg": "mur",
   "lugar": "Región de Murcia",
-  "categoria": "huerta",
-  "dificultad": 1,
-  "raciones": 4,
-  "tiempo_min": 70,
-  "tags": [
-   "calabacin",
-   "cebolla",
-   "huevo",
-   "aceite",
-   "sal",
-   "patata"
+  "cat": "huerta",
+  "dif": 1,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "c": "#E7C66A",
+   "i": [
+    [
+     "calabacin",
+     6
+    ],
+    [
+     "cebolla",
+     3,
+     1,
+     "o-pochada"
+    ],
+    [
+     "yema",
+     3
+    ]
+   ],
+   "pan": 1
+  },
+  "regs": [
+   "mur"
   ],
   "intro": "De la huerta murciana: calabacín y cebolla pochados muy despacio, casi confitados, y el huevo al final, cuajado lo justo.",
-  "ingredientes": [
-   "1 kg de calabacines",
-   "2 cebollas",
-   "4 huevos",
-   "5 cda de aceite de oliva",
-   "sal",
-   "1 patata (opcional)"
+  "secretos": [
+   [
+    "Calabacín tierno",
+    "Mejor pequeños y firmes: tienen menos agua y menos semillas."
+   ],
+   [
+    "Fuego mínimo",
+    "El zarangollo se hace, no se fríe. Si chisporrotea, el fuego está alto."
+   ],
+   [
+    "Templado",
+    "Recién hecho está bueno, pero templado sabe más a huerta."
+   ]
+  ],
+  "ing": [
+   [
+    "calabacin",
+    "calabacines",
+    1,
+    "kg"
+   ],
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "huevo",
+    "huevo|huevos",
+    4,
+    "ud"
+   ],
+   [
+    "aceite",
+    "aceite de oliva",
+    5,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ],
+   [
+    "patata",
+    "patata (opcional)|patatas (opcional)",
+    1,
+    "ud",
+    0.5
+   ]
   ],
   "fases": [
    {
     "n": "Pochar",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Corta muy fino",
       "m": 15,
-      "x": "Corta calabacines en láminas finas o medias lunas y cebollas en juliana fina.",
-      "ab": "Muy fino, para que se haga casi una crema. En algunas casas añaden patata (opcional) en láminas."
+      "x": "Corta {calabacin} en láminas finas o medias lunas y {cebolla} en juliana fina.",
+      "f": 0,
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "calabacin",
+         6
+        ],
+        [
+         "cebolla",
+         6
+        ]
+       ]
+      },
+      "ab": "Muy fino, para que se haga casi una crema. En algunas casas añaden {patata} en láminas."
      },
      {
       "t": "La cebolla, a fuego suave",
       "m": 15,
-      "x": "Pocha la cebolla en aceite de oliva a fuego suave, sin que coja color."
+      "x": "Pocha la cebolla en {aceite} a fuego suave, sin que coja color.",
+      "tim": 15,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 2,
+       "c": "#E3C062",
+       "i": [
+        [
+         "cebolla",
+         8,
+         1,
+         "o-pochada"
+        ]
+       ],
+       "cuchara": 1
+      }
      },
      {
       "t": "Calabacín, despacio",
       "m": 35,
       "x": "Añade el calabacín con sal, tapa y deja que se haga a fuego mínimo unos 35 minutos, removiendo de vez en cuando, hasta que esté muy tierno y haya soltado el agua.",
+      "tim": 35,
+      "f": 1,
+      "w": 1,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 1,
+       "c": "#D9CF8A",
+       "i": [
+        [
+         "calabacin",
+         9
+        ],
+        [
+         "cebolla",
+         4,
+         1,
+         "o-pochada"
+        ]
+       ]
+      },
       "ab": "Tapado al principio para que sude y destapado al final para que se vaya el agua. Sin prisa, que no se dore."
      }
     ]
    },
    {
     "n": "El huevo",
-    "pasos": [
+    "tipo": "tu",
+    "p": [
      {
       "t": "Cuaja el huevo",
       "m": 3,
-      "x": "Bate ligeramente huevos, échalos sobre la verdura y remueve con suavidad hasta que empiecen a cuajar. Apaga enseguida.",
+      "x": "Bate ligeramente {huevo}, échalos sobre la verdura y remueve con suavidad hasta que empiecen a cuajar. Apaga enseguida.",
+      "tim": 3,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 2,
+       "c": "#E7C66A",
+       "i": [
+        [
+         "calabacin",
+         6
+        ],
+        [
+         "yema",
+         4
+        ]
+       ],
+       "vierte": "huevo"
+      },
       "ab": "Tiene que quedar jugoso, como un revuelto poco hecho: termina de cuajar con el calor."
      },
      {
       "t": "Sirve",
       "m": 2,
       "x": "Sírvelo templado, con pan.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "c": "#E7C66A",
+       "i": [
+        [
+         "calabacin",
+         6
+        ],
+        [
+         "cebolla",
+         3,
+         1,
+         "o-pochada"
+        ],
+        [
+         "yema",
+         3
+        ]
+       ],
+       "pan": 1
+      },
       "ab": "En Murcia se toma de tapa en las barras o como cena ligera."
      }
     ]
-   }
-  ],
-  "secretos": [
-   {
-    "titulo": "Calabacín tierno",
-    "texto": "Mejor pequeños y firmes: tienen menos agua y menos semillas."
-   },
-   {
-    "titulo": "Fuego mínimo",
-    "texto": "El zarangollo se hace, no se fríe. Si chisporrotea, el fuego está alto."
-   },
-   {
-    "titulo": "Templado",
-    "texto": "Recién hecho está bueno, pero templado sabe más a huerta."
    }
   ]
  }

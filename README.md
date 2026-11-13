@@ -3,35 +3,56 @@
 Las recetas de la abuela, guardadas para siempre y servidas como web:
 **cocina de siempre, paso a paso**, con los trucos que no salen en los libros.
 
-🍳 **Web:** https://recetario-abuela.pages.dev/
+## Qué tiene
+
+- **Mapa de España interactivo**: toca una comunidad y salen sus platos; las que
+  cocinas se sellan en color vino (pasaporte con logros incluido).
+- **23 recetas ilustradas**, cada paso con su dibujo hecho a mano para el recetario.
+- **Organiza el día**: di a qué hora quieres comer y te dice a qué hora empezar,
+  con la cronología por fases (incluidos los remojos de la víspera).
+- **Modo cocina** paso a paso, con temporizadores que suenan y cantidades que se
+  ajustan a tus raciones.
+- Buscador y filtros por tipo de plato y por tiempo.
+
+Todo funciona en local en el navegador (localStorage): sellos, «tengo esto»,
+raciones y temporizadores.
 
 ## Cómo está montado
 
-- `recipes/` — las recetas, un archivo Markdown por plato. **Esta es la fuente de verdad.**
-- `scripts/build.py` — convierte los Markdown en `data/recipes.json` (sin dependencias).
-- `index.html`, `styles.css`, `app.js` — la web estática (buscador, filtros y vista por receta).
-- `.github/workflows/pages.yml` — en cada push a `main` regenera el JSON y publica la web en GitHub Pages.
+- `recipes/` — las recetas, un archivo Markdown por plato. **Fuente de verdad del texto.**
+- `data/enriquecido.json` — datos estructurados del recetario original (cantidades por
+  ración, temporizadores, escenas ilustradas, métodos alternativos), indexado por id.
+- `scripts/build.py` — combina ambos en `data/recipes.json` y deja el sitio estático
+  listo en `_site/` (sin dependencias, solo Python 3).
+- `index.html`, `styles.css`, `js/` — la web estática (sin build de JS ni frameworks).
+
+## Despliegue
+
+El sitio es 100% estático. Para publicarlo (p. ej. Cloudflare Pages):
+
+- **Comando de build:** `python3 scripts/build.py`
+- **Directorio de salida:** `_site`
 
 ## Añadir una receta
 
 1. Copia `recipes/_plantilla.md` a `recipes/nombre-del-plato.md`.
 2. Rellena el front matter (nombre, categoría, región, tiempos…) y el cuerpo:
    ingredientes, elaboración por fases y secretos de la abuela.
-3. Haz push a `main`. La web se actualiza sola en un par de minutos.
+3. `python3 scripts/build.py` y sube los cambios.
 
 Las líneas que empiezan por `>` dentro de un paso se muestran como
-**«Dice la abuela»**: ahí van sus trucos, con sus palabras.
+**«Así lo hace la abuela»**: ahí van sus trucos, con sus palabras.
 
 ### Categorías y regiones
 
 - Categorías: `picar`, `cuchara`, `huerta`, `carne`, `postre`, `mar`, `arroz`.
 - Regiones: `es`, `and`, `mad`, `ast`, `pv`, `val`, `ara`, `bal`, `cnr`, `can`,
-  `clm`, `cyl`, `cat`, `ext`, `gal`, `mur`, `rio`.
+  `clm`, `cyl`, `cat`, `ext`, `gal`, `mur`, `rio`, `nav`.
 
 ## Probar en local
 
 ```bash
 python3 scripts/build.py
-python3 -m http.server 8000
+cd _site && python3 -m http.server 8000
 # abre http://localhost:8000
 ```
