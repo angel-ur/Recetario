@@ -27,15 +27,15 @@ El plato de los inviernos cántabros: alubias blancas con berza y el compango (c
 
 ### Las alubias
 
-1. **Pon a cocer** (90 min) - Cubre las alubias con agua fría con la carne y la cebolla. Cuece a fuego muy suave, "asustándolas" con agua fría cuando hierva.
+1. **Pon a cocer** (90 min) - Pon 400 g de alubias en una olla con 2 litros de agua fría, el tocino, la costilla y la cebolla entera. Cuece a fuego muy suave 1 hora y media, "asustándolas" con un chorrito (100 ml) de agua fría cada vez que rompa a hervir.
    > Asustar es echar un chorrito de agua fría: así la piel no se rompe.
 
 ### La berza y el compango
 
-2. **Cuece la berza** (25 min) - Aparte, cuece la berza troceada con sal. Escurre.
-3. **Sofrito** (10 min) - Sofríe ajo en aceite, aparta del fuego y añade el pimentón. Sirve sobre la berza.
+2. **Cuece la berza** (25 min) - Aparte, cuece la berza troceada en abundante agua con 1 cucharada de sal 20-25 minutos. Escurre.
+3. **Sofrito** (10 min) - Sofríe 3 ajos laminados en 4 cucharadas de aceite hasta que se doren, aparta del fuego y añade 1 cucharadita de pimentón. Sirve sobre la berza.
    > La berza se rehoga al final, con ajo y pimentón.
-4. **Patatas y chorizo** (30 min) - Añade las patatas, el chorizo y la morcilla a las alubias y cuece hasta que todo esté tierno.
+4. **Patatas y chorizo** (30 min) - Añade las 3 patatas chascadas, el chorizo y la morcilla a las alubias y cuece 30 minutos, hasta que todo esté tierno.
 
 ## Secretos de la abuela
 

@@ -24,13 +24,13 @@ Plato de las bodegas de La Rioja: chuletillas de cordero lechal asadas sobre bra
 
 ### La brasa
 
-1. **Enciende** (20 min) - Prende los sarmientos en la parrilla y deja que se hagan brasa.
+1. **Enciende** (20 min) - Prende un buen puñado de sarmientos (unos 2 kg) en la parrilla y deja que se hagan brasa hasta que estén cubiertos de ceniza blanca.
    > Sin llama: solo brasa roja, o la carne se quema por fuera y queda cruda por dentro.
 
 ### Las chuletillas
 
-2. **Sala** (2 min) - Sala las chuletillas justo antes de ponerlas.
-3. **Asa** (6 min) - Colócalas sobre la parrilla y dales la vuelta cuando estén doradas.
+2. **Sala** (2 min) - Sala las 16 chuletillas con 1 cucharadita de sal gorda en total, justo antes de ponerlas.
+3. **Asa** (6 min) - Colócalas sobre la parrilla a unos 10 cm de la brasa y dales la vuelta cuando estén doradas.
    > Poco tiempo: 2 a 3 minutos por lado.
 4. **Sirve** (2 min) - Sírvelas enseguida, calientes, con pimientos o patatas.
    > Se comen con la mano, sin cubiertos.

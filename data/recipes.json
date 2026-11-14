@@ -2344,7 +2344,7 @@
      {
       "t": "Enciende",
       "m": 20,
-      "x": "Prende los sarmientos en la parrilla y deja que se hagan brasa.",
+      "x": "Prende un buen puñado de sarmientos (unos 2 kg) en la parrilla y deja que se hagan brasa hasta que estén cubiertos de ceniza blanca.",
       "ab": "Sin llama: solo brasa roja, o la carne se quema por fuera y queda cruda por dentro.",
       "f": 5,
       "e": {
@@ -2370,7 +2370,7 @@
      {
       "t": "Sala",
       "m": 2,
-      "x": "Sala las chuletillas justo antes de ponerlas.",
+      "x": "Sala las 16 chuletillas con 1 cucharadita de sal gorda en total, justo antes de ponerlas.",
       "f": 0,
       "e": {
        "k": "plato",
@@ -2387,7 +2387,7 @@
      {
       "t": "Asa",
       "m": 6,
-      "x": "Colócalas sobre la parrilla y dales la vuelta cuando estén doradas.",
+      "x": "Colócalas sobre la parrilla a unos 10 cm de la brasa y dales la vuelta cuando estén doradas.",
       "ab": "Poco tiempo: 2 a 3 minutos por lado.",
       "f": 5,
       "e": {
@@ -3030,7 +3030,7 @@
      {
       "t": "Pon a cocer",
       "m": 90,
-      "x": "Cubre las alubias con agua fría con la carne y la cebolla. Cuece a fuego muy suave, \"asustándolas\" con agua fría cuando hierva.",
+      "x": "Pon 400 g de alubias en una olla con 2 litros de agua fría, el tocino, la costilla y la cebolla entera. Cuece a fuego muy suave 1 hora y media, \"asustándolas\" con un chorrito (100 ml) de agua fría cada vez que rompa a hervir.",
       "ab": "Asustar es echar un chorrito de agua fría: así la piel no se rompe.",
       "f": 0,
       "e": {
@@ -3053,7 +3053,7 @@
      {
       "t": "Cuece la berza",
       "m": 25,
-      "x": "Aparte, cuece la berza troceada con sal. Escurre.",
+      "x": "Aparte, cuece la berza troceada en abundante agua con 1 cucharada de sal 20-25 minutos. Escurre.",
       "f": 2,
       "e": {
        "k": "fuego",
@@ -3072,7 +3072,7 @@
      {
       "t": "Sofrito",
       "m": 10,
-      "x": "Sofríe ajo en aceite, aparta del fuego y añade el pimentón. Sirve sobre la berza.",
+      "x": "Sofríe 3 ajos laminados en 4 cucharadas de aceite hasta que se doren, aparta del fuego y añade 1 cucharadita de pimentón. Sirve sobre la berza.",
       "ab": "La berza se rehoga al final, con ajo y pimentón.",
       "f": 2,
       "e": {
@@ -3093,7 +3093,7 @@
      {
       "t": "Patatas y chorizo",
       "m": 30,
-      "x": "Añade las patatas, el chorizo y la morcilla a las alubias y cuece hasta que todo esté tierno.",
+      "x": "Añade las 3 patatas chascadas, el chorizo y la morcilla a las alubias y cuece 30 minutos, hasta que todo esté tierno.",
       "f": 2,
       "e": {
        "k": "fuego",
@@ -3775,7 +3775,7 @@
      {
       "t": "Amasa",
       "m": 15,
-      "x": "Mezcla harina, sal, agua templada y aceite. Amasa hasta que no se pegue.",
+      "x": "Mezcla 500 g de harina, 1 cucharadita de sal, 250 ml de agua templada y 60 ml de aceite. Amasa 10 minutos hasta que no se pegue.",
       "ab": "Tiene que quedar blanda y elástica, como el lóbulo de la oreja.",
       "f": 0,
       "e": {
@@ -3805,7 +3805,7 @@
      {
       "t": "Sofrito largo",
       "m": 40,
-      "x": "Pica cebolla y pimiento fino y pocha a fuego suave con aceite hasta que estén muy tiernos. Añade una pizca de pimentón y el tomate.",
+      "x": "Pica las 3 cebollas y los 2 pimientos fino y pocha a fuego suave con 5 cucharadas de aceite 35-40 minutos, hasta que estén muy tiernos. Retira del fuego, añade 1 cucharadita de pimentón y las 3 cucharadas de tomate.",
       "ab": "Sin prisa: la cebolla tiene que deshacerse. Si queda cruda por dentro, la empanada sale dura.",
       "f": 2,
       "e": {
@@ -3831,7 +3831,7 @@
      {
       "t": "Une el atún",
       "m": 5,
-      "x": "Fuera del fuego, mezcla el atún desmenuzado y el huevo duro picado. Deja templar.",
+      "x": "Fuera del fuego, mezcla las 3 latas de atún desmenuzado y los 2 huevos duros picados. Deja templar.",
       "ab": "Rellena siempre con el relleno frío, o la masa se reblandece.",
       "f": 0,
       "e": {
@@ -3859,7 +3859,7 @@
      {
       "t": "Estira y rellena",
       "m": 10,
-      "x": "Divide la masa en dos, estira muy fina, pon una en la bandeja, extiende el relleno y tapa con la otra.",
+      "x": "Divide la masa en dos (una algo más grande para la base), estira muy fina (2 mm), pon una en la bandeja, extiende el relleno y tapa con la otra.",
       "f": 0,
       "e": {
        "k": "formar"
@@ -3868,7 +3868,7 @@
      {
       "t": "Cierra",
       "m": 5,
-      "x": "Dobla el borde hacia dentro y repulgua. Haz un agujero en el centro y pinta con huevo.",
+      "x": "Dobla el borde hacia dentro y repulgua. Haz un agujero en el centro y pinta con el huevo batido.",
       "ab": "El agujero deja salir el vapor. Con un trocito de masa se hace el adorno del centro.",
       "f": 0,
       "e": {
@@ -3886,7 +3886,7 @@
      {
       "t": "Hornea",
       "m": 40,
-      "x": "A 200 °C. Hornea hasta que esté bien dorada. Deja templar antes de cortar.",
+      "x": "A 200 °C. Hornea a 200 °C, calor arriba y abajo, hasta que esté bien dorada. Deja templar antes de cortar.",
       "f": 0,
       "e": {
        "k": "horno",
