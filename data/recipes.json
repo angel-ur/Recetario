@@ -2671,7 +2671,7 @@
      {
       "t": "Garbanzos en remojo",
       "m": 720,
-      "x": "Pon {garbanzo} en remojo en abundante agua templada con un puñado de sal, unas doce horas.",
+      "x": "Pon los 500 g de garbanzos en un bol con 2 litros de agua templada y 1 cucharada de sal gorda, unas 12 horas (los garbanzos casi doblan su tamaño, deja sitio).",
       "f": 0,
       "pre": 1,
       "e": {
@@ -2695,7 +2695,7 @@
      {
       "t": "Carnes a la olla",
       "m": 15,
-      "x": "Pon en una olla grande {carne}, {pollo}, {tocino}, {hueso} y {huesoj}, cubiertos con {agua} fría. Llévalo a hervir y ve quitando la espuma que sube.",
+      "x": "Pon en una olla grande (de 6-7 litros) el morcillo, la gallina o los muslos, el tocino, el hueso de caña y la punta de jamón, cubiertos con 4 litros de agua fría. Llévalo a hervir a fuego fuerte (unos 20 minutos) y ve quitando la espuma gris que sube con una espumadera.",
       "tim": 15,
       "f": 4,
       "e": {
@@ -2723,12 +2723,12 @@
        ],
        "espuma": 1
       },
-      "ab": "Espumar bien al principio es lo que hace que el caldo salga limpio y no sepa a turbio."
+      "ab": "Espumar bien al principio es lo que hace que el caldo salga limpio y no sepa a turbio: la espuma es proteína que se corta con el calor. Empezar en frío deja que la carne suelte su sabor al agua; si metes la carne en agua hirviendo, se sella y el caldo sale más flojo."
      },
      {
       "t": "Garbanzos al agua caliente",
       "m": 5,
-      "x": "Cuando hierva, añade los garbanzos escurridos dentro de una malla, para sacarlos luego enteros.",
+      "x": "Cuando hierva y ya hayas quitado la espuma, escurre los garbanzos y añádelos dentro de una malla o red de cocido, para sacarlos luego enteros.",
       "f": 4,
       "e": {
        "k": "fuego",
@@ -2758,7 +2758,7 @@
      {
       "t": "A fuego suave",
       "m": 90,
-      "x": "Baja a fuego suave, tapa a medias y deja que cueza hora y media. Si hace falta, añade agua caliente, nunca fría.",
+      "x": "Baja a fuego suave (una burbuja perezosa cada pocos segundos), tapa a medias y deja que cueza 1 hora y media. Si baja el nivel y los garbanzos quedan al aire, añade agua caliente, nunca fría, medio litro cada vez.",
       "tim": 90,
       "f": 2,
       "w": 1,
@@ -2795,7 +2795,7 @@
      {
       "t": "La verdura al caldo",
       "m": 60,
-      "x": "Añade zanahorias y puerro enteros y deja otra hora, hasta que los garbanzos estén tiernos. En la última media hora, mete patatas medianas peladas y enteras.",
+      "x": "Añade 3 zanahorias y 1 puerro enteros y deja otra hora, hasta que los garbanzos se deshagan al apretarlos con los dedos (en total unas 2 horas y media desde que hierve). En la última media hora, mete 4 patatas medianas peladas y enteras.",
       "tim": 60,
       "f": 2,
       "w": 1,
@@ -2827,12 +2827,12 @@
        ],
        "tapa": 2
       },
-      "ab": "Patatas enteras, que cortadas se deshacen y enturbian el caldo."
+      "ab": "Patatas enteras y solo la última media hora: cortadas o más tiempo se deshacen y enturbian el caldo. Las zanahorias y el puerro enteros aguantan una hora sin deshacerse y le dan dulzor."
      },
      {
       "t": "Chorizo, morcilla y repollo, aparte",
       "m": 40,
-      "x": "Mientras, cuece chorizos para cocido y morcilla de cebolla en otra olla con agua, unos 30 minutos. Cuece también repollo pequeño troceado y luego rehógalo en una sartén con aceite de oliva y dientes de ajo laminado.",
+      "x": "Mientras, cuece 2 chorizos para cocido y 1 morcilla en otra olla con 1,5 litros de agua, 30 minutos a fuego suave (pínchalos con un palillo para que no revienten). Cuece 1 repollo pequeño troceado en agua con sal 15 minutos, escúrrelo y rehógalo 5 minutos en una sartén con 3 cucharadas de aceite de oliva y 2 dientes de ajo laminados.",
       "tim": 30,
       "f": 2,
       "e": {
@@ -2862,7 +2862,7 @@
      {
       "t": "Primer vuelco: la sopa",
       "m": 10,
-      "x": "Cuela parte del caldo en una cazuela, llévalo a hervir y cuece {fideo} tres o cuatro minutos. Sirve la sopa bien caliente.",
+      "x": "Cuela unos 1,5 litros del caldo en una cazuela, llévalo a hervir y cuece 150 g de fideo cabellín 3-4 minutos (unos 25 g por ración). Sirve la sopa bien caliente.",
       "tim": 4,
       "f": 4,
       "e": {
