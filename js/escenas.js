@@ -52,6 +52,13 @@
     S('patapollo', '-8 -12 16 24', '<g fill="none" stroke="#E2AE5C" stroke-linecap="round" stroke-linejoin="round"><path d="M0 11V-1" stroke-width="3.4"/><path d="M0-1L-6-9M0-1V-11M0-1L6-9" stroke-width="2.6"/></g>'),
     // Pescado y mar
     S('bonito', '-7 -6 14 12', '<rect x="-6.5" y="-5.5" width="13" height="11" rx="2.4" fill="#E9B9A6" stroke="#CC917C" stroke-width=".9"/><path d="M-4-2h8M-4 1.5h8" stroke="#F5D6CB" stroke-width="1.2"/>'),
+    S('cordero', '-13 -9 26 18', '<path d="M-12 1C-12-6-4-8 3-7S12-2 11 3 4 8-2 8-12 7-12 1Z" fill="#B0643F" stroke="#7E4126" stroke-width="1"/><path d="M-6-1c3 1 7 0 10 2" fill="none" stroke="#D99A74" stroke-width="1.3" stroke-linecap="round"/><rect x="5" y="-9" width="8" height="4" rx="2" fill="#F1E8D6" stroke="#D3C3A6" stroke-width=".7" transform="rotate(25 9 -7)"/>'),
+    S('chuleta', '-11 -9 22 18', '<path d="M-9 4C-12-3-6-8 1-8S10-4 9 2 3 8-3 8-8 7-9 4Z" fill="#C0724A" stroke="#8A4A2A" stroke-width="1"/><path d="M-4-2c3 0 6 1 8 3" fill="none" stroke="#E2A27F" stroke-width="1.2" stroke-linecap="round"/><rect x="-2" y="-14" width="4" height="9" rx="2" fill="#F1E8D6" stroke="#D3C3A6" stroke-width=".7"/>'),
+    S('costilla', '-14 -6 28 12', '<rect x="-13" y="-5" width="26" height="10" rx="3" fill="#B5503C" stroke="#7E2F22" stroke-width="1"/><path d="M-7-5V5M0-5V5M7-5V5" stroke="#F1E2CC" stroke-width="2.4"/>'),
+    S('callo', '-9 -6 18 12', '<path d="M-8 1c0-4 4-6 8-5s8 2 8 5-4 5-8 4-8-1-8-4z" fill="#E9DCC0" stroke="#C9B793" stroke-width=".9"/><path d="M-5-1l4 1M0 2l5-1" stroke="#D2C19C" stroke-width="1"/>'),
+    S('pescado', '-14 -7 28 14', '<path d="M-12 0C-6-7 6-7 10 0 6 7-6 7-12 0Z" fill="#B7C3CE" stroke="#8795A3" stroke-width="1"/><path d="M10 0l4-5v10z" fill="#8795A3"/><circle cx="-7" cy="-1.5" r="1.3" fill="#2B2F3A"/><path d="M-3-4c2 3 2 5 0 8" fill="none" stroke="#DDE5EC" stroke-width="1"/>'),
+    S('berza', '-10 -9 20 18', '<path d="M-9 3C-10-4-4-9 2-8S10-3 9 3 3 8-2 8-8 7-9 3Z" fill="#6FA14A" stroke="#4C7A30" stroke-width="1"/><path d="M0-7V7M0 0l-6-4M0 2l6-4" stroke="#C9E0A8" stroke-width="1.3" stroke-linecap="round"/>'),
+    S('empanada', '-18 -10 36 20', '<path d="M-17 4C-18-4-9-9 0-9S18-4 17 4 6 9 0 9-16 8-17 4Z" fill="#C98A34" stroke="#8E5A1C" stroke-width="1"/><path d="M-13 3C-12-3-6-6 0-6S12-3 13 3" fill="none" stroke="#E9B44E" stroke-width="2.4" stroke-linecap="round"/><path d="M-14 6q3 3 6 0t6 0 6 0 6 0 6 0" fill="none" stroke="#8E5A1C" stroke-width="1.2"/>'),
     S('bacalao', '-9 -5 18 10', '<path d="M-8 1c0-4 5-6 9-5s8 2 7 5-5 5-9 4-7-1-7-4z" fill="#F4F0E8" stroke="#D3CABA" stroke-width=".9"/><path d="M-4-1l7 1M-3 2l7 0" stroke="#E2DACB" stroke-width="1"/>'),
     S('anchoa', '-12 -3 24 6', '<path d="M-11 0C-6-3 5-3 9 0 5 3-6 3-11 0Z" fill="#8B6A55"/><path d="M9 0l3-2.6v5.2z" fill="#6E5242"/><path d="M-8 0h14" stroke="#C9B3A2" stroke-width=".9"/>'),
     S('atun', '-7 -5 14 10', '<path d="M-6 1c0-4 4-5 7-4s5 2 5 4-3 4-7 3-5-1-5-3z" fill="#C9937A" stroke="#AD7860" stroke-width=".8"/>'),
@@ -132,10 +139,10 @@
     perejil: [16, 16], laurel: [24, 8], romero: [26, 10], guindilla: [16, 6], nora: [16, 15], limon: [16, 15], piel: [22, 8],
     aceituna: [9, 7], almendra: [10, 7], avellana: [9, 9], garbanzo: [8, 7], lenteja: [6, 5], faba: [11, 8], arroz: [5, 3],
     fideo: [14, 6], pan: [24, 16], picatoste: [9, 8], huevo: [14, 18], huevofrito: [30, 20], yema: [12, 11], croqueta: [22, 12],
-    sobao: [26, 18], canela: [24, 7], azucar: [5, 5], mantequilla: [18, 12], uva: [16, 16],
+    sobao: [26, 18], cordero: [28, 19], chuleta: [22, 22], costilla: [28, 12], callo: [18, 12], pescado: [28, 14], berza: [20, 18], empanada: [50, 28], canela: [24, 7], azucar: [5, 5], mantequilla: [18, 12], uva: [16, 16],
     tuetano: [16, 16], oreja: [22, 18], manita: [27, 10], patapollo: [13, 20], apio: [12, 8], jengibre: [20, 13], pimienta: [5, 5], azafran: [10, 5]
   };
-  var GIRA = { pimiento: 1, judia: 1, laurel: 1, romero: 1, anchoa: 1, guindilla: 1, piel: 1, canela: 1, croqueta: 1, fideo: 1, cebolla: 1, bacalao: 1, arroz: 1, tocino: 1,
+  var GIRA = { costilla: 1, callo: 1, pescado: 1, chuleta: 1, pimiento: 1, judia: 1, laurel: 1, romero: 1, anchoa: 1, guindilla: 1, piel: 1, canela: 1, croqueta: 1, fideo: 1, cebolla: 1, bacalao: 1, arroz: 1, tocino: 1,
     manita: 1, patapollo: 1, azafran: 1, jengibre: 1 };
 
   /* ---------- Utilidades ---------- */

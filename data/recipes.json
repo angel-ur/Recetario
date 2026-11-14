@@ -141,7 +141,34 @@
     "Ajo asado",
     "se come con el arroz, untado."
    ]
-  ]
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#E5B54C",
+   "i": [
+    [
+     "arroz",
+     40
+    ],
+    [
+     "garbanzo",
+     10
+    ],
+    [
+     "costilla",
+     3
+    ],
+    [
+     "morcilla",
+     2
+    ],
+    [
+     "ajo",
+     2
+    ]
+   ]
+  }
  },
  {
   "id": "arrozleche",
@@ -530,7 +557,33 @@
     "Pan",
     "para la salsa."
    ]
-  ]
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#B5402F",
+   "i": [
+    [
+     "cordero",
+     6
+    ],
+    [
+     "pimiento",
+     3,
+     1,
+     "rojo"
+    ],
+    [
+     "ajo",
+     3
+    ],
+    [
+     "perejil",
+     1,
+     0.8
+    ]
+   ]
+  }
  },
  {
   "id": "caldero",
@@ -682,7 +735,30 @@
     "Sin prisa",
     "el fumet es lo que hace el arroz."
    ]
-  ]
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#E3A83C",
+   "i": [
+    [
+     "arroz",
+     40
+    ],
+    [
+     "pescado",
+     3
+    ],
+    [
+     "nora",
+     2
+    ],
+    [
+     "ajo",
+     2
+    ]
+   ]
+  }
  },
  {
   "id": "caldo",
@@ -1366,7 +1442,30 @@
     "Pan",
     "para untar, sin cuchara de postre."
    ]
-  ]
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#B0442A",
+   "i": [
+    [
+     "callo",
+     14
+    ],
+    [
+     "chorizo",
+     3
+    ],
+    [
+     "morcilla",
+     2
+    ],
+    [
+     "laurel",
+     1
+    ]
+   ]
+  }
  },
  {
   "id": "chilindron",
@@ -1782,7 +1881,23 @@
     "Sin nada",
     "sal gorda, y ya está."
    ]
-  ]
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "madera",
+   "i": [
+    [
+     "chuleta",
+     8
+    ],
+    [
+     "pimiento",
+     3,
+     1,
+     "rojo"
+    ]
+   ]
+  }
  },
  {
   "id": "cocido",
@@ -2360,7 +2475,37 @@
     "Al día siguiente",
     "recalentado, mejor."
    ]
-  ]
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "fuente",
+   "i": [
+    [
+     "faba",
+     22
+    ],
+    [
+     "berza",
+     4
+    ],
+    [
+     "chorizo",
+     2
+    ],
+    [
+     "morcilla",
+     2
+    ],
+    [
+     "tocino",
+     2
+    ],
+    [
+     "costilla",
+     2
+    ]
+   ]
+  }
  },
  {
   "id": "cremacatalana",
@@ -2987,7 +3132,17 @@
     "Frío no, templado",
     "cortada con paciencia, sin que se desmigue."
    ]
-  ]
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "madera",
+   "i": [
+    [
+     "empanada",
+     4
+    ]
+   ]
+  }
  },
  {
   "id": "fabada",
@@ -3415,7 +3570,22 @@
     "El torrezno",
     "crujiente, para contrastar."
    ]
-  ]
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cuenco",
+   "c": "#D9B56A",
+   "i": [
+    [
+     "tocino",
+     5
+    ],
+    [
+     "ajo",
+     2
+    ]
+   ]
+  }
  },
  {
   "id": "gazpacho",
@@ -3797,7 +3967,22 @@
     "Con ensalada",
     "lechuga y cebolla, sin nada más."
    ]
-  ]
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#C98A52",
+   "i": [
+    [
+     "cordero",
+     5
+    ],
+    [
+     "laurel",
+     1
+    ]
+   ]
+  }
  },
  {
   "id": "lentejas",
@@ -5547,7 +5732,26 @@
     "Desalado bien",
     "24 a 48 horas, cambiando el agua."
    ]
-  ]
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#E9D9A8",
+   "i": [
+    [
+     "bacalao",
+     4
+    ],
+    [
+     "ajo",
+     4
+    ],
+    [
+     "guindilla",
+     2
+    ]
+   ]
+  }
  },
  {
   "id": "pisto",
@@ -7021,7 +7225,35 @@
     "Con mojo",
     "algunos lo acompañan con mojo picón."
    ]
-  ]
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "fuente",
+   "i": [
+    [
+     "garbanzo",
+     18
+    ],
+    [
+     "carne",
+     4
+    ],
+    [
+     "patata",
+     4
+    ],
+    [
+     "pimiento",
+     2,
+     1,
+     "rojo"
+    ],
+    [
+     "tomate",
+     2
+    ]
+   ]
+  }
  },
  {
   "id": "sobaos",
@@ -7644,7 +7876,32 @@
     "Poco caldo",
     "son sopas, pero casi se comen con tenedor."
    ]
-  ]
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#B5502E",
+   "i": [
+    [
+     "pan",
+     4
+    ],
+    [
+     "berza",
+     3
+    ],
+    [
+     "tomate",
+     2
+    ],
+    [
+     "pimiento",
+     3,
+     1,
+     "rojo"
+    ]
+   ]
+  }
  },
  {
   "id": "ternasco",
@@ -7751,7 +8008,25 @@
     "Jugo",
     "para las patatas, nunca se tira."
    ]
-  ]
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "fuente",
+   "i": [
+    [
+     "cordero",
+     4
+    ],
+    [
+     "patata",
+     8
+    ],
+    [
+     "ajo",
+     3
+    ]
+   ]
+  }
  },
  {
   "id": "tortilla",

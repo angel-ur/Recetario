@@ -1,0 +1,277 @@
+{
+ "empanadagallega": {
+  "k": "plato",
+  "v": "madera",
+  "i": [
+   [
+    "empanada",
+    4
+   ]
+  ]
+ },
+ "callos": {
+  "k": "plato",
+  "v": "cazuela",
+  "c": "#B0442A",
+  "i": [
+   [
+    "callo",
+    14
+   ],
+   [
+    "chorizo",
+    3
+   ],
+   [
+    "morcilla",
+    2
+   ],
+   [
+    "laurel",
+    1
+   ]
+  ]
+ },
+ "lechazo": {
+  "k": "plato",
+  "v": "cazuela",
+  "c": "#C98A52",
+  "i": [
+   [
+    "cordero",
+    5
+   ],
+   [
+    "laurel",
+    1
+   ]
+  ]
+ },
+ "caldereta": {
+  "k": "plato",
+  "v": "cazuela",
+  "c": "#B5402F",
+  "i": [
+   [
+    "cordero",
+    6
+   ],
+   [
+    "pimiento",
+    3,
+    1,
+    "rojo"
+   ],
+   [
+    "ajo",
+    3
+   ],
+   [
+    "perejil",
+    1,
+    0.8
+   ]
+  ]
+ },
+ "pilpil": {
+  "k": "plato",
+  "v": "cazuela",
+  "c": "#E9D9A8",
+  "i": [
+   [
+    "bacalao",
+    4
+   ],
+   [
+    "ajo",
+    4
+   ],
+   [
+    "guindilla",
+    2
+   ]
+  ]
+ },
+ "arrozhorno": {
+  "k": "plato",
+  "v": "cazuela",
+  "c": "#E5B54C",
+  "i": [
+   [
+    "arroz",
+    40
+   ],
+   [
+    "garbanzo",
+    10
+   ],
+   [
+    "costilla",
+    3
+   ],
+   [
+    "morcilla",
+    2
+   ],
+   [
+    "ajo",
+    2
+   ]
+  ]
+ },
+ "ternasco": {
+  "k": "plato",
+  "v": "fuente",
+  "i": [
+   [
+    "cordero",
+    4
+   ],
+   [
+    "patata",
+    8
+   ],
+   [
+    "ajo",
+    3
+   ]
+  ]
+ },
+ "caldero": {
+  "k": "plato",
+  "v": "cazuela",
+  "c": "#E3A83C",
+  "i": [
+   [
+    "arroz",
+    40
+   ],
+   [
+    "pescado",
+    3
+   ],
+   [
+    "nora",
+    2
+   ],
+   [
+    "ajo",
+    2
+   ]
+  ]
+ },
+ "sopasmallorquinas": {
+  "k": "plato",
+  "v": "cazuela",
+  "c": "#B5502E",
+  "i": [
+   [
+    "pan",
+    4
+   ],
+   [
+    "berza",
+    3
+   ],
+   [
+    "tomate",
+    2
+   ],
+   [
+    "pimiento",
+    3,
+    1,
+    "rojo"
+   ]
+  ]
+ },
+ "cocidomontanes": {
+  "k": "plato",
+  "v": "fuente",
+  "i": [
+   [
+    "faba",
+    22
+   ],
+   [
+    "berza",
+    4
+   ],
+   [
+    "chorizo",
+    2
+   ],
+   [
+    "morcilla",
+    2
+   ],
+   [
+    "tocino",
+    2
+   ],
+   [
+    "costilla",
+    2
+   ]
+  ]
+ },
+ "gachas": {
+  "k": "plato",
+  "v": "cuenco",
+  "c": "#D9B56A",
+  "i": [
+   [
+    "tocino",
+    5
+   ],
+   [
+    "ajo",
+    2
+   ]
+  ]
+ },
+ "ropavieja": {
+  "k": "plato",
+  "v": "fuente",
+  "i": [
+   [
+    "garbanzo",
+    18
+   ],
+   [
+    "carne",
+    4
+   ],
+   [
+    "patata",
+    4
+   ],
+   [
+    "pimiento",
+    2,
+    1,
+    "rojo"
+   ],
+   [
+    "tomate",
+    2
+   ]
+  ]
+ },
+ "chuletillas": {
+  "k": "plato",
+  "v": "madera",
+  "i": [
+   [
+    "chuleta",
+    8
+   ],
+   [
+    "pimiento",
+    3,
+    1,
+    "rojo"
+   ]
+  ]
+ }
+}

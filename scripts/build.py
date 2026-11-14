@@ -25,6 +25,9 @@ OUT = ROOT / "data" / "recipes.json"
 ENRIQUECIDO = ROOT / "data" / "enriquecido.json"
 SITE = ROOT / "_site"
 
+HEROES_FILE = ROOT / "data" / "heroes_extra.json"
+HEROES_EXTRA = json.loads(HEROES_FILE.read_text(encoding="utf-8")) if HEROES_FILE.exists() else {}
+
 REQUIRED = ["id", "nombre", "categoria", "region", "dificultad", "tiempo_min"]
 
 
@@ -196,6 +199,7 @@ def fallback_recipe(meta, intro, ingredientes, fases_md, secretos_md):
         "fases": [{"n": f["n"], "tipo": "tu",
                    "p": [dict(p, f=0) for p in f["pasos"]]} for f in fases_md],
         "secretos": secretos_md,
+        "heroe": HEROES_EXTRA.get(meta["id"], {"k": "plato"}),
     }
 
 

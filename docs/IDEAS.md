@@ -21,7 +21,7 @@ Ya tenemos: raciones que recalculan, pasos ilustrados, temporizadores, modo coci
 9. Notas propias por receta ("a mi abuela le ponia mas ajo").
 
 ## P3
-10. Ilustraciones mas ricas por plato.
+10. Ilustraciones mas ricas por plato. [14 nov: las 13 recetas nuevas ya tienen ilustracion de portada (data/heroes_extra.json); faltan ilustraciones por paso]
 11. Buscador por ingrediente ("que tengo en la nevera").
 12. Impresion limpia / PDF.
 
