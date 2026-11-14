@@ -4583,7 +4583,7 @@
      {
       "t": "Remoja el pan",
       "m": 10,
-      "x": "Trocea {pan} y ponlo en remojo con {agua} mientras preparas las verduras.",
+      "x": "Trocea 50 g de pan del día anterior y ponlo en remojo con 200 ml de agua fría mientras preparas las verduras.",
       "f": 0,
       "e": {
        "k": "bol",
@@ -4601,7 +4601,7 @@
      {
       "t": "Trocea las verduras",
       "m": 10,
-      "x": "Trocea {tomate}, {pimiento} sin semillas, {pepino} pelado y {ajo} sin el germen.",
+      "x": "Trocea 1 kg de tomates pera muy maduros, 1 pimiento verde italiano sin semillas, medio pepino pelado y 1 diente de ajo sin el germen, en trozos de 3-4 cm.",
       "f": 0,
       "e": {
        "k": "tabla",
@@ -4635,7 +4635,7 @@
      {
       "t": "Tritura",
       "m": 5,
-      "x": "Tritura las verduras con el pan escurrido, {vinagre} y sal hasta que no quede ningún trozo.",
+      "x": "Tritura las verduras con el pan escurrido, 30 ml de vinagre de Jerez (2 cucharadas) y 1 cucharadita rasa de sal, 2 minutos, hasta que no quede ningún trozo.",
       "f": 0,
       "e": {
        "k": "bol",
@@ -4660,7 +4660,7 @@
      {
       "t": "Emulsiona con el aceite",
       "m": 3,
-      "x": "Con la batidora en marcha, añade {aceite} en un hilo fino. El color se vuelve anaranjado y la textura, cremosa.",
+      "x": "Con la batidora en marcha, añade los 100 ml de aceite de oliva virgen extra en un hilo fino. El color se vuelve anaranjado y la textura, cremosa.",
       "f": 0,
       "e": {
        "k": "bol",
@@ -4690,7 +4690,7 @@
      {
       "t": "Enfría",
       "m": 120,
-      "x": "Guárdalo en la nevera al menos dos horas. Si queda muy espeso, aligéralo con un poco de agua fría.",
+      "x": "Guárdalo en la nevera al menos 2 horas (mejor 4). Si queda muy espeso, aligéralo con agua fría, un chorrito (50 ml) cada vez.",
       "f": "n",
       "w": 1,
       "e": {
@@ -5525,7 +5525,7 @@
      {
       "t": "Caldo con las espinas",
       "m": 20,
-      "x": "Si en la pescadería te dan la espina y la cabeza del bonito, cuécelas veinte minutos en agua con una cebolla y un puerro, y cuela. Si no, usa {caldo} ya hecho o agua.",
+      "x": "Si en la pescadería te dan la espina y la cabeza del bonito, cuécelas 20 minutos en 1,5 litros de agua con media cebolla y un puerro, y cuela (saldrá 1 litro). Si no, usa 1 litro de caldo de pescado ya hecho, o agua.",
       "tim": 20,
       "f": 3,
       "e": {
@@ -5556,7 +5556,7 @@
      {
       "t": "El sofrito",
       "m": 15,
-      "x": "En una cazuela con aceite de oliva, pocha a fuego suave cebolla, pimiento verde, pimiento rojo y dientes de ajo, todo picado.",
+      "x": "En una cazuela con aceite de oliva, calienta 4 cucharadas de aceite y pocha a fuego suave 15 minutos 1 cebolla, 1 pimiento verde, medio pimiento rojo y 2 dientes de ajo, todo picado.",
       "tim": 15,
       "f": 2,
       "e": {
@@ -5593,7 +5593,7 @@
      {
       "t": "Choricero y patata chascada",
       "m": 5,
-      "x": "Añade {choricero}, remueve y echa {patata} chascada en trozos medianos. Rehoga dos minutos para que se impregne.",
+      "x": "Añade 2 cucharadas de carne de pimiento choricero, remueve y echa 1 kg de patatas chascadas en trozos de 3-4 cm. Rehoga 2 minutos para que se impregne.",
       "f": 3,
       "e": {
        "k": "fuego",
@@ -5620,7 +5620,7 @@
      {
       "t": "Cubre y cuece",
       "m": 25,
-      "x": "Cubre con el caldo caliente, sala con cuidado y deja cocer a fuego suave unos 25 minutos, hasta que la patata esté tierna.",
+      "x": "Cubre con el litro de caldo caliente, sala con cuidado (1 cucharadita rasa) y deja cocer a fuego suave unos 25 minutos, hasta que la patata esté tierna.",
       "tim": 25,
       "f": 2,
       "w": 1,
@@ -5648,7 +5648,7 @@
      {
       "t": "Bonito con el fuego apagado",
       "m": 5,
-      "x": "Apaga el fuego, añade {bonito} salado y tapa. Déjalo cinco minutos: se hace con el calor del guiso.",
+      "x": "Apaga el fuego, añade los 600 g de bonito en tacos de 3 cm, salados con una pizca, y tapa. Déjalo 5 minutos: se hace con el calor del guiso.",
       "tim": 5,
       "f": "a",
       "w": 1,
@@ -5832,7 +5832,7 @@
      {
       "t": "Humedece el pan",
       "m": 720,
-      "x": "Corta {pan} en láminas finas o en daditos, rocíalo con {agua} y tápalo con un paño húmedo toda la noche.",
+      "x": "Corta 500 g de pan de pueblo de dos o tres días en láminas finas o en daditos de 1 cm, rocíalo con 150 ml de agua con una pizca de sal (1 cucharadita en 150 ml) y tápalo con un paño húmedo toda la noche.",
       "f": 0,
       "pre": 1,
       "e": {
@@ -5845,7 +5845,7 @@
         ]
        ]
       },
-      "ab": "El pan tiene que quedar húmedo, no mojado. Si se empapa, las migas salen apelmazadas."
+      "ab": "El pan tiene que quedar húmedo, no mojado: el agua reparte la sal y deja que el pan se ablande por dentro sin deshacerse. Si se empapa, las migas salen apelmazadas."
      }
     ]
    },
@@ -5856,7 +5856,7 @@
      {
       "t": "Fríe los ajos y la carne",
       "m": 12,
-      "x": "En una sartén grande y honda con {aceite}, fríe los dientes de {ajo} enteros, chafados y con piel. Añade {panceta} y {chorizo} en trozos y fríelos. Sácalo todo y resérvalo.",
+      "x": "En una sartén grande y honda con 150 ml de aceite de oliva, fríe a fuego medio los dientes de 1 cabeza de ajos enteros, chafados y con piel, 3 minutos. Añade 150 g de panceta y 150 g de chorizo en trozos y fríelos 7-8 minutos. Sácalo todo y resérvalo.",
       "tim": 10,
       "f": 3,
       "e": {
@@ -5885,7 +5885,7 @@
      {
       "t": "Las migas, sin parar",
       "m": 25,
-      "x": "Echa el pan en ese aceite y ve dándole vueltas sin parar con una paleta, cortándolo y removiendo, unos 20 o 30 minutos, hasta que esté suelto y dorado.",
+      "x": "Echa el pan en ese aceite y ve dándole vueltas sin parar con una paleta, cortándolo y removiendo, unos 20-30 minutos a fuego medio-bajo, hasta que esté suelto y dorado.",
       "tim": 25,
       "f": 3,
       "e": {
@@ -5902,12 +5902,12 @@
        "cuchara": 1,
        "agita": 1
       },
-      "ab": "Las migas se hacen «a brazo»: no deja de moverlas y cortarlas con la rasera. Si paras, se pegan."
+      "ab": "Las migas se hacen «a brazo»: no deja de moverlas y cortarlas con la rasera. Si paras, se pegan: el pan se tuesta por fuera mientras por dentro sigue húmedo y hay que repartir el calor."
      },
      {
       "t": "Pimentón y carne",
       "m": 3,
-      "x": "Aparta del fuego, añade {pimenton}, mezcla y vuelve a poner los ajos, la panceta y el chorizo.",
+      "x": "Aparta del fuego, añade 1 cucharadita de pimentón dulce, mezcla y vuelve a poner los ajos, la panceta y el chorizo.",
       "f": "a",
       "e": {
        "k": "fuego",
@@ -7287,7 +7287,7 @@
      {
       "t": "Descongela en la nevera",
       "m": 1440,
-      "x": "Pasa {pulpo} a la nevera 24 horas antes para que se descongele despacio. Si lo compras fresco, congélalo unos días antes.",
+      "x": "Pasa los 2 kg de pulpo (mejor congelado) a la nevera 24 horas antes para que se descongele despacio. Si lo compras fresco, congélalo unos días antes.",
       "f": "n",
       "pre": 1,
       "e": {
@@ -7302,7 +7302,7 @@
        "t": "24 h",
        "luna": 1
       },
-      "ab": "Congelarlo lo ablanda. Antes las pulpeiras lo «mazaban»: lo golpeaban contra una piedra para romper las fibras."
+      "ab": "Congelarlo lo ablanda: los cristales de hielo rompen las fibras. Antes las pulpeiras lo «mazaban»: lo golpeaban contra una piedra para romper las fibras."
      }
     ]
    },
@@ -7313,7 +7313,7 @@
      {
       "t": "Asusta el pulpo",
       "m": 5,
-      "x": "Lleva a ebullición una olla grande con agua, sin sal. Coge el pulpo por la cabeza y mételo y sácalo del agua tres veces, contando hasta tres cada vez. Luego déjalo dentro.",
+      "x": "Lleva a ebullición una olla grande con 8-10 litros de agua (que el pulpo nade holgado), sin sal. Coge el pulpo por la cabeza y mételo y sácalo del agua tres veces, contando hasta tres cada vez. Luego déjalo dentro.",
       "f": 5,
       "e": {
        "k": "fuego",
@@ -7328,12 +7328,12 @@
         ]
        ]
       },
-      "ab": "Asustarlo hace que los tentáculos se ricen y que la piel no se despegue al cocer."
+      "ab": "Asustarlo hace que los tentáculos se ricen y que la piel no se despegue al cocer: el choque de calor sella la piel antes de que el agua la suelte. Sin sal porque endurece la carne."
      },
      {
       "t": "Cuece",
       "m": 40,
-      "x": "Cuece a fuego medio unos 40 minutos para un pulpo de 2 kg, unos 20 minutos por kilo. Pincha la parte gruesa de un tentáculo: debe entrar con facilidad, con un punto firme.",
+      "x": "Cuece a fuego medio, con el agua en hervor suave, unos 40 minutos para un pulpo de 2 kg (20 minutos por kilo). Pincha la parte gruesa de un tentáculo: debe entrar con facilidad, con un punto firme.",
       "tim": 40,
       "f": 3,
       "w": 1,
@@ -7357,7 +7357,7 @@
      {
       "t": "Reposa en su agua",
       "m": 10,
-      "x": "Apaga el fuego y déjalo reposar en el agua diez minutos. Sácalo y resérvalo.",
+      "x": "Apaga el fuego y déjalo reposar en el agua 10 minutos. Sácalo y resérvalo.",
       "tim": 10,
       "f": "a",
       "w": 1,
@@ -7378,7 +7378,7 @@
      {
       "t": "Cachelos en el agua del pulpo",
       "m": 25,
-      "x": "Cuece {patata} peladas y en trozos grandes en esa misma agua, unos 20 o 25 minutos, hasta que estén tiernas.",
+      "x": "Retira el pulpo, y cuece las 4 patatas peladas y en trozos grandes (4-5 cm) en esa misma agua, 20-25 minutos, hasta que estén tiernas.",
       "tim": 25,
       "f": 3,
       "e": {
@@ -7425,7 +7425,7 @@
      {
       "t": "Sal, pimentón y aceite",
       "m": 2,
-      "x": "Espolvorea {salg}, {pimenton} y {pimentonp}, y riega con {aceite}. A la mesa enseguida.",
+      "x": "Espolvorea 1 cucharadita de sal gorda, 1 cucharada de pimentón dulce y 1 cucharadita de pimentón picante, y riega con 80 ml de aceite de oliva virgen extra (unas 6 cucharadas). A la mesa enseguida.",
       "f": 0,
       "e": {
        "k": "plato",

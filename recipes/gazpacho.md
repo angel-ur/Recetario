@@ -31,23 +31,23 @@ Tomate muy maduro, pan del día anterior y el aceite al final, poco a poco, para
 
 ### Preparar
 
-1. **Remoja el pan** (10 min) - Trocea pan del día anterior y ponlo en remojo con agua fría mientras preparas las verduras.
+1. **Remoja el pan** (10 min) - Trocea 50 g de pan del día anterior y ponlo en remojo con 200 ml de agua fría mientras preparas las verduras.
    > El pan duro no se tira: le da cuerpo al gazpacho y lo vuelve más suave.
-2. **Trocea las verduras** (10 min) - Trocea tomates pera muy maduros, pimiento verde italiano sin semillas, pepino pelado y diente de ajo sin el germen.
+2. **Trocea las verduras** (10 min) - Trocea 1 kg de tomates pera muy maduros, 1 pimiento verde italiano sin semillas, medio pepino pelado y 1 diente de ajo sin el germen, en trozos de 3-4 cm.
    > Quitarle al ajo el brote verde del centro evita que repita.
 
 ### Triturar
 
-3. **Tritura** (5 min) - Tritura las verduras con el pan escurrido, vinagre de Jerez y sal hasta que no quede ningún trozo.
+3. **Tritura** (5 min) - Tritura las verduras con el pan escurrido, 30 ml de vinagre de Jerez (2 cucharadas) y 1 cucharadita rasa de sal, 2 minutos, hasta que no quede ningún trozo.
    > Ella lo pasaba por el pasapurés. Con batidora va en un minuto, pero luego hay que colarlo.
-4. **Emulsiona con el aceite** (3 min) - Con la batidora en marcha, añade aceite de oliva virgen extra en un hilo fino. El color se vuelve anaranjado y la textura, cremosa.
+4. **Emulsiona con el aceite** (3 min) - Con la batidora en marcha, añade los 100 ml de aceite de oliva virgen extra en un hilo fino. El color se vuelve anaranjado y la textura, cremosa.
    > El aceite al final y poco a poco es lo que hace que emulsione. Si lo echas de golpe, se separa.
 5. **Cuela** (5 min) - Pásalo por un colador fino o un chino, apretando con el dorso de un cazo. Prueba de sal y de vinagre.
    > Colado queda fino como la seda, sin pieles ni pepitas.
 
 ### A la nevera
 
-6. **Enfría** (120 min) - Guárdalo en la nevera al menos dos horas. Si queda muy espeso, aligéralo con un poco de agua fría.
+6. **Enfría** (120 min) - Guárdalo en la nevera al menos 2 horas (mejor 4). Si queda muy espeso, aligéralo con agua fría, un chorrito (50 ml) cada vez.
    > Nunca con hielo: lo agua y le quita sabor. Bien frío de nevera.
 7. **Sirve con tropezones** (5 min) - Sírvelo muy frío en vaso o en cuenco, con daditos de pepino, pimiento y pan aparte para que cada uno se ponga.
    > En muchas casas andaluzas se toma en vaso, a cualquier hora del verano.

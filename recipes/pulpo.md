@@ -26,25 +26,25 @@ Como en las ferias gallegas: el pulpo asustado tres veces, cortado con tijera so
 
 ### Antes de empezar
 
-1. **Descongela en la nevera** (1440 min) - Pasa pulpo (mejor congelado) a la nevera 24 horas antes para que se descongele despacio. Si lo compras fresco, congélalo unos días antes.
-   > Congelarlo lo ablanda. Antes las pulpeiras lo «mazaban»: lo golpeaban contra una piedra para romper las fibras.
+1. **Descongela en la nevera** (1440 min) - Pasa los 2 kg de pulpo (mejor congelado) a la nevera 24 horas antes para que se descongele despacio. Si lo compras fresco, congélalo unos días antes.
+   > Congelarlo lo ablanda: los cristales de hielo rompen las fibras. Antes las pulpeiras lo «mazaban»: lo golpeaban contra una piedra para romper las fibras.
 
 ### Cocer
 
-2. **Asusta el pulpo** (5 min) - Lleva a ebullición una olla grande con agua, sin sal. Coge el pulpo por la cabeza y mételo y sácalo del agua tres veces, contando hasta tres cada vez. Luego déjalo dentro.
-   > Asustarlo hace que los tentáculos se ricen y que la piel no se despegue al cocer.
-3. **Cuece** (40 min) - Cuece a fuego medio unos 40 minutos para un pulpo de 2 kg, unos 20 minutos por kilo. Pincha la parte gruesa de un tentáculo: debe entrar con facilidad, con un punto firme.
+2. **Asusta el pulpo** (5 min) - Lleva a ebullición una olla grande con 8-10 litros de agua (que el pulpo nade holgado), sin sal. Coge el pulpo por la cabeza y mételo y sácalo del agua tres veces, contando hasta tres cada vez. Luego déjalo dentro.
+   > Asustarlo hace que los tentáculos se ricen y que la piel no se despegue al cocer: el choque de calor sella la piel antes de que el agua la suelte. Sin sal porque endurece la carne.
+3. **Cuece** (40 min) - Cuece a fuego medio, con el agua en hervor suave, unos 40 minutos para un pulpo de 2 kg (20 minutos por kilo). Pincha la parte gruesa de un tentáculo: debe entrar con facilidad, con un punto firme.
    > Ni duro ni chicloso: tierno, pero que la piel no se deshaga.
-4. **Reposa en su agua** (10 min) - Apaga el fuego y déjalo reposar en el agua diez minutos. Sácalo y resérvalo.
+4. **Reposa en su agua** (10 min) - Apaga el fuego y déjalo reposar en el agua 10 minutos. Sácalo y resérvalo.
    > El reposo termina de ablandarlo y asienta la piel.
-5. **Cachelos en el agua del pulpo** (25 min) - Cuece patatas medianas para cachelos peladas y en trozos grandes en esa misma agua, unos 20 o 25 minutos, hasta que estén tiernas.
+5. **Cachelos en el agua del pulpo** (25 min) - Retira el pulpo, y cuece las 4 patatas peladas y en trozos grandes (4-5 cm) en esa misma agua, 20-25 minutos, hasta que estén tiernas.
    > El agua del pulpo les da a los cachelos un color rosado y un sabor que no se consigue de otra forma.
 
 ### Al plato
 
 6. **Corta con tijera** (5 min) - Corta los tentáculos en rodajas con unas tijeras, directamente sobre un plato de madera, con los cachelos en rodajas debajo.
    > La tijera y el plato de madera son de feria: la madera absorbe el agua y el pulpo no se enfría.
-7. **Sal, pimentón y aceite** (2 min) - Espolvorea sal gorda, pimentón dulce y pimentón picante, y riega con aceite de oliva virgen extra. A la mesa enseguida.
+7. **Sal, pimentón y aceite** (2 min) - Espolvorea 1 cucharadita de sal gorda, 1 cucharada de pimentón dulce y 1 cucharadita de pimentón picante, y riega con 80 ml de aceite de oliva virgen extra (unas 6 cucharadas). A la mesa enseguida.
    > El orden de las pulpeiras: primero la sal gorda, luego el pimentón y el aceite al final.
 
 ## Secretos de la abuela
