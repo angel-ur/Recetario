@@ -643,3 +643,7 @@ details.plan[open] > summary { margin-bottom: 12px; }
 .alt { width: 100%; text-align: left; display: flex; justify-content: space-between; gap: 8px; font: 600 15px/1.25 system-ui, sans-serif; color: inherit; background: #fffdf6; border: 1.5px solid var(--linea); border-radius: 12px; padding: 10px 12px; min-height: 44px; touch-action: manipulation; cursor: pointer; }
 .alt span { font-weight: 500; opacity: .7; white-space: nowrap; }
 .alt[aria-pressed="true"] { border-color: var(--anil); background: #eef2fb; }
+.fila-ac { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.fila-ac .cambia { margin-left: 0; }
+.ab-si, .ab-no, .ab-na { font: 700 12px/1 system-ui, sans-serif; padding: 3px 8px; border-radius: 999px; white-space: nowrap; }
+.ab-si { background: #e3f1dc; color: #2f6a24; } .ab-no { background: #f8dcd7; color: #9a2a1b; } .ab-na { background: #eee8d8; color: #6a6250; }
