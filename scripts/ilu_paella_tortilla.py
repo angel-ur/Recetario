@@ -50,7 +50,7 @@ R = random.Random(5); o = []; a = o.append
 a(mesa(R, ('#EBD7B0', '#CFA874')))
 a('<defs>' + rad('pl', '#FFFFFF', '#E1D9C8') + grad('tor', '#F4C94B', '#D79A2C') + rad('yema', '#FFD33A', '#F0A71A') + grad('int', '#F9DE7A', '#EDC55B') + '</defs>')
 a(sombra(168, 156, 124, 12, .25))
-a('<ellipse cx="168" cy="112" rx="124" ry="54" fill="#D4CCBB"/><ellipse cx="168" cy="108" rx="124" ry="54" fill="url(#IDpl)"/><ellipse cx="168" cy="110" rx="96" ry="40" fill="none" stroke="#CFC7B5" stroke-width="1.5"/>')
+a('<ellipse cx="168" cy="112" rx="124" ry="54" fill="#D4CCBB"/><ellipse cx="168" cy="108" rx="124" ry="54" fill="url(#IDpl)"/><ellipse cx="168" cy="110" rx="96" ry="40" fill="none" style="stroke:var(--anil)" stroke-width="3.5"/>')
 # tortilla (cupula)
 a('<ellipse cx="168" cy="114" rx="92" ry="38" fill="#B9791F"/>')
 a('<path d="M76 108C80 70 120 56 168 56S256 70 260 108C240 134 100 134 76 108Z" fill="url(#IDtor)"/>')

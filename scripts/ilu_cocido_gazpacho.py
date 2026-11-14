@@ -6,7 +6,7 @@ R = random.Random(21); o = []; a = o.append
 a(mesa(R, ('#E6D0A4', '#C79B62')))
 a('<defs>' + rad('pl', '#FFFFFF', '#E1D9C8') + rad('gar', '#E9C77C', '#CFA24C') + grad('cho', '#C8452A', '#8E2A18') + grad('barro', '#C7683A', '#8F4222') + rad('cal', '#F0C860', '#D49B30') + '</defs>')
 a(sombra(120, 156, 100, 10, .25))
-a('<ellipse cx="120" cy="112" rx="104" ry="44" fill="#D4CCBB"/><ellipse cx="120" cy="108" rx="104" ry="44" fill="url(#IDpl)"/><ellipse cx="120" cy="110" rx="82" ry="32" fill="none" stroke="#CFC7B5" stroke-width="1.5"/>')
+a('<ellipse cx="120" cy="112" rx="104" ry="44" fill="#D4CCBB"/><ellipse cx="120" cy="108" rx="104" ry="44" fill="url(#IDpl)"/><ellipse cx="120" cy="110" rx="82" ry="32" fill="none" style="stroke:var(--anil)" stroke-width="3.5"/>')
 a('<ellipse cx="120" cy="108" rx="70" ry="27" fill="url(#IDgar)"/>')
 for _ in range(90):
     t = R.random()*6.283; r = math.sqrt(R.random())

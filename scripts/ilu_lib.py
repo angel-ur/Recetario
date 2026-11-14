@@ -1,10 +1,7 @@
 import random, math
-def mesa(R, tono=('#E8CFA0', '#C79B62')):
-    s = f'<defs><linearGradient id="IDmesa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{tono[0]}"/><stop offset="1" stop-color="{tono[1]}"/></linearGradient></defs><rect width="320" height="180" fill="url(#IDmesa)"/>'
-    for i in range(9):
-        y = 8 + i * 21 + R.random() * 6
-        s += f'<path d="M0 {y:.1f}C80 {y-4:.1f} 220 {y+5:.1f} 320 {y-2:.1f}" fill="none" stroke="#A97A46" stroke-opacity=".22" stroke-width="{1+R.random()*1.4:.1f}"/>'
-    return s
+def mesa(R, tono=None):
+    return ('<defs><radialGradient id="IDfondo" cx=".5" cy=".55" r=".75"><stop offset="0" stop-color="#FFFBF0"/><stop offset="1" stop-color="#F1E8D4"/></radialGradient></defs>'
+            '<rect width="320" height="180" fill="url(#IDfondo)"/>')
 def grad(i, a, b, v=True):
     x2, y2 = ('0', '1') if v else ('1', '0')
     return f'<linearGradient id="ID{i}" x1="0" y1="0" x2="{x2}" y2="{y2}"><stop offset="0" stop-color="{a}"/><stop offset="1" stop-color="{b}"/></linearGradient>'
