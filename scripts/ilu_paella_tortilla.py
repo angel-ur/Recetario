@@ -53,27 +53,33 @@ for (x, y, ro) in [(296, 152, 15)]:
 escribe('paella', o)
 
 # ---------- TORTILLA ----------
-R = random.Random(5); o = []; a = o.append
+R = random.Random(8); o = []; a = o.append
 a(mesa(R))
-a('<defs>' + rad('pl', '#FFFFFF', '#E1D9C8') + grad('tor', '#F4C94B', '#D79A2C') + grad('corte', '#C98A2A', '#9A6516') + rad('yema', '#FFE060', '#FFB81A') + '</defs>')
+a('<defs>' + rad('pl', '#FFFFFF', '#E1D9C8') + grad('lado', '#EFC04E', '#D9962E') + rad('tapa', '#F7D45E', '#E3A93A') + grad('borde', '#D99A32', '#B9741F') + '</defs>')
 a(sombra(160, 156, 126, 11, .22))
 a('<ellipse cx="160" cy="112" rx="126" ry="54" fill="#D4CCBB"/><ellipse cx="160" cy="108" rx="126" ry="54" fill="url(#IDpl)"/><ellipse cx="160" cy="110" rx="102" ry="42" fill="none" style="stroke:var(--anil)" stroke-width="3.5"/>')
-# tortilla entera detras (izquierda)
-a('<ellipse cx="108" cy="104" rx="64" ry="26" fill="#B9791F"/><path d="M46 98C50 72 80 62 108 62S166 72 170 98C156 116 62 116 46 98Z" fill="url(#IDtor)"/><ellipse cx="108" cy="86" rx="58" ry="19" fill="#EDB942"/><ellipse cx="104" cy="83" rx="46" ry="14" fill="#F4CB58"/><path d="M66 82C82 70 120 68 150 74" fill="none" stroke="#FFF1B8" stroke-width="3" stroke-linecap="round" opacity=".7"/>')
-# porcion cortada delante-derecha, vista de lado: corteza dorada y corte grande
-a('<ellipse cx="226" cy="132" rx="62" ry="9" fill="#000" opacity=".12"/>')
-a('<path d="M170 128L186 70Q226 52 280 76L262 132Q220 142 170 128Z" fill="url(#IDcorte)"/>')   # corteza
-a('<path d="M177 124L191 76Q226 62 272 80L257 126Q220 134 177 124Z" fill="#F3D869"/>')           # interior huevo
-# capas de patata
-for (x, y, w, ro) in [(196,92,20,-8),(224,86,22,4),(250,96,20,12),(206,110,22,6),(238,112,22,-6),(188,118,14,-4),(262,116,12,8)]:
-    a(f'<ellipse cx="{x}" cy="{y}" rx="{w/2}" ry="5.4" fill="#FFF0B8" stroke="#E2B54F" stroke-width="1.2" transform="rotate({ro} {x} {y})"/>')
-for (x, y) in [(212,100),(244,102),(230,120),(200,124)]:
-    a(f'<path d="M{x} {y}q7 -4 13 0" stroke="#F0B13C" stroke-width="2.2" fill="none" stroke-linecap="round"/>')
-# huevo meloso brillante
-a('<path d="M214 104C222 98 246 100 250 110C256 122 236 128 222 124C208 120 206 110 214 104Z" fill="url(#IDyema)"/>')
-a('<path d="M222 106C230 103 240 104 244 108" stroke="#FFFBD0" stroke-width="3" stroke-linecap="round" fill="none" opacity=".9"/>')
-# hilo de huevo cayendo al plato
-a('<path d="M236 126C238 136 232 142 238 146C250 150 262 146 256 140C250 138 252 130 250 124Z" fill="#FFC826"/><path d="M242 136c2 3 6 4 10 3" stroke="#FFF3A0" stroke-width="2" stroke-linecap="round" fill="none"/>')
-# tenedor
-a('<g transform="translate(150 140) rotate(-72)"><rect x="-3" y="0" width="6" height="52" rx="3" fill="#B9BCC4"/><rect x="-9" y="-22" width="18" height="24" rx="4" fill="#C9CCD3"/>' + ''.join(f'<rect x="{x}" y="-30" width="2.6" height="14" rx="1.3" fill="#C9CCD3"/>' for x in (-8,-3,2,6)) + '</g>')
+# sombra de la tortilla sobre el plato
+a('<ellipse cx="160" cy="132" rx="104" ry="28" fill="#000" opacity=".13"/>')
+# lado (cilindro)
+a('<path d="M62 92 C52 112 66 144 160 150 C254 144 268 112 258 92 Z" fill="url(#IDlado)"/>')
+# marcas doradas en el canto
+for _ in range(26):
+    x = R.uniform(76, 244); y = R.uniform(118, 140)
+    a(f'<ellipse cx="{x:.1f}" cy="{y:.1f}" rx="{R.uniform(3,8):.1f}" ry="{R.uniform(1,2.2):.1f}" fill="#B9701C" opacity="{R.uniform(.12,.28):.2f}"/>')
+a('<path d="M66 112C74 134 112 144 160 145" fill="none" stroke="#FFE9A0" stroke-width="2.5" stroke-linecap="round" opacity=".55"/>')
+# tapa con borde redondeado
+a('<ellipse cx="160" cy="92" rx="98" ry="40" fill="#D79A34"/>')
+a('<ellipse cx="160" cy="90" rx="95" ry="38" fill="url(#IDtapa)"/>')
+# moteado dorado oscuro, como en las fotos
+for _ in range(16):
+    t = R.random()*6.283; r = math.sqrt(R.random())
+    x = 160+math.cos(t)*r*84; y = 90+math.sin(t)*r*32
+    a(f'<ellipse cx="{x:.1f}" cy="{y:.1f}" rx="{R.uniform(5,12):.1f}" ry="{R.uniform(1.6,4):.1f}" fill="#C27A22" opacity="{R.uniform(.18,.38):.2f}" transform="rotate({R.randint(-25,25)} {x:.1f} {y:.1f})"/>')
+for _ in range(60):
+    t = R.random()*6.283; r = math.sqrt(R.random())
+    x = 160+math.cos(t)*r*88; y = 90+math.sin(t)*r*34
+    a(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{R.uniform(.8,1.8):.1f}" fill="#A9611A" opacity="{R.uniform(.25,.5):.2f}"/>')
+# brillo
+a('<path d="M86 78C110 62 160 58 220 66" fill="none" stroke="#FFF3BE" stroke-width="4" stroke-linecap="round" opacity=".7"/>')
+a('<path d="M64 98C66 120 110 132 160 132" fill="none" stroke="#C98A2A" stroke-width="1.2" opacity=".0"/>')
 escribe('tortilla', o)

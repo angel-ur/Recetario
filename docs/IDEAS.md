@@ -38,3 +38,9 @@ Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-act
 ## Mapa mundial
 - Hecho: boton Mundo/España sobre el mapa. Paises de Natural Earth 110m (js/mundo.js, generado con scripts/gen_mundo.py). Una receta de fuera de España lleva region: w-ISO3 (tempeh = w-IDN). Chapa con numero solo en paises con platos.
 - Portadas: repartidas entre cazuela, cuenco, fuente, plato llano, sarten, tabla. Sprite tempeh (taquitos).
+
+## Portadas ilustradas (estilo casa)
+- Cada receta puede tener una ilustracion propia en `data/ilustraciones/<id>.svg` (viewBox 0 0 320 180, sin etiqueta svg exterior). `scripts/build.py` la usa si existe; si no, cae al sprite simple de `js/escenas.js`.
+- Se generan con `scripts/ilu_*.py` (+ `scripts/ilu_lib.py`). En el SVG los ids de degradado empiezan por `ID`; el build los prefija por receta.
+- Estilo acordado con el autor: fondo crema, plato ovalado con aro azul (var(--anil)), composicion simple, un plato reconocible y poco mas. Referencia de nivel: gazpacho. El tempeh es la excepcion (escena con tabla de madera, aprobada).
+- Hechas: tempeh, paella, tortilla (entera, cupula dorada), cocido, gazpacho, caldo, fabada, lentejas, croquetas. Siguientes: pulpo, migas, marmitako, rabo, pisto, arroz con leche, crema catalana, papas, xato, tumbet...

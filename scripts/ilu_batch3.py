@@ -2,7 +2,7 @@ import random, math, sys
 sys.path.insert(0, 'scripts')
 from ilu_lib import *
 def plato(cx=160, cy=108, rx=118, ry=50):
-    return (sombra(cx, cy+46, rx-8, 10, .25) + f'<ellipse cx="{cx}" cy="{cy+4}" rx="{rx}" ry="{ry}" fill="#D4CCBB"/><ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="url(#IDpl)"/><ellipse cx="{cx}" cy="{cy+2}" rx="{rx-24}" ry="{ry-14}" fill="none" stroke="#CFC7B5" stroke-width="1.5"/>')
+    return (sombra(cx, cy+46, rx-8, 10, .25) + f'<ellipse cx="{cx}" cy="{cy+4}" rx="{rx}" ry="{ry}" fill="#D4CCBB"/><ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="url(#IDpl)"/><ellipse cx="{cx}" cy="{cy+2}" rx="{rx-24}" ry="{ry-14}" fill="none" style="stroke:var(--anil)" stroke-width="3.5"/>')
 def cuenco(cx, cy, rx, col, borde='#3C5C8E'):
     h = rx*0.8
     return (sombra(cx, cy+h+4, rx*0.8, 8, .25) + f'<path d="M{cx-rx} {cy}c2 {h*.75:.0f} {rx*.35:.0f} {h:.0f} {rx} {h:.0f}s{rx-6:.0f}-{h*.25:.0f} {rx} -{h:.0f}z" fill="#F4F0E6"/>'
@@ -15,15 +15,15 @@ R = random.Random(41); o = []; a = o.append
 a(mesa(R, ('#E9D5AE', '#CDA672'))); a(DEFS())
 a(grad('c', '#F0C155', '#D99A2C').replace('ID', 'ID'))
 a('<defs>' + grad('caldo', '#EFC15A', '#D6962B') + '</defs>')
-a(cuenco(120, 76, 66, 'url(#IDcaldo)'))
-a('<ellipse cx="102" cy="72" rx="22" ry="2.4" fill="#fff" opacity=".4"/>')
-for x, y in [(100,80),(128,78),(144,82),(114,84)]:
+a(cuenco(150, 62, 80, 'url(#IDcaldo)'))
+a('<ellipse cx="126" cy="58" rx="26" ry="2.4" fill="#fff" opacity=".4"/>')
+for x, y in [(124,66),(156,64),(176,68),(140,70)]:
     a(f'<ellipse cx="{x}" cy="{y}" rx="4" ry="1.4" fill="#F7DC8A" opacity=".8"/>')
 # hueso
-a('<g transform="translate(240 128) rotate(-18)"><rect x="-44" y="-6" width="88" height="12" rx="6" fill="#EADBB8"/><circle cx="-46" cy="-6" r="8" fill="#F1E4C6"/><circle cx="-46" cy="6" r="8" fill="#F1E4C6"/><circle cx="46" cy="-6" r="8" fill="#F1E4C6"/><circle cx="46" cy="6" r="8" fill="#F1E4C6"/><rect x="-36" y="-4" width="70" height="3" rx="1.5" fill="#fff" opacity=".6"/></g>')
-a(sombra(240, 150, 56, 5, .18))
-a('<g transform="translate(260 78) rotate(25)"><path d="M-30 -7L22 -3Q30 0 22 3L-30 7Z" fill="#E8812A"/><path d="M-28 -3L18 -1" stroke="#F7B466" stroke-width="2" stroke-linecap="round"/></g>')
-a('<path d="M200 150q14-10 28-4 6 6-2 10-14 4-26-6z" fill="#D9B77A"/><path d="M206 150q8-3 16 0" stroke="#EDD39C" stroke-width="2" fill="none" stroke-linecap="round"/>')
+a('<g transform="translate(236 150) rotate(-12) scale(.8)"><rect x="-44" y="-6" width="88" height="12" rx="6" fill="#EADBB8"/><circle cx="-46" cy="-6" r="8" fill="#F1E4C6"/><circle cx="-46" cy="6" r="8" fill="#F1E4C6"/><circle cx="46" cy="-6" r="8" fill="#F1E4C6"/><circle cx="46" cy="6" r="8" fill="#F1E4C6"/><rect x="-36" y="-4" width="70" height="3" rx="1.5" fill="#fff" opacity=".6"/></g>')
+
+a('<g transform="translate(80 150) rotate(-15) scale(.8)"><path d="M-30 -7L22 -3Q30 0 22 3L-30 7Z" fill="#E8812A"/><path d="M-28 -3L18 -1" stroke="#F7B466" stroke-width="2" stroke-linecap="round"/></g>')
+
 escribe('caldo', o)
 
 # ---- FABADA: cazuela de barro con fabes, chorizo, morcilla, panceta
@@ -59,7 +59,7 @@ for x, y in [(130,100),(166,112)]:
 for x, y, ro in [(118,114,20),(176,98,-25)]:
     a(f'<g transform="translate({x} {y}) rotate({ro})"><rect x="-10" y="-3.5" width="20" height="7" rx="3.5" fill="#E8812A"/><rect x="-8" y="-2.5" width="14" height="2" rx="1" fill="#F7B466"/></g>')
 a('<path d="M150 90q8-5 14-1" stroke="#4E9A3F" stroke-width="2" fill="none" stroke-linecap="round"/>')
-a('<g transform="translate(268 126) rotate(-30)"><ellipse cx="0" cy="0" rx="20" ry="9" fill="#B9BCC4"/><rect x="14" y="-2.5" width="40" height="5" rx="2.5" fill="#B9BCC4"/></g>')
+
 escribe('lentejas', o)
 
 # ---- CROQUETAS: plato con 5 croquetas doradas, una abierta
@@ -76,6 +76,4 @@ for x, y, r in [(112,100,-10),(168,92,5),(220,104,12),(138,124,6),(196,126,-6)]:
 # cortada
 a('<g transform="translate(168 92)"></g>')
 a('<ellipse cx="226" cy="124" rx="16" ry="9" fill="#E3D6B8"/><ellipse cx="226" cy="123" rx="13" ry="7" fill="url(#IDbeb)"/>')
-a('<g fill="#4E9A3F"><ellipse cx="260" cy="130" rx="3" ry="1.6" transform="rotate(20 260 130)"/><ellipse cx="270" cy="124" rx="3" ry="1.6" transform="rotate(-30 270 124)"/></g>')
-a('<g transform="translate(270 140)">' + lima(0, 0, 0).replace('r="-2"', 'r="0"') + '</g>')
 escribe('croquetas', o)
