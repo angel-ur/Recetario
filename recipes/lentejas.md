@@ -35,25 +35,25 @@ Todo a la olla en frío, un refrito de ajo y pimentón y el gesto que lo cambia 
 
 ### Preparar
 
-1. **Repasa y lava las lentejas** (5 min) - Extiende lentejas pardinas en un plato, quita alguna piedrecita y lávalas bajo el grifo. Las pardinas no necesitan remojo.
+1. **Repasa y lava las lentejas** (5 min) - Extiende 300 g de lentejas pardinas en un plato blanco, quita alguna piedrecita y lávalas bajo el grifo un minuto. Las pardinas no necesitan remojo.
    > Las repasa siempre sobre un plato blanco: todavía sale alguna piedra.
-2. **Haz el refrito** (8 min) - En una sartén pequeña con aceite de oliva virgen extra, dora a fuego suave dientes de ajo laminados. Añade tomate maduro rallado y deja que se haga cinco minutos. Aparta del fuego y añade pimentón dulce.
+2. **Haz el refrito** (8 min) - En una sartén pequeña con aceite de oliva virgen extra, calienta 3 cucharadas de aceite y dora a fuego suave 2 dientes de ajo laminados, 1 minuto, sin que cojan color oscuro. Añade 1 tomate maduro rallado y deja que se haga 5 minutos, hasta que pierda el agua. Aparta del fuego y añade 1 cucharadita de pimentón dulce y remueve 10 segundos con el calor que queda.
    > El pimentón, siempre con el fuego apagado: en un segundo se quema y amarga todo el guiso.
-3. **Todo a la olla, en frío** (5 min) - Pon en la olla las lentejas con agua fría, zanahoria en rodajas, pimiento verde y cebolla en trozos grandes, hoja de laurel y chorizo para guisar en rodajas gruesas.
+3. **Todo a la olla, en frío** (5 min) - Pon en la olla las lentejas con 1,2 litros de agua fría (cubre unos 3 dedos por encima), 1 zanahoria en rodajas, medio pimiento verde y media cebolla en trozos grandes, hoja de laurel y chorizo para guisar en rodajas gruesas.
    > Las legumbres secas empiezan en agua fría, salvo los garbanzos: así se hidratan despacio y no se les suelta la piel.
 
 ### Chup-chup
 
-4. **Hierve y asústalas** (15 min) - Ponlo a fuego fuerte. Cuando rompa a hervir, échale un chorrito de agua fría, baja a fuego suave y deja que se hagan con la tapa entreabierta.
+4. **Hierve y asústalas** (15 min) - Ponlo a fuego fuerte. Cuando rompa a hervir, échale medio vaso (100 ml) de agua fría, baja a fuego suave y deja que se hagan con la tapa entreabierta.
    > Ese chorro de agua fría es «asustarlas»: corta el hervor de golpe y la piel se queda en su sitio.
-5. **Patata chascada y refrito** (3 min) - Añade patata mediana chascada en trozos y el refrito. Remueve con suavidad.
+5. **Patata chascada y refrito** (3 min) - Añade 1 patata mediana (unos 200 g) chascada en trozos de 3 cm y el refrito. Remueve con suavidad.
    > Chascar es clavar el cuchillo y romper la patata en vez de cortarla del todo. El borde irregular suelta almidón y espesa el caldo.
-6. **A fuego suave** (20 min) - Deja que sigan a fuego suave veinte minutos, hasta que la patata y las lentejas estén tiernas. Si se quedan cortas de caldo, añade agua caliente.
+6. **A fuego suave** (20 min) - Deja que sigan a fuego suave 20-25 minutos (en total unos 40-45 desde que hierven), hasta que la patata y las lentejas estén tiernas. Si se quedan cortas de caldo, añade agua caliente de a poco (un vaso cada vez): la fría cortaría la cocción.
    > Prueba una lenteja: tiene que estar mantecosa, sin punto duro. Y la sal al final, que el chorizo ya sala.
 
 ### El toque final
 
-7. **Chafa para que queden melosas** (5 min) - Saca un cazo de lentejas con la patata y las verduras, cháfalo con un tenedor o pásalo por la batidora y devuélvelo a la olla. Prueba de sal.
+7. **Chafa para que queden melosas** (5 min) - Saca un cazo (unas 4 cucharadas) de lentejas con la patata y las verduras, cháfalo con un tenedor o pásalo por la batidora y devuélvelo a la olla. Prueba de sal.
    > Es su gesto de siempre: el puré de patata y lenteja liga el caldo y lo deja meloso, sin harina ni nada más.
 8. **Reposa y sirve** (10 min) - Apaga el fuego y deja reposar diez minutos antes de servir. Si te gusta, un chorrito de vinagre (opcional) en el plato.
    > Como todos los guisos de cuchara, al día siguiente están todavía mejor.
