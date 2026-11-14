@@ -3509,7 +3509,7 @@
      {
       "t": "Rehoga la cebolla y el jamón",
       "m": 10,
-      "x": "Derrite {mantequilla} en una cazuela amplia y pocha {cebolla} muy picada, sin que coja color. Añade {jamon} y rehógalo un minuto.",
+      "x": "Derrite 100 g de mantequilla en una cazuela amplia a fuego medio-bajo y pocha media cebolla muy picada 8 minutos, sin que coja color. Añade 150 g de jamón serrano muy picado y rehógalo 1 minuto.",
       "tim": 8,
       "f": 2,
       "e": {
@@ -3536,7 +3536,7 @@
      {
       "t": "Tuesta la harina",
       "m": 3,
-      "x": "Echa {harina} de golpe y remueve dos o tres minutos, hasta que huela a galleta.",
+      "x": "Echa los 100 g de harina de golpe y remueve con varilla o cuchara de madera 2-3 minutos a fuego medio-bajo, hasta que huela a galleta y forme una pasta.",
       "tim": 3,
       "f": 2,
       "e": {
@@ -3552,12 +3552,12 @@
        ],
        "cuchara": 1
       },
-      "ab": "Si no tuestas la harina, la croqueta sabe a crudo. Ese olor a galleta es la señal de que está."
+      "ab": "Si no tuestas la harina, la croqueta sabe a crudo. Ese olor a galleta es la señal de que está. La harina cuece en la grasa antes de la leche: así espesa sin grumos."
      },
      {
       "t": "La leche, poco a poco",
       "m": 25,
-      "x": "Ve añadiendo {leche} caliente, un cazo cada vez, sin dejar de remover. Sazona con sal y {nuez}, y cuece hasta que la masa se despegue de las paredes.",
+      "x": "Ve añadiendo 1 litro de leche entera caliente, un cazo (unos 150 ml) cada vez, sin dejar de remover y esperando a que la masa absorba cada cazo. Sazona con 1 cucharadita de sal y una pizca de nuez moscada, y cuece 15-20 minutos a fuego bajo, hasta que la masa se despegue de las paredes.",
       "tim": 25,
       "f": 2,
       "e": {
@@ -3574,7 +3574,7 @@
        "vierte": "leche",
        "cuchara": 1
       },
-      "ab": "Leche caliente y poco a poco: así no salen grumos. Y cocerla bien, veinte minutos largos, para que quede fina y no sepa a harina."
+      "ab": "Leche caliente y poco a poco: la fría o de golpe hace que la harina se apelmace en grumos. Y cocerla bien, 15-20 minutos, para que quede fina y no sepa a harina. Si la masa está floja, la croqueta se abre al freír."
      }
     ]
    },
@@ -3585,7 +3585,7 @@
      {
       "t": "Enfría la masa",
       "m": 240,
-      "x": "Extiende la masa en una fuente, tápala con film tocando la superficie y déjala en la nevera al menos cuatro horas.",
+      "x": "Extiende la masa en una fuente, tápala con film tocando la superficie y déjala en la nevera al menos 4 horas (mejor 8, de un día para otro).",
       "f": "n",
       "w": 1,
       "e": {
@@ -3611,7 +3611,7 @@
      {
       "t": "Forma las croquetas",
       "m": 25,
-      "x": "Coge porciones con una cuchara, dales forma con las manos untadas en aceite y pásalas por {huevo} batido y por {panrallado}.",
+      "x": "Coge porciones de unos 30 g (una cucharada colmada, salen unas 35-40), dales forma de cilindro con las manos untadas en aceite y pásalas por 2 huevos batidos y por 150 g de pan rallado.",
       "f": 0,
       "e": {
        "k": "formar"
@@ -3621,7 +3621,7 @@
      {
       "t": "Fríe en tandas",
       "m": 10,
-      "x": "Calienta {aceite} abundante y fríe las croquetas de pocas en pocas, uno o dos minutos, hasta que estén doradas. Escúrrelas sobre papel de cocina.",
+      "x": "Calienta 500 ml de aceite de oliva a 180 °C (una miga de pan se dora en 15 segundos) y fríe las croquetas de 5 o 6 en 5 o 6, 1-2 minutos, hasta que estén doradas. Escúrrelas sobre papel de cocina.",
       "tim": 2,
       "f": 5,
       "e": {
@@ -3637,7 +3637,7 @@
        ],
        "burbujas": "#FFF3C4"
       },
-      "ab": "Pocas a la vez: si echas muchas, el aceite se enfría y revientan. Tiene que cubrirlas al menos hasta la mitad."
+      "ab": "Pocas a la vez: si echas muchas, el aceite se enfría, la costra no se sella a tiempo y revientan. Tiene que cubrirlas al menos hasta la mitad."
      }
     ]
    }
