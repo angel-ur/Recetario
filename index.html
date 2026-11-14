@@ -14,6 +14,14 @@
 <body>
 
 <div class="azulejo" aria-hidden="true"></div>
+<button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="menu" data-menu="abre"><svg viewBox="0 0 20 14" aria-hidden="true"><path d="M1 2h18M1 7h18M1 12h18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>Menú</button>
+<nav class="menu" id="menu" hidden aria-label="Menú">
+  <button type="button" data-menu="recetas">Recetas</button>
+  <button type="button" data-menu="favs">♥ Mis favoritos</button>
+  <button type="button" data-menu="compra">La compra</button>
+  <button type="button" data-menu="mapa">El mapa</button>
+  <button type="button" data-menu="pasaporte">Mi pasaporte</button>
+</nav>
 
 <header class="hero">
   <p class="kicker">Cocina de siempre, paso a paso</p>
@@ -40,8 +48,7 @@
 
 <footer>
   <div class="azulejo fin" aria-hidden="true"></div>
-  <p>Guardado con mimo para que no se pierda ni una receta.<br>
-  <span class="firma">Para añadir una, copia <code>recipes/_plantilla.md</code> en el repo.</span></p>
+  <p>Guardado con mimo para que no se pierda ni una receta.</p>
 </footer>
 
 <script src="js/mapa.js"></script>

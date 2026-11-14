@@ -46,7 +46,7 @@
   var favs = store.get('favs', {}) || {};
   var compra = store.get('compra', []) || [];
   var filtro = { cat: 'todas', t: 'todos', q: '', fav: false };
-  var regionSel = null, verEspana = false, vistaMapa = 'es';
+  var regionSel = null, verEspana = false, vistaMapa = 'es', pasaporteAbierto = false;
   function est(r) {
     var e = store.get('r:' + r.id, null) || {};
     return {
@@ -282,7 +282,7 @@
     var c = cuentas();
     var st = document.getElementById('stats');
     if (st) st.innerHTML = '<b>' + R.length + '</b> platos &nbsp;·&nbsp; <b>17</b> comunidades &nbsp;·&nbsp; <b>' + R.reduce(function (a, r) { return a + r.todos.length; }, 0) + '</b> pasos ilustrados';
-    var h = '';
+    var h = '', hp = '', hm = '', hf = '';
     var sigue = R.filter(function (r) { return !cocinados[r.id] && est(r).hechos.length; })[0];
     if (sigue) h += '<section class="tarjeta" aria-label="Sigue donde lo dejaste"><p class="eti">Sigue donde lo dejaste</p><ul class="filas">' + fila(sigue) + '</ul></section>';
     if (compra.length) {
@@ -296,25 +296,26 @@
     var pool = R.filter(function (r) { return !cocinados[r.id]; }); if (!pool.length) pool = R;
     var dia = pool[dnum % pool.length];
     h += '<section class="tarjeta" aria-label="Plato del día"><p class="eti">Plato del día</p><ul class="filas">' + fila(dia) + '</ul></section>';
-    h += '<section class="tarjeta" aria-labelledby="t-pas"><div class="seccion-cab"><h2 id="t-pas">Tu pasaporte</h2><span class="ayuda">Cocina un plato y sella su región</span></div>' +
+    hp += '<section class="tarjeta" aria-labelledby="t-pas"><div class="seccion-cab"><h2 id="t-pas">Tu pasaporte</h2><span class="ayuda">Cocina un plato y sella su región</span></div>' +
       '<div class="barras"><div class="barra-fila"><span>Platos</span><span class="barra"><i style="width:' + (c.n / R.length * 100).toFixed(1) + '%"></i></span><span class="num">' + c.n + '/' + R.length + '</span></div>' +
       '<div class="barra-fila"><span>Regiones</span><span class="barra"><i style="width:' + (c.regs / 17 * 100).toFixed(1) + '%"></i></span><span class="num">' + c.regs + '/17</span></div></div>' +
       '<ul class="logros">' + LOGROS.map(function (l) { var si = l[2](c); return '<li class="logro' + (si ? ' si' : '') + '" title="' + esc(l[3].charAt(0).toUpperCase() + l[3].slice(1)) + '"><span class="medalla" aria-hidden="true">' + l[0] + '</span>' + l[1] + '<span class="sr-only">' + (si ? ', conseguido' : ', por conseguir: ' + l[3]) + '</span></li>'; }).join('') + '</ul>' +
       (function () { var sig = LOGROS.filter(function (l) { return !l[2](c); })[0]; return '<p class="siguiente">' + (sig ? 'Siguiente sello: <b>' + esc(sig[1]) + '</b>, ' + esc(sig[3]) + '.' : 'Los tienes todos. La abuela estaría orgullosa.') + '</p>'; })() + (Object.keys(cocinados).length ? '<p class="reinicio"><button type="button" class="reiniciar" data-reset="1">Reiniciar pasaporte</button></p>' : '') + '</section>';
-    h += '<section class="tarjeta" aria-labelledby="t-mapa"><div class="seccion-cab"><h2 id="t-mapa">El mapa</h2><span class="ayuda" id="ayuda-mapa">' + (vistaMapa === 'mundo' ? 'Toca un país' : 'Toca una comunidad') + '</span></div>' +
+    hm += '<section class="tarjeta" aria-labelledby="t-mapa" id="sec-mapa"><div class="seccion-cab"><h2 id="t-mapa">El mapa</h2><span class="ayuda" id="ayuda-mapa">' + (vistaMapa === 'mundo' ? 'Toca un país' : 'Toca una comunidad') + '</span></div>' +
       '<div class="vista-mapa" role="group" aria-label="Qué mapa ver"><button type="button" class="filtro" data-vista="es" aria-pressed="' + (vistaMapa === 'es') + '">España</button><button type="button" class="filtro" data-vista="mundo" aria-pressed="' + (vistaMapa === 'mundo') + '">Mundo</button></div>' +
       '<div class="mapa-caja">' + svgMapa() + '</div>' +
       '<div class="mapa-leyenda"><span><i style="background:var(--region)"></i>Por cocinar</span><span><i style="background:var(--vino)"></i>Sellada</span><span><i style="background:var(--ocre);border-radius:50%"></i>Todos sus platos hechos</span></div>' +
       '<button type="button" class="chip-es" id="ver-espana"' + (vistaMapa === 'mundo' ? ' hidden' : '') + ' aria-pressed="' + (verEspana ? 'true' : 'false') + '">Y de toda España (' + recetasDe('es').length + ')</button>' +
       '<div class="panel-region" id="panel-region">' + panelRegion() + '</div></section>';
-    h += '<section aria-labelledby="t-fichas" style="display:grid;gap:14px"><div class="seccion-cab"><h2 id="t-fichas" style="font-size:27px">Todos los platos</h2><span class="ayuda num" id="n-fichas"></span></div>' +
+    hf += '<section aria-labelledby="t-fichas" id="sec-fichas" style="display:grid;gap:14px"><div class="seccion-cab"><h2 id="t-fichas" style="font-size:27px">Todos los platos</h2><span class="ayuda num" id="n-fichas"></span></div>' +
       '<div class="filtros"><label class="sr-only" for="buscar">Buscar un plato o ingrediente</label><input class="buscar" id="buscar" type="search" placeholder="Busca un plato o un ingrediente" value="' + esc(filtro.q) + '">' +
       '<div class="chips-fila" role="group" aria-label="Favoritos"><button type="button" class="filtro" id="ver-favs" aria-pressed="' + filtro.fav + '">♥ Mis favoritos</button></div>' +
       '<div class="chips-fila" role="group" aria-label="Tipo de plato">' + CATS.map(function (c) { return '<button type="button" class="filtro" data-cat="' + c[0] + '" aria-pressed="' + (filtro.cat === c[0]) + '">' + c[1] + '</button>'; }).join('') + '</div>' +
       '<div class="chips-fila" role="group" aria-label="Tiempo">' + TIEMPOS.map(function (c) { return '<button type="button" class="filtro" data-tiempo="' + c[0] + '" aria-pressed="' + (filtro.t === c[0]) + '">' + c[1] + '</button>'; }).join('') + '</div></div>' +
       '<div class="fichas" id="fichas"></div></section>';
-    h += '<p class="ayuda" style="text-align:center">Mapa de elaboración propia. Tiempos orientativos: cada fuego y cada cazuela mandan.</p>';
-    $('#vista-indice').innerHTML = h;
+    hf += '<p class="ayuda" style="text-align:center">Tiempos orientativos: cada fuego y cada cazuela mandan.</p>';
+    var pas = '<div id="sec-pasaporte"' + (pasaporteAbierto ? '' : ' hidden') + '>' + hp + '<p class="reinicio"><button type="button" class="reiniciar" data-menu="cierra-pas">Cerrar el pasaporte</button></p></div>';
+    $('#vista-indice').innerHTML = pas + h + hf + hm;
     pintaFichas();
   }
   function svgMundo() {
@@ -695,14 +696,28 @@
       vistaIndice();
     }
   }
+  function menuAbre(v) { var m = $('#menu'); m.hidden = !v; $('#menu-btn').setAttribute('aria-expanded', v ? 'true' : 'false'); }
+  function menuAccion(a) {
+    menuAbre(false);
+    if (a === 'cierra-pas') { pasaporteAbierto = false; var sp = $('#sec-pasaporte'); if (sp) sp.hidden = true; return; }
+    var vaA = function () {
+      if (a === 'pasaporte') { pasaporteAbierto = true; var sp2 = $('#sec-pasaporte'); if (sp2) sp2.hidden = false; }
+      if (a === 'favs') { filtro.fav = true; var bf = $('#ver-favs'); if (bf) bf.setAttribute('aria-pressed', 'true'); pintaFichas(); }
+      var dest = { recetas: '#sec-fichas', favs: '#sec-fichas', mapa: '#sec-mapa', compra: '#t-compra', pasaporte: '#sec-pasaporte' }[a];
+      var el = dest && $(dest); if (el) el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+    };
+    if (location.hash && location.hash !== '#') { location.hash = ''; setTimeout(vaA, 80); } else vaA();
+  }
   function ir(id) { if (('#' + id) === location.hash || (!id && !location.hash)) ruta(); else location.hash = id ? id : ''; }
   window.addEventListener('hashchange', ruta);
 
   /* ---------- Eventos ---------- */
   document.addEventListener('click', function (ev) {
-    var t = ev.target.closest('[data-ir],[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-vaciar],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
+    if (!$('#menu').hidden && !ev.target.closest('#menu,#menu-btn')) menuAbre(false);
+    var t = ev.target.closest('[data-ir],[data-menu],[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-vaciar],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
     if (!t) return;
     if (t.hasAttribute('data-ir')) { ir(t.getAttribute('data-ir')); return; }
+    if (t.hasAttribute('data-menu')) { var ma = t.getAttribute('data-menu'); if (ma === 'abre') { menuAbre($('#menu').hidden); return; } menuAccion(ma); return; }
     if (t.hasAttribute('data-vista')) { vistaMapa = t.getAttribute('data-vista'); regionSel = null; verEspana = false; refrescaMapa(); return; }
     if (t.hasAttribute('data-reg') && t.getAttribute('data-reg') === 'w-ESP') { vistaMapa = 'es'; regionSel = null; verEspana = false; refrescaMapa(); return; }
     if (t.hasAttribute('data-reg')) { var g = t.getAttribute('data-reg'); regionSel = regionSel === g ? null : g; verEspana = false; refrescaMapa(); return; }
