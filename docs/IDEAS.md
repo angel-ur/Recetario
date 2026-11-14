@@ -22,7 +22,7 @@ Ya tenemos: raciones que recalculan, pasos ilustrados, temporizadores, modo coci
 5. [HECHO 15 nov] Retos semanales: "esta semana, cocina de Galicia" con sello extra; progreso visible en la cabecera. Determinista por lunes (retoDe), 2 platos de la comunidad, sello «Al reto» al completar el primero.
 6. [HECHO 15 nov] Racha de semanas cocinando (no diaria: sin presion), mostrada con calma: solo se muestra a partir de 2 semanas y la semana en curso no rompe la racha.
 7. Modo cocina: auto-avance cuando acaba el timer, pantalla siempre encendida (ya hay), paso por voz.
-8. Compartir receta como imagen bonita (canvas, azulejo + titulo).
+8. [HECHO 15 nov] Compartir receta como imagen bonita (canvas 1080x1350: cenefa de azulejo, ilustracion del plato, titulo Fraunces, region y tiempo; Web Share API con archivo y descarga PNG de repuesto).
 9. [HECHO 15 nov] Notas propias por receta ("a mi abuela le ponia mas ajo"): tarjeta «Mis notas» en la ficha, localStorage recetario:v2:notas, sin servidor.
 
 ## P3

@@ -3,6 +3,7 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Compartir la receta como imagen: boton «Compartir» en cada ficha que crea una tarjeta bonita (azulejo, la ilustracion del plato, titulo y region) para mandar por WhatsApp o guardar.
 - Mis notas: cada receta tiene ya su tarjeta «Mis notas» para apuntar lo de tu casa («a mi abuela le ponia mas ajo»). Se guarda solo en este movil.
 - El reto de la semana: cada lunes propone una comunidad (cocina 2 de sus platos) y cuenta tus retos conseguidos; si llevas varias semanas seguidas cocinando, tambien lo dice. Sello nuevo en el pasaporte: «Al reto».
 - Cinco portadas mas: cocido montanes, gachas, sopas mallorquinas, ternasco y sobaos. Ya solo falta el rabo.

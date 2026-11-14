@@ -1129,7 +1129,7 @@
       '<dl class="datos"><div><dt>En total</dt><dd class="num" id="d-total"></dd></div><div><dt>Trabajo</dt><dd class="num" id="d-activo"></dd></div><div><dt>' + udN + '</dt><dd class="num" id="d-rac">' + coma(e.rac) + '</dd></div></dl>' +
       '<p class="vispera" id="d-vispera" hidden></p>' +
       '<div class="acciones-r"><button type="button" class="btn sec fav-r" data-fav="1" aria-pressed="' + (!!favs[r.id]) + '">' + (favs[r.id] ? '♥ En favoritos' : '♡ Guardar') + '</button><button type="button" class="btn" data-cocina="1"><svg viewBox="0 0 16 16" aria-hidden="true"><use href="#e-play"/></svg>' + (SES[r.id] ? 'Seguir cocinando' : 'Empezar a cocinar') + '</button>' +
-      '<button type="button" class="btn sec hecho-r" data-cocinado="1" aria-pressed="' + (!!cocinados[r.id]) + '">' + (cocinados[r.id] ? 'Sellado en el pasaporte' : '¡Lo he cocinado!') + '</button></div></header>';
+      '<button type="button" class="btn sec hecho-r" data-cocinado="1" aria-pressed="' + (!!cocinados[r.id]) + '">' + (cocinados[r.id] ? 'Sellado en el pasaporte' : '¡Lo he cocinado!') + '</button><button type="button" class="btn sec" data-comparte="1">Compartir</button></div></header>';
     // Horario
     var metHTML = r.met ? '<section class="tarjeta" aria-label="Cómo lo vas a hacer"><fieldset class="seg-fs"><legend class="eti">Cómo lo vas a hacer</legend><div class="metodo">' + r.met.map(function (m) {
       return '<input type="radio" name="met" id="met-' + m.id + '" value="' + m.id + '"' + (m.id === met ? ' checked' : '') + '><label for="met-' + m.id + '"><b>' + esc(m.n) + '</b><span>' + esc(m.d) + '</span></label>';
@@ -1605,6 +1605,102 @@
     pintaNotaPie(id);
   });
 
+  /* ---------- Compartir la receta como imagen (canvas, sin servidor) ---------- */
+  function redondea(x, px, py, w, h, r) {
+    x.beginPath();
+    x.moveTo(px + r, py);
+    x.arcTo(px + w, py, px + w, py + h, r); x.arcTo(px + w, py + h, px, py + h, r);
+    x.arcTo(px, py + h, px, py, r); x.arcTo(px, py, px + w, py, r);
+    x.closePath();
+  }
+  function envuelve(x, txt, cx, y, ancho, alto) {
+    var pal = String(txt).split(/\s+/), lin = '', i;
+    for (i = 0; i < pal.length; i++) {
+      var pr = lin ? lin + ' ' + pal[i] : pal[i];
+      if (x.measureText(pr).width > ancho && lin) { x.fillText(lin, cx, y); y += alto; lin = pal[i]; }
+      else lin = pr;
+    }
+    if (lin) { x.fillText(lin, cx, y); y += alto; }
+    return y;
+  }
+  function comparteImagen() {
+    if (!actual) return;
+    var r = actual;
+    aviso('Preparando la imagen…');
+    document.fonts.ready.then(function () {
+      var W = 1080, H = 1350, cv = document.createElement('canvas');
+      cv.width = W; cv.height = H;
+      var x = cv.getContext('2d');
+      var css = getComputedStyle(document.documentElement);
+      function color(v, d) { var c = css.getPropertyValue(v).trim(); return c || d; }
+      x.fillStyle = color('--papel', '#f6efe2'); x.fillRect(0, 0, W, H);
+      function cenefa(y0, abajo) {
+        var i, ox;
+        for (i = 0; i < Math.ceil(W / 88); i++) {
+          ox = i * 88;
+          x.fillStyle = i % 2 ? '#f3ecdc' : '#fdfaf3';
+          x.fillRect(ox, y0, 88, 44);
+          x.fillStyle = color('--anil', '#2e4f9e');
+          [[22, 10, 5, 9], [22, 34, 5, 9], [10, 22, 9, 5], [34, 22, 9, 5], [66, 10, 5, 9], [66, 34, 5, 9], [54, 22, 9, 5], [78, 22, 9, 5]].forEach(function (e) {
+            x.beginPath(); x.ellipse(ox + e[0], y0 + e[1], e[2], e[3], 0, 0, 6.3); x.fill();
+          });
+        }
+        x.fillStyle = color('--azul', '#2e4f9e');
+        if (abajo) x.fillRect(0, y0 - 3, W, 3); else x.fillRect(0, y0 + 44, W, 3);
+      }
+      cenefa(24); cenefa(H - 68, true);
+      x.textAlign = 'center';
+      x.fillStyle = color('--anil', '#2e4f9e');
+      x.font = '700 30px "Source Sans 3", sans-serif';
+      try { x.letterSpacing = '6px'; } catch (e0) {}
+      x.fillText('RECETARIO DE LA ABUELA', W / 2, 150);
+      try { x.letterSpacing = '0px'; } catch (e1) {}
+      var svgTxt = ESC.svg(r.heroe, '').replace('<svg ', '<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" ');
+      svgTxt = svgTxt.replace(/var\((--[\w-]+)\)/g, function (m, v) { return color(v, '#2e4f9e'); });
+      var img = new Image();
+      img.onload = function () {
+        var cw = 720, ch = 405, cx0 = (W - cw) / 2, cy0 = 250;
+        x.fillStyle = color('--tarjeta-bg', '#fdfaf3');
+        redondea(x, cx0 - 18, cy0 - 18, cw + 36, ch + 36, 26); x.fill();
+        x.drawImage(img, cx0, cy0, cw, ch);
+        var y = cy0 + ch + 128;
+        x.fillStyle = color('--azul-osc', '#223c7d');
+        x.font = '900 74px Fraunces, Georgia, serif';
+        y = envuelve(x, r.n, W / 2, y, W - 200, 82);
+        x.fillStyle = color('--tinta-suave', '#55555f');
+        x.font = 'italic 400 38px Fraunces, Georgia, serif';
+        y = envuelve(x, r.sub, W / 2, y + 12, W - 260, 50);
+        var g = REG[r.regs[0]], cr = resumenFicha(r);
+        x.fillStyle = color('--rojo', '#b03030');
+        x.font = '700 29px "Source Sans 3", sans-serif';
+        try { x.letterSpacing = '4px'; } catch (e2) {}
+        x.fillText((g ? g.n.toUpperCase() : '') + ' · ' + durTxt(cr.tot).toUpperCase(), W / 2, y + 64);
+        try { x.letterSpacing = '0px'; } catch (e3) {}
+        x.fillStyle = color('--vino', '#a03232');
+        x.font = '700 56px Caveat, cursive';
+        x.fillText('de la abuela', W / 2, H - 108);
+        cv.toBlob(function (blob) {
+          if (!blob) return;
+          var nombre = r.id + '-recetario.png';
+          try {
+            var f = new File([blob], nombre, { type: 'image/png' });
+            if (navigator.canShare && navigator.canShare({ files: [f] })) {
+              navigator.share({ files: [f], title: r.n, text: r.n + ', del Recetario de la abuela' }).catch(function () {});
+              return;
+            }
+          } catch (e4) {}
+          var a = document.createElement('a');
+          a.href = URL.createObjectURL(blob); a.download = nombre;
+          document.body.appendChild(a); a.click(); a.remove();
+          setTimeout(function () { URL.revokeObjectURL(a.href); }, 4000);
+          aviso('Imagen descargada');
+        }, 'image/png');
+      };
+      img.onerror = function () { aviso('No se pudo hacer la imagen'); };
+      img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svgTxt);
+    });
+  }
+
   /* ---------- Rutas ---------- */
   function ruta() {
     var id = decodeURIComponent(location.hash.slice(1)).replace(/^\//, '');
@@ -1638,7 +1734,7 @@
   /* ---------- Eventos ---------- */
   document.addEventListener('click', function (ev) {
     if (!$('#menu').hidden && !ev.target.closest('#menu,#menu-btn')) menuAbre(false);
-    var t = ev.target.closest('[data-ir],[data-menu],#mas-filtros,#quita-filtros,[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-desglose],[data-cvista],[data-ruta],[data-cerrada],[data-usamk],[data-nocerradas],[data-cambia],[data-alt],[data-planb],[data-tpref],[data-casa],[data-vaciar],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
+    var t = ev.target.closest('[data-ir],[data-menu],#mas-filtros,#quita-filtros,[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-desglose],[data-cvista],[data-ruta],[data-cerrada],[data-usamk],[data-nocerradas],[data-cambia],[data-alt],[data-planb],[data-tpref],[data-casa],[data-vaciar],[data-fav],[data-comparte],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
     if (!t) return;
     if (t.hasAttribute('data-ir')) { ir(t.getAttribute('data-ir')); return; }
     if (t.hasAttribute('data-menu')) { var ma = t.getAttribute('data-menu'); if (ma === 'abre') { menuAbre($('#menu').hidden); return; } menuAccion(ma); return; }
@@ -1653,6 +1749,7 @@
     if (t.hasAttribute('data-tr')) { reinicia(t.getAttribute('data-tr')); return; }
     if (t.hasAttribute('data-hecho')) { var p = t.getAttribute('data-hecho').split(':'); marcaHecho(porId[p[0]], +p[1]); if (cocina) pintaCocina(); else pintaHechos(); return; }
     if (t.hasAttribute('data-fav')) { if (favs[actual.id]) delete favs[actual.id]; else favs[actual.id] = Date.now(); store.set('favs', favs); t.setAttribute('aria-pressed', !!favs[actual.id]); t.textContent = favs[actual.id] ? '♥ En favoritos' : '♡ Guardar'; return; }
+    if (t.hasAttribute('data-comparte')) { comparteImagen(); return; }
     if (t.id === 'ver-favs') { filtro.fav = !filtro.fav; t.setAttribute('aria-pressed', filtro.fav ? 'true' : 'false'); pintaFichas(); return; }
     if (t.id === 'mas-filtros') { var ex = $('#filtros-extra'); ex.hidden = !ex.hidden; t.setAttribute('aria-expanded', ex.hidden ? 'false' : 'true'); return; }
     if (t.id === 'quita-filtros') { filtro.cat = 'todas'; filtro.t = 'todos'; filtro.q = ''; filtro.fav = false; var bq = $('#buscar'); if (bq) bq.value = ''; $$('[data-cat]').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-cat') === 'todas' ? 'true' : 'false'); }); $$('[data-tiempo]').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-tiempo') === 'todos' ? 'true' : 'false'); }); $('#ver-favs').setAttribute('aria-pressed', 'false'); pintaFichas(); return; }
