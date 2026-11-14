@@ -397,7 +397,7 @@ body {
 .chip .llamas svg { width: 9px; height: 12px; fill: var(--fuego); }
 .chip .icono-frio { width: 12px; height: 12px; fill: var(--anil); }
 .texto { font-size: 16.5px; }
-.texto .q { font-weight: 800; color: var(--vino); white-space: nowrap; }
+.texto .q { font-weight: 800; color: var(--tinta); white-space: nowrap; }
 .abuela {
   display: flex; gap: 10px; align-items: flex-start;
   background: #fbf3dd; border: 1.5px solid var(--dorado);
@@ -726,3 +726,61 @@ details.plan[open] > summary { margin-bottom: 12px; }
 .mientras-lista { margin: 2px 0 8px; padding-left: 22px; font-size: 15px; }
 .mientras-lista li { margin: 4px 0; }
 .ir-paso { font: inherit; font-weight: 700; color: #1f5a22; background: none; border: 0; padding: 6px 0; min-height: 36px; text-align: left; text-decoration: underline; cursor: pointer; touch-action: manipulation; }
+
+/* ---- sesiones de cocina ---- */
+.ses-barra { position: fixed; left: 12px; right: 78px; bottom: 14px; z-index: 42; display: flex; align-items: center; gap: 12px; text-align: left; font: inherit; color: #fff; background: var(--azul-osc); border: 0; border-radius: 20px; padding: 10px 16px; min-height: 56px; box-shadow: var(--sombra); cursor: pointer; }
+.ses-barra[hidden], .ses-pant[hidden], .ses-hoja[hidden] { display: none; }
+.ses-barra-t { flex: 1; min-width: 0; }
+.ses-barra-t b { display: block; font-size: 16px; }
+.ses-barra-t small { display: block; font-size: 13.5px; opacity: .85; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ses-puntos { display: flex; gap: 5px; }
+.ses-puntos i { width: 12px; height: 12px; border-radius: 50%; display: block; }
+.ses-puntos i.ses-c0, .ses-c0 .ses-nom { background: #8fb0ff; }
+.ses-puntos i.ses-c1 { background: #ff9a8f; }
+.ses-puntos i.ses-c2 { background: #9fd3b0; }
+.ses-pant { position: fixed; inset: 0; z-index: 46; background: var(--papel); overflow-y: auto; padding: 0 14px calc(40px + env(safe-area-inset-bottom, 0px)); }
+.ses-cab { display: flex; align-items: center; gap: 10px; padding: calc(14px + env(safe-area-inset-top, 0px)) 2px 10px; position: sticky; top: 0; background: var(--papel); z-index: 2; }
+.ses-cab h2 { margin: 0; font-family: "Fraunces", serif; font-size: 26px; color: var(--azul-osc); }
+.ses-n { background: var(--anil-suave); color: var(--azul); font-weight: 800; font-size: 13px; padding: 3px 11px; border-radius: 999px; }
+.ses-cab .cocina-cerrar { margin-left: auto; }
+.ses-ahora, .ses-solo, .ses-plato, .ses-listo, .ses-aviso { background: var(--tarjeta-bg); border: 2px solid var(--linea); border-left-width: 7px; border-radius: 18px; padding: 14px; margin: 10px 0; }
+.ses-c0.ses-ahora, .ses-c0.ses-solo, .ses-c0.ses-plato, .ses-c0.ses-listo { border-left-color: var(--azul); }
+.ses-c1.ses-ahora, .ses-c1.ses-solo, .ses-c1.ses-plato, .ses-c1.ses-listo { border-left-color: var(--rojo); }
+.ses-c2.ses-ahora, .ses-c2.ses-solo, .ses-c2.ses-plato, .ses-c2.ses-listo { border-left-color: var(--ok); }
+.ses-nom { display: block; font-weight: 800; font-size: 12.5px; letter-spacing: .05em; text-transform: uppercase; color: var(--tinta-suave); background: none !important; }
+.ses-ahora h3 { margin: 4px 0 6px; font-family: "Fraunces", serif; font-size: 24px; color: var(--azul-osc); }
+.ses-txt { margin: 0 0 8px; font-size: 17.5px; line-height: 1.45; }
+.ses-ab { margin: 0 0 10px; padding: 8px 10px; background: #fcf1d6; border-radius: 12px; font-size: 15px; }
+.ses-ab b { font-family: "Caveat", cursive; font-size: 19px; color: var(--rojo); }
+.ses-acc { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+.ses-acc .btn { flex: 1; min-height: 48px; }
+.ses-solo p { margin: 4px 0 8px; }
+.ses-solo small, .ses-plato small { display: block; color: var(--tinta-suave); font-size: 14px; margin-top: 6px; }
+.ses-barra-p { height: 10px; border-radius: 6px; background: #e9e0cb; overflow: hidden; }
+.ses-barra-p i { display: block; height: 100%; background: var(--ok); }
+.ses-et { margin: 18px 4px 4px; }
+.ses-sig { list-style: none; margin: 0; padding: 0 4px; }
+.ses-sig li { display: flex; gap: 10px; padding: 10px 0 10px 10px; border-top: 1px dashed var(--linea); border-left: 5px solid var(--azul); margin-left: 0; }
+.ses-sig li.ses-c1 { border-left-color: var(--rojo); } .ses-sig li.ses-c2 { border-left-color: var(--ok); }
+.ses-sig .num { font-weight: 800; color: var(--azul-osc); min-width: 46px; }
+.ses-sig small { display: block; color: var(--tinta-suave); font-size: 14px; }
+.ses-fins { margin: 12px 4px; font-size: 15.5px; background: var(--anil-suave); border-radius: 12px; padding: 10px 12px; }
+.ses-p { font: inherit; font-weight: 700; font-size: 14.5px; min-height: 44px; padding: 8px 14px; border-radius: 999px; border: 2px solid var(--anil); background: var(--anil-suave); color: var(--azul); cursor: pointer; margin: 6px 6px 0 0; }
+.ses-p.ok { background: var(--ok); border-color: var(--ok); color: #fff; }
+.ses-p.mal { background: var(--vino-suave); border-color: #e5bcbc; color: var(--rojo); }
+.ses-aviso { background: #fff7e0; border-color: #ecd08a; border-left-color: #e8b83a; }
+.ses-aviso p { margin: 4px 0 6px; font-size: 15px; }
+.ses-undo { background: var(--tinta); color: var(--papel); border-radius: 14px; padding: 6px 8px 6px 14px; margin: 4px 0; display: flex; justify-content: space-between; align-items: center; }
+.ses-undo button { font: inherit; font-weight: 800; color: #fff; background: rgba(255,255,255,.18); border: 0; border-radius: 999px; padding: 8px 14px; min-height: 40px; cursor: pointer; }
+.ses-hoja { position: fixed; inset: 0; z-index: 70; display: flex; align-items: flex-end; justify-content: center; }
+.ses-vel { position: absolute; inset: 0; background: rgba(43,43,51,.45); }
+.ses-hoja-in { position: relative; width: min(520px, 100%); background: var(--tarjeta-bg); border-radius: 26px 26px 0 0; padding: 20px 18px calc(24px + env(safe-area-inset-bottom, 0px)); box-shadow: 0 -10px 30px rgba(0,0,0,.3); }
+.ses-hoja-in h2 { margin: 0 0 6px; font-family: "Fraunces", serif; font-size: 23px; color: var(--azul-osc); }
+.ses-hoja-in p { margin: 0 0 10px; color: var(--tinta-suave); }
+.ses-hoja-in .btn { width: 100%; margin-top: 8px; min-height: 52px; }
+.ses-fin { margin: 0 0 8px; padding: 10px 12px 10px 28px; background: var(--anil-suave); border-radius: 14px; font-size: 15.5px; }
+.ses-retraso { color: var(--rojo); font-weight: 700; }
+.ses-nota { text-align: center; font-size: 13px; margin: 10px 0 0 !important; }
+.cocina-ses { font: inherit; font-weight: 700; font-size: 15px; min-height: 44px; padding: 8px 16px; border-radius: 999px; border: 2px solid var(--azul); background: #fff; color: var(--azul); cursor: pointer; margin-right: 8px; }
+.ses-txt .q, .ses-ab .q { font-weight: 800; color: var(--tinta); }
+.ses-ab b { margin-right: 6px; }
