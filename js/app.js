@@ -7,9 +7,11 @@
   var reduce = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
   ESC.instala();
 
+  /* v2: estado de la version rota (v1) descartado una vez; evita sellos fantasma */
+  try { Object.keys(localStorage).forEach(function (k) { if (k.indexOf('recetario:v1:') === 0) localStorage.removeItem(k); }); } catch (e0) {}
   var store = {
-    get: function (k, d) { try { var v = localStorage.getItem('recetario:v1:' + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
-    set: function (k, v) { try { localStorage.setItem('recetario:v1:' + k, JSON.stringify(v)); } catch (e) {} }
+    get: function (k, d) { try { var v = localStorage.getItem('recetario:v2:' + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set: function (k, v) { try { localStorage.setItem('recetario:v2:' + k, JSON.stringify(v)); } catch (e) {} }
   };
   function esc(t) { return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
 
@@ -179,7 +181,7 @@
       '<div class="barras"><div class="barra-fila"><span>Platos</span><span class="barra"><i style="width:' + (c.n / R.length * 100).toFixed(1) + '%"></i></span><span class="num">' + c.n + '/' + R.length + '</span></div>' +
       '<div class="barra-fila"><span>Regiones</span><span class="barra"><i style="width:' + (c.regs / 17 * 100).toFixed(1) + '%"></i></span><span class="num">' + c.regs + '/17</span></div></div>' +
       '<ul class="logros">' + LOGROS.map(function (l) { var si = l[2](c); return '<li class="logro' + (si ? ' si' : '') + '" title="' + esc(l[3].charAt(0).toUpperCase() + l[3].slice(1)) + '"><span class="medalla" aria-hidden="true">' + l[0] + '</span>' + l[1] + '<span class="sr-only">' + (si ? ', conseguido' : ', por conseguir: ' + l[3]) + '</span></li>'; }).join('') + '</ul>' +
-      (function () { var sig = LOGROS.filter(function (l) { return !l[2](c); })[0]; return '<p class="siguiente">' + (sig ? 'Siguiente sello: <b>' + esc(sig[1]) + '</b>, ' + esc(sig[3]) + '.' : 'Los tienes todos. La abuela estaría orgullosa.') + '</p>'; })() + '</section>';
+      (function () { var sig = LOGROS.filter(function (l) { return !l[2](c); })[0]; return '<p class="siguiente">' + (sig ? 'Siguiente sello: <b>' + esc(sig[1]) + '</b>, ' + esc(sig[3]) + '.' : 'Los tienes todos. La abuela estaría orgullosa.') + '</p>'; })() + (Object.keys(cocinados).length ? '<p class="reinicio"><button type="button" class="reiniciar" data-reset="1">Reiniciar pasaporte</button></p>' : '') + '</section>';
     h += '<section class="tarjeta" aria-labelledby="t-mapa"><div class="seccion-cab"><h2 id="t-mapa">El mapa</h2><span class="ayuda">Toca una comunidad</span></div>' +
       '<div class="mapa-caja">' + svgMapa() + '</div>' +
       '<div class="mapa-leyenda"><span><i style="background:var(--region)"></i>Por cocinar</span><span><i style="background:var(--vino)"></i>Sellada</span><span><i style="background:var(--ocre);border-radius:50%"></i>Todos sus platos hechos</span></div>' +
@@ -551,7 +553,7 @@
 
   /* ---------- Eventos ---------- */
   document.addEventListener('click', function (ev) {
-    var t = ev.target.closest('[data-ir],[data-reg],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
+    var t = ev.target.closest('[data-ir],[data-reg],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-reset],#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
     if (!t) return;
     if (t.hasAttribute('data-ir')) { ir(t.getAttribute('data-ir')); return; }
     if (t.hasAttribute('data-reg')) { var g = t.getAttribute('data-reg'); regionSel = regionSel === g ? null : g; verEspana = false; refrescaMapa(); return; }
@@ -562,6 +564,7 @@
     if (t.hasAttribute('data-tm')) { mas5(t.getAttribute('data-tm')); return; }
     if (t.hasAttribute('data-tr')) { reinicia(t.getAttribute('data-tr')); return; }
     if (t.hasAttribute('data-hecho')) { var p = t.getAttribute('data-hecho').split(':'); marcaHecho(porId[p[0]], +p[1]); if (cocina) pintaCocina(); else pintaHechos(); return; }
+    if (t.hasAttribute('data-reset')) { if (window.confirm('¿Borrar todos los sellos del pasaporte?')) { cocinados = {}; store.set('cocinados', cocinados); vistaIndice(); } return; }
     if (t.hasAttribute('data-cocina')) { abreCocina(actual); return; }
     if (t.hasAttribute('data-cocinado')) { sella(actual); return; }
     if (t.id === 'ahora') { var r = actual, e = est(r); e.modo = 'inicio'; e.hora = hhmm(ahora(true)); guarda(r, e); $('#modo-inicio').checked = true; $('#hora').value = e.hora; pintaPlan(); return; }
