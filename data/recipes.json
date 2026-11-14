@@ -2103,7 +2103,7 @@
      {
       "t": "Dora el pollo",
       "m": 12,
-      "x": "Salpimienta {pollo} y dóralo en una cazuela con {aceite} hasta que esté bien tostado por todos lados. Sácalo y resérvalo.",
+      "x": "Salpimienta 1,2 kg de pollo troceado (1 cucharadita de sal y pimienta al gusto) y dóralo en una cazuela con 4 cucharadas de aceite de oliva, en dos tandas, 5-6 minutos cada una, hasta que esté bien tostado por todos lados. Sácalo y resérvalo.",
       "tim": 12,
       "f": 4,
       "e": {
@@ -2121,12 +2121,12 @@
        ],
        "chisp": 1
       },
-      "ab": "Piel bien dorada, que es lo que da color y sabor a la salsa."
+      "ab": "Piel bien dorada, que es lo que da color y sabor a la salsa. En dos tandas porque, si lo amontonas, suelta agua y se cuece en vez de dorarse."
      },
      {
       "t": "Sofrito con jamón",
       "m": 15,
-      "x": "En el mismo aceite, rehoga cebolla y dientes de ajo picados. Añade jamón serrano en tacos y, al minuto, pimientos rojos y pimiento verde en tiras. Deja que se ablanden.",
+      "x": "En el mismo aceite, rehoga 1 cebolla y 3 dientes de ajo picados 5 minutos. Añade 100 g de jamón serrano en tacos y, al minuto, 2 pimientos rojos y 1 pimiento verde en tiras de 1 cm. Deja que se ablanden 8-10 minutos. Deja que se ablanden.",
       "tim": 15,
       "f": 3,
       "e": {
@@ -2163,7 +2163,7 @@
      {
       "t": "Tomate y choricero",
       "m": 10,
-      "x": "Añade {tomate} pelados y troceados y {choricero}, y deja que se haga diez minutos hasta que reduzca.",
+      "x": "Añade 500 g de tomates maduros pelados y troceados y 1 cucharada de carne de pimiento choricero, y deja que se haga diez minutos hasta que reduzca.",
       "tim": 10,
       "f": 3,
       "e": {
@@ -2199,7 +2199,7 @@
      {
       "t": "Vino y a guisar",
       "m": 40,
-      "x": "Vuelve a meter el pollo, riega con {vino} y deja que se evapore el alcohol un par de minutos. Tapa y guisa a fuego suave unos 40 minutos.",
+      "x": "Vuelve a meter el pollo, riega con 100 ml de vino blanco y deja que se evapore el alcohol 2-3 minutos. Tapa y guisa a fuego suave unos 40 minutos.",
       "tim": 40,
       "f": 2,
       "w": 1,
@@ -8140,7 +8140,7 @@
      {
       "t": "Sofrito suave",
       "m": 12,
-      "x": "En una cazuela con aceite de oliva, pocha a fuego suave cebolla, pimiento verde y dientes de ajo picados.",
+      "x": "En una cazuela con aceite de oliva, calienta 3 cucharadas de aceite y pocha a fuego suave 10-12 minutos 1 cebolla, 1 pimiento verde y 2 dientes de ajo picados.",
       "tim": 10,
       "f": 2,
       "e": {
@@ -8170,7 +8170,7 @@
      {
       "t": "Chorizo y choricero",
       "m": 4,
-      "x": "Añade {chorizo} en rodajas gruesas y rehógalo un par de minutos. Agrega {choricero} y {pimenton}, sin que se queme.",
+      "x": "Añade 200 g de chorizo riojano en rodajas de 1 cm y rehógalo 2 minutos. Agrega 1 cucharada de carne de pimiento choricero y 1 cucharadita de pimentón dulce o picante, 10 segundos, sin que se queme.",
       "f": 3,
       "e": {
        "k": "fuego",
@@ -8200,7 +8200,7 @@
      {
       "t": "Patatas chascadas",
       "m": 5,
-      "x": "Echa {patata} chascadas en trozos medianos y dales unas vueltas para que se impregnen.",
+      "x": "Echa 1 kg de patatas chascadas en trozos de 3-4 cm y dales unas vueltas para que se impregnen.",
       "f": 3,
       "e": {
        "k": "fuego",
@@ -8227,7 +8227,7 @@
      {
       "t": "Cubre y cuece",
       "m": 30,
-      "x": "Cubre con {agua} caliente justo hasta tapar las patatas, añade {laurel} y sal, y cuece a fuego suave unos 30 minutos.",
+      "x": "Cubre con 1,2 litros de agua caliente, justo hasta tapar las patatas, añade 1 hoja de laurel y 1 cucharadita rasa de sal, y cuece a fuego suave unos 30 minutos.",
       "tim": 30,
       "f": 2,
       "w": 1,
@@ -8257,7 +8257,7 @@
      {
       "t": "Reposa y sirve",
       "m": 10,
-      "x": "Apaga y deja reposar diez minutos antes de servir: el caldo espesa y los sabores se asientan. Con {guindilla}.",
+      "x": "Apaga y deja reposar 10 minutos antes de servir: el caldo espesa y los sabores se asientan. Con guindillas en vinagre para acompañar.",
       "f": 0,
       "w": 1,
       "e": {
@@ -8889,7 +8889,7 @@
      {
       "t": "Corta el pan muy fino",
       "m": 5,
-      "x": "Corta {pan} en rebanadas muy finas.",
+      "x": "Corta 200 g de pan de pueblo duro en rebanadas de 2-3 mm.",
       "f": 0,
       "e": {
        "k": "tabla",
@@ -8905,7 +8905,7 @@
      {
       "t": "Ajos a fuego suave",
       "m": 6,
-      "x": "En una cazuela de barro con {aceite}, dora a fuego suave {ajo} laminados. Añade {jamon} y rehógalo un minuto.",
+      "x": "En una cazuela de barro con 5 cucharadas de aceite de oliva, dora a fuego suave 6 dientes de ajo laminados, 2-3 minutos. Añade 100 g de jamón serrano en taquitos y rehógalo 1 minuto.",
       "tim": 5,
       "f": 2,
       "e": {
@@ -8930,7 +8930,7 @@
      {
       "t": "Pan y pimentón, fuera del fuego",
       "m": 4,
-      "x": "Añade el pan y dale unas vueltas para que se empape. Aparta la cazuela del fuego y echa {pimenton}, removiendo rápido.",
+      "x": "Añade el pan y dale unas vueltas para que se empape. Aparta la cazuela del fuego y echa 1 cucharada de pimentón dulce o de la Vera, removiendo rápido.",
       "f": "a",
       "e": {
        "k": "fuego",
@@ -8965,7 +8965,7 @@
      {
       "t": "El caldo, caliente",
       "m": 15,
-      "x": "Vierte {caldo} caliente, prueba de sal y deja que hierva suave unos quince minutos, hasta que el pan se deshaga un poco.",
+      "x": "Vierte 1,25 litros de caldo de cocido o de pollo caliente, prueba de sal y deja que hierva suave unos 15 minutos, hasta que el pan se deshaga un poco.",
       "tim": 15,
       "f": 2,
       "e": {
@@ -8991,7 +8991,7 @@
      {
       "t": "Cuaja los huevos",
       "m": 4,
-      "x": "Casca {huevo} sobre la sopa y deja que cuajen tres o cuatro minutos, sin remover. O mete la cazuela al horno a 200 °C hasta que cuaje la clara.",
+      "x": "Casca 4 huevos sobre la sopa y deja que cuajen 3-4 minutos, sin remover. O mete la cazuela al horno a 200 °C hasta que cuaje la clara.",
       "tim": 4,
       "f": 2,
       "e": {

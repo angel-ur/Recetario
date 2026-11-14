@@ -32,17 +32,17 @@ Guiso humilde y redondo: patatas chascadas que espesan el caldo, buen chorizo ri
 
 ### El sofrito
 
-1. **Sofrito suave** (12 min) - En una cazuela con aceite de oliva, pocha a fuego suave cebolla, pimiento verde y dientes de ajo picados.
-2. **Chorizo y choricero** (4 min) - Añade chorizo riojano en rodajas gruesas y rehógalo un par de minutos. Agrega carne de pimiento choricero y pimentón dulce o picante, sin que se queme.
+1. **Sofrito suave** (12 min) - En una cazuela con aceite de oliva, calienta 3 cucharadas de aceite y pocha a fuego suave 10-12 minutos 1 cebolla, 1 pimiento verde y 2 dientes de ajo picados.
+2. **Chorizo y choricero** (4 min) - Añade 200 g de chorizo riojano en rodajas de 1 cm y rehógalo 2 minutos. Agrega 1 cucharada de carne de pimiento choricero y 1 cucharadita de pimentón dulce o picante, 10 segundos, sin que se queme.
    > El chorizo suelta su grasa roja, que es el color del guiso.
 
 ### Guisar
 
-3. **Patatas chascadas** (5 min) - Echa patatas chascadas en trozos medianos y dales unas vueltas para que se impregnen.
+3. **Patatas chascadas** (5 min) - Echa 1 kg de patatas chascadas en trozos de 3-4 cm y dales unas vueltas para que se impregnen.
    > Chascar es clavar el cuchillo y romper la patata en vez de cortarla del todo. Así suelta almidón y el caldo espesa solo.
-4. **Cubre y cuece** (30 min) - Cubre con agua caliente justo hasta tapar las patatas, añade hoja de laurel y sal, y cuece a fuego suave unos 30 minutos.
+4. **Cubre y cuece** (30 min) - Cubre con 1,2 litros de agua caliente, justo hasta tapar las patatas, añade 1 hoja de laurel y 1 cucharadita rasa de sal, y cuece a fuego suave unos 30 minutos.
    > No remuevas con cuchara: menea la cazuela para que no se rompan las patatas.
-5. **Reposa y sirve** (10 min) - Apaga y deja reposar diez minutos antes de servir: el caldo espesa y los sabores se asientan. Con guindillas en vinagre para acompañar.
+5. **Reposa y sirve** (10 min) - Apaga y deja reposar 10 minutos antes de servir: el caldo espesa y los sabores se asientan. Con guindillas en vinagre para acompañar.
    > Si el caldo queda claro, chafa un par de trozos de patata contra la cazuela y menea.
 
 ## Secretos de la abuela
