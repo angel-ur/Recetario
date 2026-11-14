@@ -177,6 +177,10 @@
     var h = '';
     var sigue = R.filter(function (r) { return !cocinados[r.id] && est(r).hechos.length; })[0];
     if (sigue) h += '<section class="tarjeta" aria-label="Sigue donde lo dejaste"><p class="eti">Sigue donde lo dejaste</p><ul class="filas">' + fila(sigue) + '</ul></section>';
+    var hoy = new Date(), dnum = Math.floor((hoy.getTime() - hoy.getTimezoneOffset() * 60000) / 86400000);
+    var pool = R.filter(function (r) { return !cocinados[r.id]; }); if (!pool.length) pool = R;
+    var dia = pool[dnum % pool.length];
+    h += '<section class="tarjeta" aria-label="Plato del día"><p class="eti">Plato del día</p><ul class="filas">' + fila(dia) + '</ul></section>';
     h += '<section class="tarjeta" aria-labelledby="t-pas"><div class="seccion-cab"><h2 id="t-pas">Tu pasaporte</h2><span class="ayuda">Cocina un plato y sella su región</span></div>' +
       '<div class="barras"><div class="barra-fila"><span>Platos</span><span class="barra"><i style="width:' + (c.n / R.length * 100).toFixed(1) + '%"></i></span><span class="num">' + c.n + '/' + R.length + '</span></div>' +
       '<div class="barra-fila"><span>Regiones</span><span class="barra"><i style="width:' + (c.regs / 17 * 100).toFixed(1) + '%"></i></span><span class="num">' + c.regs + '/17</span></div></div>' +

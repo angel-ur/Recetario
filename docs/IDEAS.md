@@ -9,7 +9,7 @@ Ya tenemos: raciones que recalculan, pasos ilustrados, temporizadores, modo coci
 
 ## P1 (siguiente)
 1. Recetas nuevas: 2+ platos por comunidad (hoy hay comunidades con 1). Gestos de abuela, no relleno.
-2. Plato del dia: una receta destacada por fecha (determinista, sin servidor) en la cabecera.
+2. [HECHO 14 nov] Plato del dia: una receta destacada por fecha (determinista, sin servidor) en la cabecera.
 3. Lista de la compra desde una o varias recetas (ingredientes agregados, tachables, guardada en local).
 4. Favoritos ("mi recetario"): corazon + filtro.
 
