@@ -30,3 +30,4 @@ Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-act
 
 ## Hecho 14 nov
 - Donde comprar: cada ingrediente (receta y lista de la compra) lleva una linea fina 'Super facil / X mejor' segun tipo (carniceria, pescaderia, mercado, herbolario, tienda gourmet...). Clasificacion por palabras clave en app.js (DONDE).
+- Por tu barrio (zona): lista con fuente (fuentes locales) + enlace 'mejor' abre Google Maps 'X cerca de mi'. Falta verificar: fruteria, bodega/aceite y arroz D.O. concretos del barrio.

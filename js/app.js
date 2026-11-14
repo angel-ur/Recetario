@@ -171,15 +171,41 @@
     ['despensa', /almendra|avellana|aceituna|olivas?\b|maicena|\bron\b|an[ií]s|nuez|pasas|pi[ñn]ones/, 'Súper', 'Tienda gourmet'],
     ['panaderia', /pan\b|picatoste|harina|az[uú]car|levadura|sobao|galleta|masa/, 'Súper', 'Panadería']
   ];
+  var MAPAQ = { embutido: 'charcutería', carne: 'carnicería', pescado: 'pescadería', legumbre: 'tienda de legumbres a granel', arroz: 'tienda gourmet', especia: 'herbolario especias', aceite: 'bodega aceite', huevo: 'mercado huevos', verdura: 'mercado verdulería', despensa: 'tienda gourmet', panaderia: 'panadería' };
+  /* Por tu barrio (zona). Solo sitios con fuente: web del Mercat local, Ajuntament/Barcelona + Sostenible, guias locales. */
+  var BARRIO = {
+
+
+
+
+
+
+
+  };
+  BARRIO.legumbre = BARRIO.especia; BARRIO.arroz = []; BARRIO.aceite = []; BARRIO.despensa = [];
+  function barrioHTML(cats) {
+    var vistos = {}, h = '';
+    cats.forEach(function (c) {
+      var l = BARRIO[c]; if (!l || !l.length || vistos[c]) return; vistos[c] = 1;
+      h += '<p class="eti">' + esc(DONDE.filter(function (d) { return d[0] === c; })[0][3]) + '</p><ul class="barrio-lista">' + l.map(function (p) {
+        return '<li><a href="https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(p[0] + ' Barcelona') + '" target="_blank" rel="noopener"><b>' + esc(p[0]) + '</b><span>' + esc(p[1]) + '</span></a></li>';
+      }).join('') + '</ul>';
+    });
+    if (!h) return '';
+    return '<details class="barrio"><summary>Por tu barrio (zona)</summary>' + h + '<p class="ayuda">Mercat local: lunes a jueves 8-14 h, viernes 8-19:30 h, sábados 8-14:30 h. Comprueba horarios antes de ir.</p></details>';
+  }
   function dondeCat(t) {
     var n = String(t).toLowerCase();
     for (var q = 0; q < DONDE.length; q++) if (DONDE[q][1].test(n)) return DONDE[q];
     return null;
   }
-  function dondeTag(t) {
+  function dondeTag(t, sinLink) {
     var d = dondeCat(t);
-    return d ? '<span class="donde"><b>' + d[2] + '</b> fácil · <b>' + d[3] + '</b> mejor</span>' : '';
+    if (!d) return '';
+    var mejor = sinLink ? '<b>' + d[3] + '</b>' : '<a class="donde-link" href="https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(MAPAQ[d[0]] + ' cerca de mí') + '" target="_blank" rel="noopener">' + d[3] + '</a>';
+    return '<span class="donde"><b>' + d[2] + '</b> fácil · ' + mejor + ' mejor</span>';
   }
+  function catsDe(textos) { var out = []; textos.forEach(function (t) { var d = dondeCat(t); if (d) out.push(d[0]); }); return out; }
 
   /* ---------- Piezas comunes ---------- */
   function chipFuego(f) {
@@ -208,8 +234,8 @@
       var grupos = {}, orden = [];
       compra.forEach(function (c, n) { if (!grupos[c.r]) { grupos[c.r] = []; orden.push(c.r); } grupos[c.r].push([c, n]); });
       h += '<section class="tarjeta" aria-labelledby="t-compra"><div class="seccion-cab"><h2 id="t-compra">La compra</h2><span class="ayuda">' + compra.filter(function (c) { return !c.d; }).length + ' por comprar</span></div>' +
-        orden.map(function (rid) { var rr = porId[rid]; return '<p class="eti">' + esc(rr ? rr.n : rid) + '</p><ul class="compra-lista">' + grupos[rid].map(function (p) { return '<li><button type="button" class="compra-it" data-compra="' + p[1] + '" aria-pressed="' + (!!p[0].d) + '">' + esc(p[0].t) + dondeTag(p[0].t) + '</button></li>'; }).join('') + '</ul>'; }).join('') +
-        '<p class="reinicio"><button type="button" class="reiniciar" data-vaciar="1">Vaciar la lista</button></p></section>';
+        orden.map(function (rid) { var rr = porId[rid]; return '<p class="eti">' + esc(rr ? rr.n : rid) + '</p><ul class="compra-lista">' + grupos[rid].map(function (p) { return '<li><button type="button" class="compra-it" data-compra="' + p[1] + '" aria-pressed="' + (!!p[0].d) + '">' + esc(p[0].t) + dondeTag(p[0].t, true) + '</button></li>'; }).join('') + '</ul>'; }).join('') +
+        barrioHTML(catsDe(compra.map(function (c) { return c.t; }))) + '<p class="reinicio"><button type="button" class="reiniciar" data-vaciar="1">Vaciar la lista</button></p></section>';
     }
     var hoy = new Date(), dnum = Math.floor((hoy.getTime() - hoy.getTimezoneOffset() * 60000) / 86400000);
     var pool = R.filter(function (r) { return !cocinados[r.id]; }); if (!pool.length) pool = R;
@@ -325,7 +351,7 @@
         if (i.grupo !== undefined) return '<li class="grupo">' + esc(i.grupo) + '</li>';
         if (i.plano) return '<li><label><input type="checkbox" value="' + i.k + '"' + (e.tengo.indexOf(i.k) > -1 ? ' checked' : '') + '><span class="nom">' + esc(i.s) + '</span>' + dondeTag(i.s) + '</label></li>';
         return '<li><label><input type="checkbox" value="' + i.k + '"' + (e.tengo.indexOf(i.k) > -1 ? ' checked' : '') + '><span class="nom" data-n="' + i.k + '">' + esc(etiquetaIng(r, i, e.rac)) + '</span><span class="cant" data-c="' + i.k + '">' + esc(cantidad(r, i, e.rac) || 'al gusto') + '</span>' + dondeTag(i.s) + '</label></li>';
-      }).join('') + '</ul></section>';
+      }).join('') + '</ul>' + barrioHTML(catsDe(r.ings.filter(function (i) { return i.grupo === undefined; }).map(function (i) { return i.s; }))) + '</section>';
     // Pasos
     h += '<div class="seccion-cab"><h2>Paso a paso</h2><p class="eti num" id="progreso" style="color:var(--ok)"></p></div>';
     r.fases.forEach(function (f, fi) {
