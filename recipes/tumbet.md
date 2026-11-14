@@ -8,7 +8,7 @@ categoria: huerta
 dificultad: 2
 raciones: 4
 tiempo_min: 115
-tags: [berenjena, patata, pimrojo, #, tomate, ajo]
+tags: [berenjena, patata, pimrojo, tomate, ajo]
 ---
 
 Patata, berenjena y pimiento fritos por separado y una salsa de tomate de cocción lenta, todo por capas en la greixonera, la cazuela de barro mallorquina.
@@ -18,7 +18,7 @@ Patata, berenjena y pimiento fritos por separado y una salsa de tomate de cocci�
 - 2 berenjenas
 - 600 g de patatas
 - 2 pimientos rojos
-- a r de P
+- #Para la salsa
 - 800 g de tomates maduros
 - 3 dientes de ajo
 - 1 cdta de azúcar

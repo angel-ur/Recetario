@@ -21,7 +21,7 @@ El postre de Sant Josep: leche perfumada con limón y canela, yemas y una costra
 - 40 g de maicena
 - 1 piel de limón (sin lo blanco)
 - 1 rama de canela
-- a r de P
+- #Para quemar
 - 6 cda de azúcar
 
 ## Elaboración

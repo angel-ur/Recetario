@@ -8,7 +8,7 @@ categoria: huerta
 dificultad: 2
 raciones: 4
 tiempo_min: 2990
-tags: [#, escarola, bacalao, atun, anchoa, aceituna]
+tags: [escarola, bacalao, atun, anchoa, aceituna]
 ---
 
 La ensalada de invierno de Vilanova, Sitges y Vilafranca: escarola, bacalao, atún, anchoas y olivas, con una salsa de ñoras, almendras y avellanas majada en el mortero, prima hermana del romesco de Tarragona.

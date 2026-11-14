@@ -22,7 +22,7 @@ Plato de pastores para aprovechar el pan duro: se humedece la víspera y se le d
 - 150 g de chorizo
 - 1 cdta de pimentón dulce
 - 150 ml de aceite de oliva
-- a r de P
+- #Para acompañar
 - uvas, melón o un huevo frito
 
 ## Elaboración

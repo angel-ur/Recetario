@@ -24,7 +24,7 @@ Tomate muy maduro, pan del día anterior y el aceite al final, poco a poco, para
 - 30 ml de vinagre de Jerez
 - 200 ml de agua fría
 - sal
-- a r de P
+- #Para acompañar
 - daditos de pepino, pimiento y pan
 
 ## Elaboración

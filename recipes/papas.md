@@ -8,7 +8,7 @@ categoria: picar
 dificultad: 1
 raciones: 4
 tiempo_min: 55
-tags: [papa, salg, #, ajo, guindilla, comino]
+tags: [papa, salg, ajo, guindilla, comino]
 ---
 
 Papas pequeñas cocidas en agua muy salada hasta que la piel se arruga y blanquea. Los mojos, en el mortero, como en las casas canarias.

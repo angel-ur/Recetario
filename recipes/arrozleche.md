@@ -22,7 +22,7 @@ Fuego lento, cuchara de madera y paciencia. El azúcar al final y, si te atreves
 - 1 rama de canela
 - 20 g de mantequilla (opcional)
 - canela molida
-- a r de P
+- #Para requemar (opcional)
 - 4 cda de azúcar
 
 ## Elaboración

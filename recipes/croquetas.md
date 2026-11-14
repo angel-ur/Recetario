@@ -22,7 +22,7 @@ Las de aprovechar: una bechamel espesa y bien cocida, el jamón rehogado y una n
 - 1 l de leche entera
 - nuez moscada
 - sal
-- a r de P
+- #Para rebozar y freír
 - 2 huevos
 - 150 g de pan rallado
 - 500 ml de aceite de oliva para freír

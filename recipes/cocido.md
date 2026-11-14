@@ -8,14 +8,14 @@ categoria: cuchara
 dificultad: 2
 raciones: 6
 tiempo_min: 950
-tags: [#, garbanzo, carne, pollo, tocino, hueso]
+tags: [garbanzo, carne, pollo, tocino, hueso]
 ---
 
 El de los domingos: garbanzos a remojo la víspera, carnes a fuego lento y servido en tres vuelcos. El chorizo y la morcilla van aparte para que el caldo salga limpio.
 
 ## Ingredientes
 
-- a r de P
+- #Para el caldo
 - 500 g de garbanzos
 - 500 g de morcillo de ternera
 - 500 g de gallina o muslos de pollo

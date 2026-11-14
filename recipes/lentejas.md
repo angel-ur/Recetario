@@ -23,7 +23,7 @@ Todo a la olla en frío, un refrito de ajo y pimentón y el gesto que lo cambia 
 - 0.5 cebolla
 - 1 hoja de laurel
 - 1.2 l de agua fría
-- a r de P
+- #Para el refrito
 - 2 dientes de ajo
 - 1 tomate maduro
 - 1 cdta de pimentón dulce
