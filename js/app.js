@@ -1097,14 +1097,25 @@
       if (filtro.t === 'vispera' && !c.pre) return false;
     }
     if (filtro.q) {
-      var q = filtro.q.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+      /* varias palabras = busqueda por ingrediente: deben estar todas («que tengo en la nevera») */
+      var qs = filtro.q.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').split(/\s+/).filter(Boolean);
       var hay = (r.n + ' ' + r.sub + ' ' + r.lugar + ' ' + r.ings.map(function (i) { return i.s || ''; }).join(' ')).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
-      if (hay.indexOf(q) < 0) return false;
+      if (!qs.every(function (w) { return hay.indexOf(w) > -1; })) return false;
     }
     return true;
   }
+  function puntuaNevera(r, qs) {
+    var hay = r.ings.map(function (i) { return (i.s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }).join(' ');
+    return qs.filter(function (w) { return hay.indexOf(w) > -1; }).length;
+  }
   function pintaFichas() {
     var lista = R.filter(pasaFiltro);
+    var qs = filtro.q.toLowerCase().split(/\s+/).filter(Boolean);
+    if (qs.length >= 2) {
+      var pun = {};
+      lista.forEach(function (r) { pun[r.id] = puntuaNevera(r, qs.map(function (w) { return w.normalize('NFD').replace(/[̀-ͯ]/g, ''); })); });
+      lista = lista.slice().sort(function (a, b) { return pun[b.id] - pun[a.id]; });
+    }
     var activos = (filtro.cat !== 'todas') + (filtro.t !== 'todos') + !!filtro.q + !!filtro.fav;
     var qb = $('#quita-filtros'); if (qb) qb.hidden = !activos;
     var mb = $('#mas-filtros'); if (mb) mb.textContent = filtro.t !== 'todos' ? 'Más filtros (1)' : 'Más filtros';

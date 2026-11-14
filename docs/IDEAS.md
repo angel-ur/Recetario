@@ -27,7 +27,7 @@ Ya tenemos: raciones que recalculan, pasos ilustrados, temporizadores, modo coci
 
 ## P3
 10. Ilustraciones mas ricas por plato. [14 nov: las 13 recetas nuevas ya tienen ilustracion de portada (data/heroes_extra.json); faltan ilustraciones por paso]
-11. Buscador por ingrediente ("que tengo en la nevera").
+11. [HECHO 15 nov] Buscador por ingrediente ("que tengo en la nevera"): varias palabras en el buscador exigen todas (AND) y ordenan por cuantos ingredientes coinciden.
 12. Impresion limpia / PDF.
 
 ## Reglas inamovibles
