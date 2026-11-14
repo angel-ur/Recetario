@@ -7,7 +7,6 @@ lugar: "Castilla-La Mancha"
 categoria: huerta
 dificultad: 1
 raciones: 4
-tiempo_min: 110
 tags: [cebolla, pimiento, pimrojo, calabacin, tomate, aceite]
 ---
 

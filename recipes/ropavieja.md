@@ -7,7 +7,6 @@ lugar: "Canarias"
 categoria: cuchara
 dificultad: 1
 raciones: 4
-tiempo_min: 40
 tags: [garbanzos, patata, carne, pimiento, tomate, cebolla, pimenton]
 ---
 

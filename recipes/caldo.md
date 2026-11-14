@@ -7,7 +7,6 @@ lugar: "Receta de casa"
 categoria: cuchara
 dificultad: 1
 raciones: 2
-tiempo_min: 1195
 tags: [huesos, rodilla, tuetano, oreja, pata, pollo, curcuma]
 ---
 
@@ -56,10 +55,10 @@ Huesos con mucho colágeno, muchas horas a fuego mínimo y sin sal. Si sale bien
 
 ### Horas de olla
 
-4. **Agua, especias y a dormir** (480 min) - Añade el resto del agua mineral hasta casi arriba (cubriendo los huesos al menos 2 dedos), pero deja sitio en la olla para la verdura de mañana (unos 4 litros en total). Añade cúrcuma molida (o 3 cm de raíz fresca), pimienta negra en grano, trozo de jengibre fresco de 4 cm (o jengibre molido) en rodajas, rama de romero, hoja de laurel y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.
+4. **Agua, especias y a dormir** (480 min) - Añade el resto del agua mineral hasta casi arriba (cubriendo los huesos al menos 2 dedos), pero deja sitio en la olla para la verdura de mañana (unos 4 litros en total). Añade cúrcuma molida (o 3 cm de raíz fresca), pimienta negra en grano, trozo de jengibre fresco de 4 cm (o jengibre molido), en rodajas si es fresco, rama de romero, hoja de laurel y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.
    > La pimienta negra va con la cúrcuma por algo: activa la cúrcuma. Y la olla lenta marca la diferencia: a temperatura baja y muchas horas es cuando suelta toda su gelatina. La sal va al final porque el caldo se concentra y podría quedar salado.
 5. **Las verduras, la última hora** (60 min) - Echa a la olla cebolla, diente de ajo, zanahoria, puerro grande y rama de apio en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Sigue con el hervor mínimo y tapa a medias otra hora.
-   > Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Aunque los huesos se tuesten antes, entra casi al final. Tostarlas antes es opcional (más color y dulzor); la versión de la casa las echa crudas.
+   > Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Tostarlas antes es opcional (más color y dulzor); la versión de la casa las echa crudas.
 6. **Las verduras, por la mañana** (270 min) - A la mañana siguiente, trocea en trozos gruesos cebolla, diente de ajo, zanahoria, puerro grande y rama de apio, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.
    > Con la olla lenta y su temperatura baja, la verdura aguanta bien estas 4 o 5 horas; en cacerola normal no, por eso allí solo entra la última hora. Tostarla antes es opcional (más color y dulzor); la versión de la casa la echa cruda.
 

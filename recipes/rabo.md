@@ -7,7 +7,6 @@ lugar: "Córdoba, Andalucía"
 categoria: carne
 dificultad: 2
 raciones: 4
-tiempo_min: 325
 tags: [rabo, sal, pimienta, harina, aceite]
 ---
 
@@ -62,7 +61,7 @@ Guiso de horas al vino tinto hasta que la carne se separa sola del hueso. Mejor 
 9. **Tritura la salsa** (10 min) - Saca los trozos de rabo y las hojas de laurel. Tritura las verduras con el líquido hasta tener una salsa fina, y pásala por un colador si la quieres más sedosa. Si queda clara, redúcela 5 a 10 minutos a fuego vivo, sin tapa. Prueba de sal.
    > Reducir concentra el sabor y espesa la salsa. Si queda demasiado espesa, aligérala con un poco de caldo.
 10. **Junta y sirve** (5 min) - Devuelve el rabo a la salsa y dale un hervor suave para que se caliente todo. Sirve la carne bien bañada en salsa.
-   > Con patata para freír fritas y pan para mojar.
+   > Con patatas fritas y pan para mojar.
 
 ## Secretos de la abuela
 

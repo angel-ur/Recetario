@@ -7,7 +7,6 @@ lugar: "Aragón y Navarra"
 categoria: carne
 dificultad: 1
 raciones: 4
-tiempo_min: 82
 tags: [pollo, jamon, pimrojo, pimiento, cebolla, ajo]
 ---
 
@@ -34,7 +33,7 @@ Guiso de huerta y corral del valle del Ebro: pollo dorado, pimiento rojo, tomate
 
 1. **Dora el pollo** (12 min) - Salpimienta 1,2 kg de pollo troceado (1 cucharadita de sal y pimienta al gusto) y dóralo en una cazuela con 4 cucharadas de aceite de oliva, en dos tandas, 5-6 minutos cada una, hasta que esté bien tostado por todos lados. Sácalo y resérvalo.
    > Piel bien dorada, que es lo que da color y sabor a la salsa. En dos tandas porque, si lo amontonas, suelta agua y se cuece en vez de dorarse.
-2. **Sofrito con jamón** (15 min) - En el mismo aceite, rehoga 1 cebolla y 3 dientes de ajo picados 5 minutos. Añade 100 g de jamón serrano en tacos y, al minuto, 2 pimientos rojos y 1 pimiento verde en tiras de 1 cm. Deja que se ablanden 8-10 minutos. Deja que se ablanden.
+2. **Sofrito con jamón** (15 min) - En el mismo aceite, rehoga 1 cebolla y 3 dientes de ajo picados 5 minutos. Añade 100 g de jamón serrano en tacos y, al minuto, 2 pimientos rojos y 1 pimiento verde en tiras de 1 cm. Deja que se ablanden 8-10 minutos.
    > El jamón entra con la cebolla ya pochada, para que suelte su sabor sin endurecerse.
 3. **Tomate y choricero** (10 min) - Añade 500 g de tomates maduros pelados y troceados y 1 cucharada de carne de pimiento choricero, y deja que se haga diez minutos hasta que reduzca.
    > Para pelar el tomate, un corte en cruz y treinta segundos en agua hirviendo: la piel sale sola.

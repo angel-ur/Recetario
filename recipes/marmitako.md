@@ -7,7 +7,6 @@ lugar: "País Vasco"
 categoria: mar
 dificultad: 1
 raciones: 4
-tiempo_min: 75
 tags: [bonito, patata, cebolla, pimiento, pimrojo, ajo]
 ---
 

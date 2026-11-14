@@ -7,7 +7,6 @@ lugar: "Región de Murcia"
 categoria: arroz
 dificultad: 2
 raciones: 4
-tiempo_min: 60
 tags: [arroz, nora, ajo, pescado, tomate, alioli]
 ---
 

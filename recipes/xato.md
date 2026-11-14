@@ -7,7 +7,6 @@ lugar: "Garraf y Penedès, Cataluña"
 categoria: huerta
 dificultad: 2
 raciones: 4
-tiempo_min: 2990
 tags: [escarola, bacalao, atun, anchoa, aceituna]
 ---
 

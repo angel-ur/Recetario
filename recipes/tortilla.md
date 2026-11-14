@@ -7,7 +7,6 @@ lugar: "Toda España"
 categoria: picar
 dificultad: 2
 raciones: 4
-tiempo_min: 58
 tags: [patata, cebolla, huevo, aceite, sal]
 ---
 

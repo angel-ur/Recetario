@@ -7,7 +7,6 @@ lugar: "La Rioja"
 categoria: cuchara
 dificultad: 1
 raciones: 4
-tiempo_min: 61
 tags: [patata, chorizo, cebolla, pimiento, ajo, choricero]
 ---
 

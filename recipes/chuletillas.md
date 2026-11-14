@@ -8,7 +8,6 @@ categoria: carne
 dificultad: 2
 raciones: 4
 tags: [cordero, chuletillas, sarmientos, sal, brasa]
-tiempo_min: 40
 ---
 
 Plato de las bodegas de La Rioja: chuletillas de cordero lechal asadas sobre brasas de sarmientos de la vid, con sal gorda.

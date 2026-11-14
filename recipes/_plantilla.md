@@ -7,7 +7,6 @@ lugar: "Toda España"
 categoria: cuchara
 dificultad: 1
 raciones: 4
-tiempo_min: 45
 tags: [ingrediente1, ingrediente2]
 ---
 

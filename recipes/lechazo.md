@@ -7,7 +7,6 @@ lugar: "Castilla y León"
 categoria: carne
 dificultad: 2
 raciones: 4
-tiempo_min: 150
 tags: [cordero, lechazo, sal, agua, laurel, horno]
 ---
 

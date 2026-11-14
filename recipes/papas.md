@@ -7,7 +7,6 @@ lugar: "Canarias"
 categoria: picar
 dificultad: 1
 raciones: 4
-tiempo_min: 55
 tags: [papa, salg, ajo, guindilla, comino]
 ---
 

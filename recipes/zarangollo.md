@@ -7,7 +7,6 @@ lugar: "Región de Murcia"
 categoria: huerta
 dificultad: 1
 raciones: 4
-tiempo_min: 70
 tags: [calabacin, cebolla, huevo, aceite, sal, patata]
 ---
 

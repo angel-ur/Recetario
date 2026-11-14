@@ -7,7 +7,6 @@ lugar: "País Vasco"
 categoria: mar
 dificultad: 3
 raciones: 4
-tiempo_min: 40
 tags: [bacalao, ajo, aceite, guindilla]
 ---
 

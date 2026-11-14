@@ -7,7 +7,6 @@ lugar: "Andalucía"
 categoria: huerta
 dificultad: 1
 raciones: 4
-tiempo_min: 158
 tags: [tomate, pimiento, pepino, ajo, pan, aceite]
 ---
 

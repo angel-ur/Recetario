@@ -7,7 +7,6 @@ lugar: "Extremadura"
 categoria: carne
 dificultad: 2
 raciones: 4
-tiempo_min: 120
 tags: [cordero, ajo, pimenton, laurel, vino, pimiento, cebolla]
 ---
 

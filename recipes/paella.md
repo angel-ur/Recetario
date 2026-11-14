@@ -7,7 +7,6 @@ lugar: "Comunitat Valenciana"
 categoria: arroz
 dificultad: 3
 raciones: 4
-tiempo_min: 93
 tags: [arroz, pollo, conejo, judia, garrofo, tomate]
 ---
 

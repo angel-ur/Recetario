@@ -7,7 +7,6 @@ lugar: "Comunidad de Madrid"
 categoria: cuchara
 dificultad: 3
 raciones: 6
-tiempo_min: 240
 tags: [callos, morro, chorizo, morcilla, pimenton, laurel, cebolla]
 ---
 

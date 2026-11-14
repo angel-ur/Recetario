@@ -7,7 +7,6 @@ lugar: "Cataluña"
 categoria: postre
 dificultad: 2
 raciones: 6
-tiempo_min: 276
 tags: [leche, yema, azucar, maicena, piel, canela]
 ---
 

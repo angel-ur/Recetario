@@ -3542,7 +3542,7 @@
       "m": 15,
       "tim": 15,
       "f": 3,
-      "x": "En el mismo aceite, rehoga {cebolla} y {ajo} picados. Añade {jamon} y, al minuto, {pimrojo} y {pimiento} en tiras. Deja que se ablanden.",
+      "x": "En el mismo aceite, rehoga {cebolla} y {ajo} picados. Añade {jamon} y, al minuto, {pimrojo} y {pimiento} en tiras. Deja que se ablanden 8-10 minutos.",
       "ab": "El jamón entra con la cebolla ya pochada, para que suelte su sabor sin endurecerse.",
       "e": {
        "k": "fuego",
@@ -6862,7 +6862,7 @@
       "tim": 480,
       "w": 1,
       "f": "l",
-      "x": "Añade el resto del agua mineral hasta casi arriba (cubriendo los huesos al menos 2 dedos), pero deja sitio en la olla para la verdura de mañana (unos 4 litros en total). Añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.",
+      "x": "Añade el resto del agua mineral hasta casi arriba (cubriendo los huesos al menos 2 dedos), pero deja sitio en la olla para la verdura de mañana (unos 4 litros en total). Añade {curcuma}, {pimienta}, {jengibre}, en rodajas si es fresco, {romero}, {laurel} y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.",
       "ab": "La pimienta negra va con la cúrcuma por algo: activa la cúrcuma. Y la olla lenta marca la diferencia: a temperatura baja y muchas horas es cuando suelta toda su gelatina. La sal va al final porque el caldo se concentra y podría quedar salado.",
       "e": {
        "k": "fuego",
@@ -6878,7 +6878,7 @@
         "m": 180,
         "tim": 180,
         "f": 1,
-        "x": "Pon la olla a fuego fuerte hasta que arranque a hervir. Saldrá espuma gris: quítala con un cucharón durante los primeros 10 minutos (espumar). Añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y un poco de azafrán si tienes. Baja al fuego mínimo (hervor mínimo: solo una burbuja de vez en cuando), tapa a medias y cuece de 3 a 4 horas (3 como mínimo), sin sal. Si baja mucho el nivel, añade agua caliente hasta volver a cubrir. La verdura entra después, solo la última hora.",
+        "x": "Pon la olla a fuego fuerte hasta que arranque a hervir. Saldrá espuma gris: quítala con un cucharón durante los primeros 10 minutos (espumar). Añade {curcuma}, {pimienta}, {jengibre}, en rodajas si es fresco, {romero}, {laurel} y un poco de azafrán si tienes. Baja al fuego mínimo (hervor mínimo: solo una burbuja de vez en cuando), tapa a medias y cuece de 3 a 4 horas (3 como mínimo), sin sal. Si baja mucho el nivel, añade agua caliente hasta volver a cubrir. La verdura entra después, solo la última hora.",
         "ab": "La espuma es proteína coagulada: si se queda, enturbia el caldo. El hervor mínimo es la clave: un hervor fuerte mezcla la grasa con el agua y lo deja turbio y graso. Mientras, tienes tres horas libres.",
         "e": {
          "k": "fuego",

@@ -7,7 +7,6 @@ lugar: "Illes Balears"
 categoria: cuchara
 dificultad: 1
 raciones: 4
-tiempo_min: 60
 tags: [pan, col, tomate, pimiento, cebolla, ajo, pimenton]
 ---
 

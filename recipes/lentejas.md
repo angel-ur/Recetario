@@ -7,7 +7,6 @@ lugar: "Toda España"
 categoria: cuchara
 dificultad: 1
 raciones: 4
-tiempo_min: 71
 tags: [lenteja, chorizo, patata, zanahoria, pimiento, cebolla]
 ---
 

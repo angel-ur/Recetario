@@ -7,7 +7,6 @@ lugar: "Indonesia, Java"
 categoria: huerta
 dificultad: 3
 raciones: 6
-tiempo_min: 3000
 tags: [soja, tempeh, fermento, vinagre, fermentacion]
 ---
 

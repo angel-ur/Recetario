@@ -7,7 +7,6 @@ lugar: "Cantabria"
 categoria: postre
 dificultad: 1
 raciones: 12
-tiempo_min: 130
 tags: [mantequilla, azucar, huevo, harina, levadura, limon]
 ---
 

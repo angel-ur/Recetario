@@ -7,7 +7,6 @@ lugar: "Toda España"
 categoria: picar
 dificultad: 2
 raciones: 30
-tiempo_min: 313
 tags: [mantequilla, cebolla, jamon, harina, leche, nuez]
 ---
 

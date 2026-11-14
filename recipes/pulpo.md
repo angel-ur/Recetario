@@ -7,7 +7,6 @@ lugar: "Galicia"
 categoria: mar
 dificultad: 2
 raciones: 4
-tiempo_min: 1527
 tags: [pulpo, patata, salg, pimenton, pimentonp, aceite]
 ---
 

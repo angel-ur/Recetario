@@ -7,7 +7,6 @@ lugar: "Asturias y toda España"
 categoria: postre
 dificultad: 1
 raciones: 6
-tiempo_min: 200
 tags: [leche, arroz, azucar, piel, canela, mantequilla]
 ---
 

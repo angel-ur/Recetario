@@ -7,7 +7,6 @@ lugar: "Illes Balears"
 categoria: huerta
 dificultad: 2
 raciones: 4
-tiempo_min: 115
 tags: [berenjena, patata, pimrojo, tomate, ajo]
 ---
 

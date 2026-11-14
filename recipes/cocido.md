@@ -7,7 +7,6 @@ lugar: "Comunidad de Madrid"
 categoria: cuchara
 dificultad: 2
 raciones: 6
-tiempo_min: 950
 tags: [garbanzo, carne, pollo, tocino, hueso]
 ---
 
@@ -45,7 +44,7 @@ El de los domingos: garbanzos a remojo la víspera, carnes a fuego lento y servi
 ### El caldo
 
 2. **Carnes a la olla** (15 min) - Pon en una olla grande (de 6-7 litros) el morcillo, la gallina o los muslos, el tocino, el hueso de caña y la punta de jamón, cubiertos con 4 litros de agua fría. Llévalo a hervir a fuego fuerte (unos 20 minutos) y ve quitando la espuma gris que sube con una espumadera.
-   > Espumar bien al principio es lo que hace que el caldo salga limpio y no sepa a turbio: la espuma es proteína que se corta con el calor. Empezar en frío deja que la carne suelte su sabor al agua; si metes la carne en agua hirviendo, se sella y el caldo sale más flojo.
+   > Espumar bien al principio es lo que hace que el caldo salga limpio y no sepa a turbio: la espuma es proteína que se corta con el calor. Empezar en frío deja que la carne suelte su sabor al agua; si metes la carne en agua hirviendo, la carne suelta menos sabor al caldo y este sale más flojo.
 3. **Garbanzos al agua caliente** (5 min) - Cuando hierva y ya hayas quitado la espuma, escurre los garbanzos y añádelos dentro de una malla o red de cocido, para sacarlos luego enteros.
    > Los garbanzos siempre en agua ya caliente: si los echas en frío se encallan y quedan duros. La malla es su truco para servirlos sin romperlos.
 

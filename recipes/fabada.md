@@ -7,7 +7,6 @@ lugar: "Asturias"
 categoria: cuchara
 dificultad: 2
 raciones: 4
-tiempo_min: 935
 tags: [faba, chorizo, morcilla, tocino, lacon, azafran]
 ---
 

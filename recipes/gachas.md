@@ -7,7 +7,6 @@ lugar: "Castilla-La Mancha"
 categoria: cuchara
 dificultad: 2
 raciones: 4
-tiempo_min: 45
 tags: [almortas, harina, ajo, pimenton, torrezno, aceite]
 ---
 

@@ -7,7 +7,6 @@ lugar: "Comunitat Valenciana"
 categoria: arroz
 dificultad: 2
 raciones: 4
-tiempo_min: 80
 tags: [arroz, garbanzos, costilla, morcilla, tomate, ajo, azafran]
 ---
 

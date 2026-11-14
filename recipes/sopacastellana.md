@@ -7,7 +7,6 @@ lugar: "Castilla y León"
 categoria: cuchara
 dificultad: 1
 raciones: 4
-tiempo_min: 36
 tags: [pan, ajo, jamon, pimenton, caldo, huevo]
 ---
 

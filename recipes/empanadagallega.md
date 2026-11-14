@@ -7,7 +7,6 @@ lugar: "Galicia"
 categoria: picar
 dificultad: 2
 raciones: 8
-tiempo_min: 150
 tags: [atun, cebolla, pimiento, tomate, harina, huevo]
 ---
 
@@ -45,7 +44,7 @@ La empanada de las romerías y de las comidas de domingo: una masa fina y un rel
 ### Montaje y horno
 
 5. **Estira y rellena** (10 min) - Divide la masa en dos (una algo más grande para la base), estira muy fina (2 mm), pon una en la bandeja, extiende el relleno y tapa con la otra.
-6. **Cierra** (5 min) - Dobla el borde hacia dentro y repulgua. Haz un agujero en el centro y pinta con el huevo batido.
+6. **Cierra** (5 min) - Dobla el borde hacia dentro y repúlgalo: pellizca y gira el borde con los dedos, formando una cuerda. Haz un agujero en el centro y pinta con el huevo batido.
    > El agujero deja salir el vapor. Con un trocito de masa se hace el adorno del centro.
 7. **Hornea** (40 min, 200 °C) - Hornea a 200 °C, calor arriba y abajo, hasta que esté bien dorada. Deja templar antes de cortar.
 

@@ -7,7 +7,6 @@ lugar: "Cantabria"
 categoria: cuchara
 dificultad: 2
 raciones: 6
-tiempo_min: 200
 tags: [alubias, berza, chorizo, morcilla, tocino, costilla, patata]
 ---
 
