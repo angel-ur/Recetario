@@ -786,3 +786,6 @@ details.plan[open] > summary { margin-bottom: 12px; }
 .ses-ab b { margin-right: 6px; }
 .ses-emp { font-size: .95em; }
 .ses-hora { font: inherit; padding: 4px 8px; border: 2px solid var(--linea); border-radius: 10px; background: var(--tarjeta-bg); color: inherit; touch-action: manipulation; min-height: 40px; }
+/* ingredientes: el nombre se parte dentro de su hueco y la cantidad queda a la derecha en la misma fila */
+.ing-lista .nom { flex: 1 1 0; min-width: 0; }
+.ing-lista .cant { flex: none; max-width: 45%; margin-left: 0; }
