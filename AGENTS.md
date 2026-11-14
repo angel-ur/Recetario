@@ -25,7 +25,7 @@ Cuerpo opcional: el porqué, no el qué. Ejemplos:
 - `fix(receta): evita el desbordamiento horizontal en iPhone`
 - `docs(adr): registra la decisión de portadas ilustradas en SVG`
 
-Cada commit visible para el usuario añade una línea a `CHANGELOG.md` (sección Unreleased).
+Cada commit visible para el usuario añade una línea a `CHANGELOG.md` (sección «Sin publicar»).
 
 ## Reglas de producto
 - La app es compartida: nada de nombres propios ni zonas por defecto en textos visibles. Las listas locales verificadas solo aparecen si la ubicación coincide.

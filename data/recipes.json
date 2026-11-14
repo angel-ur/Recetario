@@ -99,6 +99,7 @@
       "m": 10,
       "x": "En la cazuela de barro, dora la costilla con 3 cucharadas de aceite, 8-10 minutos, hasta que tome color. Aparta.",
       "f": 4,
+      "tim": 10,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -125,6 +126,7 @@
       "x": "Añade los 2 tomates rallados y sofríelos 3 minutos; retira del fuego y añade el azafrán (o 1 cucharadita de pimentón) para que no se queme.",
       "ab": "Si se quema el pimentón, todo el arroz amarga.",
       "f": 3,
+      "tim": 5,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -158,6 +160,7 @@
       "m": 5,
       "x": "Añade el arroz, los garbanzos y el caldo hirviendo (600 ml, el doble que de arroz, más un chorrito). Coloca la costilla, la morcilla y la cabeza de ajos.",
       "f": 5,
+      "tim": 5,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -187,6 +190,7 @@
       "x": "A 200 °C. Hornea con calor arriba y abajo, sin tapar, hasta que el arroz haya absorbido el caldo y quede una costra dorada arriba.",
       "ab": "No lo muevas: la costra es lo mejor.",
       "f": 0,
+      "tim": 25,
       "e": {
        "k": "horno",
        "t": "200 °C",
@@ -213,6 +217,7 @@
       "m": 5,
       "x": "Deja reposar fuera del horno unos minutos antes de servir.",
       "f": 0,
+      "tim": 5,
       "e": {
        "k": "plato",
        "v": "cuenco",
@@ -237,6 +242,7 @@
     ]
    }
   ],
+  "simple": 1,
   "secretos": [
    [
     "Caldo del cocido",
@@ -648,6 +654,7 @@
       "x": "Salpimenta y dora el cordero en 4 cucharadas de aceite bien caliente por todos los lados, sin amontonar.",
       "ab": "Por tandas: si se amontona, suelta agua y no se dora.",
       "f": 4,
+      "tim": 15,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -669,6 +676,7 @@
       "m": 10,
       "x": "Aparta la carne y en el mismo aceite pocha 1 cebolla, 1 pimiento y 5 ajos picados a fuego medio 10 minutos.",
       "f": 3,
+      "tim": 10,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -705,6 +713,7 @@
       "x": "Fuera del fuego, añade 1 cucharada de pimentón, remueve 10 segundos y moja con 150 ml de vino blanco. Reduce un poco.",
       "ab": "El pimentón siempre fuera del fuego: se quema enseguida.",
       "f": 3,
+      "tim": 5,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -725,6 +734,7 @@
       "m": 80,
       "x": "Vuelve la carne a la cazuela con el laurel y unos 500 ml de agua, justo para cubrir. Cuece tapado a fuego muy suave (que apenas burbujee) hasta que esté tierno y la salsa, ligada.",
       "f": 1,
+      "tim": 80,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -749,6 +759,7 @@
     ]
    }
   ],
+  "simple": 1,
   "secretos": [
    [
     "Ajos enteros",
@@ -903,6 +914,7 @@
       "x": "Cuece el pescado con 1 litro de agua y 1 cucharadita de sal, sin que hierva a borbotones. Cuela el caldo y reserva el pescado.",
       "ab": "Cuanto más pescado de roca, más sabor.",
       "f": 2,
+      "tim": 20,
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -924,6 +936,7 @@
       "x": "Fríe las 3 ñoras (remojadas) y los ajos en 4 cucharadas de aceite, apártalos, y sofríe los 2 tomates rallados 5 minutos.",
       "ab": "Las ñoras, 5 segundos nada más: se queman muy rápido.",
       "f": 3,
+      "tim": 10,
       "e": {
        "k": "fuego",
        "v": "sarten",
@@ -951,6 +964,7 @@
       "m": 5,
       "x": "Machaca las ñoras y los ajos con un poco de caldo, y añádelos al sofrito.",
       "f": 0,
+      "tim": 5,
       "e": {
        "k": "mortero",
        "c": "#C8402B",
@@ -978,6 +992,7 @@
       "x": "Añade el arroz y el caldo hirviendo (unos 700 ml, algo más del doble que de arroz), con el azafrán. Cuece sin mover primero fuerte y luego suave.",
       "ab": "Al final, que quede meloso pero con el grano entero.",
       "f": 4,
+      "tim": 18,
       "e": {
        "k": "fuego",
        "v": "paellera",
@@ -1002,6 +1017,7 @@
       "m": 5,
       "x": "Deja reposar unos minutos y sirve con el pescado aparte y alioli.",
       "f": 0,
+      "tim": 5,
       "e": {
        "k": "plato",
        "v": "llano",
@@ -1022,6 +1038,7 @@
     ]
    }
   ],
+  "simple": 1,
   "secretos": [
    [
     "Ñora",
@@ -1417,7 +1434,7 @@
      {
       "t": "Agua, especias y a dormir",
       "m": 480,
-      "x": "Añade el resto del agua mineral hasta casi arriba (cubriendo los huesos al menos 2 dedos), pero deja sitio en la olla para la verdura de mañana (unos 4 litros en total). Añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.",
+      "x": "Añade el resto del agua mineral hasta casi arriba (cubriendo los huesos al menos 2 dedos), pero deja sitio en la olla para la verdura de mañana (unos 4 litros en total). Añade {curcuma}, {pimienta}, {jengibre}, en rodajas si es fresco, {romero}, {laurel} y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.",
       "tim": 480,
       "f": "l",
       "w": 1,
@@ -1427,7 +1444,7 @@
         "m": 180,
         "tim": 180,
         "f": 1,
-        "x": "Pon la olla a fuego fuerte hasta que arranque a hervir. Saldrá espuma gris: quítala con un cucharón durante los primeros 10 minutos (espumar). Añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y un poco de azafrán si tienes. Baja al fuego mínimo (hervor mínimo: solo una burbuja de vez en cuando), tapa a medias y cuece de 3 a 4 horas (3 como mínimo), sin sal. Si baja mucho el nivel, añade agua caliente hasta volver a cubrir. La verdura entra después, solo la última hora.",
+        "x": "Pon la olla a fuego fuerte hasta que arranque a hervir. Saldrá espuma gris: quítala con un cucharón durante los primeros 10 minutos (espumar). Añade {curcuma}, {pimienta}, {jengibre}, en rodajas si es fresco, {romero}, {laurel} y un poco de azafrán si tienes. Baja al fuego mínimo (hervor mínimo: solo una burbuja de vez en cuando), tapa a medias y cuece de 3 a 4 horas (3 como mínimo), sin sal. Si baja mucho el nivel, añade agua caliente hasta volver a cubrir. La verdura entra después, solo la última hora.",
         "ab": "La espuma es proteína coagulada: si se queda, enturbia el caldo. El hervor mínimo es la clave: un hervor fuerte mezcla la grasa con el agua y lo deja turbio y graso. Mientras, tienes tres horas libres.",
         "e": {
          "k": "fuego",
@@ -1516,7 +1533,7 @@
        "reloj": "1 h",
        "rf": 0.33
       },
-      "ab": "Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Aunque los huesos se tuesten antes, entra casi al final. Tostarlas antes es opcional (más color y dulzor); la versión de la casa las echa crudas."
+      "ab": "Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Tostarlas antes es opcional (más color y dulzor); la versión de la casa las echa crudas."
      },
      {
       "t": "Las verduras, por la mañana",
@@ -1792,6 +1809,7 @@
       "x": "Lávalos con agua fría y 3 cucharadas de vinagre, escúrrelos y córtalos en trozos. Escalda el morro igual.",
       "ab": "Dos o tres aguas: lo que se queda sin limpiar se nota en el plato.",
       "f": 0,
+      "tim": 15,
       "e": {
        "k": "bol",
        "c": "#BFDDF2",
@@ -1810,6 +1828,7 @@
       "ab": "Se prueba pinchando: tiene que cortarse con la cuchara.",
       "f": 2,
       "w": 1,
+      "tim": 120,
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -1841,6 +1860,7 @@
       "x": "En 4 cucharadas de aceite pocha las 2 cebollas y los 3 ajos picados con los 100 g de jamón, 15 minutos a fuego medio. Retira del fuego, añade 1 cucharada de harina y 1 cucharada de pimentón dulce (con una pizca de picante), remueve 10 segundos y moja con 300 ml del caldo de cocer.",
       "ab": "El pimentón se quema en un segundo y amarga: aparta del fuego antes de echarlo.",
       "f": 3,
+      "tim": 20,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -1872,6 +1892,7 @@
       "x": "Une callos, salsa, chorizo, morcilla y guindilla, cubre con el caldo justo (unos 500 ml más) y deja a fuego muy suave, 1 hora, hasta que la salsa esté ligada.",
       "ab": "Ligada, no seca: tiene que quedar una salsa brillante y espesa.",
       "f": 1,
+      "tim": 60,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -1904,6 +1925,7 @@
     ]
    }
   ],
+  "simple": 1,
   "secretos": [
    [
     "Al día siguiente",
@@ -2126,7 +2148,7 @@
      {
       "t": "Sofrito con jamón",
       "m": 15,
-      "x": "En el mismo aceite, rehoga 1 cebolla y 3 dientes de ajo picados 5 minutos. Añade 100 g de jamón serrano en tacos y, al minuto, 2 pimientos rojos y 1 pimiento verde en tiras de 1 cm. Deja que se ablanden 8-10 minutos. Deja que se ablanden.",
+      "x": "En el mismo aceite, rehoga 1 cebolla y 3 dientes de ajo picados 5 minutos. Añade 100 g de jamón serrano en tacos y, al minuto, 2 pimientos rojos y 1 pimiento verde en tiras de 1 cm. Deja que se ablanden 8-10 minutos.",
       "tim": 15,
       "f": 3,
       "e": {
@@ -2347,6 +2369,7 @@
       "x": "Prende un buen puñado de sarmientos (unos 2 kg) en la parrilla y deja que se hagan brasa hasta que estén cubiertos de ceniza blanca.",
       "ab": "Sin llama: solo brasa roja, o la carne se quema por fuera y queda cruda por dentro.",
       "f": 5,
+      "tim": 20,
       "e": {
        "k": "fuego",
        "v": "sarten",
@@ -2390,6 +2413,7 @@
       "x": "Colócalas sobre la parrilla a unos 10 cm de la brasa y dales la vuelta cuando estén doradas.",
       "ab": "Poco tiempo: 2 a 3 minutos por lado.",
       "f": 5,
+      "tim": 6,
       "e": {
        "k": "fuego",
        "v": "sarten",
@@ -2433,6 +2457,7 @@
     ]
    }
   ],
+  "simple": 1,
   "secretos": [
    [
     "Sarmientos",
@@ -2723,7 +2748,7 @@
        ],
        "espuma": 1
       },
-      "ab": "Espumar bien al principio es lo que hace que el caldo salga limpio y no sepa a turbio: la espuma es proteína que se corta con el calor. Empezar en frío deja que la carne suelte su sabor al agua; si metes la carne en agua hirviendo, se sella y el caldo sale más flojo."
+      "ab": "Espumar bien al principio es lo que hace que el caldo salga limpio y no sepa a turbio: la espuma es proteína que se corta con el calor. Empezar en frío deja que la carne suelte su sabor al agua; si metes la carne en agua hirviendo, la carne suelta menos sabor al caldo y este sale más flojo."
      },
      {
       "t": "Garbanzos al agua caliente",
@@ -3033,6 +3058,7 @@
       "x": "Pon 400 g de alubias en una olla con 2 litros de agua fría, el tocino, la costilla y la cebolla entera. Cuece a fuego muy suave 1 hora y media, \"asustándolas\" con un chorrito (100 ml) de agua fría cada vez que rompa a hervir.",
       "ab": "Asustar es echar un chorrito de agua fría: así la piel no se rompe.",
       "f": 0,
+      "tim": 90,
       "e": {
        "k": "remojo",
        "i": [
@@ -3055,6 +3081,7 @@
       "m": 25,
       "x": "Aparte, cuece la berza troceada en abundante agua con 1 cucharada de sal 20-25 minutos. Escurre.",
       "f": 2,
+      "tim": 25,
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -3075,6 +3102,7 @@
       "x": "Sofríe 3 ajos laminados en 4 cucharadas de aceite hasta que se doren, aparta del fuego y añade 1 cucharadita de pimentón. Sirve sobre la berza.",
       "ab": "La berza se rehoga al final, con ajo y pimentón.",
       "f": 2,
+      "tim": 10,
       "e": {
        "k": "fuego",
        "v": "sarten",
@@ -3095,6 +3123,7 @@
       "m": 30,
       "x": "Añade las 3 patatas chascadas, el chorizo y la morcilla a las alubias y cuece 30 minutos, hasta que todo esté tierno.",
       "f": 2,
+      "tim": 30,
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -3124,6 +3153,7 @@
     ]
    }
   ],
+  "simple": 1,
   "secretos": [
    [
     "Remojo",
@@ -3778,6 +3808,7 @@
       "x": "Mezcla 500 g de harina, 1 cucharadita de sal, 250 ml de agua templada y 60 ml de aceite. Amasa 10 minutos hasta que no se pegue.",
       "ab": "Tiene que quedar blanda y elástica, como el lóbulo de la oreja.",
       "f": 0,
+      "tim": 15,
       "e": {
        "k": "bol",
        "c": "#F3E7C6",
@@ -3790,6 +3821,7 @@
       "m": 45,
       "x": "Tápala y déjala reposar en un sitio templado.",
       "f": 0,
+      "tim": 45,
       "e": {
        "k": "bol",
        "c": "#F3E7C6",
@@ -3808,6 +3840,7 @@
       "x": "Pica las 3 cebollas y los 2 pimientos fino y pocha a fuego suave con 5 cucharadas de aceite 35-40 minutos, hasta que estén muy tiernos. Retira del fuego, añade 1 cucharadita de pimentón y las 3 cucharadas de tomate.",
       "ab": "Sin prisa: la cebolla tiene que deshacerse. Si queda cruda por dentro, la empanada sale dura.",
       "f": 2,
+      "tim": 40,
       "e": {
        "k": "fuego",
        "v": "sarten",
@@ -3834,6 +3867,7 @@
       "x": "Fuera del fuego, mezcla las 3 latas de atún desmenuzado y los 2 huevos duros picados. Deja templar.",
       "ab": "Rellena siempre con el relleno frío, o la masa se reblandece.",
       "f": 0,
+      "tim": 5,
       "e": {
        "k": "bol",
        "c": "#E6C39A",
@@ -3861,6 +3895,7 @@
       "m": 10,
       "x": "Divide la masa en dos (una algo más grande para la base), estira muy fina (2 mm), pon una en la bandeja, extiende el relleno y tapa con la otra.",
       "f": 0,
+      "tim": 10,
       "e": {
        "k": "formar"
       }
@@ -3868,9 +3903,10 @@
      {
       "t": "Cierra",
       "m": 5,
-      "x": "Dobla el borde hacia dentro y repulgua. Haz un agujero en el centro y pinta con el huevo batido.",
+      "x": "Dobla el borde hacia dentro y repúlgalo: pellizca y gira el borde con los dedos, formando una cuerda. Haz un agujero en el centro y pinta con el huevo batido.",
       "ab": "El agujero deja salir el vapor. Con un trocito de masa se hace el adorno del centro.",
       "f": 0,
+      "tim": 5,
       "e": {
        "k": "plato",
        "v": "llano",
@@ -3888,6 +3924,7 @@
       "m": 40,
       "x": "A 200 °C. Hornea a 200 °C, calor arriba y abajo, hasta que esté bien dorada. Deja templar antes de cortar.",
       "f": 0,
+      "tim": 40,
       "e": {
        "k": "horno",
        "t": "200 °C",
@@ -3904,6 +3941,7 @@
     ]
    }
   ],
+  "simple": 1,
   "secretos": [
    [
     "Masa fina",
@@ -4337,6 +4375,7 @@
       "m": 5,
       "x": "En una sartén con 4 cucharadas de aceite, fríe los 4 ajos laminados sin que se quemen y retíralos.",
       "f": 2,
+      "tim": 5,
       "e": {
        "k": "fuego",
        "v": "sarten",
@@ -4358,6 +4397,7 @@
       "x": "Añade los 200 g de harina y tuéstala 1 minuto, removiendo. Fuera del fuego, añade 1 cucharadita de pimentón y moja poco a poco con 1 litro de agua fría, removiendo con varillas.",
       "ab": "Agua fría y removiendo sin parar, para que no salgan grumos.",
       "f": 3,
+      "tim": 5,
       "e": {
        "k": "fuego",
        "v": "sarten",
@@ -4378,6 +4418,7 @@
       "m": 25,
       "x": "A fuego suave, sin dejar de remover, 20-25 minutos hasta que espese como una crema. Sala con 1 cucharadita rasa de sal.",
       "f": 2,
+      "tim": 25,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -4399,6 +4440,7 @@
       "m": 10,
       "x": "Fríe los 150 g de torreznos en su propia grasa hasta que estén crujientes. Sirve las gachas con los torreznos y el ajo por encima.",
       "f": 5,
+      "tim": 10,
       "e": {
        "k": "fuego",
        "v": "sarten",
@@ -4418,6 +4460,7 @@
     ]
    }
   ],
+  "simple": 1,
   "secretos": [
    [
     "Cuchara de palo",
@@ -4816,6 +4859,7 @@
       "x": "Sala el lechazo con 1 cucharada de sal gorda (y 1 cucharada de manteca si tienes, repartida por encima) y colócalo en una cazuela de barro, con la piel hacia arriba.",
       "ab": "Con la piel hacia arriba para que se dore sin secarse.",
       "f": 0,
+      "tim": 10,
       "e": {
        "k": "plato",
        "v": "cazuela",
@@ -4859,6 +4903,7 @@
       "m": 60,
       "x": "A 190 °C. Hornea con calor arriba y abajo, sin tocar, 1 hora, hasta que la carne empiece a dorarse.",
       "f": 0,
+      "tim": 60,
       "e": {
        "k": "horno",
        "t": "190 °C",
@@ -4878,6 +4923,7 @@
       "x": "A 180 °C. Baja el horno a 180 °C, dale la vuelta, riega con su jugo cada 15 minutos y termina de asar 45 minutos, hasta que la piel esté crujiente y la carne se separe del hueso.",
       "ab": "Riega con cuchara y paciencia, sin pincharlo.",
       "f": 0,
+      "tim": 45,
       "e": {
        "k": "horno",
        "t": "180 °C",
@@ -4898,6 +4944,7 @@
       "m": 10,
       "x": "Saca y deja reposar tapado con papel de aluminio 10 minutos antes de servir.",
       "f": 0,
+      "tim": 10,
       "e": {
        "k": "plato",
        "v": "llano",
@@ -4915,6 +4962,7 @@
     ]
    }
   ],
+  "simple": 1,
   "secretos": [
    [
     "Poco",
@@ -6741,6 +6789,7 @@
       "x": "En una cazuela de barro, pon 250 ml de aceite de oliva suave con 4 dientes de ajo en láminas y 1 guindilla, a fuego bajo. Cuando el ajo empiece a coger color dorado claro (unos 5 a 6 minutos), retíralo con la guindilla y resérvalo.",
       "ab": "Los ajos no deben oscurecer: si amargan, el aceite también. Sacarlos a tiempo deja su sabor en el aceite sin amargor.",
       "f": 2,
+      "tim": 8,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -6765,6 +6814,7 @@
       "x": "Aparta la cazuela del fuego 5 minutos, hasta que el aceite esté tibio, a unos 60 a 70 °C: caliente al tacto del dedo un segundo, sin humo ni burbujas.",
       "ab": "Si el aceite está muy caliente, el bacalao se fríe y se endurece en vez de soltar su gelatina. Tibio es el truco.",
       "f": 0,
+      "tim": 5,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -6785,6 +6835,7 @@
       "x": "Seca bien 4 lomos de bacalao desalado con papel de cocina y ponlos con la piel hacia abajo en el aceite tibio. Ponlos a fuego mínimo 5 minutos, sin que burbujee, y dales la vuelta otros 5 minutos.",
       "ab": "Al cocinarse en aceite tibio suelta una gelatina blanca: es la que liga la salsa. El aceite no debe burbujear fuerte, solo un hilo de burbujas pequeñas.",
       "f": 1,
+      "tim": 10,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -6805,6 +6856,7 @@
       "x": "Retira el bacalao a un plato. Con la cazuela fuera del fuego, mueve con círculos suaves y constantes durante 8 a 10 minutos hasta que el aceite se vuelva cremoso y de color más claro (ligar). Vuelve el bacalao y los ajos.",
       "ab": "Mover en círculos es lo que emulsiona la gelatina del bacalao con el aceite, como una mayonesa. Si no liga, añade una cucharada de agua de cocer o espera a que baje la temperatura.",
       "f": 0,
+      "tim": 10,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -6822,6 +6874,7 @@
     ]
    }
   ],
+  "simple": 1,
   "secretos": [
    [
     "Temperatura",
@@ -7979,7 +8032,7 @@
        ],
        "vapor": 1
       },
-      "ab": "Con {patata} fritas y pan para mojar."
+      "ab": "Con patatas fritas y pan para mojar."
      }
     ]
    }
@@ -8382,6 +8435,7 @@
       "m": 15,
       "x": "Sofríe 1 cebolla, 1 pimiento y 3 ajos picados en 4 cucharadas de aceite a fuego suave 10 minutos. Añade los 2 tomates rallados y cocina 5 minutos más.",
       "f": 2,
+      "tim": 15,
       "e": {
        "k": "fuego",
        "v": "sarten",
@@ -8437,6 +8491,7 @@
       "m": 10,
       "x": "Añade 400 g de garbanzos escurridos, 300 g de carne deshilachada y las 2 patatas cortadas en dados, y rehoga todo a fuego suave.",
       "f": 2,
+      "tim": 10,
       "e": {
        "k": "fuego",
        "v": "sarten",
@@ -8465,6 +8520,7 @@
       "x": "Deja reposar tapado antes de servir.",
       "ab": "Templada está mejor que hirviendo.",
       "f": 0,
+      "tim": 5,
       "e": {
        "k": "plato",
        "v": "cuenco",
@@ -8489,6 +8545,7 @@
     ]
    }
   ],
+  "simple": 1,
   "secretos": [
    [
     "Aprovechar",
@@ -9154,6 +9211,7 @@
       "m": 15,
       "x": "En una cazuela de barro con 5 cucharadas de aceite, pocha la cebolla, el pimiento y el ajo picados, a fuego suave.",
       "f": 2,
+      "tim": 15,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -9184,6 +9242,7 @@
       "x": "Añade los 2 tomates rallados, cocina 5 minutos y, fuera del fuego, 1 cucharadita de pimentón.",
       "ab": "El pimentón, siempre fuera del fuego: se quema y amarga.",
       "f": 0,
+      "tim": 5,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -9209,6 +9268,7 @@
       "m": 15,
       "x": "Añade 1/4 de col troceada, 1 litro de agua y 1 cucharadita de sal. Cuece hasta que la verdura esté tierna.",
       "f": 2,
+      "tim": 15,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -9230,6 +9290,7 @@
       "x": "Pon los 250 g de pan en capas finas y deja que beba el caldo a fuego suave, sin remover. Debe quedar melosa, con poco caldo.",
       "ab": "Con cuchara de madera, apretando suavemente el pan: que no se deshaga del todo.",
       "f": 1,
+      "tim": 15,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -9248,6 +9309,7 @@
     ]
    }
   ],
+  "simple": 1,
   "secretos": [
    [
     "Pan duro",
@@ -9378,6 +9440,7 @@
       "ab": "En Indonesia el remojo largo también sirve para que el agua se vuelva ligeramente ácida, que es lo que necesita la fermentación (Antara). Por eso un chorrito de vinagre en casa hace un papel parecido.",
       "f": 0,
       "w": 1,
+      "tim": 720,
       "e": {
        "k": "remojo",
        "i": [
@@ -9394,6 +9457,7 @@
       "m": 15,
       "x": "Agita la soja con fuerza en el agua: las pieles suben y las retiras. Repite 3 o 4 veces. Quitar la mayoría basta.",
       "f": 0,
+      "tim": 15,
       "e": {
        "k": "bol",
        "c": "#BFDDF2",
@@ -9412,6 +9476,7 @@
       "x": "Hierve en agua sin sal de 25 a 45 minutos, hasta que esté tierna pero con mordida, no blanda. Retira la espuma que suba. Escurre bien.",
       "ab": "Si la cueces demasiado, el tempeh queda pastoso. Mejor un punto firme.",
       "f": 2,
+      "tim": 45,
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -9433,6 +9498,7 @@
       "x": "Este es el paso crítico. Vuelca la soja sobre un trapo limpio y frota hasta que la superficie esté seca al tacto. Deja enfriar hasta que esté templada, no caliente.",
       "ab": "Es lo que más determina el éxito. La humedad es el enemigo número uno, y el calor mata el fermento.",
       "f": 0,
+      "tim": 20,
       "e": {
        "k": "plato",
        "v": "llano",
@@ -9457,6 +9523,7 @@
       "x": "En un bol seco, mezcla la soja con las 2 cucharadas de vinagre. Luego espolvorea ½ cucharadita de fermento por encima y mezcla a fondo 1 minuto para repartirlo bien.",
       "ab": "Cuidado con pasarte: la receta tradicional usa muy poco fermento, del orden de 1 g por kilo de soja (Antara). Más fermento no da mejor tempeh.",
       "f": 0,
+      "tim": 5,
       "e": {
        "k": "bol",
        "c": "#F2E3B5",
@@ -9474,6 +9541,7 @@
       "m": 10,
       "x": "Reparte en 2 bolsas y aplana en una capa uniforme de unos 2 cm. Pincha agujeros por las dos caras cada 2,5 cm más o menos.",
       "f": 0,
+      "tim": 10,
       "e": {
        "k": "formar"
       }
@@ -9491,6 +9559,7 @@
       "ab": "En Java lo envuelven en hoja de plátano o plástico agujereado y lo pinchan con un palito tras la primera noche, para que corra el aire (Antara).",
       "f": 0,
       "w": 1,
+      "tim": 2160,
       "e": {
        "k": "horno",
        "t": "30 °C",
@@ -9510,6 +9579,7 @@
       "x": "Si lo vas a comer en 3 o 4 días, a la nevera tal cual. Para congelar: vapor 15 minutos, enfriar y al congelador, hasta 3 meses, cortado antes en porciones.",
       "ab": "Siempre se cocina antes de comer: salteado, frito o al horno.",
       "f": 0,
+      "tim": 30,
       "e": {
        "k": "nevera",
        "v": "fuente",
@@ -9526,6 +9596,7 @@
     ]
    }
   ],
+  "simple": 1,
   "secretos": [
    [
     "Las dos claves",
@@ -9649,6 +9720,7 @@
       "m": 10,
       "x": "Sala el ternasco con 1 cucharadita de sal, úntalo con 2 cucharadas de aceite y pimienta, y ponlo en la bandeja con la cabeza de ajos abierta por la mitad (sin pelar). Enciende el horno a 190 °C.",
       "f": 0,
+      "tim": 10,
       "e": {
        "k": "plato",
        "v": "llano",
@@ -9671,6 +9743,7 @@
       "x": "Pela 800 g de patatas y córtalas en rodajas de 1 cm, sálalas con 1 cucharadita de sal y colócalas debajo y alrededor de la carne.",
       "ab": "Debajo de la carne para que beban el jugo.",
       "f": 0,
+      "tim": 10,
       "e": {
        "k": "plato",
        "v": "llano",
@@ -9702,6 +9775,7 @@
       "m": 50,
       "x": "A 190 °C. Hornea con calor arriba y abajo y riega cada 15 minutos con una mezcla de 150 ml de vino blanco y el zumo de 1/2 limón.",
       "f": 0,
+      "tim": 50,
       "e": {
        "k": "horno",
        "t": "190 °C",
@@ -9725,6 +9799,7 @@
       "x": "A 190 °C. Dale la vuelta a la carne, riega con su jugo y asa hasta que esté dorada y las patatas tiernas.",
       "ab": "Si se secan las patatas, añade 100 ml de agua caliente.",
       "f": 0,
+      "tim": 35,
       "e": {
        "k": "horno",
        "t": "190 °C",
@@ -9747,6 +9822,7 @@
     ]
    }
   ],
+  "simple": 1,
   "secretos": [
    [
     "Fuego parejo",

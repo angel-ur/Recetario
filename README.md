@@ -7,7 +7,7 @@ Las recetas de la abuela, guardadas para siempre y servidas como web:
 
 - **Mapa de España interactivo**: toca una comunidad y salen sus platos; las que
   cocinas se sellan en color vino (pasaporte con logros incluido).
-- **37 recetas**, cada paso con su dibujo hecho a mano y portadas ilustradas propias.
+- **37 recetas**, cada paso con su dibujo y portadas ilustradas propias (ilustraciones propias, generadas con código).
 - **Organiza el día**: di a qué hora quieres comer y te dice a qué hora empezar,
   con la cronología por fases (incluidos los remojos de la víspera).
 - **Modo cocina** paso a paso, con temporizadores que suenan y cantidades que se
