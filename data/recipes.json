@@ -8561,11 +8561,19 @@
   "ud": "sobaos",
   "heroe": {
    "k": "plato",
-   "v": "fuente",
+   "v": "madera",
    "i": [
     [
      "sobao",
-     4
+     6
+    ],
+    [
+     "limon",
+     1
+    ],
+    [
+     "canela",
+     2
     ]
    ]
   },
@@ -10046,22 +10054,26 @@
    "c": "#C0392B",
    "i": [
     [
+     "patata",
+     6
+    ],
+    [
      "berenjena",
-     3
+     5
     ],
     [
      "pimiento",
-     3,
+     5,
      1,
      "rojo"
     ],
     [
-     "patata",
+     "tomate",
      2
     ],
     [
      "perejil",
-     1,
+     2,
      0.8
     ]
    ]
@@ -10337,23 +10349,27 @@
    "i": [
     [
      "escarola",
-     4
+     6
     ],
     [
      "bacalao",
-     4
+     5
     ],
     [
      "atun",
-     3
+     4
     ],
     [
      "anchoa",
-     3
+     4
     ],
     [
      "aceituna",
-     5
+     7
+    ],
+    [
+     "nora",
+     2
     ]
    ],
    "salsera": "#B4542C"
