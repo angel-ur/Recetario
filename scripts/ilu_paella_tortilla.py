@@ -34,8 +34,15 @@ def trozo(x, y, rot, w=44, h=22):
     return (f'<g transform="translate({x} {y}) rotate({rot})"><ellipse cx="0" cy="{h/2:.0f}" rx="{w/2}" ry="5" fill="#000" opacity=".15"/>'
             f'<ellipse cx="0" cy="0" rx="{w/2}" ry="{h/2}" fill="#A9511C"/><ellipse cx="-2" cy="-2" rx="{w/2-4}" ry="{h/2-4}" fill="#C8782F"/>'
             f'<ellipse cx="-6" cy="-5" rx="{w/4}" ry="3" fill="#E7A55A" opacity=".8"/><ellipse cx="8" cy="2" rx="6" ry="2.4" fill="#8C3E12" opacity=".6"/></g>')
-for (x, y, r) in [(125,104,-15),(205,92,10),(160,116,0)]:
-    a(trozo(x, y, r))
+def muslo(x, y, rot):
+    return (f'<g transform="translate({x} {y}) rotate({rot})"><ellipse cx="0" cy="14" rx="30" ry="4" fill="#000" opacity=".15"/>'
+            '<rect x="14" y="-3" width="24" height="6" rx="3" fill="#F3E7CC"/><circle cx="40" cy="-3" r="4" fill="#F7EEDA"/><circle cx="40" cy="3" r="4" fill="#F7EEDA"/>'
+            '<ellipse cx="0" cy="0" rx="22" ry="13" fill="#A9511C"/><ellipse cx="-2" cy="-2" rx="18" ry="9.5" fill="#C8782F"/><ellipse cx="-7" cy="-5" rx="9" ry="3" fill="#EBB066" opacity=".85"/><ellipse cx="6" cy="3" rx="7" ry="2.4" fill="#8C3E12" opacity=".55"/></g>')
+for (x, y, r) in [(118,100,-20),(212,92,12),(158,118,185)]:
+    a(muslo(x, y, r))
+a('<path d="M176 86l26 -8M184 82l9 -10M192 81l9 -9M200 79l5 -9" stroke="#3E7A35" stroke-width="2.4" stroke-linecap="round"/>')
+for (x, y) in [(232, 116), (96, 114)]:
+    a(f'<path d="M{x} {y}q12 -7 24 0" stroke="#C7261B" stroke-width="5" stroke-linecap="round" fill="none"/>')
 # romero y pimiento
 
 for (x, y) in []:
@@ -47,33 +54,26 @@ escribe('paella', o)
 
 # ---------- TORTILLA ----------
 R = random.Random(5); o = []; a = o.append
-a(mesa(R, ('#EBD7B0', '#CFA874')))
-a('<defs>' + rad('pl', '#FFFFFF', '#E1D9C8') + grad('tor', '#F4C94B', '#D79A2C') + rad('yema', '#FFD33A', '#F0A71A') + grad('int', '#F9DE7A', '#EDC55B') + '</defs>')
-a(sombra(168, 156, 124, 12, .25))
-a('<ellipse cx="168" cy="112" rx="124" ry="54" fill="#D4CCBB"/><ellipse cx="168" cy="108" rx="124" ry="54" fill="url(#IDpl)"/><ellipse cx="168" cy="110" rx="96" ry="40" fill="none" style="stroke:var(--anil)" stroke-width="3.5"/>')
-# tortilla (cupula)
-a('<ellipse cx="168" cy="114" rx="92" ry="38" fill="#B9791F"/>')
-a('<path d="M76 108C80 70 120 56 168 56S256 70 260 108C240 134 100 134 76 108Z" fill="url(#IDtor)"/>')
-a('<ellipse cx="168" cy="92" rx="84" ry="28" fill="#E8B23E"/>')
-a('<ellipse cx="164" cy="88" rx="70" ry="22" fill="#F2C650"/>')
-for _ in range(16):
-    x = 168 + R.uniform(-70, 70); y = 90 + R.uniform(-18, 16)
-    a(f'<ellipse cx="{x:.1f}" cy="{y:.1f}" rx="{R.uniform(4,10):.1f}" ry="{R.uniform(1.5,3.5):.1f}" fill="#C27C1F" opacity="{R.uniform(.2,.4):.2f}"/>')
-a('<path d="M96 84C120 66 170 62 220 70" fill="none" stroke="#FFF1B8" stroke-width="3.5" stroke-linecap="round" opacity=".75"/>')
-# cuna cortada
-a('<path d="M168 108L120 70C140 52 196 50 228 66Z" fill="#8B5A12" opacity=".0"/>')
-a('<path d="M168 112L222 74C240 92 244 112 236 122C214 134 186 128 168 112Z" fill="url(#IDint)"/>')
-a('<path d="M168 112L222 74" stroke="#C48A24" stroke-width="3"/><path d="M168 112C186 128 214 134 236 122" stroke="#C48A24" stroke-width="3" fill="none"/>')
-# interior: patata, cebolla, huevo meloso
-for _ in range(20):
-    x = R.uniform(180, 232); y = R.uniform(94, 124)
-    a(f'<ellipse cx="{x:.1f}" cy="{y:.1f}" rx="{R.uniform(4,7):.1f}" ry="{R.uniform(2,3.5):.1f}" fill="#F7E7A0" stroke="#D9B253" stroke-width=".7" transform="rotate({R.randint(-40,40)} {x:.1f} {y:.1f})"/>')
-for _ in range(7):
-    x = R.uniform(188, 230); y = R.uniform(98, 122)
-    a(f'<path d="M{x:.1f} {y:.1f}q5 -3 9 0" stroke="#F0B64E" stroke-width="1.6" fill="none" stroke-linecap="round"/>')
-a('<ellipse cx="212" cy="112" rx="14" ry="6" fill="url(#IDyema)" opacity=".85"/><ellipse cx="208" cy="110" rx="5" ry="2" fill="#FFF3B0" opacity=".7"/>')
-a('<path d="M190 126C204 130 224 128 236 122" stroke="#F3C32A" stroke-width="3" stroke-linecap="round" opacity=".8" fill="none"/>')
-# perejil, tenedor, cebolleta
-a(f'<g fill="#4E9A3F">' + ''.join(f'<ellipse cx="{x}" cy="{y}" rx="2.6" ry="1.4" transform="rotate({r} {x} {y})"/>' for x,y,r in [(120,80,20),(135,74,-10),(100,96,40)]) + '</g>')
-a('<g transform="translate(268 130) rotate(-62)"><rect x="-3" y="0" width="6" height="58" rx="3" fill="#B9BCC4"/><rect x="-9" y="-22" width="18" height="24" rx="4" fill="#C9CCD3"/>' + ''.join(f'<rect x="{x}" y="-30" width="2.6" height="14" rx="1.3" fill="#C9CCD3"/>' for x in (-8,-3,2,6)) + '</g>')
+a(mesa(R))
+a('<defs>' + rad('pl', '#FFFFFF', '#E1D9C8') + grad('tor', '#F4C94B', '#D79A2C') + grad('corte', '#C98A2A', '#9A6516') + rad('yema', '#FFE060', '#FFB81A') + '</defs>')
+a(sombra(160, 156, 126, 11, .22))
+a('<ellipse cx="160" cy="112" rx="126" ry="54" fill="#D4CCBB"/><ellipse cx="160" cy="108" rx="126" ry="54" fill="url(#IDpl)"/><ellipse cx="160" cy="110" rx="102" ry="42" fill="none" style="stroke:var(--anil)" stroke-width="3.5"/>')
+# tortilla entera detras (izquierda)
+a('<ellipse cx="108" cy="104" rx="64" ry="26" fill="#B9791F"/><path d="M46 98C50 72 80 62 108 62S166 72 170 98C156 116 62 116 46 98Z" fill="url(#IDtor)"/><ellipse cx="108" cy="86" rx="58" ry="19" fill="#EDB942"/><ellipse cx="104" cy="83" rx="46" ry="14" fill="#F4CB58"/><path d="M66 82C82 70 120 68 150 74" fill="none" stroke="#FFF1B8" stroke-width="3" stroke-linecap="round" opacity=".7"/>')
+# porcion cortada delante-derecha, vista de lado: corteza dorada y corte grande
+a('<ellipse cx="226" cy="132" rx="62" ry="9" fill="#000" opacity=".12"/>')
+a('<path d="M170 128L186 70Q226 52 280 76L262 132Q220 142 170 128Z" fill="url(#IDcorte)"/>')   # corteza
+a('<path d="M177 124L191 76Q226 62 272 80L257 126Q220 134 177 124Z" fill="#F3D869"/>')           # interior huevo
+# capas de patata
+for (x, y, w, ro) in [(196,92,20,-8),(224,86,22,4),(250,96,20,12),(206,110,22,6),(238,112,22,-6),(188,118,14,-4),(262,116,12,8)]:
+    a(f'<ellipse cx="{x}" cy="{y}" rx="{w/2}" ry="5.4" fill="#FFF0B8" stroke="#E2B54F" stroke-width="1.2" transform="rotate({ro} {x} {y})"/>')
+for (x, y) in [(212,100),(244,102),(230,120),(200,124)]:
+    a(f'<path d="M{x} {y}q7 -4 13 0" stroke="#F0B13C" stroke-width="2.2" fill="none" stroke-linecap="round"/>')
+# huevo meloso brillante
+a('<path d="M214 104C222 98 246 100 250 110C256 122 236 128 222 124C208 120 206 110 214 104Z" fill="url(#IDyema)"/>')
+a('<path d="M222 106C230 103 240 104 244 108" stroke="#FFFBD0" stroke-width="3" stroke-linecap="round" fill="none" opacity=".9"/>')
+# hilo de huevo cayendo al plato
+a('<path d="M236 126C238 136 232 142 238 146C250 150 262 146 256 140C250 138 252 130 250 124Z" fill="#FFC826"/><path d="M242 136c2 3 6 4 10 3" stroke="#FFF3A0" stroke-width="2" stroke-linecap="round" fill="none"/>')
+# tenedor
+a('<g transform="translate(150 140) rotate(-72)"><rect x="-3" y="0" width="6" height="52" rx="3" fill="#B9BCC4"/><rect x="-9" y="-22" width="18" height="24" rx="4" fill="#C9CCD3"/>' + ''.join(f'<rect x="{x}" y="-30" width="2.6" height="14" rx="1.3" fill="#C9CCD3"/>' for x in (-8,-3,2,6)) + '</g>')
 escribe('tortilla', o)

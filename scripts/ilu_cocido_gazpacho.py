@@ -18,6 +18,9 @@ a('<path d="M72 118q16-12 34-6 12 4 4 14-18 8-38-8z" fill="#B88A3E"/><path d="M8
 a('<path d="M128 118q18-10 34 0 6 8-4 14-18 4-30-14z" fill="#8F3A2A"/><path d="M134 120q10-6 20-2" stroke="#C26A50" stroke-width="2" fill="none" stroke-linecap="round"/>')
 for x,y,ro in [(70,104,-30),(172,114,40)]:
     a(f'<g transform="translate({x} {y}) rotate({ro})"><rect x="-12" y="-4" width="24" height="8" rx="4" fill="#E88A2A"/><rect x="-10" y="-3" width="18" height="2.4" rx="1.2" fill="#F8B866"/></g>')
+for x,y in [(98,120),(150,122)]:
+    a(f'<ellipse cx="{x}" cy="{y+3}" rx="14" ry="6" fill="#000" opacity=".12"/><ellipse cx="{x}" cy="{y}" rx="14" ry="8.5" fill="#E8CF8C"/><ellipse cx="{x-3}" cy="{y-2}" rx="8" ry="4" fill="#F7E7B0"/>')
+a('<g transform="translate(120 98) rotate(-10)"><rect x="-22" y="-3" width="44" height="6" rx="3" fill="#F1E4C6"/><circle cx="-24" cy="-3" r="4.5" fill="#F7EEDA"/><circle cx="-24" cy="3" r="4.5" fill="#F7EEDA"/><circle cx="24" cy="-3" r="4.5" fill="#F7EEDA"/><circle cx="24" cy="3" r="4.5" fill="#F7EEDA"/></g>')
 a('<path d="M100 120q14 6 30 2-6 10-22 8-8-2-8-10z" fill="#7DB04F"/><path d="M104 123q10 4 22 1" stroke="#B9DB8B" stroke-width="1.4" fill="none"/>')
 # cuenco sopa
 a(sombra(262, 150, 50, 7, .25))
