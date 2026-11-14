@@ -16,8 +16,8 @@ Huesos con mucho colágeno, muchas horas a fuego mínimo y sin sal. Si sale bien
 ## Ingredientes
 
 - #Huesos
-- 1 kg de huesos de rodilla de ternera
-- 1 kg de huesos de tuétano
+- 1,2 kg de huesos de rodilla de ternera
+- 800 g de huesos de tuétano
 - #Extras con colágeno (uno o dos)
 - 1 oreja de cerdo
 - 1 pata de ternera (o 2 manitas de cerdo)
@@ -28,7 +28,7 @@ Huesos con mucho colágeno, muchas horas a fuego mínimo y sin sal. Si sale bien
 - 2 cebollas
 - 6 dientes de ajo
 - 3 zanahorias
-- 2 puerros grandes
+- 3 puerros grandes
 - 3 ramas de apio
 - nabo o chirivía (opcional)
 - perejil (opcional)
@@ -39,29 +39,29 @@ Huesos con mucho colágeno, muchas horas a fuego mínimo y sin sal. Si sale bien
 - 1 rama de romero
 - 3 hojas de laurel
 - unas hebras de azafrán (opcional)
-- 2 cda de vinagre de manzana sin filtrar, con la madre
-- 4 l de agua mineral fría
+- 5 cda de vinagre de manzana sin filtrar, con la madre
+- 4 l de agua mineral fría (no del grifo)
 - sal (al servir)
 
 ## Elaboración
 
 ### Preparar
 
-1. **Tuesta los huesos** (10 min) - Enciende el horno a 200 °C. Pon huesos de rodilla de ternera y huesos de tuétano en una bandeja, sin aceite ni sal, y tuéstalos de 30 a 40 minutos, dándoles la vuelta a mitad, hasta que estén bien dorados pero sin quemarse.
-   > Tostar da sabor y color. Si se queman, amargan todo el caldo. La oreja y la pata no se tuestan: son piel y cartílago, solo aportan gelatina.
-2. **Escalda el resto** (20 min) - Mientras se tuestan, pon a hervir 3 litros de agua en una olla grande. Echa carcasa de pollo, las patas de gallo si las consigues, oreja de cerdo y pata de ternera (o 2 manitas de cerdo), y déjalo 2 o 3 minutos (blanquear). Tira esa agua y enjuaga todo con agua del grifo. A las patas de gallo, quítales la piel amarilla y córtales las uñas por la primera articulación.
+1. **Tuesta los huesos** (10 min) - Enciende el horno a 200 °C. Pon huesos de rodilla de ternera y huesos de tuétano en una bandeja, sin aceite ni sal, y tuéstalos unos 20 minutos (hasta 30 si son muy grandes), dándoles la vuelta a mitad, hasta que estén bien dorados pero sin quemarse.
+   > Tostar da sabor y color y, si el hueso no es de pasto o eco, ayuda a quitar parte de las impurezas. Si se queman, amargan todo el caldo. La oreja y la pata no se tuestan: son piel y cartílago, solo aportan gelatina.
+2. **Escalda el resto** (20 min) - Mientras se tuestan, pon a hervir 3 litros de agua en una olla grande. Echa carcasa de pollo, las patas de gallo si las consigues, oreja de cerdo y pata de ternera (o 2 manitas de cerdo), y déjalo unos 5 minutos (blanquear). Tira esa agua y enjuaga todo con agua del grifo. A las patas de gallo, quítales la piel amarilla y córtales las uñas por la primera articulación.
    > Al hervir salen la sangre y las impurezas en forma de espuma gris. Tirar esa primera agua deja el caldo limpio y sin sabor áspero.
-3. **Vinagre y reposo** (20 min) - Saca la bandeja del horno y pasa los huesos tostados a la olla lenta, junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja y rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade vinagre de manzana sin filtrar, con la madre y 500 ml de agua fría, y deja reposar 20 minutos mientras preparas lo demás.
+3. **Vinagre y reposo** (20 min) - Saca la bandeja del horno y pasa los huesos tostados a la olla lenta, junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja y rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade 5 o 6 cucharadas de vinagre de manzana sin filtrar, con la madre, y 500 ml de agua mineral fría, y deja reposar 20 minutos mientras preparas lo demás.
    > El vinagre de manzana sin filtrar, con la madre, ayuda a sacar el colágeno y los minerales de los huesos, y no se nota en el sabor. Lo pegado a la bandeja es puro sabor: por eso se desglasa.
 
 ### Horas de olla
 
-4. **Agua, especias y a dormir** (480 min) - Añade el resto del agua hasta que cubra los huesos 2 dedos, sin pasar la marca máxima de la olla (unos 4 litros en total). Añade cúrcuma molida (o 3 cm de raíz fresca), pimienta negra en grano, trozo de jengibre fresco de 4 cm (o jengibre molido) en rodajas, rama de romero, hoja de laurel y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.
+4. **Agua, especias y a dormir** (480 min) - Añade el resto del agua mineral hasta casi arriba (cubriendo los huesos al menos 2 dedos), pero deja sitio en la olla para la verdura de mañana (unos 4 litros en total). Añade cúrcuma molida (o 3 cm de raíz fresca), pimienta negra en grano, trozo de jengibre fresco de 4 cm (o jengibre molido) en rodajas, rama de romero, hoja de laurel y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.
    > La pimienta negra va con la cúrcuma por algo: activa la cúrcuma. Y la olla lenta marca la diferencia: a temperatura baja y muchas horas es cuando suelta toda su gelatina. La sal va al final porque el caldo se concentra y podría quedar salado.
-5. **Las verduras, la última hora** (60 min) - Echa a la olla cebolla, diente de ajo, zanahoria, puerro grande y rama de apio en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Sigue con el hervor mínimo y tapa a medias otra hora.
-   > Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Aunque los huesos se tuesten antes, la verdura no se tuesta: entra casi al final.
-6. **Las verduras, por la mañana** (270 min) - A la mañana siguiente, trocea en trozos gruesos cebolla, diente de ajo, zanahoria, puerro grande y rama de apio, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.
-   > Las verduras entran al final para que no se deshagan y conserven su sabor. Si fueran 12 horas, se pasarían y darían amargor.
+5. **Las verduras, la última hora** (60 min) - Echa a la olla cebolla, diente de ajo, zanahoria, puerro grande y rama de apio en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Nada de coliflor, brócoli, col ni coles de bruselas. Sigue con el hervor mínimo y tapa a medias otra hora.
+   > Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Aunque los huesos se tuesten antes, entra casi al final. Tostarlas antes es opcional (más color y dulzor); la versión de la casa las echa crudas.
+6. **Las verduras, por la mañana** (270 min) - A la mañana siguiente, trocea en trozos gruesos cebolla, diente de ajo, zanahoria, puerro grande y rama de apio, y el nabo, la chirivía o el perejil si los usas. Nada de coliflor, brócoli, col ni coles de bruselas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.
+   > Con la olla lenta y su temperatura baja, la verdura aguanta bien estas 4 o 5 horas; en cacerola normal no, por eso allí solo entra la última hora. Tostarla antes es opcional (más color y dulzor); la versión de la casa la echa cruda.
 
 ### Colar y guardar
 
@@ -84,6 +84,7 @@ Huesos con mucho colágeno, muchas horas a fuego mínimo y sin sal. Si sale bien
 - **Dónde comprar los huesos**: Mejor en una carnicería de confianza que en el súper: pregunta por huesos de pasto o ecológicos (rodilla y tuétano), oreja, pata de ternera y patas de gallo. Pide que te corten los huesos.
 - **Alterna el colágeno**: Una oreja de cerdo y una pata de ternera, o dos patas de ternera, o manitas de cerdo. Alterna entre ellas. Un casco de pollo (de un pollo entero) y patas de gallo suman colágeno.
 - **Gelatina = fuego lento**: Para que cuaje de verdad hace falta fuego muy lento muchas horas. En cacerola salen 3 o 4 horas y no cuaja igual: en ese caso va todo a la vez, verdura incluida.
+- **Verduras que NO**: Nada de coliflor, brócoli, col ni coles de bruselas: sueltan azufre y amargan el caldo. Sí: cebolla, ajo, zanahoria, mucho puerro (da muy buen sabor), apio y similares.
 - **Cuánto aguanta**: En la nevera, 3 o 4 días a 4 °C o menos. Congelado, mejor tomarlo en 2 o 3 meses.
 
 ## En la tienda

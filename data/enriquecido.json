@@ -6566,13 +6566,13 @@
    [
     "rodilla",
     "huesos de rodilla de ternera",
-    1,
+    1.2,
     "kg"
    ],
    [
     "tuetano",
     "huesos de tuétano",
-    1,
+    0.8,
     "kg"
    ],
    "#Extras con colágeno (uno o dos)",
@@ -6623,7 +6623,7 @@
    [
     "puerro",
     "puerro grande|puerros grandes",
-    2,
+    3,
     "ud"
    ],
    [
@@ -6681,12 +6681,12 @@
    [
     "vinagre",
     "vinagre de manzana sin filtrar, con la madre",
-    2,
+    5,
     "cda"
    ],
    [
     "agua",
-    "agua mineral fría",
+    "agua mineral fría (no del grifo)",
     4,
     "l"
    ],
@@ -6704,11 +6704,11 @@
      {
       "t": "Tuesta los huesos",
       "m": 10,
-      "tim": 35,
+      "tim": 25,
       "par": 1,
       "f": "h200",
-      "x": "Enciende el horno a 200 °C. Pon {rodilla} y {tuetano} en una bandeja, sin aceite ni sal, y tuéstalos de 30 a 40 minutos, dándoles la vuelta a mitad, hasta que estén bien dorados pero sin quemarse.",
-      "ab": "Tostar da sabor y color. Si se queman, amargan todo el caldo. La oreja y la pata no se tuestan: son piel y cartílago, solo aportan gelatina.",
+      "x": "Enciende el horno a 200 °C. Pon {rodilla} y {tuetano} en una bandeja, sin aceite ni sal, y tuéstalos unos 20 minutos (hasta 30 si son muy grandes), dándoles la vuelta a mitad, hasta que estén bien dorados pero sin quemarse.",
+      "ab": "Tostar da sabor y color y, si el hueso no es de pasto o eco, ayuda a quitar parte de las impurezas. Si se queman, amargan todo el caldo. La oreja y la pata no se tuestan: son piel y cartílago, solo aportan gelatina.",
       "e": {
        "k": "horno",
        "t": "200 °C",
@@ -6731,9 +6731,9 @@
      {
       "t": "Escalda el resto",
       "m": 20,
-      "tim": 3,
+      "tim": 5,
       "f": 5,
-      "x": "Mientras se tuestan, pon a hervir 3 litros de agua en una olla grande. Echa {carcasa}, las patas de gallo si las consigues, {oreja} y {pata}, y déjalo 2 o 3 minutos (blanquear). Tira esa agua y enjuaga todo con agua del grifo. A las patas de gallo, quítales la piel amarilla y córtales las uñas por la primera articulación.",
+      "x": "Mientras se tuestan, pon a hervir 3 litros de agua en una olla grande. Echa {carcasa}, las patas de gallo si las consigues, {oreja} y {pata}, y déjalo unos 5 minutos (blanquear). Tira esa agua y enjuaga todo con agua del grifo. A las patas de gallo, quítales la piel amarilla y córtales las uñas por la primera articulación.",
       "ab": "Al hervir salen la sangre y las impurezas en forma de espuma gris. Tirar esa primera agua deja el caldo limpio y sin sabor áspero.",
       "e": {
        "k": "fuego",
@@ -6767,7 +6767,7 @@
       "tim": 20,
       "w": 1,
       "f": 0,
-      "x": "Saca la bandeja del horno y pasa los huesos tostados a la olla lenta, junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja y rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade {vinagre} y 500 ml de agua fría, y deja reposar 20 minutos mientras preparas lo demás.",
+      "x": "Saca la bandeja del horno y pasa los huesos tostados a la olla lenta, junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja y rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade {vinagre} y 500 ml de agua mineral fría, y deja reposar 20 minutos mientras preparas lo demás.",
       "ab": "El vinagre de manzana sin filtrar, con la madre, ayuda a sacar el colágeno y los minerales de los huesos, y no se nota en el sabor. Lo pegado a la bandeja es puro sabor: por eso se desglasa.",
       "e": {
        "k": "fuego",
@@ -6846,7 +6846,7 @@
       "tim": 480,
       "w": 1,
       "f": "l",
-      "x": "Añade el resto del agua hasta que cubra los huesos 2 dedos, sin pasar la marca máxima de la olla (unos 4 litros en total). Añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.",
+      "x": "Añade el resto del agua mineral hasta casi arriba (cubriendo los huesos al menos 2 dedos), pero deja sitio en la olla para la verdura de mañana (unos 4 litros en total). Añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.",
       "ab": "La pimienta negra va con la cúrcuma por algo: activa la cúrcuma. Y la olla lenta marca la diferencia: a temperatura baja y muchas horas es cuando suelta toda su gelatina. La sal va al final porque el caldo se concentra y podría quedar salado.",
       "e": {
        "k": "fuego",
@@ -6858,12 +6858,12 @@
       },
       "alt": {
        "olla": {
-        "t": "Todo a la olla, a hervor mínimo",
-        "m": 120,
-        "tim": 120,
+        "t": "Huesos y especias, a hervor mínimo",
+        "m": 180,
+        "tim": 180,
         "f": 1,
-        "x": "Pon la olla a fuego fuerte hasta que arranque a hervir. Saldrá espuma gris: quítala con un cucharón durante los primeros 10 minutos (espumar). Añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y un poco de azafrán si tienes. Baja al fuego mínimo (hervor mínimo: solo una burbuja de vez en cuando), tapa a medias y cuece 2 horas, sin sal. Si baja mucho el nivel, añade agua caliente hasta volver a cubrir.",
-        "ab": "La espuma es proteína coagulada: si se queda, enturbia el caldo. El hervor mínimo es la clave: un hervor fuerte mezcla la grasa con el agua y lo deja turbio y graso. Mientras, tienes dos horas libres.",
+        "x": "Pon la olla a fuego fuerte hasta que arranque a hervir. Saldrá espuma gris: quítala con un cucharón durante los primeros 10 minutos (espumar). Añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y un poco de azafrán si tienes. Baja al fuego mínimo (hervor mínimo: solo una burbuja de vez en cuando), tapa a medias y cuece de 3 a 4 horas (3 como mínimo), sin sal. Si baja mucho el nivel, añade agua caliente hasta volver a cubrir. La verdura entra después, solo la última hora.",
+        "ab": "La espuma es proteína coagulada: si se queda, enturbia el caldo. El hervor mínimo es la clave: un hervor fuerte mezcla la grasa con el agua y lo deja turbio y graso. Mientras, tienes tres horas libres.",
         "e": {
          "k": "fuego",
          "v": "olla",
@@ -6894,7 +6894,7 @@
            "h-tostado"
           ]
          ],
-         "reloj": "3½ h",
+         "reloj": "3 h",
          "rf": 0.29
         }
        }
@@ -6909,8 +6909,8 @@
       "tim": 60,
       "w": 1,
       "f": 1,
-      "x": "Echa a la olla {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio} en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Sigue con el hervor mínimo y tapa a medias otra hora.",
-      "ab": "Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Aunque los huesos se tuesten antes, la verdura no se tuesta: entra casi al final.",
+      "x": "Echa a la olla {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio} en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Nada de coliflor, brócoli, col ni coles de bruselas. Sigue con el hervor mínimo y tapa a medias otra hora.",
+      "ab": "Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Entra casi al final. Tostarlas antes es opcional (más color y dulzor); la versión de la casa las echa crudas.",
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -6953,8 +6953,8 @@
       "tim": 270,
       "w": 1,
       "f": "l",
-      "x": "A la mañana siguiente, trocea en trozos gruesos {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio}, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.",
-      "ab": "Las verduras entran al final para que no se deshagan y conserven su sabor. Si fueran 12 horas, se pasarían y darían amargor.",
+      "x": "A la mañana siguiente, trocea en trozos gruesos {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio}, y el nabo, la chirivía o el perejil si los usas. Nada de coliflor, brócoli, col ni coles de bruselas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.",
+      "ab": "Con la olla lenta y su temperatura baja, la verdura aguanta bien estas 4 o 5 horas; en cacerola normal no, por eso allí solo entra la última hora. Tostarla antes es opcional (más color y dulzor); la versión de la casa la echa cruda.",
       "e": {
        "k": "fuego",
        "v": "lenta",
@@ -7085,6 +7085,10 @@
    [
     "Gelatina = fuego lento",
     "Para que cuaje de verdad hace falta fuego muy lento muchas horas. En cacerola salen 3 o 4 horas y no cuaja igual: en ese caso va todo a la vez, verdura incluida."
+   ],
+   [
+    "Verduras que NO",
+    "Nada de coliflor, brócoli, col ni coles de bruselas: sueltan azufre y amargan el caldo. Sí: cebolla, ajo, zanahoria, mucho puerro (da muy buen sabor), apio y similares."
    ],
    [
     "Cuánto aguanta",
