@@ -160,6 +160,11 @@ body {
 .mapa .reg-hit { fill: rgba(0,0,0,0); cursor: pointer; stroke: transparent; stroke-width: 12; pointer-events: all; }
 .mapa .chapa-hit { fill: rgba(0,0,0,0); cursor: pointer; pointer-events: all; }
 .mapa .reg:focus-visible { fill: var(--ocre); outline: none; }
+.mapa .reg.vacia { fill: #e4dac3; }
+.mapa .reg.vacia.sel { fill: #cfc3a8; stroke: var(--tarjeta-bg); }
+.mapa.mundo .reg { stroke-width: .6; }
+.mapa.mundo .reg-hit { stroke-width: 6; }
+.vista-mapa { display: flex; gap: 8px; }
 .mapa .reg.cocinada { fill: var(--vino); }
 .mapa .reg.sel { fill: var(--anil); stroke: var(--azul-osc); }
 .mapa .chapa { pointer-events: none; }

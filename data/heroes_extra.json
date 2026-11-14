@@ -34,7 +34,7 @@
  },
  "lechazo": {
   "k": "plato",
-  "v": "cazuela",
+  "v": "madera",
   "c": "#C98A52",
   "i": [
    [
@@ -49,7 +49,7 @@
  },
  "caldereta": {
   "k": "plato",
-  "v": "cazuela",
+  "v": "llano",
   "c": "#B5402F",
   "i": [
    [
@@ -94,7 +94,7 @@
  },
  "arrozhorno": {
   "k": "plato",
-  "v": "cazuela",
+  "v": "fuente",
   "c": "#E5B54C",
   "i": [
    [
@@ -162,7 +162,7 @@
  },
  "sopasmallorquinas": {
   "k": "plato",
-  "v": "cazuela",
+  "v": "cuenco",
   "c": "#B5502E",
   "i": [
    [
@@ -276,16 +276,11 @@
  },
  "tempeh": {
   "k": "plato",
-  "v": "cuenco",
-  "c": "#E6D3A1",
+  "v": "madera",
   "i": [
    [
-    "lenteja",
-    14
-   ],
-   [
-    "garbanzo",
-    4
+    "tempeh",
+    9
    ]
   ]
  }

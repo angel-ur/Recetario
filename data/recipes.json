@@ -144,7 +144,7 @@
   ],
   "heroe": {
    "k": "plato",
-   "v": "cazuela",
+   "v": "fuente",
    "c": "#E5B54C",
    "i": [
     [
@@ -560,7 +560,7 @@
   ],
   "heroe": {
    "k": "plato",
-   "v": "cazuela",
+   "v": "llano",
    "c": "#B5402F",
    "i": [
     [
@@ -1491,7 +1491,7 @@
   ],
   "heroe": {
    "k": "plato",
-   "v": "cazuela",
+   "v": "sarten",
    "c": "#B5402F",
    "i": [
     [
@@ -3978,7 +3978,7 @@
   ],
   "heroe": {
    "k": "plato",
-   "v": "cazuela",
+   "v": "madera",
    "c": "#C98A52",
    "i": [
     [
@@ -4437,7 +4437,7 @@
   ],
   "heroe": {
    "k": "plato",
-   "v": "cazuela",
+   "v": "cuenco",
    "c": "#C77A3E",
    "i": [
     [
@@ -5777,7 +5777,7 @@
   ],
   "heroe": {
    "k": "plato",
-   "v": "cazuela",
+   "v": "sarten",
    "c": "#B8432C",
    "i": [
     [
@@ -6372,7 +6372,7 @@
   ],
   "heroe": {
    "k": "plato",
-   "v": "cazuela",
+   "v": "llano",
    "c": "#5A1A1E",
    "i": [
     [
@@ -6843,7 +6843,7 @@
   ],
   "heroe": {
    "k": "plato",
-   "v": "cazuela",
+   "v": "cuenco",
    "c": "#C8552F",
    "i": [
     [
@@ -7887,7 +7887,7 @@
   ],
   "heroe": {
    "k": "plato",
-   "v": "cazuela",
+   "v": "cuenco",
    "c": "#B5502E",
    "i": [
     [
@@ -7915,11 +7915,11 @@
   "id": "tempeh",
   "n": "Tempeh casero",
   "sub": "soja fermentada: seca bien y mantén el calor",
-  "reg": "es",
+  "reg": "w-IDN",
   "regs": [
-   "es"
+   "w-IDN"
   ],
-  "lugar": "Receta de casa",
+  "lugar": "Indonesia, Java",
   "cat": "huerta",
   "dif": 3,
   "b": 6,
@@ -8069,16 +8069,11 @@
   ],
   "heroe": {
    "k": "plato",
-   "v": "cuenco",
-   "c": "#E6D3A1",
+   "v": "madera",
    "i": [
     [
-     "lenteja",
-     14
-    ],
-    [
-     "garbanzo",
-     4
+     "tempeh",
+     9
     ]
    ]
   }
@@ -8449,7 +8444,7 @@
   ],
   "heroe": {
    "k": "plato",
-   "v": "cazuela",
+   "v": "fuente",
    "c": "#C0392B",
    "i": [
     [

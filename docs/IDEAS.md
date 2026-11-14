@@ -34,3 +34,7 @@ Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-act
 
 ## Por tu barrio (dinamico)
 - Hecho: pide ubicacion con boton, Nominatim para el nombre, lista curada solo si la zona tiene datos (ZONAS en js/app.js; anadir zona = anadir objeto con caja, nota, fuentes, lugares). Otra zona o sin permiso: solo botones Maps "cerca de mi".
+
+## Mapa mundial
+- Hecho: boton Mundo/España sobre el mapa. Paises de Natural Earth 110m (js/mundo.js, generado con scripts/gen_mundo.py). Una receta de fuera de España lleva region: w-ISO3 (tempeh = w-IDN). Chapa con numero solo en paises con platos.
+- Portadas: repartidas entre cazuela, cuenco, fuente, plato llano, sarten, tabla. Sprite tempeh (taquitos).

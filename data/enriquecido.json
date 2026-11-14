@@ -1211,7 +1211,7 @@
   "intro": "Guiso de horas al vino tinto hasta que la carne se separa sola del hueso. Mejor de un día para otro.",
   "heroe": {
    "k": "plato",
-   "v": "cazuela",
+   "v": "llano",
    "c": "#5A1A1E",
    "i": [
     [
@@ -2679,7 +2679,7 @@
   "intro": "Guiso de pescadores del Cantábrico: patatas chascadas que espesan el caldo y el bonito al final, con el fuego apagado, para que quede jugoso.",
   "heroe": {
    "k": "plato",
-   "v": "cazuela",
+   "v": "cuenco",
    "c": "#C77A3E",
    "i": [
     [
@@ -3385,7 +3385,7 @@
   "intro": "Guiso de huerta y corral del valle del Ebro: pollo dorado, pimiento rojo, tomate y unos tacos de jamón que le dan el punto. Aragón y Navarra se lo disputan.",
   "heroe": {
    "k": "plato",
-   "v": "cazuela",
+   "v": "sarten",
    "c": "#B5402F",
    "i": [
     [
@@ -3691,7 +3691,7 @@
   "intro": "Patata, berenjena y pimiento fritos por separado y una salsa de tomate de cocción lenta, todo por capas en la greixonera, la cazuela de barro mallorquina.",
   "heroe": {
    "k": "plato",
-   "v": "cazuela",
+   "v": "fuente",
    "c": "#C0392B",
    "i": [
     [
@@ -4438,7 +4438,7 @@
   "intro": "Cada verdura entra cuando la anterior se ha ablandado, y todo a fuego lento hasta que el tomate lo confita. Se remata con un huevo frito encima.",
   "heroe": {
    "k": "plato",
-   "v": "cazuela",
+   "v": "sarten",
    "c": "#B8432C",
    "i": [
     [
@@ -6245,7 +6245,7 @@
   "intro": "Guiso humilde y redondo: patatas chascadas que espesan el caldo, buen chorizo riojano y la carne del pimiento choricero.",
   "heroe": {
    "k": "plato",
-   "v": "cazuela",
+   "v": "cuenco",
    "c": "#C8552F",
    "i": [
     [

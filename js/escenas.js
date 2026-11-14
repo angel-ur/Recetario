@@ -45,6 +45,7 @@
     S('jamon', '-5 -5 10 10', '<rect x="-4.5" y="-4" width="9" height="8" rx="1.6" fill="#C2444C"/><path d="M3.2-4v8" stroke="#F2D6CF" stroke-width="2"/>'),
     S('pollo', '-14 -10 28 20', '<path d="M-12 2C-12-6-4-9 3-8S13-3 12 3 5 9-2 9-12 9-12 2Z" style="fill:var(--piel,#E2B27A);stroke:var(--piel2,#C98E50)" stroke-width="1.2"/><path d="M-6 0c3-3 8-3 11-1" fill="none" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" opacity=".35"/>'),
     S('carne', '-12 -9 24 18', '<path d="M-11 1C-11-6-3-8 4-7S12-2 11 3 4 8-2 8-11 7-11 1Z" fill="#8E2F28" stroke="#6E211C" stroke-width="1"/><path d="M-6-2c3 1 6 0 9 2M-4 3c3-1 6 0 8 1" fill="none" stroke="#C9706A" stroke-width="1.2" stroke-linecap="round"/>'),
+    S('tempeh', '0 0 22 16', '<rect x="1" y="2" width="20" height="13" rx="3" fill="#CDB98F"/><rect x="1" y="1" width="20" height="12" rx="3" fill="#F3E9CF" stroke="#CDB98F" stroke-width="1"/><circle cx="6" cy="5" r="1.5" fill="#B99B66"/><circle cx="12" cy="8" r="1.5" fill="#B99B66"/><circle cx="17" cy="4.5" r="1.4" fill="#B99B66"/><circle cx="8" cy="10" r="1.3" fill="#C9AE7E"/><circle cx="16" cy="10" r="1.3" fill="#C9AE7E"/><circle cx="11" cy="4" r="1.1" fill="#C9AE7E"/>'),
     S('hueso', '-13 -6 26 12', '<path d="M-9-3a3 3 0 1 1 3-1.5h12a3 3 0 1 1 3 1.5v6a3 3 0 1 1-3 1.5H-6a3 3 0 1 1-3-1.5z" style="fill:var(--hueso,#F1E8D6);stroke:var(--hueso2,#D3C3A6)" stroke-width="1"/>'),
     S('tuetano', '-9 -9 18 18', '<circle r="8.2" style="fill:var(--hueso,#F1E8D6);stroke:var(--hueso2,#D3C3A6)" stroke-width="1"/><circle r="4.8" style="fill:var(--tuetano,#E2B48A)"/><circle cx="-1.4" cy="-1.5" r="1.5" fill="#FFFFFF" opacity=".35"/>'),
     S('oreja', '-12 -10 24 20', '<path d="M-10 6C-12-2-6-9 2-9S12-4 11 2 4 9-2 9-9 9-10 6Z" fill="#EBB3A8" stroke="#D08F86" stroke-width="1"/><path d="M-5 4C-6-1-2-5 3-5S8-1 6 3" fill="none" stroke="#D08F86" stroke-width="1.6" stroke-linecap="round"/>'),
@@ -140,10 +141,10 @@
     aceituna: [9, 7], almendra: [10, 7], avellana: [9, 9], garbanzo: [8, 7], lenteja: [6, 5], faba: [11, 8], arroz: [5, 3],
     fideo: [14, 6], pan: [24, 16], picatoste: [9, 8], huevo: [14, 18], huevofrito: [30, 20], yema: [12, 11], croqueta: [22, 12],
     sobao: [26, 18], cordero: [28, 19], chuleta: [22, 22], costilla: [28, 12], callo: [18, 12], pescado: [28, 14], berza: [20, 18], empanada: [50, 28], canela: [24, 7], azucar: [5, 5], mantequilla: [18, 12], uva: [16, 16],
-    tuetano: [16, 16], oreja: [22, 18], manita: [27, 10], patapollo: [13, 20], apio: [12, 8], jengibre: [20, 13], pimienta: [5, 5], azafran: [10, 5]
+    tuetano: [16, 16], tempeh: [22, 16], oreja: [22, 18], manita: [27, 10], patapollo: [13, 20], apio: [12, 8], jengibre: [20, 13], pimienta: [5, 5], azafran: [10, 5]
   };
   var GIRA = { costilla: 1, callo: 1, pescado: 1, chuleta: 1, pimiento: 1, judia: 1, laurel: 1, romero: 1, anchoa: 1, guindilla: 1, piel: 1, canela: 1, croqueta: 1, fideo: 1, cebolla: 1, bacalao: 1, arroz: 1, tocino: 1,
-    manita: 1, patapollo: 1, azafran: 1, jengibre: 1 };
+    manita: 1, tempeh: 1, patapollo: 1, azafran: 1, jengibre: 1 };
 
   /* ---------- Utilidades ---------- */
   function semilla(txt) { var h = 2166136261; for (var i = 0; i < txt.length; i++) { h ^= txt.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }

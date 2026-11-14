@@ -2,8 +2,8 @@
 id: tempeh
 nombre: "Tempeh casero"
 subtitulo: "soja fermentada: seca bien y mantén el calor"
-region: es
-lugar: "Receta de casa"
+region: w-IDN
+lugar: "Indonesia, Java"
 categoria: huerta
 dificultad: 3
 raciones: 6

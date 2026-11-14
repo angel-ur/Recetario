@@ -18,6 +18,10 @@
   /* ---------- Datos ---------- */
   var porId = {}, REG = {};
   MAPA.regiones.forEach(function (g) { REG[g.id] = g; });
+  /* Mundo: paises de Natural Earth. Una receta de fuera de España lleva region: w-ISO3 (p. ej. w-IDN para Indonesia). */
+  var ESPREG = {}, MUND = {}, MUNDO = window.MUNDO || { vb: [720, 284], paises: [] };
+  MAPA.regiones.forEach(function (g) { ESPREG[g.id] = 1; });
+  MUNDO.paises.forEach(function (g) { REG[g.id] = g; MUND[g.id] = g; });
   function preparaRecetas() { R.forEach(function (r) {
     porId[r.id] = r;
     r.regs = r.regs || [r.reg];
@@ -42,7 +46,7 @@
   var favs = store.get('favs', {}) || {};
   var compra = store.get('compra', []) || [];
   var filtro = { cat: 'todas', t: 'todos', q: '', fav: false };
-  var regionSel = null, verEspana = false;
+  var regionSel = null, verEspana = false, vistaMapa = 'es';
   function est(r) {
     var e = store.get('r:' + r.id, null) || {};
     return {
@@ -151,7 +155,7 @@
   ];
   function cuentas() {
     var ids = Object.keys(cocinados).filter(function (id) { return porId[id]; }), cat = {}, regs = {};
-    ids.forEach(function (id) { var r = porId[id]; cat[r.cat] = (cat[r.cat] || 0) + 1; r.regs.forEach(function (g) { if (REG[g]) regs[g] = 1; }); });
+    ids.forEach(function (id) { var r = porId[id]; cat[r.cat] = (cat[r.cat] || 0) + 1; r.regs.forEach(function (g) { if (ESPREG[g]) regs[g] = 1; }); });
     return { ids: ids, n: ids.length, cat: cat, regs: Object.keys(regs).length };
   }
   function recetasDe(g) { return R.filter(function (r) { return r.regs.indexOf(g) > -1; }); }
@@ -297,10 +301,11 @@
       '<div class="barra-fila"><span>Regiones</span><span class="barra"><i style="width:' + (c.regs / 17 * 100).toFixed(1) + '%"></i></span><span class="num">' + c.regs + '/17</span></div></div>' +
       '<ul class="logros">' + LOGROS.map(function (l) { var si = l[2](c); return '<li class="logro' + (si ? ' si' : '') + '" title="' + esc(l[3].charAt(0).toUpperCase() + l[3].slice(1)) + '"><span class="medalla" aria-hidden="true">' + l[0] + '</span>' + l[1] + '<span class="sr-only">' + (si ? ', conseguido' : ', por conseguir: ' + l[3]) + '</span></li>'; }).join('') + '</ul>' +
       (function () { var sig = LOGROS.filter(function (l) { return !l[2](c); })[0]; return '<p class="siguiente">' + (sig ? 'Siguiente sello: <b>' + esc(sig[1]) + '</b>, ' + esc(sig[3]) + '.' : 'Los tienes todos. La abuela estaría orgullosa.') + '</p>'; })() + (Object.keys(cocinados).length ? '<p class="reinicio"><button type="button" class="reiniciar" data-reset="1">Reiniciar pasaporte</button></p>' : '') + '</section>';
-    h += '<section class="tarjeta" aria-labelledby="t-mapa"><div class="seccion-cab"><h2 id="t-mapa">El mapa</h2><span class="ayuda">Toca una comunidad</span></div>' +
+    h += '<section class="tarjeta" aria-labelledby="t-mapa"><div class="seccion-cab"><h2 id="t-mapa">El mapa</h2><span class="ayuda" id="ayuda-mapa">' + (vistaMapa === 'mundo' ? 'Toca un país' : 'Toca una comunidad') + '</span></div>' +
+      '<div class="vista-mapa" role="group" aria-label="Qué mapa ver"><button type="button" class="filtro" data-vista="es" aria-pressed="' + (vistaMapa === 'es') + '">España</button><button type="button" class="filtro" data-vista="mundo" aria-pressed="' + (vistaMapa === 'mundo') + '">Mundo</button></div>' +
       '<div class="mapa-caja">' + svgMapa() + '</div>' +
       '<div class="mapa-leyenda"><span><i style="background:var(--region)"></i>Por cocinar</span><span><i style="background:var(--vino)"></i>Sellada</span><span><i style="background:var(--ocre);border-radius:50%"></i>Todos sus platos hechos</span></div>' +
-      '<button type="button" class="chip-es" id="ver-espana" aria-pressed="' + (verEspana ? 'true' : 'false') + '">Y de toda España (' + recetasDe('es').length + ')</button>' +
+      '<button type="button" class="chip-es" id="ver-espana"' + (vistaMapa === 'mundo' ? ' hidden' : '') + ' aria-pressed="' + (verEspana ? 'true' : 'false') + '">Y de toda España (' + recetasDe('es').length + ')</button>' +
       '<div class="panel-region" id="panel-region">' + panelRegion() + '</div></section>';
     h += '<section aria-labelledby="t-fichas" style="display:grid;gap:14px"><div class="seccion-cab"><h2 id="t-fichas" style="font-size:27px">Todos los platos</h2><span class="ayuda num" id="n-fichas"></span></div>' +
       '<div class="filtros"><label class="sr-only" for="buscar">Buscar un plato o ingrediente</label><input class="buscar" id="buscar" type="search" placeholder="Busca un plato o un ingrediente" value="' + esc(filtro.q) + '">' +
@@ -312,7 +317,23 @@
     $('#vista-indice').innerHTML = h;
     pintaFichas();
   }
+  function svgMundo() {
+    var s = '<svg class="mapa mundo" viewBox="0 0 ' + MUNDO.vb[0] + ' ' + MUNDO.vb[1] + '" role="group" aria-label="Mapa del mundo por países">', con = [];
+    MUNDO.paises.forEach(function (g) {
+      var rs = g.id === 'w-ESP' ? [] : recetasDe(g.id);
+      if (rs.length) con.push(g);
+      var hechas = rs.filter(function (r) { return cocinados[r.id]; }).length;
+      if (rs.length) s += '<path class="reg-hit" data-reg="' + g.id + '" d="' + g.d + '" aria-hidden="true"/>';
+      s += '<path class="reg' + (rs.length ? '' : ' vacia') + (hechas ? ' cocinada' : '') + (regionSel === g.id ? ' sel' : '') + '" data-reg="' + g.id + '" d="' + g.d + '"' + (rs.length || g.id === 'w-ESP' ? ' tabindex="0" role="button"' : ' aria-hidden="true"') + ' aria-label="' + esc(g.n) + (rs.length ? ': ' + rs.length + (rs.length === 1 ? ' plato' : ' platos') : '') + '"><title>' + esc(g.n) + '</title></path>';
+    });
+    con.forEach(function (g) {
+      var rs = recetasDe(g.id), llena = rs.every(function (r) { return cocinados[r.id]; });
+      s += '<g class="chapa' + (llena ? ' llena' : '') + '" data-reg="' + g.id + '" transform="translate(' + g.cx + ' ' + g.cy + ')" aria-hidden="true"><circle class="chapa-hit" r="26"/><circle r="9"/><text text-anchor="middle" dy="3.4">' + rs.length + '</text></g>';
+    });
+    return s + '</svg>';
+  }
   function svgMapa() {
+    if (vistaMapa === 'mundo') return svgMundo();
     var cb = MAPA.canarias_caja, s = '<svg class="mapa" viewBox="0 0 ' + MAPA.vb[0] + ' ' + MAPA.vb[1] + '" role="group" aria-label="Mapa de España por comunidades autónomas">' +
       '<path class="pt" d="' + MAPA.portugal + '"/><rect class="caja-cnr" x="' + cb.x + '" y="' + cb.y + '" width="' + cb.w + '" height="' + cb.h + '" rx="6"/>';
     MAPA.regiones.forEach(function (g) {
@@ -332,7 +353,16 @@
     var c = resumenFicha(r);
     return '<li><a class="fila" href="#' + r.id + '"><span class="mini">' + ESC.svg(r.heroe, '') + '</span><span><b>' + esc(r.n) + '</b><small>' + esc(r.sub) + ' · ' + durTxt(c.tot) + '</small></span>' + (cocinados[r.id] ? '<span class="sello">Hecho</span>' : '<span aria-hidden="true" style="color:var(--anil);font-weight:800">›</span>') + '</a></li>';
   }
+  function panelMundo() {
+    var con = MUNDO.paises.filter(function (g) { return g.id !== 'w-ESP' && recetasDe(g.id).length; });
+    var chips = con.length ? '<div class="chips-fila" role="group" aria-label="Países con platos">' + con.map(function (g) { return '<button type="button" class="filtro" data-reg="' + g.id + '" aria-pressed="' + (regionSel === g.id) + '">' + esc(g.n) + ' (' + recetasDe(g.id).length + ')</button>'; }).join('') + '</div>' : '';
+    if (!regionSel) return '<p class="ayuda">Los países con platos llevan su número. Toca uno, o toca España para volver al mapa de comunidades.</p>' + chips;
+    var g = MUND[regionSel], rs = recetasDe(regionSel);
+    if (!g) return chips;
+    return chips + '<h3>' + esc(g.n) + '</h3>' + (rs.length ? '<ul class="filas">' + rs.map(fila).join('') + '</ul>' : '<p class="ayuda">Todavía no hay ningún plato de ' + esc(g.n) + '. Llegará.</p>');
+  }
   function panelRegion() {
+    if (vistaMapa === 'mundo') return panelMundo();
     if (verEspana) return '<h3>De toda España</h3><ul class="filas">' + recetasDe('es').map(fila).join('') + '</ul>';
     if (!regionSel) return '<p class="ayuda">Cada comunidad tiene al menos un plato. Las que vayas cocinando se sellan en color vino.</p>';
     var g = REG[regionSel], rs = recetasDe(regionSel);
@@ -670,9 +700,11 @@
 
   /* ---------- Eventos ---------- */
   document.addEventListener('click', function (ev) {
-    var t = ev.target.closest('[data-ir],[data-reg],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-vaciar],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
+    var t = ev.target.closest('[data-ir],[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-vaciar],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
     if (!t) return;
     if (t.hasAttribute('data-ir')) { ir(t.getAttribute('data-ir')); return; }
+    if (t.hasAttribute('data-vista')) { vistaMapa = t.getAttribute('data-vista'); regionSel = null; verEspana = false; refrescaMapa(); return; }
+    if (t.hasAttribute('data-reg') && t.getAttribute('data-reg') === 'w-ESP') { vistaMapa = 'es'; regionSel = null; verEspana = false; refrescaMapa(); return; }
     if (t.hasAttribute('data-reg')) { var g = t.getAttribute('data-reg'); regionSel = regionSel === g ? null : g; verEspana = false; refrescaMapa(); return; }
     if (t.id === 'ver-espana') { verEspana = !verEspana; regionSel = null; refrescaMapa(); return; }
     if (t.hasAttribute('data-cat')) { filtro.cat = t.getAttribute('data-cat'); $$('[data-cat]').forEach(function (b) { b.setAttribute('aria-pressed', b === t ? 'true' : 'false'); }); pintaFichas(); return; }
@@ -738,6 +770,9 @@
     caja.innerHTML = svgMapa();
     $('#panel-region').innerHTML = panelRegion();
     $('#ver-espana').setAttribute('aria-pressed', verEspana ? 'true' : 'false');
+    $('#ver-espana').hidden = vistaMapa === 'mundo';
+    $('#ayuda-mapa').textContent = vistaMapa === 'mundo' ? 'Toca un país' : 'Toca una comunidad';
+    $$('[data-vista]').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-vista') === vistaMapa ? 'true' : 'false'); });
   }
 
   fetch('data/recipes.json').then(function (res) {
