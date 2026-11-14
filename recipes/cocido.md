@@ -73,7 +73,7 @@ El de los domingos: garbanzos a remojo la víspera, carnes a fuego lento y servi
 
 ## En la tienda
 
-- **El morcillo y el hueso**: «Morcillo de ternera en un trozo» y «un hueso de caña con tuétano, partido». Pide el tocino fresco o veteado en un trozo, no en lonchas.
-- **Gallina o pollo**: Si hay gallina, mejor; si no, muslos de pollo. «Para cocido» aunque parezca raro, porque el caldo se hace con ella.
-- **Los chorizos**: «Chorizo de cocido» (curado suave, de los que aguantan hervir). Y morcilla de cebolla.
-- **Garbanzos**: Los de remojo, de la noche anterior; si no, hay que alargar mucho la cocción.
+- **El morcillo y el hueso** [morcillo|hueso|tocino]: «Morcillo de ternera en un trozo» y «un hueso de caña con tuétano, partido». Pide el tocino fresco o veteado en un trozo, no en lonchas.
+- **Gallina o pollo** [gallina|pollo]: Si hay gallina, mejor; si no, muslos de pollo. «Para cocido» aunque parezca raro, porque el caldo se hace con ella.
+- **Los chorizos** [chorizo|morcilla]: «Chorizo de cocido» (curado suave, de los que aguantan hervir). Y morcilla de cebolla.
+- **Garbanzos** [garbanzos]: Los de remojo, de la noche anterior; si no, hay que alargar mucho la cocción.

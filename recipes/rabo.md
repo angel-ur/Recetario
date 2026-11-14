@@ -72,7 +72,7 @@ Guiso de horas al vino tinto hasta que la carne se separa sola del hueso. Mejor 
 
 ## En la tienda
 
-- **El rabo**: Pide «rabo de toro (o de vaca), troceado por las articulaciones, en trozos de unos 5 cm». Dile que es para guisar. Los trozos gruesos de la base llevan más carne.
+- **El rabo** [rabo]: Pide «rabo de toro (o de vaca), troceado por las articulaciones, en trozos de unos 5 cm». Dile que es para guisar. Los trozos gruesos de la base llevan más carne.
 - **Cantidad**: 1 kg de rabo da para unas 3 personas (hueso incluido). Para 4 personas, 1,5 kg.
-- **El vino**: Un tinto que te beberías, no de cocinar. Unos 750 ml, una botella.
-- **Grasa**: No hace falta que te lo limpien del todo; la grasa se funde en el guiso y se retira al final.
+- **El vino** [vino]: Un tinto que te beberías, no de cocinar. Unos 750 ml, una botella.
+- **Grasa** [rabo]: No hace falta que te lo limpien del todo; la grasa se funde en el guiso y se retira al final.

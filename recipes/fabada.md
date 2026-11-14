@@ -59,5 +59,5 @@ Fabes de La Granja, compango asturiano y tres cosas que no se negocian: remojo e
 
 ## En la tienda
 
-- **Las fabes**: «Fabes de La Granja» (o faba asturiana). Pide que sean de la última cosecha: las muy viejas no se ablandan.
-- **El compango**: Pídelo todo junto: «compango para fabada», con chorizo, morcilla asturiana y tocino o panceta. Si lo tienen, el lacón es opcional.
+- **Las fabes** [fabes]: «Fabes de La Granja» (o faba asturiana). Pide que sean de la última cosecha: las muy viejas no se ablandan.
+- **El compango** [chorizo|morcilla|panceta|lacón]: Pídelo todo junto: «compango para fabada», con chorizo, morcilla asturiana y tocino o panceta. Si lo tienen, el lacón es opcional.

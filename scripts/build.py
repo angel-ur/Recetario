@@ -201,9 +201,9 @@ def parse_tienda(path):
     out = []
     if m:
         for l in m.group(1).splitlines():
-            mm = re.match(r"- \*\*(.+?)\*\*:?\s*(.*)", l.strip())
+            mm = re.match(r"- \*\*(.+?)\*\*(?: \[(.+?)\])?:?\s*(.*)", l.strip())
             if mm:
-                out.append([mm.group(1), mm.group(2)])
+                out.append([mm.group(1), mm.group(3), mm.group(2) or ""])
     return out
 
 

@@ -62,7 +62,7 @@ La tradicional: pollo, conejo, ferraura, garrofó, tomate, azafrán y arroz. Ni 
 
 ## En la tienda
 
-- **Pollo y conejo**: Pide «pollo y conejo troceados para paella», en trozos pequeños con hueso. Se doran mejor así y dan sabor al caldo.
-- **Las verduras**: Judía verde plana (ferraura) y garrofó: si no los encuentras frescos, el garrofó se vende en conserva o congelado.
-- **El arroz**: «Arroz bomba o senia, para paella». Es el que aguanta sin pasarse.
-- **El azafrán**: Hebras, no colorante; unas pocas bastan.
+- **Pollo y conejo** [pollo|conejo]: Pide «pollo y conejo troceados para paella», en trozos pequeños con hueso. Se doran mejor así y dan sabor al caldo.
+- **Las verduras** [judía|garrofó]: Judía verde plana (ferraura) y garrofó: si no los encuentras frescos, el garrofó se vende en conserva o congelado.
+- **El arroz** [arroz]: «Arroz bomba o senia, para paella». Es el que aguanta sin pasarse.
+- **El azafrán** [azafrán]: Hebras, no colorante; unas pocas bastan.

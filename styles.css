@@ -651,3 +651,11 @@ details.plan[open] > summary { margin-bottom: 12px; }
 /* ---- En la tienda ---- */
 .tienda dd { border-left-color: var(--azul, var(--dorado)); }
 .tienda .ayuda { margin: 0 0 8px; }
+
+.bolsas { margin: 0 0 12px; padding: 10px 12px; background: #fbf0d0; border-radius: 12px; font-size: 15px; color: var(--tinta); }
+
+.pit { flex-wrap: wrap; }
+.nota-t { flex-basis: 100%; margin: 0 0 4px; padding: 8px 12px; background: #fbf0d0; border-left: 3px solid var(--azul-osc); border-radius: 8px; font-size: 14px; color: var(--tinta); }
+.nota-t b { display: block; font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--azul-osc); margin-bottom: 2px; }
+.nota-t p { margin: 0 0 4px; }
+.compra-lista > li > .nota-t { margin-top: 4px; }

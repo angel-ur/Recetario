@@ -504,10 +504,16 @@
       (rutaCalc.casa ? '' : '<p class="ayuda">Guarda tu casa (abajo) y la ruta termina allí.</p>') +
       '<button type="button" class="reiniciar" data-ruta="1">Recalcular desde donde estoy</button>' + (cerradas.length ? '<button type="button" class="reiniciar" data-nocerradas="1">Volver a mostrar las tiendas que descarté (' + cerradas.length + ')</button>' : '') + '</div>';
   }
+  function notasTienda(c) {
+    var rr = porId[c.r]; if (!rr || !rr.tienda) return '';
+    var t = String(c.t).toLowerCase();
+    var ns = rr.tienda.filter(function (n) { return n[2] && n[2].split('|').some(function (k) { return t.indexOf(k.toLowerCase()) > -1; }); });
+    return ns.length ? '<div class="nota-t"><b>En la tienda</b>' + ns.map(function (n) { return '<p>' + esc(n[1]) + '</p>'; }).join('') + '</div>' : '';
+  }
   function compraPorReceta() {
     var grupos = {}, orden = [];
     compra.forEach(function (c, n) { if (!grupos[c.r]) { grupos[c.r] = []; orden.push(c.r); } grupos[c.r].push([c, n]); });
-    return orden.map(function (rid) { var rr = porId[rid]; return '<p class="eti">' + esc(rr ? rr.n : rid) + '</p><ul class="compra-lista">' + grupos[rid].map(function (p) { return '<li><button type="button" class="compra-it" data-compra="' + p[1] + '" aria-pressed="' + (!!p[0].d) + '">' + esc(p[0].t) + dondeTag(p[0].t, true) + '</button></li>'; }).join('') + '</ul>'; }).join('') +
+    return orden.map(function (rid) { var rr = porId[rid]; return '<p class="eti">' + esc(rr ? rr.n : rid) + '</p><ul class="compra-lista">' + grupos[rid].map(function (p) { return '<li><button type="button" class="compra-it" data-compra="' + p[1] + '" aria-pressed="' + (!!p[0].d) + '">' + esc(p[0].t) + dondeTag(p[0].t, true) + '</button>' + (p[0].d ? '' : notasTienda(p[0])) + '</li>'; }).join('') + '</ul>'; }).join('') +
       barrioHTML(catsDe(compra.map(function (c) { return c.t; })));
   }
   function compraPorTienda() {
@@ -528,7 +534,7 @@
       h += '<li class="parada' + (hecha ? ' hecha' : '') + '"><div class="parada-cab"><span class="parada-n">' + (hecha ? '✓' : k) + '</span><h3>' + esc(P.p.nombre) + '</h3><a class="donde-link" href="' + enlaceParada(P.p) + '" target="_blank" rel="noopener">Mapa</a></div>' +
         '<ul class="compra-lista">' + P.its.map(function (x) {
           var c = x[0];
-          return '<li class="pit"><button type="button" class="compra-it" data-compra="' + x[1] + '" aria-pressed="' + (!!c.d) + '">' + esc(c.t) + (c.x ? '<span class="donde"><b>Plan B</b></span>' : '') + '</button>' + (c.d ? '' : '<button type="button" class="planb" data-planb="' + x[1] + '" aria-label="Plan B para ' + esc(c.t) + '">' + (c.x ? 'Volver' : 'No lo tienen') + '</button>') + '</li>';
+          return '<li class="pit"><button type="button" class="compra-it" data-compra="' + x[1] + '" aria-pressed="' + (!!c.d) + '">' + esc(c.t) + (c.x ? '<span class="donde"><b>Plan B</b></span>' : '') + '</button>' + (c.d ? '' : '<button type="button" class="planb" data-planb="' + x[1] + '" aria-label="Plan B para ' + esc(c.t) + '">' + (c.x ? 'Volver' : 'No lo tienen') + '</button>') + (c.d ? '' : notasTienda(c)) + '</li>';
         }).join('') + '</ul></li>';
     });
     h += '</ol>';
@@ -544,11 +550,32 @@
   function compraVacia() {
     return '<section class="tarjeta" id="compra-tarjeta" aria-labelledby="t-compra"><div class="seccion-cab"><h2 id="t-compra">La compra</h2></div><p class="ayuda">Tu lista está vacía. Abre una receta y toca «Añadir lo que falta a la compra»: aquí saldrá todo junto, y también ordenado por tiendas con la ruta.</p></section>';
   }
+  /* Estimacion de bolsas: peso aproximado de lo que falta por comprar */
+  function pesoItem(t) {
+    var s = String(t).toLowerCase().replace(',', '.');
+    var m = s.match(/(\d+(?:\.\d+)?)\s*(kg|g|l|ml)\b/);
+    if (m) { var n = parseFloat(m[1]), u = m[2]; return u === 'kg' ? n : u === 'g' ? n / 1000 : u === 'l' ? n : n / 1000; }
+    if (/(cdta|cda|cucharad|pizca|hebra|hoja|rama|diente|chorrito|al gusto|sal\b|ramita)/.test(s)) return 0.02;
+    m = s.match(/^(\d+(?:\.\d+)?)/);
+    return m ? Math.min(parseFloat(m[1]), 12) * 0.2 : 0.2;
+  }
+  function bolsasInfo() {
+    var pend = compra.filter(function (c) { return !c.d; });
+    if (!pend.length) return null;
+    var kg = 0, vol = 0;
+    pend.forEach(function (c) { var w = pesoItem(c.t); kg += w; vol += w < 0.05 ? 0.1 : 1; });
+    var n = Math.max(1, Math.ceil(Math.max(kg / 4, vol / 10)));
+    var peso = kg < 1 ? 'menos de 1 kg' : 'unos ' + (Math.round(kg * 2) / 2).toString().replace('.', ',') + ' kg';
+    var txt = kg >= 12 ? 'Es una compra grande (' + peso + '): lleva un carrito o una mochila grande, además de bolsas.' :
+      n === 1 ? 'Te cabe en una bolsa (' + peso + ').' : 'Llévate unas ' + n + ' bolsas' + (n >= 4 ? ' o una mochila' : '') + ' (' + peso + ').';
+    return { n: n, kg: kg, txt: txt };
+  }
   function compraHTML() {
     if (!compra.length) return compraVacia();
     var v = cvista === 'tienda' ? 'tienda' : 'receta';
     return '<section class="tarjeta" id="compra-tarjeta" aria-labelledby="t-compra"><div class="seccion-cab"><h2 id="t-compra">La compra</h2><span class="ayuda">' + compra.filter(function (c) { return !c.d; }).length + ' por comprar</span></div>' +
       '<div class="seg seg-g" role="group" aria-label="Ver la compra"><button type="button" data-cvista="receta" aria-pressed="' + (v === 'receta') + '">Por receta</button><button type="button" data-cvista="tienda" aria-pressed="' + (v === 'tienda') + '">Por tienda</button></div>' +
+      (function () { var b = bolsasInfo(); return b ? '<p class="bolsas"><span aria-hidden="true">🛍️</span> ' + esc(b.txt) + '</p>' : ''; })() +
       (v === 'tienda' ? compraPorTienda() : compraPorReceta()) +
       '<p class="reinicio"><button type="button" class="reiniciar" data-vaciar="1">Vaciar la lista</button></p></section>';
   }
@@ -1023,7 +1050,7 @@
       if (compra[ci]) { var nv = !compra[ci].d, nt = normT(compra[ci].t); compra.forEach(function (c) { if (normT(c.t) === nt) c.d = nv; }); store.set('compra', compra); rutaCalc = null; if (cvista === 'tienda') repintaCompra(); else $$('[data-compra]').forEach(function (b) { var cc = compra[+b.getAttribute('data-compra')]; if (cc) b.setAttribute('aria-pressed', !!cc.d); }); }
       return;
     }
-    if (t.hasAttribute('data-ruta')) { calculaRuta(); return; }
+    if (t.hasAttribute('data-ruta')) { var bi = bolsasInfo(); if (bi) aviso('🛍️ ' + bi.txt); calculaRuta(); return; }
     if (t.hasAttribute('data-cambia')) { var ci2 = +t.getAttribute('data-cambia'); if (rutaCalc && rutaCalc.estado === 'lista') { rutaCalc.cambiando = rutaCalc.cambiando === ci2 ? -1 : ci2; repintaCompra(); pintaMapaRuta(); } return; }
     if (t.hasAttribute('data-cerrada')) { descartaParada(+t.getAttribute('data-cerrada')); return; }
     if (t.hasAttribute('data-usamk')) { recalcula(function (d) { d.usaMk = !rutaCalc.mkOk; }); return; }

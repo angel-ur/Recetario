@@ -55,6 +55,6 @@ Como en las ferias gallegas: el pulpo asustado tres veces, cortado con tijera so
 
 ## En la tienda
 
-- **El pulpo**: Pídelo «pulpo para cocer, de unos 2 kg». Si lo compras congelado, ya viene más tierno, porque la congelación rompe las fibras. Descongélalo del todo en la nevera la noche antes.
-- **Patatas**: «Patatas medianas, de las de cocer». Que no se deshagan al hervir.
-- **Pimentón**: Dulce y picante, mejor de la Vera si lo hay.
+- **El pulpo** [pulpo]: Pídelo «pulpo para cocer, de unos 2 kg». Si lo compras congelado, ya viene más tierno, porque la congelación rompe las fibras. Descongélalo del todo en la nevera la noche antes.
+- **Patatas** [patatas]: «Patatas medianas, de las de cocer». Que no se deshagan al hervir.
+- **Pimentón** [pimentón]: Dulce y picante, mejor de la Vera si lo hay.

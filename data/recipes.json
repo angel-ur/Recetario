@@ -1524,23 +1524,28 @@
   "tienda": [
    [
     "Huesos de rodilla",
-    "Pide «huesos de rodilla de ternera, cortados en rodajas o trozos de unos 5 cm, para caldo». Cortados sueltan mejor el colágeno. Si hoy no los usas todos, se congelan."
+    "Pide «huesos de rodilla de ternera, cortados en rodajas o trozos de unos 5 cm, para caldo». Cortados sueltan mejor el colágeno. Si hoy no los usas todos, se congelan.",
+    "rodilla"
    ],
    [
     "Huesos de tuétano",
-    "«Huesos de caña de ternera con tuétano, en trozos de 5 cm». Que se vea el tuétano por los dos lados."
+    "«Huesos de caña de ternera con tuétano, en trozos de 5 cm». Que se vea el tuétano por los dos lados.",
+    "tuétano"
    ],
    [
     "Oreja y pata",
-    "Una oreja de cerdo y una pata de ternera (o dos manitas de cerdo), «limpias y chamuscadas». Pide que te partan la pata en 3 o 4 trozos."
+    "Una oreja de cerdo y una pata de ternera (o dos manitas de cerdo), «limpias y chamuscadas». Pide que te partan la pata en 3 o 4 trozos.",
+    "oreja|pata de ternera|manitas"
    ],
    [
     "Carcasa y patas de pollo",
-    "En la pollería. Una carcasa partida por la mitad; las patas de gallo, si las tienen, son un extra de gelatina."
+    "En la pollería. Una carcasa partida por la mitad; las patas de gallo, si las tienen, son un extra de gelatina.",
+    "carcasa|patas de gallo"
    ],
    [
     "Cantidad según tu olla",
-    "Los huesos tienen que quedar cubiertos con un par de dedos de agua. En una olla de unos 5 L, con 1,5 kg de huesos en total vas holgado; con 2 kg va muy justo."
+    "Los huesos tienen que quedar cubiertos con un par de dedos de agua. En una olla de unos 5 L, con 1,5 kg de huesos en total vas holgado; con 2 kg va muy justo.",
+    ""
    ]
   ]
  },
@@ -2761,19 +2766,23 @@
   "tienda": [
    [
     "El morcillo y el hueso",
-    "«Morcillo de ternera en un trozo» y «un hueso de caña con tuétano, partido». Pide el tocino fresco o veteado en un trozo, no en lonchas."
+    "«Morcillo de ternera en un trozo» y «un hueso de caña con tuétano, partido». Pide el tocino fresco o veteado en un trozo, no en lonchas.",
+    "morcillo|hueso|tocino"
    ],
    [
     "Gallina o pollo",
-    "Si hay gallina, mejor; si no, muslos de pollo. «Para cocido» aunque parezca raro, porque el caldo se hace con ella."
+    "Si hay gallina, mejor; si no, muslos de pollo. «Para cocido» aunque parezca raro, porque el caldo se hace con ella.",
+    "gallina|pollo"
    ],
    [
     "Los chorizos",
-    "«Chorizo de cocido» (curado suave, de los que aguantan hervir). Y morcilla de cebolla."
+    "«Chorizo de cocido» (curado suave, de los que aguantan hervir). Y morcilla de cebolla.",
+    "chorizo|morcilla"
    ],
    [
     "Garbanzos",
-    "Los de remojo, de la noche anterior; si no, hay que alargar mucho la cocción."
+    "Los de remojo, de la noche anterior; si no, hay que alargar mucho la cocción.",
+    "garbanzos"
    ]
   ]
  },
@@ -4009,11 +4018,13 @@
   "tienda": [
    [
     "Las fabes",
-    "«Fabes de La Granja» (o faba asturiana). Pide que sean de la última cosecha: las muy viejas no se ablandan."
+    "«Fabes de La Granja» (o faba asturiana). Pide que sean de la última cosecha: las muy viejas no se ablandan.",
+    "fabes"
    ],
    [
     "El compango",
-    "Pídelo todo junto: «compango para fabada», con chorizo, morcilla asturiana y tocino o panceta. Si lo tienen, el lacón es opcional."
+    "Pídelo todo junto: «compango para fabada», con chorizo, morcilla asturiana y tocino o panceta. Si lo tienen, el lacón es opcional.",
+    "chorizo|morcilla|panceta|lacón"
    ]
   ]
  },
@@ -5071,11 +5082,13 @@
   "tienda": [
    [
     "Las lentejas",
-    "«Lentejas pardinas». No necesitan remojo. Mira que sean de la última cosecha; las muy viejas se quedan duras."
+    "«Lentejas pardinas». No necesitan remojo. Mira que sean de la última cosecha; las muy viejas se quedan duras.",
+    "lentejas"
    ],
    [
     "El chorizo",
-    "«Chorizo para guisar» (no el de cortar en lonchas): cocido suelta su grasa y su pimentón al guiso."
+    "«Chorizo para guisar» (no el de cortar en lonchas): cocido suelta su grasa y su pimentón al guiso.",
+    "chorizo"
    ]
   ]
  },
@@ -6043,19 +6056,23 @@
   "tienda": [
    [
     "Pollo y conejo",
-    "Pide «pollo y conejo troceados para paella», en trozos pequeños con hueso. Se doran mejor así y dan sabor al caldo."
+    "Pide «pollo y conejo troceados para paella», en trozos pequeños con hueso. Se doran mejor así y dan sabor al caldo.",
+    "pollo|conejo"
    ],
    [
     "Las verduras",
-    "Judía verde plana (ferraura) y garrofó: si no los encuentras frescos, el garrofó se vende en conserva o congelado."
+    "Judía verde plana (ferraura) y garrofó: si no los encuentras frescos, el garrofó se vende en conserva o congelado.",
+    "judía|garrofó"
    ],
    [
     "El arroz",
-    "«Arroz bomba o senia, para paella». Es el que aguanta sin pasarse."
+    "«Arroz bomba o senia, para paella». Es el que aguanta sin pasarse.",
+    "arroz"
    ],
    [
     "El azafrán",
-    "Hebras, no colorante; unas pocas bastan."
+    "Hebras, no colorante; unas pocas bastan.",
+    "azafrán"
    ]
   ]
  },
@@ -6492,19 +6509,23 @@
   "tienda": [
    [
     "El bacalao",
-    "Pide «lomos de bacalao desalado, de la parte gruesa (el centro), con piel». Unos 200 g por persona. La piel es lo que suelta la gelatina que liga la salsa, así que no lo quieras sin piel."
+    "Pide «lomos de bacalao desalado, de la parte gruesa (el centro), con piel». Unos 200 g por persona. La piel es lo que suelta la gelatina que liga la salsa, así que no lo quieras sin piel.",
+    "bacalao"
    ],
    [
     "Desalado o en sal",
-    "Si te lo dan ya desalado, vale para hoy. Si solo tienen bacalao en sal, hay que desalarlo 36-48 horas en la nevera cambiando el agua, y no llega para esta noche."
+    "Si te lo dan ya desalado, vale para hoy. Si solo tienen bacalao en sal, hay que desalarlo 36-48 horas en la nevera cambiando el agua, y no llega para esta noche.",
+    "bacalao"
    ],
    [
     "Ajo y guindilla",
-    "Ajos frescos y firmes, sin brote verde. Una guindilla pequeña, seca o fresca."
+    "Ajos frescos y firmes, sin brote verde. Una guindilla pequeña, seca o fresca.",
+    "ajo|guindilla"
    ],
    [
     "El aceite",
-    "Aceite de oliva suave. Un virgen extra muy amargo se come el sabor del bacalao."
+    "Aceite de oliva suave. Un virgen extra muy amargo se come el sabor del bacalao.",
+    "aceite"
    ]
   ]
  },
@@ -7081,15 +7102,18 @@
   "tienda": [
    [
     "El pulpo",
-    "Pídelo «pulpo para cocer, de unos 2 kg». Si lo compras congelado, ya viene más tierno, porque la congelación rompe las fibras. Descongélalo del todo en la nevera la noche antes."
+    "Pídelo «pulpo para cocer, de unos 2 kg». Si lo compras congelado, ya viene más tierno, porque la congelación rompe las fibras. Descongélalo del todo en la nevera la noche antes.",
+    "pulpo"
    ],
    [
     "Patatas",
-    "«Patatas medianas, de las de cocer». Que no se deshagan al hervir."
+    "«Patatas medianas, de las de cocer». Que no se deshagan al hervir.",
+    "patatas"
    ],
    [
     "Pimentón",
-    "Dulce y picante, mejor de la Vera si lo hay."
+    "Dulce y picante, mejor de la Vera si lo hay.",
+    "pimentón"
    ]
   ]
  },
@@ -7591,19 +7615,23 @@
   "tienda": [
    [
     "El rabo",
-    "Pide «rabo de toro (o de vaca), troceado por las articulaciones, en trozos de unos 5 cm». Dile que es para guisar. Los trozos gruesos de la base llevan más carne."
+    "Pide «rabo de toro (o de vaca), troceado por las articulaciones, en trozos de unos 5 cm». Dile que es para guisar. Los trozos gruesos de la base llevan más carne.",
+    "rabo"
    ],
    [
     "Cantidad",
-    "1 kg de rabo da para unas 3 personas (hueso incluido). Para 4 personas, 1,5 kg."
+    "1 kg de rabo da para unas 3 personas (hueso incluido). Para 4 personas, 1,5 kg.",
+    ""
    ],
    [
     "El vino",
-    "Un tinto que te beberías, no de cocinar. Unos 750 ml, una botella."
+    "Un tinto que te beberías, no de cocinar. Unos 750 ml, una botella.",
+    "vino"
    ],
    [
     "Grasa",
-    "No hace falta que te lo limpien del todo; la grasa se funde en el guiso y se retira al final."
+    "No hace falta que te lo limpien del todo; la grasa se funde en el guiso y se retira al final.",
+    "rabo"
    ]
   ]
  },
