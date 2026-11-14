@@ -32,27 +32,27 @@ La tradicional: pollo, conejo, ferraura, garrofó, tomate, azafrán y arroz. Ni 
 
 ### El sofrito
 
-1. **Nivela la paella** (5 min) - Pon la paella sobre el fuego, bien nivelada, con aceite de oliva y un poco de sal. El aceite tiene que quedar en el centro, sin irse hacia un lado.
+1. **Nivela la paella** (5 min) - Pon la paella sobre el fuego, bien nivelada, con los 100 ml de aceite de oliva y una pizca de sal. El aceite tiene que quedar en el centro, sin irse hacia un lado.
    > Una paella torcida hace un arroz con un lado pasado y otro crudo. El aceite hace de nivel de burbuja.
-2. **Dora la carne** (20 min) - Echa pollo troceado y conejo troceado salados y dóralos a fuego medio, dándoles la vuelta, hasta que estén bien tostados.
-   > Sin prisa: esta carne bien dorada es la base del sabor del caldo. Dorada, no quemada.
-3. **La verdura** (5 min) - Aparta la carne a los lados y rehoga en el centro judía verde plana (ferraura) troceada y garrofó unos minutos.
-4. **Tomate y pimentón** (6 min) - Haz un hueco en el centro, echa tomate maduro rallado y sofríe cinco minutos. Añade pimentón dulce, remueve unos segundos y echa el agua enseguida.
+2. **Dora la carne** (20 min) - Echa 600 g de pollo y 400 g de conejo troceados y salados (1 cucharadita de sal en total) y dóralos a fuego medio 15-20 minutos, dándoles la vuelta, hasta que estén bien tostados por todos lados.
+   > Sin prisa: la carne dorada suelta azúcares y jugos que se pegan al fondo y luego se disuelven en el caldo. Es la base del sabor. Dorada, no quemada: lo quemado amarga.
+3. **La verdura** (5 min) - Aparta la carne a los lados y rehoga en el centro 200 g de judía verde plana troceada (trozos de 4 cm) y 150 g de garrofó 5 minutos.
+4. **Tomate y pimentón** (6 min) - Haz un hueco en el centro, echa 1 tomate maduro rallado y sofríe 5 minutos, hasta que pierda el agua y quede oscuro. Añade 1 cucharadita de pimentón dulce, remueve 10 segundos y echa el agua enseguida.
    > El pimentón se quema en un suspiro y amarga. En cuanto lo eches, el agua detrás.
 
 ### El caldo
 
-5. **Haz el caldo en la paella** (30 min) - Vierte agua y añade unas hebras de azafrán. Deja que hierva unos 30 minutos, hasta que el agua baje a la altura de los remaches de las asas. Prueba: tiene que quedar un punto salado.
-   > Es el momento de probar la sal, porque luego ya no se puede corregir.
+5. **Haz el caldo en la paella** (30 min) - Vierte 1,6 litros de agua caliente (con agua fría se corta el hervor y se alarga todo) y añade unas 15 hebras de azafrán. Deja que hierva fuerte unos 30 minutos, hasta que el agua baje a la altura de los remaches de las asas. Prueba: tiene que quedar un punto salado.
+   > Es el momento de probar la sal, porque luego ya no se puede corregir: el arroz absorbe lo que haya. El caldo tiene que estar un punto más salado de lo que te gustaría, porque el arroz lo rebaja.
 
 ### El arroz
 
-6. **Reparte el arroz** (2 min) - Echa arroz bomba o senia en forma de lluvia, repartido por toda la paella, y extiéndelo con la espumadera de una vez. A partir de aquí, no se remueve.
-   > El arroz de una paella nunca se remueve: si lo mueves suelta almidón y queda pastoso.
-7. **Fuerte y luego suave** (18 min) - Diez minutos a fuego fuerte y unos ocho más a fuego suave, hasta que el grano esté hecho y el caldo, consumido. Pon ramita de romero encima en los últimos minutos.
+6. **Reparte el arroz** (2 min) - Echa los 400 g de arroz bomba o senia en forma de lluvia, repartido por toda la paella, y extiéndelo con la espumadera de una vez. A partir de aquí, no se remueve.
+   > El arroz de una paella nunca se remueve: si lo mueves suelta almidón y queda pastoso, como un risotto. Quieto, cada grano se cuece suelto en el caldo.
+7. **Fuerte y luego suave** (18 min) - Diez minutos a fuego fuerte y unos ocho más a fuego suave (18 minutos en total, el grano tiene que estar al dente), hasta que el grano esté hecho y el caldo, consumido. Pon la ramita de romero encima en los últimos minutos.
    > Si el fuego no llega igual a toda la paella, gírala de vez en cuando, sin tocar el arroz.
-8. **Socarrat y reposo** (7 min) - Sube el fuego un minuto o dos y escucha: cuando el arroz crepite como papel, apaga. Retira el romero, tapa con un paño limpio y deja reposar cinco minutos.
-   > El socarrat se oye antes de olerse. Si huele a quemado, ya te has pasado.
+8. **Socarrat y reposo** (7 min) - Sube el fuego al máximo un minuto o dos y escucha: cuando el arroz crepite como papel, apaga. Retira el romero, tapa con un paño limpio y deja reposar 5 minutos.
+   > El socarrat es la capa de arroz tostado del fondo: se oye antes de olerse. Si huele a quemado, ya te has pasado.
 
 ## Secretos de la abuela
 

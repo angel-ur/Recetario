@@ -6128,7 +6128,7 @@
      {
       "t": "Nivela la paella",
       "m": 5,
-      "x": "Pon la paella sobre el fuego, bien nivelada, con {aceite} y un poco de sal. El aceite tiene que quedar en el centro, sin irse hacia un lado.",
+      "x": "Pon la paella sobre el fuego, bien nivelada, con los 100 ml de aceite de oliva y una pizca de sal. El aceite tiene que quedar en el centro, sin irse hacia un lado.",
       "f": 3,
       "e": {
        "k": "fuego",
@@ -6142,7 +6142,7 @@
      {
       "t": "Dora la carne",
       "m": 20,
-      "x": "Echa {pollo} y {conejo} salados y dóralos a fuego medio, dándoles la vuelta, hasta que estén bien tostados.",
+      "x": "Echa 600 g de pollo y 400 g de conejo troceados y salados (1 cucharadita de sal en total) y dóralos a fuego medio 15-20 minutos, dándoles la vuelta, hasta que estén bien tostados por todos lados.",
       "tim": 20,
       "f": 3,
       "e": {
@@ -6160,12 +6160,12 @@
        ],
        "chisp": 1
       },
-      "ab": "Sin prisa: esta carne bien dorada es la base del sabor del caldo. Dorada, no quemada."
+      "ab": "Sin prisa: la carne dorada suelta azúcares y jugos que se pegan al fondo y luego se disuelven en el caldo. Es la base del sabor. Dorada, no quemada: lo quemado amarga."
      },
      {
       "t": "La verdura",
       "m": 5,
-      "x": "Aparta la carne a los lados y rehoga en el centro {judia} troceada y {garrofo} unos minutos.",
+      "x": "Aparta la carne a los lados y rehoga en el centro 200 g de judía verde plana troceada (trozos de 4 cm) y 150 g de garrofó 5 minutos.",
       "tim": 5,
       "f": 3,
       "e": {
@@ -6194,7 +6194,7 @@
      {
       "t": "Tomate y pimentón",
       "m": 6,
-      "x": "Haz un hueco en el centro, echa {tomate} rallado y sofríe cinco minutos. Añade {pimenton}, remueve unos segundos y echa el agua enseguida.",
+      "x": "Haz un hueco en el centro, echa 1 tomate maduro rallado y sofríe 5 minutos, hasta que pierda el agua y quede oscuro. Añade 1 cucharadita de pimentón dulce, remueve 10 segundos y echa el agua enseguida.",
       "tim": 5,
       "f": 3,
       "e": {
@@ -6231,7 +6231,7 @@
      {
       "t": "Haz el caldo en la paella",
       "m": 30,
-      "x": "Vierte {agua} y añade {azafran}. Deja que hierva unos 30 minutos, hasta que el agua baje a la altura de los remaches de las asas. Prueba: tiene que quedar un punto salado.",
+      "x": "Vierte 1,6 litros de agua caliente (con agua fría se corta el hervor y se alarga todo) y añade unas 15 hebras de azafrán. Deja que hierva fuerte unos 30 minutos, hasta que el agua baje a la altura de los remaches de las asas. Prueba: tiene que quedar un punto salado.",
       "tim": 30,
       "f": 4,
       "w": 1,
@@ -6259,7 +6259,7 @@
        "burbujas": 1,
        "vierte": "agua"
       },
-      "ab": "Es el momento de probar la sal, porque luego ya no se puede corregir."
+      "ab": "Es el momento de probar la sal, porque luego ya no se puede corregir: el arroz absorbe lo que haya. El caldo tiene que estar un punto más salado de lo que te gustaría, porque el arroz lo rebaja."
      }
     ]
    },
@@ -6270,7 +6270,7 @@
      {
       "t": "Reparte el arroz",
       "m": 2,
-      "x": "Echa {arroz} en forma de lluvia, repartido por toda la paella, y extiéndelo con la espumadera de una vez. A partir de aquí, no se remueve.",
+      "x": "Echa los 400 g de arroz bomba o senia en forma de lluvia, repartido por toda la paella, y extiéndelo con la espumadera de una vez. A partir de aquí, no se remueve.",
       "f": 5,
       "e": {
        "k": "fuego",
@@ -6298,12 +6298,12 @@
         ]
        ]
       },
-      "ab": "El arroz de una paella nunca se remueve: si lo mueves suelta almidón y queda pastoso."
+      "ab": "El arroz de una paella nunca se remueve: si lo mueves suelta almidón y queda pastoso, como un risotto. Quieto, cada grano se cuece suelto en el caldo."
      },
      {
       "t": "Fuerte y luego suave",
       "m": 18,
-      "x": "Diez minutos a fuego fuerte y unos ocho más a fuego suave, hasta que el grano esté hecho y el caldo, consumido. Pon {romero} encima en los últimos minutos.",
+      "x": "Diez minutos a fuego fuerte y unos ocho más a fuego suave (18 minutos en total, el grano tiene que estar al dente), hasta que el grano esté hecho y el caldo, consumido. Pon la ramita de romero encima en los últimos minutos.",
       "tim": 18,
       "f": 4,
       "w": 1,
@@ -6342,7 +6342,7 @@
      {
       "t": "Socarrat y reposo",
       "m": 7,
-      "x": "Sube el fuego un minuto o dos y escucha: cuando el arroz crepite como papel, apaga. Retira el romero, tapa con un paño limpio y deja reposar cinco minutos.",
+      "x": "Sube el fuego al máximo un minuto o dos y escucha: cuando el arroz crepite como papel, apaga. Retira el romero, tapa con un paño limpio y deja reposar 5 minutos.",
       "tim": 5,
       "f": 5,
       "e": {
@@ -6375,7 +6375,7 @@
        ],
        "cuchara": 1
       },
-      "ab": "El socarrat se oye antes de olerse. Si huele a quemado, ya te has pasado."
+      "ab": "El socarrat es la capa de arroz tostado del fondo: se oye antes de olerse. Si huele a quemado, ya te has pasado."
      }
     ]
    }
