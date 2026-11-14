@@ -578,3 +578,16 @@ a, button, label, summary, [data-reg], [data-ir], .reg, .reg-hit, .chapa-hit {
 @media (hover: hover) and (pointer: fine) { .menu button:hover, .menu-btn:hover { background: var(--lienzo); } }
 #sec-pasaporte[hidden] { display: none; }
 #sec-mapa, #sec-fichas, #sec-pasaporte, #t-compra { scroll-margin-top: 70px; }
+
+/* ---- filtros simples y volver arriba ---- */
+.chips-fila.cats { flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; padding-bottom: 4px; margin: 0 -4px; padding-left: 4px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+.chips-fila.cats::-webkit-scrollbar { display: none; }
+.chips-fila.cats .filtro { flex: 0 0 auto; }
+.filtros-mas { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; align-items: center; }
+.quita { font: inherit; font-weight: 700; font-size: 14.5px; color: var(--rojo); background: transparent; border: 0; text-decoration: underline; padding: 10px 8px; min-height: 44px; cursor: pointer; }
+#filtros-extra[hidden] { display: none; }
+.arriba { position: fixed; right: 14px; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 43; width: 52px; height: 52px; border-radius: 50%; border: 2px solid var(--linea); background: var(--tarjeta-bg); color: var(--azul-osc); box-shadow: var(--sombra); display: grid; place-items: center; cursor: pointer; }
+.arriba[hidden] { display: none; }
+.arriba svg { width: 22px; height: 22px; }
+body:has(#dock:not([hidden])) .arriba { bottom: calc(92px + env(safe-area-inset-bottom, 0px)); }
+body:has(#cocina:not([hidden])) .arriba, body:has(#cocina:not([hidden])) .menu-btn { display: none; }

@@ -309,9 +309,9 @@
       '<div class="panel-region" id="panel-region">' + panelRegion() + '</div></section>';
     hf += '<section aria-labelledby="t-fichas" id="sec-fichas" style="display:grid;gap:14px"><div class="seccion-cab"><h2 id="t-fichas" style="font-size:27px">Todos los platos</h2><span class="ayuda num" id="n-fichas"></span></div>' +
       '<div class="filtros"><label class="sr-only" for="buscar">Buscar un plato o ingrediente</label><input class="buscar" id="buscar" type="search" placeholder="Busca un plato o un ingrediente" value="' + esc(filtro.q) + '">' +
-      '<div class="chips-fila" role="group" aria-label="Favoritos"><button type="button" class="filtro" id="ver-favs" aria-pressed="' + filtro.fav + '">♥ Mis favoritos</button></div>' +
-      '<div class="chips-fila" role="group" aria-label="Tipo de plato">' + CATS.map(function (c) { return '<button type="button" class="filtro" data-cat="' + c[0] + '" aria-pressed="' + (filtro.cat === c[0]) + '">' + c[1] + '</button>'; }).join('') + '</div>' +
-      '<div class="chips-fila" role="group" aria-label="Tiempo">' + TIEMPOS.map(function (c) { return '<button type="button" class="filtro" data-tiempo="' + c[0] + '" aria-pressed="' + (filtro.t === c[0]) + '">' + c[1] + '</button>'; }).join('') + '</div></div>' +
+      '<div class="chips-fila cats" role="group" aria-label="Tipo de plato">' + CATS.map(function (c) { return '<button type="button" class="filtro" data-cat="' + c[0] + '" aria-pressed="' + (filtro.cat === c[0]) + '">' + c[1] + '</button>'; }).join('') + '</div>' +
+      '<div class="filtros-mas"><button type="button" class="filtro" id="mas-filtros" aria-expanded="false" aria-controls="filtros-extra">Más filtros</button><button type="button" class="filtro" id="ver-favs" aria-pressed="' + filtro.fav + '">♥ Favoritos</button><button type="button" class="quita" id="quita-filtros" hidden>Quitar filtros</button></div>' +
+      '<div class="chips-fila" id="filtros-extra" role="group" aria-label="Tiempo" hidden>' + TIEMPOS.map(function (c) { return '<button type="button" class="filtro" data-tiempo="' + c[0] + '" aria-pressed="' + (filtro.t === c[0]) + '">' + c[1] + '</button>'; }).join('') + '</div></div>' +
       '<div class="fichas" id="fichas"></div></section>';
     hf += '<p class="ayuda" style="text-align:center">Tiempos orientativos: cada fuego y cada cazuela mandan.</p>';
     var pas = '<div id="sec-pasaporte"' + (pasaporteAbierto ? '' : ' hidden') + '>' + hp + '<p class="reinicio"><button type="button" class="reiniciar" data-menu="cierra-pas">Cerrar el pasaporte</button></p></div>';
@@ -388,13 +388,16 @@
   }
   function pintaFichas() {
     var lista = R.filter(pasaFiltro);
+    var activos = (filtro.cat !== 'todas') + (filtro.t !== 'todos') + !!filtro.q + !!filtro.fav;
+    var qb = $('#quita-filtros'); if (qb) qb.hidden = !activos;
+    var mb = $('#mas-filtros'); if (mb) mb.textContent = filtro.t !== 'todos' ? 'Más filtros (1)' : 'Más filtros';
     $('#n-fichas').textContent = lista.length + (lista.length === 1 ? ' plato' : ' platos');
     $('#fichas').innerHTML = lista.length ? lista.map(function (r) {
       var c = resumenFicha(r);
       return '<a class="ficha" href="#' + r.id + '"><div class="ilu">' + ESC.svg(r.heroe, r.n) + (cocinados[r.id] ? '<span class="sello">Hecho</span>' : '') + (favs[r.id] ? '<span class="corazon" aria-label="Favorito">♥</span>' : '') + '</div>' +
         '<div class="cuerpo"><p class="lugar">' + esc(r.lugar) + '</p><h3>' + esc(r.n) + '</h3><p class="sub">' + esc(r.sub) + '</p>' + tbarra(c) +
         '<p class="meta"><span class="num">' + durTxt(c.tot) + '</span><span class="num">' + durTxt(c.tot - c.esp) + ' de trabajo</span>' + (c.pre ? '<span>Empieza la víspera</span>' : '') + '<span>' + dif(r.dif) + '</span></p></div></a>';
-    }).join('') : '<p class="vacio">Ningún plato con esos filtros. Prueba con otro tiempo o tipo.</p>';
+    }).join('') : '<p class="vacio">' + (filtro.fav && !Object.keys(favs).length ? 'Todavía no has guardado ningún favorito. Abre un plato y toca «♡ Guardar».' : 'Ningún plato con esos filtros. Toca «Quitar filtros» para verlos todos.') + '</p>';
   }
 
   /* ---------- Vista de receta ---------- */
@@ -714,7 +717,7 @@
   /* ---------- Eventos ---------- */
   document.addEventListener('click', function (ev) {
     if (!$('#menu').hidden && !ev.target.closest('#menu,#menu-btn')) menuAbre(false);
-    var t = ev.target.closest('[data-ir],[data-menu],[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-vaciar],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
+    var t = ev.target.closest('[data-ir],[data-menu],#mas-filtros,#quita-filtros,[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-vaciar],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
     if (!t) return;
     if (t.hasAttribute('data-ir')) { ir(t.getAttribute('data-ir')); return; }
     if (t.hasAttribute('data-menu')) { var ma = t.getAttribute('data-menu'); if (ma === 'abre') { menuAbre($('#menu').hidden); return; } menuAccion(ma); return; }
@@ -730,6 +733,8 @@
     if (t.hasAttribute('data-hecho')) { var p = t.getAttribute('data-hecho').split(':'); marcaHecho(porId[p[0]], +p[1]); if (cocina) pintaCocina(); else pintaHechos(); return; }
     if (t.hasAttribute('data-fav')) { if (favs[actual.id]) delete favs[actual.id]; else favs[actual.id] = Date.now(); store.set('favs', favs); t.setAttribute('aria-pressed', !!favs[actual.id]); t.textContent = favs[actual.id] ? '♥ En favoritos' : '♡ Guardar'; return; }
     if (t.id === 'ver-favs') { filtro.fav = !filtro.fav; t.setAttribute('aria-pressed', filtro.fav ? 'true' : 'false'); pintaFichas(); return; }
+    if (t.id === 'mas-filtros') { var ex = $('#filtros-extra'); ex.hidden = !ex.hidden; t.setAttribute('aria-expanded', ex.hidden ? 'false' : 'true'); return; }
+    if (t.id === 'quita-filtros') { filtro.cat = 'todas'; filtro.t = 'todos'; filtro.q = ''; filtro.fav = false; var bq = $('#buscar'); if (bq) bq.value = ''; $$('[data-cat]').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-cat') === 'todas' ? 'true' : 'false'); }); $$('[data-tiempo]').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-tiempo') === 'todos' ? 'true' : 'false'); }); $('#ver-favs').setAttribute('aria-pressed', 'false'); pintaFichas(); return; }
     if (t.hasAttribute('data-comprar')) {
       var rc = actual, ec = est(rc);
       compra = compra.filter(function (c) { return c.r !== rc.id; });
@@ -777,6 +782,8 @@
     if (t.id === 'pantalla') { desbloquea(); quiereBloqueo = t.checked; if (t.checked) pidePantalla(false); else { if (bloqueo) { try { bloqueo.release(); } catch (e5) {} } bloqueo = null; $('#pantalla-estado').textContent = 'Los temporizadores suenan con la página abierta y la pantalla encendida.'; } return; }
     if (t.type === 'checkbox' && t.closest('.ing-lista') && r) { var e6 = est(r); e6.tengo = $$('.ing-lista input:checked').map(function (x) { return x.value; }); guarda(r, e6); }
   });
+  window.addEventListener('scroll', function () { var a = $('#arriba'); if (a) a.hidden = window.scrollY < 700; }, { passive: true });
+  document.addEventListener('click', function (ev) { if (ev.target.closest('#arriba')) window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' }); });
   document.addEventListener('input', function (ev) {
     if (ev.target.id === 'buscar') { filtro.q = ev.target.value.trim(); pintaFichas(); }
   });
