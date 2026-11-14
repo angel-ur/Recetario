@@ -393,7 +393,7 @@
      {
       "t": "Perfuma la leche",
       "m": 15,
-      "x": "Calienta {leche} con {piel} y {canela} hasta que esté a punto de hervir. Apaga y deja que repose diez minutos para que coja aroma.",
+      "x": "Calienta 1,25 litros de leche entera con la piel de 1 limón (sin lo blanco, en tiras) y 1 rama de canela hasta que esté a punto de hervir (unos 5 minutos). Apaga, tapa y deja que repose 10 minutos para que coja aroma.",
       "tim": 10,
       "f": 2,
       "e": {
@@ -412,7 +412,7 @@
         ]
        ]
       },
-      "ab": "La piel del limón, sin nada de la parte blanca, que amarga."
+      "ab": "La piel del limón, sin nada de la parte blanca, que amarga. Con la leche caliente la canela y el limón sueltan su aroma sin que la leche se pase."
      }
     ]
    },
@@ -423,7 +423,7 @@
      {
       "t": "Añade el arroz",
       "m": 5,
-      "x": "Vuelve a encender a fuego suave y echa {arroz} en forma de lluvia, sin lavar.",
+      "x": "Vuelve a encender a fuego suave y echa 125 g de arroz redondo en forma de lluvia, sin lavar.",
       "f": 2,
       "e": {
        "k": "fuego",
@@ -453,7 +453,7 @@
      {
       "t": "Cuece con paciencia",
       "m": 45,
-      "x": "Cuece a fuego suave unos 45 minutos, removiendo a menudo con una cuchara de madera para que no se pegue, hasta que el arroz esté muy tierno.",
+      "x": "Cuece a fuego muy suave 40-45 minutos (apenas un temblor en la superficie), removiendo a menudo con una cuchara de madera para que no se pegue, hasta que el arroz esté muy tierno.",
       "tim": 45,
       "f": 2,
       "e": {
@@ -474,7 +474,7 @@
      {
       "t": "El azúcar, al final",
       "m": 10,
-      "x": "Añade {azucar} y {mantequilla}, y cuece diez minutos más removiendo sin parar. Retira la piel de limón y la canela.",
+      "x": "Añade 125 g de azúcar y 20 g de mantequilla (opcional), y cuece 10 minutos más removiendo sin parar. Retira la piel de limón y la canela.",
       "tim": 10,
       "f": 2,
       "e": {
@@ -496,7 +496,7 @@
        ],
        "cuchara": 1
       },
-      "ab": "Si echas el azúcar al principio, el grano se endurece y no termina de hacerse."
+      "ab": "Si echas el azúcar al principio, el grano se endurece y no termina de hacerse: el azúcar roba agua al arroz y lo frena."
      }
     ]
    },
@@ -507,7 +507,7 @@
      {
       "t": "Deja que enfríe",
       "m": 120,
-      "x": "Reparte en cuencos y deja que se enfríe. Espesa bastante al enfriar.",
+      "x": "Reparte en cuencos y deja que se enfríe al menos 2 horas. Espesa bastante al enfriar (el arroz sigue absorbiendo leche).",
       "f": "n",
       "w": 1,
       "e": {
@@ -522,7 +522,7 @@
      {
       "t": "Canela o requemado",
       "m": 5,
-      "x": "Antes de servir, espolvorea {canelam}. O, al estilo asturiano, cubre con {azucarq} y quémalo con un hierro al rojo o un soplete.",
+      "x": "Antes de servir, espolvorea canela molida. O, al estilo asturiano, cubre cada cuenco con 1 cucharada de azúcar y quémalo con un hierro al rojo o un soplete.",
       "f": 0,
       "e": {
        "k": "plato",
@@ -6547,7 +6547,7 @@
      {
       "t": "Cuece con mucha sal",
       "m": 25,
-      "x": "Lava bien {papa} sin pelar y ponlas en una olla con agua que apenas las cubra y {salg}. Cuécelas unos 20 o 25 minutos, hasta que se pinchen con facilidad.",
+      "x": "Lava bien 1 kg de papas pequeñas (mejor papa negra o bonita) sin pelar y ponlas en una olla con agua que apenas las cubra (1 litro) y 150 g de sal gorda. Cuécelas 20-25 minutos, hasta que se pinchen con facilidad.",
       "tim": 25,
       "f": 3,
       "e": {
@@ -6563,7 +6563,7 @@
        ],
        "burbujas": 1
       },
-      "ab": "Poca agua y mucha sal, «como agua de mar». Por eso luego se cubren de sal blanca."
+      "ab": "Poca agua y mucha sal, «como agua de mar» (unos 150 g por litro): la sal sube la temperatura de ebullición y forma la costra blanca. Por eso luego se cubren de sal blanca."
      },
      {
       "t": "Arrúgalas",
@@ -6595,7 +6595,7 @@
      {
       "t": "Mojo picón",
       "m": 10,
-      "x": "En el mortero, maja {ajo} con {guindilla} sin semillas, {comino} y una pizca de sal gorda. Añade {pimenton} y ve incorporando {aceite} y {vinagre} poco a poco.",
+      "x": "En el mortero, maja 4 dientes de ajo con 2 pimientas palmeras o guindillas secas sin semillas, 1 cucharadita de comino en grano y una pizca de sal gorda. Añade 1 cucharadita de pimentón dulce y ve incorporando 100 ml de aceite de oliva y 2 cucharadas de vinagre de vino poco a poco.",
       "f": 0,
       "e": {
        "k": "mortero",
@@ -6623,7 +6623,7 @@
      {
       "t": "Mojo verde",
       "m": 10,
-      "x": "Maja dientes de ajo con sal, añade manojo de cilantro y pimiento verde picados y machácalos bien. Liga con aceite de oliva y vinagre de vino.",
+      "x": "Maja 2 dientes de ajo con una pizca de sal, añade 1 manojo de cilantro y 1 pimiento verde picados y machácalos bien. Liga con 80 ml de aceite de oliva y 1 cucharada de vinagre de vino.",
       "f": 0,
       "e": {
        "k": "mortero",
@@ -7002,7 +7002,7 @@
      {
       "t": "Pica la verdura",
       "m": 15,
-      "x": "Pica cebollas, pimientos verdes, pimiento rojo y calabacines en daditos del mismo tamaño.",
+      "x": "Pica 2 cebollas, 2 pimientos verdes, 1 pimiento rojo y 2 calabacines en daditos de 1 cm, todos del mismo tamaño.",
       "f": 0,
       "e": {
        "k": "tabla",
@@ -7032,7 +7032,7 @@
      {
       "t": "Pela el tomate",
       "m": 10,
-      "x": "Haz un corte en cruz en la base de {tomate}, escáldalos treinta segundos en agua hirviendo, pélalos y trocéalos.",
+      "x": "Haz un corte en cruz en la base de 1 kg de tomates maduros, escáldalos 30 segundos en agua hirviendo, pásalos a agua fría, pélalos y trocéalos.",
       "f": 4,
       "e": {
        "k": "fuego",
@@ -7058,7 +7058,7 @@
      {
       "t": "Cebolla y pimientos",
       "m": 25,
-      "x": "Pocha la cebolla en {aceite} a fuego suave diez minutos. Añade los pimientos y deja otros quince, hasta que estén blandos.",
+      "x": "Pocha la cebolla en 6 cucharadas de aceite de oliva virgen extra a fuego suave 10 minutos. Añade los pimientos y deja otros 15, hasta que estén blandos.",
       "tim": 25,
       "f": 2,
       "e": {
@@ -7091,7 +7091,7 @@
      {
       "t": "El calabacín",
       "m": 15,
-      "x": "Añade el calabacín con una pizca de sal y cocina quince minutos más.",
+      "x": "Añade el calabacín con una pizca de sal y cocina 15 minutos más.",
       "tim": 15,
       "f": 2,
       "e": {
@@ -7130,7 +7130,7 @@
      {
       "t": "El tomate, despacio",
       "m": 40,
-      "x": "Incorpora el tomate y deja que se haga a fuego mínimo unos 40 minutos, removiendo de vez en cuando, hasta que no quede caldo. Prueba y, si está ácido, añade {azucar}.",
+      "x": "Incorpora el tomate y deja que se haga a fuego mínimo unos 40 minutos, removiendo de vez en cuando, hasta que no quede caldo. Prueba y, si está ácido, añade una pizca de azúcar (media cucharadita) y 1 cucharadita rasa de sal.",
       "tim": 40,
       "f": 1,
       "w": 1,
@@ -7162,7 +7162,7 @@
      {
       "t": "Con huevo frito",
       "m": 5,
-      "x": "Fríe {huevo} y sírvelos encima del pisto, con la yema para romper.",
+      "x": "Fríe 4 huevos y sírvelos encima del pisto, con la yema para romper.",
       "tim": 3,
       "f": 4,
       "e": {
@@ -10754,7 +10754,7 @@
      {
       "t": "Corta muy fino",
       "m": 15,
-      "x": "Corta {calabacin} en láminas finas o medias lunas y {cebolla} en juliana fina.",
+      "x": "Corta 1 kg de calabacines en láminas finas o medias lunas de 3 mm y 2 cebollas en juliana fina.",
       "f": 0,
       "e": {
        "k": "tabla",
@@ -10774,7 +10774,7 @@
      {
       "t": "La cebolla, a fuego suave",
       "m": 15,
-      "x": "Pocha la cebolla en {aceite} a fuego suave, sin que coja color.",
+      "x": "Pocha la cebolla en 5 cucharadas de aceite de oliva a fuego suave 12-15 minutos, sin que coja color. La cebolla sale dulce si no se dora.",
       "tim": 15,
       "f": 2,
       "e": {
@@ -10796,7 +10796,7 @@
      {
       "t": "Calabacín, despacio",
       "m": 35,
-      "x": "Añade el calabacín con sal, tapa y deja que se haga a fuego mínimo unos 35 minutos, removiendo de vez en cuando, hasta que esté muy tierno y haya soltado el agua.",
+      "x": "Añade el calabacín con 1 cucharadita rasa de sal, tapa y deja que se haga a fuego mínimo unos 35 minutos, removiendo de vez en cuando, hasta que esté muy tierno y haya soltado el agua.",
       "tim": 35,
       "f": 1,
       "w": 1,
@@ -10829,7 +10829,7 @@
      {
       "t": "Cuaja el huevo",
       "m": 3,
-      "x": "Bate ligeramente {huevo}, échalos sobre la verdura y remueve con suavidad hasta que empiecen a cuajar. Apaga enseguida.",
+      "x": "Bate ligeramente 4 huevos, échalos sobre la verdura y remueve con suavidad hasta que empiecen a cuajar. Apaga enseguida.",
       "tim": 3,
       "f": 2,
       "e": {

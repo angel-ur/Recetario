@@ -15,13 +15,13 @@ La ensalada de invierno de Vilanova, Sitges y Vilafranca: escarola, bacalao, at�
 
 ## Ingredientes
 
-- a   de L
+- #La ensalada
 - 1 escarola
 - 200 g de bacalao desalado
 - 120 g de atún en aceite
 - 8 anchoas
 - 100 g de olivas arbequinas
-- a   de L
+- #La salsa
 - 4 ñoras
 - 40 g de almendras tostadas
 - 20 g de avellanas tostadas

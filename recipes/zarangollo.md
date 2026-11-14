@@ -26,15 +26,15 @@ De la huerta murciana: calabacín y cebolla pochados muy despacio, casi confitad
 
 ### Pochar
 
-1. **Corta muy fino** (15 min) - Corta calabacines en láminas finas o medias lunas y cebollas en juliana fina.
+1. **Corta muy fino** (15 min) - Corta 1 kg de calabacines en láminas finas o medias lunas de 3 mm y 2 cebollas en juliana fina.
    > Muy fino, para que se haga casi una crema. En algunas casas añaden patata (opcional) en láminas.
-2. **La cebolla, a fuego suave** (15 min) - Pocha la cebolla en aceite de oliva a fuego suave, sin que coja color.
-3. **Calabacín, despacio** (35 min) - Añade el calabacín con sal, tapa y deja que se haga a fuego mínimo unos 35 minutos, removiendo de vez en cuando, hasta que esté muy tierno y haya soltado el agua.
+2. **La cebolla, a fuego suave** (15 min) - Pocha la cebolla en 5 cucharadas de aceite de oliva a fuego suave 12-15 minutos, sin que coja color. La cebolla sale dulce si no se dora.
+3. **Calabacín, despacio** (35 min) - Añade el calabacín con 1 cucharadita rasa de sal, tapa y deja que se haga a fuego mínimo unos 35 minutos, removiendo de vez en cuando, hasta que esté muy tierno y haya soltado el agua.
    > Tapado al principio para que sude y destapado al final para que se vaya el agua. Sin prisa, que no se dore.
 
 ### El huevo
 
-4. **Cuaja el huevo** (3 min) - Bate ligeramente huevos, échalos sobre la verdura y remueve con suavidad hasta que empiecen a cuajar. Apaga enseguida.
+4. **Cuaja el huevo** (3 min) - Bate ligeramente 4 huevos, échalos sobre la verdura y remueve con suavidad hasta que empiecen a cuajar. Apaga enseguida.
    > Tiene que quedar jugoso, como un revuelto poco hecho: termina de cuajar con el calor.
 5. **Sirve** (2 min) - Sírvelo templado, con pan.
    > En Murcia se toma de tapa en las barras o como cena ligera.

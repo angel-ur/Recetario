@@ -29,23 +29,23 @@ Fuego lento, cuchara de madera y paciencia. El azúcar al final y, si te atreves
 
 ### Aromatizar
 
-1. **Perfuma la leche** (15 min) - Calienta leche entera con piel de limón (sin lo blanco) y rama de canela hasta que esté a punto de hervir. Apaga y deja que repose diez minutos para que coja aroma.
-   > La piel del limón, sin nada de la parte blanca, que amarga.
+1. **Perfuma la leche** (15 min) - Calienta 1,25 litros de leche entera con la piel de 1 limón (sin lo blanco, en tiras) y 1 rama de canela hasta que esté a punto de hervir (unos 5 minutos). Apaga, tapa y deja que repose 10 minutos para que coja aroma.
+   > La piel del limón, sin nada de la parte blanca, que amarga. Con la leche caliente la canela y el limón sueltan su aroma sin que la leche se pase.
 
 ### Cocer despacio
 
-2. **Añade el arroz** (5 min) - Vuelve a encender a fuego suave y echa arroz redondo en forma de lluvia, sin lavar.
+2. **Añade el arroz** (5 min) - Vuelve a encender a fuego suave y echa 125 g de arroz redondo en forma de lluvia, sin lavar.
    > El arroz no se lava: su almidón es lo que hace el arroz con leche cremoso.
-3. **Cuece con paciencia** (45 min) - Cuece a fuego suave unos 45 minutos, removiendo a menudo con una cuchara de madera para que no se pegue, hasta que el arroz esté muy tierno.
+3. **Cuece con paciencia** (45 min) - Cuece a fuego muy suave 40-45 minutos (apenas un temblor en la superficie), removiendo a menudo con una cuchara de madera para que no se pegue, hasta que el arroz esté muy tierno.
    > Cuanto más lento, más cremoso. Si se pega al fondo, cambia de olla sin rascar: el sabor a quemado no se va.
-4. **El azúcar, al final** (10 min) - Añade azúcar y mantequilla (opcional), y cuece diez minutos más removiendo sin parar. Retira la piel de limón y la canela.
-   > Si echas el azúcar al principio, el grano se endurece y no termina de hacerse.
+4. **El azúcar, al final** (10 min) - Añade 125 g de azúcar y 20 g de mantequilla (opcional), y cuece 10 minutos más removiendo sin parar. Retira la piel de limón y la canela.
+   > Si echas el azúcar al principio, el grano se endurece y no termina de hacerse: el azúcar roba agua al arroz y lo frena.
 
 ### Reposo
 
-5. **Deja que enfríe** (120 min) - Reparte en cuencos y deja que se enfríe. Espesa bastante al enfriar.
+5. **Deja que enfríe** (120 min) - Reparte en cuencos y deja que se enfríe al menos 2 horas. Espesa bastante al enfriar (el arroz sigue absorbiendo leche).
    > Si lo quieres más suelto, apártalo del fuego un poco antes de lo que crees.
-6. **Canela o requemado** (5 min) - Antes de servir, espolvorea canela molida. O, al estilo asturiano, cubre con azúcar y quémalo con un hierro al rojo o un soplete.
+6. **Canela o requemado** (5 min) - Antes de servir, espolvorea canela molida. O, al estilo asturiano, cubre cada cuenco con 1 cucharada de azúcar y quémalo con un hierro al rojo o un soplete.
    > En Asturias el requemado es casi obligatorio: una costra fina de caramelo que cruje con la cuchara.
 
 ## Secretos de la abuela

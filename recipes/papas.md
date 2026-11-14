@@ -17,14 +17,14 @@ Papas pequeñas cocidas en agua muy salada hasta que la piel se arruga y blanque
 
 - 1 kg de papas pequeñas (mejor papa negra o bonita)
 - 150 g de sal gorda
-- o j de M
+- #Mojo picón
 - 4 dientes de ajo
 - 2 pimientas palmeras o guindillas secas
 - 1 cdta de comino en grano
 - 1 cdta de pimentón dulce
 - 100 ml de aceite de oliva
 - 2 cda de vinagre de vino
-- o j de M
+- #Mojo verde
 - 1 manojo de cilantro
 - 1 pimiento verde
 - 2 dientes de ajo
@@ -35,16 +35,16 @@ Papas pequeñas cocidas en agua muy salada hasta que la piel se arruga y blanque
 
 ### Las papas
 
-1. **Cuece con mucha sal** (25 min) - Lava bien papas pequeñas (mejor papa negra o bonita) sin pelar y ponlas en una olla con agua que apenas las cubra y sal gorda. Cuécelas unos 20 o 25 minutos, hasta que se pinchen con facilidad.
-   > Poca agua y mucha sal, «como agua de mar». Por eso luego se cubren de sal blanca.
+1. **Cuece con mucha sal** (25 min) - Lava bien 1 kg de papas pequeñas (mejor papa negra o bonita) sin pelar y ponlas en una olla con agua que apenas las cubra (1 litro) y 150 g de sal gorda. Cuécelas 20-25 minutos, hasta que se pinchen con facilidad.
+   > Poca agua y mucha sal, «como agua de mar» (unos 150 g por litro): la sal sube la temperatura de ebullición y forma la costra blanca. Por eso luego se cubren de sal blanca.
 2. **Arrúgalas** (8 min) - Escurre casi toda el agua y vuelve a poner la olla a fuego mínimo, meneándola, hasta que el agua se evapore y la piel se arrugue y se cubra de sal.
    > En muchas casas tapan la olla con un paño limpio en este punto, para que suden y se arruguen mejor.
 
 ### Los mojos
 
-3. **Mojo picón** (10 min) - En el mortero, maja dientes de ajo con pimientas palmeras o guindillas secas sin semillas, comino en grano y una pizca de sal gorda. Añade pimentón dulce y ve incorporando aceite de oliva y vinagre de vino poco a poco.
+3. **Mojo picón** (10 min) - En el mortero, maja 4 dientes de ajo con 2 pimientas palmeras o guindillas secas sin semillas, 1 cucharadita de comino en grano y una pizca de sal gorda. Añade 1 cucharadita de pimentón dulce y ve incorporando 100 ml de aceite de oliva y 2 cucharadas de vinagre de vino poco a poco.
    > En el mortero, no en batidora: la textura rústica es la gracia. El aceite, en hilo, para que ligue.
-4. **Mojo verde** (10 min) - Maja dientes de ajo con sal, añade manojo de cilantro y pimiento verde picados y machácalos bien. Liga con aceite de oliva y vinagre de vino.
+4. **Mojo verde** (10 min) - Maja 2 dientes de ajo con una pizca de sal, añade 1 manojo de cilantro y 1 pimiento verde picados y machácalos bien. Liga con 80 ml de aceite de oliva y 1 cucharada de vinagre de vino.
    > Hay casas de mojo verde con cilantro y casas con perejil. Las dos son de verdad.
 5. **Sirve** (2 min) - Sirve las papas enteras, con su piel, y los mojos en cuencos para mojar.
    > Se comen con piel. La sal se queda en ella y no pasa al interior.
