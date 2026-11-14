@@ -206,15 +206,43 @@
     ['G', 'Goloso', function (c) { return c.cat.postre >= 2; }, 'cocina dos postres'],
     ['M', 'De mar', function (c) { return c.cat.mar >= 2; }, 'cocina dos platos de mar'],
     ['I', 'Ca la iaia', function (c) { return !!cocinados.cremacatalana && !!cocinados.xato; }, 'crema catalana y xató, los dos'],
+    ['R', 'Al reto', function (c) { return c.retos >= 1; }, 'completa el reto de una semana'],
     ['9', 'Media España', function (c) { return c.regs >= 9; }, 'sella nueve comunidades'],
     ['17', 'Vuelta a España', function (c) { return c.regs >= 17; }, 'sella las diecisiete']
   ];
   function cuentas() {
     var ids = Object.keys(cocinados).filter(function (id) { return porId[id]; }), cat = {}, regs = {};
     ids.forEach(function (id) { var r = porId[id]; cat[r.cat] = (cat[r.cat] || 0) + 1; r.regs.forEach(function (g) { if (ESPREG[g]) regs[g] = 1; }); });
-    return { ids: ids, n: ids.length, cat: cat, regs: Object.keys(regs).length };
+    return { ids: ids, n: ids.length, cat: cat, regs: Object.keys(regs).length, retos: retosConseguidos() };
   }
   function recetasDe(g) { return R.filter(function (r) { return r.regs.indexOf(g) > -1; }); }
+
+  /* ---------- Reto de la semana y racha (local, la semana empieza en lunes) ---------- */
+  function lunesDe(t) { var d = new Date(t); d.setHours(0, 0, 0, 0); d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); return d.getTime(); }
+  var RETO_N = 2;
+  function retoPool() { return MAPA.regiones.filter(function (g) { return recetasDe(g.id).length >= RETO_N; }); }
+  function retoDe(lun) { var pool = retoPool(); return pool[Math.floor(lun / 604800000) % pool.length]; }
+  function retoInfo() {
+    var lun = lunesDe(Date.now()), g = retoDe(lun), hechos = 0;
+    Object.keys(cocinados).forEach(function (id) { var r = porId[id]; if (r && r.regs.indexOf(g.id) > -1 && lunesDe(cocinados[id]) === lun) hechos++; });
+    return { g: g, hechos: Math.min(hechos, RETO_N), meta: RETO_N, ok: hechos >= RETO_N };
+  }
+  function retosConseguidos() {
+    var sems = {};
+    Object.keys(cocinados).forEach(function (id) { var r = porId[id]; if (!r) return; var lun = lunesDe(cocinados[id]); sems[lun] = sems[lun] || {}; r.regs.forEach(function (g) { sems[lun][g] = (sems[lun][g] || 0) + 1; }); });
+    var n = 0;
+    Object.keys(sems).forEach(function (lun) { var g = retoDe(+lun); if ((sems[lun][g.id] || 0) >= RETO_N) n++; });
+    return n;
+  }
+  function rachaSemanas() {
+    var sems = {};
+    Object.keys(cocinados).forEach(function (id) { if (porId[id]) sems[lunesDe(cocinados[id])] = 1; });
+    var lun = lunesDe(Date.now());
+    if (!sems[lun]) lun -= 604800000; /* sin presion: la semana en curso aun esta por cocinar */
+    var n = 0;
+    while (sems[lun]) { n++; lun -= 604800000; }
+    return n;
+  }
 
 
   /* ---------- Donde comprar: opcion facil y opcion mejor, por tipo de ingrediente ---------- */
@@ -977,6 +1005,13 @@
     var pool = R.filter(function (r) { return !cocinados[r.id]; }); if (!pool.length) pool = R;
     var dia = pool[dnum % pool.length];
     h += '<section class="tarjeta" aria-label="Plato del día"><p class="eti">Plato del día</p><ul class="filas">' + fila(dia) + '</ul></section>';
+    var reto = retoInfo(), racha = rachaSemanas(), nretos = retosConseguidos();
+    var sugerida = recetasDe(reto.g.id).filter(function (r) { return !cocinados[r.id]; })[0] || recetasDe(reto.g.id)[0];
+    h += '<section class="tarjeta" aria-labelledby="t-reto"><div class="seccion-cab"><h2 id="t-reto">El reto de la semana</h2><span class="ayuda">' + (nretos ? nretos + (nretos === 1 ? ' reto conseguido' : ' retos conseguidos') : 'cambia cada lunes') + '</span></div>' +
+      '<p>Cocina de <b>' + esc(reto.g.n) + '</b>: ' + reto.meta + ' platos antes del lunes.</p>' +
+      '<div class="barras"><div class="barra-fila"><span>Progreso</span><span class="barra"><i style="width:' + (reto.hechos / reto.meta * 100).toFixed(1) + '%"></i></span><span class="num">' + reto.hechos + '/' + reto.meta + '</span></div></div>' +
+      (reto.ok ? '<p class="siguiente">Reto conseguido. La abuela aplaude.</p>' : (sugerida ? '<ul class="filas">' + fila(sugerida) + '</ul>' : '')) +
+      (racha >= 2 ? '<p class="ayuda">Llevas ' + racha + ' semanas seguidas cocinando.</p>' : '') + '</section>';
     hp += '<section class="tarjeta" aria-labelledby="t-pas"><div class="seccion-cab"><h2 id="t-pas">Tu pasaporte</h2><span class="ayuda">Cocina un plato y sella su región</span></div>' +
       '<div class="barras"><div class="barra-fila"><span>Platos</span><span class="barra"><i style="width:' + (c.n / R.length * 100).toFixed(1) + '%"></i></span><span class="num">' + c.n + '/' + R.length + '</span></div>' +
       '<div class="barra-fila"><span>Regiones</span><span class="barra"><i style="width:' + (c.regs / 17 * 100).toFixed(1) + '%"></i></span><span class="num">' + c.regs + '/17</span></div></div>' +
