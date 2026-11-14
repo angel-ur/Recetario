@@ -1271,7 +1271,7 @@
 
   /* ---------- Temporizadores ---------- */
   var T = store.get('timers', {}) || {};
-  Object.keys(T).forEach(function (k) { var t = T[k]; if (!t || !/^(marcha|pausa|listo)$/.test(t.e) || !porId[k.split(':')[0]]) delete T[k]; });
+  Object.keys(T).forEach(function (k) { var t = T[k]; if (!t || !/^(marcha|pausa|listo)$/.test(t.e)) delete T[k]; });
   var arranque = Date.now();
   Object.keys(T).forEach(function (k) { if (T[k].e === 'marcha' && T[k].fin <= arranque) T[k].e = 'listo'; });
   function guardaT() { store.set('timers', T); }
@@ -1340,6 +1340,18 @@
       guardaT();
       var info = pasoDeClave(fin[0]);
       $('#aviso-vivo').textContent = (info ? info.r.n + ', paso ' + info.p.n + ' (' + info.p.t + ')' : 'Temporizador') + ': se acabó el tiempo.';
+      /* auto-avance: si el temporizador que acaba es el del paso que tienes
+         delante en el modo cocina, ese paso queda hecho y pasas al siguiente */
+      if (cocina && info && info.r === cocina.r) {
+        var ca = calcula(cocina.r, est(cocina.r)), pa = ca.pasos[cocina.i];
+        if (pa && info.p.key === pa.key && cocina.i < ca.pasos.length - 1) {
+          delete T[fin[0]]; guardaT();
+          marcaHecho(cocina.r, pa.key, true);
+          cocina.i++;
+          pintaCocina();
+          aviso('Tiempo cumplido: pasamos al paso ' + ca.pasos[cocina.i].n + '.');
+        }
+      }
       revisaAlarma();
     }
     pintaTimers();
@@ -1847,6 +1859,10 @@
   }).then(function (recetas) {
     R = recetas;
     preparaRecetas();
+    /* limpieza de temporizadores de recetas que ya no existen (aqui, con porId ya listo) */
+    var tSucios = 0;
+    Object.keys(T).forEach(function (k) { if (!porId[k.split(':')[0]]) { delete T[k]; tSucios = 1; } });
+    if (tSucios) guardaT();
     sesPurga();
     ruta();
     setInterval(tick, 250);
