@@ -252,6 +252,143 @@
   ]
  },
  {
+  "id": "caldereta",
+  "n": "Caldereta de cordero extremeña",
+  "sub": "cordero guisado con pimentón, ajo y un chorro de vino",
+  "reg": "ext",
+  "regs": [
+   "ext"
+  ],
+  "lugar": "Extremadura",
+  "cat": "carne",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   4
+  ],
+  "intro": "El guiso de los pastores extremeños: cordero dorado, pimentón y ajo, a fuego lento hasta que la carne se suelta del hueso.",
+  "ing": [
+   [
+    "i0",
+    "1,2 kg de cordero en trozos",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i1",
+    "1 cebolla",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i2",
+    "5 dientes de ajo",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i3",
+    "1 pimiento",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i4",
+    "1 cucharada de pimentón de la Vera",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i5",
+    "1 hoja de laurel",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i6",
+    "1 vaso de vino blanco",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i7",
+    "aceite de oliva y sal",
+    null,
+    null,
+    1,
+    "plano"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Dorar",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Sella la carne",
+      "m": 15,
+      "x": "Salpimenta y dora el cordero en aceite caliente por todos los lados, sin amontonar.",
+      "ab": "Por tandas: si se amontona, suelta agua y no se dora.",
+      "f": 0
+     },
+     {
+      "t": "Sofrito",
+      "m": 10,
+      "x": "Aparta la carne y en el mismo aceite pocha cebolla, pimiento y ajos picados.",
+      "f": 0
+     }
+    ]
+   },
+   {
+    "n": "Guisar",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Pimentón y vino",
+      "m": 5,
+      "x": "Fuera del fuego, añade el pimentón, remueve y moja con el vino. Reduce un poco.",
+      "ab": "El pimentón siempre fuera del fuego: se quema enseguida.",
+      "f": 0
+     },
+     {
+      "t": "A fuego lento",
+      "m": 80,
+      "x": "Vuelve la carne a la cazuela con el laurel y agua justo para cubrir. Cuece tapado a fuego suave hasta que esté tierno y la salsa, ligada.",
+      "f": 0
+     }
+    ]
+   }
+  ],
+  "secretos": [
+   [
+    "Ajos enteros",
+    "con piel, para que no amarguen."
+   ],
+   [
+    "De un día para otro",
+    "está mejor recalentada."
+   ],
+   [
+    "Pan",
+    "para la salsa."
+   ]
+  ]
+ },
+ {
   "id": "caldo",
   "n": "Caldo de huesos",
   "sub": "de cocción lenta, que cuaja como gelatina",
@@ -762,6 +899,177 @@
      }
     ]
    }
+  ]
+ },
+ {
+  "id": "callos",
+  "n": "Callos a la madrileña",
+  "sub": "callos, morro y chorizo, hasta que la salsa pega en los labios",
+  "reg": "mad",
+  "regs": [
+   "mad"
+  ],
+  "lugar": "Comunidad de Madrid",
+  "cat": "cuchara",
+  "dif": 3,
+  "b": 6,
+  "rac": [
+   6
+  ],
+  "intro": "El plato de las tabernas de Madrid en invierno. Lleva tiempo y una buena limpieza, pero luego está para repetir al día siguiente.",
+  "ing": [
+   [
+    "i0",
+    "1 kg de callos de ternera limpios",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i1",
+    "300 g de morro de ternera",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i2",
+    "1 chorizo",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i3",
+    "1 morcilla de cebolla",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i4",
+    "100 g de jamón o tocino",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i5",
+    "2 cebollas",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i6",
+    "3 dientes de ajo",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i7",
+    "1 hoja de laurel",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i8",
+    "1 cucharada de pimentón dulce y un poco de picante",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i9",
+    "1 guindilla",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i10",
+    "1 cucharada de harina",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i11",
+    "vinagre y sal",
+    null,
+    null,
+    1,
+    "plano"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Limpiar y cocer",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Lava los callos",
+      "m": 15,
+      "x": "Lávalos con agua fría y vinagre, escúrrelos y córtalos en trozos. Escalda el morro igual.",
+      "ab": "Dos o tres aguas: lo que se queda sin limpiar se nota en el plato.",
+      "f": 0
+     },
+     {
+      "t": "Cuece despacio",
+      "m": 120,
+      "x": "En olla con agua, laurel y sal, cuece a fuego suave, quitando la espuma, hasta que estén tiernos.",
+      "ab": "Se prueba pinchando: tiene que cortarse con la cuchara.",
+      "f": 0
+     }
+    ]
+   },
+   {
+    "n": "La salsa",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Sofrito",
+      "m": 20,
+      "x": "Pocha cebolla y ajo picados con el jamón, añade harina y pimentón fuera del fuego, y moja con un poco del caldo.",
+      "ab": "El pimentón se quema en un segundo y amarga: aparta del fuego antes de echarlo.",
+      "f": 0
+     },
+     {
+      "t": "Todo junto",
+      "m": 60,
+      "x": "Une callos, salsa, chorizo, morcilla y guindilla, cubre con el caldo justo y deja a fuego muy suave hasta que la salsa esté ligada.",
+      "ab": "Ligada, no seca: tiene que quedar una salsa brillante y espesa.",
+      "f": 0
+     }
+    ]
+   }
+  ],
+  "secretos": [
+   [
+    "Al día siguiente",
+    "reposados están mejores."
+   ],
+   [
+    "La gelatina",
+    "el morro es lo que da la salsa pegajosa."
+   ],
+   [
+    "Pan",
+    "para untar, sin cuchara de postre."
+   ]
   ]
  },
  {
@@ -1970,6 +2278,187 @@
   ]
  },
  {
+  "id": "empanadagallega",
+  "n": "Empanada gallega de atún",
+  "sub": "masa de aceite y un sofrito largo de cebolla y pimiento",
+  "reg": "gal",
+  "regs": [
+   "gal"
+  ],
+  "lugar": "Galicia",
+  "cat": "picar",
+  "dif": 2,
+  "b": 8,
+  "rac": [
+   8
+  ],
+  "intro": "La empanada de las romerías y de las comidas de domingo: una masa fina y un relleno que se cuece despacio hasta quedar jugoso, sin que moje la base.",
+  "ing": [
+   [
+    "i0",
+    "500 g de harina de trigo",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i1",
+    "250 ml de agua templada",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i2",
+    "60 ml de aceite de oliva suave",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i3",
+    "1 cucharadita de sal",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i4",
+    "3 cebollas grandes",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i5",
+    "2 pimientos (uno rojo, uno verde)",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i6",
+    "3 cucharadas de tomate frito",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i7",
+    "3 latas de atún en aceite o bonito",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i8",
+    "2 huevos duros",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i9",
+    "1 huevo para pintar",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i10",
+    "aceite de oliva y pimentón",
+    null,
+    null,
+    1,
+    "plano"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "La masa",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Amasa",
+      "m": 15,
+      "x": "Mezcla harina, sal, agua templada y aceite. Amasa hasta que no se pegue.",
+      "ab": "Tiene que quedar blanda y elástica, como el lóbulo de la oreja.",
+      "f": 0
+     },
+     {
+      "t": "Reposo",
+      "m": 45,
+      "x": "Tápala y déjala reposar en un sitio templado.",
+      "f": 0
+     }
+    ]
+   },
+   {
+    "n": "El relleno",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Sofrito largo",
+      "m": 40,
+      "x": "Pica cebolla y pimiento fino y pocha a fuego suave con aceite hasta que estén muy tiernos. Añade una pizca de pimentón y el tomate.",
+      "ab": "Sin prisa: la cebolla tiene que deshacerse. Si queda cruda por dentro, la empanada sale dura.",
+      "f": 0
+     },
+     {
+      "t": "Une el atún",
+      "m": 5,
+      "x": "Fuera del fuego, mezcla el atún desmenuzado y el huevo duro picado. Deja templar.",
+      "ab": "Rellena siempre con el relleno frío, o la masa se reblandece.",
+      "f": 0
+     }
+    ]
+   },
+   {
+    "n": "Montaje y horno",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Estira y rellena",
+      "m": 10,
+      "x": "Divide la masa en dos, estira muy fina, pon una en la bandeja, extiende el relleno y tapa con la otra.",
+      "f": 0
+     },
+     {
+      "t": "Cierra",
+      "m": 5,
+      "x": "Dobla el borde hacia dentro y repulgua. Haz un agujero en el centro y pinta con huevo.",
+      "ab": "El agujero deja salir el vapor. Con un trocito de masa se hace el adorno del centro.",
+      "f": 0
+     }
+    ]
+   }
+  ],
+  "secretos": [
+   [
+    "Masa fina",
+    "lo que se nota al comer es el relleno, no el pan."
+   ],
+   [
+    "Del día anterior",
+    "reposada una noche está mejor."
+   ],
+   [
+    "Frío no, templado",
+    "cortada con paciencia, sin que se desmigue."
+   ]
+  ]
+ },
+ {
   "id": "fabada",
   "n": "Fabada asturiana",
   "sub": "fabes mantecosas y su compango",
@@ -2550,6 +3039,113 @@
      }
     ]
    }
+  ]
+ },
+ {
+  "id": "lechazo",
+  "n": "Lechazo asado",
+  "sub": "cordero lechal en cazuela de barro, solo sal y agua",
+  "reg": "cyl",
+  "regs": [
+   "cyl"
+  ],
+  "lugar": "Castilla y León",
+  "cat": "carne",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   4
+  ],
+  "intro": "El asado de las celebraciones castellanas: carne de lechazo muy tierna, piel dorada y nada más que sal y agua. El horno hace el resto.",
+  "ing": [
+   [
+    "i0",
+    "1,5 kg de lechazo (media paletilla o pierna) en trozos",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i1",
+    "1 vaso de agua",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i2",
+    "sal gorda",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i3",
+    "1 hoja de laurel",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i4",
+    "manteca de cerdo (opcional)",
+    null,
+    null,
+    1,
+    "plano"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Preparar",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Sala y coloca",
+      "m": 10,
+      "x": "Sala el lechazo y colócalo en una cazuela de barro, con la piel hacia arriba.",
+      "ab": "Con la piel hacia arriba para que se dore sin secarse.",
+      "f": 0
+     },
+     {
+      "t": "Agua",
+      "m": 2,
+      "x": "Añade un vaso de agua en el fondo y el laurel.",
+      "ab": "Poca agua: para que la carne no se seque, no para hervir.",
+      "f": 0
+     }
+    ]
+   },
+   {
+    "n": "El horno",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Reposa",
+      "m": 10,
+      "x": "Saca y deja reposar tapado antes de servir.",
+      "f": 0
+     }
+    ]
+   }
+  ],
+  "secretos": [
+   [
+    "Poco",
+    "el buen lechazo no necesita nada más."
+   ],
+   [
+    "Barro",
+    "la cazuela reparte el calor."
+   ],
+   [
+    "Con ensalada",
+    "lechuga y cebolla, sin nada más."
+   ]
   ]
  },
  {

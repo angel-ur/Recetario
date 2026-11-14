@@ -1,0 +1,51 @@
+---
+id: callos
+nombre: "Callos a la madrileña"
+subtitulo: "callos, morro y chorizo, hasta que la salsa pega en los labios"
+region: mad
+lugar: "Comunidad de Madrid"
+categoria: cuchara
+dificultad: 3
+raciones: 6
+tiempo_min: 240
+tags: [callos, morro, chorizo, morcilla, pimenton, laurel, cebolla]
+---
+
+El plato de las tabernas de Madrid en invierno. Lleva tiempo y una buena limpieza, pero luego está para repetir al día siguiente.
+
+## Ingredientes
+
+- 1 kg de callos de ternera limpios
+- 300 g de morro de ternera
+- 1 chorizo
+- 1 morcilla de cebolla
+- 100 g de jamón o tocino
+- 2 cebollas
+- 3 dientes de ajo
+- 1 hoja de laurel
+- 1 cucharada de pimentón dulce y un poco de picante
+- 1 guindilla
+- 1 cucharada de harina
+- vinagre y sal
+
+## Elaboración
+
+### Limpiar y cocer
+
+1. **Lava los callos** (15 min) - Lávalos con agua fría y vinagre, escúrrelos y córtalos en trozos. Escalda el morro igual.
+   > Dos o tres aguas: lo que se queda sin limpiar se nota en el plato.
+2. **Cuece despacio** (120 min) - En olla con agua, laurel y sal, cuece a fuego suave, quitando la espuma, hasta que estén tiernos.
+   > Se prueba pinchando: tiene que cortarse con la cuchara.
+
+### La salsa
+
+3. **Sofrito** (20 min) - Pocha cebolla y ajo picados con el jamón, añade harina y pimentón fuera del fuego, y moja con un poco del caldo.
+   > El pimentón se quema en un segundo y amarga: aparta del fuego antes de echarlo.
+4. **Todo junto** (60 min) - Une callos, salsa, chorizo, morcilla y guindilla, cubre con el caldo justo y deja a fuego muy suave hasta que la salsa esté ligada.
+   > Ligada, no seca: tiene que quedar una salsa brillante y espesa.
+
+## Secretos de la abuela
+
+- **Al día siguiente**: reposados están mejores.
+- **La gelatina**: el morro es lo que da la salsa pegajosa.
+- **Pan**: para untar, sin cuchara de postre.
