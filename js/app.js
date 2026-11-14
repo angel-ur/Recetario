@@ -233,24 +233,8 @@
   ];
   var MAPAQ = { embutido: 'charcutería', carne: 'carnicería', pescado: 'pescadería', legumbre: 'tienda de legumbres a granel', arroz: 'tienda gourmet', especia: 'herbolario especias', aceite: 'bodega aceite', huevo: 'mercado huevos', verdura: 'mercado verdulería', despensa: 'tienda gourmet', panaderia: 'panadería' };
   /* Por tu barrio: listas curadas por zona. Para anadir una zona: un objeto en ZONAS con su caja (lat/lon) y sus sitios verificados. */
-  var ZONAS = [
-    {
-      id: 'zona', nombre: 'la zona', caja: [0, 0, 0, 0],
-      nota: 'Mercat local: lunes a jueves 8-14 h, viernes 8-19:30 h, sábados 8-14:30 h. Comprueba horarios antes de ir.',
-      fuentes: 'fuentes locales',
-      lugares: {
-
-
-
-
-
-
-
-      }
-    }
-  ];
-  ZONAS[0].lugares.legumbre = ZONAS[0].lugares.especia;
-  var zona = store.get('zona', null); // { id: 'zona' | null, nombre: 'texto' }, sin coordenadas
+  var ZONAS = [];
+  var zona = store.get('zona', null); // { id: null, nombre: 'texto' }, sin coordenadas
   var geoEstado = ''; // '', 'buscando', 'denegada', 'error'
   function zonaCurada() { return zona && zona.id ? ZONAS.filter(function (z) { return z.id === zona.id; })[0] || null : null; }
   function barrioInner(cats) {
@@ -730,17 +714,6 @@
     return h;
   }
   function repintaPrecios() { var s = document.getElementById('sec-precios'); if (s) s.outerHTML = preciosHTML(); }
-  function importaSemilla() {
-    if (location.search.indexOf('semilla=1') < 0) return;
-    if (store.get('semilla1', false)) { history.replaceState(null, '', location.pathname + location.hash); return; }
-    fetch('data/semilla-precios.json').then(function (r) { return r.ok ? r.json() : []; }).then(function (arr) {
-      var ids = {}; HIST.forEach(function (e) { ids[e.id] = 1; });
-      arr.forEach(function (s) { if (!ids[s.id]) { s.key = hkey(s.prod); HIST.push(s); } });
-      guardaHist(); store.set('semilla1', true);
-      history.replaceState(null, '', location.pathname + location.hash);
-      repintaPrecios(); repintaCompra();
-    }).catch(function () {});
-  }
   document.addEventListener('click', function (ev) {
     var t = ev.target.closest('[data-pr]'); if (!t) return;
     var a = t.getAttribute('data-pr');
@@ -773,7 +746,7 @@
     var bf = document.querySelector('[data-pr="forma"]'); if (bf) { bf.setAttribute('aria-expanded', 'true'); }
     var ff = document.getElementById('pr-form'); if (ff) ff.hidden = false;
   });
-  importaSemilla();
+  
   /* ---------- Cocinar a la vez: plan combinado ---------- */
   function esEspera(p) { return !!(p.w || (p.m >= 30 && p.e && (p.e.k === 'horno' || p.e.k === 'nevera')) || (p.f === 1 && p.m >= 45)); }
   function pasosPlan(r, met) {

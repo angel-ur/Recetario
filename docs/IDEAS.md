@@ -35,7 +35,7 @@ Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-act
 
 ## Hecho 14 nov
 - Donde comprar: cada ingrediente (receta y lista de la compra) lleva una linea fina 'Super facil / X mejor' segun tipo (carniceria, pescaderia, mercado, herbolario, tienda gourmet...). Clasificacion por palabras clave en app.js (DONDE).
-- Por tu barrio (zona): lista con fuente (fuentes locales) + enlace 'mejor' abre Google Maps 'X cerca de mi'. Falta verificar: fruteria, bodega/aceite y arroz D.O. concretos del barrio.
+- Por tu barrio: lista con fuente por zona (hoy sin zonas cargadas; se anaden con un objeto en ZONAS).
 
 ## Por tu barrio (dinamico)
 - Hecho: pide ubicacion con boton, Nominatim para el nombre, lista curada solo si la zona tiene datos (ZONAS en js/app.js; anadir zona = anadir objeto con caja, nota, fuentes, lugares). Otra zona o sin permiso: solo botones Maps "cerca de mi".
@@ -47,14 +47,14 @@ Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-act
 ## Portadas ilustradas (estilo casa)
 - Cada receta puede tener una ilustracion propia en `data/ilustraciones/<id>.svg` (viewBox 0 0 320 180, sin etiqueta svg exterior). `scripts/build.py` la usa si existe; si no, cae al sprite simple de `js/escenas.js`.
 - Se generan con `scripts/ilu_*.py` (+ `scripts/ilu_lib.py`). En el SVG los ids de degradado empiezan por `ID`; el build los prefija por receta.
-- Estilo acordado con el autor: fondo crema, plato ovalado con aro azul (var(--anil)), composicion simple, un plato reconocible y poco mas. Referencia de nivel: gazpacho. El tempeh es la excepcion (escena con tabla de madera, aprobada).
+- Estilo acordado: fondo crema, plato ovalado con aro azul (var(--anil)), composicion simple, un plato reconocible y poco mas. Referencia de nivel: gazpacho. El tempeh es la excepcion (escena con tabla de madera, aprobada).
 - Hechas: tempeh, paella, tortilla (entera, cupula dorada), cocido, gazpacho, caldo, fabada, lentejas, croquetas. Siguientes: pulpo, migas, marmitako, rabo, pisto, arroz con leche, crema catalana, papas, xato, tumbet...
 
 ## La compra por tienda (v1)
 - En «La compra» hay un selector Por receta / Por tienda (localStorage `cvista`).
 - Por tienda: cada ingrediente va a una parada segun su tipo (tabla DONDE). Por tipo se elige Súper o la tienda «mejor» (`tprefs`, por defecto mejor en fresco y Súper en seco). Orden de la ruta: ORDEN_TOUR (seco primero, pescado al final).
 - Marcar comprado marca tambien el mismo ingrediente en otras recetas. «No lo tienen» (plan B, campo `x`) pasa el ingrediente a la otra opcion (Súper <-> tienda mejor).
-- Vuelta a casa: «Guardar mi casa aquí» guarda lat/lon redondeados solo en el movil (`casa`); el boton abre Google Maps (a pie) con destino casa y, en zonas con lista verificada (zona), las tiendas concretas como paradas.
+- Vuelta a casa: «Guardar mi casa aquí» guarda lat/lon redondeados solo en el movil (`casa`); el boton abre Google Maps (a pie) con destino casa y, en zonas con lista verificada (zona con lista), las tiendas concretas como paradas.
 - Siguientes ideas: unir ingredientes repetidos en una sola linea, cantidades sumadas, horarios por tienda, ruta con mas zonas verificadas.
 - Ruta dinamica (v1.1): «Calcular ruta desde mi ubicación» busca en OpenStreetMap (Overpass, sin clave) la tienda con nombre mas cercana de cada tipo de parada pendiente (tabla OSM en app.js, radio 3 km, distancia en linea recta) y arma una ruta a pie en Google Maps: origen tu ubicacion, paradas en orden de tour, destino casa (si esta guardada). Si Overpass no responde o no hay tienda de ese tipo, esa parada va como busqueda de texto y Maps elige. Maximo 9 paradas (limite de Maps). La lista verificada de la zona ya no se usa para la ruta, solo en la tarjeta «Por tu barrio».
 - Más datos de dependencias (`tras`/`durante`) en recetas fuera de caldo, rabo, cocido, lentejas y paella.
