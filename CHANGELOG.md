@@ -3,6 +3,7 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Tres portadas nuevas: sopa castellana, zarangollo y chuletillas al sarmiento (28 de 37).
 - Tres portadas nuevas: empanada gallega, lechazo y ropa vieja (ya van 25 de 37).
 
 ### Corregido
