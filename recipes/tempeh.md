@@ -50,7 +50,7 @@ Para 500 g de soja seca. Tiempo activo: unas 1,5 h; fermentación: 36 a 48 h. La
 
 ## Secretos de la abuela
 
-- **Las dos claves**: Secar muy bien las alubias y mantener 28-30 °C las primeras 12 horas.
+- **Las dos claves**: Secar muy bien la soja y mantener 28-30 °C las primeras 12 horas.
 - **Bien**: Olor a nuez o champiñón, bloque blanco sólido. Manchas grises o negras en los agujeros son normales.
 - **Mal**: Moho rosa o verde, babas u olor a amoniaco o podrido: a la basura.
 - **Sin sal al cocer**: La soja se cuece en agua sin sal.

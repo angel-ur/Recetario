@@ -206,7 +206,7 @@ def fallback_recipe(meta, intro, ingredientes, fases_md, secretos_md):
         "ing": [[f"i{n}", t, None, None, 1, "plano"]
                 for n, t in enumerate(ingredientes)],
         "fases": [{"n": f["n"], "tipo": "tu",
-                   "p": [dict(p, f=0) for p in f["pasos"]]} for f in fases_md],
+                   "p": [dict(p, f=0, **({"w": 1} if p.get("m", 0) >= 120 else {})) for p in f["pasos"]]} for f in fases_md],
         "secretos": secretos_md,
         "heroe": heroe_de(meta["id"]),
     }
