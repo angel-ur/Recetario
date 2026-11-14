@@ -48,3 +48,9 @@ La de casa: patata pochada despacio en mucho aceite, el huevo justo y el famoso 
 - **Patata de guisar**: Las algo harinosas se deshacen un poco y ligan con el huevo. Las nuevas quedan más enteras y la tortilla se abre al cortarla.
 - **El aceite templado**: Si está demasiado caliente, la patata se dora por fuera y queda cruda por dentro. Templado y con paciencia.
 - **Huevo en proporción**: Una buena medida es un huevo por cada 100 o 120 g de patata ya pochada. Si la mezcla queda espesa, añade otro.
+
+## En la tienda
+
+- **Patatas** [patatas]: «Patatas para freír», de las de carne firme (Monalisa, Kennebec). Unos 700 g para 6 huevos.
+- **Huevos** [huevos]: Huevos frescos, categoría L, mejor camperos.
+- **Aceite** [aceite]: Aceite de oliva suave: se usa para pochar, no para bañar.

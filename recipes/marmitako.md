@@ -55,3 +55,9 @@ Guiso de pescadores del Cantábrico: patatas chascadas que espesan el caldo y el
 - **Bonito de temporada**: El bonito del norte se pesca de junio a octubre. Fuera de temporada, vale un buen atún fresco o congelado.
 - **Patata chascada**: Cortada a cuchillo limpio no suelta almidón y el caldo queda aguado. Chascada, espesa sola.
 - **Pimiento choricero**: Es la carne de un pimiento seco. Se vende en tarro; si tienes los pimientos secos, remójalos y raspa la carne.
+
+## En la tienda
+
+- **El bonito** [bonito]: Pide «bonito del norte, en tacos de 3 cm, sin piel ni espinas». Debe tener un color rojo vivo, sin manchas pardas ni olor fuerte. Cómpralo el mismo día.
+- **Patatas** [patatas]: «Patatas de guisar», que sueltan almidón y espesan el caldo (y se rompen, no se cortan).
+- **Choricero** [choricero]: «Carne de pimiento choricero» en frasco; si no la tienen, 4-5 pimientos choriceros secos, remojados.

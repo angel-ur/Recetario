@@ -42,3 +42,9 @@ El plato de los inviernos cántabros: alubias blancas con berza y el compango (c
 - **Remojo**: la noche anterior, sin falta.
 - **Sin prisa**: a fuego suave, que sea cocido y no sopa.
 - **Al día siguiente**: recalentado, mejor.
+
+## En la tienda
+
+- **Berza** [berza]: «Una berza mediana». Quítale las hojas exteriores duras en casa; deja el cogollo.
+- **Compango** [chorizo|tocino|costilla]: Pide el «compango» junto: chorizo, morcilla, tocino y costilla de cerdo adobada o fresca, en trozos.
+- **Alubias** [alubias]: «Alubias blancas de cosecha reciente» y ponlas a remojo la noche antes.

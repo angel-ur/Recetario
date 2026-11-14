@@ -49,3 +49,9 @@ El plato de las tabernas de Madrid en invierno. Lleva tiempo y una buena limpiez
 - **Al día siguiente**: reposados están mejores.
 - **La gelatina**: el morro es lo que da la salsa pegajosa.
 - **Pan**: para untar, sin cuchara de postre.
+
+## En la tienda
+
+- **Los callos** [callos]: Pide «callos de ternera, ya limpios y blanqueados». Si te los dan sin limpiar, hay que lavarlos mucho con sal y vinagre. Cortados en trozos de 3-4 cm para guisar.
+- **El morro** [morro]: «Morro de ternera, en trozos, limpio y sin pelos». Es lo que da la gelatina a la salsa.
+- **Chorizo y morcilla** [chorizo|morcilla]: «Chorizo y morcilla para guisar», no de cortar en lonchas.

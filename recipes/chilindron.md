@@ -51,3 +51,9 @@ Guiso de huerta y corral del valle del Ebro: pollo dorado, pimiento rojo, tomate
 - **Pimientos asados**: En muchas casas asan antes los pimientos rojos, los dejan sudar tapados y los pelan. La salsa queda más dulce y ahumada.
 - **Mejor de corral**: Con un pollo de corral o de campo la carne aguanta mejor el guiso y el sabor no tiene comparación.
 - **También con cordero**: El chilindrón se hace igual con cordero o con conejo.
+
+## En la tienda
+
+- **El pollo** [pollo]: «Pollo troceado en octavos, con piel y hueso», o muslos y contramuslos. Con piel suelta grasa y sabor.
+- **El jamón** [jamón]: Pide «tacos de jamón serrano» o los recortes del jamón: es más barato y vale igual para guisar.
+- **Pimientos y tomate** [pimientos|tomates]: Pimientos de carne gruesa; tomates maduros de verdad, que si están verdes el guiso sale ácido.

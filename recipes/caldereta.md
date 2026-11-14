@@ -43,3 +43,8 @@ El guiso de los pastores extremeños: cordero dorado, pimentón y ajo, a fuego l
 - **Ajos enteros**: con piel, para que no amarguen.
 - **De un día para otro**: está mejor recalentada.
 - **Pan**: para la salsa.
+
+## En la tienda
+
+- **El cordero** [cordero]: Pide «cordero para guisar, en trozos de 4-5 cm con hueso» (paletilla o pescuezo). El hueso da sabor y la grasa se funde. Pide que lo corten, no lo hagas tú.
+- **Pimentón** [pimentón]: De la Vera, dulce o agridulce. Un pimentón rancio amarga el guiso.

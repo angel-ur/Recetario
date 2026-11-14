@@ -42,3 +42,8 @@ Plato de aprovechamiento: lo que sobró del puchero (carne, garbanzos, patata) s
 - **Aprovechar**: es mejor con carne de un cocido del día anterior.
 - **Vinagre**: poco, que se note sin dominar.
 - **Con mojo**: algunos lo acompañan con mojo picón.
+
+## En la tienda
+
+- **Garbanzos** [garbanzos]: Si tienes caldo de un cocido, ya tienes todo. Si no, garbanzos cocidos de bote, bien escurridos.
+- **La carne** [carne]: «Carne de puchero» o de cocido que sobró: morcillo o falda. Si no, pollo cocido deshilachado.

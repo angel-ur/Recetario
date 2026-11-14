@@ -55,3 +55,9 @@ Las de aprovechar: una bechamel espesa y bien cocida, el jamón rehogado y una n
 - **Masa que no se pega**: Si al formarla se te pega a las manos, no estaba fría del todo o le faltó cocción. Vuelve a la nevera media hora.
 - **De sobras**: Con pollo asado, la carne del cocido, bacalao o setas. La bechamel es siempre la misma.
 - **Doble rebozado**: Para una costra más gruesa y que no revienten, pásalas dos veces por huevo y pan rallado.
+
+## En la tienda
+
+- **El jamón** [jamón]: Pide «taquitos de jamón serrano para croquetas», o recortes. Que lleve poca sal.
+- **La leche** [leche]: Entera. La desnatada da una bechamel sin cuerpo.
+- **Pan rallado** [pan rallado]: Fino, de panadería, no el de bote muy fino que se quema.

@@ -740,7 +740,18 @@
     ]
    ]
   },
-  "tienda": []
+  "tienda": [
+   [
+    "El cordero",
+    "Pide «cordero para guisar, en trozos de 4-5 cm con hueso» (paletilla o pescuezo). El hueso da sabor y la grasa se funde. Pide que lo corten, no lo hagas tú.",
+    "cordero"
+   ],
+   [
+    "Pimentón",
+    "De la Vera, dulce o agridulce. Un pimentón rancio amarga el guiso.",
+    "pimentón"
+   ]
+  ]
  },
  {
   "id": "caldero",
@@ -1823,7 +1834,23 @@
     ]
    ]
   },
-  "tienda": []
+  "tienda": [
+   [
+    "Los callos",
+    "Pide «callos de ternera, ya limpios y blanqueados». Si te los dan sin limpiar, hay que lavarlos mucho con sal y vinagre. Cortados en trozos de 3-4 cm para guisar.",
+    "callos"
+   ],
+   [
+    "El morro",
+    "«Morro de ternera, en trozos, limpio y sin pelos». Es lo que da la gelatina a la salsa.",
+    "morro"
+   ],
+   [
+    "Chorizo y morcilla",
+    "«Chorizo y morcilla para guisar», no de cortar en lonchas.",
+    "chorizo|morcilla"
+   ]
+  ]
  },
  {
   "id": "chilindron",
@@ -2134,7 +2161,23 @@
     ]
    }
   ],
-  "tienda": []
+  "tienda": [
+   [
+    "El pollo",
+    "«Pollo troceado en octavos, con piel y hueso», o muslos y contramuslos. Con piel suelta grasa y sabor.",
+    "pollo"
+   ],
+   [
+    "El jamón",
+    "Pide «tacos de jamón serrano» o los recortes del jamón: es más barato y vale igual para guisar.",
+    "jamón"
+   ],
+   [
+    "Pimientos y tomate",
+    "Pimientos de carne gruesa; tomates maduros de verdad, que si están verdes el guiso sale ácido.",
+    "pimientos|tomates"
+   ]
+  ]
  },
  {
   "id": "chuletillas",
@@ -3006,7 +3049,23 @@
     ]
    ]
   },
-  "tienda": []
+  "tienda": [
+   [
+    "Berza",
+    "«Una berza mediana». Quítale las hojas exteriores duras en casa; deja el cogollo.",
+    "berza"
+   ],
+   [
+    "Compango",
+    "Pide el «compango» junto: chorizo, morcilla, tocino y costilla de cerdo adobada o fresca, en trozos.",
+    "chorizo|tocino|costilla"
+   ],
+   [
+    "Alubias",
+    "«Alubias blancas de cosecha reciente» y ponlas a remojo la noche antes.",
+    "alubias"
+   ]
+  ]
  },
  {
   "id": "cremacatalana",
@@ -3454,7 +3513,23 @@
     ]
    }
   ],
-  "tienda": []
+  "tienda": [
+   [
+    "El jamón",
+    "Pide «taquitos de jamón serrano para croquetas», o recortes. Que lleve poca sal.",
+    "jamón"
+   ],
+   [
+    "La leche",
+    "Entera. La desnatada da una bechamel sin cuerpo.",
+    "leche"
+   ],
+   [
+    "Pan rallado",
+    "Fino, de panadería, no el de bote muy fino que se quema.",
+    "pan rallado"
+   ]
+  ]
  },
  {
   "id": "empanadagallega",
@@ -5400,7 +5475,23 @@
     ]
    }
   ],
-  "tienda": []
+  "tienda": [
+   [
+    "El bonito",
+    "Pide «bonito del norte, en tacos de 3 cm, sin piel ni espinas». Debe tener un color rojo vivo, sin manchas pardas ni olor fuerte. Cómpralo el mismo día.",
+    "bonito"
+   ],
+   [
+    "Patatas",
+    "«Patatas de guisar», que sueltan almidón y espesan el caldo (y se rompen, no se cortan).",
+    "patatas"
+   ],
+   [
+    "Choricero",
+    "«Carne de pimiento choricero» en frasco; si no la tienen, 4-5 pimientos choriceros secos, remojados.",
+    "choricero"
+   ]
+  ]
  },
  {
   "id": "migas",
@@ -8148,7 +8239,18 @@
     ]
    ]
   },
-  "tienda": []
+  "tienda": [
+   [
+    "Garbanzos",
+    "Si tienes caldo de un cocido, ya tienes todo. Si no, garbanzos cocidos de bote, bien escurridos.",
+    "garbanzos"
+   ],
+   [
+    "La carne",
+    "«Carne de puchero» o de cocido que sobró: morcillo o falda. Si no, pollo cocido deshilachado.",
+    "carne"
+   ]
+  ]
  },
  {
   "id": "sobaos",
@@ -9508,7 +9610,23 @@
     ]
    }
   ],
-  "tienda": []
+  "tienda": [
+   [
+    "Patatas",
+    "«Patatas para freír», de las de carne firme (Monalisa, Kennebec). Unos 700 g para 6 huevos.",
+    "patatas"
+   ],
+   [
+    "Huevos",
+    "Huevos frescos, categoría L, mejor camperos.",
+    "huevos"
+   ],
+   [
+    "Aceite",
+    "Aceite de oliva suave: se usa para pochar, no para bañar.",
+    "aceite"
+   ]
+  ]
  },
  {
   "id": "tumbet",
