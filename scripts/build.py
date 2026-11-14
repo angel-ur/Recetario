@@ -37,7 +37,7 @@ def heroe_de(rid):
 
 HEROES_EXTRA = json.loads(HEROES_FILE.read_text(encoding="utf-8")) if HEROES_FILE.exists() else {}
 
-REQUIRED = ["id", "nombre", "categoria", "region", "dificultad", "tiempo_min"]
+REQUIRED = ["id", "nombre", "categoria", "region", "dificultad"]
 
 
 def parse_front_matter(text):
@@ -221,7 +221,9 @@ def fallback_recipe(meta, intro, ingredientes, fases_md, secretos_md):
         "ing": [[f"i{n}", t, None, None, 1, "plano"]
                 for n, t in enumerate(ingredientes)],
         "fases": [{"n": f["n"], "tipo": "tu",
-                   "p": [dict(p, f=0, **({"w": 1} if p.get("m", 0) >= 120 else {})) for p in f["pasos"]]} for f in fases_md],
+                   "p": [dict(p, f=0, **({"w": 1} if p.get("m", 0) >= 120 else {}),
+                              **({"tim": p["m"]} if p.get("m", 0) >= 5 else {})) for p in f["pasos"]]} for f in fases_md],
+        "simple": 1,
         "secretos": secretos_md,
         "heroe": heroe_de(meta["id"]),
     }
@@ -265,6 +267,9 @@ def main():
         print(f"AVISO: {a}", file=sys.stderr)
     for e in errores:
         print(f"ERROR: {e}", file=sys.stderr)
+    if "--estricto" in sys.argv and any("sin enriquecido" not in a for a in avisos):
+        print("ERROR: --estricto: hay avisos que no son de recetas simples", file=sys.stderr)
+        sys.exit(1)
     if errores:
         sys.exit(1)
     OUT.parent.mkdir(exist_ok=True)
@@ -279,7 +284,10 @@ def main():
     for item in ("index.html", "styles.css"):
         shutil.copy(ROOT / item, SITE / item)
     shutil.copytree(ROOT / "js", SITE / "js")
-    shutil.copytree(ROOT / "data", SITE / "data")
+    # Solo lo que la web descarga: el resto de data/ son fuentes del build
+    (SITE / "data").mkdir()
+    for f in ("recipes.json", "glosario.json", "precios.json"):
+        shutil.copy(ROOT / "data" / f, SITE / "data" / f)
     print(f"OK: sitio estatico -> {SITE.relative_to(ROOT)}/")
 
 
