@@ -316,25 +316,29 @@
     aceite: 'shop"~"^(deli|wine|farm)$', despensa: 'shop"~"^(deli|health_food)$', panaderia: 'shop"="bakery', verdura: 'shop"~"^(greengrocer|farm)$',
     huevo: 'shop"~"^(farm|dairy|greengrocer|deli)$', carne: 'shop"="butcher', embutido: 'shop"~"^(deli|butcher|charcuterie)$', pescado: 'shop"="seafood'
   };
-  var OVERPASS = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter'];
+  var OVERPASS = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter', 'https://overpass.private.coffee/api/interpreter'];
   var rutaCalc = null; // { estado:'buscando'|'lista'|'error', paradas:[...], url }
   function metros(a, b, c, d) { var R0 = 6371000, r = Math.PI / 180, dl = (c - a) * r, dn = (d - b) * r; var x = Math.sin(dl / 2) * Math.sin(dl / 2) + Math.cos(a * r) * Math.cos(c * r) * Math.sin(dn / 2) * Math.sin(dn / 2); return 2 * R0 * Math.asin(Math.sqrt(x)); }
   function masCercana(id, la, lo) {
     var q = '[out:json][timeout:12];nwr["' + OSM[id] + '"]["name"](around:3000,' + la + ',' + lo + ');out center 40;';
-    function intenta(n) {
-      if (n >= OVERPASS.length) return Promise.resolve(null);
-      var ctl = window.AbortController ? new AbortController() : null, to = setTimeout(function () { if (ctl) ctl.abort(); }, 9000);
-      return fetch(OVERPASS[n] + '?data=' + encodeURIComponent(q), ctl ? { signal: ctl.signal } : {}).then(function (r) { clearTimeout(to); return r.ok ? r.json() : Promise.reject(); }).then(function (j) {
+    function uno(url) {
+      var ctl = window.AbortController ? new AbortController() : null, to = setTimeout(function () { if (ctl) ctl.abort(); }, 7000);
+      return fetch(url + '?data=' + encodeURIComponent(q), ctl ? { signal: ctl.signal } : {}).then(function (r) { clearTimeout(to); return r.ok ? r.json() : Promise.reject(new Error('http ' + r.status)); }).then(function (j) {
         var best = null;
         (j.elements || []).forEach(function (e) {
           var y = e.lat !== undefined ? e.lat : e.center && e.center.lat, x = e.lon !== undefined ? e.lon : e.center && e.center.lon;
           if (y === undefined || x === undefined) return;
           var m = metros(la, lo, y, x); if (!best || m < best.m) best = { n: (e.tags && e.tags.name) || '', lat: y, lon: x, m: Math.round(m) };
         });
-        return best;
-      }).catch(function () { clearTimeout(to); return intenta(n + 1); });
+        return best || { vacio: true };
+      });
     }
-    return intenta(0);
+    // los servidores se prueban a la vez: gana el primero que responde; tope de 8 s en total
+    return new Promise(function (ok) {
+      var fallos = 0, hecho = false, fin = function (r) { if (!hecho) { hecho = true; ok(r); } };
+      setTimeout(function () { fin(null); }, 8000);
+      OVERPASS.forEach(function (u) { uno(u).then(function (r) { fin(r.vacio ? null : r); }, function () { if (++fallos === OVERPASS.length) fin(null); }); });
+    });
   }
   function paradasActivas() {
     var vistos = {}, out = [];
@@ -344,27 +348,37 @@
   }
   function urlRuta(la, lo, ps) {
     var pts = ps.slice(0, 9).map(function (s) { return s.lat !== undefined ? s.lat + ',' + s.lon : (s.id === 'super' ? 'supermercado' : MAPAQ[s.id]); });
-    var dest = casa ? casa.lat + ',' + casa.lon : la + ',' + lo;
-    return 'https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=' + la + ',' + lo + '&destination=' + dest + (pts.length ? '&waypoints=' + encodeURIComponent(pts.join('|')) : '');
+    var u = 'https://www.google.com/maps/dir/?api=1&travelmode=walking';
+    if (la !== null) u += '&origin=' + la + ',' + lo; // sin origen, Maps usa tu ubicacion actual
+    var dest = casa ? casa.lat + ',' + casa.lon : (la !== null ? la + ',' + lo : pts.pop());
+    if (!dest) return '';
+    return u + '&destination=' + encodeURIComponent(dest) + (pts.length ? '&waypoints=' + encodeURIComponent(pts.join('|')) : '');
   }
   function calculaRuta() {
-    if (!navigator.geolocation) { aviso('Tu navegador no da la ubicación.'); return; }
+    if (!navigator.geolocation) { rutaCalc = { estado: 'error', msg: 'Este navegador no da la ubicación.', paradas: [] }; repintaCompra(); return; }
     rutaCalc = { estado: 'buscando', paradas: [] }; repintaCompra();
+    var tope = setTimeout(function () { if (rutaCalc && rutaCalc.estado === 'buscando') { rutaCalc = { estado: 'error', msg: 'La ubicación tarda demasiado. Mira que el navegador tenga permiso de ubicación para esta web.', paradas: [] }; repintaCompra(); } }, 15000);
     navigator.geolocation.getCurrentPosition(function (pos) {
       var la = Math.round(pos.coords.latitude * 1e5) / 1e5, lo = Math.round(pos.coords.longitude * 1e5) / 1e5;
       var ps = paradasActivas();
+      // enlace ya valido desde el primer momento (Maps resuelve cada tipo); luego se afina con las tiendas encontradas
+      rutaCalc = { estado: 'lista', afinando: true, paradas: ps.map(function (p) { return { id: p.id, nombre: p.nombre }; }), la: la, lo: lo, url: urlRuta(la, lo, ps) }; clearTimeout(tope); repintaCompra();
       Promise.all(ps.map(function (p) { return masCercana(p.id, la, lo).then(function (r) { var o = { id: p.id, nombre: p.nombre }; if (r) { o.lat = r.lat; o.lon = r.lon; o.lugar = r.n; o.m = r.m; } return o; }); })).then(function (res) {
-        rutaCalc = { estado: 'lista', paradas: res, la: la, lo: lo, url: urlRuta(la, lo, res) };
+        if (!rutaCalc || rutaCalc.estado !== 'lista') return;
+        rutaCalc = { estado: 'lista', paradas: res, la: la, lo: lo, url: urlRuta(la, lo, res), encontradas: res.filter(function (s) { return s.lugar; }).length };
         repintaCompra();
       });
-    }, function () { rutaCalc = { estado: 'error', paradas: [] }; repintaCompra(); }, { timeout: 10000, maximumAge: 30000 });
+    }, function (err) { clearTimeout(tope); rutaCalc = { estado: 'error', msg: err && err.code === 1 ? 'Sin permiso de ubicación. En el iPhone: Ajustes > Privacidad > Localización > tu navegador > «Al usar la app», y recarga.' : 'No he podido ver tu ubicación ahora. Inténtalo de nuevo.', paradas: [] }; repintaCompra(); }, { timeout: 12000, maximumAge: 60000 });
   }
   function rutaHTML() {
     var h = '<div class="vuelta"><p class="eti">Ruta por las tiendas más cercanas</p>';
-    if (!rutaCalc) return h + '<p class="ayuda">Busca la tienda más cercana de cada tipo desde donde estás y arma la ruta completa en Maps' + (casa ? ', con la vuelta a casa' : '') + '.</p><button type="button" class="btn sec" data-ruta="1">Calcular ruta desde mi ubicación</button></div>';
-    if (rutaCalc.estado === 'buscando') return h + '<p class="ayuda">Buscando las tiendas más cercanas…</p></div>';
-    if (rutaCalc.estado === 'error') return h + '<p class="ayuda">No he podido ver tu ubicación. Revisa el permiso de ubicación del navegador.</p><button type="button" class="btn sec" data-ruta="1">Reintentar</button></div>';
-    h += '<ol class="ruta-res">' + rutaCalc.paradas.map(function (s) { return '<li><b>' + esc(s.nombre) + '</b>: ' + (s.lugar ? esc(s.lugar) + ' · ' + (s.m < 1000 ? s.m + ' m' : (s.m / 1000).toFixed(1).replace('.', ',') + ' km') : 'Maps buscará el más cercano') + '</li>'; }).join('') + '</ol>' +
+    var rapida = urlRuta(null, null, paradasActivas());
+    var enlRapido = rapida ? '<a class="btn sec" href="' + rapida + '" target="_blank" rel="noopener">Abrir ruta en Maps desde donde estés</a>' : '';
+    if (!rutaCalc) return h + '<p class="ayuda">Busca la tienda más cercana de cada tipo desde donde estás' + (casa ? ' y cierra la ruta en casa' : '') + '.</p><button type="button" class="btn sec" data-ruta="1">Calcular ruta desde mi ubicación</button>' + enlRapido + '</div>';
+    if (rutaCalc.estado === 'buscando') return h + '<p class="ayuda">Buscando tu ubicación…</p></div>';
+    if (rutaCalc.estado === 'error') return h + '<p class="ayuda aviso-err">' + esc(rutaCalc.msg || 'No he podido calcular la ruta.') + '</p><button type="button" class="btn sec" data-ruta="1">Reintentar</button>' + enlRapido + '</div>';
+    h += '<ol class="ruta-res">' + rutaCalc.paradas.map(function (s) { return '<li><b>' + esc(s.nombre) + '</b>: ' + (s.lugar ? esc(s.lugar) + ' · ' + (s.m < 1000 ? s.m + ' m' : (s.m / 1000).toFixed(1).replace('.', ',') + ' km') : (rutaCalc.afinando ? 'buscando la más cercana…' : 'Maps elegirá la más cercana')) + '</li>'; }).join('') + '</ol>' +
+      (rutaCalc.afinando ? '<p class="ayuda">Afinando tiendas cercanas…</p>' : (rutaCalc.encontradas === 0 ? '<p class="ayuda">No he podido consultar el mapa de tiendas. La ruta usa búsquedas de Maps para cada tipo.</p>' : '')) +
       '<a class="btn sec" href="' + rutaCalc.url + '" target="_blank" rel="noopener">Abrir ruta completa en Maps' + (casa ? ' (con vuelta a casa)' : '') + '</a><button type="button" class="reiniciar" data-ruta="1">Recalcular</button>';
     return h + '</div>';
   }

@@ -18,4 +18,5 @@ La lista de la compra se convierte en una ruta por tiendas: cada cosa se compra 
 - [x] 7. Ruta dinámica con la tienda más cercana de cada tipo.
 - [ ] 8. Sumar cantidades de ingredientes repetidos.
 - [ ] 9. Horarios por tienda y avisos si está cerrada.
-- [ ] 10. Probar la ruta con datos reales en más ciudades.
+- [ ] 10. Probar la ruta con datos reales de Overpass en más ciudades (no verificable desde el entorno de desarrollo, sin internet).
+- [x] 11. Enlace de ruta válido desde el primer momento, errores visibles y servidores Overpass en paralelo.

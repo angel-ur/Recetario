@@ -18,5 +18,6 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 - Receta: sin portada grande, método en su propia tarjeta, «Organiza el día» plegable, menú que se esconde al bajar.
 
 ### Corregido
+- La ruta de la compra: enlace a Maps inmediato (sin esperar a Overpass), mensajes de error visibles y servidores en paralelo con tope de 8 s.
 - iOS: doble toque en mapa y fichas (causa: `:hover` en elementos tocables).
 - Desbordamiento horizontal en las recetas en iPhone.

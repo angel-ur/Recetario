@@ -634,3 +634,4 @@ details.plan[open] > summary { margin-bottom: 12px; }
 .vuelta { margin-top: 14px; display: grid; gap: 8px; justify-items: start; }
 .ruta-res { margin: 0 0 6px; padding-left: 20px; display: grid; gap: 4px; font-size: 14.5px; }
 .ruta-res b { color: var(--azul-osc); }
+.aviso-err { color: var(--vino); font-weight: 600; }
