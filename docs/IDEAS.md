@@ -48,7 +48,7 @@ Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-act
 - Cada receta puede tener una ilustracion propia en `data/ilustraciones/<id>.svg` (viewBox 0 0 320 180, sin etiqueta svg exterior). `scripts/build.py` la usa si existe; si no, cae al sprite simple de `js/escenas.js`.
 - Se generan con `scripts/ilu_*.py` (+ `scripts/ilu_lib.py`). En el SVG los ids de degradado empiezan por `ID`; el build los prefija por receta.
 - Estilo acordado: fondo crema, plato ovalado con aro azul (var(--anil)), composicion simple, un plato reconocible y poco mas. Referencia de nivel: gazpacho. El tempeh es la excepcion (escena con tabla de madera, aprobada).
-- Hechas: tempeh, paella, tortilla (entera, cupula dorada), cocido, gazpacho, caldo, fabada, lentejas, croquetas, crema catalana (cazuelita, costra y pala), pulpo (tabla de madera), marmitako, migas (sarten y uvas), pisto (sarten y huevo), arroz con leche, xato, papas (arrugadas con mojos), tumbet (capas y tomate), chilindron, pil-pil (bacalao en su gelatina), caldereta, callos. Siguientes: rabo, empanada, lechazo, ropa vieja, sopas...
+- Hechas: tempeh, paella, tortilla (entera, cupula dorada), cocido, gazpacho, caldo, fabada, lentejas, croquetas, crema catalana (cazuelita, costra y pala), pulpo (tabla de madera), marmitako, migas (sarten y uvas), pisto (sarten y huevo), arroz con leche, xato, papas (arrugadas con mojos), tumbet (capas y tomate), chilindron, pil-pil (bacalao en su gelatina), caldereta, callos, empanada gallega (redonda con su cuña), lechazo (paletilla en barro), ropa vieja. Siguientes: rabo, sopas...
 
 ## La compra por tienda (v1)
 - En «La compra» hay un selector Por receta / Por tienda (localStorage `cvista`).
