@@ -1789,7 +1789,7 @@
      {
       "t": "Lava los callos",
       "m": 15,
-      "x": "Lávalos con agua fría y vinagre, escúrrelos y córtalos en trozos. Escalda el morro igual.",
+      "x": "Lávalos con agua fría y 3 cucharadas de vinagre, escúrrelos y córtalos en trozos. Escalda el morro igual.",
       "ab": "Dos o tres aguas: lo que se queda sin limpiar se nota en el plato.",
       "f": 0,
       "e": {
@@ -1806,7 +1806,7 @@
      {
       "t": "Cuece despacio",
       "m": 120,
-      "x": "En olla con agua, laurel y sal, cuece a fuego suave, quitando la espuma, hasta que estén tiernos.",
+      "x": "En una olla con 3 litros de agua, el laurel y 1 cucharada de sal, cuece a fuego suave (apenas burbujeando) 2 horas, quitando la espuma, hasta que estén tiernos.",
       "ab": "Se prueba pinchando: tiene que cortarse con la cuchara.",
       "f": 2,
       "w": 1,
@@ -1838,7 +1838,7 @@
      {
       "t": "Sofrito",
       "m": 20,
-      "x": "Pocha cebolla y ajo picados con el jamón, añade harina y pimentón fuera del fuego, y moja con un poco del caldo.",
+      "x": "En 4 cucharadas de aceite pocha las 2 cebollas y los 3 ajos picados con los 100 g de jamón, 15 minutos a fuego medio. Retira del fuego, añade 1 cucharada de harina y 1 cucharada de pimentón dulce (con una pizca de picante), remueve 10 segundos y moja con 300 ml del caldo de cocer.",
       "ab": "El pimentón se quema en un segundo y amarga: aparta del fuego antes de echarlo.",
       "f": 3,
       "e": {
@@ -1869,7 +1869,7 @@
      {
       "t": "Todo junto",
       "m": 60,
-      "x": "Une callos, salsa, chorizo, morcilla y guindilla, cubre con el caldo justo y deja a fuego muy suave hasta que la salsa esté ligada.",
+      "x": "Une callos, salsa, chorizo, morcilla y guindilla, cubre con el caldo justo (unos 500 ml más) y deja a fuego muy suave, 1 hora, hasta que la salsa esté ligada.",
       "ab": "Ligada, no seca: tiene que quedar una salsa brillante y espesa.",
       "f": 1,
       "e": {
@@ -4813,7 +4813,7 @@
      {
       "t": "Sala y coloca",
       "m": 10,
-      "x": "Sala el lechazo y colócalo en una cazuela de barro, con la piel hacia arriba.",
+      "x": "Sala el lechazo con 1 cucharada de sal gorda (y 1 cucharada de manteca si tienes, repartida por encima) y colócalo en una cazuela de barro, con la piel hacia arriba.",
       "ab": "Con la piel hacia arriba para que se dore sin secarse.",
       "f": 0,
       "e": {
@@ -4831,7 +4831,7 @@
      {
       "t": "Agua",
       "m": 2,
-      "x": "Añade un vaso de agua en el fondo y el laurel.",
+      "x": "Añade 200 ml de agua (un vaso) en el fondo y la hoja de laurel. Enciende el horno a 190 °C.",
       "ab": "Poca agua: para que la carne no se seque, no para hervir.",
       "f": 0,
       "e": {
@@ -4857,7 +4857,7 @@
      {
       "t": "Horno fuerte",
       "m": 60,
-      "x": "A 190 °C. Hornea sin tocar, hasta que la carne empiece a dorarse.",
+      "x": "A 190 °C. Hornea con calor arriba y abajo, sin tocar, 1 hora, hasta que la carne empiece a dorarse.",
       "f": 0,
       "e": {
        "k": "horno",
@@ -4875,7 +4875,7 @@
      {
       "t": "Da la vuelta",
       "m": 45,
-      "x": "A 180 °C. Dale la vuelta, riega con su jugo y termina de asar.",
+      "x": "A 180 °C. Baja el horno a 180 °C, dale la vuelta, riega con su jugo cada 15 minutos y termina de asar 45 minutos, hasta que la piel esté crujiente y la carne se separe del hueso.",
       "ab": "Riega con cuchara y paciencia, sin pincharlo.",
       "f": 0,
       "e": {
@@ -4896,7 +4896,7 @@
      {
       "t": "Reposa",
       "m": 10,
-      "x": "Saca y deja reposar tapado antes de servir.",
+      "x": "Saca y deja reposar tapado con papel de aluminio 10 minutos antes de servir.",
       "f": 0,
       "e": {
        "k": "plato",
@@ -9639,7 +9639,7 @@
      {
       "t": "Adoba",
       "m": 10,
-      "x": "Sala el ternasco, úntalo con un poco de aceite y ponlo en la bandeja con los ajos sin pelar.",
+      "x": "Sala el ternasco con 1 cucharadita de sal, úntalo con 2 cucharadas de aceite y pimienta, y ponlo en la bandeja con la cabeza de ajos abierta por la mitad (sin pelar). Enciende el horno a 190 °C.",
       "f": 0,
       "e": {
        "k": "plato",
@@ -9660,7 +9660,7 @@
      {
       "t": "Patatas panadera",
       "m": 10,
-      "x": "Corta las patatas en rodajas gruesas, sálalas y colócalas debajo y alrededor de la carne.",
+      "x": "Pela 800 g de patatas y córtalas en rodajas de 1 cm, sálalas con 1 cucharadita de sal y colócalas debajo y alrededor de la carne.",
       "ab": "Debajo de la carne para que beban el jugo.",
       "f": 0,
       "e": {
@@ -9692,7 +9692,7 @@
      {
       "t": "Horno",
       "m": 50,
-      "x": "A 190 °C. Hornea y riega de vez en cuando con el vino y el limón.",
+      "x": "A 190 °C. Hornea con calor arriba y abajo y riega cada 15 minutos con una mezcla de 150 ml de vino blanco y el zumo de 1/2 limón.",
       "f": 0,
       "e": {
        "k": "horno",
@@ -9714,8 +9714,8 @@
      {
       "t": "Vuelta",
       "m": 35,
-      "x": "A 190 °C. Dale la vuelta a la carne, riega y asa hasta que esté dorada y las patatas tiernas.",
-      "ab": "Si se secan las patatas, añade un poco de agua caliente.",
+      "x": "A 190 °C. Dale la vuelta a la carne, riega con su jugo y asa hasta que esté dorada y las patatas tiernas.",
+      "ab": "Si se secan las patatas, añade 100 ml de agua caliente.",
       "f": 0,
       "e": {
        "k": "horno",

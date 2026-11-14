@@ -32,16 +32,16 @@ El plato de las tabernas de Madrid en invierno. Lleva tiempo y una buena limpiez
 
 ### Limpiar y cocer
 
-1. **Lava los callos** (15 min) - Lávalos con agua fría y vinagre, escúrrelos y córtalos en trozos. Escalda el morro igual.
+1. **Lava los callos** (15 min) - Lávalos con agua fría y 3 cucharadas de vinagre, escúrrelos y córtalos en trozos. Escalda el morro igual.
    > Dos o tres aguas: lo que se queda sin limpiar se nota en el plato.
-2. **Cuece despacio** (120 min) - En olla con agua, laurel y sal, cuece a fuego suave, quitando la espuma, hasta que estén tiernos.
+2. **Cuece despacio** (120 min) - En una olla con 3 litros de agua, el laurel y 1 cucharada de sal, cuece a fuego suave (apenas burbujeando) 2 horas, quitando la espuma, hasta que estén tiernos.
    > Se prueba pinchando: tiene que cortarse con la cuchara.
 
 ### La salsa
 
-3. **Sofrito** (20 min) - Pocha cebolla y ajo picados con el jamón, añade harina y pimentón fuera del fuego, y moja con un poco del caldo.
+3. **Sofrito** (20 min) - En 4 cucharadas de aceite pocha las 2 cebollas y los 3 ajos picados con los 100 g de jamón, 15 minutos a fuego medio. Retira del fuego, añade 1 cucharada de harina y 1 cucharada de pimentón dulce (con una pizca de picante), remueve 10 segundos y moja con 300 ml del caldo de cocer.
    > El pimentón se quema en un segundo y amarga: aparta del fuego antes de echarlo.
-4. **Todo junto** (60 min) - Une callos, salsa, chorizo, morcilla y guindilla, cubre con el caldo justo y deja a fuego muy suave hasta que la salsa esté ligada.
+4. **Todo junto** (60 min) - Une callos, salsa, chorizo, morcilla y guindilla, cubre con el caldo justo (unos 500 ml más) y deja a fuego muy suave, 1 hora, hasta que la salsa esté ligada.
    > Ligada, no seca: tiene que quedar una salsa brillante y espesa.
 
 ## Secretos de la abuela

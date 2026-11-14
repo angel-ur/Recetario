@@ -25,17 +25,17 @@ El asado de las celebraciones castellanas: carne de lechazo muy tierna, piel dor
 
 ### Preparar
 
-1. **Sala y coloca** (10 min) - Sala el lechazo y colócalo en una cazuela de barro, con la piel hacia arriba.
+1. **Sala y coloca** (10 min) - Sala el lechazo con 1 cucharada de sal gorda (y 1 cucharada de manteca si tienes, repartida por encima) y colócalo en una cazuela de barro, con la piel hacia arriba.
    > Con la piel hacia arriba para que se dore sin secarse.
-2. **Agua** (2 min) - Añade un vaso de agua en el fondo y el laurel.
+2. **Agua** (2 min) - Añade 200 ml de agua (un vaso) en el fondo y la hoja de laurel. Enciende el horno a 190 °C.
    > Poca agua: para que la carne no se seque, no para hervir.
 
 ### El horno
 
-3. **Horno fuerte** (60 min, 190 °C) - Hornea sin tocar, hasta que la carne empiece a dorarse.
-4. **Da la vuelta** (45 min, 180 °C) - Dale la vuelta, riega con su jugo y termina de asar.
+3. **Horno fuerte** (60 min, 190 °C) - Hornea con calor arriba y abajo, sin tocar, 1 hora, hasta que la carne empiece a dorarse.
+4. **Da la vuelta** (45 min, 180 °C) - Baja el horno a 180 °C, dale la vuelta, riega con su jugo cada 15 minutos y termina de asar 45 minutos, hasta que la piel esté crujiente y la carne se separe del hueso.
    > Riega con cuchara y paciencia, sin pincharlo.
-5. **Reposa** (10 min) - Saca y deja reposar tapado antes de servir.
+5. **Reposa** (10 min) - Saca y deja reposar tapado con papel de aluminio 10 minutos antes de servir.
 
 ## Secretos de la abuela
 

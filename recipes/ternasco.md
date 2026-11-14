@@ -26,15 +26,15 @@ El ternasco, cordero joven de Aragón, se asa con poco: ajo, un vaso de vino y p
 
 ### Preparar
 
-1. **Adoba** (10 min) - Sala el ternasco, úntalo con un poco de aceite y ponlo en la bandeja con los ajos sin pelar.
-2. **Patatas panadera** (10 min) - Corta las patatas en rodajas gruesas, sálalas y colócalas debajo y alrededor de la carne.
+1. **Adoba** (10 min) - Sala el ternasco con 1 cucharadita de sal, úntalo con 2 cucharadas de aceite y pimienta, y ponlo en la bandeja con la cabeza de ajos abierta por la mitad (sin pelar). Enciende el horno a 190 °C.
+2. **Patatas panadera** (10 min) - Pela 800 g de patatas y córtalas en rodajas de 1 cm, sálalas con 1 cucharadita de sal y colócalas debajo y alrededor de la carne.
    > Debajo de la carne para que beban el jugo.
 
 ### Asar
 
-3. **Horno** (50 min, 190 °C) - Hornea y riega de vez en cuando con el vino y el limón.
-4. **Vuelta** (35 min, 190 °C) - Dale la vuelta a la carne, riega y asa hasta que esté dorada y las patatas tiernas.
-   > Si se secan las patatas, añade un poco de agua caliente.
+3. **Horno** (50 min, 190 °C) - Hornea con calor arriba y abajo y riega cada 15 minutos con una mezcla de 150 ml de vino blanco y el zumo de 1/2 limón.
+4. **Vuelta** (35 min, 190 °C) - Dale la vuelta a la carne, riega con su jugo y asa hasta que esté dorada y las patatas tiernas.
+   > Si se secan las patatas, añade 100 ml de agua caliente.
 
 ## Secretos de la abuela
 
