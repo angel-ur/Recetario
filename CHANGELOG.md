@@ -2,6 +2,9 @@
 
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
+## [Sin publicar]
+- Ruta dentro de la app con mapa propio y paradas en orden; ya no abre Google Maps.
+
 ## [Unreleased]
 
 ### Añadido

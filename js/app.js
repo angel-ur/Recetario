@@ -310,34 +310,22 @@
     return u;
   }
 
-  /* Ruta dinamica: la tienda mas cercana de cada tipo a tu ubicacion actual (OpenStreetMap/Overpass) y ruta completa en Google Maps */
-  var OSM = {
-    super: 'shop"="supermarket', especia: 'shop"~"^(spices|herbalist|health_food)$', legumbre: 'shop"~"^(deli|health_food|farm)$', arroz: 'shop"~"^(deli|health_food)$',
-    aceite: 'shop"~"^(deli|wine|farm)$', despensa: 'shop"~"^(deli|health_food)$', panaderia: 'shop"="bakery', verdura: 'shop"~"^(greengrocer|farm)$',
-    huevo: 'shop"~"^(farm|dairy|greengrocer|deli)$', carne: 'shop"="butcher', embutido: 'shop"~"^(deli|butcher|charcuterie)$', pescado: 'shop"="seafood'
-  };
-  var OVERPASS = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter', 'https://overpass.private.coffee/api/interpreter'];
-  var rutaCalc = null; // { estado:'buscando'|'lista'|'error', paradas:[...], url }
+  /* Ruta dentro de la app: tienda mas cercana de cada tipo (Nominatim/OpenStreetMap), ruta a pie (OSRM) y mapa Leaflet */
+  var BUSCA = { super: '[shop=supermarket]', especia: '[shop=spices]', legumbre: '[shop=supermarket]', arroz: '[shop=supermarket]', aceite: '[shop=deli]', despensa: '[shop=supermarket]', panaderia: '[shop=bakery]', verdura: '[shop=greengrocer]', huevo: '[shop=greengrocer]', carne: '[shop=butcher]', embutido: '[shop=deli]', pescado: '[shop=seafood]' };
+  var rutaCalc = null; // { estado:'buscando'|'lista'|'error', msg, ... }
   function metros(a, b, c, d) { var R0 = 6371000, r = Math.PI / 180, dl = (c - a) * r, dn = (d - b) * r; var x = Math.sin(dl / 2) * Math.sin(dl / 2) + Math.cos(a * r) * Math.cos(c * r) * Math.sin(dn / 2) * Math.sin(dn / 2); return 2 * R0 * Math.asin(Math.sqrt(x)); }
+  function conTope(p, ms) { return new Promise(function (ok, ko) { var t = setTimeout(function () { ko(new Error('tiempo')); }, ms); p.then(function (v) { clearTimeout(t); ok(v); }, function (e) { clearTimeout(t); ko(e); }); }); }
   function masCercana(id, la, lo) {
-    var q = '[out:json][timeout:12];nwr["' + OSM[id] + '"]["name"](around:3000,' + la + ',' + lo + ');out center 40;';
-    function uno(url) {
-      var ctl = window.AbortController ? new AbortController() : null, to = setTimeout(function () { if (ctl) ctl.abort(); }, 7000);
-      return fetch(url + '?data=' + encodeURIComponent(q), ctl ? { signal: ctl.signal } : {}).then(function (r) { clearTimeout(to); return r.ok ? r.json() : Promise.reject(new Error('http ' + r.status)); }).then(function (j) {
-        var best = null;
-        (j.elements || []).forEach(function (e) {
-          var y = e.lat !== undefined ? e.lat : e.center && e.center.lat, x = e.lon !== undefined ? e.lon : e.center && e.center.lon;
-          if (y === undefined || x === undefined) return;
-          var m = metros(la, lo, y, x); if (!best || m < best.m) best = { n: (e.tags && e.tags.name) || '', lat: y, lon: x, m: Math.round(m) };
-        });
-        return best || { vacio: true };
+    var dla = 0.025, dlo = 0.033; // ~2,5 km
+    var u = 'https://nominatim.openstreetmap.org/search?format=jsonv2&limit=30&bounded=1&accept-language=es&q=' + encodeURIComponent(BUSCA[id]) + '&viewbox=' + (lo - dlo) + ',' + (la + dla) + ',' + (lo + dlo) + ',' + (la - dla);
+    return conTope(fetch(u).then(function (r) { return r.ok ? r.json() : Promise.reject(new Error('http ' + r.status)); }), 9000).then(function (arr) {
+      var best = null;
+      (arr || []).forEach(function (e) {
+        var y = +e.lat, x = +e.lon, n = e.name || (e.display_name || '').split(',')[0];
+        if (!n || isNaN(y) || isNaN(x)) return;
+        var m = metros(la, lo, y, x); if (!best || m < best.m) best = { n: n, lat: y, lon: x, m: Math.round(m) };
       });
-    }
-    // los servidores se prueban a la vez: gana el primero que responde; tope de 8 s en total
-    return new Promise(function (ok) {
-      var fallos = 0, hecho = false, fin = function (r) { if (!hecho) { hecho = true; ok(r); } };
-      setTimeout(function () { fin(null); }, 8000);
-      OVERPASS.forEach(function (u) { uno(u).then(function (r) { fin(r.vacio ? null : r); }, function () { if (++fallos === OVERPASS.length) fin(null); }); });
+      return best;
     });
   }
   function paradasActivas() {
@@ -346,41 +334,78 @@
     ORDEN_TOUR.forEach(function (id) { if (vistos[id]) out.push(vistos[id]); });
     return out;
   }
-  function urlRuta(la, lo, ps) {
-    var pts = ps.slice(0, 9).map(function (s) { return s.lat !== undefined ? s.lat + ',' + s.lon : (s.id === 'super' ? 'supermercado' : MAPAQ[s.id]); });
-    var u = 'https://www.google.com/maps/dir/?api=1&travelmode=walking';
-    if (la !== null) u += '&origin=' + la + ',' + lo; // sin origen, Maps usa tu ubicacion actual
-    var dest = casa ? casa.lat + ',' + casa.lon : (la !== null ? la + ',' + lo : pts.pop());
-    if (!dest) return '';
-    return u + '&destination=' + encodeURIComponent(dest) + (pts.length ? '&waypoints=' + encodeURIComponent(pts.join('|')) : '');
-  }
+  function dormir(ms) { return new Promise(function (ok) { setTimeout(ok, ms); }); }
   function calculaRuta() {
-    if (!navigator.geolocation) { rutaCalc = { estado: 'error', msg: 'Este navegador no da la ubicación.', paradas: [] }; repintaCompra(); return; }
-    rutaCalc = { estado: 'buscando', paradas: [] }; repintaCompra();
-    var tope = setTimeout(function () { if (rutaCalc && rutaCalc.estado === 'buscando') { rutaCalc = { estado: 'error', msg: 'La ubicación tarda demasiado. Mira que el navegador tenga permiso de ubicación para esta web.', paradas: [] }; repintaCompra(); } }, 15000);
+    if (!navigator.geolocation) { rutaCalc = { estado: 'error', msg: 'Este navegador no da la ubicación.' }; repintaCompra(); return; }
+    rutaCalc = { estado: 'buscando', msg: 'Buscando tu ubicación…' }; repintaCompra();
+    var tope = setTimeout(function () { if (rutaCalc && rutaCalc.estado === 'buscando' && !rutaCalc.ya) { rutaCalc = { estado: 'error', msg: 'La ubicación tarda demasiado. Mira que el navegador tenga permiso de ubicación para esta web.' }; repintaCompra(); } }, 15000);
     navigator.geolocation.getCurrentPosition(function (pos) {
+      clearTimeout(tope);
       var la = Math.round(pos.coords.latitude * 1e5) / 1e5, lo = Math.round(pos.coords.longitude * 1e5) / 1e5;
-      var ps = paradasActivas();
-      // enlace ya valido desde el primer momento (Maps resuelve cada tipo); luego se afina con las tiendas encontradas
-      rutaCalc = { estado: 'lista', afinando: true, paradas: ps.map(function (p) { return { id: p.id, nombre: p.nombre }; }), la: la, lo: lo, url: urlRuta(la, lo, ps) }; clearTimeout(tope); repintaCompra();
-      Promise.all(ps.map(function (p) { return masCercana(p.id, la, lo).then(function (r) { var o = { id: p.id, nombre: p.nombre }; if (r) { o.lat = r.lat; o.lon = r.lon; o.lugar = r.n; o.m = r.m; } return o; }); })).then(function (res) {
-        if (!rutaCalc || rutaCalc.estado !== 'lista') return;
-        rutaCalc = { estado: 'lista', paradas: res, la: la, lo: lo, url: urlRuta(la, lo, res), encontradas: res.filter(function (s) { return s.lugar; }).length };
-        repintaCompra();
+      var ps = paradasActivas(), res = [], mio = rutaCalc = { estado: 'buscando', ya: true, msg: 'Buscando las tiendas más cercanas…' };
+      repintaCompra();
+      var cadena = Promise.resolve();
+      ps.forEach(function (p, i) {
+        cadena = cadena.then(function () { return dormir(i ? 1100 : 0); }).then(function () { return masCercana(p.id, la, lo); }).then(function (r) { return r; }, function () { return null; }).then(function (r) {
+          var o = { id: p.id, nombre: p.nombre }; if (r) { o.lat = r.lat; o.lon = r.lon; o.lugar = r.n; o.m = r.m; } res.push(o);
+          if (rutaCalc === mio) { mio.msg = 'Buscando las tiendas más cercanas… (' + res.length + '/' + ps.length + ')'; var el = document.getElementById('ruta-msg'); if (el) el.textContent = mio.msg; }
+        });
       });
-    }, function (err) { clearTimeout(tope); rutaCalc = { estado: 'error', msg: err && err.code === 1 ? 'Sin permiso de ubicación. En el iPhone: Ajustes > Privacidad > Localización > tu navegador > «Al usar la app», y recarga.' : 'No he podido ver tu ubicación ahora. Inténtalo de nuevo.', paradas: [] }; repintaCompra(); }, { timeout: 12000, maximumAge: 60000 });
+      cadena.then(function () {
+        if (rutaCalc !== mio) return;
+        var con = res.filter(function (s) { return s.lat !== undefined; });
+        if (!con.length) { rutaCalc = { estado: 'error', msg: 'No he encontrado ninguna de esas tiendas a menos de 2,5 km de ti. Prueba desde otra zona.' }; repintaCompra(); return; }
+        var pts = [{ lat: la, lon: lo }].concat(con);
+        if (casa) pts.push({ lat: casa.lat, lon: casa.lon });
+        var url = 'https://router.project-osrm.org/route/v1/foot/' + pts.map(function (q) { return q.lon + ',' + q.lat; }).join(';') + '?overview=full&geometries=geojson';
+        return conTope(fetch(url).then(function (r) { return r.ok ? r.json() : Promise.reject(); }), 10000).then(function (j) { return j && j.code === 'Ok' ? j.routes[0] : null; }, function () { return null; }).then(function (rt) {
+          rutaCalc = { estado: 'lista', la: la, lo: lo, paradas: res, con: con, casa: !!casa, pts: pts, ruta: rt };
+          repintaCompra(); pintaMapaRuta();
+        });
+      });
+    }, function (err) { clearTimeout(tope); rutaCalc = { estado: 'error', msg: err && err.code === 1 ? 'Sin permiso de ubicación. En el iPhone: Ajustes > Privacidad y seguridad > Localización > tu navegador > «Al usar la app», y recarga.' : 'No he podido ver tu ubicación ahora. Inténtalo de nuevo.' }; repintaCompra(); }, { timeout: 12000, maximumAge: 60000 });
   }
+  function cargaLeaflet() {
+    if (window.L) return Promise.resolve();
+    return new Promise(function (ok, ko) {
+      var l = document.createElement('link'); l.rel = 'stylesheet'; l.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'; document.head.appendChild(l);
+      var s = document.createElement('script'); s.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'; s.onload = ok; s.onerror = function () { ko(new Error('leaflet')); }; document.head.appendChild(s);
+    });
+  }
+  var mapaRuta = null;
+  function pintaMapaRuta() {
+    var cont = document.getElementById('mapa-ruta'); if (!cont || !rutaCalc || rutaCalc.estado !== 'lista') return;
+    cargaLeaflet().then(function () {
+      if (mapaRuta) { mapaRuta.remove(); mapaRuta = null; }
+      var cont2 = document.getElementById('mapa-ruta'); if (!cont2) return;
+      var m = mapaRuta = L.map(cont2, { tap: false, zoomControl: true, attributionControl: true });
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© OpenStreetMap' }).addTo(m);
+      var pts = rutaCalc.pts, lls = pts.map(function (q) { return [q.lat, q.lon]; });
+      var linea = rutaCalc.ruta ? rutaCalc.ruta.geometry.coordinates.map(function (c) { return [c[1], c[0]]; }) : lls;
+      L.polyline(linea, { color: '#2e4f9e', weight: 5, opacity: .85, dashArray: rutaCalc.ruta ? null : '6 8' }).addTo(m);
+      pts.forEach(function (q, i) {
+        var ultimo = i === pts.length - 1, esCasa = rutaCalc.casa && ultimo, txt = i === 0 ? 'Tú' : esCasa ? '⌂' : String(i);
+        L.marker([q.lat, q.lon], { icon: L.divIcon({ className: '', html: '<span class="pin' + (i === 0 || esCasa ? ' pin-x' : '') + '">' + txt + '</span>', iconSize: [30, 30], iconAnchor: [15, 15] }), keyboard: false }).addTo(m).bindTooltip(i === 0 ? 'Tú' : esCasa ? 'Casa' : (q.lugar || ''));
+      });
+      m.fitBounds(L.latLngBounds(linea), { padding: [28, 28] });
+      setTimeout(function () { m.invalidateSize(); m.fitBounds(L.latLngBounds(linea), { padding: [28, 28] }); }, 250);
+    }, function () { var c3 = document.getElementById('mapa-ruta'); if (c3) c3.innerHTML = '<p class="ayuda aviso-err">No he podido cargar el mapa. Las indicaciones de abajo valen igual.</p>'; });
+  }
+  function fmtD(m) { return m < 1000 ? Math.round(m / 10) * 10 + ' m' : (m / 1000).toFixed(1).replace('.', ',') + ' km'; }
   function rutaHTML() {
-    var h = '<div class="vuelta"><p class="eti">Ruta por las tiendas más cercanas</p>';
-    var rapida = urlRuta(null, null, paradasActivas());
-    var enlRapido = rapida ? '<a class="btn sec" href="' + rapida + '" target="_blank" rel="noopener">Abrir ruta en Maps desde donde estés</a>' : '';
-    if (!rutaCalc) return h + '<p class="ayuda">Busca la tienda más cercana de cada tipo desde donde estás' + (casa ? ' y cierra la ruta en casa' : '') + '.</p><button type="button" class="btn sec" data-ruta="1">Calcular ruta desde mi ubicación</button>' + enlRapido + '</div>';
-    if (rutaCalc.estado === 'buscando') return h + '<p class="ayuda">Buscando tu ubicación…</p></div>';
-    if (rutaCalc.estado === 'error') return h + '<p class="ayuda aviso-err">' + esc(rutaCalc.msg || 'No he podido calcular la ruta.') + '</p><button type="button" class="btn sec" data-ruta="1">Reintentar</button>' + enlRapido + '</div>';
-    h += '<ol class="ruta-res">' + rutaCalc.paradas.map(function (s) { return '<li><b>' + esc(s.nombre) + '</b>: ' + (s.lugar ? esc(s.lugar) + ' · ' + (s.m < 1000 ? s.m + ' m' : (s.m / 1000).toFixed(1).replace('.', ',') + ' km') : (rutaCalc.afinando ? 'buscando la más cercana…' : 'Maps elegirá la más cercana')) + '</li>'; }).join('') + '</ol>' +
-      (rutaCalc.afinando ? '<p class="ayuda">Afinando tiendas cercanas…</p>' : (rutaCalc.encontradas === 0 ? '<p class="ayuda">No he podido consultar el mapa de tiendas. La ruta usa búsquedas de Maps para cada tipo.</p>' : '')) +
-      '<a class="btn sec" href="' + rutaCalc.url + '" target="_blank" rel="noopener">Abrir ruta completa en Maps' + (casa ? ' (con vuelta a casa)' : '') + '</a><button type="button" class="reiniciar" data-ruta="1">Recalcular</button>';
-    return h + '</div>';
+    var h = '<div class="vuelta"><p class="eti">Tu ruta</p>';
+    if (!rutaCalc) return h + '<p class="ayuda">Busca la tienda más cercana de cada tipo desde donde estás y te enseña la ruta en un mapa' + (casa ? ', con la vuelta a casa' : '') + '.</p><button type="button" class="btn sec" data-ruta="1">Ver la ruta en el mapa</button></div>';
+    if (rutaCalc.estado === 'buscando') return h + '<p class="ayuda" id="ruta-msg">' + esc(rutaCalc.msg) + '</p></div>';
+    if (rutaCalc.estado === 'error') return h + '<p class="ayuda aviso-err">' + esc(rutaCalc.msg) + '</p><button type="button" class="btn sec" data-ruta="1">Reintentar</button></div>';
+    var legs = rutaCalc.ruta ? rutaCalc.ruta.legs : [], k = 0, pasos = [];
+    rutaCalc.con.forEach(function (s, i) { var lg = legs[i]; pasos.push('<li>Ve a <b>' + esc(s.lugar) + '</b> (' + esc(s.nombre.toLowerCase()) + ')' + (lg ? ' · ' + fmtD(lg.distance) + ', ' + Math.max(1, Math.round(lg.distance / 80)) + ' min a pie' : ' · a ' + fmtD(s.m) + ' en línea recta') + '</li>'); });
+    if (rutaCalc.casa) { var lc = legs[rutaCalc.con.length]; pasos.push('<li>Vuelve a <b>casa</b>' + (lc ? ' · ' + fmtD(lc.distance) + ', ' + Math.max(1, Math.round(lc.distance / 80)) + ' min a pie' : '') + '</li>'); }
+    var sin = rutaCalc.paradas.filter(function (s) { return s.lat === undefined; });
+    var tot = rutaCalc.ruta ? '<p class="ayuda">En total: ' + fmtD(rutaCalc.ruta.distance) + ', unos ' + Math.max(1, Math.round(rutaCalc.ruta.distance / 80)) + ' min andando, sin contar las colas.</p>' : '<p class="ayuda">No he podido calcular el camino exacto; la línea punteada une las tiendas.</p>';
+    return h + '<div id="mapa-ruta" class="mapa-ruta" aria-label="Mapa de la ruta"></div>' + tot + '<ol class="ruta-res">' + pasos.join('') + '</ol>' +
+      (sin.length ? '<p class="ayuda">No he encontrado cerca: ' + sin.map(function (s) { return esc(s.nombre.toLowerCase()); }).join(', ') + '.</p>' : '') +
+      (rutaCalc.casa ? '' : '<p class="ayuda">Guarda tu casa (abajo) y la ruta termina allí.</p>') +
+      '<button type="button" class="reiniciar" data-ruta="1">Recalcular desde donde estoy</button></div>';
   }
   function compraPorReceta() {
     var grupos = {}, orden = [];
@@ -902,7 +927,7 @@
     if (t.hasAttribute('data-casa')) {
       if (!navigator.geolocation) { aviso('Tu navegador no da la ubicación.'); return; }
       aviso('Buscando dónde estás…');
-      navigator.geolocation.getCurrentPosition(function (pos) { casa = { lat: Math.round(pos.coords.latitude * 1e4) / 1e4, lon: Math.round(pos.coords.longitude * 1e4) / 1e4 }; store.set('casa', casa); if (rutaCalc && rutaCalc.estado === 'lista') rutaCalc.url = urlRuta(rutaCalc.la, rutaCalc.lo, rutaCalc.paradas); repintaCompra(); aviso('Casa guardada en este móvil.'); }, function () { aviso('No he podido ver tu ubicación. Revisa el permiso.'); }, { timeout: 10000, maximumAge: 60000 });
+      navigator.geolocation.getCurrentPosition(function (pos) { casa = { lat: Math.round(pos.coords.latitude * 1e4) / 1e4, lon: Math.round(pos.coords.longitude * 1e4) / 1e4 }; store.set('casa', casa); rutaCalc = null; repintaCompra(); aviso('Casa guardada en este móvil.'); }, function () { aviso('No he podido ver tu ubicación. Revisa el permiso.'); }, { timeout: 10000, maximumAge: 60000 });
       return;
     }
     if (t.hasAttribute('data-vaciar')) { if (window.confirm('¿Vaciar la lista de la compra?')) { compra = []; store.set('compra', compra); vistaIndice(); } return; }
