@@ -1,0 +1,25 @@
+{
+  "ES": {
+    "ambito": "España",
+    "fuente": "Mercasa, precios mayoristas (datos del Ministerio de Agricultura)",
+    "url": "https://www.mercasa.es/precios-origen-mayorista/",
+    "semana": "semana 40 de 2026",
+    "consultado": "14/11/2026",
+    "margen": [1.4, 2.2],
+    "productos": [
+      { "n": "cebolla", "re": "^cebolla$", "mayor": 0.48, "u": "kg" },
+      { "n": "zanahoria", "re": "^zanahoria$", "mayor": 0.78, "u": "kg" },
+      { "n": "patata", "re": "^patata( de guisar| para freir)?$", "mayor": 0.46, "u": "kg" },
+      { "n": "pimiento verde", "re": "^pimiento verde$", "mayor": 1.91, "u": "kg" },
+      { "n": "tomate", "re": "^tomate( redondo| de ensalada| liso)?$", "mayor": 2.50, "u": "kg" },
+      { "n": "calabacin", "re": "^calabacin$", "mayor": 0.79, "u": "kg" },
+      { "n": "judia verde", "re": "^judia verde( plana)?$", "mayor": 5.36, "u": "kg" },
+      { "n": "limon", "re": "^limon$", "mayor": 1.01, "u": "kg" },
+      { "n": "merluza", "re": "^merluza", "mayor": 11.90, "u": "kg" },
+      { "n": "sardina", "re": "^sardina", "mayor": 3.49, "u": "kg" },
+      { "n": "boqueron", "re": "^(boqueron|anchoa)", "mayor": 3.20, "u": "kg" },
+      { "n": "bonito", "re": "^bonito", "mayor": 7.31, "u": "kg" },
+      { "n": "mejillon", "re": "^mejillon", "mayor": 2.50, "u": "kg" }
+    ]
+  }
+}

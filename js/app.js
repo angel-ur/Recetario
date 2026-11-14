@@ -568,6 +568,21 @@
     g.items.forEach(function (c) { var n = notasTienda(c); if (n && !vistos[n]) { vistos[n] = 1; h += n; } });
     return h;
   }
+  /* Precios orientativos (referencia por pais; hoy solo Espana) */
+  var PRECIOS = null;
+  fetch('data/precios.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (j) { PRECIOS = j && j.ES ? j.ES : null; if (PRECIOS && document.getElementById('compra-tarjeta')) repintaCompra(); }).catch(function () {});
+  function precioDe(g) {
+    if (!PRECIOS) return null;
+    var key = parseIng(g.items[0].t).key;
+    for (var i = 0; i < PRECIOS.productos.length; i++) {
+      var p = PRECIOS.productos[i];
+      if (new RegExp(p.re).test(key)) {
+        var r = function (x) { return (Math.round(x / 0.05) * 0.05).toFixed(2).replace('.', ','); };
+        return { txt: r(p.mayor * PRECIOS.margen[0]) + ' a ' + r(p.mayor * PRECIOS.margen[1]) + ' €/' + p.u };
+      }
+    }
+    return null;
+  }
   function compraPorReceta() {
     var grupos = {}, orden = [];
     compra.forEach(function (c, n) { if (!grupos[c.r]) { grupos[c.r] = []; orden.push(c.r); } grupos[c.r].push([c, n]); });
@@ -584,7 +599,7 @@
     });
     var ids = ORDEN_TOUR.filter(function (id) { return paradas[id]; });
     var h = '<p class="ayuda">Un recorrido: lo que no se enfría primero, el pescado al final. Toca para marcar comprado; si una tienda no lo tiene, «Plan B» lo pasa a la otra opción.</p><ol class="ruta">';
-    var plist = [], k = 0;
+    var plist = [], k = 0, hayPrecio = false;
     ids.forEach(function (id) {
       var P = paradas[id], pend = P.its.filter(function (x) { return !x[0].d; });
       plist.push(P.p);
@@ -592,10 +607,11 @@
       h += '<li class="parada' + (hecha ? ' hecha' : '') + '"><div class="parada-cab"><span class="parada-n">' + (hecha ? '✓' : k) + '</span><h3>' + esc(P.p.nombre) + '</h3><a class="donde-link" href="' + enlaceParada(P.p) + '" target="_blank" rel="noopener">Mapa</a></div>' +
         '<ul class="compra-lista">' + agrupaCompra(P.its).map(function (g) {
           var c = g.items[0], ids = g.idx.join(','), hecho = g.items.every(function (z) { return z.d; }), px = g.items.some(function (z) { return z.x; });
-          return '<li class="pit"><button type="button" class="compra-it" data-compra="' + ids + '" aria-pressed="' + hecho + '">' + esc(g.texto) + (px ? '<span class="donde"><b>Plan B</b></span>' : '') + '</button>' + (hecho ? '' : '<button type="button" class="planb" data-planb="' + ids + '" aria-label="Plan B para ' + esc(g.texto) + '">' + (px ? 'Volver' : 'No lo tienen') + '</button>') + (g.multi ? '<button type="button" class="desglose" data-desglose="1" aria-expanded="false">De qué recetas ▾</button><div class="desglose-box" hidden>' + trazaGrupo(g) + '</div>' : '') + (hecho ? '' : notasGrupo(g)) + '</li>';
+          return '<li class="pit"><button type="button" class="compra-it" data-compra="' + ids + '" aria-pressed="' + hecho + '">' + esc(g.texto) + (px ? '<span class="donde"><b>Plan B</b></span>' : '') + '</button>' + (hecho ? '' : '<button type="button" class="planb" data-planb="' + ids + '" aria-label="Plan B para ' + esc(g.texto) + '">' + (px ? 'Volver' : 'No lo tienen') + '</button>') + (function () { var pr = precioDe(g); if (pr) hayPrecio = true; return pr ? '<div class="precio-o">Precio orientativo: <b>' + pr.txt + '</b></div>' : ''; })() + (g.multi ? '<button type="button" class="desglose" data-desglose="1" aria-expanded="false">De qué recetas ▾</button><div class="desglose-box" hidden>' + trazaGrupo(g) + '</div>' : '') + (hecho ? '' : notasGrupo(g)) + '</li>';
         }).join('') + '</ul></li>';
     });
     h += '</ol>';
+    if (hayPrecio && PRECIOS) h += '<p class="aviso-precio">Precios orientativos, ' + esc(PRECIOS.ambito) + ': precio mayorista de ' + esc(PRECIOS.fuente) + ', ' + esc(PRECIOS.semana) + ' (consultado el ' + esc(PRECIOS.consultado) + '), más un margen típico de tienda (×' + String(PRECIOS.margen[0]).replace('.', ',') + ' a ×' + String(PRECIOS.margen[1]).replace('.', ',') + '). Es una estimación, no un precio oficial: un mercado, una tienda de barrio o un producto ecológico pueden salirse del rango.</p>';
     var cl = Object.keys(cats);
     if (cl.length) h += '<details class="elige"><summary>Dónde compro cada cosa</summary><div class="elige-cuerpo">' + cl.map(function (c) {
       var d = cats[c], p = prefDe(c);
