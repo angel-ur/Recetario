@@ -2894,7 +2894,8 @@
         ]
        ],
        "cuchara": 1
-      }
+      },
+      "durante": 1
      },
      {
       "t": "Choricero y patata chascada",
@@ -3872,7 +3873,8 @@
         ]
        ],
        "cuchara": 1
-      }
+      },
+      "durante": 1
      }
     ]
    },
@@ -3926,7 +3928,8 @@
         ]
        ],
        "burbujas": "#F7DC8F"
-      }
+      },
+      "enlaza": true
      }
     ]
    },
@@ -5162,7 +5165,8 @@
        "k": "bol",
        "c": "#F3D477",
        "varillas": 1
-      }
+      },
+      "durante": 1
      },
      {
       "t": "Junta poco a poco",
@@ -5455,7 +5459,8 @@
          1.3
         ]
        ]
-      }
+      },
+      "durante": 2
      },
      {
       "t": "Maja en el mortero",
