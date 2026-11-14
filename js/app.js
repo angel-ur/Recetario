@@ -621,6 +621,141 @@
     }
     return null;
   }
+  /* ---------- Mis precios: historial personal ---------- */
+  var HIST = store.get('historial', []);
+  var STOP = { de: 1, del: 1, la: 1, el: 1, en: 1, al: 1, los: 1, las: 1 };
+  function eur(x) { return (Math.round(x * 100) / 100).toFixed(2).replace('.', ','); }
+  function hkey(n) { return parseIng(n).key; }
+  function palabras(k) { return k.split(' ').filter(function (w) { return w && !STOP[w]; }); }
+  function coincide(compraKey, histKey) {
+    var wc = palabras(compraKey), wh = palabras(histKey);
+    if (!wc.length || !wh.length) return false;
+    var hEnC = wh.every(function (w) { return wc.indexOf(w) > -1; });
+    if (hEnC) return true;
+    var cEnH = wc.every(function (w) { return wh.indexOf(w) > -1; });
+    return cEnH && wh.length - wc.length <= 1;
+  }
+  function fechaCorta(f) { var p = String(f).split('-'); return p.length === 3 ? p[2] + '/' + p[1] : f; }
+  function grupoHist() {
+    var gs = {}, ord = [];
+    HIST.forEach(function (e) {
+      var k = e.key + '|' + e.u;
+      if (!gs[k]) { gs[k] = { k: k, key: e.key, u: e.u, es: [] }; ord.push(gs[k]); }
+      gs[k].es.push(e);
+    });
+    ord.forEach(function (g) {
+      g.es.sort(function (a, b) { return a.f < b.f ? 1 : a.f > b.f ? -1 : (b.t || 0) - (a.t || 0); });
+      var ps = g.es.map(function (e) { return e.eur / e.cant; });
+      g.n = ps.length; g.last = ps[0]; g.min = Math.min.apply(null, ps); g.media = ps.reduce(function (a, b) { return a + b; }, 0) / ps.length;
+      g.minE = g.es[ps.indexOf(g.min)];
+      g.nombre = g.es[0].prod;
+      var porT = {};
+      g.es.forEach(function (e) { if (!(e.tienda in porT)) porT[e.tienda] = e.eur / e.cant; });
+      g.tiendas = Object.keys(porT).map(function (t) { return [t, porT[t]]; }).sort(function (a, b) { return a[1] - b[1]; });
+      g.senal = senalDe(g.last, g);
+    });
+    ord.sort(function (a, b) { return a.nombre.localeCompare(b.nombre, 'es'); });
+    return ord;
+  }
+  function senalDe(p, g) {
+    if (g.n < 2) return ['nuevo', 'Primer registro'];
+    if (p <= g.min + 0.0001) return ['minimo', 'Tu mínimo'];
+    if (p <= g.media * 0.93) return ['buen', 'Buen precio'];
+    if (p >= g.media * 1.1) return ['caro', 'Caro para ti'];
+    return ['normal', 'Normal'];
+  }
+  function guardaHist() { store.set('historial', HIST); }
+  function propioDe(g0) {
+    if (!HIST.length) return null;
+    var key = parseIng(g0.items[0].t).key, mejor = null;
+    grupoHist().forEach(function (g) { if (coincide(key, g.key) && (!mejor || g.n > mejor.n)) mejor = g; });
+    return mejor;
+  }
+  function cantTxt(e) {
+    var c = e.cant, u = e.u;
+    if (u === 'kg' && c < 1) { c = Math.round(c * 1000); u = 'g'; } else if (u === 'l' && c < 1) { c = Math.round(c * 1000); u = 'ml'; }
+    return String(c).replace('.', ',') + ' ' + (u === 'ud' ? 'ud' : u);
+  }
+  function htmlPropio(g) {
+    var p = propioDe(g); if (!p) return '';
+    var rango = p.min === p.last && p.n === 1 ? eur(p.last) : (p.n > 1 ? eur(p.min) + ' a ' + eur(Math.max.apply(null, p.es.map(function (e) { return e.eur / e.cant; }))) : eur(p.last));
+    return '<div class="precio-p">Tu precio: <b>' + rango + ' €/' + p.u + '</b>' + (p.n > 1 ? ' · media ' + eur(p.media) : '') + (p.tiendas.length > 1 ? ' · más barato en ' + esc(p.tiendas[0][0]) : ' · ' + esc(p.tiendas[0][0])) + ' · última: ' + eur(p.es[0].eur) + ' € por ' + cantTxt(p.es[0]) + '</div>';
+  }
+  function tiendasConocidas() { var m = {}; HIST.forEach(function (e) { m[e.tienda] = 1; }); return Object.keys(m).sort(); }
+  function preciosHTML() {
+    var gs = grupoHist(), hoy = new Date(), iso = hoy.getFullYear() + '-' + ('0' + (hoy.getMonth() + 1)).slice(-2) + '-' + ('0' + hoy.getDate()).slice(-2);
+    var buenos = gs.filter(function (g) { return g.n > 1 && (g.senal[0] === 'minimo' || g.senal[0] === 'buen'); });
+    var h = '<section class="tarjeta" id="sec-precios" aria-labelledby="t-precios"><div class="seccion-cab"><h2 id="t-precios">Mis precios</h2><span class="ayuda">' + gs.length + ' producto' + (gs.length === 1 ? '' : 's') + '</span></div>' +
+      '<p class="ayuda">Apunta lo que pagas y te aviso cuándo está barato, comparando con tus propias compras. Se guarda en este móvil.</p>' +
+      (buenos.length ? '<p class="pr-buenos"><b>Ahora con buen precio:</b> ' + buenos.map(function (g) { return esc(g.nombre) + ' (' + eur(g.last) + ' €/' + g.u + ')'; }).join(', ') + '</p>' : '') +
+      '<button type="button" class="btn" data-pr="forma" aria-expanded="false">Apuntar un precio</button>' +
+      '<form class="pr-form" id="pr-form" hidden autocomplete="off">' +
+      '<label>Producto<input name="prod" type="text" list="pr-prods" required placeholder="Ej.: rabo de toro"></label>' +
+      '<datalist id="pr-prods">' + gs.map(function (g) { return '<option value="' + esc(g.nombre) + '">'; }).join('') + '</datalist>' +
+      '<label>Tienda<input name="tienda" type="text" list="pr-tiendas" required placeholder="Ej.: Carnicería de la esquina"></label>' +
+      '<datalist id="pr-tiendas">' + tiendasConocidas().map(function (t) { return '<option value="' + esc(t) + '">'; }).join('') + '</datalist>' +
+      '<div class="pr-fila"><label>Pagué (€)<input name="eur" type="text" inputmode="decimal" required placeholder="3,50"></label>' +
+      '<label>Por<input name="cant" type="text" inputmode="decimal" required placeholder="0,5"></label>' +
+      '<label>Unidad<select name="u"><option value="kg">kg</option><option value="g">g</option><option value="l">litro</option><option value="ml">ml</option><option value="ud">unidad</option></select></label></div>' +
+      '<label>Fecha<input name="f" type="date" value="' + iso + '" required></label>' +
+      '<p class="pr-msg" id="pr-msg" role="status"></p><button type="submit" class="btn">Guardar</button></form>';
+    if (!gs.length) return h + '<p class="ayuda" style="margin-top:12px">Todavía no hay precios apuntados.</p></section>';
+    h += '<ul class="pr-lista">' + gs.map(function (g) {
+      var s = g.senal;
+      return '<li class="pr-it"><button type="button" class="pr-cab" data-pr="det" aria-expanded="false"><span class="pr-n">' + esc(g.nombre) + '</span>' +
+        '<span class="pr-u num">' + eur(g.last) + ' €/' + g.u + '</span><span class="pr-badge ' + s[0] + '">' + s[1] + '</span>' +
+        '<span class="pr-sub">' + esc(g.es[0].tienda) + (g.n > 1 ? ' · mín ' + eur(g.min) + ' · media ' + eur(g.media) + ' · ' + g.n + ' registros' : '') + (g.tiendas.length > 1 ? ' · más barato: ' + esc(g.tiendas[0][0]) + ' ' + eur(g.tiendas[0][1]) : '') + '</span></button>' +
+        '<div class="pr-det" hidden><ul>' + g.es.map(function (e) {
+          return '<li><span>' + fechaCorta(e.f) + ' · ' + esc(e.tienda) + '<br><small>' + eur(e.eur) + ' € por ' + String(e.cant).replace('.', ',') + ' ' + e.u + ' = ' + eur(e.eur / e.cant) + ' €/' + e.u + (e.nota ? ' · ' + esc(e.nota) : '') + '</small></span><button type="button" class="pr-borra" data-pr="del" data-id="' + esc(e.id) + '" aria-label="Borrar este precio">Borrar</button></li>';
+        }).join('') + '</ul></div></li>';
+    }).join('') + '</ul></section>';
+    return h;
+  }
+  function repintaPrecios() { var s = document.getElementById('sec-precios'); if (s) s.outerHTML = preciosHTML(); }
+  function importaSemilla() {
+    if (location.search.indexOf('semilla=1') < 0) return;
+    if (store.get('semilla1', false)) { history.replaceState(null, '', location.pathname + location.hash); return; }
+    fetch('data/semilla-precios.json').then(function (r) { return r.ok ? r.json() : []; }).then(function (arr) {
+      var ids = {}; HIST.forEach(function (e) { ids[e.id] = 1; });
+      arr.forEach(function (s) { if (!ids[s.id]) { s.key = hkey(s.prod); HIST.push(s); } });
+      guardaHist(); store.set('semilla1', true);
+      history.replaceState(null, '', location.pathname + location.hash);
+      repintaPrecios(); repintaCompra();
+    }).catch(function () {});
+  }
+  document.addEventListener('click', function (ev) {
+    var t = ev.target.closest('[data-pr]'); if (!t) return;
+    var a = t.getAttribute('data-pr');
+    if (a === 'forma') { var f = document.getElementById('pr-form'); f.hidden = !f.hidden; t.setAttribute('aria-expanded', f.hidden ? 'false' : 'true'); if (!f.hidden) f.querySelector('input').focus(); return; }
+    if (a === 'det') { var d = t.nextElementSibling; d.hidden = !d.hidden; t.setAttribute('aria-expanded', d.hidden ? 'false' : 'true'); return; }
+    if (a === 'del') {
+      var id = t.getAttribute('data-id');
+      if (t.getAttribute('data-sure') !== '1') { t.setAttribute('data-sure', '1'); t.textContent = 'Seguro'; return; }
+      HIST = HIST.filter(function (e) { return e.id !== id; }); guardaHist(); repintaPrecios(); repintaCompra();
+    }
+  });
+  document.addEventListener('submit', function (ev) {
+    var f = ev.target; if (f.id !== 'pr-form') return;
+    ev.preventDefault();
+    var num = function (v) { return parseFloat(String(v).replace(',', '.')); };
+    var m = f.elements, e = num(m.eur.value), c = num(m.cant.value), u = m.u.value, msg = document.getElementById('pr-msg');
+    if (!(e > 0) || !(c > 0) || !m.prod.value.trim() || !m.tienda.value.trim()) { msg.textContent = 'Falta el producto, la tienda, el importe o la cantidad.'; return; }
+    if (u === 'g') { c = c / 1000; u = 'kg'; } else if (u === 'ml') { c = c / 1000; u = 'l'; }
+    var prod = m.prod.value.trim(), key = hkey(prod);
+    var previo = grupoHist().filter(function (g) { return g.key === key && g.u === u; })[0];
+    var nuevo = { id: 'u' + Date.now().toString(36), t: Date.now(), prod: prod, key: key, tienda: m.tienda.value.trim(), eur: e, cant: c, u: u, nota: '', f: m.f.value };
+    var unit = e / c, aviso;
+    if (!previo) aviso = 'Guardado. Es el primer precio de ' + prod + ': ' + eur(unit) + ' €/' + u + '.';
+    else {
+      var s = senalDe(unit, { n: previo.n + 1, min: Math.min(previo.min, unit), media: (previo.media * previo.n + unit) / (previo.n + 1) });
+      aviso = 'Guardado: ' + eur(unit) + ' €/' + u + '. ' + (s[0] === 'minimo' ? 'Es tu precio más bajo hasta ahora (antes ' + eur(previo.min) + ').' : s[0] === 'buen' ? 'Por debajo de tu media (' + eur(previo.media) + ').' : s[0] === 'caro' ? 'Más caro que tu media (' + eur(previo.media) + ').' : 'Cerca de tu media (' + eur(previo.media) + ').');
+    }
+    HIST.push(nuevo); guardaHist(); repintaPrecios(); repintaCompra();
+    var mm = document.getElementById('pr-msg'); if (mm) mm.textContent = aviso;
+    var bf = document.querySelector('[data-pr="forma"]'); if (bf) { bf.setAttribute('aria-expanded', 'true'); }
+    var ff = document.getElementById('pr-form'); if (ff) ff.hidden = false;
+  });
+  importaSemilla();
   function compraPorReceta() {
     var grupos = {}, orden = [];
     compra.forEach(function (c, n) { if (!grupos[c.r]) { grupos[c.r] = []; orden.push(c.r); } grupos[c.r].push([c, n]); });
@@ -645,7 +780,7 @@
       h += '<li class="parada' + (hecha ? ' hecha' : '') + '"><div class="parada-cab"><span class="parada-n">' + (hecha ? '✓' : k) + '</span><h3>' + esc(P.p.nombre) + '</h3><a class="donde-link" href="' + enlaceParada(P.p) + '" target="_blank" rel="noopener">Mapa</a></div>' +
         '<ul class="compra-lista">' + agrupaCompra(P.its).map(function (g) {
           var c = g.items[0], ids = g.idx.join(','), hecho = g.items.every(function (z) { return z.d; }), px = g.items.some(function (z) { return z.x; });
-          return '<li class="pit"><button type="button" class="compra-it" data-compra="' + ids + '" aria-pressed="' + hecho + '">' + esc(g.texto) + (px ? '<span class="donde"><b>Plan B</b></span>' : '') + '</button>' + (hecho ? '' : '<button type="button" class="planb" data-planb="' + ids + '" aria-label="Plan B para ' + esc(g.texto) + '">' + (px ? 'Volver' : 'No lo tienen') + '</button>') + (function () { var pr = precioDe(g); if (pr) hayPrecio = true; return pr ? '<div class="precio-o">Precio orientativo: <b>' + pr.txt + '</b></div>' : ''; })() + (g.multi ? '<button type="button" class="desglose" data-desglose="1" aria-expanded="false">De qué recetas ▾</button><div class="desglose-box" hidden>' + trazaGrupo(g) + '</div>' : '') + (hecho ? '' : notasGrupo(g)) + '</li>';
+          return '<li class="pit"><button type="button" class="compra-it" data-compra="' + ids + '" aria-pressed="' + hecho + '">' + esc(g.texto) + (px ? '<span class="donde"><b>Plan B</b></span>' : '') + '</button>' + (hecho ? '' : '<button type="button" class="planb" data-planb="' + ids + '" aria-label="Plan B para ' + esc(g.texto) + '">' + (px ? 'Volver' : 'No lo tienen') + '</button>') + (function () { var pr = precioDe(g); if (pr) hayPrecio = true; return htmlPropio(g) + (pr ? '<div class="precio-o">Precio orientativo: <b>' + pr.txt + '</b></div>' : ''); })() + (g.multi ? '<button type="button" class="desglose" data-desglose="1" aria-expanded="false">De qué recetas ▾</button><div class="desglose-box" hidden>' + trazaGrupo(g) + '</div>' : '') + (hecho ? '' : notasGrupo(g)) + '</li>';
         }).join('') + '</ul></li>';
     });
     h += '</ol>';
@@ -701,6 +836,7 @@
     var sigue = R.filter(function (r) { return !cocinados[r.id] && est(r).hechos.length; })[0];
     if (sigue) h += '<section class="tarjeta" aria-label="Sigue donde lo dejaste"><p class="eti">Sigue donde lo dejaste</p><ul class="filas">' + fila(sigue) + '</ul></section>';
     h += compraHTML();
+    h += preciosHTML();
     var hoy = new Date(), dnum = Math.floor((hoy.getTime() - hoy.getTimezoneOffset() * 60000) / 86400000);
     var pool = R.filter(function (r) { return !cocinados[r.id]; }); if (!pool.length) pool = R;
     var dia = pool[dnum % pool.length];
@@ -1121,7 +1257,7 @@
     var vaA = function () {
       if (a === 'pasaporte') { pasaporteAbierto = true; var sp2 = $('#sec-pasaporte'); if (sp2) sp2.hidden = false; }
       if (a === 'favs') { filtro.fav = true; var bf = $('#ver-favs'); if (bf) bf.setAttribute('aria-pressed', 'true'); pintaFichas(); }
-      var dest = { recetas: '#sec-fichas', favs: '#sec-fichas', mapa: '#sec-mapa', compra: '#t-compra', pasaporte: '#sec-pasaporte' }[a];
+      var dest = { recetas: '#sec-fichas', favs: '#sec-fichas', mapa: '#sec-mapa', compra: '#t-compra', precios: '#t-precios', pasaporte: '#sec-pasaporte' }[a];
       var el = dest && $(dest); if (el) el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
     };
     if (location.hash && location.hash !== '#') { location.hash = ''; setTimeout(vaA, 80); } else vaA();
