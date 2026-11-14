@@ -39,40 +39,40 @@ Huesos con mucho colágeno, muchas horas a fuego mínimo y sin sal. Si sale bien
 - 1 rama de romero
 - 3 hojas de laurel
 - unas hebras de azafrán (opcional)
-- 6 cda de vinagre de manzana sin filtrar, con la madre
-- agua mineral (hasta cubrir)
+- 2 cda de vinagre de manzana sin filtrar, con la madre
+- 4 l de agua mineral fría
 - sal (al servir)
 
 ## Elaboración
 
 ### Preparar
 
-1. **Tuesta los huesos** (10 min) - Enciende el horno a 200 °C y coloca huesos de rodilla de ternera y huesos de tuétano en una bandeja. Cuando esté caliente, mételos unos 20 minutos, hasta que estén dorados pero sin llegar a quemarse.
-   > Tostar da muchísimo sabor y color. Si los huesos no son de pasto o eco, además ayuda a quitar parte de lo que no quieres. Que no se quemen.
-2. **Escalda el resto** (20 min) - Mientras se tuestan, pon a hervir agua en una olla y echa carcasa de pollo, las patas de gallo si las consigues, oreja de cerdo y pata de ternera (o 2 manitas de cerdo). Deja que hierva unos 5 minutos. Luego tira el agua, enjuaga las piezas y quítales los restos de espuma.
-   > Esa espuma blanquecina son sobre todo proteínas que cuajan con el calor. Tirar esa primera agua es lo que deja el caldo limpio.
-3. **Vinagre y reposo** (20 min) - Pasa a la olla lenta los huesos tostados y todo lo escaldado. Añade vinagre de manzana sin filtrar, con la madre y un poco de agua, y deja reposar unos 20 minutos mientras preparas lo demás.
-   > El vinagre de manzana sin filtrar, con la madre, es importante: ayuda a sacar los minerales de los huesos durante la cocción.
+1. **Tuesta los huesos** (10 min) - Enciende el horno a 200 °C. Pon huesos de rodilla de ternera y huesos de tuétano en una bandeja, sin aceite ni sal, y tuéstalos de 30 a 40 minutos, dándoles la vuelta a mitad, hasta que estén bien dorados pero sin quemarse.
+   > Tostar da sabor y color. Si se queman, amargan todo el caldo. La oreja y la pata no se tuestan: son piel y cartílago, solo aportan gelatina.
+2. **Escalda el resto** (20 min) - Mientras se tuestan, pon a hervir 3 litros de agua en una olla grande. Echa carcasa de pollo, las patas de gallo si las consigues, oreja de cerdo y pata de ternera (o 2 manitas de cerdo), y déjalo 2 o 3 minutos (blanquear). Tira esa agua y enjuaga todo con agua del grifo. A las patas de gallo, quítales la piel amarilla y córtales las uñas por la primera articulación.
+   > Al hervir salen la sangre y las impurezas en forma de espuma gris. Tirar esa primera agua deja el caldo limpio y sin sabor áspero.
+3. **Vinagre y reposo** (20 min) - Saca la bandeja del horno y pasa los huesos tostados a la olla lenta, junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja y rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade vinagre de manzana sin filtrar, con la madre y 500 ml de agua fría, y deja reposar 20 minutos mientras preparas lo demás.
+   > El vinagre de manzana sin filtrar, con la madre, ayuda a sacar el colágeno y los minerales de los huesos, y no se nota en el sabor. Lo pegado a la bandeja es puro sabor: por eso se desglasa.
 
 ### Horas de olla
 
-4. **Agua, especias y a dormir** (480 min) - Cubre con agua mineral sin pasar la marca máxima de la olla, y deja sitio para las verduras. Añade cúrcuma molida (o 3 cm de raíz fresca), pimienta negra en grano, trozo de jengibre fresco de 4 cm (o jengibre molido) en rodajas, rama de romero, hoja de laurel y un poco de azafrán si tienes. Vale jengibre molido si no tienes fresco. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.
-   > La pimienta negra va con la cúrcuma por algo: activa la cúrcuma. Y la olla lenta marca la diferencia: a fuego bajo y muchas horas es cuando suelta toda su gelatina.
-5. **Las verduras, por la mañana** (270 min) - A la mañana siguiente, trocea cebolla, diente de ajo, zanahoria, puerro grande y rama de apio, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.
-   > Las verduras entran al final para que no se pasen y conserven mejor su sabor.
+4. **Agua, especias y a dormir** (480 min) - Añade el resto del agua hasta que cubra los huesos 2 dedos, sin pasar la marca máxima de la olla (unos 4 litros en total). Añade cúrcuma molida (o 3 cm de raíz fresca), pimienta negra en grano, trozo de jengibre fresco de 4 cm (o jengibre molido) en rodajas, rama de romero, hoja de laurel y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.
+   > La pimienta negra va con la cúrcuma por algo: activa la cúrcuma. Y la olla lenta marca la diferencia: a temperatura baja y muchas horas es cuando suelta toda su gelatina. La sal va al final porque el caldo se concentra y podría quedar salado.
+5. **Las verduras, por la mañana** (270 min) - A la mañana siguiente, trocea en trozos gruesos cebolla, diente de ajo, zanahoria, puerro grande y rama de apio, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.
+   > Las verduras entran al final para que no se deshagan y conserven su sabor. Si fueran 12 horas, se pasarían y darían amargor.
 
 ### Colar y guardar
 
-6. **Cuela el caldo** (20 min) - Apaga la olla y saca los huesos, las verduras y todos los restos sólidos. Pasa el caldo por un colador fino y después por una tela limpia apta para alimentos. Si lo quieres muy limpio, fíltralo dos o tres veces.
-   > La tela atrapa lo que el colador deja pasar: cada pasada lo deja más limpio.
-7. **Reparte y a la nevera** (10 min) - Reparte el caldo en recipientes pequeños, deja que pierda un poco de calor y mételo en la nevera (o en el congelador) cuanto antes. No lo dejes horas a temperatura ambiente.
-   > En recipientes pequeños se enfría mucho antes, y cuanto menos rato pase templado, mejor se conserva.
+6. **Cuela el caldo** (20 min) - Apaga el fuego y saca con una espumadera los huesos, las verduras y los restos sólidos. Pasa el caldo por un colador fino y después por una tela limpia apta para alimentos, sin apretar. Si lo quieres muy limpio, fíltralo dos o tres veces.
+   > La tela atrapa lo que el colador deja pasar. Si aprietas los huesos, sale turbiedad al caldo.
+7. **Reparte y a la nevera** (10 min) - Reparte el caldo en recipientes de unos 500 ml, deja que pierda calor 20 o 30 minutos y mételo en la nevera (o en el congelador) cuanto antes. No lo dejes más de 2 horas a temperatura ambiente. Sal: solo al calentar cada ración, un pellizco por taza y prueba.
+   > En recipientes pequeños se enfría mucho antes y cuanto menos rato pase templado, mejor se conserva. En la nevera aguanta 3 o 4 días; congelado, 2 o 3 meses.
 
 ### En frío
 
-8. **Deja que cuaje** (360 min) - Arriba verás una capa sólida de grasa, parecida al ghee. Retírala con una cuchara y tírala: ya tienes el caldo desgrasado. Debajo, si ha salido muy bien, estará tan cuajado que parece gelatina y al dar la vuelta al tupper no se cae.
+8. **Deja que cuaje** (360 min) - Déjalo en la nevera 6 horas como mínimo. Arriba verás una capa sólida de grasa, parecida al ghee. Retírala con una cuchara y tírala (desgrasar). Debajo, si ha salido muy bien, estará tan cuajado que parece gelatina y no se cae al dar la vuelta al tupper.
    > Con el frío se nota todo el colágeno que han soltado las patas, las orejas y las articulaciones: el caldo cuaja como una gelatina.
-9. **Desgrasa y comprueba** (5 min) - Arriba verás una capa sólida de grasa, parecida al ghee. Retírala con una cuchara y tírala. Debajo, el caldo debería estar cuajado: tan firme que casi no se mueve al inclinar el tarro.
+9. **Desgrasa y comprueba** (5 min) - Retira la capa de grasa con una cuchara. Debajo, el caldo debería estar cuajado: tan firme que casi no se mueve al inclinar el tarro. Si no cuaja, es que lleva más agua o menos colágeno; sigue siendo un buen caldo.
    > Esa es la prueba de que ha salido bien. Si no cuaja del todo, no significa que esté mal: solo que está más diluido.
 
 ## Secretos de la abuela

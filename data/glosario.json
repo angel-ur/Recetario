@@ -1,0 +1,156 @@
+[
+ {
+  "id": "blanquear",
+  "t": "Blanquear (o escaldar)",
+  "f": "blanque(?:a|an|ar|e|en|ad[oa]s?)|escald(?:a|an|ar|e|ad[oa]s?)",
+  "q": "Meter el alimento 2 o 3 minutos en agua hirviendo, tirar esa agua y aclarar la pieza con agua limpia.",
+  "p": "Saca la sangre y las impurezas que se quedan pegadas. Si no lo haces, el caldo sale turbio y con sabor áspero."
+ },
+ {
+  "id": "espumar",
+  "t": "Espumar",
+  "f": "espum(?:a|ar|as|ad[oa]s?|adera)",
+  "q": "Quitar con un cucharón o una espumadera la capa gris o blanca que sube a la superficie cuando algo empieza a hervir.",
+  "p": "Esa espuma es proteína que ha cuajado con el calor. Si se queda, se reparte por el caldo y lo enturbia y lo amarga."
+ },
+ {
+  "id": "desglasar",
+  "t": "Desglasar",
+  "f": "desgla(?:sa|sar|sas|sado)",
+  "q": "Echar un poco de líquido caliente (agua, vino, caldo) en la bandeja o sartén donde has dorado algo y rascar el fondo con una cuchara.",
+  "p": "Lo pegado y dorado del fondo es puro sabor concentrado. Al soltarlo con líquido pasa al guiso en vez de quemarse."
+ },
+ {
+  "id": "sofreir",
+  "t": "Sofreír y rehogar",
+  "f": "sofr(?:íe|ie|eír|eir|eímos|ito|itos)|rehog(?:a|ar|an|ado|ados)",
+  "q": "Cocinar las verduras (cebolla, ajo, pimiento, tomate) en aceite a fuego medio, removiendo, hasta que estén blandas y sin tomar color fuerte.",
+  "p": "Se ablandan y sueltan su dulzor. Es la base de sabor de casi todos los guisos: si la apuras, queda crudo o amargo."
+ },
+ {
+  "id": "pochar",
+  "t": "Pochar",
+  "f": "poch(?:a|an|ar|e|en|ad[oa]s?)",
+  "q": "Cocinar una verdura (sobre todo cebolla) en aceite a fuego bajo y con tapa a ratos, hasta que quede blanda y transparente, sin dorarse.",
+  "p": "Así se vuelve dulce y suave en vez de tostada. Es lo que da cuerpo y sabor sin amargor."
+ },
+ {
+  "id": "confitar",
+  "t": "Confitar",
+  "f": "confit(?:a|ar|an|e|ad[oa]s?)",
+  "q": "Cocinar muy despacio, a fuego mínimo y cubierto de aceite o de su propia grasa, sin que llegue a freírse.",
+  "p": "Queda muy tierno y jugoso porque se cuece despacio sin secarse, y se conserva mejor."
+ },
+ {
+  "id": "reducir",
+  "t": "Reducir",
+  "f": "reduc(?:e|ir|es|en|ido)",
+  "q": "Dejar hervir un líquido sin tapa para que se evapore parte del agua.",
+  "p": "Queda más espeso y con el sabor más concentrado."
+ },
+ {
+  "id": "tostar",
+  "t": "Tostar",
+  "f": "tuest(?:a|an|as|ar|ad[oa]s?)|tuéstal\\w+|tost(?:ar|ad[oa]s?)",
+  "q": "Dorar los huesos o la carne en el horno, sin agua, a unos 200 °C, hasta que cojan color.",
+  "p": "La carne y la grasa doradas dan mucho sabor y color (reacción de Maillard). Se pasa de punto si se quema: amarga."
+ },
+ {
+  "id": "sellar",
+  "t": "Sellar",
+  "f": "sell(?:a|ar|as|ad[oa]s?)",
+  "q": "Cocinar la superficie de la carne a temperatura alta, en una sartén bien caliente, hasta que se ponga dorada por fuera.",
+  "p": "El dorado da sabor y color (es la reacción de Maillard). No hace falta para \"encerrar los jugos\": eso es un mito. Se hace por el sabor."
+ },
+ {
+  "id": "ligar",
+  "t": "Ligar",
+  "f": "lig(?:a|an|ar|ad[oa]s?)",
+  "q": "Conseguir que la grasa y el líquido se mezclen y espesen en una salsa lisa, moviendo la cazuela o batiendo.",
+  "p": "Una salsa ligada es cremosa y no se corta. Si no liga, el aceite queda aparte y la salsa se ve aguada."
+ },
+ {
+  "id": "pilpil",
+  "t": "Pil-pil",
+  "f": "pil-pil",
+  "q": "Salsa de aceite y la gelatina que suelta el bacalao, que se mueve en círculos hasta que emulsiona y queda cremosa.",
+  "p": "La gelatina del pescado hace de pegamento entre el aceite y el agua. Por eso se mueve la cazuela sin hervir fuerte."
+ },
+ {
+  "id": "emulsionar",
+  "t": "Emulsionar",
+  "f": "emulsion(?:a|ar|an|e|ad[oa]s?)",
+  "q": "Mezclar agua y grasa que normalmente no se juntan hasta formar una crema estable.",
+  "p": "Hace que la salsa quede cremosa y brillante en lugar de separarse."
+ },
+ {
+  "id": "reposar",
+  "t": "Reposar",
+  "f": "repos(?:a|ar|o|e)",
+  "q": "Dejar la comida quieta, sin tocar, durante un tiempo, a veces tapada.",
+  "p": "En la carne, los jugos se reparten y no se escapan al cortar. En masas y guisos, el sabor se asienta y todo se integra."
+ },
+ {
+  "id": "desgrasar",
+  "t": "Desgrasar",
+  "f": "desgras(?:a|ar|ado|ada)",
+  "q": "Quitar la grasa que flota o que se ha solidificado arriba, con una cuchara.",
+  "p": "El caldo queda más ligero y limpio. En frío es fácil: la grasa forma una capa dura."
+ },
+ {
+  "id": "colar",
+  "t": "Colar",
+  "f": "cuela(?:lo)?|colar|colad[oa]s?",
+  "q": "Pasar el líquido por un colador (y a veces por una tela) para separar los sólidos.",
+  "p": "Deja el líquido limpio. No aprietes lo sólido, o pasa turbiedad al caldo."
+ },
+ {
+  "id": "hervor",
+  "t": "Hervor suave o mínimo",
+  "f": "hervor(?: m[ií]nimo| suave| muy suave)?",
+  "q": "Un fuego tan bajo que solo suben de vez en cuando unas burbujas pequeñas. El agua casi no se mueve.",
+  "p": "Un hervor fuerte bate la grasa con el agua y deja el caldo turbio, y endurece la carne. El suave la deja tierna y limpia."
+ },
+ {
+  "id": "colageno",
+  "t": "Colágeno y gelatina",
+  "f": "col[aá]geno|gelatina",
+  "q": "El colágeno está en huesos, piel, tendones y cartílagos. Al cocerse muchas horas se convierte en gelatina.",
+  "p": "La gelatina da cuerpo al caldo y hace que cuaje en frío. No sabe a nada: es textura."
+ },
+ {
+  "id": "amasar",
+  "t": "Amasar",
+  "f": "amas(?:a|ar|as)",
+  "q": "Trabajar la masa con las manos, estirándola y plegándola, hasta que quede lisa y elástica.",
+  "p": "Desarrolla el gluten: la masa gana fuerza y el pan o la empanada salen esponjosos y no se rompen."
+ },
+ {
+  "id": "levar",
+  "t": "Levar o fermentar",
+  "f": "levadura|fermenta(?:r|da|do|ción)",
+  "q": "Dejar la masa en un sitio templado para que la levadura la haga crecer.",
+  "p": "Las burbujas de gas que produce la levadura hacen la miga ligera. Con prisa o con frío, la masa no sube."
+ },
+ {
+  "id": "adobar",
+  "t": "Adobar",
+  "f": "adob(?:a|ar|an|ad[oa]s?)",
+  "q": "Dejar la carne un tiempo con sal, ajo, especias y vinagre o vino.",
+  "p": "Le da sabor por dentro, la ablanda un poco y ayuda a que se conserve mejor."
+ },
+ {
+  "id": "desalar",
+  "t": "Desalar",
+  "f": "desal(?:a|ar|ado|ada|ados|adas)",
+  "q": "Dejar el bacalao salado en agua fría, cambiándola varias veces, hasta quitarle casi toda la sal.",
+  "p": "Sin hacerlo, el pescado sale incomible de salado. El agua fría es la que extrae la sal sin cocerlo."
+ },
+ {
+  "id": "remojar",
+  "t": "Remojar",
+  "f": "remoj(?:a|ar|o|ad[oa]s?)",
+  "q": "Dejar un ingrediente seco (legumbres, por ejemplo) en agua fría muchas horas.",
+  "p": "Se hidratan, cuecen antes y de forma más pareja, y salen más tiernas y fáciles de digerir."
+ }
+]

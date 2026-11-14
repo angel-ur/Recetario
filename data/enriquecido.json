@@ -6658,13 +6658,14 @@
    [
     "vinagre",
     "vinagre de manzana sin filtrar, con la madre",
-    6,
+    2,
     "cda"
    ],
    [
     "agua",
-    "agua mineral",
-    "hasta cubrir"
+    "agua mineral fría",
+    4,
+    "l"
    ],
    [
     "sal",
@@ -6680,11 +6681,11 @@
      {
       "t": "Tuesta los huesos",
       "m": 10,
-      "tim": 20,
+      "tim": 35,
       "par": 1,
       "f": "h200",
-      "x": "Enciende el horno a 200 °C y coloca {rodilla} y {tuetano} en una bandeja. Cuando esté caliente, mételos unos 20 minutos, hasta que estén dorados pero sin llegar a quemarse.",
-      "ab": "Tostar da muchísimo sabor y color. Si los huesos no son de pasto o eco, además ayuda a quitar parte de lo que no quieres. Que no se quemen.",
+      "x": "Enciende el horno a 200 °C. Pon {rodilla} y {tuetano} en una bandeja, sin aceite ni sal, y tuéstalos de 30 a 40 minutos, dándoles la vuelta a mitad, hasta que estén bien dorados pero sin quemarse.",
+      "ab": "Tostar da sabor y color. Si se queman, amargan todo el caldo. La oreja y la pata no se tuestan: son piel y cartílago, solo aportan gelatina.",
       "e": {
        "k": "horno",
        "t": "200 °C",
@@ -6707,10 +6708,10 @@
      {
       "t": "Escalda el resto",
       "m": 20,
-      "tim": 5,
+      "tim": 3,
       "f": 5,
-      "x": "Mientras se tuestan, pon a hervir agua en una olla y echa {carcasa}, las patas de gallo si las consigues, {oreja} y {pata}. Deja que hierva unos 5 minutos. Luego tira el agua, enjuaga las piezas y quítales los restos de espuma.",
-      "ab": "Esa espuma blanquecina son sobre todo proteínas que cuajan con el calor. Tirar esa primera agua es lo que deja el caldo limpio.",
+      "x": "Mientras se tuestan, pon a hervir 3 litros de agua en una olla grande. Echa {carcasa}, las patas de gallo si las consigues, {oreja} y {pata}, y déjalo 2 o 3 minutos (blanquear). Tira esa agua y enjuaga todo con agua del grifo. A las patas de gallo, quítales la piel amarilla y córtales las uñas por la primera articulación.",
+      "ab": "Al hervir salen la sangre y las impurezas en forma de espuma gris. Tirar esa primera agua deja el caldo limpio y sin sabor áspero.",
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -6743,8 +6744,8 @@
       "tim": 20,
       "w": 1,
       "f": 0,
-      "x": "Pasa a la olla lenta los huesos tostados y todo lo escaldado. Añade {vinagre} y un poco de agua, y deja reposar unos 20 minutos mientras preparas lo demás.",
-      "ab": "El vinagre de manzana sin filtrar, con la madre, es importante: ayuda a sacar los minerales de los huesos durante la cocción.",
+      "x": "Saca la bandeja del horno y pasa los huesos tostados a la olla lenta, junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja y rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade {vinagre} y 500 ml de agua fría, y deja reposar 20 minutos mientras preparas lo demás.",
+      "ab": "El vinagre de manzana sin filtrar, con la madre, ayuda a sacar el colágeno y los minerales de los huesos, y no se nota en el sabor. Lo pegado a la bandeja es puro sabor: por eso se desglasa.",
       "e": {
        "k": "fuego",
        "v": "lenta",
@@ -6776,7 +6777,7 @@
       },
       "alt": {
        "olla": {
-        "x": "Pasa a una olla grande los huesos tostados y todo lo escaldado. Añade {vinagre} y un poco de agua, y deja reposar unos 20 minutos mientras preparas lo demás.",
+        "x": "Saca la bandeja del horno y pasa los huesos tostados a una olla grande (de unos 6 litros), junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja, rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade {vinagre} y {agua}, que tape los huesos unos 2 dedos (si con 4 litros no cubre, añade lo justo; si sobra, quita un poco). Déjalo reposar 20 minutos mientras preparas lo demás.",
         "e": {
          "k": "fuego",
          "v": "olla",
@@ -6805,7 +6806,8 @@
           ]
          ],
          "vierte": "vinagre"
-        }
+        },
+        "ab": "El agua tiene que estar fría: así extrae mejor y las impurezas suben ordenadas para poder espumarlas. La medida manda sobre el número: lo que importa es que los huesos queden cubiertos 2 dedos."
        }
       }
      }
@@ -6821,8 +6823,8 @@
       "tim": 480,
       "w": 1,
       "f": "l",
-      "x": "Cubre con {agua} sin pasar la marca máxima de la olla, y deja sitio para las verduras. Añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y un poco de azafrán si tienes. Vale jengibre molido si no tienes fresco. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.",
-      "ab": "La pimienta negra va con la cúrcuma por algo: activa la cúrcuma. Y la olla lenta marca la diferencia: a fuego bajo y muchas horas es cuando suelta toda su gelatina.",
+      "x": "Añade el resto del agua hasta que cubra los huesos 2 dedos, sin pasar la marca máxima de la olla (unos 4 litros en total). Añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.",
+      "ab": "La pimienta negra va con la cúrcuma por algo: activa la cúrcuma. Y la olla lenta marca la diferencia: a temperatura baja y muchas horas es cuando suelta toda su gelatina. La sal va al final porque el caldo se concentra y podría quedar salado.",
       "e": {
        "k": "fuego",
        "v": "lenta",
@@ -6834,11 +6836,11 @@
       "alt": {
        "olla": {
         "t": "Todo a la olla, a hervor mínimo",
-        "m": 210,
-        "tim": 210,
+        "m": 180,
+        "tim": 180,
         "f": 1,
-        "x": "Cubre con {agua} y añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y un poco de azafrán si tienes. Vale jengibre molido si no tienes fresco. Sin sal. Trocea ya {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio}, y el nabo, la chirivía o el perejil si los usas, y échalo todo. Mantén un hervor muy suave unas 3 horas y media, y vigila que no se evapore demasiada agua.",
-        "ab": "En olla normal las verduras van desde el principio. El hervor, que apenas se note: si borbotea fuerte, el caldo se enturbia.",
+        "x": "Pon la olla a fuego fuerte hasta que arranque a hervir. Saldrá espuma gris: quítala con un cucharón durante los primeros 10 minutos (espumar). Añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y un poco de azafrán si tienes. Trocea en trozos gruesos {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio}, y el nabo, la chirivía o el perejil si los usas, y échalo todo. Baja al fuego mínimo (hervor mínimo: solo una burbuja de vez en cuando), tapa a medias y cuece 3 horas, sin sal. Si baja mucho el nivel, añade agua caliente hasta volver a cubrir.",
+        "ab": "La espuma es proteína coagulada: si se queda, enturbia el caldo. El hervor mínimo es la clave: un hervor fuerte mezcla la grasa con el agua y lo deja turbio y graso. En olla normal las verduras van desde el principio porque son solo 3 horas.",
         "e": {
          "k": "fuego",
          "v": "olla",
@@ -6884,8 +6886,8 @@
       "tim": 270,
       "w": 1,
       "f": "l",
-      "x": "A la mañana siguiente, trocea {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio}, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.",
-      "ab": "Las verduras entran al final para que no se pasen y conserven mejor su sabor.",
+      "x": "A la mañana siguiente, trocea en trozos gruesos {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio}, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.",
+      "ab": "Las verduras entran al final para que no se deshagan y conserven su sabor. Si fueran 12 horas, se pasarían y darían amargor.",
       "e": {
        "k": "fuego",
        "v": "lenta",
@@ -6932,8 +6934,8 @@
       "t": "Cuela el caldo",
       "m": 20,
       "f": 0,
-      "x": "Apaga la olla y saca los huesos, las verduras y todos los restos sólidos. Pasa el caldo por un colador fino y después por una tela limpia apta para alimentos. Si lo quieres muy limpio, fíltralo dos o tres veces.",
-      "ab": "La tela atrapa lo que el colador deja pasar: cada pasada lo deja más limpio.",
+      "x": "Apaga el fuego y saca con una espumadera los huesos, las verduras y los restos sólidos. Pasa el caldo por un colador fino y después por una tela limpia apta para alimentos, sin apretar. Si lo quieres muy limpio, fíltralo dos o tres veces.",
+      "ab": "La tela atrapa lo que el colador deja pasar. Si aprietas los huesos, sale turbiedad al caldo.",
       "e": {
        "k": "bol",
        "c": "#D9A54A",
@@ -6945,8 +6947,8 @@
       "t": "Reparte y a la nevera",
       "m": 10,
       "f": 0,
-      "x": "Reparte el caldo en recipientes pequeños, deja que pierda un poco de calor y mételo en la nevera (o en el congelador) cuanto antes. No lo dejes horas a temperatura ambiente.",
-      "ab": "En recipientes pequeños se enfría mucho antes, y cuanto menos rato pase templado, mejor se conserva.",
+      "x": "Reparte el caldo en recipientes de unos 500 ml, deja que pierda calor 20 o 30 minutos y mételo en la nevera (o en el congelador) cuanto antes. No lo dejes más de 2 horas a temperatura ambiente. Sal: solo al calentar cada ración, un pellizco por taza y prueba.",
+      "ab": "En recipientes pequeños se enfría mucho antes y cuanto menos rato pase templado, mejor se conserva. En la nevera aguanta 3 o 4 días; congelado, 2 o 3 meses.",
       "e": {
        "k": "plato",
        "v": "tarros",
@@ -6966,7 +6968,7 @@
       "m": 360,
       "w": 1,
       "f": "n",
-      "x": "Arriba verás una capa sólida de grasa, parecida al ghee. Retírala con una cuchara y tírala: ya tienes el caldo desgrasado. Debajo, si ha salido muy bien, estará tan cuajado que parece gelatina y al dar la vuelta al tupper no se cae.",
+      "x": "Déjalo en la nevera 6 horas como mínimo. Arriba verás una capa sólida de grasa, parecida al ghee. Retírala con una cuchara y tírala (desgrasar). Debajo, si ha salido muy bien, estará tan cuajado que parece gelatina y no se cae al dar la vuelta al tupper.",
       "ab": "Con el frío se nota todo el colágeno que han soltado las patas, las orejas y las articulaciones: el caldo cuaja como una gelatina.",
       "e": {
        "k": "nevera",
@@ -6982,7 +6984,7 @@
       "post": 1,
       "m": 5,
       "f": 0,
-      "x": "Arriba verás una capa sólida de grasa, parecida al ghee. Retírala con una cuchara y tírala. Debajo, el caldo debería estar cuajado: tan firme que casi no se mueve al inclinar el tarro.",
+      "x": "Retira la capa de grasa con una cuchara. Debajo, el caldo debería estar cuajado: tan firme que casi no se mueve al inclinar el tarro. Si no cuaja, es que lleva más agua o menos colágeno; sigue siendo un buen caldo.",
       "ab": "Esa es la prueba de que ha salido bien. Si no cuaja del todo, no significa que esté mal: solo que está más diluido.",
       "e": {
        "k": "plato",

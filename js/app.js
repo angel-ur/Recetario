@@ -109,8 +109,46 @@
     var v = valor(r, i, rac), t = i.u === 'ud' && v !== null && v > 1 ? i.p : i.s;
     return t.charAt(0).toUpperCase() + t.slice(1);
   }
-  function texto(r, t, rac) {
-    return esc(t).replace(/\{(\w+)\}/g, function (m, k) { return r.porK[k] ? '<span class="q" data-i="' + k + '">' + esc(frase(r, k, rac)) + '</span>' : m; });
+  var GLOSA = [];
+  var LET = 'A-Za-zÁÉÍÓÚÜáéíóúüñÑ';
+  function glosa(html, usados) {
+    if (!GLOSA.length) return html;
+    return html.split(/(<[^>]+>)/).map(function (seg, n) {
+      if (n % 2) return seg;
+      GLOSA.forEach(function (g) {
+        if (usados[g.id]) return;
+        seg = seg.replace(g.re, function (m, pre, w) {
+          if (usados[g.id]) return m;
+          usados[g.id] = 1;
+          return pre + '<button type="button" class="term" data-term="' + g.id + '">' + w + '</button>';
+        });
+      });
+      return seg;
+    }).join('');
+  }
+  function termsDe(r) {
+    var vistos = {}, out = [];
+    r.todos.forEach(function (p) { var h = glosa(esc((p.x || '') + ' ' + (p.ab || '')), {}); h.replace(/data-term="(\w+)"/g, function (m, id) { if (!vistos[id]) { vistos[id] = 1; out.push(id); } }); });
+    return out;
+  }
+  function abreGlosa(id) {
+    var g = GLOSA.filter(function (x) { return x.id === id; })[0]; if (!g) return;
+    var d = document.getElementById('glosa');
+    if (!d) { d = document.createElement('div'); d.id = 'glosa'; document.body.appendChild(d); }
+    d.innerHTML = '<div class="glosa-vela" data-glosa-x="1"></div><div class="glosa-hoja" role="dialog" aria-modal="true" aria-labelledby="glosa-t"><h3 id="glosa-t">' + esc(g.t) + '</h3>' +
+      '<p><b>Qué es</b>' + esc(g.q) + '</p><p><b>Por qué se hace</b>' + esc(g.p) + '</p><button type="button" class="btn" data-glosa-x="1">Entendido</button></div>';
+    d.hidden = false;
+  }
+  fetch('data/glosario.json').then(function (r) { return r.ok ? r.json() : []; }).then(function (j) {
+    GLOSA = j.map(function (g) { g.re = new RegExp('(^|[^' + LET + '])(' + g.f + ')(?![' + LET + '])', 'i'); return g; });
+    if (actual && document.getElementById('vista-receta') && !document.getElementById('vista-receta').hidden && actual.id) { try { var y = window.scrollY; vistaReceta(actual.id); window.scrollTo(0, y); } catch (e) {} }
+  }).catch(function () {});
+  document.addEventListener('click', function (ev) {
+    var tm = ev.target.closest('.term'); if (tm) { abreGlosa(tm.getAttribute('data-term')); return; }
+    if (ev.target.closest('[data-glosa-x]')) { var d = document.getElementById('glosa'); if (d) d.hidden = true; }
+  });
+  function texto(r, t, rac, usados) {
+    return glosa(esc(t).replace(/\{(\w+)\}/g, function (m, k) { return r.porK[k] ? '<span class="q" data-i="' + k + '">' + esc(frase(r, k, rac)) + '</span>' : m; }), usados || {});
   }
 
   /* ---------- Pasos y horario ---------- */
@@ -819,6 +857,8 @@
       h += '<section class="fase" aria-labelledby="f-' + fi + '"><header class="fase-cab"><p class="eti ' + f.tipo + '">' + (f.tipo === 'previo' ? 'Antes de empezar' : f.tipo === 'despues' ? 'Después' : f.tipo === 'espera' ? 'Casi todo es esperar' : 'Tú en la cocina') + '</p>' +
         '<h3 id="f-' + fi + '">' + esc(f.n) + '</h3><p class="fase-hora" id="fh-' + fi + '"></p></header>' + ps.map(function (p) { return htmlPaso(r, p, e.rac); }).join('') + '</section>';
     });
+    var tt = termsDe(r);
+    if (tt.length) h += '<section class="tarjeta tecnicas" aria-labelledby="t-tec"><h2 id="t-tec">Técnicas de esta receta</h2><ul class="tec-lista">' + tt.map(function (id) { var g = GLOSA.filter(function (x) { return x.id === id; })[0]; return '<li><button type="button" class="term term-lista" data-term="' + id + '">' + esc(g.t) + '</button></li>'; }).join('') + '</ul></section>';
     // Secretos y cierre
     h += '<section class="tarjeta secretos" aria-labelledby="t-sec"><h2 id="t-sec">Los secretos de la abuela</h2><dl>' + r.secretos.map(function (s) { return '<dt>' + esc(s[0]) + '</dt><dd>' + esc(s[1]) + '</dd>'; }).join('') + '</dl></section>';
     var otras = R.filter(function (o) { return o !== r && (o.cat === r.cat || o.regs.some(function (g) { return r.regs.indexOf(g) > -1; })); }).slice(0, 3);
