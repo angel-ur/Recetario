@@ -40,6 +40,7 @@
   /* ---------- Estado ---------- */
   var cocinados = store.get('cocinados', {}) || {};
   var favs = store.get('favs', {}) || {};
+  var compra = store.get('compra', []) || [];
   var filtro = { cat: 'todas', t: 'todos', q: '', fav: false };
   var regionSel = null, verEspana = false;
   function est(r) {
@@ -178,6 +179,13 @@
     var h = '';
     var sigue = R.filter(function (r) { return !cocinados[r.id] && est(r).hechos.length; })[0];
     if (sigue) h += '<section class="tarjeta" aria-label="Sigue donde lo dejaste"><p class="eti">Sigue donde lo dejaste</p><ul class="filas">' + fila(sigue) + '</ul></section>';
+    if (compra.length) {
+      var grupos = {}, orden = [];
+      compra.forEach(function (c, n) { if (!grupos[c.r]) { grupos[c.r] = []; orden.push(c.r); } grupos[c.r].push([c, n]); });
+      h += '<section class="tarjeta" aria-labelledby="t-compra"><div class="seccion-cab"><h2 id="t-compra">La compra</h2><span class="ayuda">' + compra.filter(function (c) { return !c.d; }).length + ' por comprar</span></div>' +
+        orden.map(function (rid) { var rr = porId[rid]; return '<p class="eti">' + esc(rr ? rr.n : rid) + '</p><ul class="compra-lista">' + grupos[rid].map(function (p) { return '<li><button type="button" class="compra-it" data-compra="' + p[1] + '" aria-pressed="' + (!!p[0].d) + '">' + esc(p[0].t) + '</button></li>'; }).join('') + '</ul>'; }).join('') +
+        '<p class="reinicio"><button type="button" class="reiniciar" data-vaciar="1">Vaciar la lista</button></p></section>';
+    }
     var hoy = new Date(), dnum = Math.floor((hoy.getTime() - hoy.getTimezoneOffset() * 60000) / 86400000);
     var pool = R.filter(function (r) { return !cocinados[r.id]; }); if (!pool.length) pool = R;
     var dia = pool[dnum % pool.length];
@@ -287,7 +295,7 @@
     h += '<section class="tarjeta" aria-labelledby="t-ing"><div class="ing-cab"><h2 id="t-ing">Ingredientes</h2><fieldset class="seg-fs raciones"><legend class="sr-only">' + udN + '</legend><span class="eti" aria-hidden="true">' + udN + '</span><div class="seg">' +
       r.rac.map(function (n) { var id = 'rac-' + String(n).replace('.', '-'); return '<input type="radio" name="rac" id="' + id + '" value="' + n + '"' + (n === e.rac ? ' checked' : '') + '><label for="' + id + '">' + coma(n) + '</label>'; }).join('') + '</div></fieldset></div>' +
       (r.notaRac ? '<p class="nota-rac" id="nota-rac">' + esc(r.notaRac[1]) + '</p>' : '') +
-      '<p class="ayuda">Toca cada ingrediente para marcar lo que ya tienes.</p><ul class="ing-lista">' +
+      '<p class="ayuda">Toca cada ingrediente para marcar lo que ya tienes.</p><p class="compra-acc"><button type="button" class="btn sec" data-comprar="1">' + (compra.some(function (c) { return c.r === r.id; }) ? 'Lista de la compra actualizada: añadir de nuevo' : 'Añadir lo que falta a la compra') + '</button></p><ul class="ing-lista">' +
       r.ings.map(function (i) {
         if (i.grupo !== undefined) return '<li class="grupo">' + esc(i.grupo) + '</li>';
         if (i.plano) return '<li><label><input type="checkbox" value="' + i.k + '"' + (e.tengo.indexOf(i.k) > -1 ? ' checked' : '') + '><span class="nom">' + esc(i.s) + '</span></label></li>';
@@ -560,7 +568,7 @@
 
   /* ---------- Eventos ---------- */
   document.addEventListener('click', function (ev) {
-    var t = ev.target.closest('[data-ir],[data-reg],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-reset],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
+    var t = ev.target.closest('[data-ir],[data-reg],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-reset],[data-comprar],[data-compra],[data-vaciar],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
     if (!t) return;
     if (t.hasAttribute('data-ir')) { ir(t.getAttribute('data-ir')); return; }
     if (t.hasAttribute('data-reg')) { var g = t.getAttribute('data-reg'); regionSel = regionSel === g ? null : g; verEspana = false; refrescaMapa(); return; }
@@ -573,6 +581,17 @@
     if (t.hasAttribute('data-hecho')) { var p = t.getAttribute('data-hecho').split(':'); marcaHecho(porId[p[0]], +p[1]); if (cocina) pintaCocina(); else pintaHechos(); return; }
     if (t.hasAttribute('data-fav')) { if (favs[actual.id]) delete favs[actual.id]; else favs[actual.id] = Date.now(); store.set('favs', favs); t.setAttribute('aria-pressed', !!favs[actual.id]); t.textContent = favs[actual.id] ? '♥ En favoritos' : '♡ Guardar'; return; }
     if (t.id === 'ver-favs') { filtro.fav = !filtro.fav; t.setAttribute('aria-pressed', filtro.fav ? 'true' : 'false'); pintaFichas(); return; }
+    if (t.hasAttribute('data-comprar')) {
+      var rc = actual, ec = est(rc);
+      compra = compra.filter(function (c) { return c.r !== rc.id; });
+      rc.ings.forEach(function (i) { if (i.grupo !== undefined || ec.tengo.indexOf(i.k) > -1) return; compra.push({ r: rc.id, t: i.plano ? i.s : frase(rc, i.k, ec.rac) }); });
+      store.set('compra', compra);
+      aviso('Añadido a la lista de la compra (en la portada).');
+      t.textContent = 'Lista de la compra actualizada: añadir de nuevo';
+      return;
+    }
+    if (t.hasAttribute('data-compra')) { var ci = +t.getAttribute('data-compra'); if (compra[ci]) { compra[ci].d = !compra[ci].d; store.set('compra', compra); t.setAttribute('aria-pressed', !!compra[ci].d); } return; }
+    if (t.hasAttribute('data-vaciar')) { if (window.confirm('¿Vaciar la lista de la compra?')) { compra = []; store.set('compra', compra); vistaIndice(); } return; }
     if (t.hasAttribute('data-reset')) { if (window.confirm('¿Borrar todos los sellos del pasaporte?')) { cocinados = {}; store.set('cocinados', cocinados); vistaIndice(); } return; }
     if (t.hasAttribute('data-cocina')) { abreCocina(actual); return; }
     if (t.hasAttribute('data-cocinado')) { sella(actual); return; }

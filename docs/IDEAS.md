@@ -10,7 +10,7 @@ Ya tenemos: raciones que recalculan, pasos ilustrados, temporizadores, modo coci
 ## P1 (siguiente)
 1. Recetas nuevas: 2+ platos por comunidad. [14 nov: añadidas empanada gallega, callos, lechazo, caldereta; ronda 3: pil-pil, arroz al horno, ternasco, caldero murciano; ronda 4: sopas mallorquinas, cocido montañés, gachas, ropa vieja, chuletillas. Las 17 comunidades tienen 2+] Gestos de abuela, no relleno.
 2. [HECHO 14 nov] Plato del dia: una receta destacada por fecha (determinista, sin servidor) en la cabecera.
-3. Lista de la compra desde una o varias recetas (ingredientes agregados, tachables, guardada en local).
+3. [HECHO 14 nov] Lista de la compra desde una o varias recetas (ingredientes agregados, tachables, guardada en local).
 4. [HECHO 14 nov] Favoritos ("mi recetario"): corazon + filtro.
 
 ## P2
