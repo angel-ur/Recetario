@@ -2,8 +2,8 @@
  {
   "id": "blanquear",
   "t": "Blanquear (o escaldar)",
-  "f": "blanque(?:a|an|ar|e|en|ad[oa]s?)|escald(?:a|an|ar|e|ad[oa]s?)",
-  "q": "Meter el alimento 2 o 3 minutos en agua hirviendo, tirar esa agua y aclarar la pieza con agua limpia.",
+  "f": "blanque(?:a|an|ar|ad[oa]s?)|escald(?:a|an|ar|e|ad[oa]s?)",
+  "q": "Meter el alimento unos minutos (2 o 3 las piezas pequeñas, hasta 5 los huesos) en agua hirviendo, tirar esa agua y aclarar la pieza con agua limpia.",
   "p": "Saca la sangre y las impurezas que se quedan pegadas. Si no lo haces, el caldo sale turbio y con sabor áspero."
  },
  {
@@ -52,7 +52,7 @@
   "id": "tostar",
   "t": "Tostar",
   "f": "tuest(?:a|an|as|ar|ad[oa]s?)|tuéstal\\w+|tost(?:ar|ad[oa]s?)",
-  "q": "Dorar los huesos o la carne en el horno, sin agua, a unos 200 °C, hasta que cojan color.",
+  "q": "Dorar en seco, o con muy poca grasa, un alimento (huesos, harina, pan, frutos secos) hasta que coja color. Los huesos, en el horno a unos 200 °C; la harina, en la sartén y removiendo.",
   "p": "La carne y la grasa doradas dan mucho sabor y color (reacción de Maillard). Se pasa de punto si se quema: amarga."
  },
  {
@@ -128,7 +128,7 @@
  {
   "id": "levar",
   "t": "Levar o fermentar",
-  "f": "levadura|fermenta(?:r|da|do|ción)",
+  "f": "levadura(?! qu[ií]mica)|fermenta(?:r|da|do|ción)(?! del tempeh)",
   "q": "Dejar la masa en un sitio templado para que la levadura la haga crecer.",
   "p": "Las burbujas de gas que produce la levadura hacen la miga ligera. Con prisa o con frío, la masa no sube."
  },

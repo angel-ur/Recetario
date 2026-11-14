@@ -225,6 +225,7 @@
     ['legumbre', /soja|garbanzo|alubia|lenteja|almorta|fabes|fabas?\b|fabada|jud[ií]as? seca|habas secas/, 'Súper', 'Tienda a granel o gourmet'],
     ['arroz', /arroz|bomba|fideo|pasta/, 'Súper', 'Tienda gourmet (D.O.)'],
     ['especia', /piment[oó]n|azafr[aá]n|[ñn]ora|laurel|canela|pimienta|guindilla|romero|comino|clavo|tomillo|oreg[aá]no|nuez moscada|c[uú]rcuma/, 'Súper', 'Herbolario o especias'],
+    ['despensa', /vinagre de manzana/, 'Súper', 'Tienda gourmet'],
     ['aceite', /aceite|vinagre|vino|brandy|jerez|sidra/, 'Súper', 'Cooperativa o bodega'],
     ['huevo', /huevo|yema|leche|nata|mantequilla|queso|yogur/, 'Súper', 'Mercado (de payés)'],
     ['verdura', /cebolla|pimiento|tomate|ajo|patata|papa|calabac|berenjena|berza|col\b|coliflor|puerro|zanahoria|perejil|lim[oó]n|pepino|escarola|jud[ií]a|apio|espinaca|borraja|garrofó|nabo|chirivía|cilantro|jengibre|alcachofa|calabaza|naranja|manzana|uva/, 'Súper', 'Mercado o verdulería'],
@@ -289,6 +290,8 @@
       });
     }, function (err) { geoEstado = err && err.code === 1 ? 'denegada' : 'error'; barrioRepinta(); }, { timeout: 10000, maximumAge: 600000 });
   }
+  /* Productos que no suelen tener en el súper: se avisa «por encargo» en vez de «fácil». */
+  var RARO = /patas? de gallo|oreja de cerdo|patas? de ternera|almortas?|fabes|[ñn]oras?\b/;
   function dondeCat(t) {
     var n = String(t).toLowerCase();
     for (var q = 0; q < DONDE.length; q++) if (DONDE[q][1].test(n)) return DONDE[q];
@@ -298,6 +301,7 @@
     var d = dondeCat(t);
     if (!d) return '';
     var mejor = sinLink ? '<b>' + d[3] + '</b>' : '<a class="donde-link" href="https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(MAPAQ[d[0]] + ' cerca de mí') + '" target="_blank" rel="noopener">' + d[3] + '</a>';
+    if (RARO.test(String(t).toLowerCase())) return '<span class="donde"><b>Por encargo</b> · ' + mejor + '</span>';
     return '<span class="donde"><b>' + d[2] + '</b> fácil · ' + mejor + ' mejor</span>';
   }
   function catsDe(textos) { var out = []; textos.forEach(function (t) { var d = dondeCat(t); if (d) out.push(d[0]); }); return out; }
@@ -329,7 +333,7 @@
   function paradaDe(c) {
     var d = dondeCat(c.t);
     if (!d) return { id: 'super', nombre: 'Súper', cat: null };
-    var p = prefDe(d[0]);
+    var p = RARO.test(String(c.t).toLowerCase()) ? 'mejor' : prefDe(d[0]);
     if (c.x) p = p === 'mejor' ? 'facil' : 'mejor'; // plan B: la otra opcion
     return p === 'facil' ? { id: 'super', nombre: 'Súper', cat: d[0] } : { id: d[0], nombre: d[3], cat: d[0] };
   }
@@ -1085,6 +1089,7 @@
     h += '<section class="tarjeta" aria-labelledby="t-ing"><div class="ing-cab"><h2 id="t-ing">Ingredientes</h2><fieldset class="seg-fs raciones"><legend class="sr-only">' + udN + '</legend><span class="eti" aria-hidden="true">' + udN + '</span><div class="seg">' +
       r.rac.map(function (n) { var id = 'rac-' + String(n).replace('.', '-'); return '<input type="radio" name="rac" id="' + id + '" value="' + n + '"' + (n === e.rac ? ' checked' : '') + '><label for="' + id + '">' + coma(n) + '</label>'; }).join('') + '</div></fieldset></div>' +
       (r.notaRac ? '<p class="nota-rac" id="nota-rac">' + esc(r.notaRac[1]) + '</p>' : '') +
+      (r.simple ? '<p class="nota-rac">Versión sencilla: las cantidades son para ' + coma(r.rac[0]) + ' ' + udN.toLowerCase() + ' y no se ajustan.</p>' : '') +
       '<p class="ayuda">Toca cada ingrediente para marcar lo que ya tienes.</p><p class="compra-acc"><button type="button" class="btn sec" data-comprar="1">' + (compra.some(function (c) { return c.r === r.id; }) ? 'Lista de la compra actualizada: añadir de nuevo' : 'Añadir lo que falta a la compra') + '</button></p><ul class="ing-lista">' +
       r.ings.map(function (i) {
         if (i.grupo !== undefined) return '<li class="grupo">' + esc(i.grupo) + '</li>';
