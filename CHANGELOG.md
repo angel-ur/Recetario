@@ -3,6 +3,7 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Tres portadas nuevas: empanada gallega, lechazo y ropa vieja (ya van 25 de 37).
 
 ### Corregido
 - Las portadas ilustradas de caldo, cocido, croquetas, fabada, gazpacho, lentejas, paella y tortilla no llegaban a la web: el montaje solo las usaba en recetas «sencillas». Ya salen las 10 (con la nueva de la crema catalana).
