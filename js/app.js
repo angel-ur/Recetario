@@ -510,6 +510,64 @@
     var ns = rr.tienda.filter(function (n) { return n[2] && n[2].split('|').some(function (k) { return t.indexOf(k.toLowerCase()) > -1; }); });
     return ns.length ? '<div class="nota-t"><b>En la tienda</b>' + ns.map(function (n) { return '<p>' + esc(n[1]) + '</p>'; }).join('') + '</div>' : '';
   }
+  /* Consolidar la compra: mismo producto de varias recetas = una linea con el total */
+  var UNID = { kg: ['m', 1000], g: ['m', 1], l: ['v', 1000], ml: ['v', 1], cdta: ['cdta', 1], cdtas: ['cdta', 1], cucharadita: ['cdta', 1], cucharaditas: ['cdta', 1], cda: ['cda', 1], cdas: ['cda', 1], cucharada: ['cda', 1], cucharadas: ['cda', 1], vaso: ['vaso', 1], vasos: ['vaso', 1], diente: ['diente', 1], dientes: ['diente', 1], hoja: ['hoja', 1], hojas: ['hoja', 1], rama: ['rama', 1], ramas: ['rama', 1], ramita: ['rama', 1], ramitas: ['rama', 1], pizca: ['pizca', 1], trozo: ['trozo', 1], trozos: ['trozo', 1] };
+  var ADJ = /\b(grandes?|peque[nñ]os?|peque[nñ]as?|medianos?|medianas?|maduros?|maduras?|frescos?|frescas?|enteros?|enteras?|limpios?|limpias?)\b/g;
+  function sinTildes(s) { return s.normalize ? s.normalize('NFD').replace(/[\u0300-\u036f]/g, '') : s; }
+  function singular(w) { return w.length > 4 && /es$/.test(w) && /(r|l|n)es$/.test(w) ? w.slice(0, -2) : w.length > 3 && /s$/.test(w) ? w.slice(0, -1) : w; }
+  function parseIng(t) {
+    var s = String(t).toLowerCase().trim(), q = null, u = '';
+    var m = s.match(/^(\d+(?:[.,]\d+)?)\s*/);
+    if ((m = s.match(/^½\s*/))) { q = 0.5; s = s.slice(m[0].length); }
+    else if (m = s.match(/^(\d+(?:[.,]\d+)?)\s*/)) { q = parseFloat(m[1].replace(',', '.')); s = s.slice(m[0].length); }
+    else if ((m = s.match(/^(medio|media)\s+/))) { q = 0.5; s = s.slice(m[0].length); }
+    else if ((m = s.match(/^(un|una)\s+/))) { q = 1; s = s.slice(m[0].length); }
+    var w = s.match(/^([a-zñáéíóú]+)\b\s*/);
+    if (q !== null && w && UNID[w[1]]) { u = UNID[w[1]][0]; q = q * UNID[w[1]][1]; s = s.slice(w[0].length); }
+    s = s.replace(/^de\s+/, '').split(/[,(]| en | con /)[0].replace(ADJ, ' ').replace(/\s+/g, ' ').trim();
+    var key = sinTildes(s).split(' ').map(singular).join(' ');
+    return { q: q, u: u, nom: s, key: key };
+  }
+  function fmtCant(f) {
+    var out = [];
+    if (f.m) out.push(f.m >= 1000 ? (Math.round(f.m / 10) / 100).toString().replace('.', ',') + ' kg' : Math.round(f.m) + ' g');
+    if (f.v) out.push(f.v >= 1000 ? (Math.round(f.v / 10) / 100).toString().replace('.', ',') + ' l' : Math.round(f.v) + ' ml');
+    ['cda', 'cdta', 'vaso', 'diente', 'hoja', 'rama', 'pizca', 'trozo'].forEach(function (k) { if (!f[k]) return; var nn = Math.round(f[k] * 100) / 100, pl = nn !== 1; out.push(String(nn).replace('.', ',') + ' ' + { cda: 'cda', cdta: 'cdta', vaso: pl ? 'vasos' : 'vaso', diente: pl ? 'dientes' : 'diente', hoja: pl ? 'hojas' : 'hoja', rama: pl ? 'ramas' : 'rama', pizca: pl ? 'pizcas' : 'pizca', trozo: pl ? 'trozos' : 'trozo' }[k]); });
+    if (f.n) out.push(String(Math.ceil(f.n - 0.001)).replace('.', ','));
+    return out.join(' + ');
+  }
+  function agrupaCompra(its) {
+    var gs = [], mapa = {};
+    its.forEach(function (x) {
+      var p = parseIng(x[0].t), k = p.key || normT(x[0].t);
+      if (!mapa[k]) { mapa[k] = { idx: [], items: [], ps: [] }; gs.push(mapa[k]); }
+      mapa[k].idx.push(x[1]); mapa[k].items.push(x[0]); mapa[k].ps.push(p);
+    });
+    gs.forEach(function (g) {
+      g.multi = g.items.length > 1 && g.items.some(function (c) { return c.r !== g.items[0].r || normT(c.t) !== normT(g.items[0].t); });
+      if (!g.multi) { g.texto = g.items[0].t; return; }
+      var f = {}, sin = false;
+      g.ps.forEach(function (p) { if (p.q === null) { sin = true; return; } var k = p.u === 'm' ? 'm' : p.u === 'v' ? 'v' : p.u || 'n'; f[k] = (f[k] || 0) + p.q; });
+      var noms = g.ps.map(function (p) { return p.nom; }).sort(function (a, b) { return a.length - b.length; });
+      var tot = Object.keys(f).reduce(function (a, k) { return a + f[k]; }, 0);
+      var nom = (f.n && !Object.keys(f).some(function (k) { return k !== 'n'; }) && f.n > 1) ? noms[noms.length - 1] : (g.ps[0].u ? noms[0] : (f.n > 1 ? noms[noms.length - 1] : noms[0]));
+      var cant = fmtCant(f);
+      g.texto = (cant ? cant + ' ' : '') + ((cant && (f.m || f.v || f.cda || f.cdta || f.vaso || f.diente || f.hoja || f.rama || f.pizca || f.trozo) && !f.n) ? 'de ' : '') + nom;
+      if (!cant) g.texto = nom;
+    });
+    return gs;
+  }
+  function trazaGrupo(g) {
+    if (!g.multi) return '';
+    var porR = {}, ord = [];
+    g.items.forEach(function (c) { var rr = porId[c.r]; var n = rr ? rr.n : c.r; if (!porR[n]) { porR[n] = []; ord.push(n); } porR[n].push(c.t); });
+    return '<span class="traza">' + ord.map(function (n) { return esc(n) + ': ' + esc(porR[n].join(' + ')); }).join(' · ') + '</span>';
+  }
+  function notasGrupo(g) {
+    var vistos = {}, h = '';
+    g.items.forEach(function (c) { var n = notasTienda(c); if (n && !vistos[n]) { vistos[n] = 1; h += n; } });
+    return h;
+  }
   function compraPorReceta() {
     var grupos = {}, orden = [];
     compra.forEach(function (c, n) { if (!grupos[c.r]) { grupos[c.r] = []; orden.push(c.r); } grupos[c.r].push([c, n]); });
@@ -532,9 +590,9 @@
       plist.push(P.p);
       var hecha = !pend.length; if (!hecha) k++;
       h += '<li class="parada' + (hecha ? ' hecha' : '') + '"><div class="parada-cab"><span class="parada-n">' + (hecha ? '✓' : k) + '</span><h3>' + esc(P.p.nombre) + '</h3><a class="donde-link" href="' + enlaceParada(P.p) + '" target="_blank" rel="noopener">Mapa</a></div>' +
-        '<ul class="compra-lista">' + P.its.map(function (x) {
-          var c = x[0];
-          return '<li class="pit"><button type="button" class="compra-it" data-compra="' + x[1] + '" aria-pressed="' + (!!c.d) + '">' + esc(c.t) + (c.x ? '<span class="donde"><b>Plan B</b></span>' : '') + '</button>' + (c.d ? '' : '<button type="button" class="planb" data-planb="' + x[1] + '" aria-label="Plan B para ' + esc(c.t) + '">' + (c.x ? 'Volver' : 'No lo tienen') + '</button>') + (c.d ? '' : notasTienda(c)) + '</li>';
+        '<ul class="compra-lista">' + agrupaCompra(P.its).map(function (g) {
+          var c = g.items[0], ids = g.idx.join(','), hecho = g.items.every(function (z) { return z.d; }), px = g.items.some(function (z) { return z.x; });
+          return '<li class="pit"><button type="button" class="compra-it" data-compra="' + ids + '" aria-pressed="' + hecho + '">' + esc(g.texto) + trazaGrupo(g) + (px ? '<span class="donde"><b>Plan B</b></span>' : '') + '</button>' + (hecho ? '' : '<button type="button" class="planb" data-planb="' + ids + '" aria-label="Plan B para ' + esc(g.texto) + '">' + (px ? 'Volver' : 'No lo tienen') + '</button>') + (hecho ? '' : notasGrupo(g)) + '</li>';
         }).join('') + '</ul></li>';
     });
     h += '</ol>';
@@ -1046,8 +1104,8 @@
       return;
     }
     if (t.hasAttribute('data-compra')) {
-      var ci = +t.getAttribute('data-compra');
-      if (compra[ci]) { var nv = !compra[ci].d, nt = normT(compra[ci].t); compra.forEach(function (c) { if (normT(c.t) === nt) c.d = nv; }); store.set('compra', compra); rutaCalc = null; if (cvista === 'tienda') repintaCompra(); else $$('[data-compra]').forEach(function (b) { var cc = compra[+b.getAttribute('data-compra')]; if (cc) b.setAttribute('aria-pressed', !!cc.d); }); }
+      var cis = t.getAttribute('data-compra').split(',').map(Number), ci = cis[0];
+      if (compra[ci]) { var nv = !compra[ci].d, nts = cis.map(function (k) { return compra[k] ? normT(compra[k].t) : ''; }); compra.forEach(function (c, k) { if (cis.indexOf(k) > -1 || nts.indexOf(normT(c.t)) > -1) c.d = nv; }); store.set('compra', compra); rutaCalc = null; if (cvista === 'tienda') repintaCompra(); else $$('[data-compra]').forEach(function (b) { var cc = compra[+b.getAttribute('data-compra')]; if (cc) b.setAttribute('aria-pressed', !!cc.d); }); }
       return;
     }
     if (t.hasAttribute('data-ruta')) { var bi = bolsasInfo(); if (bi) aviso('🛍️ ' + bi.txt); calculaRuta(); return; }
@@ -1057,7 +1115,7 @@
     if (t.hasAttribute('data-nocerradas')) { cerradas = []; store.set('cerradas', cerradas); if (rutaCalc && rutaCalc.estado === 'lista') recalcula(function () {}); else repintaCompra(); return; }
     if (t.hasAttribute('data-alt')) { var pa = t.getAttribute('data-alt').split('|'); cambiaParada(+pa[0], +pa[1]); return; }
     if (t.hasAttribute('data-cvista')) { cvista = t.getAttribute('data-cvista'); store.set('cvista', cvista); repintaCompra(); return; }
-    if (t.hasAttribute('data-planb')) { var pi = +t.getAttribute('data-planb'); if (compra[pi]) { compra[pi].x = !compra[pi].x; store.set('compra', compra); rutaCalc = null; repintaCompra(); } return; }
+    if (t.hasAttribute('data-planb')) { var pis = t.getAttribute('data-planb').split(',').map(Number), pi = pis[0]; if (compra[pi]) { var nx = !compra[pi].x; pis.forEach(function (k) { if (compra[k]) compra[k].x = nx; }); store.set('compra', compra); rutaCalc = null; repintaCompra(); } return; }
     if (t.hasAttribute('data-tpref')) { var tp = t.getAttribute('data-tpref').split('|'); tprefs[tp[0]] = tp[1]; store.set('tprefs', tprefs); rutaCalc = null; compra.forEach(function (c) { delete c.x; }); store.set('compra', compra); repintaCompra(); var dd = document.querySelector('.elige'); if (dd) dd.open = true; return; }
     if (t.hasAttribute('data-casa')) {
       if (!navigator.geolocation) { aviso('Tu navegador no da la ubicación.'); return; }
