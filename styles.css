@@ -555,3 +555,4 @@ a, button, label, summary, [data-reg], [data-ir], .reg, .reg-hit, .chapa-hit {
 .donde b { font-weight: 700; color: var(--azul-osc); }
 .ing-lista input:checked ~ .donde { opacity: .45; }
 .compra-it .donde { display: block; margin: 2px 0 0; }
+.ing-lista label { row-gap: 0; }
