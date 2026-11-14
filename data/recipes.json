@@ -97,7 +97,7 @@
      {
       "t": "Dora la carne",
       "m": 10,
-      "x": "En la cazuela de barro, dora la costilla con aceite. Aparta.",
+      "x": "En la cazuela de barro, dora la costilla con 3 cucharadas de aceite, 8-10 minutos, hasta que tome color. Aparta.",
       "f": 4,
       "e": {
        "k": "fuego",
@@ -122,7 +122,7 @@
      {
       "t": "Tomate y especias",
       "m": 5,
-      "x": "Añade el tomate rallado y el azafrán o pimentón (fuera del fuego, para que no se queme).",
+      "x": "Añade los 2 tomates rallados y sofríelos 3 minutos; retira del fuego y añade el azafrán (o 1 cucharadita de pimentón) para que no se queme.",
       "ab": "Si se quema el pimentón, todo el arroz amarga.",
       "f": 3,
       "e": {
@@ -156,7 +156,7 @@
      {
       "t": "Arroz y caldo",
       "m": 5,
-      "x": "Añade el arroz, los garbanzos y el caldo hirviendo (el doble que de arroz, más un poco). Coloca la costilla, la morcilla y la cabeza de ajos.",
+      "x": "Añade el arroz, los garbanzos y el caldo hirviendo (600 ml, el doble que de arroz, más un chorrito). Coloca la costilla, la morcilla y la cabeza de ajos.",
       "f": 5,
       "e": {
        "k": "fuego",
@@ -184,7 +184,7 @@
      {
       "t": "Al horno",
       "m": 25,
-      "x": "A 200 °C. Hornea sin tapar hasta que el arroz haya absorbido el caldo y quede una costra dorada arriba.",
+      "x": "A 200 °C. Hornea con calor arriba y abajo, sin tapar, hasta que el arroz haya absorbido el caldo y quede una costra dorada arriba.",
       "ab": "No lo muevas: la costra es lo mejor.",
       "f": 0,
       "e": {
@@ -645,7 +645,7 @@
      {
       "t": "Sella la carne",
       "m": 15,
-      "x": "Salpimenta y dora el cordero en aceite caliente por todos los lados, sin amontonar.",
+      "x": "Salpimenta y dora el cordero en 4 cucharadas de aceite bien caliente por todos los lados, sin amontonar.",
       "ab": "Por tandas: si se amontona, suelta agua y no se dora.",
       "f": 4,
       "e": {
@@ -667,7 +667,7 @@
      {
       "t": "Sofrito",
       "m": 10,
-      "x": "Aparta la carne y en el mismo aceite pocha cebolla, pimiento y ajos picados.",
+      "x": "Aparta la carne y en el mismo aceite pocha 1 cebolla, 1 pimiento y 5 ajos picados a fuego medio 10 minutos.",
       "f": 3,
       "e": {
        "k": "fuego",
@@ -702,7 +702,7 @@
      {
       "t": "Pimentón y vino",
       "m": 5,
-      "x": "Fuera del fuego, añade el pimentón, remueve y moja con el vino. Reduce un poco.",
+      "x": "Fuera del fuego, añade 1 cucharada de pimentón, remueve 10 segundos y moja con 150 ml de vino blanco. Reduce un poco.",
       "ab": "El pimentón siempre fuera del fuego: se quema enseguida.",
       "f": 3,
       "e": {
@@ -723,7 +723,7 @@
      {
       "t": "A fuego lento",
       "m": 80,
-      "x": "Vuelve la carne a la cazuela con el laurel y agua justo para cubrir. Cuece tapado a fuego suave hasta que esté tierno y la salsa, ligada.",
+      "x": "Vuelve la carne a la cazuela con el laurel y unos 500 ml de agua, justo para cubrir. Cuece tapado a fuego muy suave (que apenas burbujee) hasta que esté tierno y la salsa, ligada.",
       "f": 1,
       "e": {
        "k": "fuego",
@@ -900,7 +900,7 @@
      {
       "t": "Fumet",
       "m": 20,
-      "x": "Cuece el pescado con agua y sal. Cuela el caldo y reserva el pescado.",
+      "x": "Cuece el pescado con 1 litro de agua y 1 cucharadita de sal, sin que hierva a borbotones. Cuela el caldo y reserva el pescado.",
       "ab": "Cuanto más pescado de roca, más sabor.",
       "f": 2,
       "e": {
@@ -921,7 +921,7 @@
      {
       "t": "Sofrito",
       "m": 10,
-      "x": "Fríe las ñoras y los ajos en aceite, apártalos, y sofríe el tomate rallado.",
+      "x": "Fríe las 3 ñoras (remojadas) y los ajos en 4 cucharadas de aceite, apártalos, y sofríe los 2 tomates rallados 5 minutos.",
       "ab": "Las ñoras, 5 segundos nada más: se queman muy rápido.",
       "f": 3,
       "e": {
@@ -975,7 +975,7 @@
      {
       "t": "Arroz y caldo",
       "m": 18,
-      "x": "Añade el arroz y el caldo hirviendo (el doble de arroz, más un poco), con el azafrán. Cuece sin mover primero fuerte y luego suave.",
+      "x": "Añade el arroz y el caldo hirviendo (unos 700 ml, algo más del doble que de arroz), con el azafrán. Cuece sin mover primero fuerte y luego suave.",
       "ab": "Al final, que quede meloso pero con el grano entero.",
       "f": 4,
       "e": {

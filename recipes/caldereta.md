@@ -28,15 +28,15 @@ El guiso de los pastores extremeños: cordero dorado, pimentón y ajo, a fuego l
 
 ### Dorar
 
-1. **Sella la carne** (15 min) - Salpimenta y dora el cordero en aceite caliente por todos los lados, sin amontonar.
+1. **Sella la carne** (15 min) - Salpimenta y dora el cordero en 4 cucharadas de aceite bien caliente por todos los lados, sin amontonar.
    > Por tandas: si se amontona, suelta agua y no se dora.
-2. **Sofrito** (10 min) - Aparta la carne y en el mismo aceite pocha cebolla, pimiento y ajos picados.
+2. **Sofrito** (10 min) - Aparta la carne y en el mismo aceite pocha 1 cebolla, 1 pimiento y 5 ajos picados a fuego medio 10 minutos.
 
 ### Guisar
 
-3. **Pimentón y vino** (5 min) - Fuera del fuego, añade el pimentón, remueve y moja con el vino. Reduce un poco.
+3. **Pimentón y vino** (5 min) - Fuera del fuego, añade 1 cucharada de pimentón, remueve 10 segundos y moja con 150 ml de vino blanco. Reduce un poco.
    > El pimentón siempre fuera del fuego: se quema enseguida.
-4. **A fuego lento** (80 min) - Vuelve la carne a la cazuela con el laurel y agua justo para cubrir. Cuece tapado a fuego suave hasta que esté tierno y la salsa, ligada.
+4. **A fuego lento** (80 min) - Vuelve la carne a la cazuela con el laurel y unos 500 ml de agua, justo para cubrir. Cuece tapado a fuego muy suave (que apenas burbujee) hasta que esté tierno y la salsa, ligada.
 
 ## Secretos de la abuela
 

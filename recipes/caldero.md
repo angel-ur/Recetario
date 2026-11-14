@@ -29,15 +29,15 @@ El arroz de los pescadores del Mar Menor: poco ingrediente y mucho fumet, con el
 
 ### El caldo
 
-1. **Fumet** (20 min) - Cuece el pescado con agua y sal. Cuela el caldo y reserva el pescado.
+1. **Fumet** (20 min) - Cuece el pescado con 1 litro de agua y 1 cucharadita de sal, sin que hierva a borbotones. Cuela el caldo y reserva el pescado.
    > Cuanto más pescado de roca, más sabor.
-2. **Sofrito** (10 min) - Fríe las ñoras y los ajos en aceite, apártalos, y sofríe el tomate rallado.
+2. **Sofrito** (10 min) - Fríe las 3 ñoras (remojadas) y los ajos en 4 cucharadas de aceite, apártalos, y sofríe los 2 tomates rallados 5 minutos.
    > Las ñoras, 5 segundos nada más: se queman muy rápido.
 3. **Pica** (5 min) - Machaca las ñoras y los ajos con un poco de caldo, y añádelos al sofrito.
 
 ### El arroz
 
-4. **Arroz y caldo** (18 min) - Añade el arroz y el caldo hirviendo (el doble de arroz, más un poco), con el azafrán. Cuece sin mover primero fuerte y luego suave.
+4. **Arroz y caldo** (18 min) - Añade el arroz y el caldo hirviendo (unos 700 ml, algo más del doble que de arroz), con el azafrán. Cuece sin mover primero fuerte y luego suave.
    > Al final, que quede meloso pero con el grano entero.
 5. **Reposa y sirve** (5 min) - Deja reposar unos minutos y sirve con el pescado aparte y alioli.
 

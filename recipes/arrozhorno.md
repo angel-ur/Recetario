@@ -29,14 +29,14 @@ El arroz que se hacía los domingos en Valencia con lo que había: una cazuela d
 
 ### Sofrito
 
-1. **Dora la carne** (10 min) - En la cazuela de barro, dora la costilla con aceite. Aparta.
-2. **Tomate y especias** (5 min) - Añade el tomate rallado y el azafrán o pimentón (fuera del fuego, para que no se queme).
+1. **Dora la carne** (10 min) - En la cazuela de barro, dora la costilla con 3 cucharadas de aceite, 8-10 minutos, hasta que tome color. Aparta.
+2. **Tomate y especias** (5 min) - Añade los 2 tomates rallados y sofríelos 3 minutos; retira del fuego y añade el azafrán (o 1 cucharadita de pimentón) para que no se queme.
    > Si se quema el pimentón, todo el arroz amarga.
 
 ### Horno
 
-3. **Arroz y caldo** (5 min) - Añade el arroz, los garbanzos y el caldo hirviendo (el doble que de arroz, más un poco). Coloca la costilla, la morcilla y la cabeza de ajos.
-4. **Al horno** (25 min, 200 °C) - Hornea sin tapar hasta que el arroz haya absorbido el caldo y quede una costra dorada arriba.
+3. **Arroz y caldo** (5 min) - Añade el arroz, los garbanzos y el caldo hirviendo (600 ml, el doble que de arroz, más un chorrito). Coloca la costilla, la morcilla y la cabeza de ajos.
+4. **Al horno** (25 min, 200 °C) - Hornea con calor arriba y abajo, sin tapar, hasta que el arroz haya absorbido el caldo y quede una costra dorada arriba.
    > No lo muevas: la costra es lo mejor.
 5. **Reposo** (5 min) - Deja reposar fuera del horno unos minutos antes de servir.
 
