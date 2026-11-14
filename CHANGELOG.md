@@ -10,6 +10,7 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 - La lista por tienda avisa de cuántos ingredientes no tienen precio de referencia.
 
 ### Añadido
+- Portadas ilustradas propias de pisto (sartén con huevo frito), arroz con leche y xató.
 - Portadas ilustradas propias de pulpo á feira (tabla de madera, pimentón y cachelos), marmitako y migas.
 - Portada ilustrada propia de la crema catalana: cazuelita de barro con la costra quemada y la pala de hierro.
 - El planificador entrelaza ahora pasos de crema catalana, tumbet, xató y marmitako (lo que de verdad se puede hacer a la vez, marcado receta a receta).
