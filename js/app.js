@@ -1161,7 +1161,7 @@
       r.rac.map(function (n) { var id = 'rac-' + String(n).replace('.', '-'); return '<input type="radio" name="rac" id="' + id + '" value="' + n + '"' + (n === e.rac ? ' checked' : '') + '><label for="' + id + '">' + coma(n) + '</label>'; }).join('') + '</div></fieldset></div>' +
       (r.notaRac ? '<p class="nota-rac" id="nota-rac">' + esc(r.notaRac[1]) + '</p>' : '') +
       (r.simple ? '<p class="nota-rac">Versión sencilla: las cantidades son para ' + coma(r.rac[0]) + ' ' + udN.toLowerCase() + ' y no se ajustan.</p>' : '') +
-      '<p class="ayuda">Toca cada ingrediente para marcar lo que ya tienes.</p><p class="compra-acc"><button type="button" class="btn sec" data-comprar="1">' + (compra.some(function (c) { return c.r === r.id; }) ? 'Lista de la compra actualizada: añadir de nuevo' : 'Añadir lo que falta a la compra') + '</button></p><ul class="ing-lista">' +
+      '<p class="ayuda ing-ayuda">Toca cada ingrediente para marcar lo que ya tienes.</p><p class="compra-acc"><button type="button" class="btn sec" data-comprar="1">' + (compra.some(function (c) { return c.r === r.id; }) ? 'Lista de la compra actualizada: añadir de nuevo' : 'Añadir lo que falta a la compra') + '</button></p><ul class="ing-lista">' +
       r.ings.map(function (i) {
         if (i.grupo !== undefined) return '<li class="grupo">' + esc(i.grupo) + '</li>';
         if (i.plano) return '<li><label><input type="checkbox" value="' + i.k + '"' + (e.tengo.indexOf(i.k) > -1 ? ' checked' : '') + '><span class="nom">' + esc(i.s) + '</span>' + dondeTag(i.s) + '</label></li>';
@@ -1185,7 +1185,7 @@
       '<label class="sr-only" for="nota-txt">Nota propia de ' + esc(r.n) + '</label><textarea id="nota-txt" rows="3" maxlength="600" placeholder="A mi abuela le ponía más ajo…">' + esc(notas[r.id] || '') + '</textarea>' +
       '<div class="notas-pie"><button type="button" class="btn sec" data-nota="guarda">Guardar nota</button>' + (notas[r.id] ? '<button type="button" class="quita" data-nota="borra">Quitar la nota</button>' : '') + '</div></section>';
     var otras = R.filter(function (o) { return o !== r && (o.cat === r.cat || o.regs.some(function (g) { return r.regs.indexOf(g) > -1; })); }).slice(0, 3);
-    h += '<section class="final"><button type="button" class="btn hecho-r" data-cocinado="1" aria-pressed="' + (!!cocinados[r.id]) + '">' + (cocinados[r.id] ? 'Sellado en el pasaporte' : '¡Lo he cocinado! Sellar el pasaporte') + '</button></section>';
+    h += '<section class="final"><button type="button" class="btn hecho-r" data-cocinado="1" aria-pressed="' + (!!cocinados[r.id]) + '">' + (cocinados[r.id] ? 'Sellado en el pasaporte' : '¡Lo he cocinado! Sellar el pasaporte') + '</button><button type="button" class="btn sec" data-imprime="1">Imprimir la receta</button></section>';
     if (otras.length) h += '<section class="otras" aria-labelledby="t-otras"><h2 id="t-otras" style="font-size:24px">Para la próxima</h2><ul class="filas">' + otras.map(fila).join('') + '</ul></section>';
     $('#vista-receta').innerHTML = h;
     pintaPlan(); pintaHechos(); pintaTimers();
@@ -1757,7 +1757,7 @@
   /* ---------- Eventos ---------- */
   document.addEventListener('click', function (ev) {
     if (!$('#menu').hidden && !ev.target.closest('#menu,#menu-btn')) menuAbre(false);
-    var t = ev.target.closest('[data-ir],[data-menu],#mas-filtros,#quita-filtros,[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-desglose],[data-cvista],[data-ruta],[data-cerrada],[data-usamk],[data-nocerradas],[data-cambia],[data-alt],[data-planb],[data-tpref],[data-casa],[data-vaciar],[data-fav],[data-comparte],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
+    var t = ev.target.closest('[data-ir],[data-menu],#mas-filtros,#quita-filtros,[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-desglose],[data-cvista],[data-ruta],[data-cerrada],[data-usamk],[data-nocerradas],[data-cambia],[data-alt],[data-planb],[data-tpref],[data-casa],[data-vaciar],[data-fav],[data-comparte],[data-imprime],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
     if (!t) return;
     if (t.hasAttribute('data-ir')) { ir(t.getAttribute('data-ir')); return; }
     if (t.hasAttribute('data-menu')) { var ma = t.getAttribute('data-menu'); if (ma === 'abre') { menuAbre($('#menu').hidden); return; } menuAccion(ma); return; }
@@ -1773,6 +1773,7 @@
     if (t.hasAttribute('data-hecho')) { var p = t.getAttribute('data-hecho').split(':'); marcaHecho(porId[p[0]], +p[1]); if (cocina) pintaCocina(); else pintaHechos(); return; }
     if (t.hasAttribute('data-fav')) { if (favs[actual.id]) delete favs[actual.id]; else favs[actual.id] = Date.now(); store.set('favs', favs); t.setAttribute('aria-pressed', !!favs[actual.id]); t.textContent = favs[actual.id] ? '♥ En favoritos' : '♡ Guardar'; return; }
     if (t.hasAttribute('data-comparte')) { comparteImagen(); return; }
+    if (t.hasAttribute('data-imprime')) { window.print(); return; }
     if (t.id === 'ver-favs') { filtro.fav = !filtro.fav; t.setAttribute('aria-pressed', filtro.fav ? 'true' : 'false'); pintaFichas(); return; }
     if (t.id === 'mas-filtros') { var ex = $('#filtros-extra'); ex.hidden = !ex.hidden; t.setAttribute('aria-expanded', ex.hidden ? 'false' : 'true'); return; }
     if (t.id === 'quita-filtros') { filtro.cat = 'todas'; filtro.t = 'todos'; filtro.q = ''; filtro.fav = false; var bq = $('#buscar'); if (bq) bq.value = ''; $$('[data-cat]').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-cat') === 'todas' ? 'true' : 'false'); }); $$('[data-tiempo]').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-tiempo') === 'todos' ? 'true' : 'false'); }); $('#ver-favs').setAttribute('aria-pressed', 'false'); pintaFichas(); return; }

@@ -805,3 +805,22 @@ details.plan[open] > summary { margin-bottom: 12px; }
 }
 .notas textarea:focus { outline: 2px solid var(--anil); border-color: var(--anil); }
 .notas-pie { display: flex; gap: 10px; justify-content: center; margin-top: 10px; flex-wrap: wrap; }
+
+/* ---- impresion limpia (ficha -> receta en papel/PDF) ---- */
+@media print {
+  .azulejo, .hero, #vista-indice, #cocina, #cocina-nav, #dock, #toast,
+  #ses-barra, #menu, #menu-btn, #arriba, .volver, .acciones-r, .interruptor,
+  .notas-pie, .notas textarea, .otras, .reinicio, .plan, .temporizador,
+  .seg-fs, .barrio, .hecho, [data-comprar], .ing-ayuda {
+    display: none !important;
+  }
+  body { background: #fff; }
+  .pagina { padding: 0; max-width: 100%; }
+  .tarjeta, .paso { box-shadow: none !important; border-color: #bbb !important; break-inside: avoid; }
+  .fase { box-shadow: none !important; }
+  .fase-cab, .seccion-cab { break-after: avoid; }
+  .paso .ilustra { max-width: 200px; margin: 0 auto; }
+  .mientras-btn, .ir-paso { display: none !important; }
+  .notas { border: none; }
+  a { color: inherit; text-decoration: none; }
+}

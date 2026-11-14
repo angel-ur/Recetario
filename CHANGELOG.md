@@ -3,6 +3,7 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Imprimir la receta: boton «Imprimir la receta» al final de cada ficha. Sale limpia en papel o PDF: sin botones ni controles, con los ingredientes, los pasos y los secretos.
 - Busqueda por varios ingredientes: escribe lo que tienes en la nevera («patata huevo») y salen los platos que llevan todo eso, primero los que mas coinciden.
 - Los temporizadores ya sobreviven a recargar la pagina (antes se perdian al volver a abrir). Y en modo cocina, cuando acaba el tiempo del paso que tienes delante, la receta avanza sola al siguiente paso.
 - Compartir la receta como imagen: boton «Compartir» en cada ficha que crea una tarjeta bonita (azulejo, la ilustracion del plato, titulo y region) para mandar por WhatsApp o guardar.

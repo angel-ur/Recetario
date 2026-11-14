@@ -28,7 +28,7 @@ Ya tenemos: raciones que recalculan, pasos ilustrados, temporizadores, modo coci
 ## P3
 10. Ilustraciones mas ricas por plato. [14 nov: las 13 recetas nuevas ya tienen ilustracion de portada (data/heroes_extra.json); faltan ilustraciones por paso]
 11. [HECHO 15 nov] Buscador por ingrediente ("que tengo en la nevera"): varias palabras en el buscador exigen todas (AND) y ordenan por cuantos ingredientes coinciden.
-12. Impresion limpia / PDF.
+12. [HECHO 15 nov] Impresion limpia / PDF: boton «Imprimir la receta» en la ficha + hoja @media print (sin controles, ilustraciones pequenas, cortes de pagina cuidados).
 
 ## Reglas inamovibles
 Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-action: manipulation; SVG interactivo con fill rgba(0,0,0,0) y cursor:pointer; verificar toques tras cada cambio.
