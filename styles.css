@@ -609,3 +609,26 @@ details.plan[open] > summary { margin-bottom: 12px; }
 #vista-receta { grid-template-columns: minmax(0,1fr); } #vista-receta > * { min-width: 0; }
 .fase-cab, .paso-cuerpo, .paso, .fase { grid-template-columns: minmax(0,1fr); min-width: 0; } .paso-cab { min-width: 0; } .paso-cab > * { min-width: 0; }
 .texto .q { white-space: normal; overflow-wrap: anywhere; }
+
+/* compra por tienda */
+.seg-g { display: flex; margin: 4px 0 10px; }
+.seg { display: inline-flex; gap: 0; border: 1.5px solid var(--linea); border-radius: 12px; overflow: hidden; background: var(--lienzo); }
+.seg-g.seg { display: flex; }
+.seg button { font: inherit; font-size: 14px; font-weight: 700; padding: 9px 12px; min-height: 40px; border: 0; background: transparent; color: var(--tinta-suave); cursor: pointer; touch-action: manipulation; }
+.seg button[aria-pressed="true"] { background: var(--anil); color: #fff; }
+.seg-g button { flex: 1; }
+.seg-g { border: 1.5px solid var(--linea); border-radius: 12px; overflow: hidden; background: var(--lienzo); }
+.ruta { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 10px; }
+.parada { border: 1.5px solid var(--linea); border-radius: 14px; padding: 10px 12px 4px; background: #fffdf7; }
+.parada.hecha { opacity: .55; }
+.parada-cab { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.parada-cab h3 { font-family: var(--f-display); font-size: 18px; font-weight: 900; color: var(--azul-osc); flex: 1; min-width: 0; }
+.parada-n { width: 28px; height: 28px; border-radius: 50%; background: var(--anil); color: #fff; font-weight: 800; display: grid; place-items: center; flex: none; font-size: 14px; }
+.pit { display: flex; gap: 6px; align-items: stretch; }
+.pit .compra-it { flex: 1; min-width: 0; }
+.planb { font: inherit; font-size: 12.5px; font-weight: 700; color: var(--azul-osc); background: transparent; border: 1.5px dashed var(--linea); border-radius: 12px; padding: 4px 10px; min-width: 64px; cursor: pointer; touch-action: manipulation; }
+.elige { margin-top: 12px; }
+.elige summary { font-weight: 700; color: var(--azul-osc); cursor: pointer; padding: 8px 0; }
+.elige-fila { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 6px 0; font-size: 14px; flex-wrap: wrap; }
+.elige-fila .seg button { font-size: 13px; padding: 7px 10px; min-height: 36px; }
+.vuelta { margin-top: 14px; display: grid; gap: 8px; justify-items: start; }

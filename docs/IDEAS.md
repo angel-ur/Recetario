@@ -44,3 +44,10 @@ Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-act
 - Se generan con `scripts/ilu_*.py` (+ `scripts/ilu_lib.py`). En el SVG los ids de degradado empiezan por `ID`; el build los prefija por receta.
 - Estilo acordado con el autor: fondo crema, plato ovalado con aro azul (var(--anil)), composicion simple, un plato reconocible y poco mas. Referencia de nivel: gazpacho. El tempeh es la excepcion (escena con tabla de madera, aprobada).
 - Hechas: tempeh, paella, tortilla (entera, cupula dorada), cocido, gazpacho, caldo, fabada, lentejas, croquetas. Siguientes: pulpo, migas, marmitako, rabo, pisto, arroz con leche, crema catalana, papas, xato, tumbet...
+
+## La compra por tienda (v1)
+- En «La compra» hay un selector Por receta / Por tienda (localStorage `cvista`).
+- Por tienda: cada ingrediente va a una parada segun su tipo (tabla DONDE). Por tipo se elige Súper o la tienda «mejor» (`tprefs`, por defecto mejor en fresco y Súper en seco). Orden de la ruta: ORDEN_TOUR (seco primero, pescado al final).
+- Marcar comprado marca tambien el mismo ingrediente en otras recetas. «No lo tienen» (plan B, campo `x`) pasa el ingrediente a la otra opcion (Súper <-> tienda mejor).
+- Vuelta a casa: «Guardar mi casa aquí» guarda lat/lon redondeados solo en el movil (`casa`); el boton abre Google Maps (a pie) con destino casa y, en zonas con lista verificada (zona), las tiendas concretas como paradas.
+- Siguientes ideas: unir ingredientes repetidos en una sola linea, cantidades sumadas, horarios por tienda, ruta con mas zonas verificadas.

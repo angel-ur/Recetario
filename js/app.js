@@ -277,6 +277,83 @@
     return '<div class="tbarra" aria-hidden="true"><span class="a" style="flex:' + a + ' 1 0px"></span>' + (c.esp ? '<span class="e" style="flex:' + c.esp + ' 1 0px"></span>' : '') + (c.pre ? '<span class="v" style="flex:' + Math.min(c.pre, tot) + ' 1 0px"></span>' : '') + '</div>';
   }
 
+
+  /* ---------- La compra: por receta o como ruta por tiendas ---------- */
+  var FRESCO = { embutido: 1, carne: 1, pescado: 1, verdura: 1, huevo: 1, panaderia: 1 };
+  var ORDEN_TOUR = ['super', 'especia', 'legumbre', 'arroz', 'aceite', 'despensa', 'panaderia', 'verdura', 'huevo', 'carne', 'embutido', 'pescado']; // lo que no se enfria primero; pescado, lo ultimo
+  var cvista = store.get('cvista', 'receta');
+  var tprefs = store.get('tprefs', {}) || {};
+  var casa = store.get('casa', null); // {lat, lon} solo en este movil
+  function normT(t) { return String(t).toLowerCase().replace(/\s+/g, ' ').trim(); }
+  function prefDe(cat) { return tprefs[cat] || (FRESCO[cat] ? 'mejor' : 'facil'); }
+  function paradaDe(c) {
+    var d = dondeCat(c.t);
+    if (!d) return { id: 'super', nombre: 'Súper', cat: null };
+    var p = prefDe(d[0]);
+    if (c.x) p = p === 'mejor' ? 'facil' : 'mejor'; // plan B: la otra opcion
+    return p === 'facil' ? { id: 'super', nombre: 'Súper', cat: d[0] } : { id: d[0], nombre: d[3], cat: d[0] };
+  }
+  function lugarCurado(cat) {
+    var z = zonaCurada();
+    return z && z.lugares[cat] && z.lugares[cat][0] ? { n: z.lugares[cat][0][0], zona: z.nombre } : null;
+  }
+  function enlaceParada(p) {
+    var lc = p.id !== 'super' ? lugarCurado(p.id) : null;
+    var q = lc ? lc.n + ' ' + lc.zona : (p.id === 'super' ? 'supermercado cerca de mí' : MAPAQ[p.id] + ' cerca de mí');
+    return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(q);
+  }
+  function rutaCompleta(paradas) {
+    if (!casa) return '';
+    var pts = paradas.filter(function (p) { return p.id !== 'super' && lugarCurado(p.id); }).map(function (p) { var l = lugarCurado(p.id); return l.n + ' ' + l.zona; });
+    var u = 'https://www.google.com/maps/dir/?api=1&travelmode=walking&destination=' + casa.lat + ',' + casa.lon;
+    if (pts.length) u += '&origin=' + encodeURIComponent('Mi ubicación') + '&waypoints=' + encodeURIComponent(pts.join('|'));
+    return u;
+  }
+  function compraPorReceta() {
+    var grupos = {}, orden = [];
+    compra.forEach(function (c, n) { if (!grupos[c.r]) { grupos[c.r] = []; orden.push(c.r); } grupos[c.r].push([c, n]); });
+    return orden.map(function (rid) { var rr = porId[rid]; return '<p class="eti">' + esc(rr ? rr.n : rid) + '</p><ul class="compra-lista">' + grupos[rid].map(function (p) { return '<li><button type="button" class="compra-it" data-compra="' + p[1] + '" aria-pressed="' + (!!p[0].d) + '">' + esc(p[0].t) + dondeTag(p[0].t, true) + '</button></li>'; }).join('') + '</ul>'; }).join('') +
+      barrioHTML(catsDe(compra.map(function (c) { return c.t; })));
+  }
+  function compraPorTienda() {
+    var paradas = {}, cats = {};
+    compra.forEach(function (c, n) {
+      var p = paradaDe(c);
+      if (!paradas[p.id]) paradas[p.id] = { p: p, its: [] };
+      paradas[p.id].its.push([c, n]);
+      var d = dondeCat(c.t); if (d) cats[d[0]] = d;
+    });
+    var ids = ORDEN_TOUR.filter(function (id) { return paradas[id]; });
+    var h = '<p class="ayuda">Un recorrido: lo que no se enfría primero, el pescado al final. Toca para marcar comprado; si una tienda no lo tiene, «Plan B» lo pasa a la otra opción.</p><ol class="ruta">';
+    var plist = [], k = 0;
+    ids.forEach(function (id) {
+      var P = paradas[id], pend = P.its.filter(function (x) { return !x[0].d; });
+      plist.push(P.p);
+      var hecha = !pend.length; if (!hecha) k++;
+      h += '<li class="parada' + (hecha ? ' hecha' : '') + '"><div class="parada-cab"><span class="parada-n">' + (hecha ? '✓' : k) + '</span><h3>' + esc(P.p.nombre) + '</h3><a class="donde-link" href="' + enlaceParada(P.p) + '" target="_blank" rel="noopener">Mapa</a></div>' +
+        '<ul class="compra-lista">' + P.its.map(function (x) {
+          var c = x[0];
+          return '<li class="pit"><button type="button" class="compra-it" data-compra="' + x[1] + '" aria-pressed="' + (!!c.d) + '">' + esc(c.t) + (c.x ? '<span class="donde"><b>Plan B</b></span>' : '') + '</button>' + (c.d ? '' : '<button type="button" class="planb" data-planb="' + x[1] + '" aria-label="Plan B para ' + esc(c.t) + '">' + (c.x ? 'Volver' : 'No lo tienen') + '</button>') + '</li>';
+        }).join('') + '</ul></li>';
+    });
+    h += '</ol>';
+    var cl = Object.keys(cats);
+    if (cl.length) h += '<details class="elige"><summary>Dónde compro cada cosa</summary><div class="elige-cuerpo">' + cl.map(function (c) {
+      var d = cats[c], p = prefDe(c);
+      return '<div class="elige-fila"><span>' + esc(d[3].replace(/^Tienda /, 'tienda ').toLowerCase()) + '</span><span class="seg"><button type="button" data-tpref="' + c + '|facil" aria-pressed="' + (p === 'facil') + '">Súper</button><button type="button" data-tpref="' + c + '|mejor" aria-pressed="' + (p === 'mejor') + '">' + esc(d[3]) + '</button></span></div>';
+    }).join('') + '</div></details>';
+    var rc = rutaCompleta(plist);
+    h += '<div class="vuelta"><p class="eti">Vuelta a casa</p>' + (casa ? '<a class="btn sec" href="' + (rc || '#') + '" target="_blank" rel="noopener">Abrir ruta con vuelta a casa</a><button type="button" class="reiniciar" data-casa="1">Cambiar mi casa</button>' : '<p class="ayuda">Guarda dónde vives estando en casa y te abro la ruta de vuelta en Maps. Se queda solo en este móvil.</p><button type="button" class="btn sec" data-casa="1">Guardar mi casa aquí</button>') + '</div>';
+    return h;
+  }
+  function compraHTML() {
+    var v = cvista === 'tienda' ? 'tienda' : 'receta';
+    return '<section class="tarjeta" id="compra-tarjeta" aria-labelledby="t-compra"><div class="seccion-cab"><h2 id="t-compra">La compra</h2><span class="ayuda">' + compra.filter(function (c) { return !c.d; }).length + ' por comprar</span></div>' +
+      '<div class="seg seg-g" role="group" aria-label="Ver la compra"><button type="button" data-cvista="receta" aria-pressed="' + (v === 'receta') + '">Por receta</button><button type="button" data-cvista="tienda" aria-pressed="' + (v === 'tienda') + '">Por tienda</button></div>' +
+      (v === 'tienda' ? compraPorTienda() : compraPorReceta()) +
+      '<p class="reinicio"><button type="button" class="reiniciar" data-vaciar="1">Vaciar la lista</button></p></section>';
+  }
+  function repintaCompra() { var s = document.getElementById('compra-tarjeta'); if (s) s.outerHTML = compraHTML(); }
   /* ---------- Portada ---------- */
   function vistaIndice() {
     var c = cuentas();
@@ -285,13 +362,7 @@
     var h = '', hp = '', hm = '', hf = '';
     var sigue = R.filter(function (r) { return !cocinados[r.id] && est(r).hechos.length; })[0];
     if (sigue) h += '<section class="tarjeta" aria-label="Sigue donde lo dejaste"><p class="eti">Sigue donde lo dejaste</p><ul class="filas">' + fila(sigue) + '</ul></section>';
-    if (compra.length) {
-      var grupos = {}, orden = [];
-      compra.forEach(function (c, n) { if (!grupos[c.r]) { grupos[c.r] = []; orden.push(c.r); } grupos[c.r].push([c, n]); });
-      h += '<section class="tarjeta" aria-labelledby="t-compra"><div class="seccion-cab"><h2 id="t-compra">La compra</h2><span class="ayuda">' + compra.filter(function (c) { return !c.d; }).length + ' por comprar</span></div>' +
-        orden.map(function (rid) { var rr = porId[rid]; return '<p class="eti">' + esc(rr ? rr.n : rid) + '</p><ul class="compra-lista">' + grupos[rid].map(function (p) { return '<li><button type="button" class="compra-it" data-compra="' + p[1] + '" aria-pressed="' + (!!p[0].d) + '">' + esc(p[0].t) + dondeTag(p[0].t, true) + '</button></li>'; }).join('') + '</ul>'; }).join('') +
-        barrioHTML(catsDe(compra.map(function (c) { return c.t; }))) + '<p class="reinicio"><button type="button" class="reiniciar" data-vaciar="1">Vaciar la lista</button></p></section>';
-    }
+    if (compra.length) h += compraHTML();
     var hoy = new Date(), dnum = Math.floor((hoy.getTime() - hoy.getTimezoneOffset() * 60000) / 86400000);
     var pool = R.filter(function (r) { return !cocinados[r.id]; }); if (!pool.length) pool = R;
     var dia = pool[dnum % pool.length];
@@ -719,7 +790,7 @@
   /* ---------- Eventos ---------- */
   document.addEventListener('click', function (ev) {
     if (!$('#menu').hidden && !ev.target.closest('#menu,#menu-btn')) menuAbre(false);
-    var t = ev.target.closest('[data-ir],[data-menu],#mas-filtros,#quita-filtros,[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-vaciar],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
+    var t = ev.target.closest('[data-ir],[data-menu],#mas-filtros,#quita-filtros,[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-cvista],[data-planb],[data-tpref],[data-casa],[data-vaciar],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
     if (!t) return;
     if (t.hasAttribute('data-ir')) { ir(t.getAttribute('data-ir')); return; }
     if (t.hasAttribute('data-menu')) { var ma = t.getAttribute('data-menu'); if (ma === 'abre') { menuAbre($('#menu').hidden); return; } menuAccion(ma); return; }
@@ -746,7 +817,20 @@
       t.textContent = 'Lista de la compra actualizada: añadir de nuevo';
       return;
     }
-    if (t.hasAttribute('data-compra')) { var ci = +t.getAttribute('data-compra'); if (compra[ci]) { compra[ci].d = !compra[ci].d; store.set('compra', compra); t.setAttribute('aria-pressed', !!compra[ci].d); } return; }
+    if (t.hasAttribute('data-compra')) {
+      var ci = +t.getAttribute('data-compra');
+      if (compra[ci]) { var nv = !compra[ci].d, nt = normT(compra[ci].t); compra.forEach(function (c) { if (normT(c.t) === nt) c.d = nv; }); store.set('compra', compra); if (cvista === 'tienda') repintaCompra(); else $$('[data-compra]').forEach(function (b) { var cc = compra[+b.getAttribute('data-compra')]; if (cc) b.setAttribute('aria-pressed', !!cc.d); }); }
+      return;
+    }
+    if (t.hasAttribute('data-cvista')) { cvista = t.getAttribute('data-cvista'); store.set('cvista', cvista); repintaCompra(); return; }
+    if (t.hasAttribute('data-planb')) { var pi = +t.getAttribute('data-planb'); if (compra[pi]) { compra[pi].x = !compra[pi].x; store.set('compra', compra); repintaCompra(); } return; }
+    if (t.hasAttribute('data-tpref')) { var tp = t.getAttribute('data-tpref').split('|'); tprefs[tp[0]] = tp[1]; store.set('tprefs', tprefs); compra.forEach(function (c) { delete c.x; }); store.set('compra', compra); repintaCompra(); var dd = document.querySelector('.elige'); if (dd) dd.open = true; return; }
+    if (t.hasAttribute('data-casa')) {
+      if (!navigator.geolocation) { aviso('Tu navegador no da la ubicación.'); return; }
+      aviso('Buscando dónde estás…');
+      navigator.geolocation.getCurrentPosition(function (pos) { casa = { lat: Math.round(pos.coords.latitude * 1e4) / 1e4, lon: Math.round(pos.coords.longitude * 1e4) / 1e4 }; store.set('casa', casa); repintaCompra(); aviso('Casa guardada en este móvil.'); }, function () { aviso('No he podido ver tu ubicación. Revisa el permiso.'); }, { timeout: 10000, maximumAge: 60000 });
+      return;
+    }
     if (t.hasAttribute('data-vaciar')) { if (window.confirm('¿Vaciar la lista de la compra?')) { compra = []; store.set('compra', compra); vistaIndice(); } return; }
     if (t.hasAttribute('data-geo')) { ubica(); return; }
     if (t.hasAttribute('data-reset')) { if (window.confirm('¿Borrar todos los sellos del pasaporte?')) { cocinados = {}; store.set('cocinados', cocinados); vistaIndice(); } return; }
