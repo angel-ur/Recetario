@@ -6,7 +6,11 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 - Sesiones de cocina: «Empezar a cocinar» en cada receta, barra de platos en toda la app y vista «Ahora» que entrelaza los pasos de hasta 3 recetas a la vez. Las sesiones caducan solas (aviso a las 4 h, cierre a las 6 h) y no guardan nada al cerrarse.
 - Planificador por dependencias (pasos que necesitan otros, pasos que se hacen a la vez que otro, horno único) con datos para caldo, rabo, cocido y lentejas.
 - Pasos en paralelo dentro de una receta: «A la vez que el paso N» y lista de lo que cabe en el hueco.
-- Cantidades exactas y porqués en 13 recetas; las cantidades van en negro y negrita.
+- Cantidades exactas y porqués en las 37 recetas; las cantidades van en negro y negrita.
+- Con una sesión activa, las horas del plan salen de la hora real de inicio, y se puede corregir en «Ahora > Tus platos».
+- Caldo de huesos: nueva versión de la casa (huesos tostados, verdura cruda, 5 cdas de vinagre, cacerola con verdura la última hora).
+- Portadas de sobaos, tumbet y xató más llenas.
+- «Recetas» del menú quita el filtro de favoritos.
 - Glosario de técnicas (qué es y por qué), historial de precios propio, «En la tienda» en 37 recetas, precios orientativos.
 - Corregidos pasos que se perdían cuando el texto llevaba «(25 min, 200 °C)» y cabeceras de ingredientes rotas.
 - Quitado «Cocinar a la vez» de la portada: se sustituye por las sesiones.

@@ -7,3 +7,5 @@ Una decisión por archivo, numerada: contexto, decisión, consecuencias. No se r
 | 0001 | Web estática sin frameworks y local-first |
 | 0002 | Portadas ilustradas en SVG propio |
 | 0003 | Ruta de la compra con OpenStreetMap y Google Maps |
+| 0004 | La ruta se dibuja dentro de la app |
+| 0005 | Sesiones de cocina que se entrelazan solas |

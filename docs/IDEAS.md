@@ -7,6 +7,11 @@ Referencias revisadas (patrones, no copia):
 
 Ya tenemos: raciones que recalculan, pasos ilustrados, temporizadores, modo cocina, planificador, mapa por comunidades, pasaporte con sellos, reinicio.
 
+## Hecho (14 nov)
+- Sesiones de cocina con entrelazado automático y caducidad (ADR 0005).
+- Cantidades y porqués en las 37 recetas.
+- Plan anclado a la hora real de inicio.
+
 ## P1 (siguiente)
 1. Recetas nuevas: 2+ platos por comunidad. [14 nov: añadidas empanada gallega, callos, lechazo, caldereta; ronda 3: pil-pil, arroz al horno, ternasco, caldero murciano; ronda 4: sopas mallorquinas, cocido montañés, gachas, ropa vieja, chuletillas. Las 17 comunidades tienen 2+] Gestos de abuela, no relleno.
 2. [HECHO 14 nov] Plato del dia: una receta destacada por fecha (determinista, sin servidor) en la cabecera.
@@ -52,3 +57,5 @@ Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-act
 - Vuelta a casa: «Guardar mi casa aquí» guarda lat/lon redondeados solo en el movil (`casa`); el boton abre Google Maps (a pie) con destino casa y, en zonas con lista verificada (zona), las tiendas concretas como paradas.
 - Siguientes ideas: unir ingredientes repetidos en una sola linea, cantidades sumadas, horarios por tienda, ruta con mas zonas verificadas.
 - Ruta dinamica (v1.1): «Calcular ruta desde mi ubicación» busca en OpenStreetMap (Overpass, sin clave) la tienda con nombre mas cercana de cada tipo de parada pendiente (tabla OSM en app.js, radio 3 km, distancia en linea recta) y arma una ruta a pie en Google Maps: origen tu ubicacion, paradas en orden de tour, destino casa (si esta guardada). Si Overpass no responde o no hay tienda de ese tipo, esa parada va como busqueda de texto y Maps elige. Maximo 9 paradas (limite de Maps). La lista verificada de la zona ya no se usa para la ruta, solo en la tarjeta «Por tu barrio».
+- Más datos de dependencias (`tras`/`durante`) en recetas fuera de caldo, rabo, cocido, lentejas y paella.
+- Portada propia de crema catalana (cazuelitas con costra y pala).
