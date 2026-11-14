@@ -6727,8 +6727,8 @@
      {
       "t": "Ajos y guindilla",
       "m": 8,
-      "x": "En una cazuela de barro, calienta el aceite con los ajos y la guindilla a fuego suave. Cuando el ajo empiece a dorar, retíralo con la guindilla.",
-      "ab": "Los ajos no deben oscurecer: si amargan, la salsa también.",
+      "x": "En una cazuela de barro, pon 250 ml de aceite de oliva suave con 4 dientes de ajo en láminas y 1 guindilla, a fuego bajo. Cuando el ajo empiece a coger color dorado claro (unos 5 a 6 minutos), retíralo con la guindilla y resérvalo.",
+      "ab": "Los ajos no deben oscurecer: si amargan, el aceite también. Sacarlos a tiempo deja su sabor en el aceite sin amargor.",
       "f": 2,
       "e": {
        "k": "fuego",
@@ -6751,8 +6751,8 @@
      {
       "t": "Templa el aceite",
       "m": 5,
-      "x": "Deja que el aceite baje de temperatura antes de poner el bacalao.",
-      "ab": "Tiene que estar caliente, nunca humeante.",
+      "x": "Aparta la cazuela del fuego 5 minutos, hasta que el aceite esté tibio, a unos 60 a 70 °C: caliente al tacto del dedo un segundo, sin humo ni burbujas.",
+      "ab": "Si el aceite está muy caliente, el bacalao se fríe y se endurece en vez de soltar su gelatina. Tibio es el truco.",
       "f": 0,
       "e": {
        "k": "fuego",
@@ -6771,8 +6771,8 @@
      {
       "t": "Bacalao, con la piel hacia abajo",
       "m": 10,
-      "x": "Pon los lomos con la piel hacia abajo y cocínalos muy suave. Dales la vuelta y deja otros 5 min.",
-      "ab": "Al cocinarse suelta una gelatina blanca: es la que liga la salsa.",
+      "x": "Seca bien 4 lomos de bacalao desalado con papel de cocina y ponlos con la piel hacia abajo en el aceite tibio. Ponlos a fuego mínimo 5 minutos, sin que burbujee, y dales la vuelta otros 5 minutos.",
+      "ab": "Al cocinarse en aceite tibio suelta una gelatina blanca: es la que liga la salsa. El aceite no debe burbujear fuerte, solo un hilo de burbujas pequeñas.",
       "f": 1,
       "e": {
        "k": "fuego",
@@ -6791,8 +6791,8 @@
      {
       "t": "Mueve y liga",
       "m": 10,
-      "x": "Retira el bacalao. Con la cazuela fuera del fuego, mueve con círculos suaves hasta que el aceite se vuelva cremoso. Vuelve el bacalao y los ajos.",
-      "ab": "Si no liga, añade una cucharada de agua de cocer o espera a que baje la temperatura.",
+      "x": "Retira el bacalao a un plato. Con la cazuela fuera del fuego, mueve con círculos suaves y constantes durante 8 a 10 minutos hasta que el aceite se vuelva cremoso y de color más claro (ligar). Vuelve el bacalao y los ajos.",
+      "ab": "Mover en círculos es lo que emulsiona la gelatina del bacalao con el aceite, como una mayonesa. Si no liga, añade una cucharada de agua de cocer o espera a que baje la temperatura.",
       "f": 0,
       "e": {
        "k": "fuego",
