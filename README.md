@@ -7,7 +7,7 @@ Las recetas de la abuela, guardadas para siempre y servidas como web:
 
 - **Mapa de España interactivo**: toca una comunidad y salen sus platos; las que
   cocinas se sellan en color vino (pasaporte con logros incluido).
-- **23 recetas ilustradas**, cada paso con su dibujo hecho a mano para el recetario.
+- **37 recetas**, cada paso con su dibujo hecho a mano y portadas ilustradas propias.
 - **Organiza el día**: di a qué hora quieres comer y te dice a qué hora empezar,
   con la cronología por fases (incluidos los remojos de la víspera).
 - **Modo cocina** paso a paso, con temporizadores que suenan y cantidades que se
@@ -56,3 +56,7 @@ python3 scripts/build.py
 cd _site && python3 -m http.server 8000
 # abre http://localhost:8000
 ```
+
+## Documentación del proyecto
+- `AGENTS.md`: flujo, estándar de commits (Conventional Commits) y puerta de calidad.
+- `docs/product-spec.md`, `docs/prd/`, `docs/adr/`, `docs/IDEAS.md`, `CHANGELOG.md`.
