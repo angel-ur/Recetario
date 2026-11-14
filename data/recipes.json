@@ -1281,6 +1281,7 @@
       "x": "Enciende el horno a 200 °C. Pon {rodilla} y {tuetano} en una bandeja, sin aceite ni sal, y tuéstalos de 30 a 40 minutos, dándoles la vuelta a mitad, hasta que estén bien dorados pero sin quemarse.",
       "tim": 35,
       "f": "h200",
+      "par": 1,
       "e": {
        "k": "horno",
        "t": "200 °C",

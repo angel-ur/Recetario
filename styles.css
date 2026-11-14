@@ -707,3 +707,18 @@ details.plan[open] > summary { margin-bottom: 12px; }
 .pr-det ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
 .pr-det li { display: flex; justify-content: space-between; gap: 10px; align-items: center; font-size: 14.5px; border-top: 1px dashed var(--linea); padding-top: 8px; }
 .pr-borra { font: inherit; font-size: 13px; font-weight: 700; color: var(--vino); background: none; border: 1.5px solid var(--vino); border-radius: 999px; padding: 6px 12px; min-height: 36px; cursor: pointer; touch-action: manipulation; }
+
+/* Cocinar a la vez */
+.chip.libre { background: #d9ecd4; color: #1f5a22; font-weight: 800; }
+.mientras { margin: 10px 0; padding: 10px 12px; background: #e6f1e3; border-radius: 12px; }
+.mientras b { display: block; font-family: "Caveat", cursive; font-size: 20px; color: #1f5a22; }
+.mientras p { margin: 2px 0 8px; font-size: 15px; }
+.mientras-btn { font: inherit; font-size: 14px; font-weight: 700; color: #1f5a22; background: #fff; border: 1.5px solid #1f5a22; border-radius: 999px; padding: 8px 14px; min-height: 40px; cursor: pointer; touch-action: manipulation; }
+.plan-lista { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 8px; }
+.plan-it { display: grid; grid-template-columns: 58px 1fr; gap: 10px; align-items: start; padding: 10px 12px; border-radius: 12px; border-left: 6px solid var(--anil); background: #fff; }
+.plan-it.c1 { border-left-color: var(--vino); }
+.plan-it.c2 { border-left-color: #2f7a3a; }
+.plan-h { font-weight: 800; font-size: 17px; }
+.plan-it b { display: block; }
+.plan-it small { color: var(--tinta-suave); font-size: 13.5px; }
+.plan-fin { margin: 12px 0 4px; font-size: 15px; }

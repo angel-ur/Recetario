@@ -756,6 +756,93 @@
     var ff = document.getElementById('pr-form'); if (ff) ff.hidden = false;
   });
   importaSemilla();
+  /* ---------- Cocinar a la vez: plan combinado ---------- */
+  function esEspera(p) { return !!(p.w || (p.m >= 30 && p.e && (p.e.k === 'horno' || p.e.k === 'nevera')) || (p.f === 1 && p.m >= 45)); }
+  function pasosPlan(r, met) {
+    return pasosDe(r, met).filter(function (p) { return !p.pre && !p.post; }).map(function (p) {
+      var esp = esEspera(p), m = p.m || 0, a = esp ? 0 : m, cola = 0;
+      if (esp) cola = m; else if (p.par && p.tim && p.tim > m) cola = p.tim - m;
+      return { t: p.t, m: m, a: a, cola: cola, esp: esp, par: !!p.par && !esp };
+    });
+  }
+  function planVarias(sel, ini) {
+    var rs = sel.map(function (s) {
+      var d = s.split('|'), r = porId[d[0]];
+      return { r: r, pasos: pasosPlan(r, d[1] || undefined), i: 0, listo: ini, colaFin: [] };
+    });
+    var out = [], libre = ini, guard = 0;
+    function restante(x) { var t = 0; for (var k = x.i; k < x.pasos.length; k++) t += x.pasos[k].a + x.pasos[k].cola; return t; }
+    while (guard++ < 500) {
+      var vivos = rs.filter(function (x) { return x.i < x.pasos.length; });
+      if (!vivos.length) break;
+      var now = Math.max(libre, 0);
+      // cuando puede empezar el siguiente paso de cada receta
+      vivos.forEach(function (x) { x.ready = x.listo; if (x.i >= 2 && x.pasos[x.i - 2].par) x.ready = Math.max(x.ready, x.pasos[x.i - 2].finCola || 0); });
+      var listos = vivos.filter(function (x) { return x.ready <= now; });
+      if (!listos.length) { libre = Math.min.apply(null, vivos.map(function (x) { return x.ready; })); continue; }
+      // primero los pasos de espera (no ocupan a la persona), luego el mas largo por delante
+      var esperas = listos.filter(function (x) { return x.pasos[x.i].esp; });
+      var x = esperas.length ? esperas[0] : listos.sort(function (a, b) { return restante(b) - restante(a); })[0];
+      var p = x.pasos[x.i], t0 = now;
+      out.push({ r: x.r, t: p.t, ini: t0, a: p.a, cola: p.cola, esp: p.esp });
+      p.finCola = t0 + p.a + p.cola;
+      if (p.esp) x.listo = t0 + p.m; else { x.listo = t0 + p.a; libre = t0 + p.a; }
+      x.i++;
+    }
+    out.sort(function (a, b) { return a.ini - b.ini; });
+    var fin = {}; out.forEach(function (o) { fin[o.r.id] = Math.max(fin[o.r.id] || 0, o.ini + o.a + o.cola); });
+    return { pasos: out, fin: fin };
+  }
+  function opcionesPlan() {
+    var o = '<option value="">Elige una receta</option>';
+    R.slice().sort(function (a, b) { return a.n.localeCompare(b.n, 'es'); }).forEach(function (r) {
+      if (r.met && r.met.length) r.met.forEach(function (m) { o += '<option value="' + r.id + '|' + m.id + '">' + esc(r.n) + ' · ' + esc(m.n) + '</option>'; });
+      else o += '<option value="' + r.id + '|">' + esc(r.n) + '</option>';
+    });
+    return o;
+  }
+  function planHTML() {
+    var h = ahora(true), ho = hhmm(h);
+    return '<section class="tarjeta" id="sec-plan" aria-labelledby="t-plan"><div class="seccion-cab"><h2 id="t-plan">Cocinar a la vez</h2></div>' +
+      '<p class="ayuda">Elige dos o tres platos y te monto un solo orden: qué hacer primero y qué dejar al fuego mientras haces lo otro.</p>' +
+      '<form class="pr-form" id="plan-form" autocomplete="off">' +
+      [1, 2, 3].map(function (n) { return '<label>Plato ' + n + (n === 3 ? ' (opcional)' : '') + '<select name="p' + n + '">' + opcionesPlan() + '</select></label>'; }).join('') +
+      '<label>Empiezo a las<input name="h" type="time" value="' + ho + '" required></label>' +
+      '<p class="pr-msg" id="plan-msg" role="status"></p><button type="submit" class="btn">Montar el plan</button></form><div id="plan-res"></div></section>';
+  }
+  function planResultado(sel, ini) {
+    var pl = planVarias(sel, ini), colores = {}, k = 0;
+    var h = '<ol class="plan-lista">';
+    pl.pasos.forEach(function (o) {
+      if (colores[o.r.id] === undefined) colores[o.r.id] = k++;
+      var fin = o.ini + o.a + o.cola;
+      h += '<li class="plan-it c' + colores[o.r.id] + '"><span class="plan-h num">' + hhmm(o.ini) + '</span><div><b>' + esc(o.t) + '</b><small>' + esc(o.r.n) + ' · ' + (o.esp ? 'esperar ' + durTxt(o.cola) + ' (puedes hacer otra cosa)' : durTxt(o.a) + ' contigo' + (o.cola ? ', sigue solo ' + durTxt(o.cola) + ' más' : '')) + '</small></div></li>';
+    });
+    h += '</ol><p class="plan-fin">' + Object.keys(pl.fin).map(function (id) { return '<b>' + esc(porId[id].n) + '</b> listo hacia las <b>' + hhmm(pl.fin[id]) + '</b>'; }).join(' · ') + '.</p>';
+    h += '<p class="ayuda">Orden orientativo: cada fuego y cada cazuela mandan. Si algo se alarga, retrasa lo siguiente.</p>';
+    return h;
+  }
+  document.addEventListener('submit', function (ev) {
+    var f = ev.target; if (f.id !== 'plan-form') return;
+    ev.preventDefault();
+    var sel = ['p1', 'p2', 'p3'].map(function (n) { return f.elements[n].value; }).filter(Boolean);
+    var msg = document.getElementById('plan-msg');
+    if (sel.length < 2) { msg.textContent = 'Elige al menos dos platos.'; return; }
+    msg.textContent = '';
+    document.getElementById('plan-res').innerHTML = planResultado(sel, aMin(f.elements.h.value) || ahora(true));
+    document.getElementById('plan-res').scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+  });
+  document.addEventListener('click', function (ev) {
+    var t = ev.target.closest('[data-plan-con]'); if (!t) return;
+    var id = t.getAttribute('data-plan-con');
+    var go = function () {
+      var f = document.getElementById('plan-form'); if (!f) return;
+      var o = Array.prototype.filter.call(f.elements.p1.options, function (x) { return x.value.indexOf(id + '|') === 0; });
+      if (o.length) f.elements.p1.value = o[o.length > 1 ? 1 : 0].value;
+      document.getElementById('sec-plan').scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+    };
+    if (location.hash && location.hash !== '#') { location.hash = ''; setTimeout(go, 150); } else go();
+  });
   function compraPorReceta() {
     var grupos = {}, orden = [];
     compra.forEach(function (c, n) { if (!grupos[c.r]) { grupos[c.r] = []; orden.push(c.r); } grupos[c.r].push([c, n]); });
@@ -837,6 +924,7 @@
     if (sigue) h += '<section class="tarjeta" aria-label="Sigue donde lo dejaste"><p class="eti">Sigue donde lo dejaste</p><ul class="filas">' + fila(sigue) + '</ul></section>';
     h += compraHTML();
     h += preciosHTML();
+    h += planHTML();
     var hoy = new Date(), dnum = Math.floor((hoy.getTime() - hoy.getTimezoneOffset() * 60000) / 86400000);
     var pool = R.filter(function (r) { return !cocinados[r.id]; }); if (!pool.length) pool = R;
     var dia = pool[dnum % pool.length];
@@ -1013,9 +1101,10 @@
     return '<article class="paso" id="' + pref + 'p-' + p.key + '" data-key="' + key + '" aria-labelledby="' + pref + 'pt-' + p.key + '">' +
       '<figure class="ilustra">' + ESC.svg(p.e, p.t) + '</figure><div class="paso-cuerpo">' +
       '<div class="paso-cab"><span class="paso-num" aria-hidden="true">' + p.n + '</span><h4 id="' + pref + 'pt-' + p.key + '">' + esc(p.t) + '</h4><span class="paso-hora num" data-h="' + p.key + '">' + (pref ? esc(hora(p.ini)) : '') + '</span></div>' +
-      '<ul class="chips"><li class="chip num">' + (p.tim ? '' : '≈ ') + durTxt(p.m) + '</li>' + chipFuego(p.f) + '</ul>' +
+      '<ul class="chips">' + (esEspera(p) && p.m >= 20 ? '<li class="chip libre">Tiempo libre</li>' : '') + '<li class="chip num">' + (p.tim ? '' : '≈ ') + durTxt(p.m) + '</li>' + chipFuego(p.f) + '</ul>' +
       '<p class="texto">' + texto(r, p.x, rac) + '</p>' +
       (p.ab ? '<div class="abuela"><span class="sello-ab" aria-hidden="true">A</span><p><b>Así lo hace la abuela</b>' + texto(r, p.ab, rac) + '</p></div>' : '') +
+      (esEspera(p) && p.m >= 20 ? '<div class="mientras"><b>Mientras tanto</b><p>Tienes unos ' + durTxt(p.m) + ' libres: no hace falta estar encima. Adelanta otro plato, prepara lo que viene o recoge.</p><button type="button" class="mientras-btn" data-plan-con="' + r.id + '">Cocinar otro plato a la vez</button></div>' : (p.par ? '<div class="mientras"><b>Mientras tanto</b><p>Esto sigue solo; puedes pasar ya al siguiente paso.</p></div>' : '')) +
       '<div class="acciones">' + timer + '<button class="hecho" type="button" data-hecho="' + key + '" aria-pressed="false"><svg class="i-no" viewBox="0 0 16 16" aria-hidden="true"><use href="#e-no"/></svg><svg class="i-ok" viewBox="0 0 16 16" aria-hidden="true"><use href="#e-ok"/></svg>Hecho</button></div></div></article>';
   }
 
@@ -1257,7 +1346,7 @@
     var vaA = function () {
       if (a === 'pasaporte') { pasaporteAbierto = true; var sp2 = $('#sec-pasaporte'); if (sp2) sp2.hidden = false; }
       if (a === 'favs') { filtro.fav = true; var bf = $('#ver-favs'); if (bf) bf.setAttribute('aria-pressed', 'true'); pintaFichas(); }
-      var dest = { recetas: '#sec-fichas', favs: '#sec-fichas', mapa: '#sec-mapa', compra: '#t-compra', precios: '#t-precios', pasaporte: '#sec-pasaporte' }[a];
+      var dest = { recetas: '#sec-fichas', favs: '#sec-fichas', mapa: '#sec-mapa', compra: '#t-compra', precios: '#t-precios', plan: '#t-plan', pasaporte: '#sec-pasaporte' }[a];
       var el = dest && $(dest); if (el) el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
     };
     if (location.hash && location.hash !== '#') { location.hash = ''; setTimeout(vaA, 80); } else vaA();
