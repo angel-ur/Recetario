@@ -47,20 +47,20 @@ Huesos con mucho colágeno, muchas horas a fuego mínimo y sin sal. Si sale bien
 
 ### Preparar
 
-1. **Tuesta los huesos** (10 min) - Enciende el horno a 200 °C. Pon huesos de rodilla de ternera y huesos de tuétano en una bandeja, sin aceite ni sal, y tuéstalos de 30 a 40 minutos, dándoles la vuelta a mitad, hasta que estén bien dorados pero sin quemarse.
-   > Tostar da sabor y color. Si se queman, amargan todo el caldo. La oreja y la pata no se tuestan: son piel y cartílago, solo aportan gelatina.
+1. **Tuesta los huesos y las verduras** (10 min) - Enciende el horno a 200 °C. Pon huesos de rodilla de ternera y huesos de tuétano en una bandeja, sin aceite ni sal. Parte en trozos gruesos la cebolla, la zanahoria y el puerro, y ponlos en la misma bandeja con los dientes de ajo sin pelar y la rama de apio. Tuesta todo de 35 a 45 minutos, dándole la vuelta a mitad, hasta que huesos y verduras estén bien dorados pero sin quemarse.
+   > Tostar da sabor y color, y las verduras sueltan su grasa y su dulzor en la bandeja de los huesos. Si se queman, amargan todo el caldo. La oreja y la pata no se tuestan: son piel y cartílago, solo aportan gelatina.
 2. **Escalda el resto** (20 min) - Mientras se tuestan, pon a hervir 3 litros de agua en una olla grande. Echa carcasa de pollo, las patas de gallo si las consigues, oreja de cerdo y pata de ternera (o 2 manitas de cerdo), y déjalo 2 o 3 minutos (blanquear). Tira esa agua y enjuaga todo con agua del grifo. A las patas de gallo, quítales la piel amarilla y córtales las uñas por la primera articulación.
    > Al hervir salen la sangre y las impurezas en forma de espuma gris. Tirar esa primera agua deja el caldo limpio y sin sabor áspero.
-3. **Vinagre y reposo** (20 min) - Saca la bandeja del horno y pasa los huesos tostados a la olla lenta, junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja y rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade vinagre de manzana sin filtrar, con la madre y 500 ml de agua fría, y deja reposar 20 minutos mientras preparas lo demás.
+3. **Vinagre y reposo** (20 min) - Saca la bandeja del horno y pasa los huesos tostados a la olla lenta, junto con todo lo escaldado, y aparta las verduras tostadas en un plato. Echa un vaso de agua caliente (200 ml) en la bandeja y rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade vinagre de manzana sin filtrar, con la madre y 500 ml de agua fría, y deja reposar 20 minutos mientras preparas lo demás.
    > El vinagre de manzana sin filtrar, con la madre, ayuda a sacar el colágeno y los minerales de los huesos, y no se nota en el sabor. Lo pegado a la bandeja es puro sabor: por eso se desglasa.
 
 ### Horas de olla
 
 4. **Agua, especias y a dormir** (480 min) - Añade el resto del agua hasta que cubra los huesos 2 dedos, sin pasar la marca máxima de la olla (unos 4 litros en total). Añade cúrcuma molida (o 3 cm de raíz fresca), pimienta negra en grano, trozo de jengibre fresco de 4 cm (o jengibre molido) en rodajas, rama de romero, hoja de laurel y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.
    > La pimienta negra va con la cúrcuma por algo: activa la cúrcuma. Y la olla lenta marca la diferencia: a temperatura baja y muchas horas es cuando suelta toda su gelatina. La sal va al final porque el caldo se concentra y podría quedar salado.
-5. **Las verduras, la última hora** (60 min) - Echa a la olla cebolla, diente de ajo, zanahoria, puerro grande y rama de apio en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Sigue con el hervor mínimo y tapa a medias otra hora.
-   > Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Aunque los huesos se tuesten antes, la verdura no se tuesta: entra casi al final.
-6. **Las verduras, por la mañana** (270 min) - A la mañana siguiente, trocea en trozos gruesos cebolla, diente de ajo, zanahoria, puerro grande y rama de apio, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.
+5. **Las verduras tostadas, la última hora** (60 min) - Echa a la olla las verduras tostadas que apartaste: cebolla, diente de ajo, zanahoria, puerro grande y rama de apio (y el nabo, la chirivía o el perejil si los usas, crudos y en trozos gruesos). Sigue con el hervor mínimo y tapa a medias otra hora.
+   > Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Tostadas dan más color y un punto dulce y ahumado; sin tostar también sale un buen caldo, pero la versión de la casa es con ellas tostadas.
+6. **Las verduras tostadas, por la mañana** (270 min) - A la mañana siguiente, echa a la olla las verduras tostadas que guardaste tapadas en la nevera (cebolla, diente de ajo, zanahoria, puerro grande y rama de apio) y el nabo, la chirivía o el perejil si los usas, crudos y en trozos gruesos. Deja otras 4 o 5 horas en LOW.
    > Las verduras entran al final para que no se deshagan y conserven su sabor. Si fueran 12 horas, se pasarían y darían amargor.
 
 ### Colar y guardar

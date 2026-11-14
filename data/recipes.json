@@ -1276,10 +1276,10 @@
     "tipo": "tu",
     "p": [
      {
-      "t": "Tuesta los huesos",
+      "t": "Tuesta los huesos y las verduras",
       "m": 10,
-      "x": "Enciende el horno a 200 °C. Pon {rodilla} y {tuetano} en una bandeja, sin aceite ni sal, y tuéstalos de 30 a 40 minutos, dándoles la vuelta a mitad, hasta que estén bien dorados pero sin quemarse.",
-      "tim": 35,
+      "x": "Enciende el horno a 200 °C. Pon huesos de rodilla de ternera y huesos de tuétano en una bandeja, sin aceite ni sal. Parte en trozos gruesos la cebolla, la zanahoria y el puerro, y ponlos en la misma bandeja con los dientes de ajo sin pelar y la rama de apio. Tuesta todo de 35 a 45 minutos, dándole la vuelta a mitad, hasta que huesos y verduras estén bien dorados pero sin quemarse.",
+      "tim": 45,
       "f": "h200",
       "par": 1,
       "e": {
@@ -1300,7 +1300,7 @@
         ]
        ]
       },
-      "ab": "Tostar da sabor y color. Si se queman, amargan todo el caldo. La oreja y la pata no se tuestan: son piel y cartílago, solo aportan gelatina."
+      "ab": "Tostar da sabor y color, y las verduras sueltan su grasa y su dulzor en la bandeja de los huesos. Si se queman, amargan todo el caldo. La oreja y la pata no se tuestan: son piel y cartílago, solo aportan gelatina."
      },
      {
       "t": "Escalda el resto",
@@ -1338,13 +1338,13 @@
      {
       "t": "Vinagre y reposo",
       "m": 20,
-      "x": "Saca la bandeja del horno y pasa los huesos tostados a la olla lenta, junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja y rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade {vinagre} y 500 ml de agua fría, y deja reposar 20 minutos mientras preparas lo demás.",
+      "x": "Saca la bandeja del horno y pasa los huesos tostados a la olla lenta, junto con todo lo escaldado, y aparta las verduras tostadas en un plato. Echa un vaso de agua caliente (200 ml) en la bandeja y rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade {vinagre} y 500 ml de agua fría, y deja reposar 20 minutos mientras preparas lo demás.",
       "tim": 20,
       "f": 0,
       "w": 1,
       "alt": {
        "olla": {
-        "x": "Saca la bandeja del horno y pasa los huesos tostados a una olla grande (de unos 6 litros), junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja, rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade {vinagre} y {agua}, que tape los huesos unos 2 dedos (si con 4 litros no cubre, añade lo justo; si sobra, quita un poco). Déjalo reposar 20 minutos y aprovecha para trocear la verdura gruesa (1 cebolla, 1 zanahoria, 1 puerro por cada kilo de huesos) y reservarla: entra la última hora.",
+        "x": "Saca la bandeja del horno y pasa los huesos tostados a una olla grande (de unos 6 litros), junto con todo lo escaldado, sin las verduras tostadas, que se quedan en un plato. Echa un vaso de agua caliente (200 ml) en la bandeja, rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade {vinagre} y {agua}, que tape los huesos unos 2 dedos (si con 4 litros no cubre, añade lo justo; si sobra, quita un poco). Déjalo reposar 20 minutos y aprovecha para dejar las verduras tostadas aparte, en un plato: entran la última hora.",
         "e": {
          "k": "fuego",
          "v": "olla",
@@ -1475,9 +1475,9 @@
       "ab": "La pimienta negra va con la cúrcuma por algo: activa la cúrcuma. Y la olla lenta marca la diferencia: a temperatura baja y muchas horas es cuando suelta toda su gelatina. La sal va al final porque el caldo se concentra y podría quedar salado."
      },
      {
-      "t": "Las verduras, la última hora",
+      "t": "Las verduras tostadas, la última hora",
       "m": 60,
-      "x": "Echa a la olla {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio} en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Sigue con el hervor mínimo y tapa a medias otra hora.",
+      "x": "Echa a la olla las verduras tostadas que apartaste: {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio} (y el nabo, la chirivía o el perejil si los usas, crudos y en trozos gruesos). Sigue con el hervor mínimo y tapa a medias otra hora.",
       "tim": 60,
       "f": 1,
       "w": 1,
@@ -1516,12 +1516,12 @@
        "reloj": "1 h",
        "rf": 0.33
       },
-      "ab": "Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Aunque los huesos se tuesten antes, la verdura no se tuesta: entra casi al final."
+      "ab": "Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Tostadas dan más color y un punto dulce y ahumado; sin tostar también sale un buen caldo, pero la versión de la casa es con ellas tostadas."
      },
      {
-      "t": "Las verduras, por la mañana",
+      "t": "Las verduras tostadas, por la mañana",
       "m": 270,
-      "x": "A la mañana siguiente, trocea en trozos gruesos {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio}, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.",
+      "x": "A la mañana siguiente, echa a la olla las verduras tostadas que guardaste tapadas en la nevera ({cebolla}, {ajo}, {zanahoria}, {puerro} y {apio}) y el nabo, la chirivía o el perejil si los usas, crudos y en trozos gruesos. Deja otras 4 o 5 horas en LOW.",
       "tim": 270,
       "f": "l",
       "w": 1,
