@@ -1,5 +1,149 @@
 [
  {
+  "id": "arrozhorno",
+  "n": "Arroz al horno",
+  "sub": "garbanzos, costilla, morcilla y tomate, todo en la cazuela de barro",
+  "reg": "val",
+  "regs": [
+   "val"
+  ],
+  "lugar": "Comunitat Valenciana",
+  "cat": "arroz",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   4
+  ],
+  "intro": "El arroz que se hacía los domingos en Valencia con lo que había: una cazuela de barro, un caldo bueno y el horno haciendo el trabajo.",
+  "ing": [
+   [
+    "i0",
+    "300 g de arroz bomba",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i1",
+    "600 ml de caldo de cocido o de garbanzos",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i2",
+    "200 g de garbanzos cocidos",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i3",
+    "300 g de costilla de cerdo",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i4",
+    "1 morcilla de cebolla",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i5",
+    "2 tomates maduros",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i6",
+    "1 cabeza de ajos",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i7",
+    "1 pizca de azafrán o pimentón dulce",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i8",
+    "aceite de oliva y sal",
+    null,
+    null,
+    1,
+    "plano"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Sofrito",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Dora la carne",
+      "m": 10,
+      "x": "En la cazuela de barro, dora la costilla con aceite. Aparta.",
+      "f": 0
+     },
+     {
+      "t": "Tomate y especias",
+      "m": 5,
+      "x": "Añade el tomate rallado y el azafrán o pimentón (fuera del fuego, para que no se queme).",
+      "ab": "Si se quema el pimentón, todo el arroz amarga.",
+      "f": 0
+     }
+    ]
+   },
+   {
+    "n": "Horno",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Arroz y caldo",
+      "m": 5,
+      "x": "Añade el arroz, los garbanzos y el caldo hirviendo (el doble que de arroz, más un poco). Coloca la costilla, la morcilla y la cabeza de ajos.",
+      "f": 0
+     },
+     {
+      "t": "Reposo",
+      "m": 5,
+      "x": "Deja reposar fuera del horno unos minutos antes de servir.",
+      "f": 0
+     }
+    ]
+   }
+  ],
+  "secretos": [
+   [
+    "Caldo del cocido",
+    "da el sabor de verdad."
+   ],
+   [
+    "Cazuela de barro",
+    "reparte el calor."
+   ],
+   [
+    "Ajo asado",
+    "se come con el arroz, untado."
+   ]
+  ]
+ },
+ {
   "id": "arrozleche",
   "n": "Arroz con leche",
   "sub": "cremoso, con canela y requemado",
@@ -385,6 +529,158 @@
    [
     "Pan",
     "para la salsa."
+   ]
+  ]
+ },
+ {
+  "id": "caldero",
+  "n": "Caldero murciano",
+  "sub": "arroz del Mar Menor con ñora, ajo y pescado de roca",
+  "reg": "mur",
+  "regs": [
+   "mur"
+  ],
+  "lugar": "Región de Murcia",
+  "cat": "arroz",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   4
+  ],
+  "intro": "El arroz de los pescadores del Mar Menor: poco ingrediente y mucho fumet, con el caldo y el arroz cocinados por separado del pescado, y alioli para terminar.",
+  "ing": [
+   [
+    "i0",
+    "320 g de arroz bomba",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i1",
+    "1 kg de pescado de roca o morralla",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i2",
+    "2 tomates maduros",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i3",
+    "1 cabeza de ajos",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i4",
+    "3 ñoras",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i5",
+    "1 pizca de azafrán",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i6",
+    "1 l de agua",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i7",
+    "aceite y sal",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i8",
+    "alioli, para servir",
+    null,
+    null,
+    1,
+    "plano"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "El caldo",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Fumet",
+      "m": 20,
+      "x": "Cuece el pescado con agua y sal. Cuela el caldo y reserva el pescado.",
+      "ab": "Cuanto más pescado de roca, más sabor.",
+      "f": 0
+     },
+     {
+      "t": "Sofrito",
+      "m": 10,
+      "x": "Fríe las ñoras y los ajos en aceite, apártalos, y sofríe el tomate rallado.",
+      "ab": "Las ñoras, 5 segundos nada más: se queman muy rápido.",
+      "f": 0
+     },
+     {
+      "t": "Pica",
+      "m": 5,
+      "x": "Machaca las ñoras y los ajos con un poco de caldo, y añádelos al sofrito.",
+      "f": 0
+     }
+    ]
+   },
+   {
+    "n": "El arroz",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Arroz y caldo",
+      "m": 18,
+      "x": "Añade el arroz y el caldo hirviendo (el doble de arroz, más un poco), con el azafrán. Cuece sin mover primero fuerte y luego suave.",
+      "ab": "Al final, que quede meloso pero con el grano entero.",
+      "f": 0
+     },
+     {
+      "t": "Reposa y sirve",
+      "m": 5,
+      "x": "Deja reposar unos minutos y sirve con el pescado aparte y alioli.",
+      "f": 0
+     }
+    ]
+   }
+  ],
+  "secretos": [
+   [
+    "Ñora",
+    "da el color y el sabor propio de Murcia."
+   ],
+   [
+    "Alioli",
+    "un poco encima de cada plato."
+   ],
+   [
+    "Sin prisa",
+    "el fumet es lo que hace el arroz."
    ]
   ]
  },
@@ -4792,6 +5088,113 @@
   ]
  },
  {
+  "id": "pilpil",
+  "n": "Bacalao al pil-pil",
+  "sub": "aceite, ajo y la gelatina del propio bacalao",
+  "reg": "pv",
+  "regs": [
+   "pv"
+  ],
+  "lugar": "País Vasco",
+  "cat": "mar",
+  "dif": 3,
+  "b": 4,
+  "rac": [
+   4
+  ],
+  "intro": "Una salsa que se hace con paciencia y movimiento: el aceite y la gelatina del bacalao se ligan solos si se mueve la cazuela con calma.",
+  "ing": [
+   [
+    "i0",
+    "4 lomos de bacalao desalado, con piel",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i1",
+    "250 ml de aceite de oliva suave",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i2",
+    "4 dientes de ajo en láminas",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i3",
+    "1 guindilla",
+    null,
+    null,
+    1,
+    "plano"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Aromatizar",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Ajos y guindilla",
+      "m": 8,
+      "x": "En una cazuela de barro, calienta el aceite con los ajos y la guindilla a fuego suave. Cuando el ajo empiece a dorar, retíralo con la guindilla.",
+      "ab": "Los ajos no deben oscurecer: si amargan, la salsa también.",
+      "f": 0
+     },
+     {
+      "t": "Templa el aceite",
+      "m": 5,
+      "x": "Deja que el aceite baje de temperatura antes de poner el bacalao.",
+      "ab": "Tiene que estar caliente, nunca humeante.",
+      "f": 0
+     }
+    ]
+   },
+   {
+    "n": "La salsa",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Bacalao, con la piel hacia abajo",
+      "m": 10,
+      "x": "Pon los lomos con la piel hacia abajo y cocínalos muy suave. Dales la vuelta y deja otros 5 min.",
+      "ab": "Al cocinarse suelta una gelatina blanca: es la que liga la salsa.",
+      "f": 0
+     },
+     {
+      "t": "Mueve y liga",
+      "m": 10,
+      "x": "Retira el bacalao. Con la cazuela fuera del fuego, mueve con círculos suaves hasta que el aceite se vuelva cremoso. Vuelve el bacalao y los ajos.",
+      "ab": "Si no liga, añade una cucharada de agua de cocer o espera a que baje la temperatura.",
+      "f": 0
+     }
+    ]
+   }
+  ],
+  "secretos": [
+   [
+    "Temperatura",
+    "ni quema ni enfría: tibio."
+   ],
+   [
+    "Paciencia",
+    "la salsa llega cuando llega."
+   ],
+   [
+    "Desalado bien",
+    "24 a 48 horas, cambiando el agua."
+   ]
+  ]
+ },
+ {
   "id": "pisto",
   "n": "Pisto manchego",
   "sub": "verdura confitada, con huevo frito",
@@ -6620,6 +7023,113 @@
      }
     ]
    }
+  ]
+ },
+ {
+  "id": "ternasco",
+  "n": "Ternasco de Aragón asado",
+  "sub": "cordero joven con ajo, patatas panadera y su jugo",
+  "reg": "ara",
+  "regs": [
+   "ara"
+  ],
+  "lugar": "Aragón",
+  "cat": "carne",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   4
+  ],
+  "intro": "El ternasco, cordero joven de Aragón, se asa con poco: ajo, un vaso de vino y patatas debajo que beben su jugo.",
+  "ing": [
+   [
+    "i0",
+    "1,2 kg de ternasco (paletilla o pierna)",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i1",
+    "800 g de patatas",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i2",
+    "1 cabeza de ajos",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i3",
+    "1 vaso de vino blanco",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i4",
+    "zumo de 1/2 limón",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i5",
+    "aceite, sal y pimienta",
+    null,
+    null,
+    1,
+    "plano"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Preparar",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Adoba",
+      "m": 10,
+      "x": "Sala el ternasco, úntalo con un poco de aceite y ponlo en la bandeja con los ajos sin pelar.",
+      "f": 0
+     },
+     {
+      "t": "Patatas panadera",
+      "m": 10,
+      "x": "Corta las patatas en rodajas gruesas, sálalas y colócalas debajo y alrededor de la carne.",
+      "ab": "Debajo de la carne para que beban el jugo.",
+      "f": 0
+     }
+    ]
+   },
+   {
+    "n": "Asar",
+    "tipo": "tu",
+    "p": []
+   }
+  ],
+  "secretos": [
+   [
+    "Fuego parejo",
+    "más tiempo y menos temperatura que prisa."
+   ],
+   [
+    "Reposo",
+    "tapado con un paño 10 minutos antes de cortar."
+   ],
+   [
+    "Jugo",
+    "para las patatas, nunca se tira."
+   ]
   ]
  },
  {
