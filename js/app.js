@@ -777,42 +777,64 @@
     return pasosDe(r, met).filter(function (p) { return !p.pre && !p.post; }).map(function (p) {
       var esp = esEspera(p), m = p.m || 0, a = esp ? 0 : m, cola = 0;
       if (esp) cola = m; else if (p.par && p.tim && p.tim > m) cola = p.tim - m;
-      return { t: p.t, key: p.key, m: m, a: a, cola: cola, esp: esp, par: !!p.par && !esp, enlaza: !!p.enlaza };
+      return { t: p.t, key: p.key, n: p.n, m: m, a: a, cola: cola, esp: esp, par: !!p.par && !esp, enlaza: !!p.enlaza, tras: p.tras, durante: p.durante, horno: typeof p.f === 'string' && p.f.charAt(0) === 'h' || !!(p.e && p.e.k === 'horno') };
     });
   }
   function planVarias(sel, ini, ext) {
+    // Planificador por dependencias: cada paso espera a los que necesita (por defecto, el anterior;
+    // «tras» lo cambia, «durante» lo hace a la vez que otro), el horno es uno solo y la persona también.
     var rs = sel.map(function (s) {
-      var d = s.split('|'), r = porId[d[0]], x0 = ext && ext[d[0]], ps = pasosPlan(r, d[1] || undefined);
+      var d = s.split('|'), r = porId[d[0]], x0 = ext && ext[d[0]], ps = pasosPlan(r, d[1] || undefined), todos = ps.slice();
       if (x0) {
         ps = ps.filter(function (p) { return x0.h.indexOf(p.key) < 0; });
         if (ps.length && x0.el > 0) { var q0 = ps[0]; q0.m = Math.max(0, q0.m - x0.el); q0.cola = Math.max(0, q0.cola - x0.el); q0.a = q0.esp ? 0 : Math.max(1, q0.a - x0.el); }
       }
-      return { r: r, pasos: ps, i: 0, listo: ini, colaFin: [] };
+      var porN = {}; ps.forEach(function (p, i) { p.idx = i; p.ini = null; porN[p.n] = p; });
+      return { r: r, pasos: ps, porN: porN, left: ps.length };
     });
-    var out = [], libre = ini, guard = 0;
-    function restante(x) { var t = 0; for (var k = x.i; k < x.pasos.length; k++) t += x.pasos[k].a + x.pasos[k].cola; return t; }
-    while (guard++ < 500) {
-      var vivos = rs.filter(function (x) { return x.i < x.pasos.length; });
-      if (!vivos.length) break;
-      var now = Math.max(libre, 0);
-      // cuando puede empezar el siguiente paso de cada receta
-      vivos.forEach(function (x) { x.ready = x.listo; if (x.i >= 2 && x.pasos[x.i - 2].par) x.ready = Math.max(x.ready, x.pasos[x.i - 2].finCola || 0); });
-      var listos = vivos.filter(function (x) { return x.ready <= now; });
-      if (!listos.length) { libre = Math.min.apply(null, vivos.map(function (x) { return x.ready; })); continue; }
-      // primero los pasos de espera (no ocupan a la persona), luego el mas largo por delante
-      var esperas = listos.filter(function (x) { return x.pasos[x.i].esp; });
-      var enl = listos.filter(function (y) { return y.i > 0 && y.pasos[y.i - 1].enlaza && y.ult === 1; });
-      var x = esperas.length ? esperas[0] : enl.length ? enl[0] : listos.sort(function (a, b) { return restante(b) - restante(a); })[0];
-      var p = x.pasos[x.i], t0 = now;
-      out.push({ r: x.r, t: p.t, key: p.key, ini: t0, a: p.a, cola: p.cola, esp: p.esp, enlaza: p.enlaza });
-      p.finCola = t0 + p.a + p.cola;
-      if (p.esp) x.listo = t0 + p.m; else { x.listo = t0 + p.a; libre = t0 + p.a; }
-      rs.forEach(function (y) { y.ult = 0; }); x.ult = 1;
-      x.i++;
+    var out = [], libre = ini, hornoLibre = ini, guard = 0, ultimo = null;
+    function dur(p) { return p.esp ? p.m : p.a + p.cola; }
+    function fin(p) { return p.ini + dur(p); }
+    function deps(x, p) {
+      var l = [], i = p.idx, k;
+      if (p.tras) p.tras.forEach(function (n) { if (x.porN[n]) l.push([x.porN[n], 1]); });
+      else if (p.durante && x.porN[p.durante]) { var tg = x.porN[p.durante]; if (tg.idx > 0) l.push([x.pasos[tg.idx - 1], tg.idx - 1 === i - 1 ? 0 : 1]); }
+      else if (i > 0) l.push([x.pasos[i - 1], 0]);
+      for (k = 0; k < i - 1; k++) if (x.pasos[k].par) l.push([x.pasos[k], 1]);
+      for (k = 0; k < i; k++) { var q = x.pasos[k]; if (q.durante && x.porN[q.durante] && !p.durante && !p.tras) l.push([x.porN[q.durante], 1]); }
+      return l;
+    }
+    function listoEn(x, p) {
+      var t = ini, ds = deps(x, p), j;
+      for (j = 0; j < ds.length; j++) {
+        var d = ds[j][0], full = ds[j][1] || !d.par || d.idx !== p.idx - 1;
+        if (d.ini === null) return null;
+        t = Math.max(t, full ? fin(d) : d.ini + d.a);
+      }
+      if (p.durante && x.porN[p.durante]) { var tg = x.porN[p.durante]; if (tg.ini === null) return null; t = Math.max(t, tg.ini, fin(tg) - dur(p)); }
+      if (p.horno) t = Math.max(t, hornoLibre);
+      return t;
+    }
+    function restante(x) { var t = 0; x.pasos.forEach(function (p) { if (p.ini === null) t += dur(p); }); return t; }
+    while (guard++ < 1000) {
+      var cand = [];
+      rs.forEach(function (x) { x.pasos.forEach(function (p) { if (p.ini !== null) return; var t = listoEn(x, p); if (t !== null) cand.push({ x: x, p: p, t: t }); }); });
+      if (!cand.length) break;
+      var ya = cand.filter(function (c) { return c.t <= libre + 0.001; });
+      if (!ya.length) { libre = Math.min.apply(null, cand.map(function (c) { return c.t; })); continue; }
+      var esperas = ya.filter(function (c) { return c.p.esp; });
+      var enl = ya.filter(function (c) { return c.p.idx > 0 && c.x.pasos[c.p.idx - 1].enlaza && ultimo === c.x.pasos[c.p.idx - 1]; });
+      var c = esperas.length ? esperas[0] : enl.length ? enl[0] : ya.sort(function (u, v) { return restante(v.x) - restante(u.x); })[0];
+      var p = c.p, t0 = Math.max(libre, c.t);
+      p.ini = t0;
+      out.push({ r: c.x.r, t: p.t, key: p.key, ini: t0, a: p.a, cola: p.cola, esp: p.esp, enlaza: p.enlaza });
+      if (p.horno) hornoLibre = t0 + dur(p);
+      if (!p.esp) libre = t0 + p.a;
+      ultimo = p;
     }
     out.sort(function (a, b) { return a.ini - b.ini; });
-    var fin = {}; out.forEach(function (o) { fin[o.r.id] = Math.max(fin[o.r.id] || 0, o.ini + o.a + o.cola); });
-    return { pasos: out, fin: fin };
+    var fn = {}; out.forEach(function (o) { fn[o.r.id] = Math.max(fn[o.r.id] || 0, o.ini + (o.esp ? o.cola + (o.a || 0) : o.a + o.cola)); });
+    return { pasos: out, fin: fn };
   }
   function opcionesPlan() {
     var o = '<option value="">Elige una receta</option>';
@@ -1421,7 +1443,7 @@
     ids.forEach(function (id) { var s = SES[id], r = porId[id]; if (sesTerminada(r, s)) return; var h = est(r).hechos, p0 = sesPasos(r, s).filter(function (p) { return h.indexOf(p.key) < 0; })[0]; if (p0) curKey[id] = p0; });
     items.forEach(function (o) {
       var id = o.r.id, c0 = curKey[id];
-      if (c0 && c0.key === o.key && o.esp) { mient.push(o); return; }
+      if (o.esp && o.ini <= minAhora() + 0.75) { mient.push(o); return; }
       if (!ahoraIt && !o.esp) { ahoraIt = o; return; }
       sig.push(o);
     });
@@ -1440,7 +1462,7 @@
       ah += '<div class="ses-solo ses-c' + sesColor(id) + '"><span class="ses-nom">Mientras · se hace solo</span><p><b>' + esc(o.t) + '</b> · ' + esc(o.r.n) + '</p><div class="ses-barra-p"><i style="width:' + pct + '%"></i></div><small>' + (rem > 0.5 ? 'Quedan ' + durTxt(rem) + ' · listo hacia las ' + hhmm(o.ini + rem) : 'Ya puede estar: míralo y marca «Ya está»') + '</small><div class="ses-acc"><button type="button" class="ses-p ok" data-ses="hecho" data-id="' + id + '" data-k="' + o.key + '">Ya está</button></div></div>';
     });
     if (sig.length) {
-      ah += '<p class="eti ses-et">Lo siguiente</p><ul class="ses-sig">' + sig.slice(0, 7).map(function (o) { return '<li class="ses-c' + sesColor(o.r.id) + '"><span class="num">' + hhmm(o.ini) + '</span><div><b>' + esc(o.t) + '</b><small>' + esc(o.r.n) + (o.esp ? ' · se hace solo ' + durTxt(o.cola) : '') + (sesNotaPaso(o) ? ' · ' + sesNotaPaso(o) : '') + '</small></div></li>'; }).join('') + '</ul>';
+      ah += '<p class="eti ses-et">Lo siguiente</p><ul class="ses-sig">' + sig.slice(0, 10).map(function (o) { return '<li class="ses-c' + sesColor(o.r.id) + '"><span class="num">' + hhmm(o.ini) + '</span><div><b>' + esc(o.t) + '</b><small>' + esc(o.r.n) + (o.esp ? ' · se hace solo ' + durTxt(o.cola) : '') + (sesNotaPaso(o) ? ' · ' + sesNotaPaso(o) : '') + '</small></div></li>'; }).join('') + '</ul>';
     }
     if (pl) ah += '<p class="ses-fins">' + Object.keys(pl.fin).map(function (id) { return '<b>' + esc(sesNombre(id)) + '</b> listo hacia las <b>' + hhmm(pl.fin[id]) + '</b>'; }).join(' · ') + '. Se recalcula con lo que vas marcando.</p>';
     ah += '<p class="eti ses-et">Tus platos</p>';

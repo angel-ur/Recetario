@@ -2835,6 +2835,7 @@
       "x": "Mientras, cuece 2 chorizos para cocido y 1 morcilla en otra olla con 1,5 litros de agua, 30 minutos a fuego suave (pínchalos con un palillo para que no revienten). Cuece 1 repollo pequeño troceado en agua con sal 15 minutos, escúrrelo y rehógalo 5 minutos en una sartén con 3 cucharadas de aceite de oliva y 2 dientes de ajo laminados.",
       "tim": 30,
       "f": 2,
+      "durante": 5,
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -5138,6 +5139,9 @@
       "x": "En una sartén pequeña con aceite de oliva virgen extra, calienta 3 cucharadas de aceite y dora a fuego suave 2 dientes de ajo laminados, 1 minuto, sin que cojan color oscuro. Añade 1 tomate maduro rallado y deja que se haga 5 minutos, hasta que pierda el agua. Aparta del fuego y añade 1 cucharadita de pimentón dulce y remueve 10 segundos con el calor que queda.",
       "tim": 5,
       "f": 2,
+      "tras": [
+       1
+      ],
       "e": {
        "k": "fuego",
        "v": "sarten",
@@ -5159,6 +5163,9 @@
       "m": 5,
       "x": "Pon en la olla las lentejas con 1,2 litros de agua fría (cubre unos 3 dedos por encima), 1 zanahoria en rodajas, medio pimiento verde y media cebolla en trozos grandes, hoja de laurel y chorizo para guisar en rodajas gruesas.",
       "f": 0,
+      "tras": [
+       1
+      ],
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -5232,6 +5239,10 @@
       "m": 3,
       "x": "Añade 1 patata mediana (unos 200 g) chascada en trozos de 3 cm y el refrito. Remueve con suavidad.",
       "f": 2,
+      "tras": [
+       2,
+       4
+      ],
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -7692,6 +7703,7 @@
       "m": 5,
       "x": "Seca {rabo} con papel de cocina y quítale la grasa que sobre. Salpiméntalo con {sal} y {pimienta}, y pasa cada trozo por {harina}, sacudiendo el exceso. Si lo tenías en la nevera, sácalo 30 minutos antes.",
       "f": 0,
+      "tras": [],
       "e": {
        "k": "bol",
        "c": "#F5F1E8",
@@ -7713,6 +7725,9 @@
       "tim": 15,
       "f": 4,
       "enlaza": 1,
+      "tras": [
+       2
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -7737,6 +7752,10 @@
       "tim": 10,
       "f": 3,
       "enlaza": 1,
+      "tras": [
+       3,
+       1
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",

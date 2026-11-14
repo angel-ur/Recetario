@@ -654,7 +654,10 @@
         ]
        ],
        "polvo": "#8E1B13"
-      }
+      },
+      "tras": [
+       1
+      ]
      },
      {
       "t": "Todo a la olla, en frío",
@@ -689,7 +692,10 @@
         "pimiento",
         "cebolla"
        ]
-      }
+      },
+      "tras": [
+       1
+      ]
      }
     ]
    },
@@ -758,7 +764,11 @@
         "patata",
         "patata"
        ]
-      }
+      },
+      "tras": [
+       2,
+       4
+      ]
      },
      {
       "t": "A fuego suave",
@@ -1390,7 +1400,8 @@
          "r-harina"
         ]
        ]
-      }
+      },
+      "tras": []
      },
      {
       "t": "Dora el rabo",
@@ -1414,7 +1425,10 @@
        ],
        "chisp": 1
       },
-      "enlaza": 1
+      "enlaza": 1,
+      "tras": [
+       2
+      ]
      },
      {
       "t": "Pocha la cebolla y el ajo",
@@ -1442,7 +1456,11 @@
        ],
        "cuchara": 1
       },
-      "enlaza": 1
+      "enlaza": 1,
+      "tras": [
+       3,
+       1
+      ]
      },
      {
       "t": "Añade el resto de verduras",
@@ -2024,7 +2042,8 @@
          2
         ]
        ]
-      }
+      },
+      "durante": 5
      }
     ]
    },
