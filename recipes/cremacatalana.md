@@ -28,23 +28,23 @@ El postre de Sant Josep: leche perfumada con limón y canela, yemas y una costra
 
 ### La crema
 
-1. **Perfuma la leche** (15 min) - Calienta leche entera, guardando un vaso aparte, con piel de limón (sin lo blanco) y rama de canela. Cuando hierva, apaga y deja que repose diez minutos.
+1. **Perfuma la leche** (15 min) - Calienta 800 ml de leche entera (guarda 200 ml, un vaso, aparte y fríos) con la piel de 1 limón (sin lo blanco) y 1 rama de canela. Cuando hierva, apaga, tapa y deja que repose 10 minutos.
    > Así la leche coge todo el perfume sin que el limón amargue.
-2. **Yemas, azúcar y maicena** (5 min) - Bate yemas de huevo con azúcar hasta que blanqueen. Disuelve maicena en el vaso de leche fría que reservaste y añádelo.
+2. **Yemas, azúcar y maicena** (5 min) - Bate 6 yemas con 150 g de azúcar hasta que blanqueen. Disuelve 40 g de maicena en el vaso de leche fría que reservaste y añádelo.
    > La maicena, siempre disuelta en frío: en caliente hace grumos.
 3. **Junta poco a poco** (3 min) - Cuela la leche caliente y viértela sobre las yemas poco a poco, sin dejar de batir.
    > Si la echas de golpe, las yemas se cuajan y la crema sale con grumos.
-4. **Espesa a fuego suave** (8 min) - Vuelve todo a la olla a fuego suave y remueve sin parar hasta que espese y cubra la cuchara. Que no llegue a hervir fuerte.
+4. **Espesa a fuego suave** (8 min) - Vuelve todo a la olla a fuego suave y remueve sin parar 6-8 minutos, hasta que espese y cubra la cuchara (a unos 82-85 °C, sin hervir). Que no llegue a hervir fuerte.
    > Remueve siempre en el mismo sentido «para que no se corte». Lo que de verdad importa es no parar y no pasarse de fuego.
 
 ### A enfriar
 
-5. **Reparte y enfría** (240 min) - Reparte la crema en cazuelitas de barro, deja que se temple y guárdala en la nevera al menos cuatro horas.
+5. **Reparte y enfría** (240 min) - Reparte la crema en cazuelitas de barro, deja que se temple y guárdala en la nevera al menos 4 horas.
    > Cazuelitas planas y anchas: más superficie para la costra de azúcar.
 
 ### Al servir
 
-6. **Quema el azúcar** (5 min) - Justo antes de servir, cubre cada cazuelita con una capa fina de azúcar y quémala con la pala de hierro al rojo o con un soplete, hasta que caramelice.
+6. **Quema el azúcar** (5 min) - Justo antes de servir, cubre cada cazuelita con 1 cucharada rasa de azúcar (6 en total) y quémala con la pala de hierro al rojo o con un soplete, hasta que caramelice.
    > La pala de hierro, el «cremador», se calienta en el fuego hasta que está al rojo. La costra tiene que crujir, por eso se quema en el último momento.
 
 ## Secretos de la abuela

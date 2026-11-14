@@ -3276,7 +3276,7 @@
      {
       "t": "Perfuma la leche",
       "m": 15,
-      "x": "Calienta {leche}, guardando un vaso aparte, con {piel} y {canela}. Cuando hierva, apaga y deja que repose diez minutos.",
+      "x": "Calienta 800 ml de leche entera (guarda 200 ml, un vaso, aparte y fríos) con la piel de 1 limón (sin lo blanco) y 1 rama de canela. Cuando hierva, apaga, tapa y deja que repose 10 minutos.",
       "tim": 10,
       "f": 3,
       "e": {
@@ -3300,7 +3300,7 @@
      {
       "t": "Yemas, azúcar y maicena",
       "m": 5,
-      "x": "Bate {yema} con {azucar} hasta que blanqueen. Disuelve {maicena} en el vaso de leche fría que reservaste y añádelo.",
+      "x": "Bate 6 yemas con 150 g de azúcar hasta que blanqueen. Disuelve 40 g de maicena en el vaso de leche fría que reservaste y añádelo.",
       "f": 0,
       "e": {
        "k": "bol",
@@ -3325,7 +3325,7 @@
      {
       "t": "Espesa a fuego suave",
       "m": 8,
-      "x": "Vuelve todo a la olla a fuego suave y remueve sin parar hasta que espese y cubra la cuchara. Que no llegue a hervir fuerte.",
+      "x": "Vuelve todo a la olla a fuego suave y remueve sin parar 6-8 minutos, hasta que espese y cubra la cuchara (a unos 82-85 °C, sin hervir). Que no llegue a hervir fuerte.",
       "tim": 8,
       "f": 2,
       "e": {
@@ -3346,7 +3346,7 @@
      {
       "t": "Reparte y enfría",
       "m": 240,
-      "x": "Reparte la crema en cazuelitas de barro, deja que se temple y guárdala en la nevera al menos cuatro horas.",
+      "x": "Reparte la crema en cazuelitas de barro, deja que se temple y guárdala en la nevera al menos 4 horas.",
       "f": "n",
       "w": 1,
       "e": {
@@ -3366,7 +3366,7 @@
      {
       "t": "Quema el azúcar",
       "m": 5,
-      "x": "Justo antes de servir, cubre cada cazuelita con una capa fina de {azucarq} y quémala con la pala de hierro al rojo o con un soplete, hasta que caramelice.",
+      "x": "Justo antes de servir, cubre cada cazuelita con 1 cucharada rasa de azúcar (6 en total) y quémala con la pala de hierro al rojo o con un soplete, hasta que caramelice.",
       "f": 0,
       "e": {
        "k": "plato",
@@ -8645,7 +8645,7 @@
      {
       "t": "Mantequilla a punto de pomada",
       "m": 60,
-      "x": "Saca {mantequilla} de la nevera una hora antes: tiene que estar blanda como una pomada.",
+      "x": "Saca 250 g de mantequilla de la nevera una hora antes: tiene que estar blanda como una pomada.",
       "f": 0,
       "w": 1,
       "e": {
@@ -8663,7 +8663,7 @@
      {
       "t": "Bate con el azúcar",
       "m": 10,
-      "x": "Bate la mantequilla con {azucar} y {sal} hasta que blanquee y esté esponjosa, de cinco a diez minutos.",
+      "x": "Bate la mantequilla con 250 g de azúcar y una pizca de sal con varillas eléctricas hasta que blanquee y esté esponjosa, de 5 a 10 minutos.",
       "f": 0,
       "e": {
        "k": "bol",
@@ -8675,7 +8675,7 @@
      {
       "t": "Los huevos, de uno en uno",
       "m": 5,
-      "x": "Añade huevos de uno en uno, sin echar el siguiente hasta que el anterior esté integrado. Agrega la ralladura de limón (su ralladura) y ron o anís (opcional).",
+      "x": "Añade 4 huevos de uno en uno (a temperatura ambiente), sin echar el siguiente hasta que el anterior esté integrado. Agrega la ralladura de 1 limón y 1 cucharada de ron o anís (opcional).",
       "f": 0,
       "e": {
        "k": "bol",
@@ -8690,7 +8690,7 @@
      {
       "t": "La harina, sin batir de más",
       "m": 5,
-      "x": "Incorpora {harina} tamizada con {levadura}, con movimientos suaves de abajo arriba, solo hasta que no se vea harina.",
+      "x": "Incorpora 250 g de harina de trigo tamizada con 8 g de levadura química (media cucharada), con movimientos suaves de abajo arriba, solo hasta que no se vea harina.",
       "f": 0,
       "e": {
        "k": "bol",
@@ -8712,7 +8712,7 @@
      {
       "t": "Llena los moldes",
       "m": 10,
-      "x": "Reparte la masa en moldes de papel rectangulares, llenándolos hasta la mitad, y espolvorea un poco de azúcar por encima.",
+      "x": "Reparte la masa en moldes de papel rectangulares, llenándolos hasta la mitad (unos 50 g de masa por molde, salen unos 12), y espolvorea un poco de azúcar por encima.",
       "f": 0,
       "e": {
        "k": "plato",
@@ -8729,7 +8729,7 @@
      {
       "t": "Hornea",
       "m": 20,
-      "x": "Hornea en el horno precalentado a 190 °C unos 20 minutos, hasta que estén dorados y un palillo pinchado en el centro salga limpio.",
+      "x": "Hornea en el horno precalentado a 190 °C, con calor arriba y abajo, 20-25 minutos, hasta que estén dorados y un palillo pinchado en el centro salga limpio.",
       "tim": 20,
       "f": "h190",
       "w": 1,
@@ -8743,7 +8743,7 @@
         ]
        ]
       },
-      "ab": "No abras el horno en los primeros quince minutos, o se bajan."
+      "ab": "No abras el horno en los primeros 15 minutos, o se bajan: el aire frío corta la subida de la levadura."
      },
      {
       "t": "Enfría y guarda",
@@ -10144,7 +10144,7 @@
      {
       "t": "Sala la berenjena",
       "m": 30,
-      "x": "Corta {berenjena} en rodajas de medio centímetro, sálalas y déjalas en un colador media hora. Sécalas con papel.",
+      "x": "Corta 2 berenjenas en rodajas de medio centímetro, sálalas con 1 cucharadita de sal y déjalas en un colador 30 minutos. Sécalas con papel.",
       "tim": 30,
       "f": 0,
       "w": 1,
@@ -10164,7 +10164,7 @@
      {
       "t": "Salsa de tomate lenta",
       "m": 30,
-      "x": "Mientras, sofríe {ajo} laminado en un poco de aceite, añade {tomate} pelados y troceados, sal y {azucar}, y deja que se haga despacio media hora, hasta que espese.",
+      "x": "Mientras, sofríe 3 dientes de ajo laminados en 2 cucharadas del aceite, añade 800 g de tomates maduros pelados y troceados, 1 cucharadita de sal y 1 cucharadita de azúcar, y deja que se haga despacio 30 minutos, hasta que espese.",
       "tim": 30,
       "f": 2,
       "e": {
@@ -10195,7 +10195,7 @@
      {
       "t": "Fríe la patata",
       "m": 15,
-      "x": "Fríe {patata} en rodajas finas en {aceite} hasta que estén tiernas y doradas. Escúrrelas y sálalas.",
+      "x": "Fríe 600 g de patatas en rodajas de 3-4 mm en el aceite de oliva (400 ml, a unos 160 °C) 10-12 minutos, hasta que estén tiernas y doradas. Escúrrelas y sálalas.",
       "tim": 12,
       "f": 4,
       "e": {
@@ -10216,7 +10216,7 @@
      {
       "t": "Fríe berenjena y pimiento",
       "m": 15,
-      "x": "En el mismo aceite, fríe la berenjena hasta que esté dorada y luego {pimrojo} en tiras. Escurre todo sobre papel.",
+      "x": "En el mismo aceite, fríe la berenjena hasta que esté dorada y luego 2 pimientos rojos en tiras, 5-6 minutos cada uno. Escurre todo sobre papel.",
       "tim": 12,
       "f": 4,
       "e": {
@@ -10277,7 +10277,7 @@
      {
       "t": "Un golpe de horno",
       "m": 15,
-      "x": "Si quieres, mételo diez o quince minutos en el horno a 180 °C para que se asienten los sabores. Se toma templado.",
+      "x": "Si quieres, mételo 10-15 minutos en el horno a 180 °C para que se asienten los sabores. Se toma templado.",
       "tim": 15,
       "f": "h180",
       "w": 1,
