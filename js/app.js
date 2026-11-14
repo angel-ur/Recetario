@@ -444,7 +444,11 @@
     h += '<div class="vuelta">' + (casa ? '<p class="ayuda">Tu casa está guardada en este móvil.</p><button type="button" class="reiniciar" data-casa="1">Cambiar mi casa</button>' : '<p class="eti">Vuelta a casa</p><p class="ayuda">Guarda dónde vives estando en casa y la ruta termina allí. Se queda solo en este móvil.</p><button type="button" class="btn sec" data-casa="1">Guardar mi casa aquí</button>') + '</div>';
     return h;
   }
+  function compraVacia() {
+    return '<section class="tarjeta" id="compra-tarjeta" aria-labelledby="t-compra"><div class="seccion-cab"><h2 id="t-compra">La compra</h2></div><p class="ayuda">Tu lista está vacía. Abre una receta y toca «Añadir lo que falta a la compra»: aquí saldrá todo junto, y también ordenado por tiendas con la ruta.</p></section>';
+  }
   function compraHTML() {
+    if (!compra.length) return compraVacia();
     var v = cvista === 'tienda' ? 'tienda' : 'receta';
     return '<section class="tarjeta" id="compra-tarjeta" aria-labelledby="t-compra"><div class="seccion-cab"><h2 id="t-compra">La compra</h2><span class="ayuda">' + compra.filter(function (c) { return !c.d; }).length + ' por comprar</span></div>' +
       '<div class="seg seg-g" role="group" aria-label="Ver la compra"><button type="button" data-cvista="receta" aria-pressed="' + (v === 'receta') + '">Por receta</button><button type="button" data-cvista="tienda" aria-pressed="' + (v === 'tienda') + '">Por tienda</button></div>' +
@@ -460,7 +464,7 @@
     var h = '', hp = '', hm = '', hf = '';
     var sigue = R.filter(function (r) { return !cocinados[r.id] && est(r).hechos.length; })[0];
     if (sigue) h += '<section class="tarjeta" aria-label="Sigue donde lo dejaste"><p class="eti">Sigue donde lo dejaste</p><ul class="filas">' + fila(sigue) + '</ul></section>';
-    if (compra.length) h += compraHTML();
+    h += compraHTML();
     var hoy = new Date(), dnum = Math.floor((hoy.getTime() - hoy.getTimezoneOffset() * 60000) / 86400000);
     var pool = R.filter(function (r) { return !cocinados[r.id]; }); if (!pool.length) pool = R;
     var dia = pool[dnum % pool.length];
