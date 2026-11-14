@@ -56,3 +56,8 @@ Fabes de La Granja, compango asturiano y tres cosas que no se negocian: remojo e
 - **Agua fría, siempre**: Remojo en frío, cocción empezando en frío y los sustos con agua fría. Nunca agua caliente.
 - **El meneo**: Ni cuchara ni espumadera una vez espumada: solo menear la cazuela. Así las fabes llegan enteras al plato.
 - **Mejor de víspera**: Reposada de un día para otro queda más mantecosa. Recaliéntala despacio, con un poco de agua si hace falta.
+
+## En la tienda
+
+- **Las fabes**: «Fabes de La Granja» (o faba asturiana). Pide que sean de la última cosecha: las muy viejas no se ablandan.
+- **El compango**: Pídelo todo junto: «compango para fabada», con chorizo, morcilla asturiana y tocino o panceta. Si lo tienen, el lacón es opcional.

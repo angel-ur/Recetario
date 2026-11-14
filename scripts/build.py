@@ -195,6 +195,18 @@ def merge_recipe(meta, intro, ingredientes, fases_md, secretos_md, enr, avisos):
     return e
 
 
+def parse_tienda(path):
+    txt = path.read_text(encoding="utf-8")
+    m = re.search(r"^## En la tienda\s*\n(.*?)(?=^## |\Z)", txt, flags=re.M | re.S)
+    out = []
+    if m:
+        for l in m.group(1).splitlines():
+            mm = re.match(r"- \*\*(.+?)\*\*:?\s*(.*)", l.strip())
+            if mm:
+                out.append([mm.group(1), mm.group(2)])
+    return out
+
+
 def fallback_recipe(meta, intro, ingredientes, fases_md, secretos_md):
     """Receta sin enriquecido: se publica con los datos del Markdown."""
     return {
@@ -226,8 +238,10 @@ def main():
         try:
             meta, intro, ings, fases, secretos = parse_recipe(path)
             if meta["id"] in enriquecido:
-                recetas.append(merge_recipe(meta, intro, ings, fases, secretos,
-                                            enriquecido[meta["id"]], avisos))
+                rec = merge_recipe(meta, intro, ings, fases, secretos,
+                                   enriquecido[meta["id"]], avisos)
+                rec["tienda"] = parse_tienda(path)
+                recetas.append(rec)
             else:
                 avisos.append(f"{meta['id']}: sin enriquecido, se publica la version simple")
                 rec = fallback_recipe(meta, intro, ings, fases, secretos)
@@ -240,6 +254,7 @@ def main():
                         p["e"] = e
                         if isinstance(e.get("f"), int):
                             p["f"] = e["f"]
+                rec["tienda"] = parse_tienda(path)
                 recetas.append(rec)
         except Exception as e:  # noqa: BLE001
             errores.append(str(e))

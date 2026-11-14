@@ -647,3 +647,7 @@ details.plan[open] > summary { margin-bottom: 12px; }
 .fila-ac .cambia { margin-left: 0; }
 .ab-si, .ab-no, .ab-na { font: 700 12px/1 system-ui, sans-serif; padding: 3px 8px; border-radius: 999px; white-space: nowrap; }
 .ab-si { background: #e3f1dc; color: #2f6a24; } .ab-no { background: #f8dcd7; color: #9a2a1b; } .ab-na { background: #eee8d8; color: #6a6250; }
+
+/* ---- En la tienda ---- */
+.tienda dd { border-left-color: var(--azul, var(--dorado)); }
+.tienda .ayuda { margin: 0 0 8px; }

@@ -52,3 +52,9 @@ Como en las ferias gallegas: el pulpo asustado tres veces, cortado con tijera so
 - **El tamaño**: Un pulpo de 2 a 3 kg es lo ideal. Los muy pequeños quedan duros y los muy grandes, fibrosos.
 - **Sin sal en el agua**: La sal se pone al final, gorda y por encima. En el agua, el pulpo ya suelta la suya.
 - **Con vino del Ribeiro**: En las ferias se toma con vino del Ribeiro en cunca, la taza de barro.
+
+## En la tienda
+
+- **El pulpo**: Pídelo «pulpo para cocer, de unos 2 kg». Si lo compras congelado, ya viene más tierno, porque la congelación rompe las fibras. Descongélalo del todo en la nevera la noche antes.
+- **Patatas**: «Patatas medianas, de las de cocer». Que no se deshagan al hervir.
+- **Pimentón**: Dulce y picante, mejor de la Vera si lo hay.

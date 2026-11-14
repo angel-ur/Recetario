@@ -70,3 +70,10 @@ El de los domingos: garbanzos a remojo la víspera, carnes a fuego lento y servi
 - **Agua caliente para el garbanzo**: Es la regla de oro: el garbanzo entra en agua hirviendo y, si hay que añadir, siempre caliente. En frío se encalla.
 - **Espumar con paciencia**: Los primeros minutos de hervor sueltan la espuma de las carnes. Retirarla deja un caldo limpio y dorado.
 - **Nada se tira**: Con las sobras salen ropa vieja, croquetas o la pringá en pan. El caldo sobrante se congela para otra sopa.
+
+## En la tienda
+
+- **El morcillo y el hueso**: «Morcillo de ternera en un trozo» y «un hueso de caña con tuétano, partido». Pide el tocino fresco o veteado en un trozo, no en lonchas.
+- **Gallina o pollo**: Si hay gallina, mejor; si no, muslos de pollo. «Para cocido» aunque parezca raro, porque el caldo se hace con ella.
+- **Los chorizos**: «Chorizo de cocido» (curado suave, de los que aguantan hervir). Y morcilla de cebolla.
+- **Garbanzos**: Los de remojo, de la noche anterior; si no, hay que alargar mucho la cocción.

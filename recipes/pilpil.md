@@ -41,3 +41,10 @@ Una salsa que se hace con paciencia y movimiento: el aceite y la gelatina del ba
 - **Temperatura**: ni quema ni enfría: tibio.
 - **Paciencia**: la salsa llega cuando llega.
 - **Desalado bien**: 24 a 48 horas, cambiando el agua.
+
+## En la tienda
+
+- **El bacalao**: Pide «lomos de bacalao desalado, de la parte gruesa (el centro), con piel». Unos 200 g por persona. La piel es lo que suelta la gelatina que liga la salsa, así que no lo quieras sin piel.
+- **Desalado o en sal**: Si te lo dan ya desalado, vale para hoy. Si solo tienen bacalao en sal, hay que desalarlo 36-48 horas en la nevera cambiando el agua, y no llega para esta noche.
+- **Ajo y guindilla**: Ajos frescos y firmes, sin brote verde. Una guindilla pequeña, seca o fresca.
+- **El aceite**: Aceite de oliva suave. Un virgen extra muy amargo se come el sabor del bacalao.

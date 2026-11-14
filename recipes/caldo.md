@@ -83,3 +83,11 @@ Huesos con mucho colágeno, muchas horas a fuego mínimo y sin sal. Si sale bien
 - **Alterna el colágeno**: Una oreja de cerdo y una pata de ternera, o dos patas de ternera, o manitas de cerdo. Alterna entre ellas. Un casco de pollo (de un pollo entero) y patas de gallo suman colágeno.
 - **Gelatina = fuego lento**: Para que cuaje de verdad hace falta fuego muy lento muchas horas. En cacerola salen 3 o 4 horas y no cuaja igual: en ese caso va todo a la vez, verdura incluida.
 - **Cuánto aguanta**: En la nevera, 3 o 4 días a 4 °C o menos. Congelado, mejor tomarlo en 2 o 3 meses.
+
+## En la tienda
+
+- **Huesos de rodilla**: Pide «huesos de rodilla de ternera, cortados en rodajas o trozos de unos 5 cm, para caldo». Cortados sueltan mejor el colágeno. Si hoy no los usas todos, se congelan.
+- **Huesos de tuétano**: «Huesos de caña de ternera con tuétano, en trozos de 5 cm». Que se vea el tuétano por los dos lados.
+- **Oreja y pata**: Una oreja de cerdo y una pata de ternera (o dos manitas de cerdo), «limpias y chamuscadas». Pide que te partan la pata en 3 o 4 trozos.
+- **Carcasa y patas de pollo**: En la pollería. Una carcasa partida por la mitad; las patas de gallo, si las tienen, son un extra de gelatina.
+- **Cantidad según tu olla**: Los huesos tienen que quedar cubiertos con un par de dedos de agua. En una olla de unos 5 L, con 1,5 kg de huesos en total vas holgado; con 2 kg va muy justo.

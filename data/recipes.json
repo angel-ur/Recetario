@@ -250,7 +250,8 @@
      2
     ]
    ]
-  }
+  },
+  "tienda": []
  },
  {
   "id": "arrozleche",
@@ -502,7 +503,8 @@
      }
     ]
    }
-  ]
+  ],
+  "tienda": []
  },
  {
   "id": "caldereta",
@@ -737,7 +739,8 @@
      0.8
     ]
    ]
-  }
+  },
+  "tienda": []
  },
  {
   "id": "caldero",
@@ -995,7 +998,8 @@
      2
     ]
    ]
-  }
+  },
+  "tienda": []
  },
  {
   "id": "caldo",
@@ -1516,6 +1520,28 @@
      }
     ]
    }
+  ],
+  "tienda": [
+   [
+    "Huesos de rodilla",
+    "Pide «huesos de rodilla de ternera, cortados en rodajas o trozos de unos 5 cm, para caldo». Cortados sueltan mejor el colágeno. Si hoy no los usas todos, se congelan."
+   ],
+   [
+    "Huesos de tuétano",
+    "«Huesos de caña de ternera con tuétano, en trozos de 5 cm». Que se vea el tuétano por los dos lados."
+   ],
+   [
+    "Oreja y pata",
+    "Una oreja de cerdo y una pata de ternera (o dos manitas de cerdo), «limpias y chamuscadas». Pide que te partan la pata en 3 o 4 trozos."
+   ],
+   [
+    "Carcasa y patas de pollo",
+    "En la pollería. Una carcasa partida por la mitad; las patas de gallo, si las tienen, son un extra de gelatina."
+   ],
+   [
+    "Cantidad según tu olla",
+    "Los huesos tienen que quedar cubiertos con un par de dedos de agua. En una olla de unos 5 L, con 1,5 kg de huesos en total vas holgado; con 2 kg va muy justo."
+   ]
   ]
  },
  {
@@ -1791,7 +1817,8 @@
      1
     ]
    ]
-  }
+  },
+  "tienda": []
  },
  {
   "id": "chilindron",
@@ -2101,7 +2128,8 @@
      }
     ]
    }
-  ]
+  ],
+  "tienda": []
  },
  {
   "id": "chuletillas",
@@ -2279,7 +2307,8 @@
      "rojo"
     ]
    ]
-  }
+  },
+  "tienda": []
  },
  {
   "id": "cocido",
@@ -2728,6 +2757,24 @@
      }
     ]
    }
+  ],
+  "tienda": [
+   [
+    "El morcillo y el hueso",
+    "«Morcillo de ternera en un trozo» y «un hueso de caña con tuétano, partido». Pide el tocino fresco o veteado en un trozo, no en lonchas."
+   ],
+   [
+    "Gallina o pollo",
+    "Si hay gallina, mejor; si no, muslos de pollo. «Para cocido» aunque parezca raro, porque el caldo se hace con ella."
+   ],
+   [
+    "Los chorizos",
+    "«Chorizo de cocido» (curado suave, de los que aguantan hervir). Y morcilla de cebolla."
+   ],
+   [
+    "Garbanzos",
+    "Los de remojo, de la noche anterior; si no, hay que alargar mucho la cocción."
+   ]
   ]
  },
  {
@@ -2949,7 +2996,8 @@
      2
     ]
    ]
-  }
+  },
+  "tienda": []
  },
  {
   "id": "cremacatalana",
@@ -3143,7 +3191,8 @@
      }
     ]
    }
-  ]
+  ],
+  "tienda": []
  },
  {
   "id": "croquetas",
@@ -3395,7 +3444,8 @@
      }
     ]
    }
-  ]
+  ],
+  "tienda": []
  },
  {
   "id": "empanadagallega",
@@ -3646,7 +3696,8 @@
      4
     ]
    ]
-  }
+  },
+  "tienda": []
  },
  {
   "id": "fabada",
@@ -3954,6 +4005,16 @@
      }
     ]
    }
+  ],
+  "tienda": [
+   [
+    "Las fabes",
+    "«Fabes de La Granja» (o faba asturiana). Pide que sean de la última cosecha: las muy viejas no se ablandan."
+   ],
+   [
+    "El compango",
+    "Pídelo todo junto: «compango para fabada», con chorizo, morcilla asturiana y tocino o panceta. Si lo tienen, el lacón es opcional."
+   ]
   ]
  },
  {
@@ -4141,7 +4202,8 @@
      2
     ]
    ]
-  }
+  },
+  "tienda": []
  },
  {
   "id": "gazpacho",
@@ -4416,7 +4478,8 @@
      }
     ]
    }
-  ]
+  ],
+  "tienda": []
  },
  {
   "id": "lechazo",
@@ -4574,7 +4637,8 @@
      1
     ]
    ]
-  }
+  },
+  "tienda": []
  },
  {
   "id": "lentejas",
@@ -5003,6 +5067,16 @@
      }
     ]
    }
+  ],
+  "tienda": [
+   [
+    "Las lentejas",
+    "«Lentejas pardinas». No necesitan remojo. Mira que sean de la última cosecha; las muy viejas se quedan duras."
+   ],
+   [
+    "El chorizo",
+    "«Chorizo para guisar» (no el de cortar en lonchas): cocido suelta su grasa y su pimentón al guiso."
+   ]
   ]
  },
  {
@@ -5312,7 +5386,8 @@
      }
     ]
    }
-  ]
+  ],
+  "tienda": []
  },
  {
   "id": "migas",
@@ -5564,7 +5639,8 @@
      }
     ]
    }
-  ]
+  ],
+  "tienda": []
  },
  {
   "id": "paella",
@@ -5963,6 +6039,24 @@
      }
     ]
    }
+  ],
+  "tienda": [
+   [
+    "Pollo y conejo",
+    "Pide «pollo y conejo troceados para paella», en trozos pequeños con hueso. Se doran mejor así y dan sabor al caldo."
+   ],
+   [
+    "Las verduras",
+    "Judía verde plana (ferraura) y garrofó: si no los encuentras frescos, el garrofó se vende en conserva o congelado."
+   ],
+   [
+    "El arroz",
+    "«Arroz bomba o senia, para paella». Es el que aguanta sin pasarse."
+   ],
+   [
+    "El azafrán",
+    "Hebras, no colorante; unas pocas bastan."
+   ]
   ]
  },
  {
@@ -6217,7 +6311,8 @@
      }
     ]
    }
-  ]
+  ],
+  "tienda": []
  },
  {
   "id": "pilpil",
@@ -6393,7 +6488,25 @@
      2
     ]
    ]
-  }
+  },
+  "tienda": [
+   [
+    "El bacalao",
+    "Pide «lomos de bacalao desalado, de la parte gruesa (el centro), con piel». Unos 200 g por persona. La piel es lo que suelta la gelatina que liga la salsa, así que no lo quieras sin piel."
+   ],
+   [
+    "Desalado o en sal",
+    "Si te lo dan ya desalado, vale para hoy. Si solo tienen bacalao en sal, hay que desalarlo 36-48 horas en la nevera cambiando el agua, y no llega para esta noche."
+   ],
+   [
+    "Ajo y guindilla",
+    "Ajos frescos y firmes, sin brote verde. Una guindilla pequeña, seca o fresca."
+   ],
+   [
+    "El aceite",
+    "Aceite de oliva suave. Un virgen extra muy amargo se come el sabor del bacalao."
+   ]
+  ]
  },
  {
   "id": "pisto",
@@ -6708,7 +6821,8 @@
      }
     ]
    }
-  ]
+  ],
+  "tienda": []
  },
  {
   "id": "pulpo",
@@ -6963,6 +7077,20 @@
      }
     ]
    }
+  ],
+  "tienda": [
+   [
+    "El pulpo",
+    "Pídelo «pulpo para cocer, de unos 2 kg». Si lo compras congelado, ya viene más tierno, porque la congelación rompe las fibras. Descongélalo del todo en la nevera la noche antes."
+   ],
+   [
+    "Patatas",
+    "«Patatas medianas, de las de cocer». Que no se deshagan al hervir."
+   ],
+   [
+    "Pimentón",
+    "Dulce y picante, mejor de la Vera si lo hay."
+   ]
   ]
  },
  {
@@ -7459,6 +7587,24 @@
      }
     ]
    }
+  ],
+  "tienda": [
+   [
+    "El rabo",
+    "Pide «rabo de toro (o de vaca), troceado por las articulaciones, en trozos de unos 5 cm». Dile que es para guisar. Los trozos gruesos de la base llevan más carne."
+   ],
+   [
+    "Cantidad",
+    "1 kg de rabo da para unas 3 personas (hueso incluido). Para 4 personas, 1,5 kg."
+   ],
+   [
+    "El vino",
+    "Un tinto que te beberías, no de cocinar. Unos 750 ml, una botella."
+   ],
+   [
+    "Grasa",
+    "No hace falta que te lo limpien del todo; la grasa se funde en el guiso y se retira al final."
+   ]
   ]
  },
  {
@@ -7738,7 +7884,8 @@
      }
     ]
    }
-  ]
+  ],
+  "tienda": []
  },
  {
   "id": "ropavieja",
@@ -7972,7 +8119,8 @@
      2
     ]
    ]
-  }
+  },
+  "tienda": []
  },
  {
   "id": "sobaos",
@@ -8195,7 +8343,8 @@
      }
     ]
    }
-  ]
+  ],
+  "tienda": []
  },
  {
   "id": "sopacastellana",
@@ -8458,7 +8607,8 @@
      }
     ]
    }
-  ]
+  ],
+  "tienda": []
  },
  {
   "id": "sopasmallorquinas",
@@ -8684,7 +8834,8 @@
      "rojo"
     ]
    ]
-  }
+  },
+  "tienda": []
  },
  {
   "id": "tempeh",
@@ -8945,7 +9096,8 @@
   "heroe": {
    "k": "ilu",
    "svg": "<defs><radialGradient id=\"i_tempeh_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_tempeh_fondo)\"/><defs><radialGradient id=\"i_tempeh_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_tempeh_fr\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#E8B04A\"/><stop offset=\"1\" stop-color=\"#B8741F\"/></linearGradient><linearGradient id=\"i_tempeh_ce\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#FBF6E4\"/><stop offset=\"1\" stop-color=\"#E8DDBC\"/></linearGradient><radialGradient id=\"i_tempeh_sam\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#E5482F\"/><stop offset=\"1\" stop-color=\"#A52418\"/></radialGradient></defs><ellipse cx=\"150\" cy=\"154\" rx=\"104\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.25\"/><ellipse cx=\"150\" cy=\"112\" rx=\"112\" ry=\"50\" fill=\"#D4CCBB\"/><ellipse cx=\"150\" cy=\"108\" rx=\"112\" ry=\"50\" fill=\"url(#i_tempeh_pl)\"/><ellipse cx=\"150\" cy=\"110\" rx=\"88\" ry=\"36\" fill=\"none\" style=\"stroke:var(--anil)\" stroke-width=\"3.5\"/><g transform=\"translate(100 104) rotate(-8)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"-1.5\" cy=\"0.2\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"13.6\" cy=\"-0.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"0.3\" cy=\"0.5\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-10.1\" cy=\"-0.4\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"4.2\" cy=\"2.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.0\" cy=\"-2.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.1\" cy=\"2.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"6.2\" cy=\"-5.5\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"15.4\" cy=\"4.6\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"4.9\" cy=\"0.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-11.0\" cy=\"-5.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><g transform=\"translate(150 96) rotate(4)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"0.9\" cy=\"-5.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.9\" cy=\"-3.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-15.0\" cy=\"-0.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-1.9\" cy=\"3.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"0.6\" cy=\"1.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-0.0\" cy=\"1.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-1.4\" cy=\"-2.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"15.9\" cy=\"5.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"10.9\" cy=\"1.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-5.9\" cy=\"-3.5\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-6.8\" cy=\"-5.2\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><g transform=\"translate(198 104) rotate(9)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"8.5\" cy=\"-1.6\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"11.1\" cy=\"-1.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"14.7\" cy=\"3.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-16.0\" cy=\"-3.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"13.1\" cy=\"-0.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"15.4\" cy=\"-1.6\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.7\" cy=\"0.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"8.9\" cy=\"-3.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.2\" cy=\"-2.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"14.9\" cy=\"2.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-12.2\" cy=\"-3.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><g transform=\"translate(122 128) rotate(3)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"-12.8\" cy=\"-5.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"9.5\" cy=\"-4.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"1.9\" cy=\"-1.1\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.9\" cy=\"2.1\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-11.8\" cy=\"1.1\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-12.3\" cy=\"-1.4\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.2\" cy=\"-3.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"15.1\" cy=\"2.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-6.3\" cy=\"3.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.3\" cy=\"-1.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"11.3\" cy=\"1.1\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><g transform=\"translate(176 129) rotate(-5)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"-12.8\" cy=\"4.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.2\" cy=\"-3.2\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"8.7\" cy=\"-2.4\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-6.5\" cy=\"-5.2\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.1\" cy=\"0.4\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-8.2\" cy=\"0.6\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-4.1\" cy=\"-1.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"14.7\" cy=\"-0.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"2.4\" cy=\"3.5\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-10.1\" cy=\"-4.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"13.1\" cy=\"3.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><ellipse cx=\"252\" cy=\"114.8\" rx=\"20.8\" ry=\"8\" fill=\"#4A2E10\" opacity=\"0.25\"/><path d=\"M226 90c2 16 9 21 26 21s20-5 26 -21z\" fill=\"#F4F0E6\"/><path d=\"M234 98c4 12 8 17 18 17s14-4 18 -17\" fill=\"none\" stroke=\"#3C5C8E\" stroke-width=\"3\"/><ellipse cx=\"252\" cy=\"90\" rx=\"26\" ry=\"7\" fill=\"#E4DECF\"/><ellipse cx=\"252\" cy=\"91\" rx=\"21\" ry=\"5\" fill=\"url(#i_tempeh_sam)\"/><ellipse cx=\"246\" cy=\"86\" rx=\"8\" ry=\"1.8\" fill=\"#fff\" opacity=\".35\"/><circle cx=\"60\" cy=\"140\" r=\"10\" fill=\"#F6E24B\"/><circle cx=\"60\" cy=\"140\" r=\"8\" fill=\"#FBF08A\"/><path d=\"M60 140L68.0 140.0\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L64.0 146.9\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L56.0 146.9\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L52.0 140.0\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L56.0 133.1\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L64.0 133.1\" stroke=\"#F0D63A\" stroke-width=\".9\"/>"
-  }
+  },
+  "tienda": []
  },
  {
   "id": "ternasco",
@@ -9101,7 +9253,8 @@
      3
     ]
    ]
-  }
+  },
+  "tienda": []
  },
  {
   "id": "tortilla",
@@ -9326,7 +9479,8 @@
      }
     ]
    }
-  ]
+  ],
+  "tienda": []
  },
  {
   "id": "tumbet",
@@ -9605,7 +9759,8 @@
      }
     ]
    }
-  ]
+  ],
+  "tienda": []
  },
  {
   "id": "xato",
@@ -9925,7 +10080,8 @@
      }
     ]
    }
-  ]
+  ],
+  "tienda": []
  },
  {
   "id": "zarangollo",
@@ -10154,6 +10310,7 @@
      }
     ]
    }
-  ]
+  ],
+  "tienda": []
  }
 ]

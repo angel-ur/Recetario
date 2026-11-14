@@ -63,3 +63,8 @@ Todo a la olla en frío, un refrito de ajo y pimentón y el gesto que lo cambia 
 - **Agua fría para empezar**: Lentejas, alubias y fabes empiezan en agua fría; los garbanzos, en agua ya caliente. Así no se encallan.
 - **Chafar en vez de espesar**: Nada de harina: un cazo de lentejas y patata chafado devuelve el almidón al caldo y lo vuelve meloso.
 - **El pimentón, fuera del fuego**: Se quema en segundos y amarga. Siempre con la sartén apartada.
+
+## En la tienda
+
+- **Las lentejas**: «Lentejas pardinas». No necesitan remojo. Mira que sean de la última cosecha; las muy viejas se quedan duras.
+- **El chorizo**: «Chorizo para guisar» (no el de cortar en lonchas): cocido suelta su grasa y su pimentón al guiso.

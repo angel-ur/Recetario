@@ -708,6 +708,8 @@
         if (i.plano) return '<li><label><input type="checkbox" value="' + i.k + '"' + (e.tengo.indexOf(i.k) > -1 ? ' checked' : '') + '><span class="nom">' + esc(i.s) + '</span>' + dondeTag(i.s) + '</label></li>';
         return '<li><label><input type="checkbox" value="' + i.k + '"' + (e.tengo.indexOf(i.k) > -1 ? ' checked' : '') + '><span class="nom" data-n="' + i.k + '">' + esc(etiquetaIng(r, i, e.rac)) + '</span><span class="cant" data-c="' + i.k + '">' + esc(cantidad(r, i, e.rac) || 'al gusto') + '</span>' + dondeTag(i.s) + '</label></li>';
       }).join('') + '</ul>' + barrioHTML(catsDe(r.ings.filter(function (i) { return i.grupo === undefined; }).map(function (i) { return i.s; }))) + '</section>';
+    // En la tienda
+    if (r.tienda && r.tienda.length) h += '<section class="tarjeta secretos tienda" aria-labelledby="t-tienda"><h2 id="t-tienda">En la tienda</h2><p class="ayuda">Qué pedir en el mostrador.</p><dl>' + r.tienda.map(function (s) { return '<dt>' + esc(s[0]) + '</dt><dd>' + esc(s[1]) + '</dd>'; }).join('') + '</dl></section>';
     // Pasos
     h += '<div class="seccion-cab"><h2>Paso a paso</h2><p class="eti num" id="progreso" style="color:var(--ok)"></p></div>';
     r.fases.forEach(function (f, fi) {

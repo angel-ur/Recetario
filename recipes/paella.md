@@ -59,3 +59,10 @@ La tradicional: pollo, conejo, ferraura, garrofó, tomate, azafrán y arroz. Ni 
 - **Ni guisantes ni chorizo**: La tradicional lleva aceite, pollo, conejo, ferraura, garrofó, tomate, agua, sal, azafrán y arroz. En invierno se le añade alcachofa y en algunas comarcas, caracoles.
 - **Capa fina de arroz**: El arroz tiene que quedar en una capa fina, de un dedo como mucho. Para cuatro, una paella de unos 40 o 45 cm.
 - **Se come de la paella**: La paella va al centro de la mesa y cada uno come de su triángulo, con cuchara de madera.
+
+## En la tienda
+
+- **Pollo y conejo**: Pide «pollo y conejo troceados para paella», en trozos pequeños con hueso. Se doran mejor así y dan sabor al caldo.
+- **Las verduras**: Judía verde plana (ferraura) y garrofó: si no los encuentras frescos, el garrofó se vende en conserva o congelado.
+- **El arroz**: «Arroz bomba o senia, para paella». Es el que aguanta sin pasarse.
+- **El azafrán**: Hebras, no colorante; unas pocas bastan.

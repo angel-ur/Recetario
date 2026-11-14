@@ -69,3 +69,10 @@ Guiso de horas al vino tinto hasta que la carne se separa sola del hueso. Mejor 
 - **Mejor al día siguiente**: Reposado gana sabor, y en frío la grasa cuaja arriba y se quita con una cuchara. Recaliéntalo a fuego suave.
 - **Menear, no remover**: Con la cuchara se rompe la carne. Coge la cazuela por las asas y dale un meneo.
 - **Las cantidades**: Para 3 personas, todo va ajustado a 1 kg de rabo. Los tres vasos de vino de la receta cordobesa son más o menos una botella.
+
+## En la tienda
+
+- **El rabo**: Pide «rabo de toro (o de vaca), troceado por las articulaciones, en trozos de unos 5 cm». Dile que es para guisar. Los trozos gruesos de la base llevan más carne.
+- **Cantidad**: 1 kg de rabo da para unas 3 personas (hueso incluido). Para 4 personas, 1,5 kg.
+- **El vino**: Un tinto que te beberías, no de cocinar. Unos 750 ml, una botella.
+- **Grasa**: No hace falta que te lo limpien del todo; la grasa se funde en el guiso y se retira al final.
