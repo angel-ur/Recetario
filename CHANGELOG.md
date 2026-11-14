@@ -5,10 +5,13 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 ## [Sin publicar]
 
 ### Corregido
+- Las portadas ilustradas de caldo, cocido, croquetas, fabada, gazpacho, lentejas, paella y tortilla no llegaban a la web: el montaje solo las usaba en recetas «sencillas». Ya salen las 10 (con la nueva de la crema catalana).
 - Ruta de la compra: si el mapa principal no responde o va saturado, se consulta un segundo servicio; y si ninguno responde, se avisa de que no hay conexión con el mapa en lugar de decir que no hay tiendas.
 - La lista por tienda avisa de cuántos ingredientes no tienen precio de referencia.
 
 ### Añadido
+- Portada ilustrada propia de la crema catalana: cazuelita de barro con la costra quemada y la pala de hierro.
+- El planificador entrelaza ahora pasos de crema catalana, tumbet, xató y marmitako (lo que de verdad se puede hacer a la vez, marcado receta a receta).
 - Sesiones de cocina: «Empezar a cocinar» en cada receta, barra de platos en toda la app y vista «Ahora» que entrelaza los pasos de hasta 3 recetas a la vez. Las sesiones caducan solas (aviso a las 4 h, cierre a las 6 h) y no guardan nada al cerrarse.
 - Planificador por dependencias (pasos que necesitan otros, pasos que se hacen a la vez que otro, horno único) con datos para caldo, rabo, cocido y lentejas.
 - Pasos en paralelo dentro de una receta: «A la vez que el paso N» y lista de lo que cabe en el hueco.
@@ -30,6 +33,7 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 - Botón «volver arriba», menú de acceso rápido y pasaporte dentro del menú.
 
 ### Cambiado
+- El mapa de la ruta ya no descarga Leaflet de internet: viaja dentro de la propia web (auditoría de dependencias, ADR 0006).
 - Dónde comprar: patas, oreja, almortas, fabes y ñoras salen «por encargo» en vez de «fácil en el súper»; el vinagre de manzana ya no va a la bodega.
 - Las 14 recetas sin ajuste de cantidades lo dicen en su ficha («Versión sencilla») y tienen temporizador en todo paso de 5 minutos o más.
 - El sitio publicado solo lleva los datos que la web usa; quitado el campo `tiempo_min`, que nadie leía.

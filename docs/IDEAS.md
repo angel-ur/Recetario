@@ -48,7 +48,7 @@ Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-act
 - Cada receta puede tener una ilustracion propia en `data/ilustraciones/<id>.svg` (viewBox 0 0 320 180, sin etiqueta svg exterior). `scripts/build.py` la usa si existe; si no, cae al sprite simple de `js/escenas.js`.
 - Se generan con `scripts/ilu_*.py` (+ `scripts/ilu_lib.py`). En el SVG los ids de degradado empiezan por `ID`; el build los prefija por receta.
 - Estilo acordado: fondo crema, plato ovalado con aro azul (var(--anil)), composicion simple, un plato reconocible y poco mas. Referencia de nivel: gazpacho. El tempeh es la excepcion (escena con tabla de madera, aprobada).
-- Hechas: tempeh, paella, tortilla (entera, cupula dorada), cocido, gazpacho, caldo, fabada, lentejas, croquetas. Siguientes: pulpo, migas, marmitako, rabo, pisto, arroz con leche, crema catalana, papas, xato, tumbet...
+- Hechas: tempeh, paella, tortilla (entera, cupula dorada), cocido, gazpacho, caldo, fabada, lentejas, croquetas, crema catalana (cazuelita, costra y pala). Siguientes: pulpo, migas, marmitako, rabo, pisto, arroz con leche, papas, xato, tumbet...
 
 ## La compra por tienda (v1)
 - En «La compra» hay un selector Por receta / Por tienda (localStorage `cvista`).
@@ -57,5 +57,8 @@ Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-act
 - Vuelta a casa: «Guardar mi casa aquí» guarda lat/lon redondeados solo en el movil (`casa`); el boton abre Google Maps (a pie) con destino casa y, en zonas con lista verificada (zona con lista), las tiendas concretas como paradas.
 - Siguientes ideas: unir ingredientes repetidos en una sola linea, cantidades sumadas, horarios por tienda, ruta con mas zonas verificadas.
 - Ruta dinamica (v1.1): «Calcular ruta desde mi ubicación» busca en OpenStreetMap (Overpass, sin clave) la tienda con nombre mas cercana de cada tipo de parada pendiente (tabla OSM en app.js, radio 3 km, distancia en linea recta) y arma una ruta a pie en Google Maps: origen tu ubicacion, paradas en orden de tour, destino casa (si esta guardada). Si Overpass no responde o no hay tienda de ese tipo, esa parada va como busqueda de texto y Maps elige. Maximo 9 paradas (limite de Maps). La lista verificada de la zona ya no se usa para la ruta, solo en la tarjeta «Por tu barrio».
-- Más datos de dependencias (`tras`/`durante`) en recetas fuera de caldo, rabo, cocido, lentejas y paella.
-- Portada propia de crema catalana (cazuelitas con costra y pala).
+- Más datos de dependencias (`tras`/`durante`/`enlaza`) en recetas fuera de caldo, rabo, cocido, lentejas y paella. [15 nov: +crema catalana, tumbet, xato, marmitako]
+
+## Hecho 15 nov
+- Auditoria de dependencias: Leaflet 1.9.4 (ultima estable) ahora se sirve desde el propio sitio en `js/vendor/leaflet/`, sin CDN ni integridad rota posible (ADR 0006). Antes se cargaba de unpkg al usar la ruta.
+- Portada ilustrada de crema catalana.

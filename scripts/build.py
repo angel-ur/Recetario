@@ -143,6 +143,9 @@ def merge_recipe(meta, intro, ingredientes, fases_md, secretos_md, enr, avisos):
     for k in ("ud", "notaRac", "listo", "fac", "met", "heroe"):
         if k in enr:
             e[k] = enr[k]
+    # La ilustracion propia (data/ilustraciones/<id>.svg) manda sobre el sprite
+    if (ILU_DIR / (enr["id"] + ".svg")).exists():
+        e["heroe"] = heroe_de(enr["id"])
     e["regs"] = enr.get("regs", [enr["reg"]])
     if meta.get("region") != e.get("reg"):
         avisos.append(f"{enr['id']}: region md={meta.get('region')} != enriquecido={e.get('reg')} (manda md)")
