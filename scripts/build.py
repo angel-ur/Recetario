@@ -176,7 +176,7 @@ def merge_recipe(meta, intro, ingredientes, fases_md, secretos_md, enr, avisos):
             md_p = md_plan[idx] if idx < len(md_plan) else None
             idx += 1
             paso = {"t": p["t"], "m": p.get("m", 0), "x": p["x"]}
-            for k in ("tim", "f", "w", "par", "pre", "post", "solo", "alt", "e"):
+            for k in ("tim", "f", "w", "par", "enlaza", "pre", "post", "solo", "alt", "e"):
                 if k in p:
                     paso[k] = p[k]
             if "ab" in p:

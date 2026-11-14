@@ -762,7 +762,7 @@
     return pasosDe(r, met).filter(function (p) { return !p.pre && !p.post; }).map(function (p) {
       var esp = esEspera(p), m = p.m || 0, a = esp ? 0 : m, cola = 0;
       if (esp) cola = m; else if (p.par && p.tim && p.tim > m) cola = p.tim - m;
-      return { t: p.t, m: m, a: a, cola: cola, esp: esp, par: !!p.par && !esp };
+      return { t: p.t, m: m, a: a, cola: cola, esp: esp, par: !!p.par && !esp, enlaza: !!p.enlaza };
     });
   }
   function planVarias(sel, ini) {
@@ -782,11 +782,13 @@
       if (!listos.length) { libre = Math.min.apply(null, vivos.map(function (x) { return x.ready; })); continue; }
       // primero los pasos de espera (no ocupan a la persona), luego el mas largo por delante
       var esperas = listos.filter(function (x) { return x.pasos[x.i].esp; });
-      var x = esperas.length ? esperas[0] : listos.sort(function (a, b) { return restante(b) - restante(a); })[0];
+      var enl = listos.filter(function (y) { return y.i > 0 && y.pasos[y.i - 1].enlaza && y.ult === 1; });
+      var x = esperas.length ? esperas[0] : enl.length ? enl[0] : listos.sort(function (a, b) { return restante(b) - restante(a); })[0];
       var p = x.pasos[x.i], t0 = now;
       out.push({ r: x.r, t: p.t, ini: t0, a: p.a, cola: p.cola, esp: p.esp });
       p.finCola = t0 + p.a + p.cola;
       if (p.esp) x.listo = t0 + p.m; else { x.listo = t0 + p.a; libre = t0 + p.a; }
+      rs.forEach(function (y) { y.ult = 0; }); x.ult = 1;
       x.i++;
     }
     out.sort(function (a, b) { return a.ini - b.ini; });

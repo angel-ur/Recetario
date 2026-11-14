@@ -1413,7 +1413,8 @@
         ]
        ],
        "chisp": 1
-      }
+      },
+      "enlaza": 1
      },
      {
       "t": "Pocha la cebolla y el ajo",
@@ -1440,7 +1441,8 @@
         ]
        ],
        "cuchara": 1
-      }
+      },
+      "enlaza": 1
      },
      {
       "t": "Añade el resto de verduras",
@@ -1478,7 +1480,8 @@
         "pimiento",
         "puerro"
        ]
-      }
+      },
+      "enlaza": 1
      },
      {
       "t": "Añade el tomate",
@@ -1502,7 +1505,8 @@
         ]
        ],
        "vierte": "tomate"
-      }
+      },
+      "enlaza": 1
      }
     ]
    },
@@ -6777,7 +6781,7 @@
       },
       "alt": {
        "olla": {
-        "x": "Saca la bandeja del horno y pasa los huesos tostados a una olla grande (de unos 6 litros), junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja, rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade {vinagre} y {agua}, que tape los huesos unos 2 dedos (si con 4 litros no cubre, añade lo justo; si sobra, quita un poco). Déjalo reposar 20 minutos mientras preparas lo demás.",
+        "x": "Saca la bandeja del horno y pasa los huesos tostados a una olla grande (de unos 6 litros), junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja, rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade {vinagre} y {agua}, que tape los huesos unos 2 dedos (si con 4 litros no cubre, añade lo justo; si sobra, quita un poco). Déjalo reposar 20 minutos y aprovecha para trocear la verdura gruesa (1 cebolla, 1 zanahoria, 1 puerro por cada kilo de huesos) y reservarla: entra la última hora.",
         "e": {
          "k": "fuego",
          "v": "olla",
@@ -6836,11 +6840,11 @@
       "alt": {
        "olla": {
         "t": "Todo a la olla, a hervor mínimo",
-        "m": 180,
-        "tim": 180,
+        "m": 120,
+        "tim": 120,
         "f": 1,
-        "x": "Pon la olla a fuego fuerte hasta que arranque a hervir. Saldrá espuma gris: quítala con un cucharón durante los primeros 10 minutos (espumar). Añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y un poco de azafrán si tienes. Trocea en trozos gruesos {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio}, y el nabo, la chirivía o el perejil si los usas, y échalo todo. Baja al fuego mínimo (hervor mínimo: solo una burbuja de vez en cuando), tapa a medias y cuece 3 horas, sin sal. Si baja mucho el nivel, añade agua caliente hasta volver a cubrir.",
-        "ab": "La espuma es proteína coagulada: si se queda, enturbia el caldo. El hervor mínimo es la clave: un hervor fuerte mezcla la grasa con el agua y lo deja turbio y graso. En olla normal las verduras van desde el principio porque son solo 3 horas.",
+        "x": "Pon la olla a fuego fuerte hasta que arranque a hervir. Saldrá espuma gris: quítala con un cucharón durante los primeros 10 minutos (espumar). Añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y un poco de azafrán si tienes. Baja al fuego mínimo (hervor mínimo: solo una burbuja de vez en cuando), tapa a medias y cuece 2 horas, sin sal. Si baja mucho el nivel, añade agua caliente hasta volver a cubrir.",
+        "ab": "La espuma es proteína coagulada: si se queda, enturbia el caldo. El hervor mínimo es la clave: un hervor fuerte mezcla la grasa con el agua y lo deja turbio y graso. Mientras, tienes dos horas libres.",
         "e": {
          "k": "fuego",
          "v": "olla",
@@ -6875,6 +6879,50 @@
          "rf": 0.29
         }
        }
+      }
+     },
+     {
+      "t": "Las verduras, la última hora",
+      "solo": [
+       "olla"
+      ],
+      "m": 60,
+      "tim": 60,
+      "w": 1,
+      "f": 1,
+      "x": "Echa a la olla {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio} en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Sigue con el hervor mínimo y tapa a medias otra hora.",
+      "ab": "Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Aunque los huesos se tuesten antes, la verdura no se tuesta: entra casi al final.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "tapa": 2,
+       "c": "#D9B06A",
+       "i": [
+        [
+         "zanahoria",
+         3
+        ],
+        [
+         "puerro",
+         2
+        ],
+        [
+         "cebolla",
+         2
+        ],
+        [
+         "apio",
+         2
+        ]
+       ],
+       "cae": [
+        "zanahoria",
+        "apio",
+        "puerro"
+       ],
+       "reloj": "1 h",
+       "rf": 0.33
       }
      },
      {

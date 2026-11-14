@@ -1344,7 +1344,7 @@
       "w": 1,
       "alt": {
        "olla": {
-        "x": "Saca la bandeja del horno y pasa los huesos tostados a una olla grande (de unos 6 litros), junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja, rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade {vinagre} y {agua}, que tape los huesos unos 2 dedos (si con 4 litros no cubre, añade lo justo; si sobra, quita un poco). Déjalo reposar 20 minutos mientras preparas lo demás.",
+        "x": "Saca la bandeja del horno y pasa los huesos tostados a una olla grande (de unos 6 litros), junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja, rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade {vinagre} y {agua}, que tape los huesos unos 2 dedos (si con 4 litros no cubre, añade lo justo; si sobra, quita un poco). Déjalo reposar 20 minutos y aprovecha para trocear la verdura gruesa (1 cebolla, 1 zanahoria, 1 puerro por cada kilo de huesos) y reservarla: entra la última hora.",
         "e": {
          "k": "fuego",
          "v": "olla",
@@ -1424,11 +1424,11 @@
       "alt": {
        "olla": {
         "t": "Todo a la olla, a hervor mínimo",
-        "m": 180,
-        "tim": 180,
+        "m": 120,
+        "tim": 120,
         "f": 1,
-        "x": "Pon la olla a fuego fuerte hasta que arranque a hervir. Saldrá espuma gris: quítala con un cucharón durante los primeros 10 minutos (espumar). Añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y un poco de azafrán si tienes. Trocea en trozos gruesos {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio}, y el nabo, la chirivía o el perejil si los usas, y échalo todo. Baja al fuego mínimo (hervor mínimo: solo una burbuja de vez en cuando), tapa a medias y cuece 3 horas, sin sal. Si baja mucho el nivel, añade agua caliente hasta volver a cubrir.",
-        "ab": "La espuma es proteína coagulada: si se queda, enturbia el caldo. El hervor mínimo es la clave: un hervor fuerte mezcla la grasa con el agua y lo deja turbio y graso. En olla normal las verduras van desde el principio porque son solo 3 horas.",
+        "x": "Pon la olla a fuego fuerte hasta que arranque a hervir. Saldrá espuma gris: quítala con un cucharón durante los primeros 10 minutos (espumar). Añade {curcuma}, {pimienta}, {jengibre} en rodajas, {romero}, {laurel} y un poco de azafrán si tienes. Baja al fuego mínimo (hervor mínimo: solo una burbuja de vez en cuando), tapa a medias y cuece 2 horas, sin sal. Si baja mucho el nivel, añade agua caliente hasta volver a cubrir.",
+        "ab": "La espuma es proteína coagulada: si se queda, enturbia el caldo. El hervor mínimo es la clave: un hervor fuerte mezcla la grasa con el agua y lo deja turbio y graso. Mientras, tienes dos horas libres.",
         "e": {
          "k": "fuego",
          "v": "olla",
@@ -1473,6 +1473,50 @@
        "luna": "8 h"
       },
       "ab": "La pimienta negra va con la cúrcuma por algo: activa la cúrcuma. Y la olla lenta marca la diferencia: a temperatura baja y muchas horas es cuando suelta toda su gelatina. La sal va al final porque el caldo se concentra y podría quedar salado."
+     },
+     {
+      "t": "Las verduras, la última hora",
+      "m": 60,
+      "x": "Echa a la olla {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio} en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Sigue con el hervor mínimo y tapa a medias otra hora.",
+      "tim": 60,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "olla"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "tapa": 2,
+       "c": "#D9B06A",
+       "i": [
+        [
+         "zanahoria",
+         3
+        ],
+        [
+         "puerro",
+         2
+        ],
+        [
+         "cebolla",
+         2
+        ],
+        [
+         "apio",
+         2
+        ]
+       ],
+       "cae": [
+        "zanahoria",
+        "apio",
+        "puerro"
+       ],
+       "reloj": "1 h",
+       "rf": 0.33
+      },
+      "ab": "Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Aunque los huesos se tuesten antes, la verdura no se tuesta: entra casi al final."
      },
      {
       "t": "Las verduras, por la mañana",
@@ -7668,6 +7712,7 @@
       "x": "Calienta {aceite} en una cazuela grande de fondo grueso, a fuego fuerte. Marca el rabo por tandas de 5 o 6 trozos, sin amontonarlo, unos 3 o 4 minutos por cada cara, hasta que esté bien dorado por todos lados. Sácalo y resérvalo.",
       "tim": 15,
       "f": 4,
+      "enlaza": 1,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -7691,6 +7736,7 @@
       "x": "En el mismo aceite, a fuego medio, echa {cebolla} y {ajo} (el sofrito fino) y rehógalos 10 a 15 minutos, rascando el fondo, hasta que estén melosos.",
       "tim": 10,
       "f": 3,
+      "enlaza": 1,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -7718,6 +7764,7 @@
       "x": "Incorpora la zanahoria, el puerro y el pimiento, y cocina removiendo de vez en cuando hasta que estén tiernos.",
       "tim": 10,
       "f": 3,
+      "enlaza": 1,
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -7756,6 +7803,7 @@
       "x": "Echa {tomate} y deja que reduzca un poco, removiendo, hasta que el sofrito quede ligado.",
       "tim": 5,
       "f": 3,
+      "enlaza": 1,
       "e": {
        "k": "fuego",
        "v": "cazuela",

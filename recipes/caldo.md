@@ -58,21 +58,23 @@ Huesos con mucho colágeno, muchas horas a fuego mínimo y sin sal. Si sale bien
 
 4. **Agua, especias y a dormir** (480 min) - Añade el resto del agua hasta que cubra los huesos 2 dedos, sin pasar la marca máxima de la olla (unos 4 litros en total). Añade cúrcuma molida (o 3 cm de raíz fresca), pimienta negra en grano, trozo de jengibre fresco de 4 cm (o jengibre molido) en rodajas, rama de romero, hoja de laurel y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.
    > La pimienta negra va con la cúrcuma por algo: activa la cúrcuma. Y la olla lenta marca la diferencia: a temperatura baja y muchas horas es cuando suelta toda su gelatina. La sal va al final porque el caldo se concentra y podría quedar salado.
-5. **Las verduras, por la mañana** (270 min) - A la mañana siguiente, trocea en trozos gruesos cebolla, diente de ajo, zanahoria, puerro grande y rama de apio, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.
+5. **Las verduras, la última hora** (60 min) - Echa a la olla cebolla, diente de ajo, zanahoria, puerro grande y rama de apio en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Sigue con el hervor mínimo y tapa a medias otra hora.
+   > Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Aunque los huesos se tuesten antes, la verdura no se tuesta: entra casi al final.
+6. **Las verduras, por la mañana** (270 min) - A la mañana siguiente, trocea en trozos gruesos cebolla, diente de ajo, zanahoria, puerro grande y rama de apio, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.
    > Las verduras entran al final para que no se deshagan y conserven su sabor. Si fueran 12 horas, se pasarían y darían amargor.
 
 ### Colar y guardar
 
-6. **Cuela el caldo** (20 min) - Apaga el fuego y saca con una espumadera los huesos, las verduras y los restos sólidos. Pasa el caldo por un colador fino y después por una tela limpia apta para alimentos, sin apretar. Si lo quieres muy limpio, fíltralo dos o tres veces.
+7. **Cuela el caldo** (20 min) - Apaga el fuego y saca con una espumadera los huesos, las verduras y los restos sólidos. Pasa el caldo por un colador fino y después por una tela limpia apta para alimentos, sin apretar. Si lo quieres muy limpio, fíltralo dos o tres veces.
    > La tela atrapa lo que el colador deja pasar. Si aprietas los huesos, sale turbiedad al caldo.
-7. **Reparte y a la nevera** (10 min) - Reparte el caldo en recipientes de unos 500 ml, deja que pierda calor 20 o 30 minutos y mételo en la nevera (o en el congelador) cuanto antes. No lo dejes más de 2 horas a temperatura ambiente. Sal: solo al calentar cada ración, un pellizco por taza y prueba.
+8. **Reparte y a la nevera** (10 min) - Reparte el caldo en recipientes de unos 500 ml, deja que pierda calor 20 o 30 minutos y mételo en la nevera (o en el congelador) cuanto antes. No lo dejes más de 2 horas a temperatura ambiente. Sal: solo al calentar cada ración, un pellizco por taza y prueba.
    > En recipientes pequeños se enfría mucho antes y cuanto menos rato pase templado, mejor se conserva. En la nevera aguanta 3 o 4 días; congelado, 2 o 3 meses.
 
 ### En frío
 
-8. **Deja que cuaje** (360 min) - Déjalo en la nevera 6 horas como mínimo. Arriba verás una capa sólida de grasa, parecida al ghee. Retírala con una cuchara y tírala (desgrasar). Debajo, si ha salido muy bien, estará tan cuajado que parece gelatina y no se cae al dar la vuelta al tupper.
+9. **Deja que cuaje** (360 min) - Déjalo en la nevera 6 horas como mínimo. Arriba verás una capa sólida de grasa, parecida al ghee. Retírala con una cuchara y tírala (desgrasar). Debajo, si ha salido muy bien, estará tan cuajado que parece gelatina y no se cae al dar la vuelta al tupper.
    > Con el frío se nota todo el colágeno que han soltado las patas, las orejas y las articulaciones: el caldo cuaja como una gelatina.
-9. **Desgrasa y comprueba** (5 min) - Retira la capa de grasa con una cuchara. Debajo, el caldo debería estar cuajado: tan firme que casi no se mueve al inclinar el tarro. Si no cuaja, es que lleva más agua o menos colágeno; sigue siendo un buen caldo.
+10. **Desgrasa y comprueba** (5 min) - Retira la capa de grasa con una cuchara. Debajo, el caldo debería estar cuajado: tan firme que casi no se mueve al inclinar el tarro. Si no cuaja, es que lleva más agua o menos colágeno; sigue siendo un buen caldo.
    > Esa es la prueba de que ha salido bien. Si no cuaja del todo, no significa que esté mal: solo que está más diluido.
 
 ## Secretos de la abuela
