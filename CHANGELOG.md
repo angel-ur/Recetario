@@ -34,6 +34,8 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 - Receta: sin portada grande, método en su propia tarjeta, «Organiza el día» plegable, menú que se esconde al bajar.
 
 ### Corregido
+- Caldo de huesos: vuelve el paso de espumar (en olla lenta: subir el hervor y quitar la espuma los primeros 10-15 min, antes de bajar a LOW).
+- Rabo de toro: la patata entra en el guiso (cascada, 35-40 min antes del final, también al horno y en olla exprés) y espesa la salsa; la cocción lenta pasa a 2 h 20 min más 40 min de patata.
 - Glosario: «Tostar» vale para huesos, harina y pan; «Levar» ya no sale con la levadura química; «Blanquear» ya no sale con yemas que «blanquean»; blanquear dice 2-5 min según la pieza.
 - Textos: jengibre molido ya no va «en rodajas» (caldo), frase suelta en el truco del caldo, «patata para freír fritas» (rabo), frase repetida (chilindrón), «repulgua» (empanada gallega) y «se sella» en el cocido, que ahora dice lo que pasa de verdad.
 - La ruta de la compra: enlace a Maps inmediato (sin esperar a Overpass), mensajes de error visibles y servidores en paralelo con tope de 8 s.

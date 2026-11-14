@@ -31,8 +31,8 @@ Guiso de horas al vino tinto hasta que la carne se separa sola del hueso. Mejor 
 - 500 ml de caldo de carne
 - 2 hojas de laurel
 - 3 ramitas de perejil
-- #Para acompañar
-- 3 patatas para freír
+- #La patata
+- 3 patatas medianas
 
 ## Elaboración
 
@@ -53,15 +53,18 @@ Guiso de horas al vino tinto hasta que la carne se separa sola del hueso. Mejor 
 
 7. **Vino y caldo** (10 min) - Vuelve a meter el rabo y vierte vino tinto. Déjalo 3 minutos a fuego fuerte sin tapa, para que se evapore el alcohol. Añade caldo de carne (o agua), hoja de laurel y ramita de perejil: el líquido debe cubrir el rabo; si no llega, completa con agua. Tapa.
    > El alcohol que no se evapora deja un sabor áspero. Con el rabo cubierto se cuece parejo; lo que asoma se queda seco.
-8. **Cocción lenta** (180 min) - Baja a fuego mínimo (solo alguna burbuja), tapa y deja que se haga entre 2 horas y media y 3 horas. A partir de las 2 horas pincha un trozo cada 15 minutos: está listo cuando la carne se separa sola del hueso. Si se queda corto de líquido, añade un chorrito de caldo o de agua caliente.
+8. **Cocción lenta** (140 min) - Baja a fuego mínimo (solo alguna burbuja), tapa y deja que se haga unas 2 horas y 20 minutos. Si se queda corto de líquido, añade un chorrito de caldo o de agua caliente.
    > Fuego mínimo porque el rabo tiene mucho colágeno: a hervor suave se vuelve tierno y gelatinoso; a hervor fuerte la carne se endurece. Menea la cazuela en vez de remover, para no romper la carne.
+
+9. **Echa la patata** (40 min) - Cuando falten unos 40 minutos, pela patatas medianas y cáscalas en trozos de unos 4 cm: clava el cuchillo y tuerce hasta que se parta. Échalas a la cazuela, hundidas en la salsa, tapa y sigue a fuego mínimo 35 o 40 minutos. Pincha un trozo de rabo: está listo cuando la carne se separa sola del hueso y la patata está tierna.
+   > Cascar la patata en vez de cortarla deja el borde áspero, que suelta almidón y espesa la salsa. Entra ahora y no antes porque dos horas y media la deshacen.
 
 ### Terminar
 
-9. **Tritura la salsa** (10 min) - Saca los trozos de rabo y las hojas de laurel. Tritura las verduras con el líquido hasta tener una salsa fina, y pásala por un colador si la quieres más sedosa. Si queda clara, redúcela 5 a 10 minutos a fuego vivo, sin tapa. Prueba de sal.
+10. **Tritura la salsa** (10 min) - Saca los trozos de rabo, la patata y las hojas de laurel. Tritura las verduras con el líquido hasta tener una salsa fina, y pásala por un colador si la quieres más sedosa. Si queda clara, redúcela 5 a 10 minutos a fuego vivo, sin tapa. Prueba de sal.
    > Reducir concentra el sabor y espesa la salsa. Si queda demasiado espesa, aligérala con un poco de caldo.
-10. **Junta y sirve** (5 min) - Devuelve el rabo a la salsa y dale un hervor suave para que se caliente todo. Sirve la carne bien bañada en salsa.
-   > Con patatas fritas y pan para mojar.
+11. **Junta y sirve** (5 min) - Devuelve el rabo y la patata a la salsa y dale un hervor suave para que se caliente todo. Sirve la carne bien bañada en salsa.
+   > La patata ya va cocida en el guiso y espesa la salsa; con pan para mojar. Si prefieres patata frita de guarnición, fríela aparte al final.
 
 ## Secretos de la abuela
 

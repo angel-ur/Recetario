@@ -1338,10 +1338,10 @@
     3,
     "ud"
    ],
-   "#Para acompañar",
+   "#La patata",
    [
     "patata",
-    "patata para freír|patatas para freír",
+    "patata mediana|patatas medianas",
     3,
     "ud"
    ]
@@ -1562,11 +1562,11 @@
      },
      {
       "t": "Cocción lenta",
-      "m": 180,
-      "tim": 180,
+      "m": 140,
+      "tim": 140,
       "w": 1,
       "f": 1,
-      "x": "Baja a fuego mínimo (solo alguna burbuja), tapa y deja que se haga entre 2 horas y media y 3 horas. A partir de las 2 horas pincha un trozo cada 15 minutos: está listo cuando la carne se separa sola del hueso. Si se queda corto de líquido, añade un chorrito de caldo o de agua caliente.",
+      "x": "Baja a fuego mínimo (solo alguna burbuja), tapa y deja que se haga unas 2 horas y 20 minutos. Si se queda corto de líquido, añade un chorrito de caldo o de agua caliente.",
       "ab": "Fuego mínimo porque el rabo tiene mucho colágeno: a hervor suave se vuelve tierno y gelatinoso; a hervor fuerte la carne se endurece. Menea la cazuela en vez de remover, para no romper la carne.",
       "e": {
        "k": "fuego",
@@ -1580,10 +1580,10 @@
       "alt": {
        "horno": {
         "t": "Al horno",
-        "m": 225,
-        "tim": 210,
+        "m": 170,
+        "tim": 170,
         "f": "h150",
-        "x": "Tapa la cazuela (si el pomo de la tapa es de plástico, usa doble papel de aluminio bien ajustado) y métela en el horno precalentado a 150 °C, calor arriba y abajo. Unas tres horas y media; míralo cada hora y añade caldo si baja mucho.",
+        "x": "Tapa la cazuela (si el pomo de la tapa es de plástico, usa doble papel de aluminio bien ajustado) y métela en el horno precalentado a 150 °C, calor arriba y abajo. Unas dos horas y 50 minutos; míralo cada hora y añade caldo si baja mucho.",
         "ab": "En el horno el calor llega por todos lados y no se pega en el fondo. Ojo al sacarlo: las asas queman.",
         "e": {
          "k": "horno",
@@ -1618,6 +1618,36 @@
         }
        }
       }
+     },
+     {
+      "t": "Echa la patata",
+      "m": 40,
+      "tim": 40,
+      "w": 1,
+      "f": 1,
+      "x": "Cuando falten unos 40 minutos, pela {patata} y cáscalas en trozos de unos 4 cm: clava el cuchillo y tuerce hasta que se parta. Échalas a la cazuela, hundidas en la salsa, tapa y sigue a fuego mínimo 35 o 40 minutos. Pincha un trozo de rabo: está listo cuando la carne se separa sola del hueso y la patata está tierna.",
+      "ab": "Cascar la patata en vez de cortarla deja el borde áspero, que suelta almidón y espesa la salsa. Entra ahora y no antes porque dos horas y media la deshacen.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "tapa": 1,
+       "vapor": 1,
+       "c": "#7A2329"
+      },
+      "alt": {
+       "horno": {
+        "x": "Cuando falten unos 40 minutos, saca la cazuela con cuidado, pela {patata} y cáscalas en trozos de unos 4 cm. Échalas hundidas en la salsa, tapa y devuélvela al horno 40 minutos. Pincha un trozo de rabo: está listo cuando la carne se separa sola del hueso y la patata está tierna.",
+        "m": 40,
+        "tim": 40
+       },
+       "olla": {
+        "t": "Echa la patata (olla exprés)",
+        "m": 20,
+        "tim": 8,
+        "x": "Abre la olla cuando haya bajado la presión. Pela {patata}, cáscalas en trozos de unos 4 cm y échalas hundidas en la salsa. Cierra y cuenta 8 minutos desde que suba la válvula; deja que baje la presión sola. Comprueba que el rabo se separa del hueso."
+       }
+      }
      }
     ]
    },
@@ -1629,7 +1659,7 @@
       "t": "Tritura la salsa",
       "m": 10,
       "f": 0,
-      "x": "Saca los trozos de rabo y las hojas de laurel. Tritura las verduras con el líquido hasta tener una salsa fina, y pásala por un colador si la quieres más sedosa. Si queda clara, redúcela 5 a 10 minutos a fuego vivo, sin tapa. Prueba de sal.",
+      "x": "Saca los trozos de rabo, la patata y las hojas de laurel. Tritura las verduras con el líquido hasta tener una salsa fina, y pásala por un colador si la quieres más sedosa. Si queda clara, redúcela 5 a 10 minutos a fuego vivo, sin tapa. Prueba de sal.",
       "ab": "Reducir concentra el sabor y espesa la salsa. Si queda demasiado espesa, aligérala con un poco de caldo.",
       "e": {
        "k": "fuego",
@@ -1644,8 +1674,8 @@
       "m": 5,
       "tim": 5,
       "f": 2,
-      "x": "Devuelve el rabo a la salsa y dale un hervor suave para que se caliente todo. Sirve la carne bien bañada en salsa.",
-      "ab": "Con {patata} fritas y pan para mojar.",
+      "x": "Devuelve el rabo y la patata a la salsa y dale un hervor suave para que se caliente todo. Sirve la carne bien bañada en salsa.",
+      "ab": "La patata ya va cocida en el guiso y espesa la salsa; con pan para mojar. Si prefieres patata frita de guarnición, fríela aparte al final.",
       "e": {
        "k": "plato",
        "v": "cazuela",
@@ -6857,12 +6887,30 @@
     "tipo": "espera",
     "p": [
      {
-      "t": "Agua, especias y a dormir",
+      "t": "Agua, hervor y espuma",
+      "solo": [
+       "lenta"
+      ],
+      "m": 20,
+      "tim": 15,
+      "f": 5,
+      "x": "Añade el resto del agua mineral hasta casi arriba (cubriendo los huesos al menos 2 dedos), pero deja sitio en la olla para la verdura de mañana (unos 4 litros en total). Pon la olla en HIGH, sin tapa, hasta que arranque a hervir. Saldrá espuma gris: quítala con una espumadera o un cucharón durante los primeros 10 o 15 minutos, hasta que deje de salir (espumar).",
+      "ab": "La espuma es proteína coagulada y las impurezas que sueltan los huesos: si se queda, enturbia el caldo y le da un sabor áspero. Quitarla ahora, mientras sube, es lo que lo deja limpio.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 5,
+       "c": "#DCCDA9",
+       "espuma": 1
+      }
+     },
+     {
+      "t": "Especias y a dormir",
       "m": 480,
       "tim": 480,
       "w": 1,
       "f": "l",
-      "x": "Añade el resto del agua mineral hasta casi arriba (cubriendo los huesos al menos 2 dedos), pero deja sitio en la olla para la verdura de mañana (unos 4 litros en total). Añade {curcuma}, {pimienta}, {jengibre}, en rodajas si es fresco, {romero}, {laurel} y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.",
+      "x": "Añade {curcuma}, {pimienta}, {jengibre}, en rodajas si es fresco, {romero}, {laurel} y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.",
       "ab": "La pimienta negra va con la cúrcuma por algo: activa la cúrcuma. Y la olla lenta marca la diferencia: a temperatura baja y muchas horas es cuando suelta toda su gelatina. La sal va al final porque el caldo se concentra y podría quedar salado.",
       "e": {
        "k": "fuego",
