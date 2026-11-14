@@ -592,7 +592,7 @@
       h += '<li class="parada' + (hecha ? ' hecha' : '') + '"><div class="parada-cab"><span class="parada-n">' + (hecha ? '✓' : k) + '</span><h3>' + esc(P.p.nombre) + '</h3><a class="donde-link" href="' + enlaceParada(P.p) + '" target="_blank" rel="noopener">Mapa</a></div>' +
         '<ul class="compra-lista">' + agrupaCompra(P.its).map(function (g) {
           var c = g.items[0], ids = g.idx.join(','), hecho = g.items.every(function (z) { return z.d; }), px = g.items.some(function (z) { return z.x; });
-          return '<li class="pit"><button type="button" class="compra-it" data-compra="' + ids + '" aria-pressed="' + hecho + '">' + esc(g.texto) + trazaGrupo(g) + (px ? '<span class="donde"><b>Plan B</b></span>' : '') + '</button>' + (hecho ? '' : '<button type="button" class="planb" data-planb="' + ids + '" aria-label="Plan B para ' + esc(g.texto) + '">' + (px ? 'Volver' : 'No lo tienen') + '</button>') + (hecho ? '' : notasGrupo(g)) + '</li>';
+          return '<li class="pit"><button type="button" class="compra-it" data-compra="' + ids + '" aria-pressed="' + hecho + '">' + esc(g.texto) + (px ? '<span class="donde"><b>Plan B</b></span>' : '') + '</button>' + (hecho ? '' : '<button type="button" class="planb" data-planb="' + ids + '" aria-label="Plan B para ' + esc(g.texto) + '">' + (px ? 'Volver' : 'No lo tienen') + '</button>') + (g.multi ? '<button type="button" class="desglose" data-desglose="1" aria-expanded="false">De qué recetas ▾</button><div class="desglose-box" hidden>' + trazaGrupo(g) + '</div>' : '') + (hecho ? '' : notasGrupo(g)) + '</li>';
         }).join('') + '</ul></li>';
     });
     h += '</ol>';
@@ -1076,7 +1076,7 @@
   /* ---------- Eventos ---------- */
   document.addEventListener('click', function (ev) {
     if (!$('#menu').hidden && !ev.target.closest('#menu,#menu-btn')) menuAbre(false);
-    var t = ev.target.closest('[data-ir],[data-menu],#mas-filtros,#quita-filtros,[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-cvista],[data-ruta],[data-cerrada],[data-usamk],[data-nocerradas],[data-cambia],[data-alt],[data-planb],[data-tpref],[data-casa],[data-vaciar],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
+    var t = ev.target.closest('[data-ir],[data-menu],#mas-filtros,#quita-filtros,[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-desglose],[data-cvista],[data-ruta],[data-cerrada],[data-usamk],[data-nocerradas],[data-cambia],[data-alt],[data-planb],[data-tpref],[data-casa],[data-vaciar],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
     if (!t) return;
     if (t.hasAttribute('data-ir')) { ir(t.getAttribute('data-ir')); return; }
     if (t.hasAttribute('data-menu')) { var ma = t.getAttribute('data-menu'); if (ma === 'abre') { menuAbre($('#menu').hidden); return; } menuAccion(ma); return; }
@@ -1108,6 +1108,7 @@
       if (compra[ci]) { var nv = !compra[ci].d, nts = cis.map(function (k) { return compra[k] ? normT(compra[k].t) : ''; }); compra.forEach(function (c, k) { if (cis.indexOf(k) > -1 || nts.indexOf(normT(c.t)) > -1) c.d = nv; }); store.set('compra', compra); rutaCalc = null; if (cvista === 'tienda') repintaCompra(); else $$('[data-compra]').forEach(function (b) { var cc = compra[+b.getAttribute('data-compra')]; if (cc) b.setAttribute('aria-pressed', !!cc.d); }); }
       return;
     }
+    if (t.hasAttribute('data-desglose')) { var bx = t.nextElementSibling, ab = bx.hidden; bx.hidden = !ab; t.setAttribute('aria-expanded', String(ab)); t.textContent = ab ? 'Ocultar recetas ▴' : 'De qué recetas ▾'; return; }
     if (t.hasAttribute('data-ruta')) { var bi = bolsasInfo(); if (bi) aviso('🛍️ ' + bi.txt); calculaRuta(); return; }
     if (t.hasAttribute('data-cambia')) { var ci2 = +t.getAttribute('data-cambia'); if (rutaCalc && rutaCalc.estado === 'lista') { rutaCalc.cambiando = rutaCalc.cambiando === ci2 ? -1 : ci2; repintaCompra(); pintaMapaRuta(); } return; }
     if (t.hasAttribute('data-cerrada')) { descartaParada(+t.getAttribute('data-cerrada')); return; }

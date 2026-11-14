@@ -661,3 +661,8 @@ details.plan[open] > summary { margin-bottom: 12px; }
 .compra-lista > li > .nota-t { margin-top: 4px; }
 
 .traza { display: block; margin: 3px 0 0; font-size: 12.5px; color: var(--tinta-suave, #6b5f55); font-weight: 500; }
+
+.desglose { flex-basis: 100%; text-align: left; font: inherit; font-size: 12.5px; font-weight: 700; color: var(--azul-osc); background: transparent; border: 0; padding: 4px 4px 2px 14px; min-height: 32px; cursor: pointer; touch-action: manipulation; }
+.desglose-box { flex-basis: 100%; padding: 0 14px 6px; }
+.desglose-box[hidden] { display: none; }
+.desglose-box .traza { margin: 0; }
