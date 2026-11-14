@@ -7986,6 +7986,7 @@
       "t": "Remojo",
       "m": 720,
       "x": "La noche antes: pon la soja en un bol grande, frota puñados entre las manos para partirla y cubre con unos 2,5 L de agua fría. Deja de 8 a 12 horas.",
+      "ab": "En Indonesia el remojo largo también sirve para que el agua se vuelva ligeramente ácida, que es lo que necesita la fermentación (Antara). Por eso un chorrito de vinagre en casa hace un papel parecido.",
       "f": 0
      },
      {
@@ -7998,7 +7999,7 @@
       "t": "Cuece",
       "m": 45,
       "x": "Hierve en agua sin sal de 25 a 45 minutos, hasta que esté tierna pero con mordida, no blanda. Retira la espuma que suba. Escurre bien.",
-      "ab": "Si la cuece demasiado, el tempeh queda pastoso. Mejor un punto firme.",
+      "ab": "Si la cueces demasiado, el tempeh queda pastoso. Mejor un punto firme.",
       "f": 0
      },
      {
@@ -8018,6 +8019,7 @@
       "t": "Inocula",
       "m": 5,
       "x": "En un bol seco, mezcla la soja con las 2 cucharadas de vinagre. Luego espolvorea ½ cucharadita de fermento por encima y mezcla a fondo 1 minuto para repartirlo bien.",
+      "ab": "Cuidado con pasarte: la receta tradicional usa muy poco fermento, del orden de 1 g por kilo de soja (Antara). Más fermento no da mejor tempeh.",
       "f": 0
      },
      {
@@ -8036,7 +8038,7 @@
       "t": "Fermenta",
       "m": 2160,
       "x": "Pon las bolsas separadas y elevadas sobre una rejilla, a 28-30 °C, para que corra el aire por debajo. A las 12 horas verás pelusa blanca y empezará a calentarse sola: a partir de aquí quita el calor externo, porque si pasa de 37 °C el hongo muere. Está listo a las 36-48 horas, cuando el bloque es sólido y blanco y todos los huecos están rellenos de micelio.",
-      "ab": "Con el horno solo con la luz, comprueba con un termómetro que no pase de 32 °C.",
+      "ab": "En Java lo envuelven en hoja de plátano o plástico agujereado y lo pinchan con un palito tras la primera noche, para que corra el aire (Antara).",
       "f": 0
      },
      {
@@ -8065,6 +8067,18 @@
    [
     "Sin sal al cocer",
     "La soja se cuece en agua sin sal."
+   ],
+   [
+    "Cómo se hace en Indonesia",
+    "En los talleres tradicionales el fermento es el «usar» o «laru», que se obtiene de hojas de teca o de waru y es una colonia de hongo ya lista para sembrar. Hoy se usa ragi de tempe (Kompas). Se envuelve en hoja de plátano o plástico con agujeros y se deja madurar en un sitio cálido, unas 24 horas en el obrador a unos 30 °C o dos noches en casa."
+   ],
+   [
+    "Limpieza ante todo",
+    "En Indonesia se dice que el tempeh no sale si el agua no está limpia y las manos no están limpias. Una familia contaba que se le estropeó la tanda por tocar la soja alguien que venía de la calle (Eksotika Desa)."
+   ],
+   [
+    "Fuentes de estas notas",
+    "Antara News, «Cara membuat tempe kedelai tradisional...», 1 jun 2025, antaranews.com/berita/4870645. Kompas.com, «Proses Pembuatan Tempe dari Nol sampai ke Meja Makanmu», 14 sep 2020, kompas.com/food/read/2020/09/14/133727575. Eksotika Desa, «Tempe Bungkus Daun Pisang», 19 nov 2022, eksotikadesa.id/tempe-bungkus-daun-pisang."
    ]
   ],
   "heroe": {
