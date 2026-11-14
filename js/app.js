@@ -184,7 +184,10 @@
     var pasos = pasosDe(r, met !== undefined ? met : metodo(r, e)), pre = 0, tot = 0, esp = 0, post = 0;
     pasos.forEach(function (p) { if (p.pre) pre += p.m; else if (p.post) post += p.m; else { tot += p.m; if (p.w) esp += p.m; } });
     var h = aMin(e.hora); if (h === null) h = ahora(true);
-    var ini = e.modo === 'fin' ? h - tot : h, t = ini - pre;
+    var ss = typeof SES !== 'undefined' && SES[r.id], ini, t;
+    if (ss) { var di = new Date(ss.ini); h = di.getHours() * 60 + di.getMinutes(); ini = h; }
+    else ini = e.modo === 'fin' ? h - tot : h;
+    t = ini - pre;
     pasos.forEach(function (p) { if (p.pre) { p.ini = t; t += p.m; } });
     t = ini;
     pasos.forEach(function (p) { if (!p.pre && !p.post) { p.ini = t; t += p.m; } });
@@ -1161,7 +1164,7 @@
     var dv = $('#d-vispera');
     dv.hidden = !pres.length;
     if (pres.length) dv.textContent = 'Y antes: ' + pres.map(function (p) { return p.t.toLowerCase() + ' (' + durTxt(p.m) + ')'; }).join(', ') + '.';
-    $('#resumen').innerHTML = e.modo === 'inicio'
+    $('#resumen').innerHTML = SES[r.id] ? 'Empezaste a las <b>' + hhmm(c.ini) + '</b>, ' + (r.listo ? 'está listo' : 'comes') + ' hacia las <b>' + hora(c.fin) + '</b>.' : e.modo === 'inicio'
       ? 'Si empiezas a las <b>' + hhmm(c.ini) + '</b>, ' + (r.listo ? 'está listo' : 'comes') + ' a las <b>' + hora(c.fin) + '</b>.'
       : (r.listo ? 'Para tenerlo listo' : 'Para comer') + ' a las <b>' + hhmm(c.fin) + '</b>, empieza a cocinar a las <b>' + hora(c.ini) + '</b>.';
     var rm = $('#resumen-mini'); if (rm) rm.textContent = $('#resumen').textContent;
@@ -1468,7 +1471,7 @@
     ah += '<p class="eti ses-et">Tus platos</p>';
     ids.forEach(function (id) {
       var s = SES[id], r = porId[id], ps = sesPasos(r, s), h = est(r).hechos, k = ps.filter(function (p) { return h.indexOf(p.key) > -1; }).length, lim = sesLimite(r, s), cad = new Date(s.toque + lim);
-      ah += '<div class="ses-plato ses-c' + sesColor(id) + '"><b>' + esc(r.n) + '</b><small>' + (s.pausa ? 'En pausa · ' : '') + k + ' de ' + ps.length + ' pasos · empezado a las ' + hhmm(new Date(s.ini).getHours() * 60 + new Date(s.ini).getMinutes()) + '<br>Se cierra sola a las ' + hhmm(cad.getHours() * 60 + cad.getMinutes()) + (cad.getDate() !== new Date().getDate() ? ' (mañana)' : '') + ' si no la tocas</small><div><button type="button" class="ses-p" data-ses="ver" data-id="' + id + '">Paso a paso</button><button type="button" class="ses-p" data-ses="' + (s.pausa ? 'reanuda' : 'pausa') + '" data-id="' + id + '">' + (s.pausa ? 'Reanudar' : 'Pausar') + '</button><button type="button" class="ses-p mal" data-ses="deja" data-id="' + id + '">Dejar de cocinarlo</button></div></div>';
+      ah += '<div class="ses-plato ses-c' + sesColor(id) + '"><b>' + esc(r.n) + '</b><small>' + (s.pausa ? 'En pausa · ' : '') + k + ' de ' + ps.length + ' pasos<br><label class="ses-emp">Empecé a las <input type="time" class="ses-hora" data-id="' + id + '" value="' + hhmm(new Date(s.ini).getHours() * 60 + new Date(s.ini).getMinutes()) + '"></label><br>Se cierra sola a las ' + hhmm(cad.getHours() * 60 + cad.getMinutes()) + (cad.getDate() !== new Date().getDate() ? ' (mañana)' : '') + ' si no la tocas</small><div><button type="button" class="ses-p" data-ses="ver" data-id="' + id + '">Paso a paso</button><button type="button" class="ses-p" data-ses="' + (s.pausa ? 'reanuda' : 'pausa') + '" data-id="' + id + '">' + (s.pausa ? 'Reanudar' : 'Pausar') + '</button><button type="button" class="ses-p mal" data-ses="deja" data-id="' + id + '">Dejar de cocinarlo</button></div></div>';
     });
     if (!ids.length) ah += '<p class="vacio">No estás cocinando nada ahora mismo.</p>';
     var el = $('#ses-ahora');
@@ -1521,6 +1524,13 @@
     else if (a === 'sella' && r) { if (!cocinados[id]) sella(r, true); sesCierra(id); refrescaBtnSes(); if (!sesIds(true).length) cierraAhora(); else pintaAhora(true); }
     else if (a === 'ver' && r) { cierraAhora(); sesToca(id); if (actual !== r) { ir(r.id); setTimeout(function () { abreCocina(r); }, 80); } else abreCocina(r); }
   });
+  document.addEventListener('change', function (ev) {
+    var t = ev.target; if (!t.classList || !t.classList.contains('ses-hora')) return;
+    var s = SES[t.getAttribute('data-id')], m = aMin(t.value); if (!s || m === null) return;
+    var d = new Date(); d.setHours(Math.floor(m / 60), m % 60, 0, 0);
+    if (d.getTime() > Date.now()) d = new Date(Date.now() - 60000);
+    s.ini = d.getTime(); s.desde = Math.min(s.desde, s.ini); guardaSes(); pintaAhora(true); if (actual) pintaPlan();
+  });
   function sella(r, forzar) {
     if (cocinados[r.id] && !forzar) delete cocinados[r.id];
     else cocinados[r.id] = Date.now();
@@ -1552,6 +1562,7 @@
     if (a === 'cierra-pas') { pasaporteAbierto = false; var sp = $('#sec-pasaporte'); if (sp) sp.hidden = true; return; }
     var vaA = function () {
       if (a === 'pasaporte') { pasaporteAbierto = true; var sp2 = $('#sec-pasaporte'); if (sp2) sp2.hidden = false; }
+      if (a === 'recetas' && filtro.fav) { filtro.fav = false; var bf0 = $('#ver-favs'); if (bf0) bf0.setAttribute('aria-pressed', 'false'); pintaFichas(); }
       if (a === 'favs') { filtro.fav = true; var bf = $('#ver-favs'); if (bf) bf.setAttribute('aria-pressed', 'true'); pintaFichas(); }
       var dest = { recetas: '#sec-fichas', favs: '#sec-fichas', mapa: '#sec-mapa', compra: '#t-compra', precios: '#t-precios', plan: '#t-plan', pasaporte: '#sec-pasaporte' }[a];
       var el = dest && $(dest); if (el) el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
