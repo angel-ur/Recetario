@@ -1679,6 +1679,112 @@
   ]
  },
  {
+  "id": "chuletillas",
+  "n": "Chuletillas al sarmiento",
+  "sub": "cordero lechal a la brasa de sarmientos, con sal y nada más",
+  "reg": "rio",
+  "regs": [
+   "rio"
+  ],
+  "lugar": "La Rioja",
+  "cat": "carne",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   4
+  ],
+  "intro": "Plato de las bodegas de La Rioja: chuletillas de cordero lechal asadas sobre brasas de sarmientos de la vid, con sal gorda.",
+  "ing": [
+   [
+    "i0",
+    "16 chuletillas de cordero lechal",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i1",
+    "sarmientos secos (o leña de vid)",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i2",
+    "sal gorda",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i3",
+    "pimientos asados o patatas, para acompañar",
+    null,
+    null,
+    1,
+    "plano"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "La brasa",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Enciende",
+      "m": 20,
+      "x": "Prende los sarmientos en la parrilla y deja que se hagan brasa.",
+      "ab": "Sin llama: solo brasa roja, o la carne se quema por fuera y queda cruda por dentro.",
+      "f": 0
+     }
+    ]
+   },
+   {
+    "n": "Las chuletillas",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Sala",
+      "m": 2,
+      "x": "Sala las chuletillas justo antes de ponerlas.",
+      "f": 0
+     },
+     {
+      "t": "Asa",
+      "m": 6,
+      "x": "Colócalas sobre la parrilla y dales la vuelta cuando estén doradas.",
+      "ab": "Poco tiempo: 2 a 3 minutos por lado.",
+      "f": 0
+     },
+     {
+      "t": "Sirve",
+      "m": 2,
+      "x": "Sírvelas enseguida, calientes, con pimientos o patatas.",
+      "ab": "Se comen con la mano, sin cubiertos.",
+      "f": 0
+     }
+    ]
+   }
+  ],
+  "secretos": [
+   [
+    "Sarmientos",
+    "dan un aroma que no da el carbón."
+   ],
+   [
+    "Lechal",
+    "la carne joven pide poco fuego."
+   ],
+   [
+    "Sin nada",
+    "sal gorda, y ya está."
+   ]
+  ]
+ },
+ {
   "id": "cocido",
   "n": "Cocido madrileño",
   "sub": "en tres vuelcos: sopa, garbanzos y carnes",
@@ -2125,6 +2231,135 @@
      }
     ]
    }
+  ]
+ },
+ {
+  "id": "cocidomontanes",
+  "n": "Cocido montañés",
+  "sub": "alubias blancas, berza y compango, para los días de frío",
+  "reg": "can",
+  "regs": [
+   "can"
+  ],
+  "lugar": "Cantabria",
+  "cat": "cuchara",
+  "dif": 2,
+  "b": 6,
+  "rac": [
+   6
+  ],
+  "intro": "El plato de los inviernos cántabros: alubias blancas con berza y el compango (chorizo, morcilla, tocino y costilla) que les da su sabor.",
+  "ing": [
+   [
+    "i0",
+    "400 g de alubias blancas, a remojo la noche anterior",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i1",
+    "1 berza (repollo) mediana",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i2",
+    "1 chorizo y 1 morcilla",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i3",
+    "150 g de tocino y 250 g de costilla de cerdo",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i4",
+    "3 patatas",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i5",
+    "1 cebolla, 3 dientes de ajo",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i6",
+    "aceite, sal y pimentón",
+    null,
+    null,
+    1,
+    "plano"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Las alubias",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Pon a cocer",
+      "m": 90,
+      "x": "Cubre las alubias con agua fría con la carne y la cebolla. Cuece a fuego muy suave, \"asustándolas\" con agua fría cuando hierva.",
+      "ab": "Asustar es echar un chorrito de agua fría: así la piel no se rompe.",
+      "f": 0
+     }
+    ]
+   },
+   {
+    "n": "La berza y el compango",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Cuece la berza",
+      "m": 25,
+      "x": "Aparte, cuece la berza troceada con sal. Escurre.",
+      "f": 0
+     },
+     {
+      "t": "Sofrito",
+      "m": 10,
+      "x": "Sofríe ajo en aceite, aparta del fuego y añade el pimentón. Sirve sobre la berza.",
+      "ab": "La berza se rehoga al final, con ajo y pimentón.",
+      "f": 0
+     },
+     {
+      "t": "Patatas y chorizo",
+      "m": 30,
+      "x": "Añade las patatas, el chorizo y la morcilla a las alubias y cuece hasta que todo esté tierno.",
+      "f": 0
+     }
+    ]
+   }
+  ],
+  "secretos": [
+   [
+    "Remojo",
+    "la noche anterior, sin falta."
+   ],
+   [
+    "Sin prisa",
+    "a fuego suave, que sea cocido y no sopa."
+   ],
+   [
+    "Al día siguiente",
+    "recalentado, mejor."
+   ]
   ]
  },
  {
@@ -3060,6 +3295,126 @@
      }
     ]
    }
+  ]
+ },
+ {
+  "id": "gachas",
+  "n": "Gachas manchegas",
+  "sub": "harina de almortas con ajo, pimentón y torreznos",
+  "reg": "clm",
+  "regs": [
+   "clm"
+  ],
+  "lugar": "Castilla-La Mancha",
+  "cat": "cuchara",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   4
+  ],
+  "intro": "Plato de pastores y de invierno: una crema espesa de harina de almortas con ajo y pimentón, rematada con torreznos crujientes.",
+  "ing": [
+   [
+    "i0",
+    "200 g de harina de almortas",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i1",
+    "1 l de agua",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i2",
+    "4 dientes de ajo",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i3",
+    "1 cucharadita de pimentón dulce",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i4",
+    "150 g de torreznos o panceta",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i5",
+    "aceite y sal",
+    null,
+    null,
+    1,
+    "plano"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "La crema",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Fríe el ajo",
+      "m": 5,
+      "x": "En una sartén con aceite, fríe los ajos laminados sin que se quemen y retíralos.",
+      "f": 0
+     },
+     {
+      "t": "Harina y agua",
+      "m": 5,
+      "x": "Añade la harina y tuéstala un minuto. Fuera del fuego, añade el pimentón y moja con el agua fría, removiendo.",
+      "ab": "Agua fría y removiendo sin parar, para que no salgan grumos.",
+      "f": 0
+     },
+     {
+      "t": "Cuece",
+      "m": 25,
+      "x": "A fuego suave, sin dejar de remover, hasta que espese. Sala.",
+      "f": 0
+     }
+    ]
+   },
+   {
+    "n": "Los torreznos",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Frítelos",
+      "m": 10,
+      "x": "Fríe los torreznos hasta que estén crujientes. Sirve las gachas con los torreznos y el ajo por encima.",
+      "f": 0
+     }
+    ]
+   }
+  ],
+  "secretos": [
+   [
+    "Cuchara de palo",
+    "remover siempre en el mismo sentido."
+   ],
+   [
+    "Espesor",
+    "al enfriar espesa más, deja las gachas algo sueltas."
+   ],
+   [
+    "El torrezno",
+    "crujiente, para contrastar."
+   ]
   ]
  },
  {
@@ -6540,6 +6895,135 @@
   ]
  },
  {
+  "id": "ropavieja",
+  "n": "Ropa vieja canaria",
+  "sub": "garbanzos, carne deshilachada y patata en un guiso aliñado",
+  "reg": "cnr",
+  "regs": [
+   "cnr"
+  ],
+  "lugar": "Canarias",
+  "cat": "cuchara",
+  "dif": 1,
+  "b": 4,
+  "rac": [
+   4
+  ],
+  "intro": "Plato de aprovechamiento: lo que sobró del puchero (carne, garbanzos, patata) se deshilacha y se aliña con sofrito. De ahí lo de \"ropa vieja\".",
+  "ing": [
+   [
+    "i0",
+    "400 g de garbanzos cocidos",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i1",
+    "300 g de carne de puchero o pollo cocido, deshilachada",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i2",
+    "2 patatas cocidas",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i3",
+    "1 cebolla, 1 pimiento, 2 tomates",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i4",
+    "3 dientes de ajo",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i5",
+    "1 cucharadita de pimentón dulce",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i6",
+    "aceite, sal, un chorrito de vinagre",
+    null,
+    null,
+    1,
+    "plano"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "El sofrito",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Pocha",
+      "m": 15,
+      "x": "Sofríe cebolla, pimiento y ajo picados a fuego suave. Añade el tomate rallado.",
+      "f": 0
+     },
+     {
+      "t": "Pimentón",
+      "m": 2,
+      "x": "Fuera del fuego, añade el pimentón y un chorrito de vinagre.",
+      "ab": "El vinagre da el punto canario que despierta el plato.",
+      "f": 0
+     }
+    ]
+   },
+   {
+    "n": "El guiso",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Mezcla",
+      "m": 10,
+      "x": "Añade garbanzos, carne y patata cortada, y rehoga todo a fuego suave.",
+      "f": 0
+     },
+     {
+      "t": "Reposo",
+      "m": 5,
+      "x": "Deja reposar tapado antes de servir.",
+      "ab": "Templada está mejor que hirviendo.",
+      "f": 0
+     }
+    ]
+   }
+  ],
+  "secretos": [
+   [
+    "Aprovechar",
+    "es mejor con carne de un cocido del día anterior."
+   ],
+   [
+    "Vinagre",
+    "poco, que se note sin dominar."
+   ],
+   [
+    "Con mojo",
+    "algunos lo acompañan con mojo picón."
+   ]
+  ]
+ },
+ {
   "id": "sobaos",
   "n": "Sobaos pasiegos",
   "sub": "de mantequilla, tiernos y esponjosos",
@@ -7023,6 +7507,143 @@
      }
     ]
    }
+  ]
+ },
+ {
+  "id": "sopasmallorquinas",
+  "n": "Sopas mallorquinas",
+  "sub": "pan moreno, verdura de temporada y mucho pimentón",
+  "reg": "bal",
+  "regs": [
+   "bal"
+  ],
+  "lugar": "Illes Balears",
+  "cat": "cuchara",
+  "dif": 1,
+  "b": 4,
+  "rac": [
+   4
+  ],
+  "intro": "Más un guiso que una sopa: rebanadas finas de pan seco que beben el caldo de la verdura hasta quedar melosas. Se hacían con lo que había en el huerto.",
+  "ing": [
+   [
+    "i0",
+    "250 g de pan moreno seco en rebanadas finas",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i1",
+    "1 cebolla",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i2",
+    "1 pimiento verde",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i3",
+    "2 tomates maduros",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i4",
+    "1/4 de col o coliflor",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i5",
+    "3 dientes de ajo",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i6",
+    "1 cucharadita de pimentón dulce",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i7",
+    "aceite de oliva, sal y 1 l de agua",
+    null,
+    null,
+    1,
+    "plano"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "El sofrito",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Pocha",
+      "m": 15,
+      "x": "En una cazuela de barro con aceite, pocha la cebolla, el pimiento y el ajo picados, a fuego suave.",
+      "f": 0
+     },
+     {
+      "t": "Tomate y pimentón",
+      "m": 5,
+      "x": "Añade el tomate rallado y, fuera del fuego, el pimentón.",
+      "ab": "El pimentón, siempre fuera del fuego: se quema y amarga.",
+      "f": 0
+     }
+    ]
+   },
+   {
+    "n": "Las sopas",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Verdura y agua",
+      "m": 15,
+      "x": "Añade la col troceada, el agua y la sal. Cuece hasta que la verdura esté tierna.",
+      "f": 0
+     },
+     {
+      "t": "El pan",
+      "m": 15,
+      "x": "Pon el pan en capas finas y deja que beba el caldo a fuego suave, sin remover. Debe quedar melosa, con poco caldo.",
+      "ab": "Con cuchara de madera, apretando suavemente el pan: que no se deshaga del todo.",
+      "f": 0
+     }
+    ]
+   }
+  ],
+  "secretos": [
+   [
+    "Pan duro",
+    "el pan tierno se deshace."
+   ],
+   [
+    "De un día para otro",
+    "al día siguiente espesa y está mejor."
+   ],
+   [
+    "Poco caldo",
+    "son sopas, pero casi se comen con tenedor."
+   ]
   ]
  },
  {

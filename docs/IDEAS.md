@@ -8,7 +8,7 @@ Referencias revisadas (patrones, no copia):
 Ya tenemos: raciones que recalculan, pasos ilustrados, temporizadores, modo cocina, planificador, mapa por comunidades, pasaporte con sellos, reinicio.
 
 ## P1 (siguiente)
-1. Recetas nuevas: 2+ platos por comunidad. [14 nov: añadidas empanada gallega, callos, lechazo, caldereta; ronda 3: pil-pil, arroz al horno, ternasco, caldero murciano; siguen con 1 plato: bal, can, clm, cnr, rio] Gestos de abuela, no relleno.
+1. Recetas nuevas: 2+ platos por comunidad. [14 nov: añadidas empanada gallega, callos, lechazo, caldereta; ronda 3: pil-pil, arroz al horno, ternasco, caldero murciano; ronda 4: sopas mallorquinas, cocido montañés, gachas, ropa vieja, chuletillas. Las 17 comunidades tienen 2+] Gestos de abuela, no relleno.
 2. [HECHO 14 nov] Plato del dia: una receta destacada por fecha (determinista, sin servidor) en la cabecera.
 3. Lista de la compra desde una o varias recetas (ingredientes agregados, tachables, guardada en local).
 4. Favoritos ("mi recetario"): corazon + filtro.
