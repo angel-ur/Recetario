@@ -172,8 +172,13 @@
     ['panaderia', /pan\b|picatoste|harina|az[uú]car|levadura|sobao|galleta|masa/, 'Súper', 'Panadería']
   ];
   var MAPAQ = { embutido: 'charcutería', carne: 'carnicería', pescado: 'pescadería', legumbre: 'tienda de legumbres a granel', arroz: 'tienda gourmet', especia: 'herbolario especias', aceite: 'bodega aceite', huevo: 'mercado huevos', verdura: 'mercado verdulería', despensa: 'tienda gourmet', panaderia: 'panadería' };
-  /* Por tu barrio (zona). Solo sitios con fuente: web del Mercat local, Ajuntament/Barcelona + Sostenible, guias locales. */
-  var BARRIO = {
+  /* Por tu barrio: listas curadas por zona. Para anadir una zona: un objeto en ZONAS con su caja (lat/lon) y sus sitios verificados. */
+  var ZONAS = [
+    {
+      id: 'zona', nombre: 'la zona', caja: [0, 0, 0, 0],
+      nota: 'Mercat local: lunes a jueves 8-14 h, viernes 8-19:30 h, sábados 8-14:30 h. Comprueba horarios antes de ir.',
+      fuentes: 'fuentes locales',
+      lugares: {
 
 
 
@@ -181,18 +186,64 @@
 
 
 
-  };
-  BARRIO.legumbre = BARRIO.especia; BARRIO.arroz = []; BARRIO.aceite = []; BARRIO.despensa = [];
-  function barrioHTML(cats) {
+      }
+    }
+  ];
+  ZONAS[0].lugares.legumbre = ZONAS[0].lugares.especia;
+  var zona = store.get('zona', null); // { id: 'zona' | null, nombre: 'texto' }, sin coordenadas
+  var geoEstado = ''; // '', 'buscando', 'denegada', 'error'
+  function zonaCurada() { return zona && zona.id ? ZONAS.filter(function (z) { return z.id === zona.id; })[0] || null : null; }
+  function barrioInner(cats) {
+    var z = zonaCurada();
+    if (!z) {
+      var msg = geoEstado === 'buscando' ? 'Buscando dónde estás…' : geoEstado === 'denegada' ? 'Sin tu ubicación no puedo saber tu barrio. Los enlaces «mejor» de cada ingrediente abren Google Maps cerca de ti igualmente.' : geoEstado === 'error' ? 'No he podido saber tu zona ahora. Los enlaces «mejor» de cada ingrediente abren Google Maps cerca de ti.' : 'Si me dejas usar tu ubicación, te enseño tiendas de tu barrio cuando tengamos una lista verificada para tu zona.';
+      return '<p class="ayuda">' + msg + '</p>' + (geoEstado === 'buscando' ? '' : '<button type="button" class="btn sec" data-geo="1">Usar mi ubicación</button>');
+    }
     var vistos = {}, h = '';
     cats.forEach(function (c) {
-      var l = BARRIO[c]; if (!l || !l.length || vistos[c]) return; vistos[c] = 1;
+      var l = z.lugares[c]; if (!l || !l.length || vistos[c]) return; vistos[c] = 1;
       h += '<p class="eti">' + esc(DONDE.filter(function (d) { return d[0] === c; })[0][3]) + '</p><ul class="barrio-lista">' + l.map(function (p) {
-        return '<li><a href="https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(p[0] + ' Barcelona') + '" target="_blank" rel="noopener"><b>' + esc(p[0]) + '</b><span>' + esc(p[1]) + '</span></a></li>';
+        return '<li><a href="https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(p[0] + ' ' + z.nombre) + '" target="_blank" rel="noopener"><b>' + esc(p[0]) + '</b><span>' + esc(p[1]) + '</span></a></li>';
       }).join('') + '</ul>';
     });
-    if (!h) return '';
-    return '<details class="barrio"><summary>Por tu barrio (zona)</summary>' + h + '<p class="ayuda">Mercat local: lunes a jueves 8-14 h, viernes 8-19:30 h, sábados 8-14:30 h. Comprueba horarios antes de ir.</p></details>';
+    return (h || '<p class="ayuda">Para esto usa el enlace «mejor» de cada ingrediente (Google Maps).</p>') + '<p class="ayuda">' + esc(z.nota) + '</p><button type="button" class="reiniciar" data-geo="1">Actualizar mi ubicación</button>';
+  }
+  var MOSTRAR_BARRIO = false; // apagado hasta verificar la version por geolocalizacion
+  function barrioHTML(cats) {
+    if (!MOSTRAR_BARRIO) return '';
+    var uniq = cats.filter(function (c, n) { return cats.indexOf(c) === n; });
+    if (!uniq.length) return '';
+    if (zona && !zonaCurada()) return ''; // zona conocida sin lista verificada: solo enlaces a Maps
+    var z = zonaCurada();
+    return '<details class="barrio" data-cats="' + uniq.join(',') + '"><summary>' + (z ? 'Por tu barrio (' + esc(z.nombre) + ')' : 'Tiendas cerca de ti') + '</summary><div class="barrio-cuerpo">' + barrioInner(uniq) + '</div></details>';
+  }
+  function barrioRepinta() {
+    $$('.barrio').forEach(function (d) {
+      var z = zonaCurada();
+      if (zona && !z) { d.remove(); return; }
+      d.querySelector('summary').textContent = z ? 'Por tu barrio (' + z.nombre + ')' : 'Tiendas cerca de ti';
+      d.querySelector('.barrio-cuerpo').innerHTML = barrioInner(d.getAttribute('data-cats').split(','));
+    });
+  }
+  function nombreZona(lat, lon) {
+    return fetch('https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=14&accept-language=es&lat=' + lat + '&lon=' + lon)
+      .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
+      .then(function (j) { var a = (j && j.address) || {}; return a.suburb || a.neighbourhood || a.city_district || a.quarter || a.town || a.village || a.city || ''; })
+      .catch(function () { return ''; });
+  }
+  function ubica() {
+    if (!navigator.geolocation) { geoEstado = 'error'; barrioRepinta(); return; }
+    geoEstado = 'buscando'; barrioRepinta();
+    navigator.geolocation.getCurrentPosition(function (pos) {
+      var la = pos.coords.latitude, lo = pos.coords.longitude;
+      var z = ZONAS.filter(function (q) { return la >= q.caja[0] && lo >= q.caja[1] && la <= q.caja[2] && lo <= q.caja[3]; })[0] || null;
+      nombreZona(la, lo).then(function (n) {
+        zona = { id: z ? z.id : null, nombre: z ? z.nombre : (n || 'tu zona') };
+        store.set('zona', zona); geoEstado = '';
+        barrioRepinta();
+        if (!z) aviso('Aún no tengo una lista verificada para ' + zona.nombre + '. Usa los enlaces «mejor» para buscar cerca de ti.');
+      });
+    }, function (err) { geoEstado = err && err.code === 1 ? 'denegada' : 'error'; barrioRepinta(); }, { timeout: 10000, maximumAge: 600000 });
   }
   function dondeCat(t) {
     var n = String(t).toLowerCase();
@@ -619,7 +670,7 @@
 
   /* ---------- Eventos ---------- */
   document.addEventListener('click', function (ev) {
-    var t = ev.target.closest('[data-ir],[data-reg],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-reset],[data-comprar],[data-compra],[data-vaciar],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
+    var t = ev.target.closest('[data-ir],[data-reg],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-vaciar],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
     if (!t) return;
     if (t.hasAttribute('data-ir')) { ir(t.getAttribute('data-ir')); return; }
     if (t.hasAttribute('data-reg')) { var g = t.getAttribute('data-reg'); regionSel = regionSel === g ? null : g; verEspana = false; refrescaMapa(); return; }
@@ -643,6 +694,7 @@
     }
     if (t.hasAttribute('data-compra')) { var ci = +t.getAttribute('data-compra'); if (compra[ci]) { compra[ci].d = !compra[ci].d; store.set('compra', compra); t.setAttribute('aria-pressed', !!compra[ci].d); } return; }
     if (t.hasAttribute('data-vaciar')) { if (window.confirm('¿Vaciar la lista de la compra?')) { compra = []; store.set('compra', compra); vistaIndice(); } return; }
+    if (t.hasAttribute('data-geo')) { ubica(); return; }
     if (t.hasAttribute('data-reset')) { if (window.confirm('¿Borrar todos los sellos del pasaporte?')) { cocinados = {}; store.set('cocinados', cocinados); vistaIndice(); } return; }
     if (t.hasAttribute('data-cocina')) { abreCocina(actual); return; }
     if (t.hasAttribute('data-cocinado')) { sella(actual); return; }
