@@ -23,7 +23,7 @@ Ya tenemos: raciones que recalculan, pasos ilustrados, temporizadores, modo coci
 6. [HECHO 15 nov] Racha de semanas cocinando (no diaria: sin presion), mostrada con calma: solo se muestra a partir de 2 semanas y la semana en curso no rompe la racha.
 7. Modo cocina: auto-avance cuando acaba el timer, pantalla siempre encendida (ya hay), paso por voz.
 8. Compartir receta como imagen bonita (canvas, azulejo + titulo).
-9. Notas propias por receta ("a mi abuela le ponia mas ajo").
+9. [HECHO 15 nov] Notas propias por receta ("a mi abuela le ponia mas ajo"): tarjeta «Mis notas» en la ficha, localStorage recetario:v2:notas, sin servidor.
 
 ## P3
 10. Ilustraciones mas ricas por plato. [14 nov: las 13 recetas nuevas ya tienen ilustracion de portada (data/heroes_extra.json); faltan ilustraciones por paso]

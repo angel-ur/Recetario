@@ -44,6 +44,7 @@
   /* ---------- Estado ---------- */
   var cocinados = store.get('cocinados', {}) || {};
   var favs = store.get('favs', {}) || {};
+  var notas = store.get('notas', {}) || {};
   var compra = store.get('compra', []) || [];
   var filtro = { cat: 'todas', t: 'todos', q: '', fav: false };
   var regionSel = null, verEspana = false, vistaMapa = 'es', pasaporteAbierto = false;
@@ -1169,6 +1170,9 @@
     if (tt.length) h += '<section class="tarjeta tecnicas" aria-labelledby="t-tec"><h2 id="t-tec">Técnicas de esta receta</h2><ul class="tec-lista">' + tt.map(function (id) { var g = GLOSA.filter(function (x) { return x.id === id; })[0]; return '<li><button type="button" class="term term-lista" data-term="' + id + '">' + esc(g.t) + '</button></li>'; }).join('') + '</ul></section>';
     // Secretos y cierre
     h += '<section class="tarjeta secretos" aria-labelledby="t-sec"><h2 id="t-sec">Los secretos de la abuela</h2><dl>' + r.secretos.map(function (s) { return '<dt>' + esc(s[0]) + '</dt><dd>' + esc(s[1]) + '</dd>'; }).join('') + '</dl></section>';
+    h += '<section class="tarjeta notas" aria-labelledby="t-notas"><h2 id="t-notas">Mis notas</h2><p class="ayuda">Tus apuntes de esta receta. Solo se guardan en este móvil.</p>' +
+      '<label class="sr-only" for="nota-txt">Nota propia de ' + esc(r.n) + '</label><textarea id="nota-txt" rows="3" maxlength="600" placeholder="A mi abuela le ponía más ajo…">' + esc(notas[r.id] || '') + '</textarea>' +
+      '<div class="notas-pie"><button type="button" class="btn sec" data-nota="guarda">Guardar nota</button>' + (notas[r.id] ? '<button type="button" class="quita" data-nota="borra">Quitar la nota</button>' : '') + '</div></section>';
     var otras = R.filter(function (o) { return o !== r && (o.cat === r.cat || o.regs.some(function (g) { return r.regs.indexOf(g) > -1; })); }).slice(0, 3);
     h += '<section class="final"><button type="button" class="btn hecho-r" data-cocinado="1" aria-pressed="' + (!!cocinados[r.id]) + '">' + (cocinados[r.id] ? 'Sellado en el pasaporte' : '¡Lo he cocinado! Sellar el pasaporte') + '</button></section>';
     if (otras.length) h += '<section class="otras" aria-labelledby="t-otras"><h2 id="t-otras" style="font-size:24px">Para la próxima</h2><ul class="filas">' + otras.map(fila).join('') + '</ul></section>';
@@ -1578,6 +1582,28 @@
     }
     $$('[data-cocinado]').forEach(function (b) { b.setAttribute('aria-pressed', cocinados[r.id] ? 'true' : 'false'); b.textContent = cocinados[r.id] ? 'Sellado en el pasaporte' : '¡Lo he cocinado!'; });
   }
+
+  /* ---------- Notas propias por receta (locales) ---------- */
+  function pintaNotaPie(id) {
+    var pie = $('.notas-pie'); if (!pie) return;
+    var q = pie.querySelector('[data-nota="borra"]');
+    if (notas[id] && !q) pie.insertAdjacentHTML('beforeend', '<button type="button" class="quita" data-nota="borra">Quitar la nota</button>');
+    if (!notas[id] && q) q.remove();
+  }
+  document.addEventListener('click', function (ev) {
+    var t = ev.target.closest('[data-nota]'); if (!t) return;
+    if (!actual) return;
+    var id = actual.id, tx = $('#nota-txt'); if (!tx) return;
+    if (t.getAttribute('data-nota') === 'guarda') {
+      var v = tx.value.trim();
+      if (v) notas[id] = v; else delete notas[id];
+      store.set('notas', notas);
+      aviso(v ? 'Nota guardada' : 'Nota quitada');
+    } else {
+      tx.value = ''; delete notas[id]; store.set('notas', notas); aviso('Nota quitada');
+    }
+    pintaNotaPie(id);
+  });
 
   /* ---------- Rutas ---------- */
   function ruta() {

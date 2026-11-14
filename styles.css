@@ -789,3 +789,19 @@ details.plan[open] > summary { margin-bottom: 12px; }
 /* ingredientes: el nombre se parte dentro de su hueco y la cantidad queda a la derecha en la misma fila */
 .ing-lista .nom { flex: 1 1 0; min-width: 0; }
 .ing-lista .cant { flex: none; max-width: 45%; margin-left: 0; }
+
+/* ---- notas propias ---- */
+.notas textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  font: inherit; font-size: 16px;
+  color: var(--tinta);
+  background: var(--papel, #FBF7EC);
+  border: 2px solid var(--linea);
+  border-radius: 14px;
+  resize: vertical;
+  touch-action: manipulation;
+}
+.notas textarea:focus { outline: 2px solid var(--anil); border-color: var(--anil); }
+.notas-pie { display: flex; gap: 10px; justify-content: center; margin-top: 10px; flex-wrap: wrap; }
