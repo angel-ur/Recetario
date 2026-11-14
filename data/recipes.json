@@ -4335,7 +4335,7 @@
      {
       "t": "Fríe el ajo",
       "m": 5,
-      "x": "En una sartén con aceite, fríe los ajos laminados sin que se quemen y retíralos.",
+      "x": "En una sartén con 4 cucharadas de aceite, fríe los 4 ajos laminados sin que se quemen y retíralos.",
       "f": 2,
       "e": {
        "k": "fuego",
@@ -4355,7 +4355,7 @@
      {
       "t": "Harina y agua",
       "m": 5,
-      "x": "Añade la harina y tuéstala un minuto. Fuera del fuego, añade el pimentón y moja con el agua fría, removiendo.",
+      "x": "Añade los 200 g de harina y tuéstala 1 minuto, removiendo. Fuera del fuego, añade 1 cucharadita de pimentón y moja poco a poco con 1 litro de agua fría, removiendo con varillas.",
       "ab": "Agua fría y removiendo sin parar, para que no salgan grumos.",
       "f": 3,
       "e": {
@@ -4376,7 +4376,7 @@
      {
       "t": "Cuece",
       "m": 25,
-      "x": "A fuego suave, sin dejar de remover, hasta que espese. Sala.",
+      "x": "A fuego suave, sin dejar de remover, 20-25 minutos hasta que espese como una crema. Sala con 1 cucharadita rasa de sal.",
       "f": 2,
       "e": {
        "k": "fuego",
@@ -4397,7 +4397,7 @@
      {
       "t": "Frítelos",
       "m": 10,
-      "x": "Fríe los torreznos hasta que estén crujientes. Sirve las gachas con los torreznos y el ajo por encima.",
+      "x": "Fríe los 150 g de torreznos en su propia grasa hasta que estén crujientes. Sirve las gachas con los torreznos y el ajo por encima.",
       "f": 5,
       "e": {
        "k": "fuego",
@@ -8380,7 +8380,7 @@
      {
       "t": "Pocha",
       "m": 15,
-      "x": "Sofríe cebolla, pimiento y ajo picados a fuego suave. Añade el tomate rallado.",
+      "x": "Sofríe 1 cebolla, 1 pimiento y 3 ajos picados en 4 cucharadas de aceite a fuego suave 10 minutos. Añade los 2 tomates rallados y cocina 5 minutos más.",
       "f": 2,
       "e": {
        "k": "fuego",
@@ -8413,7 +8413,7 @@
      {
       "t": "Pimentón",
       "m": 2,
-      "x": "Fuera del fuego, añade el pimentón y un chorrito de vinagre.",
+      "x": "Fuera del fuego, añade 1 cucharadita de pimentón y 1 cucharada de vinagre.",
       "ab": "El vinagre da el punto canario que despierta el plato.",
       "f": 0,
       "e": {
@@ -8435,7 +8435,7 @@
      {
       "t": "Mezcla",
       "m": 10,
-      "x": "Añade garbanzos, carne y patata cortada, y rehoga todo a fuego suave.",
+      "x": "Añade 400 g de garbanzos escurridos, 300 g de carne deshilachada y las 2 patatas cortadas en dados, y rehoga todo a fuego suave.",
       "f": 2,
       "e": {
        "k": "fuego",
@@ -9144,7 +9144,7 @@
      {
       "t": "Pocha",
       "m": 15,
-      "x": "En una cazuela de barro con aceite, pocha la cebolla, el pimiento y el ajo picados, a fuego suave.",
+      "x": "En una cazuela de barro con 5 cucharadas de aceite, pocha la cebolla, el pimiento y el ajo picados, a fuego suave.",
       "f": 2,
       "e": {
        "k": "fuego",
@@ -9173,7 +9173,7 @@
      {
       "t": "Tomate y pimentón",
       "m": 5,
-      "x": "Añade el tomate rallado y, fuera del fuego, el pimentón.",
+      "x": "Añade los 2 tomates rallados, cocina 5 minutos y, fuera del fuego, 1 cucharadita de pimentón.",
       "ab": "El pimentón, siempre fuera del fuego: se quema y amarga.",
       "f": 0,
       "e": {
@@ -9199,7 +9199,7 @@
      {
       "t": "Verdura y agua",
       "m": 15,
-      "x": "Añade la col troceada, el agua y la sal. Cuece hasta que la verdura esté tierna.",
+      "x": "Añade 1/4 de col troceada, 1 litro de agua y 1 cucharadita de sal. Cuece hasta que la verdura esté tierna.",
       "f": 2,
       "e": {
        "k": "fuego",
@@ -9219,7 +9219,7 @@
      {
       "t": "El pan",
       "m": 15,
-      "x": "Pon el pan en capas finas y deja que beba el caldo a fuego suave, sin remover. Debe quedar melosa, con poco caldo.",
+      "x": "Pon los 250 g de pan en capas finas y deja que beba el caldo a fuego suave, sin remover. Debe quedar melosa, con poco caldo.",
       "ab": "Con cuchara de madera, apretando suavemente el pan: que no se deshaga del todo.",
       "f": 1,
       "e": {

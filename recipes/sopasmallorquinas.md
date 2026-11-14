@@ -28,14 +28,14 @@ Más un guiso que una sopa: rebanadas finas de pan seco que beben el caldo de la
 
 ### El sofrito
 
-1. **Pocha** (15 min) - En una cazuela de barro con aceite, pocha la cebolla, el pimiento y el ajo picados, a fuego suave.
-2. **Tomate y pimentón** (5 min) - Añade el tomate rallado y, fuera del fuego, el pimentón.
+1. **Pocha** (15 min) - En una cazuela de barro con 5 cucharadas de aceite, pocha la cebolla, el pimiento y el ajo picados, a fuego suave.
+2. **Tomate y pimentón** (5 min) - Añade los 2 tomates rallados, cocina 5 minutos y, fuera del fuego, 1 cucharadita de pimentón.
    > El pimentón, siempre fuera del fuego: se quema y amarga.
 
 ### Las sopas
 
-3. **Verdura y agua** (15 min) - Añade la col troceada, el agua y la sal. Cuece hasta que la verdura esté tierna.
-4. **El pan** (15 min) - Pon el pan en capas finas y deja que beba el caldo a fuego suave, sin remover. Debe quedar melosa, con poco caldo.
+3. **Verdura y agua** (15 min) - Añade 1/4 de col troceada, 1 litro de agua y 1 cucharadita de sal. Cuece hasta que la verdura esté tierna.
+4. **El pan** (15 min) - Pon los 250 g de pan en capas finas y deja que beba el caldo a fuego suave, sin remover. Debe quedar melosa, con poco caldo.
    > Con cuchara de madera, apretando suavemente el pan: que no se deshaga del todo.
 
 ## Secretos de la abuela

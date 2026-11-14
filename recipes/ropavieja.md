@@ -27,13 +27,13 @@ Plato de aprovechamiento: lo que sobró del puchero (carne, garbanzos, patata) s
 
 ### El sofrito
 
-1. **Pocha** (15 min) - Sofríe cebolla, pimiento y ajo picados a fuego suave. Añade el tomate rallado.
-2. **Pimentón** (2 min) - Fuera del fuego, añade el pimentón y un chorrito de vinagre.
+1. **Pocha** (15 min) - Sofríe 1 cebolla, 1 pimiento y 3 ajos picados en 4 cucharadas de aceite a fuego suave 10 minutos. Añade los 2 tomates rallados y cocina 5 minutos más.
+2. **Pimentón** (2 min) - Fuera del fuego, añade 1 cucharadita de pimentón y 1 cucharada de vinagre.
    > El vinagre da el punto canario que despierta el plato.
 
 ### El guiso
 
-3. **Mezcla** (10 min) - Añade garbanzos, carne y patata cortada, y rehoga todo a fuego suave.
+3. **Mezcla** (10 min) - Añade 400 g de garbanzos escurridos, 300 g de carne deshilachada y las 2 patatas cortadas en dados, y rehoga todo a fuego suave.
 4. **Reposo** (5 min) - Deja reposar tapado antes de servir.
    > Templada está mejor que hirviendo.
 
