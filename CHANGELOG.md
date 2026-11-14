@@ -10,6 +10,7 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 - La lista por tienda avisa de cuántos ingredientes no tienen precio de referencia.
 
 ### Añadido
+- Portadas ilustradas propias de pulpo á feira (tabla de madera, pimentón y cachelos), marmitako y migas.
 - Portada ilustrada propia de la crema catalana: cazuelita de barro con la costra quemada y la pala de hierro.
 - El planificador entrelaza ahora pasos de crema catalana, tumbet, xató y marmitako (lo que de verdad se puede hacer a la vez, marcado receta a receta).
 - Sesiones de cocina: «Empezar a cocinar» en cada receta, barra de platos en toda la app y vista «Ahora» que entrelaza los pasos de hasta 3 recetas a la vez. Las sesiones caducan solas (aviso a las 4 h, cierre a las 6 h) y no guardan nada al cerrarse.
