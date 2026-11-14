@@ -208,7 +208,7 @@
     });
     return (h || '<p class="ayuda">Para esto usa el enlace «mejor» de cada ingrediente (Google Maps).</p>') + '<p class="ayuda">' + esc(z.nota) + '</p><button type="button" class="reiniciar" data-geo="1">Actualizar mi ubicación</button>';
   }
-  var MOSTRAR_BARRIO = true; // apagado hasta verificar la version por geolocalizacion
+  var MOSTRAR_BARRIO = true; // la lista curada solo sale si la ubicacion cae en una zona verificada
   function barrioHTML(cats) {
     if (!MOSTRAR_BARRIO) return '';
     var uniq = cats.filter(function (c, n) { return cats.indexOf(c) === n; });
