@@ -524,8 +524,8 @@
   function cargaLeaflet() {
     if (window.L) return Promise.resolve();
     return new Promise(function (ok, ko) {
-      var l = document.createElement('link'); l.rel = 'stylesheet'; l.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'; document.head.appendChild(l);
-      var s = document.createElement('script'); s.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'; s.onload = ok; s.onerror = function () { ko(new Error('leaflet')); }; document.head.appendChild(s);
+      var l = document.createElement('link'); l.rel = 'stylesheet'; l.href = 'js/vendor/leaflet/leaflet.css'; document.head.appendChild(l);
+      var s = document.createElement('script'); s.src = 'js/vendor/leaflet/leaflet.js'; s.onload = ok; s.onerror = function () { ko(new Error('leaflet')); }; document.head.appendChild(s);
     });
   }
   var mapaRuta = null;
