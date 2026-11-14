@@ -157,9 +157,9 @@ body {
   fill: var(--region); stroke: var(--tarjeta-bg); stroke-width: 1.6;
   cursor: pointer; transition: fill .15s ease;
 }
-.mapa .reg-hit { fill: none; stroke: transparent; stroke-width: 12; pointer-events: all; }
-.mapa .chapa-hit { fill: transparent; pointer-events: all; }
-.mapa .reg:hover, .mapa .reg:focus-visible { fill: var(--ocre); outline: none; }
+.mapa .reg-hit { fill: rgba(0,0,0,0); cursor: pointer; stroke: transparent; stroke-width: 12; pointer-events: all; }
+.mapa .chapa-hit { fill: rgba(0,0,0,0); cursor: pointer; pointer-events: all; }
+.mapa .reg:focus-visible { fill: var(--ocre); outline: none; }
 .mapa .reg.cocinada { fill: var(--vino); }
 .mapa .reg.sel { fill: var(--anil); stroke: var(--azul-osc); }
 .mapa .chapa { pointer-events: none; }
@@ -186,7 +186,6 @@ body {
   text-decoration: none; color: var(--tinta);
   padding: 8px 10px; border-radius: 12px;
 }
-.fila:hover { background: var(--lienzo); }
 .fila .mini { width: 62px; flex: none; }
 .fila .mini svg { width: 100%; height: auto; display: block; border-radius: 8px; }
 .fila b { display: block; font-size: 16px; }
@@ -234,7 +233,6 @@ body {
   display: flex; flex-direction: column;
   transition: transform .12s ease, box-shadow .12s ease;
 }
-.ficha:hover { transform: translateY(-3px); }
 .ficha .ilu { position: relative; background: var(--lienzo); border-bottom: 2px solid var(--linea); }
 .ficha .ilu svg { width: 100%; height: auto; display: block; }
 .ficha .ilu .sello { position: absolute; top: 10px; right: 10px; background: var(--tarjeta-bg); }
@@ -257,7 +255,6 @@ body {
   background: none; border: none; cursor: pointer; padding: 4px 0;
   text-decoration: none; font-size: 16px;
 }
-.volver:hover { text-decoration: underline; }
 .r-cab { display: grid; gap: 12px; text-align: center; justify-items: center; }
 .r-heroe { width: min(460px, 100%); background: var(--lienzo); border: 2px solid var(--linea); border-radius: var(--radio); overflow: hidden; box-shadow: var(--sombra); }
 .r-heroe svg { width: 100%; height: auto; display: block; }
@@ -349,7 +346,6 @@ body {
   padding: 7px 8px; border-radius: 10px; cursor: pointer;
   break-inside: avoid;
 }
-.ing-lista label:hover { background: var(--lienzo); }
 .ing-lista input { width: 17px; height: 17px; accent-color: var(--ok); transform: translateY(2px); flex: none; }
 .ing-lista input:checked ~ .nom, .ing-lista input:checked ~ .cant { text-decoration: line-through; opacity: .55; }
 .ing-lista .nom { font-weight: 600; }
@@ -528,4 +524,18 @@ footer code { background: var(--lienzo); border: 1px solid var(--linea); border-
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   * { animation: none !important; transition: none !important; }
+}
+
+
+/* ---- tactil (iOS): sin :hover en pantallas tactiles, o el primer toque solo "hace hover" y el click exige un segundo ---- */
+@media (hover: hover) and (pointer: fine) {
+  .mapa .reg:hover { fill: var(--ocre); outline: none; }
+  .fila:hover { background: var(--lienzo); }
+  .ficha:hover { transform: translateY(-3px); }
+  .volver:hover { text-decoration: underline; }
+  .ing-lista label:hover { background: var(--lienzo); }
+}
+a, button, label, summary, [data-reg], [data-ir], .reg, .reg-hit, .chapa-hit {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(46, 79, 158, .18);
 }
