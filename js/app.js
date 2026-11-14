@@ -162,7 +162,7 @@
     ['embutido', /chorizo|morcilla|jam[oó]n|tocino|panceta|torrezno|cecina|salchicha|longaniza/, 'Súper', 'Charcutería'],
     ['carne', /cordero|lechazo|ternasco|lechal|costilla|morro|callos|pollo|ternera|cerdo|conejo|rabo|lac[oó]n|carne|chuleta|hueso|pavo/, 'Súper', 'Carnicería'],
     ['pescado', /bacalao|at[uú]n|bonito|pulpo|pescado|morralla|anchoa|merluza|calamar|gamba|sepia|mejill/, 'Súper', 'Pescadería'],
-    ['legumbre', /garbanzo|alubia|lenteja|almorta|fabes|fabas?\b|fabada|jud[ií]as? seca|habas secas/, 'Súper', 'Tienda a granel o gourmet'],
+    ['legumbre', /soja|garbanzo|alubia|lenteja|almorta|fabes|fabas?\b|fabada|jud[ií]as? seca|habas secas/, 'Súper', 'Tienda a granel o gourmet'],
     ['arroz', /arroz|bomba|fideo|pasta/, 'Súper', 'Tienda gourmet (D.O.)'],
     ['especia', /piment[oó]n|azafr[aá]n|[ñn]ora|laurel|canela|pimienta|guindilla|romero|comino|clavo|tomillo|oreg[aá]no|nuez moscada|c[uú]rcuma/, 'Súper', 'Herbolario o especias'],
     ['aceite', /aceite|vinagre|vino|brandy|jerez|sidra/, 'Súper', 'Cooperativa o bodega'],

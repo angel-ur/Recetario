@@ -273,5 +273,20 @@
     "rojo"
    ]
   ]
+ },
+ "tempeh": {
+  "k": "plato",
+  "v": "cuenco",
+  "c": "#E6D3A1",
+  "i": [
+   [
+    "lenteja",
+    14
+   ],
+   [
+    "garbanzo",
+    4
+   ]
+  ]
  }
 }

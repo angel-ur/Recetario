@@ -7912,6 +7912,178 @@
   }
  },
  {
+  "id": "tempeh",
+  "n": "Tempeh casero",
+  "sub": "soja fermentada: seca bien y mantén el calor",
+  "reg": "es",
+  "regs": [
+   "es"
+  ],
+  "lugar": "Receta de casa",
+  "cat": "huerta",
+  "dif": 3,
+  "b": 6,
+  "rac": [
+   6
+  ],
+  "intro": "Para 500 g de soja seca. Tiempo activo: unas 1,5 h; fermentación: 36 a 48 h. Las dos claves: secar muy bien la soja y mantener 28-30 °C las primeras 12 h. Si clavas eso, sale solo.",
+  "ing": [
+   [
+    "i0",
+    "500 g de soja amarilla seca",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i1",
+    "½ cucharadita de fermento de tempeh (Rhizopus), o 1,5 g",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i2",
+    "2 cucharadas de vinagre (blanco, de manzana o de arroz sin azúcar)",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i3",
+    "Material: bolsas zip y un palillo o tenedor para los agujeros",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i4",
+    "Material: un sitio cálido a 28-30 °C (el horno con la luz encendida va bien)",
+    null,
+    null,
+    1,
+    "plano"
+   ],
+   [
+    "i5",
+    "Material: termómetro de cocina (muy recomendable)",
+    null,
+    null,
+    1,
+    "plano"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Preparar la soja",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Remojo",
+      "m": 720,
+      "x": "La noche antes: pon la soja en un bol grande, frota puñados entre las manos para partirla y cubre con unos 2,5 L de agua fría. Deja de 8 a 12 horas.",
+      "f": 0
+     },
+     {
+      "t": "Descascarilla",
+      "m": 15,
+      "x": "Agita la soja con fuerza en el agua: las pieles suben y las retiras. Repite 3 o 4 veces. Quitar la mayoría basta.",
+      "f": 0
+     },
+     {
+      "t": "Cuece",
+      "m": 45,
+      "x": "Hierve en agua sin sal de 25 a 45 minutos, hasta que esté tierna pero con mordida, no blanda. Retira la espuma que suba. Escurre bien.",
+      "ab": "Si la cuece demasiado, el tempeh queda pastoso. Mejor un punto firme.",
+      "f": 0
+     },
+     {
+      "t": "Seca muy bien",
+      "m": 20,
+      "x": "Este es el paso crítico. Vuelca la soja sobre un trapo limpio y frota hasta que la superficie esté seca al tacto. Deja enfriar hasta que esté templada, no caliente.",
+      "ab": "Es lo que más determina el éxito. La humedad es el enemigo número uno, y el calor mata el fermento.",
+      "f": 0
+     }
+    ]
+   },
+   {
+    "n": "Inocular y embolsar",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Inocula",
+      "m": 5,
+      "x": "En un bol seco, mezcla la soja con las 2 cucharadas de vinagre. Luego espolvorea ½ cucharadita de fermento por encima y mezcla a fondo 1 minuto para repartirlo bien.",
+      "f": 0
+     },
+     {
+      "t": "Embolsa",
+      "m": 10,
+      "x": "Reparte en 2 bolsas y aplana en una capa uniforme de unos 2 cm. Pincha agujeros por las dos caras cada 2,5 cm más o menos.",
+      "f": 0
+     }
+    ]
+   },
+   {
+    "n": "Fermentar",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Fermenta",
+      "m": 2160,
+      "x": "Pon las bolsas separadas y elevadas sobre una rejilla, a 28-30 °C, para que corra el aire por debajo. A las 12 horas verás pelusa blanca y empezará a calentarse sola: a partir de aquí quita el calor externo, porque si pasa de 37 °C el hongo muere. Está listo a las 36-48 horas, cuando el bloque es sólido y blanco y todos los huecos están rellenos de micelio.",
+      "ab": "Con el horno solo con la luz, comprueba con un termómetro que no pase de 32 °C.",
+      "f": 0
+     },
+     {
+      "t": "Guarda",
+      "m": 30,
+      "x": "Si lo vas a comer en 3 o 4 días, a la nevera tal cual. Para congelar: vapor 15 minutos, enfriar y al congelador, hasta 3 meses, cortado antes en porciones.",
+      "ab": "Siempre se cocina antes de comer: salteado, frito o al horno.",
+      "f": 0
+     }
+    ]
+   }
+  ],
+  "secretos": [
+   [
+    "Las dos claves",
+    "Secar muy bien las alubias y mantener 28-30 °C las primeras 12 horas."
+   ],
+   [
+    "Bien",
+    "Olor a nuez o champiñón, bloque blanco sólido. Manchas grises o negras en los agujeros son normales."
+   ],
+   [
+    "Mal",
+    "Moho rosa o verde, babas u olor a amoniaco o podrido: a la basura."
+   ],
+   [
+    "Sin sal al cocer",
+    "La soja se cuece en agua sin sal."
+   ]
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cuenco",
+   "c": "#E6D3A1",
+   "i": [
+    [
+     "lenteja",
+     14
+    ],
+    [
+     "garbanzo",
+     4
+    ]
+   ]
+  }
+ },
+ {
   "id": "ternasco",
   "n": "Ternasco de Aragón asado",
   "sub": "cordero joven con ajo, patatas panadera y su jugo",
