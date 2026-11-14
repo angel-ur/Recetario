@@ -10,6 +10,7 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 - La lista por tienda avisa de cuántos ingredientes no tienen precio de referencia.
 
 ### Añadido
+- Portadas ilustradas propias de bacalao al pil-pil, caldereta de cordero y callos.
 - Portadas ilustradas propias de papas arrugadas con sus dos mojos, tumbet y chilindrón.
 - Portadas ilustradas propias de pisto (sartén con huevo frito), arroz con leche y xató.
 - Portadas ilustradas propias de pulpo á feira (tabla de madera, pimentón y cachelos), marmitako y migas.

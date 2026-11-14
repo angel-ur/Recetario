@@ -767,30 +767,8 @@
    ]
   ],
   "heroe": {
-   "k": "plato",
-   "v": "llano",
-   "c": "#B5402F",
-   "i": [
-    [
-     "cordero",
-     6
-    ],
-    [
-     "pimiento",
-     3,
-     1,
-     "rojo"
-    ],
-    [
-     "ajo",
-     3
-    ],
-    [
-     "perejil",
-     1,
-     0.8
-    ]
-   ]
+   "k": "ilu",
+   "svg": "<defs><radialGradient id=\"i_caldereta_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_caldereta_fondo)\"/><defs><radialGradient id=\"i_caldereta_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_caldereta_barro2\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_caldereta_cald\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#A8542A\"/><stop offset=\"1\" stop-color=\"#7C3816\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"116\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M48 90c0 40 28 60 112 60s112-20 112-60z\" fill=\"url(#i_caldereta_barro2)\"/><rect x=\"22\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><rect x=\"268\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"90\" rx=\"112\" ry=\"26\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"92\" rx=\"102\" ry=\"21\" fill=\"url(#i_caldereta_cald)\"/><ellipse cx=\"110\" cy=\"91\" rx=\"20\" ry=\"8\" fill=\"#000\" opacity=\".14\"/><g transform=\"translate(110 88) rotate(-18)\"><ellipse rx=\"18\" ry=\"10\" fill=\"#8A5A34\"/><ellipse cx=\"-2\" cy=\"-2\" rx=\"12\" ry=\"6\" fill=\"#A87044\"/><rect x=\"10\" y=\"-3\" width=\"12\" height=\"6\" rx=\"3\" fill=\"#EFE2C4\"/><circle cx=\"22\" cy=\"-3\" r=\"3.5\" fill=\"#F4EAD2\"/><circle cx=\"22\" cy=\"3\" r=\"3.5\" fill=\"#F4EAD2\"/></g><ellipse cx=\"158\" cy=\"99\" rx=\"20\" ry=\"8\" fill=\"#000\" opacity=\".14\"/><g transform=\"translate(158 96) rotate(12)\"><ellipse rx=\"18\" ry=\"10\" fill=\"#8A5A34\"/><ellipse cx=\"-2\" cy=\"-2\" rx=\"12\" ry=\"6\" fill=\"#A87044\"/><rect x=\"10\" y=\"-3\" width=\"12\" height=\"6\" rx=\"3\" fill=\"#EFE2C4\"/><circle cx=\"22\" cy=\"-3\" r=\"3.5\" fill=\"#F4EAD2\"/><circle cx=\"22\" cy=\"3\" r=\"3.5\" fill=\"#F4EAD2\"/></g><g transform=\"translate(200 90) rotate(20)\"><ellipse rx=\"13\" ry=\"8\" fill=\"#F2E0A8\"/><path d=\"M-6 -2q6-3 12 0\" stroke=\"#E2C87E\" stroke-width=\"1.6\" fill=\"none\"/></g><g transform=\"translate(140 84) rotate(-8)\"><ellipse rx=\"13\" ry=\"8\" fill=\"#F2E0A8\"/><path d=\"M-6 -2q6-3 12 0\" stroke=\"#E2C87E\" stroke-width=\"1.6\" fill=\"none\"/></g><g transform=\"translate(90 96) rotate(30)\"><rect x=\"-10\" y=\"-3.5\" width=\"20\" height=\"7\" rx=\"3.5\" fill=\"#E8812A\"/><rect x=\"-8\" y=\"-2.4\" width=\"16\" height=\"2.2\" rx=\"1.1\" fill=\"#F4A24E\"/></g><g transform=\"translate(186 100) rotate(-20)\"><rect x=\"-10\" y=\"-3.5\" width=\"20\" height=\"7\" rx=\"3.5\" fill=\"#E8812A\"/><rect x=\"-8\" y=\"-2.4\" width=\"16\" height=\"2.2\" rx=\"1.1\" fill=\"#F4A24E\"/></g><circle cx=\"236.6\" cy=\"92.9\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"235.8\" cy=\"92.1\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"195.0\" cy=\"100.1\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"194.2\" cy=\"99.3\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"114.4\" cy=\"83.0\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"113.6\" cy=\"82.2\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"176.4\" cy=\"84.2\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"175.6\" cy=\"83.4\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"141.2\" cy=\"104.1\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"140.4\" cy=\"103.3\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"219.5\" cy=\"84.1\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"218.7\" cy=\"83.3\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"93.2\" cy=\"86.8\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"92.4\" cy=\"86.0\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"212.5\" cy=\"81.6\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"211.7\" cy=\"80.8\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"116.0\" cy=\"83.8\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"115.2\" cy=\"83.0\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"100.4\" cy=\"94.6\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"99.6\" cy=\"93.8\" r=\".9\" fill=\"#9CC265\"/><ellipse cx=\"126\" cy=\"84\" rx=\"22\" ry=\"2.6\" fill=\"#fff\" opacity=\".25\"/>"
   },
   "tienda": [
    [
@@ -1950,27 +1928,8 @@
    ]
   ],
   "heroe": {
-   "k": "plato",
-   "v": "cazuela",
-   "c": "#B0442A",
-   "i": [
-    [
-     "callo",
-     14
-    ],
-    [
-     "chorizo",
-     3
-    ],
-    [
-     "morcilla",
-     2
-    ],
-    [
-     "laurel",
-     1
-    ]
-   ]
+   "k": "ilu",
+   "svg": "<defs><radialGradient id=\"i_callos_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_callos_fondo)\"/><defs><radialGradient id=\"i_callos_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_callos_barro3\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_callos_cal2\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#B8401E\"/><stop offset=\"1\" stop-color=\"#8E2A12\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"116\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M48 90c0 40 28 60 112 60s112-20 112-60z\" fill=\"url(#i_callos_barro3)\"/><rect x=\"22\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><rect x=\"268\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"90\" rx=\"112\" ry=\"26\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"92\" rx=\"102\" ry=\"21\" fill=\"url(#i_callos_cal2)\"/><g transform=\"translate(161.3 103.4) rotate(14)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(116.9 92.9) rotate(-23)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(108.8 97.1) rotate(-25)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(160.0 103.6) rotate(-5)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(179.2 86.6) rotate(35)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(170.6 97.5) rotate(28)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(190.4 99.0) rotate(-31)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(178.9 91.0) rotate(-16)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><ellipse cx=\"112\" cy=\"86\" rx=\"12\" ry=\"6\" fill=\"#B3341F\"/><ellipse cx=\"110\" cy=\"84.5\" rx=\"7\" ry=\"2.4\" fill=\"#E27A5E\" opacity=\".7\"/><ellipse cx=\"176\" cy=\"96\" rx=\"12\" ry=\"6\" fill=\"#B3341F\"/><ellipse cx=\"174\" cy=\"94.5\" rx=\"7\" ry=\"2.4\" fill=\"#E27A5E\" opacity=\".7\"/><ellipse cx=\"208\" cy=\"88\" rx=\"12\" ry=\"6\" fill=\"#B3341F\"/><ellipse cx=\"206\" cy=\"86.5\" rx=\"7\" ry=\"2.4\" fill=\"#E27A5E\" opacity=\".7\"/><ellipse cx=\"146\" cy=\"86\" rx=\"12\" ry=\"6\" fill=\"#3B1E1A\"/><ellipse cx=\"144\" cy=\"84.5\" rx=\"6\" ry=\"2\" fill=\"#7A4A40\" opacity=\".7\"/><circle cx=\"104.5\" cy=\"85.6\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"103.5\" cy=\"84.6\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"118.9\" cy=\"89.8\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"117.9\" cy=\"88.8\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"216.9\" cy=\"84.6\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"215.9\" cy=\"83.6\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"178.1\" cy=\"89.2\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"177.1\" cy=\"88.2\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"126.6\" cy=\"86.4\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"125.6\" cy=\"85.4\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"204.6\" cy=\"101.6\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"203.6\" cy=\"100.6\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"197.2\" cy=\"102.9\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"196.2\" cy=\"101.9\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"196.5\" cy=\"86.4\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"195.5\" cy=\"85.4\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"117.4\" cy=\"93.9\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"116.4\" cy=\"92.9\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"177.5\" cy=\"100.0\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"176.5\" cy=\"99.0\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"225.0\" cy=\"100.3\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"224.0\" cy=\"99.3\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"236.2\" cy=\"96.9\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"235.2\" cy=\"95.9\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"189.2\" cy=\"100.4\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"188.2\" cy=\"99.4\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"159.5\" cy=\"100.3\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"158.5\" cy=\"99.3\" r=\"1\" fill=\"#F7E2AC\"/><ellipse cx=\"126\" cy=\"82\" rx=\"22\" ry=\"2.6\" fill=\"#fff\" opacity=\".25\"/>"
   },
   "tienda": [
    [
@@ -6705,23 +6664,8 @@
    ]
   ],
   "heroe": {
-   "k": "plato",
-   "v": "cazuela",
-   "c": "#E9D9A8",
-   "i": [
-    [
-     "bacalao",
-     4
-    ],
-    [
-     "ajo",
-     4
-    ],
-    [
-     "guindilla",
-     2
-    ]
-   ]
+   "k": "ilu",
+   "svg": "<defs><radialGradient id=\"i_pilpil_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_pilpil_fondo)\"/><defs><radialGradient id=\"i_pilpil_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_pilpil_barro\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_pilpil_pil\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#F0E2B0\"/><stop offset=\"1\" stop-color=\"#D9BE78\"/></radialGradient></defs><ellipse cx=\"150\" cy=\"152\" rx=\"106\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M48 92c0 38 26 56 102 56s102-18 102-56z\" fill=\"url(#i_pilpil_barro)\"/><ellipse cx=\"150\" cy=\"92\" rx=\"102\" ry=\"25\" fill=\"#A9552C\"/><ellipse cx=\"150\" cy=\"94\" rx=\"92\" ry=\"20\" fill=\"url(#i_pilpil_pil)\"/><circle cx=\"117.6\" cy=\"90.3\" r=\"2.0\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"201.0\" cy=\"88.7\" r=\"1.6\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"158.7\" cy=\"101.8\" r=\"1.1\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"136.3\" cy=\"86.7\" r=\"2.0\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"183.4\" cy=\"97.2\" r=\"0.9\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"156.3\" cy=\"83.8\" r=\"1.4\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"119.2\" cy=\"106.1\" r=\"1.3\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"164.3\" cy=\"104.8\" r=\"1.2\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"208.5\" cy=\"103.9\" r=\"1.6\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"109.7\" cy=\"80.3\" r=\"1.3\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"110.3\" cy=\"101.6\" r=\"1.3\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"146.7\" cy=\"92.8\" r=\"1.4\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"101.8\" cy=\"91.8\" r=\"0.8\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"147.7\" cy=\"92.4\" r=\"1.5\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"158.9\" cy=\"96.6\" r=\"1.0\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"179.9\" cy=\"96.6\" r=\"1.6\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"143.1\" cy=\"83.9\" r=\"1.6\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"91.4\" cy=\"95.9\" r=\"1.9\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"120.6\" cy=\"108.7\" r=\"1.6\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"147.4\" cy=\"92.8\" r=\"0.9\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"198.4\" cy=\"96.0\" r=\"1.9\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"204.6\" cy=\"83.0\" r=\"0.9\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"129.7\" cy=\"79.6\" r=\"1.8\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"158.2\" cy=\"87.9\" r=\"1.0\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"169.1\" cy=\"79.9\" r=\"1.9\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"75.2\" cy=\"99.3\" r=\"1.0\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"226.1\" cy=\"89.7\" r=\"1.2\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"206.7\" cy=\"99.2\" r=\"1.6\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"138.1\" cy=\"97.3\" r=\"1.1\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><circle cx=\"161.4\" cy=\"89.4\" r=\"1.9\" fill=\"none\" stroke=\"#C8A860\" stroke-width=\".8\" opacity=\".7\"/><ellipse cx=\"112\" cy=\"93\" rx=\"20\" ry=\"8\" fill=\"#000\" opacity=\".12\"/><g transform=\"translate(112 90) rotate(-12)\"><rect x=\"-19\" y=\"-7\" width=\"38\" height=\"14\" rx=\"7\" fill=\"#F4E9DC\"/><rect x=\"-19\" y=\"-7\" width=\"38\" height=\"5\" rx=\"2.5\" fill=\"#E4C4B0\"/><path d=\"M-12 1q10 3 24 0\" stroke=\"#D9C6B2\" stroke-width=\"1.4\" fill=\"none\"/></g><ellipse cx=\"152\" cy=\"101\" rx=\"20\" ry=\"8\" fill=\"#000\" opacity=\".12\"/><g transform=\"translate(152 98) rotate(8)\"><rect x=\"-19\" y=\"-7\" width=\"38\" height=\"14\" rx=\"7\" fill=\"#F4E9DC\"/><rect x=\"-19\" y=\"-7\" width=\"38\" height=\"5\" rx=\"2.5\" fill=\"#E4C4B0\"/><path d=\"M-12 1q10 3 24 0\" stroke=\"#D9C6B2\" stroke-width=\"1.4\" fill=\"none\"/></g><ellipse cx=\"188\" cy=\"91\" rx=\"20\" ry=\"8\" fill=\"#000\" opacity=\".12\"/><g transform=\"translate(188 88) rotate(20)\"><rect x=\"-19\" y=\"-7\" width=\"38\" height=\"14\" rx=\"7\" fill=\"#F4E9DC\"/><rect x=\"-19\" y=\"-7\" width=\"38\" height=\"5\" rx=\"2.5\" fill=\"#E4C4B0\"/><path d=\"M-12 1q10 3 24 0\" stroke=\"#D9C6B2\" stroke-width=\"1.4\" fill=\"none\"/></g><g transform=\"translate(96 96) rotate(20)\"><circle r=\"4.5\" fill=\"#F2E3B0\"/><circle r=\"3.2\" fill=\"#D9BE78\"/></g><g transform=\"translate(140 84) rotate(-30)\"><circle r=\"4.5\" fill=\"#F2E3B0\"/><circle r=\"3.2\" fill=\"#D9BE78\"/></g><g transform=\"translate(196 98) rotate(45)\"><circle r=\"4.5\" fill=\"#F2E3B0\"/><circle r=\"3.2\" fill=\"#D9BE78\"/></g><g transform=\"translate(168 92) rotate(0)\"><circle r=\"4.5\" fill=\"#F2E3B0\"/><circle r=\"3.2\" fill=\"#D9BE78\"/></g><g transform=\"translate(128 100) rotate(-25)\"><path d=\"M-10 0Q0 -4 10 0 8 3 0 3 -8 3 -10 0Z\" fill=\"#A8321F\"/><path d=\"M10 0l5 -3\" stroke=\"#5E8A3C\" stroke-width=\"2\" stroke-linecap=\"round\"/></g><g transform=\"translate(180 80) rotate(35)\"><path d=\"M-10 0Q0 -4 10 0 8 3 0 3 -8 3 -10 0Z\" fill=\"#A8321F\"/><path d=\"M10 0l5 -3\" stroke=\"#5E8A3C\" stroke-width=\"2\" stroke-linecap=\"round\"/></g><ellipse cx=\"116\" cy=\"86\" rx=\"20\" ry=\"2.4\" fill=\"#fff\" opacity=\".35\"/>"
   },
   "tienda": [
    [
