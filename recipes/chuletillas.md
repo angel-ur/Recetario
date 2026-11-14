@@ -40,3 +40,8 @@ Plato de las bodegas de La Rioja: chuletillas de cordero lechal asadas sobre bra
 - **Sarmientos**: dan un aroma que no da el carbón.
 - **Lechal**: la carne joven pide poco fuego.
 - **Sin nada**: sal gorda, y ya está.
+
+## En la tienda
+
+- **Las chuletillas** [chuletillas]: Pide «chuletillas de cordero lechal», de unos 5 por persona. Que sean pequeñas, de hueso fino y color rosado pálido. Pídelas ya separadas y limpias, sin la parte del costillar.
+- **Los sarmientos** [sarmientos]: Se compran en tiendas de barbacoa, o pregunta en una bodega. Si no los hay, el carbón vegetal funciona.

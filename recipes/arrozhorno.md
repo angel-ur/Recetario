@@ -45,3 +45,8 @@ El arroz que se hacía los domingos en Valencia con lo que había: una cazuela d
 - **Caldo del cocido**: da el sabor de verdad.
 - **Cazuela de barro**: reparte el calor.
 - **Ajo asado**: se come con el arroz, untado.
+
+## En la tienda
+
+- **La costilla** [costilla]: «Costilla de cerdo en trozos de unos 5 cm, adobada o sin adobar».
+- **La morcilla** [morcilla]: «Morcilla de cebolla» (blanda, para guisar), no la seca de Burgos.

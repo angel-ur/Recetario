@@ -52,3 +52,8 @@ Cada verdura entra cuando la anterior se ha ablandado, y todo a fuego lento hast
 - **Sin prisa**: Un buen pisto lleva más de una hora. Con fuego fuerte se fríe en vez de confitarse.
 - **Mejor al día siguiente**: Reposado gana sabor. Aguanta varios días en la nevera y se congela bien.
 - **Para todo**: Además de con huevo, sirve para rellenar empanadillas, con bacalao o como guarnición.
+
+## En la tienda
+
+- **Las verduras** [pimiento|calabacin|cebolla]: Todo de tamaño medio y firme. Los calabacines no muy gordos, que traen pocas pepitas.
+- **El tomate** [tomates]: «Tomates maduros de rama», que pueden estar blandos: para el pisto van bien, y son más baratos.

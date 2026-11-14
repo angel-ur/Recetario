@@ -41,3 +41,8 @@ El ternasco, cordero joven de Aragón, se asa con poco: ajo, un vaso de vino y p
 - **Fuego parejo**: más tiempo y menos temperatura que prisa.
 - **Reposo**: tapado con un paño 10 minutos antes de cortar.
 - **Jugo**: para las patatas, nunca se tira.
+
+## En la tienda
+
+- **El ternasco** [ternasco]: Pide «ternasco de Aragón, paletilla o pierna, en trozos grandes». Con la denominación Ternasco de Aragón, si lo tienen. Que lo corten en 4 o 6 trozos.
+- **Las patatas** [patatas]: Patatas de guisar o de freír, de tamaño medio, que se cortan en rodajas gruesas.

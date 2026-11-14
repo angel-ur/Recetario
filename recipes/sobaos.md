@@ -51,3 +51,8 @@ De los valles pasiegos: mantequilla, azúcar, huevo y harina a partes casi igual
 - **Todo a temperatura ambiente**: Mantequilla y huevos fuera de la nevera desde una hora antes: así la masa emulsiona y no se corta.
 - **Partes iguales**: La receta de toda la vida es fácil de recordar: el mismo peso de mantequilla, azúcar y harina.
 - **La quesada**: En los mismos valles pasiegos se hace la quesada, otro dulce de siempre con leche cuajada.
+
+## En la tienda
+
+- **La mantequilla** [mantequilla]: Mantequilla de buena calidad (con 82 % de grasa), a temperatura ambiente. Si puedes, mantequilla cántabra.
+- **Los huevos** [huevos]: Huevos frescos, categoría L, a temperatura ambiente.

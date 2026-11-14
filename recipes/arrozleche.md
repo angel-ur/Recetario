@@ -53,3 +53,8 @@ Fuego lento, cuchara de madera y paciencia. El azúcar al final y, si te atreves
 - **Arroz redondo**: El de grano redondo suelta más almidón que el largo y queda mucho más cremoso.
 - **Fuego bajo y cuchara de palo**: La leche se pega con facilidad. Fuego suave y remover a menudo, rascando el fondo con suavidad.
 - **Templado o frío**: En cada casa se toma de una forma: templado recién hecho o frío de nevera.
+
+## En la tienda
+
+- **El arroz** [arroz]: «Arroz de grano redondo», no arroz largo ni vaporizado.
+- **La leche** [leche]: Leche entera. La desnatada da un arroz con leche sin cuerpo.

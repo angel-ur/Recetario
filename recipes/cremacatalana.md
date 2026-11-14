@@ -52,3 +52,8 @@ El postre de Sant Josep: leche perfumada con limón y canela, yemas y una costra
 - **Sant Josep**: Es el postre del 19 de marzo en Cataluña; por eso también se llama crema de Sant Josep.
 - **Ni hervir ni grumos**: Fuego suave y varillas sin parar. Si se forman grumos, pásala por un colador antes de repartirla.
 - **Costra fina**: Poca azúcar y bien repartida: una capa gruesa queda dura y amarga.
+
+## En la tienda
+
+- **Los huevos** [yemas|huevo]: Huevos frescos, categoría L. Guarda las claras para otra receta.
+- **El limón** [limon]: Limón sin cera, porque se usa la piel. Pela solo la parte amarilla.

@@ -46,3 +46,8 @@ El arroz de los pescadores del Mar Menor: poco ingrediente y mucho fumet, con el
 - **Ñora**: da el color y el sabor propio de Murcia.
 - **Alioli**: un poco encima de cada plato.
 - **Sin prisa**: el fumet es lo que hace el arroz.
+
+## En la tienda
+
+- **El pescado** [pescado]: Pide «pescado de roca o morralla para caldero» (cabracho, rape, gallineta, congrio, dorada pequeña). Que te lo limpien y lo corten en trozos, y que te guarden las cabezas y espinas para el fumet.
+- **Las ñoras** [ñoras]: Secas, en la sección de especias o verduras secas. Remójalas antes.

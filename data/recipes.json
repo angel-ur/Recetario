@@ -251,7 +251,18 @@
     ]
    ]
   },
-  "tienda": []
+  "tienda": [
+   [
+    "La costilla",
+    "«Costilla de cerdo en trozos de unos 5 cm, adobada o sin adobar».",
+    "costilla"
+   ],
+   [
+    "La morcilla",
+    "«Morcilla de cebolla» (blanda, para guisar), no la seca de Burgos.",
+    "morcilla"
+   ]
+  ]
  },
  {
   "id": "arrozleche",
@@ -504,7 +515,18 @@
     ]
    }
   ],
-  "tienda": []
+  "tienda": [
+   [
+    "El arroz",
+    "«Arroz de grano redondo», no arroz largo ni vaporizado.",
+    "arroz"
+   ],
+   [
+    "La leche",
+    "Leche entera. La desnatada da un arroz con leche sin cuerpo.",
+    "leche"
+   ]
+  ]
  },
  {
   "id": "caldereta",
@@ -1010,7 +1032,18 @@
     ]
    ]
   },
-  "tienda": []
+  "tienda": [
+   [
+    "El pescado",
+    "Pide «pescado de roca o morralla para caldero» (cabracho, rape, gallineta, congrio, dorada pequeña). Que te lo limpien y lo corten en trozos, y que te guarden las cabezas y espinas para el fumet.",
+    "pescado"
+   ],
+   [
+    "Las ñoras",
+    "Secas, en la sección de especias o verduras secas. Remójalas antes.",
+    "ñoras"
+   ]
+  ]
  },
  {
   "id": "caldo",
@@ -2356,7 +2389,18 @@
     ]
    ]
   },
-  "tienda": []
+  "tienda": [
+   [
+    "Las chuletillas",
+    "Pide «chuletillas de cordero lechal», de unos 5 por persona. Que sean pequeñas, de hueso fino y color rosado pálido. Pídelas ya separadas y limpias, sin la parte del costillar.",
+    "chuletillas"
+   ],
+   [
+    "Los sarmientos",
+    "Se compran en tiendas de barbacoa, o pregunta en una bodega. Si no los hay, el carbón vegetal funciona.",
+    "sarmientos"
+   ]
+  ]
  },
  {
   "id": "cocido",
@@ -3260,7 +3304,18 @@
     ]
    }
   ],
-  "tienda": []
+  "tienda": [
+   [
+    "Los huevos",
+    "Huevos frescos, categoría L. Guarda las claras para otra receta.",
+    "yemas|huevo"
+   ],
+   [
+    "El limón",
+    "Limón sin cera, porque se usa la piel. Pela solo la parte amarilla.",
+    "limon"
+   ]
+  ]
  },
  {
   "id": "croquetas",
@@ -3781,7 +3836,18 @@
     ]
    ]
   },
-  "tienda": []
+  "tienda": [
+   [
+    "El atún o el bonito",
+    "«Atún o bonito en aceite de oliva» en lata, buena calidad, bien escurrido.",
+    "atún|bonito"
+   ],
+   [
+    "Los pimientos",
+    "Carnosos, de carne gruesa; si son finos se deshacen en el relleno.",
+    "pimientos"
+   ]
+  ]
  },
  {
   "id": "fabada",
@@ -4289,7 +4355,18 @@
     ]
    ]
   },
-  "tienda": []
+  "tienda": [
+   [
+    "La harina de almortas",
+    "«Harina de almortas (titos o guijas)». Búscala en tiendas de productos de la zona o en herbolarios. Si no la hay, se puede hacer con harina de garbanzo, pero el sabor cambia.",
+    "almortas"
+   ],
+   [
+    "Los torreznos",
+    "«Panceta fresca en tiras» para freír, o torreznos ya hechos.",
+    "torreznos|panceta"
+   ]
+  ]
  },
  {
   "id": "gazpacho",
@@ -4565,7 +4642,18 @@
     ]
    }
   ],
-  "tienda": []
+  "tienda": [
+   [
+    "Los tomates",
+    "«Tomates pera muy maduros, de rama». Es lo que decide el sabor; los duros y pálidos dan un gazpacho soso y ácido.",
+    "tomates"
+   ],
+   [
+    "El pimiento",
+    "«Pimiento verde italiano», que es más dulce y fino.",
+    "pimiento"
+   ]
+  ]
  },
  {
   "id": "lechazo",
@@ -4724,7 +4812,13 @@
     ]
    ]
   },
-  "tienda": []
+  "tienda": [
+   [
+    "El lechazo",
+    "Pide «lechazo, media paletilla o pierna, en trozos grandes con hueso» y que sea de menos de 35 días (carne rosada pálida, grasa blanca). Dile que es para asar en horno de barro o cazuela.",
+    "lechazo"
+   ]
+  ]
  },
  {
   "id": "lentejas",
@@ -5744,7 +5838,18 @@
     ]
    }
   ],
-  "tienda": []
+  "tienda": [
+   [
+    "El pan",
+    "«Pan de pueblo de dos o tres días», de miga compacta. El pan fresco se hace pasta; el muy duro se desmigaja mal.",
+    "pan"
+   ],
+   [
+    "Panceta y chorizo",
+    "«Panceta fresca en tacos» y «chorizo para freír».",
+    "panceta|chorizo"
+   ]
+  ]
  },
  {
   "id": "paella",
@@ -6420,7 +6525,18 @@
     ]
    }
   ],
-  "tienda": []
+  "tienda": [
+   [
+    "Las papas",
+    "«Papas pequeñas, arrugadas», de las de cocer enteras (papa negra, bonita). Con piel.",
+    "papas"
+   ],
+   [
+    "Pimienta palmera y comino",
+    "Pimienta palmera se encuentra en tiendas canarias; si no, guindillas secas.",
+    "palmeras|guindillas|comino"
+   ]
+  ]
  },
  {
   "id": "pilpil",
@@ -6934,7 +7050,18 @@
     ]
    }
   ],
-  "tienda": []
+  "tienda": [
+   [
+    "Las verduras",
+    "Todo de tamaño medio y firme. Los calabacines no muy gordos, que traen pocas pepitas.",
+    "pimiento|calabacin|cebolla"
+   ],
+   [
+    "El tomate",
+    "«Tomates maduros de rama», que pueden estar blandos: para el pisto van bien, y son más baratos.",
+    "tomates"
+   ]
+  ]
  },
  {
   "id": "pulpo",
@@ -8004,7 +8131,18 @@
     ]
    }
   ],
-  "tienda": []
+  "tienda": [
+   [
+    "El chorizo",
+    "«Chorizo riojano» o chorizo fresco para guisar. No uses el de cortar en lonchas, que se endurece.",
+    "chorizo"
+   ],
+   [
+    "Las patatas",
+    "Patatas de guisar; se «chascan» y sueltan almidón.",
+    "patatas"
+   ]
+  ]
  },
  {
   "id": "ropavieja",
@@ -8474,7 +8612,18 @@
     ]
    }
   ],
-  "tienda": []
+  "tienda": [
+   [
+    "La mantequilla",
+    "Mantequilla de buena calidad (con 82 % de grasa), a temperatura ambiente. Si puedes, mantequilla cántabra.",
+    "mantequilla"
+   ],
+   [
+    "Los huevos",
+    "Huevos frescos, categoría L, a temperatura ambiente.",
+    "huevos"
+   ]
+  ]
  },
  {
   "id": "sopacastellana",
@@ -8738,7 +8887,18 @@
     ]
    }
   ],
-  "tienda": []
+  "tienda": [
+   [
+    "El pan",
+    "«Pan de pueblo duro» de varios días. Si está fresco, córtalo y tuéstalo un poco antes.",
+    "pan"
+   ],
+   [
+    "El jamón",
+    "«Taquitos de jamón serrano» o recortes.",
+    "jamón"
+   ]
+  ]
  },
  {
   "id": "sopasmallorquinas",
@@ -8965,7 +9125,18 @@
     ]
    ]
   },
-  "tienda": []
+  "tienda": [
+   [
+    "El pan",
+    "«Pan moreno mallorquín» (pan de payés integral), seco. Corta en rebanadas finas y deja secar un día si está tierno.",
+    "pan"
+   ],
+   [
+    "La verdura",
+    "«Un cuarto de col o de coliflor»; que sea fresca y firme.",
+    "col|coliflor"
+   ]
+  ]
  },
  {
   "id": "tempeh",
@@ -9227,7 +9398,18 @@
    "k": "ilu",
    "svg": "<defs><radialGradient id=\"i_tempeh_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_tempeh_fondo)\"/><defs><radialGradient id=\"i_tempeh_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_tempeh_fr\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#E8B04A\"/><stop offset=\"1\" stop-color=\"#B8741F\"/></linearGradient><linearGradient id=\"i_tempeh_ce\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#FBF6E4\"/><stop offset=\"1\" stop-color=\"#E8DDBC\"/></linearGradient><radialGradient id=\"i_tempeh_sam\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#E5482F\"/><stop offset=\"1\" stop-color=\"#A52418\"/></radialGradient></defs><ellipse cx=\"150\" cy=\"154\" rx=\"104\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.25\"/><ellipse cx=\"150\" cy=\"112\" rx=\"112\" ry=\"50\" fill=\"#D4CCBB\"/><ellipse cx=\"150\" cy=\"108\" rx=\"112\" ry=\"50\" fill=\"url(#i_tempeh_pl)\"/><ellipse cx=\"150\" cy=\"110\" rx=\"88\" ry=\"36\" fill=\"none\" style=\"stroke:var(--anil)\" stroke-width=\"3.5\"/><g transform=\"translate(100 104) rotate(-8)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"-1.5\" cy=\"0.2\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"13.6\" cy=\"-0.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"0.3\" cy=\"0.5\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-10.1\" cy=\"-0.4\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"4.2\" cy=\"2.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.0\" cy=\"-2.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.1\" cy=\"2.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"6.2\" cy=\"-5.5\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"15.4\" cy=\"4.6\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"4.9\" cy=\"0.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-11.0\" cy=\"-5.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><g transform=\"translate(150 96) rotate(4)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"0.9\" cy=\"-5.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.9\" cy=\"-3.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-15.0\" cy=\"-0.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-1.9\" cy=\"3.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"0.6\" cy=\"1.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-0.0\" cy=\"1.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-1.4\" cy=\"-2.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"15.9\" cy=\"5.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"10.9\" cy=\"1.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-5.9\" cy=\"-3.5\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-6.8\" cy=\"-5.2\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><g transform=\"translate(198 104) rotate(9)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"8.5\" cy=\"-1.6\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"11.1\" cy=\"-1.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"14.7\" cy=\"3.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-16.0\" cy=\"-3.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"13.1\" cy=\"-0.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"15.4\" cy=\"-1.6\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.7\" cy=\"0.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"8.9\" cy=\"-3.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.2\" cy=\"-2.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"14.9\" cy=\"2.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-12.2\" cy=\"-3.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><g transform=\"translate(122 128) rotate(3)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"-12.8\" cy=\"-5.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"9.5\" cy=\"-4.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"1.9\" cy=\"-1.1\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.9\" cy=\"2.1\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-11.8\" cy=\"1.1\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-12.3\" cy=\"-1.4\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.2\" cy=\"-3.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"15.1\" cy=\"2.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-6.3\" cy=\"3.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.3\" cy=\"-1.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"11.3\" cy=\"1.1\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><g transform=\"translate(176 129) rotate(-5)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"-12.8\" cy=\"4.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.2\" cy=\"-3.2\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"8.7\" cy=\"-2.4\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-6.5\" cy=\"-5.2\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.1\" cy=\"0.4\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-8.2\" cy=\"0.6\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-4.1\" cy=\"-1.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"14.7\" cy=\"-0.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"2.4\" cy=\"3.5\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-10.1\" cy=\"-4.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"13.1\" cy=\"3.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><ellipse cx=\"252\" cy=\"114.8\" rx=\"20.8\" ry=\"8\" fill=\"#4A2E10\" opacity=\"0.25\"/><path d=\"M226 90c2 16 9 21 26 21s20-5 26 -21z\" fill=\"#F4F0E6\"/><path d=\"M234 98c4 12 8 17 18 17s14-4 18 -17\" fill=\"none\" stroke=\"#3C5C8E\" stroke-width=\"3\"/><ellipse cx=\"252\" cy=\"90\" rx=\"26\" ry=\"7\" fill=\"#E4DECF\"/><ellipse cx=\"252\" cy=\"91\" rx=\"21\" ry=\"5\" fill=\"url(#i_tempeh_sam)\"/><ellipse cx=\"246\" cy=\"86\" rx=\"8\" ry=\"1.8\" fill=\"#fff\" opacity=\".35\"/><circle cx=\"60\" cy=\"140\" r=\"10\" fill=\"#F6E24B\"/><circle cx=\"60\" cy=\"140\" r=\"8\" fill=\"#FBF08A\"/><path d=\"M60 140L68.0 140.0\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L64.0 146.9\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L56.0 146.9\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L52.0 140.0\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L56.0 133.1\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L64.0 133.1\" stroke=\"#F0D63A\" stroke-width=\".9\"/>"
   },
-  "tienda": []
+  "tienda": [
+   [
+    "La soja",
+    "«Soja amarilla seca, ecológica», sin cáscara, en herbolarios o tiendas de alimentación ecológica.",
+    "soja"
+   ],
+   [
+    "El fermento",
+    "«Fermento de tempeh (Rhizopus oligosporus)», solo se encuentra online o en tiendas especializadas. Un sobre da para varios lotes.",
+    "fermento"
+   ]
+  ]
  },
  {
   "id": "ternasco",
@@ -9384,7 +9566,18 @@
     ]
    ]
   },
-  "tienda": []
+  "tienda": [
+   [
+    "El ternasco",
+    "Pide «ternasco de Aragón, paletilla o pierna, en trozos grandes». Con la denominación Ternasco de Aragón, si lo tienen. Que lo corten en 4 o 6 trozos.",
+    "ternasco"
+   ],
+   [
+    "Las patatas",
+    "Patatas de guisar o de freír, de tamaño medio, que se cortan en rodajas gruesas.",
+    "patatas"
+   ]
+  ]
  },
  {
   "id": "tortilla",
@@ -9906,7 +10099,18 @@
     ]
    }
   ],
-  "tienda": []
+  "tienda": [
+   [
+    "Las berenjenas",
+    "Berenjenas lisas y brillantes, de tamaño medio, sin zonas blandas.",
+    "berenjenas"
+   ],
+   [
+    "Las patatas",
+    "Patatas de freír (Kennebec, Monalisa).",
+    "patatas"
+   ]
+  ]
  },
  {
   "id": "xato",
@@ -10227,7 +10431,23 @@
     ]
    }
   ],
-  "tienda": []
+  "tienda": [
+   [
+    "El bacalao",
+    "«Bacalao desalado, en lomos con piel» para desmigar (200 g da para 4). Si está en sal, desalar 36-48 h antes.",
+    "bacalao"
+   ],
+   [
+    "Anchoas y ñoras",
+    "Anchoas en aceite, de calidad. Ñoras secas, para remojar antes.",
+    "anchoas|ñoras"
+   ],
+   [
+    "La escarola",
+    "Escarola blanca, con el cogollo bien cerrado.",
+    "escarola"
+   ]
+  ]
  },
  {
   "id": "zarangollo",
@@ -10457,6 +10677,17 @@
     ]
    }
   ],
-  "tienda": []
+  "tienda": [
+   [
+    "Los calabacines",
+    "«Calabacines pequeños y firmes», de piel brillante. Los grandes traen más agua y pepitas.",
+    "calabacin"
+   ],
+   [
+    "Los huevos",
+    "Huevos frescos, de gallinas camperas si puedes.",
+    "huevos"
+   ]
+  ]
  }
 ]

@@ -42,3 +42,7 @@ El asado de las celebraciones castellanas: carne de lechazo muy tierna, piel dor
 - **Poco**: el buen lechazo no necesita nada más.
 - **Barro**: la cazuela reparte el calor.
 - **Con ensalada**: lechuga y cebolla, sin nada más.
+
+## En la tienda
+
+- **El lechazo** [lechazo]: Pide «lechazo, media paletilla o pierna, en trozos grandes con hueso» y que sea de menos de 35 días (carne rosada pálida, grasa blanca). Dile que es para asar en horno de barro o cazuela.

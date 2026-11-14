@@ -48,3 +48,8 @@ Plato de pastores para aprovechar el pan duro: se humedece la víspera y se le d
 - **Pan de pueblo**: Necesita miga prieta: pan de hogaza de dos o tres días. El de barra se deshace.
 - **Humedad justa**: Si al día siguiente el pan está muy mojado, déjalo destapado un rato antes de freírlo.
 - **Cada casa, su compaña**: En unas casas con uvas, en otras con melón, sardinas, pimientos fritos o un huevo frito.
+
+## En la tienda
+
+- **El pan** [pan]: «Pan de pueblo de dos o tres días», de miga compacta. El pan fresco se hace pasta; el muy duro se desmigaja mal.
+- **Panceta y chorizo** [panceta|chorizo]: «Panceta fresca en tacos» y «chorizo para freír».

@@ -43,3 +43,8 @@ Más un guiso que una sopa: rebanadas finas de pan seco que beben el caldo de la
 - **Pan duro**: el pan tierno se deshace.
 - **De un día para otro**: al día siguiente espesa y está mejor.
 - **Poco caldo**: son sopas, pero casi se comen con tenedor.
+
+## En la tienda
+
+- **El pan** [pan]: «Pan moreno mallorquín» (pan de payés integral), seco. Corta en rebanadas finas y deja secar un día si está tierno.
+- **La verdura** [col|coliflor]: «Un cuarto de col o de coliflor»; que sea fresca y firme.

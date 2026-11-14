@@ -49,3 +49,8 @@ La sopa de ajo de los inviernos castellanos: pan de varios días, ajo, pimentón
 - **Cazuela de barro**: Guarda el calor y la sopa llega humeante al plato. Si es nueva, cúrala antes de usarla.
 - **Caldo con fundamento**: Con el caldo del cocido sale otra sopa. Con agua sola queda pobre.
 - **Pimentón de la Vera**: Si es ahumado, de la Vera, la sopa coge un punto que recuerda a la matanza.
+
+## En la tienda
+
+- **El pan** [pan]: «Pan de pueblo duro» de varios días. Si está fresco, córtalo y tuéstalo un poco antes.
+- **El jamón** [jamón]: «Taquitos de jamón serrano» o recortes.

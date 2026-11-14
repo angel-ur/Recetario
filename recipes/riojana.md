@@ -50,3 +50,8 @@ Guiso humilde y redondo: patatas chascadas que espesan el caldo, buen chorizo ri
 - **Chorizo riojano**: Curado y con buen pimentón. Dulce o picante, según la casa.
 - **Patata de guisar**: Mejor variedades harinosas, que espesan más el caldo.
 - **Con guindilla**: Unas guindillas en vinagre al lado del plato son la compañía de toda la vida.
+
+## En la tienda
+
+- **El chorizo** [chorizo]: «Chorizo riojano» o chorizo fresco para guisar. No uses el de cortar en lonchas, que se endurece.
+- **Las patatas** [patatas]: Patatas de guisar; se «chascan» y sueltan almidón.

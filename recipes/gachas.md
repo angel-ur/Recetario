@@ -40,3 +40,8 @@ Plato de pastores y de invierno: una crema espesa de harina de almortas con ajo 
 - **Cuchara de palo**: remover siempre en el mismo sentido.
 - **Espesor**: al enfriar espesa más, deja las gachas algo sueltas.
 - **El torrezno**: crujiente, para contrastar.
+
+## En la tienda
+
+- **La harina de almortas** [almortas]: «Harina de almortas (titos o guijas)». Búscala en tiendas de productos de la zona o en herbolarios. Si no la hay, se puede hacer con harina de garbanzo, pero el sabor cambia.
+- **Los torreznos** [torreznos|panceta]: «Panceta fresca en tiras» para freír, o torreznos ya hechos.

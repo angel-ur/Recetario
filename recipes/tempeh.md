@@ -57,3 +57,8 @@ Para 500 g de soja seca. Tiempo activo: unas 1,5 h; fermentación: 36 a 48 h. La
 - **Cómo se hace en Indonesia**: En los talleres tradicionales el fermento es el «usar» o «laru», que se obtiene de hojas de teca o de waru y es una colonia de hongo ya lista para sembrar. Hoy se usa ragi de tempe (Kompas). Se envuelve en hoja de plátano o plástico con agujeros y se deja madurar en un sitio cálido, unas 24 horas en el obrador a unos 30 °C o dos noches en casa.
 - **Limpieza ante todo**: En Indonesia se dice que el tempeh no sale si el agua no está limpia y las manos no están limpias. Una familia contaba que se le estropeó la tanda por tocar la soja alguien que venía de la calle (Eksotika Desa).
 - **Fuentes de estas notas**: Antara News, «Cara membuat tempe kedelai tradisional...», 1 jun 2025, antaranews.com/berita/4870645. Kompas.com, «Proses Pembuatan Tempe dari Nol sampai ke Meja Makanmu», 14 sep 2020, kompas.com/food/read/2020/09/14/133727575. Eksotika Desa, «Tempe Bungkus Daun Pisang», 19 nov 2022, eksotikadesa.id/tempe-bungkus-daun-pisang.
+
+## En la tienda
+
+- **La soja** [soja]: «Soja amarilla seca, ecológica», sin cáscara, en herbolarios o tiendas de alimentación ecológica.
+- **El fermento** [fermento]: «Fermento de tempeh (Rhizopus oligosporus)», solo se encuentra online o en tiendas especializadas. Un sobre da para varios lotes.

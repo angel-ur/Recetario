@@ -54,3 +54,8 @@ La empanada de las romerías y de las comidas de domingo: una masa fina y un rel
 - **Masa fina**: lo que se nota al comer es el relleno, no el pan.
 - **Del día anterior**: reposada una noche está mejor.
 - **Frío no, templado**: cortada con paciencia, sin que se desmigue.
+
+## En la tienda
+
+- **El atún o el bonito** [atún|bonito]: «Atún o bonito en aceite de oliva» en lata, buena calidad, bien escurrido.
+- **Los pimientos** [pimientos]: Carnosos, de carne gruesa; si son finos se deshacen en el relleno.

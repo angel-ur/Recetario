@@ -57,3 +57,8 @@ Tomate muy maduro, pan del día anterior y el aceite al final, poco a poco, para
 - **Tomate de verdad**: Todo depende del tomate: muy maduro, de rama o pera. Con tomate de invierno no hay truco que lo salve.
 - **Ajo con mesura**: Un diente basta para un kilo. El ajo crudo crece con las horas en la nevera.
 - **De un día para otro**: Aguanta perfecto dos días en la nevera, y al segundo está más redondo.
+
+## En la tienda
+
+- **Los tomates** [tomates]: «Tomates pera muy maduros, de rama». Es lo que decide el sabor; los duros y pálidos dan un gazpacho soso y ácido.
+- **El pimiento** [pimiento]: «Pimiento verde italiano», que es más dulce y fino.

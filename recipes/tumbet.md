@@ -53,3 +53,8 @@ Patata, berenjena y pimiento fritos por separado y una salsa de tomate de cocci�
 - **Solo o acompañando**: Se toma como plato o acompañando pescado frito, carne o un huevo frito.
 - **La greixonera**: Es la cazuela de barro mallorquina. Cualquier fuente de barro o de horno sirve.
 - **El aceite se aprovecha**: Fríe de más suave a más fuerte de sabor y filtra el aceite después: aún sirve para otra fritura.
+
+## En la tienda
+
+- **Las berenjenas** [berenjenas]: Berenjenas lisas y brillantes, de tamaño medio, sin zonas blandas.
+- **Las patatas** [patatas]: Patatas de freír (Kennebec, Monalisa).

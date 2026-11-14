@@ -60,3 +60,9 @@ La ensalada de invierno de Vilanova, Sitges y Vilafranca: escarola, bacalao, at�
 - **Plato de invierno**: De enero a marzo hay xatonadas populares en Vilanova i la Geltrú, Sitges, Vilafranca y El Vendrell.
 - **Primo del romesco**: La salsa es pariente del romesco de Tarragona: ñora, frutos secos, ajo, pan y aceite. Cambian las proporciones y el uso.
 - **La salsa aguanta**: Hecha la víspera está todavía mejor. Guárdala tapada en la nevera.
+
+## En la tienda
+
+- **El bacalao** [bacalao]: «Bacalao desalado, en lomos con piel» para desmigar (200 g da para 4). Si está en sal, desalar 36-48 h antes.
+- **Anchoas y ñoras** [anchoas|ñoras]: Anchoas en aceite, de calidad. Ñoras secas, para remojar antes.
+- **La escarola** [escarola]: Escarola blanca, con el cogollo bien cerrado.

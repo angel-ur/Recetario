@@ -54,3 +54,8 @@ Papas pequeñas cocidas en agua muy salada hasta que la piel se arruga y blanque
 - **La papa**: Las papas canarias (negra, bonita, borralla) son pequeñas y de piel fina. Con patatas nuevas pequeñas también salen.
 - **Mojo de un día para otro**: Los mojos ganan reposando unas horas. En la nevera aguantan varios días.
 - **El agua justa**: Si pones mucha agua no se arrugan: tiene que evaporarse casi del todo en la olla.
+
+## En la tienda
+
+- **Las papas** [papas]: «Papas pequeñas, arrugadas», de las de cocer enteras (papa negra, bonita). Con piel.
+- **Pimienta palmera y comino** [palmeras|guindillas|comino]: Pimienta palmera se encuentra en tiendas canarias; si no, guindillas secas.

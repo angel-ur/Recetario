@@ -44,3 +44,8 @@ De la huerta murciana: calabacín y cebolla pochados muy despacio, casi confitad
 - **Calabacín tierno**: Mejor pequeños y firmes: tienen menos agua y menos semillas.
 - **Fuego mínimo**: El zarangollo se hace, no se fríe. Si chisporrotea, el fuego está alto.
 - **Templado**: Recién hecho está bueno, pero templado sabe más a huerta.
+
+## En la tienda
+
+- **Los calabacines** [calabacin]: «Calabacines pequeños y firmes», de piel brillante. Los grandes traen más agua y pepitas.
+- **Los huevos** [huevos]: Huevos frescos, de gallinas camperas si puedes.
