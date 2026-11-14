@@ -182,6 +182,33 @@
       }
      },
      {
+      "t": "Al horno",
+      "m": 25,
+      "x": "A 200 °C. Hornea sin tapar hasta que el arroz haya absorbido el caldo y quede una costra dorada arriba.",
+      "ab": "No lo muevas: la costra es lo mejor.",
+      "f": 0,
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "cazuela",
+       "i": [
+        [
+         "arroz",
+         12
+        ],
+        [
+         "costilla",
+         2
+        ],
+        [
+         "morcilla",
+         2
+        ]
+       ],
+       "c": "#D9A441"
+      }
+     },
+     {
       "t": "Reposo",
       "m": 5,
       "x": "Deja reposar fuera del horno unos minutos antes de servir.",
@@ -3797,6 +3824,23 @@
       "ab": "El agujero deja salir el vapor. Con un trocito de masa se hace el adorno del centro.",
       "f": 0,
       "e": {
+       "k": "plato",
+       "v": "llano",
+       "i": [
+        [
+         "empanada",
+         1
+        ]
+       ],
+       "c": "#D9A441"
+      }
+     },
+     {
+      "t": "Hornea",
+      "m": 40,
+      "x": "A 200 °C. Hornea hasta que esté bien dorada. Deja templar antes de cortar.",
+      "f": 0,
+      "e": {
        "k": "horno",
        "t": "200 °C",
        "d": "bandeja",
@@ -4763,13 +4807,13 @@
     "tipo": "tu",
     "p": [
      {
-      "t": "Reposa",
-      "m": 10,
-      "x": "Saca y deja reposar tapado antes de servir.",
+      "t": "Horno fuerte",
+      "m": 60,
+      "x": "A 190 °C. Hornea sin tocar, hasta que la carne empiece a dorarse.",
       "f": 0,
       "e": {
        "k": "horno",
-       "t": "220 °C",
+       "t": "190 °C",
        "d": "cazuela",
        "i": [
         [
@@ -4778,6 +4822,46 @@
         ]
        ],
        "c": "#B5402F"
+      }
+     },
+     {
+      "t": "Da la vuelta",
+      "m": 45,
+      "x": "A 180 °C. Dale la vuelta, riega con su jugo y termina de asar.",
+      "ab": "Riega con cuchara y paciencia, sin pincharlo.",
+      "f": 0,
+      "e": {
+       "k": "horno",
+       "t": "180 °C",
+       "d": "cazuela",
+       "i": [
+        [
+         "cordero",
+         3,
+         1,
+         "r-dorado"
+        ]
+       ],
+       "c": "#B5402F"
+      }
+     },
+     {
+      "t": "Reposa",
+      "m": 10,
+      "x": "Saca y deja reposar tapado antes de servir.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "llano",
+       "i": [
+        [
+         "cordero",
+         4,
+         1,
+         "r-dorado"
+        ]
+       ],
+       "vapor": 1
       }
      }
     ]
@@ -9510,8 +9594,39 @@
       "ab": "Debajo de la carne para que beban el jugo.",
       "f": 0,
       "e": {
+       "k": "plato",
+       "v": "llano",
+       "i": [
+        [
+         "patata",
+         10
+        ],
+        [
+         "cordero",
+         3
+        ],
+        [
+         "ajo",
+         4
+        ]
+       ],
+       "polvo": "#FFFFFF"
+      }
+     }
+    ]
+   },
+   {
+    "n": "Asar",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Horno",
+      "m": 50,
+      "x": "A 190 °C. Hornea y riega de vez en cuando con el vino y el limón.",
+      "f": 0,
+      "e": {
        "k": "horno",
-       "t": "200 °C",
+       "t": "190 °C",
        "d": "bandeja",
        "i": [
         [
@@ -9525,13 +9640,33 @@
        ],
        "c": "#C0743A"
       }
+     },
+     {
+      "t": "Vuelta",
+      "m": 35,
+      "x": "A 190 °C. Dale la vuelta a la carne, riega y asa hasta que esté dorada y las patatas tiernas.",
+      "ab": "Si se secan las patatas, añade un poco de agua caliente.",
+      "f": 0,
+      "e": {
+       "k": "horno",
+       "t": "190 °C",
+       "d": "bandeja",
+       "i": [
+        [
+         "cordero",
+         3,
+         1,
+         "r-dorado"
+        ],
+        [
+         "patata",
+         6
+        ]
+       ],
+       "c": "#B5622E"
+      }
      }
     ]
-   },
-   {
-    "n": "Asar",
-    "tipo": "tu",
-    "p": []
    }
   ],
   "secretos": [

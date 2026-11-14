@@ -63,6 +63,26 @@
    "burbujas": 1
   },
   {
+   "k": "horno",
+   "t": "200 °C",
+   "d": "cazuela",
+   "i": [
+    [
+     "arroz",
+     12
+    ],
+    [
+     "costilla",
+     2
+    ],
+    [
+     "morcilla",
+     2
+    ]
+   ],
+   "c": "#D9A441"
+  },
+  {
    "k": "plato",
    "v": "cuenco",
    "c": "#D9A441",
@@ -496,6 +516,17 @@
    "k": "formar"
   },
   {
+   "k": "plato",
+   "v": "llano",
+   "i": [
+    [
+     "empanada",
+     1
+    ]
+   ],
+   "c": "#D9A441"
+  },
+  {
    "k": "horno",
    "t": "200 °C",
    "d": "bandeja",
@@ -589,7 +620,7 @@
   },
   {
    "k": "horno",
-   "t": "220 °C",
+   "t": "190 °C",
    "d": "cazuela",
    "i": [
     [
@@ -598,6 +629,33 @@
     ]
    ],
    "c": "#B5402F"
+  },
+  {
+   "k": "horno",
+   "t": "180 °C",
+   "d": "cazuela",
+   "i": [
+    [
+     "cordero",
+     3,
+     1,
+     "r-dorado"
+    ]
+   ],
+   "c": "#B5402F"
+  },
+  {
+   "k": "plato",
+   "v": "llano",
+   "i": [
+    [
+     "cordero",
+     4,
+     1,
+     "r-dorado"
+    ]
+   ],
+   "vapor": 1
   }
  ],
  "pilpil": [
@@ -900,8 +958,27 @@
    "polvo": "#FFFFFF"
   },
   {
+   "k": "plato",
+   "v": "llano",
+   "i": [
+    [
+     "patata",
+     10
+    ],
+    [
+     "cordero",
+     3
+    ],
+    [
+     "ajo",
+     4
+    ]
+   ],
+   "polvo": "#FFFFFF"
+  },
+  {
    "k": "horno",
-   "t": "200 °C",
+   "t": "190 °C",
    "d": "bandeja",
    "i": [
     [
@@ -914,6 +991,24 @@
     ]
    ],
    "c": "#C0743A"
+  },
+  {
+   "k": "horno",
+   "t": "190 °C",
+   "d": "bandeja",
+   "i": [
+    [
+     "cordero",
+     3,
+     1,
+     "r-dorado"
+    ],
+    [
+     "patata",
+     6
+    ]
+   ],
+   "c": "#B5622E"
   }
  ]
 }

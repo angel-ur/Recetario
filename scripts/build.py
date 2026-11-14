@@ -71,9 +71,12 @@ def parse_fases(content):
         i = 0
         while i < len(lines):
             l = lines[i]
-            mm = re.match(r"\s*\d+\.\s+\*\*(.+?)\*\*\s*(?:\((\d+)\s*min\))?\s*-\s*(.*)", l)
+            mm = re.match(r"\s*\d+\.\s+\*\*(.+?)\*\*\s*(?:\((\d+)\s*min(?:,\s*(\d+)\s*°C)?\))?\s*-\s*(.*)", l)
             if mm:
-                paso = {"t": mm.group(1), "m": int(mm.group(2) or 0), "x": mm.group(3).strip()}
+                texto = mm.group(4).strip()
+                if mm.group(3):
+                    texto = f"A {mm.group(3)} °C. " + texto
+                paso = {"t": mm.group(1), "m": int(mm.group(2) or 0), "x": texto}
                 j = i + 1
                 if j < len(lines) and lines[j].strip().startswith(">"):
                     paso["ab"] = lines[j].strip()[1:].strip()
