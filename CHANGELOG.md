@@ -4,6 +4,10 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+### Corregido
+- Ruta de la compra: si el mapa principal no responde o va saturado, se consulta un segundo servicio; y si ninguno responde, se avisa de que no hay conexión con el mapa en lugar de decir que no hay tiendas.
+- La lista por tienda avisa de cuántos ingredientes no tienen precio de referencia.
+
 ### Añadido
 - Sesiones de cocina: «Empezar a cocinar» en cada receta, barra de platos en toda la app y vista «Ahora» que entrelaza los pasos de hasta 3 recetas a la vez. Las sesiones caducan solas (aviso a las 4 h, cierre a las 6 h) y no guardan nada al cerrarse.
 - Planificador por dependencias (pasos que necesitan otros, pasos que se hacen a la vez que otro, horno único) con datos para caldo, rabo, cocido y lentejas.

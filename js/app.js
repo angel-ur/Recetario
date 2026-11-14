@@ -394,19 +394,43 @@
     return hoy.some(function (t) { return min >= t[0] && min < t[1]; });
   }
   function claveT(c) { return c.n + '|' + c.lat.toFixed(3) + '|' + c.lon.toFixed(3); }
-  function buscaCaja(id, la, lo, k) {
+  function aCandidatas(items, la, lo) {
+    var out = [], vistos = {};
+    items.forEach(function (e) {
+      if (!e.n || isNaN(e.lat) || isNaN(e.lon)) return;
+      var c = { n: e.n, lat: e.lat, lon: e.lon, m: Math.round(metros(la, lo, e.lat, e.lon)), oh: e.oh || '' };
+      var cl = claveT(c); if (vistos[cl]) return; vistos[cl] = 1;
+      out.push(c);
+    });
+    return out;
+  }
+  function buscaNominatim(id, la, lo, k) {
     var kk = k * 1.33;
     var u = 'https://nominatim.openstreetmap.org/search?format=jsonv2&limit=40&bounded=1&extratags=1&accept-language=es&q=' + encodeURIComponent(BUSCA[id]) + '&viewbox=' + (lo - kk) + ',' + (la + k) + ',' + (lo + kk) + ',' + (la - k);
     return conTope(fetch(u).then(function (r) { return r.ok ? r.json() : Promise.reject(new Error('http ' + r.status)); }), 9000).then(function (arr) {
-      var out = [], vistos = {};
-      (arr || []).forEach(function (e) {
-        var y = +e.lat, x = +e.lon, n = e.name || '';
-        if (!n || isNaN(y) || isNaN(x)) return;
-        var c = { n: n, lat: y, lon: x, m: Math.round(metros(la, lo, y, x)), oh: (e.extratags && e.extratags.opening_hours) || '' };
-        var cl = claveT(c); if (vistos[cl]) return; vistos[cl] = 1;
-        out.push(c);
+      return (arr || []).map(function (e) { return { n: e.name || '', lat: +e.lat, lon: +e.lon, oh: (e.extratags && e.extratags.opening_hours) || '' }; });
+    });
+  }
+  /* segundo servicio de mapas, por si el primero no responde o va saturado */
+  function buscaOverpass(id, la, lo, k) {
+    var kk = k * 1.33, f = BUSCA[id].replace(/^\[|\]$/g, '');
+    var q = '[out:json][timeout:12];nwr[' + f + '](' + (la - k) + ',' + (lo - kk) + ',' + (la + k) + ',' + (lo + kk) + ');out center tags 40;';
+    return conTope(fetch('https://overpass-api.de/api/interpreter', { method: 'POST', body: 'data=' + encodeURIComponent(q), headers: { 'Content-Type': 'application/x-www-form-urlencoded' } })
+      .then(function (r) { return r.ok ? r.json() : Promise.reject(new Error('http ' + r.status)); }), 14000).then(function (j) {
+      return ((j && j.elements) || []).map(function (e) {
+        var t = e.tags || {}, c = e.center || e;
+        return { n: t.name || '', lat: +c.lat, lon: +c.lon, oh: t.opening_hours || '' };
       });
-      return out;
+    });
+  }
+  var fallosMapa = 0;
+  function buscaCaja(id, la, lo, k) {
+    return buscaNominatim(id, la, lo, k).then(function (r) { return { r: r, ok: true }; }, function () { return { r: [], ok: false }; }).then(function (x) {
+      if (x.ok && x.r.length) return aCandidatas(x.r, la, lo);
+      return buscaOverpass(id, la, lo, k).then(function (r2) { return aCandidatas(r2, la, lo); }, function (e) {
+        if (!x.ok) { fallosMapa++; throw e; }
+        return [];
+      });
     });
   }
   /* quita las descartadas, ordena por distancia y deja las cerradas ahora al final */
@@ -440,7 +464,7 @@
     navigator.geolocation.getCurrentPosition(function (pos) {
       clearTimeout(tope);
       var la = Math.round(pos.coords.latitude * 1e5) / 1e5, lo = Math.round(pos.coords.longitude * 1e5) / 1e5;
-      var ps = paradasActivas(), res = [], mio = rutaCalc = { estado: 'buscando', ya: true, msg: 'Buscando las tiendas más cercanas…' };
+      fallosMapa = 0; var ps = paradasActivas(), res = [], mio = rutaCalc = { estado: 'buscando', ya: true, msg: 'Buscando las tiendas más cercanas…' };
       var hayMk = ps.filter(function (p) { return COMPRA_MK[p.id]; }).length >= 2, total = ps.length + (hayMk ? 1 : 0), hechos = 0, mkRaw = [];
       repintaCompra();
       var cadena = Promise.resolve();
@@ -453,7 +477,7 @@
       });
       cadena.then(function () {
         if (rutaCalc !== mio) return;
-        if (!res.some(function (s) { return s.raw.length; }) && !mkRaw.length) { rutaCalc = { estado: 'error', msg: 'No he encontrado ninguna de esas tiendas cerca de ti. Prueba desde otra zona.' }; repintaCompra(); return; }
+        if (!res.some(function (s) { return s.raw.length; }) && !mkRaw.length) { rutaCalc = { estado: 'error', msg: fallosMapa ? 'Ahora mismo no consigo consultar el mapa de tiendas. Espera un minuto y vuelve a intentarlo.' : 'No he encontrado ninguna de esas tiendas cerca de ti. Prueba desde otra zona.' }; repintaCompra(); return; }
         construyeRuta(la, lo, { res: res, mk: { raw: mkRaw, alts: [], sel: 0 }, usaMk: true }, mio);
       });
     }, function (err) { clearTimeout(tope); rutaCalc = { estado: 'error', msg: err && err.code === 1 ? 'Sin permiso de ubicación. En el iPhone: Ajustes > Privacidad y seguridad > Localización > tu navegador > «Al usar la app», y recarga.' : 'No he podido ver tu ubicación ahora. Inténtalo de nuevo.' }; repintaCompra(); }, { timeout: 12000, maximumAge: 60000 });
@@ -884,7 +908,7 @@
     });
     var ids = ORDEN_TOUR.filter(function (id) { return paradas[id]; });
     var h = '<p class="ayuda">Un recorrido: lo que no se enfría primero, el pescado al final. Toca para marcar comprado; si una tienda no lo tiene, «Plan B» lo pasa a la otra opción.</p><ol class="ruta">';
-    var plist = [], k = 0, hayPrecio = false;
+    var plist = [], k = 0, hayPrecio = false, sinPx = 0;
     ids.forEach(function (id) {
       var P = paradas[id], pend = P.its.filter(function (x) { return !x[0].d; });
       plist.push(P.p);
@@ -892,11 +916,11 @@
       h += '<li class="parada' + (hecha ? ' hecha' : '') + '"><div class="parada-cab"><span class="parada-n">' + (hecha ? '✓' : k) + '</span><h3>' + esc(P.p.nombre) + '</h3><a class="donde-link" href="' + enlaceParada(P.p) + '" target="_blank" rel="noopener">Mapa</a></div>' +
         '<ul class="compra-lista">' + agrupaCompra(P.its).map(function (g) {
           var c = g.items[0], ids = g.idx.join(','), hecho = g.items.every(function (z) { return z.d; }), px = g.items.some(function (z) { return z.x; });
-          return '<li class="pit"><button type="button" class="compra-it" data-compra="' + ids + '" aria-pressed="' + hecho + '">' + esc(g.texto) + (px ? '<span class="donde"><b>Plan B</b></span>' : '') + '</button>' + (hecho ? '' : '<button type="button" class="planb" data-planb="' + ids + '" aria-label="Plan B para ' + esc(g.texto) + '">' + (px ? 'Volver' : 'No lo tienen') + '</button>') + (function () { var pr = precioDe(g); if (pr) hayPrecio = true; return htmlPropio(g) + (pr ? '<div class="precio-o">Precio orientativo: <b>' + pr.txt + '</b></div>' : ''); })() + (g.multi ? '<button type="button" class="desglose" data-desglose="1" aria-expanded="false">De qué recetas ▾</button><div class="desglose-box" hidden>' + trazaGrupo(g) + '</div>' : '') + (hecho ? '' : notasGrupo(g)) + '</li>';
+          return '<li class="pit"><button type="button" class="compra-it" data-compra="' + ids + '" aria-pressed="' + hecho + '">' + esc(g.texto) + (px ? '<span class="donde"><b>Plan B</b></span>' : '') + '</button>' + (hecho ? '' : '<button type="button" class="planb" data-planb="' + ids + '" aria-label="Plan B para ' + esc(g.texto) + '">' + (px ? 'Volver' : 'No lo tienen') + '</button>') + (function () { var pr = precioDe(g); if (pr) hayPrecio = true; else if (!hecho) sinPx++; return htmlPropio(g) + (pr ? '<div class="precio-o">Precio orientativo: <b>' + pr.txt + '</b></div>' : ''); })() + (g.multi ? '<button type="button" class="desglose" data-desglose="1" aria-expanded="false">De qué recetas ▾</button><div class="desglose-box" hidden>' + trazaGrupo(g) + '</div>' : '') + (hecho ? '' : notasGrupo(g)) + '</li>';
         }).join('') + '</ul></li>';
     });
     h += '</ol>';
-    if (hayPrecio && PRECIOS) h += '<p class="aviso-precio">Precios orientativos, ' + esc(PRECIOS.ambito) + ': precio mayorista de ' + esc(PRECIOS.fuente) + ', ' + esc(PRECIOS.semana) + ' (consultado el ' + esc(PRECIOS.consultado) + '), más un margen típico de tienda (×' + String(PRECIOS.margen[0]).replace('.', ',') + ' a ×' + String(PRECIOS.margen[1]).replace('.', ',') + '). Es una estimación, no un precio oficial: un mercado, una tienda de barrio o un producto ecológico pueden salirse del rango.</p>';
+    if (hayPrecio && PRECIOS) h += '<p class="aviso-precio">Precios orientativos, ' + esc(PRECIOS.ambito) + ': precio mayorista de ' + esc(PRECIOS.fuente) + ', ' + esc(PRECIOS.semana) + ' (consultado el ' + esc(PRECIOS.consultado) + '), más un margen típico de tienda (×' + String(PRECIOS.margen[0]).replace('.', ',') + ' a ×' + String(PRECIOS.margen[1]).replace('.', ',') + '). Es una estimación, no un precio oficial: un mercado, una tienda de barrio o un producto ecológico pueden salirse del rango.' + (sinPx ? ' Para los otros ' + sinPx + ' ingredientes (carne, huesos, especias, etc.) no hay precio de referencia fiable y no lo invento.' : '') + '</p>';
     var cl = Object.keys(cats);
     if (cl.length) h += '<details class="elige"><summary>Dónde compro cada cosa</summary><div class="elige-cuerpo">' + cl.map(function (c) {
       var d = cats[c], p = prefDe(c);
