@@ -309,6 +309,65 @@
     if (pts.length) u += '&origin=' + encodeURIComponent('Mi ubicación') + '&waypoints=' + encodeURIComponent(pts.join('|'));
     return u;
   }
+
+  /* Ruta dinamica: la tienda mas cercana de cada tipo a tu ubicacion actual (OpenStreetMap/Overpass) y ruta completa en Google Maps */
+  var OSM = {
+    super: 'shop"="supermarket', especia: 'shop"~"^(spices|herbalist|health_food)$', legumbre: 'shop"~"^(deli|health_food|farm)$', arroz: 'shop"~"^(deli|health_food)$',
+    aceite: 'shop"~"^(deli|wine|farm)$', despensa: 'shop"~"^(deli|health_food)$', panaderia: 'shop"="bakery', verdura: 'shop"~"^(greengrocer|farm)$',
+    huevo: 'shop"~"^(farm|dairy|greengrocer|deli)$', carne: 'shop"="butcher', embutido: 'shop"~"^(deli|butcher|charcuterie)$', pescado: 'shop"="seafood'
+  };
+  var OVERPASS = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter'];
+  var rutaCalc = null; // { estado:'buscando'|'lista'|'error', paradas:[...], url }
+  function metros(a, b, c, d) { var R0 = 6371000, r = Math.PI / 180, dl = (c - a) * r, dn = (d - b) * r; var x = Math.sin(dl / 2) * Math.sin(dl / 2) + Math.cos(a * r) * Math.cos(c * r) * Math.sin(dn / 2) * Math.sin(dn / 2); return 2 * R0 * Math.asin(Math.sqrt(x)); }
+  function masCercana(id, la, lo) {
+    var q = '[out:json][timeout:12];nwr["' + OSM[id] + '"]["name"](around:3000,' + la + ',' + lo + ');out center 40;';
+    function intenta(n) {
+      if (n >= OVERPASS.length) return Promise.resolve(null);
+      var ctl = window.AbortController ? new AbortController() : null, to = setTimeout(function () { if (ctl) ctl.abort(); }, 9000);
+      return fetch(OVERPASS[n] + '?data=' + encodeURIComponent(q), ctl ? { signal: ctl.signal } : {}).then(function (r) { clearTimeout(to); return r.ok ? r.json() : Promise.reject(); }).then(function (j) {
+        var best = null;
+        (j.elements || []).forEach(function (e) {
+          var y = e.lat !== undefined ? e.lat : e.center && e.center.lat, x = e.lon !== undefined ? e.lon : e.center && e.center.lon;
+          if (y === undefined || x === undefined) return;
+          var m = metros(la, lo, y, x); if (!best || m < best.m) best = { n: (e.tags && e.tags.name) || '', lat: y, lon: x, m: Math.round(m) };
+        });
+        return best;
+      }).catch(function () { clearTimeout(to); return intenta(n + 1); });
+    }
+    return intenta(0);
+  }
+  function paradasActivas() {
+    var vistos = {}, out = [];
+    compra.forEach(function (c) { if (c.d) return; var p = paradaDe(c); if (!vistos[p.id]) { vistos[p.id] = p; } });
+    ORDEN_TOUR.forEach(function (id) { if (vistos[id]) out.push(vistos[id]); });
+    return out;
+  }
+  function urlRuta(la, lo, ps) {
+    var pts = ps.slice(0, 9).map(function (s) { return s.lat !== undefined ? s.lat + ',' + s.lon : (s.id === 'super' ? 'supermercado' : MAPAQ[s.id]); });
+    var dest = casa ? casa.lat + ',' + casa.lon : la + ',' + lo;
+    return 'https://www.google.com/maps/dir/?api=1&travelmode=walking&origin=' + la + ',' + lo + '&destination=' + dest + (pts.length ? '&waypoints=' + encodeURIComponent(pts.join('|')) : '');
+  }
+  function calculaRuta() {
+    if (!navigator.geolocation) { aviso('Tu navegador no da la ubicación.'); return; }
+    rutaCalc = { estado: 'buscando', paradas: [] }; repintaCompra();
+    navigator.geolocation.getCurrentPosition(function (pos) {
+      var la = Math.round(pos.coords.latitude * 1e5) / 1e5, lo = Math.round(pos.coords.longitude * 1e5) / 1e5;
+      var ps = paradasActivas();
+      Promise.all(ps.map(function (p) { return masCercana(p.id, la, lo).then(function (r) { var o = { id: p.id, nombre: p.nombre }; if (r) { o.lat = r.lat; o.lon = r.lon; o.lugar = r.n; o.m = r.m; } return o; }); })).then(function (res) {
+        rutaCalc = { estado: 'lista', paradas: res, la: la, lo: lo, url: urlRuta(la, lo, res) };
+        repintaCompra();
+      });
+    }, function () { rutaCalc = { estado: 'error', paradas: [] }; repintaCompra(); }, { timeout: 10000, maximumAge: 30000 });
+  }
+  function rutaHTML() {
+    var h = '<div class="vuelta"><p class="eti">Ruta por las tiendas más cercanas</p>';
+    if (!rutaCalc) return h + '<p class="ayuda">Busca la tienda más cercana de cada tipo desde donde estás y arma la ruta completa en Maps' + (casa ? ', con la vuelta a casa' : '') + '.</p><button type="button" class="btn sec" data-ruta="1">Calcular ruta desde mi ubicación</button></div>';
+    if (rutaCalc.estado === 'buscando') return h + '<p class="ayuda">Buscando las tiendas más cercanas…</p></div>';
+    if (rutaCalc.estado === 'error') return h + '<p class="ayuda">No he podido ver tu ubicación. Revisa el permiso de ubicación del navegador.</p><button type="button" class="btn sec" data-ruta="1">Reintentar</button></div>';
+    h += '<ol class="ruta-res">' + rutaCalc.paradas.map(function (s) { return '<li><b>' + esc(s.nombre) + '</b>: ' + (s.lugar ? esc(s.lugar) + ' · ' + (s.m < 1000 ? s.m + ' m' : (s.m / 1000).toFixed(1).replace('.', ',') + ' km') : 'Maps buscará el más cercano') + '</li>'; }).join('') + '</ol>' +
+      '<a class="btn sec" href="' + rutaCalc.url + '" target="_blank" rel="noopener">Abrir ruta completa en Maps' + (casa ? ' (con vuelta a casa)' : '') + '</a><button type="button" class="reiniciar" data-ruta="1">Recalcular</button>';
+    return h + '</div>';
+  }
   function compraPorReceta() {
     var grupos = {}, orden = [];
     compra.forEach(function (c, n) { if (!grupos[c.r]) { grupos[c.r] = []; orden.push(c.r); } grupos[c.r].push([c, n]); });
@@ -342,8 +401,8 @@
       var d = cats[c], p = prefDe(c);
       return '<div class="elige-fila"><span>' + esc(d[3].replace(/^Tienda /, 'tienda ').toLowerCase()) + '</span><span class="seg"><button type="button" data-tpref="' + c + '|facil" aria-pressed="' + (p === 'facil') + '">Súper</button><button type="button" data-tpref="' + c + '|mejor" aria-pressed="' + (p === 'mejor') + '">' + esc(d[3]) + '</button></span></div>';
     }).join('') + '</div></details>';
-    var rc = rutaCompleta(plist);
-    h += '<div class="vuelta"><p class="eti">Vuelta a casa</p>' + (casa ? '<a class="btn sec" href="' + (rc || '#') + '" target="_blank" rel="noopener">Abrir ruta con vuelta a casa</a><button type="button" class="reiniciar" data-casa="1">Cambiar mi casa</button>' : '<p class="ayuda">Guarda dónde vives estando en casa y te abro la ruta de vuelta en Maps. Se queda solo en este móvil.</p><button type="button" class="btn sec" data-casa="1">Guardar mi casa aquí</button>') + '</div>';
+    h += rutaHTML();
+    h += '<div class="vuelta">' + (casa ? '<p class="ayuda">Tu casa está guardada en este móvil.</p><button type="button" class="reiniciar" data-casa="1">Cambiar mi casa</button>' : '<p class="eti">Vuelta a casa</p><p class="ayuda">Guarda dónde vives estando en casa y la ruta termina allí. Se queda solo en este móvil.</p><button type="button" class="btn sec" data-casa="1">Guardar mi casa aquí</button>') + '</div>';
     return h;
   }
   function compraHTML() {
@@ -790,7 +849,7 @@
   /* ---------- Eventos ---------- */
   document.addEventListener('click', function (ev) {
     if (!$('#menu').hidden && !ev.target.closest('#menu,#menu-btn')) menuAbre(false);
-    var t = ev.target.closest('[data-ir],[data-menu],#mas-filtros,#quita-filtros,[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-cvista],[data-planb],[data-tpref],[data-casa],[data-vaciar],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
+    var t = ev.target.closest('[data-ir],[data-menu],#mas-filtros,#quita-filtros,[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-cvista],[data-ruta],[data-planb],[data-tpref],[data-casa],[data-vaciar],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
     if (!t) return;
     if (t.hasAttribute('data-ir')) { ir(t.getAttribute('data-ir')); return; }
     if (t.hasAttribute('data-menu')) { var ma = t.getAttribute('data-menu'); if (ma === 'abre') { menuAbre($('#menu').hidden); return; } menuAccion(ma); return; }
@@ -819,16 +878,17 @@
     }
     if (t.hasAttribute('data-compra')) {
       var ci = +t.getAttribute('data-compra');
-      if (compra[ci]) { var nv = !compra[ci].d, nt = normT(compra[ci].t); compra.forEach(function (c) { if (normT(c.t) === nt) c.d = nv; }); store.set('compra', compra); if (cvista === 'tienda') repintaCompra(); else $$('[data-compra]').forEach(function (b) { var cc = compra[+b.getAttribute('data-compra')]; if (cc) b.setAttribute('aria-pressed', !!cc.d); }); }
+      if (compra[ci]) { var nv = !compra[ci].d, nt = normT(compra[ci].t); compra.forEach(function (c) { if (normT(c.t) === nt) c.d = nv; }); store.set('compra', compra); rutaCalc = null; if (cvista === 'tienda') repintaCompra(); else $$('[data-compra]').forEach(function (b) { var cc = compra[+b.getAttribute('data-compra')]; if (cc) b.setAttribute('aria-pressed', !!cc.d); }); }
       return;
     }
+    if (t.hasAttribute('data-ruta')) { calculaRuta(); return; }
     if (t.hasAttribute('data-cvista')) { cvista = t.getAttribute('data-cvista'); store.set('cvista', cvista); repintaCompra(); return; }
-    if (t.hasAttribute('data-planb')) { var pi = +t.getAttribute('data-planb'); if (compra[pi]) { compra[pi].x = !compra[pi].x; store.set('compra', compra); repintaCompra(); } return; }
-    if (t.hasAttribute('data-tpref')) { var tp = t.getAttribute('data-tpref').split('|'); tprefs[tp[0]] = tp[1]; store.set('tprefs', tprefs); compra.forEach(function (c) { delete c.x; }); store.set('compra', compra); repintaCompra(); var dd = document.querySelector('.elige'); if (dd) dd.open = true; return; }
+    if (t.hasAttribute('data-planb')) { var pi = +t.getAttribute('data-planb'); if (compra[pi]) { compra[pi].x = !compra[pi].x; store.set('compra', compra); rutaCalc = null; repintaCompra(); } return; }
+    if (t.hasAttribute('data-tpref')) { var tp = t.getAttribute('data-tpref').split('|'); tprefs[tp[0]] = tp[1]; store.set('tprefs', tprefs); rutaCalc = null; compra.forEach(function (c) { delete c.x; }); store.set('compra', compra); repintaCompra(); var dd = document.querySelector('.elige'); if (dd) dd.open = true; return; }
     if (t.hasAttribute('data-casa')) {
       if (!navigator.geolocation) { aviso('Tu navegador no da la ubicación.'); return; }
       aviso('Buscando dónde estás…');
-      navigator.geolocation.getCurrentPosition(function (pos) { casa = { lat: Math.round(pos.coords.latitude * 1e4) / 1e4, lon: Math.round(pos.coords.longitude * 1e4) / 1e4 }; store.set('casa', casa); repintaCompra(); aviso('Casa guardada en este móvil.'); }, function () { aviso('No he podido ver tu ubicación. Revisa el permiso.'); }, { timeout: 10000, maximumAge: 60000 });
+      navigator.geolocation.getCurrentPosition(function (pos) { casa = { lat: Math.round(pos.coords.latitude * 1e4) / 1e4, lon: Math.round(pos.coords.longitude * 1e4) / 1e4 }; store.set('casa', casa); if (rutaCalc && rutaCalc.estado === 'lista') rutaCalc.url = urlRuta(rutaCalc.la, rutaCalc.lo, rutaCalc.paradas); repintaCompra(); aviso('Casa guardada en este móvil.'); }, function () { aviso('No he podido ver tu ubicación. Revisa el permiso.'); }, { timeout: 10000, maximumAge: 60000 });
       return;
     }
     if (t.hasAttribute('data-vaciar')) { if (window.confirm('¿Vaciar la lista de la compra?')) { compra = []; store.set('compra', compra); vistaIndice(); } return; }
