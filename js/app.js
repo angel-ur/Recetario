@@ -163,6 +163,19 @@
       out.push(q);
     });
     out.forEach(function (p, i) { p.n = i + 1; });
+    // Pasos que caben mientras otro sigue solo (par): los siguientes cuyo tiempo suma menos que la espera
+    out.forEach(function (p, i) {
+      if (!p.par || !p.tim) return;
+      var acu = 0, lista = [], j, q;
+      for (j = i + 1; j < out.length; j++) {
+        q = out[j];
+        if (q.w || q.post || acu + (q.m || 0) > p.tim) break;
+        acu += q.m || 0; lista.push(q);
+      }
+      if (!lista.length) return;
+      p.cons = lista.map(function (q) { return { n: q.n, t: q.t, m: q.m, key: q.key }; });
+      lista.forEach(function (q) { q.enpar = { n: p.n, t: p.t, tim: p.tim }; });
+    });
     return out;
   }
   function calcula(r, e, met) {
@@ -835,6 +848,8 @@
     document.getElementById('plan-res').scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
   });
   document.addEventListener('click', function (ev) {
+    var ir = ev.target.closest('[data-ir-paso]');
+    if (ir) { var dest = document.getElementById(ir.getAttribute('data-ir-paso')); if (dest) dest.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
     var t = ev.target.closest('[data-plan-con]'); if (!t) return;
     var id = t.getAttribute('data-plan-con');
     var go = function () {
@@ -1103,10 +1118,10 @@
     return '<article class="paso" id="' + pref + 'p-' + p.key + '" data-key="' + key + '" aria-labelledby="' + pref + 'pt-' + p.key + '">' +
       '<figure class="ilustra">' + ESC.svg(p.e, p.t) + '</figure><div class="paso-cuerpo">' +
       '<div class="paso-cab"><span class="paso-num" aria-hidden="true">' + p.n + '</span><h4 id="' + pref + 'pt-' + p.key + '">' + esc(p.t) + '</h4><span class="paso-hora num" data-h="' + p.key + '">' + (pref ? esc(hora(p.ini)) : '') + '</span></div>' +
-      '<ul class="chips">' + (esEspera(p) && p.m >= 20 ? '<li class="chip libre">Tiempo libre</li>' : '') + '<li class="chip num">' + (p.tim ? '' : '≈ ') + durTxt(p.m) + '</li>' + chipFuego(p.f) + '</ul>' +
+      '<ul class="chips">' + (esEspera(p) && p.m >= 20 ? '<li class="chip libre">Tiempo libre</li>' : '') + (p.enpar ? '<li class="chip libre">A la vez que el paso ' + p.enpar.n + '</li>' : '') + '<li class="chip num">' + (p.tim ? '' : '≈ ') + durTxt(p.m) + '</li>' + chipFuego(p.f) + '</ul>' +
       '<p class="texto">' + texto(r, p.x, rac) + '</p>' +
       (p.ab ? '<div class="abuela"><span class="sello-ab" aria-hidden="true">A</span><p><b>Así lo hace la abuela</b>' + texto(r, p.ab, rac) + '</p></div>' : '') +
-      (esEspera(p) && p.m >= 20 ? '<div class="mientras"><b>Mientras tanto</b><p>Tienes unos ' + durTxt(p.m) + ' libres: no hace falta estar encima. Adelanta otro plato, prepara lo que viene o recoge.</p><button type="button" class="mientras-btn" data-plan-con="' + r.id + '">Cocinar otro plato a la vez</button></div>' : (p.par ? '<div class="mientras"><b>Mientras tanto</b><p>Esto sigue solo; puedes pasar ya al siguiente paso.</p></div>' : '')) +
+      (esEspera(p) && p.m >= 20 ? '<div class="mientras"><b>Mientras tanto</b><p>Tienes unos ' + durTxt(p.m) + ' libres: no hace falta estar encima. Adelanta otro plato, prepara lo que viene o recoge.</p><button type="button" class="mientras-btn" data-plan-con="' + r.id + '">Cocinar otro plato a la vez</button></div>' : (p.par ? '<div class="mientras"><b>Mientras tanto</b><p>Esto sigue solo ' + durTxt(p.tim || p.m) + '. ' + (p.cons ? 'En ese hueco te da tiempo a:</p><ol class="mientras-lista">' + p.cons.map(function (q) { return '<li><button type="button" class="ir-paso" data-ir-paso="' + (pref || '') + 'p-' + q.key + '">Paso ' + q.n + ': ' + esc(q.t) + '</button> <span class="num">' + durTxt(q.m) + '</span></li>'; }).join('') + '</ol>' : 'Puedes pasar ya al siguiente paso.</p>') + '</div>' : '')) +
       '<div class="acciones">' + timer + '<button class="hecho" type="button" data-hecho="' + key + '" aria-pressed="false"><svg class="i-no" viewBox="0 0 16 16" aria-hidden="true"><use href="#e-no"/></svg><svg class="i-ok" viewBox="0 0 16 16" aria-hidden="true"><use href="#e-ok"/></svg>Hecho</button></div></div></article>';
   }
 
