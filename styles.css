@@ -542,3 +542,5 @@ a, button, label, summary, [data-reg], [data-ir], .reg, .reg-hit, .chapa-hit {
 
 .reinicio { margin: 10px 0 0; text-align: right; }
 .reiniciar { font: inherit; font-size: 13px; background: none; border: none; color: var(--tinta-suave); text-decoration: underline; padding: 10px 6px; min-height: 44px; cursor: pointer; }
+
+.corazon { position: absolute; top: 10px; left: 10px; background: var(--tarjeta-bg); color: var(--rojo); border-radius: 999px; padding: 2px 9px; font-size: 15px; font-weight: 800; }

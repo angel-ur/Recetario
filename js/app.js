@@ -39,7 +39,8 @@
 
   /* ---------- Estado ---------- */
   var cocinados = store.get('cocinados', {}) || {};
-  var filtro = { cat: 'todas', t: 'todos', q: '' };
+  var favs = store.get('favs', {}) || {};
+  var filtro = { cat: 'todas', t: 'todos', q: '', fav: false };
   var regionSel = null, verEspana = false;
   function est(r) {
     var e = store.get('r:' + r.id, null) || {};
@@ -193,6 +194,7 @@
       '<div class="panel-region" id="panel-region">' + panelRegion() + '</div></section>';
     h += '<section aria-labelledby="t-fichas" style="display:grid;gap:14px"><div class="seccion-cab"><h2 id="t-fichas" style="font-size:27px">Todos los platos</h2><span class="ayuda num" id="n-fichas"></span></div>' +
       '<div class="filtros"><label class="sr-only" for="buscar">Buscar un plato o ingrediente</label><input class="buscar" id="buscar" type="search" placeholder="Busca un plato o un ingrediente" value="' + esc(filtro.q) + '">' +
+      '<div class="chips-fila" role="group" aria-label="Favoritos"><button type="button" class="filtro" id="ver-favs" aria-pressed="' + filtro.fav + '">♥ Mis favoritos</button></div>' +
       '<div class="chips-fila" role="group" aria-label="Tipo de plato">' + CATS.map(function (c) { return '<button type="button" class="filtro" data-cat="' + c[0] + '" aria-pressed="' + (filtro.cat === c[0]) + '">' + c[1] + '</button>'; }).join('') + '</div>' +
       '<div class="chips-fila" role="group" aria-label="Tiempo">' + TIEMPOS.map(function (c) { return '<button type="button" class="filtro" data-tiempo="' + c[0] + '" aria-pressed="' + (filtro.t === c[0]) + '">' + c[1] + '</button>'; }).join('') + '</div></div>' +
       '<div class="fichas" id="fichas"></div></section>';
@@ -227,6 +229,7 @@
     return '<h3>' + esc(g.n) + '</h3><ul class="filas">' + rs.map(fila).join('') + '</ul>';
   }
   function pasaFiltro(r) {
+    if (filtro.fav && !favs[r.id]) return false;
     if (filtro.cat !== 'todas' && r.cat !== filtro.cat) return false;
     if (filtro.t !== 'todos') {
       var c = resumenFicha(r);
@@ -247,7 +250,7 @@
     $('#n-fichas').textContent = lista.length + (lista.length === 1 ? ' plato' : ' platos');
     $('#fichas').innerHTML = lista.length ? lista.map(function (r) {
       var c = resumenFicha(r);
-      return '<a class="ficha" href="#' + r.id + '"><div class="ilu">' + ESC.svg(r.heroe, r.n) + (cocinados[r.id] ? '<span class="sello">Hecho</span>' : '') + '</div>' +
+      return '<a class="ficha" href="#' + r.id + '"><div class="ilu">' + ESC.svg(r.heroe, r.n) + (cocinados[r.id] ? '<span class="sello">Hecho</span>' : '') + (favs[r.id] ? '<span class="corazon" aria-label="Favorito">♥</span>' : '') + '</div>' +
         '<div class="cuerpo"><p class="lugar">' + esc(r.lugar) + '</p><h3>' + esc(r.n) + '</h3><p class="sub">' + esc(r.sub) + '</p>' + tbarra(c) +
         '<p class="meta"><span class="num">' + durTxt(c.tot) + '</span><span class="num">' + durTxt(c.tot - c.esp) + ' de trabajo</span>' + (c.pre ? '<span>Empieza la víspera</span>' : '') + '<span>' + dif(r.dif) + '</span></p></div></a>';
     }).join('') : '<p class="vacio">Ningún plato con esos filtros. Prueba con otro tiempo o tipo.</p>';
@@ -264,7 +267,7 @@
       '<h1>' + esc(r.n) + '<em>' + esc(r.sub) + '</em></h1><p class="intro">' + esc(r.intro) + '</p>' +
       '<dl class="datos"><div><dt>En total</dt><dd class="num" id="d-total"></dd></div><div><dt>Trabajo</dt><dd class="num" id="d-activo"></dd></div><div><dt>' + udN + '</dt><dd class="num" id="d-rac">' + coma(e.rac) + '</dd></div></dl>' +
       '<p class="vispera" id="d-vispera" hidden></p>' +
-      '<div class="acciones-r"><button type="button" class="btn" data-cocina="1"><svg viewBox="0 0 16 16" aria-hidden="true"><use href="#e-play"/></svg>Cocinar paso a paso</button>' +
+      '<div class="acciones-r"><button type="button" class="btn sec fav-r" data-fav="1" aria-pressed="' + (!!favs[r.id]) + '">' + (favs[r.id] ? '♥ En favoritos' : '♡ Guardar') + '</button><button type="button" class="btn" data-cocina="1"><svg viewBox="0 0 16 16" aria-hidden="true"><use href="#e-play"/></svg>Cocinar paso a paso</button>' +
       '<button type="button" class="btn sec hecho-r" data-cocinado="1" aria-pressed="' + (!!cocinados[r.id]) + '">' + (cocinados[r.id] ? 'Sellado en el pasaporte' : '¡Lo he cocinado!') + '</button></div></header>';
     // Horario
     h += '<section class="tarjeta" aria-labelledby="t-plan"><h2 id="t-plan">Organiza el día</h2>' +
@@ -557,7 +560,7 @@
 
   /* ---------- Eventos ---------- */
   document.addEventListener('click', function (ev) {
-    var t = ev.target.closest('[data-ir],[data-reg],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-reset],#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
+    var t = ev.target.closest('[data-ir],[data-reg],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-reset],[data-fav],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
     if (!t) return;
     if (t.hasAttribute('data-ir')) { ir(t.getAttribute('data-ir')); return; }
     if (t.hasAttribute('data-reg')) { var g = t.getAttribute('data-reg'); regionSel = regionSel === g ? null : g; verEspana = false; refrescaMapa(); return; }
@@ -568,6 +571,8 @@
     if (t.hasAttribute('data-tm')) { mas5(t.getAttribute('data-tm')); return; }
     if (t.hasAttribute('data-tr')) { reinicia(t.getAttribute('data-tr')); return; }
     if (t.hasAttribute('data-hecho')) { var p = t.getAttribute('data-hecho').split(':'); marcaHecho(porId[p[0]], +p[1]); if (cocina) pintaCocina(); else pintaHechos(); return; }
+    if (t.hasAttribute('data-fav')) { if (favs[actual.id]) delete favs[actual.id]; else favs[actual.id] = Date.now(); store.set('favs', favs); t.setAttribute('aria-pressed', !!favs[actual.id]); t.textContent = favs[actual.id] ? '♥ En favoritos' : '♡ Guardar'; return; }
+    if (t.id === 'ver-favs') { filtro.fav = !filtro.fav; t.setAttribute('aria-pressed', filtro.fav ? 'true' : 'false'); pintaFichas(); return; }
     if (t.hasAttribute('data-reset')) { if (window.confirm('¿Borrar todos los sellos del pasaporte?')) { cocinados = {}; store.set('cocinados', cocinados); vistaIndice(); } return; }
     if (t.hasAttribute('data-cocina')) { abreCocina(actual); return; }
     if (t.hasAttribute('data-cocinado')) { sella(actual); return; }
