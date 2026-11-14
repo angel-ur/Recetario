@@ -1131,10 +1131,6 @@
     "Para que cuaje de verdad hace falta fuego muy lento muchas horas. En cacerola salen 3 o 4 horas y no cuaja igual: en ese caso va todo a la vez, verdura incluida."
    ],
    [
-    "Verduras que NO",
-    "Nada de coliflor, brócoli, col ni coles de bruselas: sueltan azufre y amargan el caldo. Sí: cebolla, ajo, zanahoria, mucho puerro (da muy buen sabor), apio y similares."
-   ],
-   [
     "Cuánto aguanta",
     "En la nevera, 3 o 4 días a 4 °C o menos. Congelado, mejor tomarlo en 2 o 3 meses."
    ]
@@ -1481,7 +1477,7 @@
      {
       "t": "Las verduras, la última hora",
       "m": 60,
-      "x": "Echa a la olla {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio} en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Nada de coliflor, brócoli, col ni coles de bruselas. Sigue con el hervor mínimo y tapa a medias otra hora.",
+      "x": "Echa a la olla {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio} en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Sigue con el hervor mínimo y tapa a medias otra hora.",
       "tim": 60,
       "f": 1,
       "w": 1,
@@ -1525,7 +1521,7 @@
      {
       "t": "Las verduras, por la mañana",
       "m": 270,
-      "x": "A la mañana siguiente, trocea en trozos gruesos {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio}, y el nabo, la chirivía o el perejil si los usas. Nada de coliflor, brócoli, col ni coles de bruselas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.",
+      "x": "A la mañana siguiente, trocea en trozos gruesos {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio}, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.",
       "tim": 270,
       "f": "l",
       "w": 1,

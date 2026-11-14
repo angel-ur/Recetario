@@ -6909,7 +6909,7 @@
       "tim": 60,
       "w": 1,
       "f": 1,
-      "x": "Echa a la olla {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio} en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Nada de coliflor, brócoli, col ni coles de bruselas. Sigue con el hervor mínimo y tapa a medias otra hora.",
+      "x": "Echa a la olla {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio} en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Sigue con el hervor mínimo y tapa a medias otra hora.",
       "ab": "Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Entra casi al final. Tostarlas antes es opcional (más color y dulzor); la versión de la casa las echa crudas.",
       "e": {
        "k": "fuego",
@@ -6953,7 +6953,7 @@
       "tim": 270,
       "w": 1,
       "f": "l",
-      "x": "A la mañana siguiente, trocea en trozos gruesos {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio}, y el nabo, la chirivía o el perejil si los usas. Nada de coliflor, brócoli, col ni coles de bruselas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.",
+      "x": "A la mañana siguiente, trocea en trozos gruesos {cebolla}, {ajo}, {zanahoria}, {puerro} y {apio}, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.",
       "ab": "Con la olla lenta y su temperatura baja, la verdura aguanta bien estas 4 o 5 horas; en cacerola normal no, por eso allí solo entra la última hora. Tostarla antes es opcional (más color y dulzor); la versión de la casa la echa cruda.",
       "e": {
        "k": "fuego",
@@ -7085,10 +7085,6 @@
    [
     "Gelatina = fuego lento",
     "Para que cuaje de verdad hace falta fuego muy lento muchas horas. En cacerola salen 3 o 4 horas y no cuaja igual: en ese caso va todo a la vez, verdura incluida."
-   ],
-   [
-    "Verduras que NO",
-    "Nada de coliflor, brócoli, col ni coles de bruselas: sueltan azufre y amargan el caldo. Sí: cebolla, ajo, zanahoria, mucho puerro (da muy buen sabor), apio y similares."
    ],
    [
     "Cuánto aguanta",

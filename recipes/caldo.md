@@ -58,9 +58,9 @@ Huesos con mucho colágeno, muchas horas a fuego mínimo y sin sal. Si sale bien
 
 4. **Agua, especias y a dormir** (480 min) - Añade el resto del agua mineral hasta casi arriba (cubriendo los huesos al menos 2 dedos), pero deja sitio en la olla para la verdura de mañana (unos 4 litros en total). Añade cúrcuma molida (o 3 cm de raíz fresca), pimienta negra en grano, trozo de jengibre fresco de 4 cm (o jengibre molido) en rodajas, rama de romero, hoja de laurel y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.
    > La pimienta negra va con la cúrcuma por algo: activa la cúrcuma. Y la olla lenta marca la diferencia: a temperatura baja y muchas horas es cuando suelta toda su gelatina. La sal va al final porque el caldo se concentra y podría quedar salado.
-5. **Las verduras, la última hora** (60 min) - Echa a la olla cebolla, diente de ajo, zanahoria, puerro grande y rama de apio en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Nada de coliflor, brócoli, col ni coles de bruselas. Sigue con el hervor mínimo y tapa a medias otra hora.
+5. **Las verduras, la última hora** (60 min) - Echa a la olla cebolla, diente de ajo, zanahoria, puerro grande y rama de apio en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Sigue con el hervor mínimo y tapa a medias otra hora.
    > Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Aunque los huesos se tuesten antes, entra casi al final. Tostarlas antes es opcional (más color y dulzor); la versión de la casa las echa crudas.
-6. **Las verduras, por la mañana** (270 min) - A la mañana siguiente, trocea en trozos gruesos cebolla, diente de ajo, zanahoria, puerro grande y rama de apio, y el nabo, la chirivía o el perejil si los usas. Nada de coliflor, brócoli, col ni coles de bruselas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.
+6. **Las verduras, por la mañana** (270 min) - A la mañana siguiente, trocea en trozos gruesos cebolla, diente de ajo, zanahoria, puerro grande y rama de apio, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.
    > Con la olla lenta y su temperatura baja, la verdura aguanta bien estas 4 o 5 horas; en cacerola normal no, por eso allí solo entra la última hora. Tostarla antes es opcional (más color y dulzor); la versión de la casa la echa cruda.
 
 ### Colar y guardar
@@ -84,7 +84,6 @@ Huesos con mucho colágeno, muchas horas a fuego mínimo y sin sal. Si sale bien
 - **Dónde comprar los huesos**: Mejor en una carnicería de confianza que en el súper: pregunta por huesos de pasto o ecológicos (rodilla y tuétano), oreja, pata de ternera y patas de gallo. Pide que te corten los huesos.
 - **Alterna el colágeno**: Una oreja de cerdo y una pata de ternera, o dos patas de ternera, o manitas de cerdo. Alterna entre ellas. Un casco de pollo (de un pollo entero) y patas de gallo suman colágeno.
 - **Gelatina = fuego lento**: Para que cuaje de verdad hace falta fuego muy lento muchas horas. En cacerola salen 3 o 4 horas y no cuaja igual: en ese caso va todo a la vez, verdura incluida.
-- **Verduras que NO**: Nada de coliflor, brócoli, col ni coles de bruselas: sueltan azufre y amargan el caldo. Sí: cebolla, ajo, zanahoria, mucho puerro (da muy buen sabor), apio y similares.
 - **Cuánto aguanta**: En la nevera, 3 o 4 días a 4 °C o menos. Congelado, mejor tomarlo en 2 o 3 meses.
 
 ## En la tienda
