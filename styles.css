@@ -191,7 +191,7 @@ body {
   text-decoration: none; color: var(--tinta);
   padding: 8px 10px; border-radius: 12px;
 }
-.fila .mini { width: 62px; flex: none; }
+.fila .mini { width: 84px; flex: none; }
 .fila .mini svg { width: 100%; height: auto; display: block; border-radius: 8px; }
 .fila b { display: block; font-size: 16px; }
 .fila small { color: var(--tinta-suave); }
@@ -591,3 +591,21 @@ a, button, label, summary, [data-reg], [data-ir], .reg, .reg-hit, .chapa-hit {
 .arriba svg { width: 22px; height: 22px; }
 body:has(#dock:not([hidden])) .arriba { bottom: calc(92px + env(safe-area-inset-bottom, 0px)); }
 body:has(#cocina:not([hidden])) .arriba, body:has(#cocina:not([hidden])) .menu-btn { display: none; }
+
+.menu-btn { transition: transform .2s ease, opacity .2s ease; }
+.menu-btn.oculto { transform: translateY(-80px); opacity: 0; pointer-events: none; }
+details.plan > summary { list-style: none; cursor: pointer; display: grid; gap: 2px; min-height: 44px; }
+details.plan > summary::-webkit-details-marker { display: none; }
+details.plan > summary h2 { margin: 0; }
+details.plan > summary::after { content: "Mostrar"; justify-self: start; font-weight: 700; font-size: 14.5px; color: var(--anil); }
+details.plan[open] > summary::after { content: "Ocultar"; }
+details.plan[open] > summary { margin-bottom: 12px; }
+.resumen-mini { color: var(--tinta-suave); font-size: 15px; }
+.tarjeta, fieldset.seg-fs { min-width: 0; }
+.metodo { grid-template-columns: 1fr; }
+@media (min-width: 560px) { .metodo { grid-template-columns: repeat(2, 1fr); } }
+.r-cab { grid-template-columns: minmax(0,1fr); } .r-cab > * { max-width: 100%; min-width: 0; }
+.vista-receta { grid-template-columns: minmax(0,1fr); } .vista-receta > * { min-width: 0; }
+#vista-receta { grid-template-columns: minmax(0,1fr); } #vista-receta > * { min-width: 0; }
+.fase-cab, .paso-cuerpo, .paso, .fase { grid-template-columns: minmax(0,1fr); min-width: 0; } .paso-cab { min-width: 0; } .paso-cab > * { min-width: 0; }
+.texto .q { white-space: normal; overflow-wrap: anywhere; }

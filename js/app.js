@@ -414,7 +414,11 @@
       '<div class="acciones-r"><button type="button" class="btn sec fav-r" data-fav="1" aria-pressed="' + (!!favs[r.id]) + '">' + (favs[r.id] ? '♥ En favoritos' : '♡ Guardar') + '</button><button type="button" class="btn" data-cocina="1"><svg viewBox="0 0 16 16" aria-hidden="true"><use href="#e-play"/></svg>Cocinar paso a paso</button>' +
       '<button type="button" class="btn sec hecho-r" data-cocinado="1" aria-pressed="' + (!!cocinados[r.id]) + '">' + (cocinados[r.id] ? 'Sellado en el pasaporte' : '¡Lo he cocinado!') + '</button></div></header>';
     // Horario
-    h += '<section class="tarjeta" aria-labelledby="t-plan"><h2 id="t-plan">Organiza el día</h2>' +
+    var metHTML = r.met ? '<section class="tarjeta" aria-label="Cómo lo vas a hacer"><fieldset class="seg-fs"><legend class="eti">Cómo lo vas a hacer</legend><div class="metodo">' + r.met.map(function (m) {
+      return '<input type="radio" name="met" id="met-' + m.id + '" value="' + m.id + '"' + (m.id === met ? ' checked' : '') + '><label for="met-' + m.id + '"><b>' + esc(m.n) + '</b><span>' + esc(m.d) + '</span></label>';
+    }).join('') + '</div></fieldset></section>' : '';
+    h += metHTML;
+    h += '<details class="tarjeta plan" id="plan"><summary><h2 id="t-plan">Organiza el día</h2><span class="resumen-mini" id="resumen-mini">A qué hora empezar</span></summary>' +
       '<div class="fila-hora"><fieldset class="seg-fs"><legend class="sr-only">Qué hora quieres fijar</legend><div class="seg">' +
       '<input type="radio" name="modo" id="modo-inicio" value="inicio"' + (e.modo === 'inicio' ? ' checked' : '') + '><label for="modo-inicio">Empiezo a las</label>' +
       '<input type="radio" name="modo" id="modo-fin" value="fin"' + (e.modo === 'fin' ? ' checked' : '') + '><label for="modo-fin">' + (r.listo ? 'Listo a las' : 'Comemos a las') + '</label></div></fieldset>' +
@@ -422,11 +426,8 @@
       '<p class="resumen" id="resumen"></p><p class="antes" id="antes" hidden></p><p class="aviso" id="aviso" hidden></p>' +
       '<div class="crono" aria-hidden="true"><div class="crono-barra" id="crono"></div><div class="crono-horas"><span id="c-ini"></span><span id="c-fin"></span></div></div>' +
       '<ol class="leyenda" id="leyenda"></ol>';
-    if (r.met) h += '<fieldset class="seg-fs"><legend class="eti">Cómo lo vas a hacer</legend><div class="metodo">' + r.met.map(function (m) {
-      return '<input type="radio" name="met" id="met-' + m.id + '" value="' + m.id + '"' + (m.id === met ? ' checked' : '') + '><label for="met-' + m.id + '"><b>' + esc(m.n) + '</b><span>' + esc(m.d) + '</span></label>';
-    }).join('') + '</div></fieldset>';
     h += '<label class="interruptor" for="pantalla"><input type="checkbox" id="pantalla" role="switch"' + (bloqueo ? ' checked' : '') + '><span>Mantener la pantalla encendida</span></label>' +
-      '<p class="ayuda" id="pantalla-estado">Los temporizadores suenan con la página abierta y la pantalla encendida.</p></section>';
+      '<p class="ayuda" id="pantalla-estado">Los temporizadores suenan con la página abierta y la pantalla encendida.</p></details>';
     // Ingredientes
     h += '<section class="tarjeta" aria-labelledby="t-ing"><div class="ing-cab"><h2 id="t-ing">Ingredientes</h2><fieldset class="seg-fs raciones"><legend class="sr-only">' + udN + '</legend><span class="eti" aria-hidden="true">' + udN + '</span><div class="seg">' +
       r.rac.map(function (n) { var id = 'rac-' + String(n).replace('.', '-'); return '<input type="radio" name="rac" id="' + id + '" value="' + n + '"' + (n === e.rac ? ' checked' : '') + '><label for="' + id + '">' + coma(n) + '</label>'; }).join('') + '</div></fieldset></div>' +
@@ -481,6 +482,7 @@
     $('#resumen').innerHTML = e.modo === 'inicio'
       ? 'Si empiezas a las <b>' + hhmm(c.ini) + '</b>, ' + (r.listo ? 'está listo' : 'comes') + ' a las <b>' + hora(c.fin) + '</b>.'
       : (r.listo ? 'Para tenerlo listo' : 'Para comer') + ' a las <b>' + hhmm(c.fin) + '</b>, empieza a cocinar a las <b>' + hora(c.ini) + '</b>.';
+    var rm = $('#resumen-mini'); if (rm) rm.textContent = $('#resumen').textContent;
     var an = $('#antes');
     an.hidden = !pres.length;
     if (pres.length) an.innerHTML = pres.map(function (p) { return '<b>' + esc(p.t) + '</b> a las <b class="num">' + esc(hora(p.ini)) + '</b>'; }).join(' · ');
@@ -691,11 +693,11 @@
     if (id.indexOf('receta/') === 0) id = id.slice(7);
     if (cocina) cierraCocina();
     if (id && porId[id]) {
-      $('#vista-indice').hidden = true; $('#vista-receta').hidden = false;
+      $('.hero').hidden = true; $('#vista-indice').hidden = true; $('#vista-receta').hidden = false;
       vistaReceta(id); window.scrollTo(0, 0);
     } else {
       actual = null;
-      $('#vista-receta').hidden = true; $('#vista-indice').hidden = false;
+      $('.hero').hidden = false; $('#vista-receta').hidden = true; $('#vista-indice').hidden = false;
       vistaIndice();
     }
   }
@@ -782,7 +784,13 @@
     if (t.id === 'pantalla') { desbloquea(); quiereBloqueo = t.checked; if (t.checked) pidePantalla(false); else { if (bloqueo) { try { bloqueo.release(); } catch (e5) {} } bloqueo = null; $('#pantalla-estado').textContent = 'Los temporizadores suenan con la página abierta y la pantalla encendida.'; } return; }
     if (t.type === 'checkbox' && t.closest('.ing-lista') && r) { var e6 = est(r); e6.tengo = $$('.ing-lista input:checked').map(function (x) { return x.value; }); guarda(r, e6); }
   });
-  window.addEventListener('scroll', function () { var a = $('#arriba'); if (a) a.hidden = window.scrollY < 700; }, { passive: true });
+  var yAnt = 0;
+  window.addEventListener('scroll', function () {
+    var a = $('#arriba'); if (a) a.hidden = window.scrollY < 700;
+    var mb = $('#menu-btn'), y = window.scrollY;
+    if (mb) { var baja = y > yAnt + 6 && y > 120, sube = y < yAnt - 6 || y <= 120; if (baja && $('#menu').hidden) mb.classList.add('oculto'); else if (sube) mb.classList.remove('oculto'); }
+    yAnt = y;
+  }, { passive: true });
   document.addEventListener('click', function (ev) { if (ev.target.closest('#arriba')) window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' }); });
   document.addEventListener('input', function (ev) {
     if (ev.target.id === 'buscar') { filtro.q = ev.target.value.trim(); pintaFichas(); }
