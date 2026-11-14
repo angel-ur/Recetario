@@ -493,6 +493,7 @@
 
   function svg(e, etiqueta) {
     e = e || { k: 'plato' };
+    if (e.k === 'ilu') return '<svg viewBox="0 0 320 180" role="img" aria-label="' + (etiqueta || '').replace(/"/g, '&quot;') + '">' + e.svg + '</svg>';
     var rnd = azar(semilla(JSON.stringify(e)));
     var cuerpo = (TIPOS[e.k] || escenaPlato)(e, rnd);
     return '<svg viewBox="0 0 320 180" role="img" aria-label="' + (etiqueta || '').replace(/"/g, '&quot;') + '">' + cuerpo + '</svg>';

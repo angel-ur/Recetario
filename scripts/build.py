@@ -26,6 +26,15 @@ ENRIQUECIDO = ROOT / "data" / "enriquecido.json"
 SITE = ROOT / "_site"
 
 HEROES_FILE = ROOT / "data" / "heroes_extra.json"
+ILU_DIR = ROOT / "data" / "ilustraciones"
+
+
+def heroe_de(rid):
+    f = ILU_DIR / (rid + ".svg")
+    if f.exists():
+        return {"k": "ilu", "svg": f.read_text(encoding="utf-8").replace("ID", "i_" + rid + "_")}
+    return HEROES_EXTRA.get(rid, {"k": "plato"})
+
 HEROES_EXTRA = json.loads(HEROES_FILE.read_text(encoding="utf-8")) if HEROES_FILE.exists() else {}
 
 REQUIRED = ["id", "nombre", "categoria", "region", "dificultad", "tiempo_min"]
@@ -199,7 +208,7 @@ def fallback_recipe(meta, intro, ingredientes, fases_md, secretos_md):
         "fases": [{"n": f["n"], "tipo": "tu",
                    "p": [dict(p, f=0) for p in f["pasos"]]} for f in fases_md],
         "secretos": secretos_md,
-        "heroe": HEROES_EXTRA.get(meta["id"], {"k": "plato"}),
+        "heroe": heroe_de(meta["id"]),
     }
 
 
