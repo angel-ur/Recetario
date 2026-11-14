@@ -4045,7 +4045,7 @@
      {
       "t": "Fabes en remojo",
       "m": 720,
-      "x": "Pon {faba} en remojo en agua fría, unas doce horas. Si el lacón es salado, ponlo también a remojo, aparte.",
+      "x": "Pon los 500 g de fabes en un bol con 2 litros de agua fría (tres veces su volumen), unas 12 horas. Si el lacón es salado, ponlo también a remojo, aparte, y cambia el agua dos veces.",
       "f": 0,
       "pre": 1,
       "e": {
@@ -4058,7 +4058,7 @@
        ],
        "t": "12 h"
       },
-      "ab": "Agua fría y abundante, porque las fabes casi doblan su tamaño."
+      "ab": "Agua fría y abundante, porque las fabes casi doblan su tamaño y beben mucho. Fría, porque con agua templada empiezan a fermentar y la piel se les afloja."
      }
     ]
    },
@@ -4069,7 +4069,7 @@
      {
       "t": "Fabes y compango, en frío",
       "m": 5,
-      "x": "Escurre las fabes y colócalas en una cazuela ancha. Pon encima {chorizo}, {morcilla}, {tocino} y {lacon}, y cubre con agua fría dos dedos por encima.",
+      "x": "Escurre las fabes y colócalas en una cazuela ancha (de 24-26 cm). Pon encima 2 chorizos, 2 morcillas, 200 g de panceta y el lacón (opcional), y cubre con agua fría dos dedos por encima: unos 1,5 litros.",
       "f": 0,
       "e": {
        "k": "fuego",
@@ -4100,7 +4100,7 @@
      {
       "t": "Hierve y espuma",
       "m": 15,
-      "x": "Ponla a fuego fuerte y, cuando hierva, retira con una espumadera la espuma y parte de la grasa que suben.",
+      "x": "Ponla a fuego fuerte (unos 15 minutos) y, cuando hierva, retira con una espumadera la espuma y parte de la grasa que suben.",
       "tim": 15,
       "f": 5,
       "e": {
@@ -4129,7 +4129,7 @@
      {
       "t": "Asústalas",
       "m": 10,
-      "x": "Corta el hervor echando un chorrito de agua fría. Repítelo dos o tres veces durante la primera hora, cada vez que vuelva a hervir con fuerza.",
+      "x": "Corta el hervor echando medio vaso (100 ml) de agua fría. Repítelo dos o tres veces durante la primera hora, cada vez que vuelva a hervir con fuerza.",
       "f": 2,
       "e": {
        "k": "fuego",
@@ -4148,7 +4148,7 @@
        ],
        "vierte": "agua"
       },
-      "ab": "Asustar las fabes las encoge un momento y la piel se queda pegada al grano. Por eso salen enteras y tiernas."
+      "ab": "Asustar las fabes baja la temperatura de golpe: el grano se encoge un momento y la piel se queda pegada al grano en vez de soltarse. Por eso salen enteras y tiernas."
      }
     ]
    },
@@ -4159,7 +4159,7 @@
      {
       "t": "Sin cuchara",
       "m": 150,
-      "x": "Deja que se hagan a fuego mínimo dos horas y media, que apenas tiemble. Añade {azafran} a mitad de cocción. Nunca remuevas: menea la cazuela cogiéndola por las asas.",
+      "x": "Deja que se hagan a fuego mínimo 2 horas y media, que apenas tiemble (una burbuja de vez en cuando). Añade unas 10 hebras de azafrán machacadas con una pizca de sal a la hora y cuarto. Nunca remuevas: menea la cazuela cogiéndola por las asas.",
       "tim": 150,
       "f": 1,
       "w": 1,
@@ -4190,12 +4190,12 @@
        "reloj": "2½ h",
        "rf": 0.21
       },
-      "ab": "Con cuchara se rompen. Coge la cazuela con dos trapos y le da un meneo suave de vez en cuando."
+      "ab": "Con cuchara se rompen: las fabes cocidas son tan tiernas que la presión de la cuchara las parte, y la pasta resultante enturbia el caldo. Con el meneo las fabes se mueven todas juntas y no se rozan. Coge la cazuela con dos trapos y le da un meneo suave de vez en cuando."
      },
      {
       "t": "Sal y reposo",
       "m": 30,
-      "x": "Prueba y sala solo al final, porque el compango ya da mucha sal. Apaga y deja reposar media hora tapada.",
+      "x": "Prueba y sala solo al final (normalmente 1 cucharadita rasa, o nada), porque el compango ya da mucha sal y la sal al principio endurece la piel. Apaga y deja reposar media hora tapada.",
       "f": 0,
       "w": 1,
       "e": {
