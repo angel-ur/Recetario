@@ -156,6 +156,31 @@
   }
   function recetasDe(g) { return R.filter(function (r) { return r.regs.indexOf(g) > -1; }); }
 
+
+  /* ---------- Donde comprar: opcion facil y opcion mejor, por tipo de ingrediente ---------- */
+  var DONDE = [
+    ['embutido', /chorizo|morcilla|jam[oó]n|tocino|panceta|torrezno|cecina|salchicha|longaniza/, 'Súper', 'Charcutería'],
+    ['carne', /cordero|lechazo|ternasco|lechal|costilla|morro|callos|pollo|ternera|cerdo|conejo|rabo|lac[oó]n|carne|chuleta|hueso|pavo/, 'Súper', 'Carnicería'],
+    ['pescado', /bacalao|at[uú]n|bonito|pulpo|pescado|morralla|anchoa|merluza|calamar|gamba|sepia|mejill/, 'Súper', 'Pescadería'],
+    ['legumbre', /garbanzo|alubia|lenteja|almorta|fabes|fabas?\b|fabada|jud[ií]as? seca|habas secas/, 'Súper', 'Tienda a granel o gourmet'],
+    ['arroz', /arroz|bomba|fideo|pasta/, 'Súper', 'Tienda gourmet (D.O.)'],
+    ['especia', /piment[oó]n|azafr[aá]n|[ñn]ora|laurel|canela|pimienta|guindilla|romero|comino|clavo|tomillo|oreg[aá]no|nuez moscada|c[uú]rcuma/, 'Súper', 'Herbolario o especias'],
+    ['aceite', /aceite|vinagre|vino|brandy|jerez|sidra/, 'Súper', 'Cooperativa o bodega'],
+    ['huevo', /huevo|yema|leche|nata|mantequilla|queso|yogur/, 'Súper', 'Mercado (de payés)'],
+    ['verdura', /cebolla|pimiento|tomate|ajo|patata|papa|calabac|berenjena|berza|col\b|coliflor|puerro|zanahoria|perejil|lim[oó]n|pepino|escarola|jud[ií]a|apio|espinaca|borraja|garrofó|nabo|chirivía|cilantro|jengibre|alcachofa|calabaza|naranja|manzana|uva/, 'Súper', 'Mercado o verdulería'],
+    ['despensa', /almendra|avellana|aceituna|olivas?\b|maicena|\bron\b|an[ií]s|nuez|pasas|pi[ñn]ones/, 'Súper', 'Tienda gourmet'],
+    ['panaderia', /pan\b|picatoste|harina|az[uú]car|levadura|sobao|galleta|masa/, 'Súper', 'Panadería']
+  ];
+  function dondeCat(t) {
+    var n = String(t).toLowerCase();
+    for (var q = 0; q < DONDE.length; q++) if (DONDE[q][1].test(n)) return DONDE[q];
+    return null;
+  }
+  function dondeTag(t) {
+    var d = dondeCat(t);
+    return d ? '<span class="donde"><b>' + d[2] + '</b> fácil · <b>' + d[3] + '</b> mejor</span>' : '';
+  }
+
   /* ---------- Piezas comunes ---------- */
   function chipFuego(f) {
     if (typeof f === 'string' && f.charAt(0) === 'h') return '<li class="chip">Horno ' + f.slice(1) + ' °C</li>';
@@ -183,7 +208,7 @@
       var grupos = {}, orden = [];
       compra.forEach(function (c, n) { if (!grupos[c.r]) { grupos[c.r] = []; orden.push(c.r); } grupos[c.r].push([c, n]); });
       h += '<section class="tarjeta" aria-labelledby="t-compra"><div class="seccion-cab"><h2 id="t-compra">La compra</h2><span class="ayuda">' + compra.filter(function (c) { return !c.d; }).length + ' por comprar</span></div>' +
-        orden.map(function (rid) { var rr = porId[rid]; return '<p class="eti">' + esc(rr ? rr.n : rid) + '</p><ul class="compra-lista">' + grupos[rid].map(function (p) { return '<li><button type="button" class="compra-it" data-compra="' + p[1] + '" aria-pressed="' + (!!p[0].d) + '">' + esc(p[0].t) + '</button></li>'; }).join('') + '</ul>'; }).join('') +
+        orden.map(function (rid) { var rr = porId[rid]; return '<p class="eti">' + esc(rr ? rr.n : rid) + '</p><ul class="compra-lista">' + grupos[rid].map(function (p) { return '<li><button type="button" class="compra-it" data-compra="' + p[1] + '" aria-pressed="' + (!!p[0].d) + '">' + esc(p[0].t) + dondeTag(p[0].t) + '</button></li>'; }).join('') + '</ul>'; }).join('') +
         '<p class="reinicio"><button type="button" class="reiniciar" data-vaciar="1">Vaciar la lista</button></p></section>';
     }
     var hoy = new Date(), dnum = Math.floor((hoy.getTime() - hoy.getTimezoneOffset() * 60000) / 86400000);
@@ -298,8 +323,8 @@
       '<p class="ayuda">Toca cada ingrediente para marcar lo que ya tienes.</p><p class="compra-acc"><button type="button" class="btn sec" data-comprar="1">' + (compra.some(function (c) { return c.r === r.id; }) ? 'Lista de la compra actualizada: añadir de nuevo' : 'Añadir lo que falta a la compra') + '</button></p><ul class="ing-lista">' +
       r.ings.map(function (i) {
         if (i.grupo !== undefined) return '<li class="grupo">' + esc(i.grupo) + '</li>';
-        if (i.plano) return '<li><label><input type="checkbox" value="' + i.k + '"' + (e.tengo.indexOf(i.k) > -1 ? ' checked' : '') + '><span class="nom">' + esc(i.s) + '</span></label></li>';
-        return '<li><label><input type="checkbox" value="' + i.k + '"' + (e.tengo.indexOf(i.k) > -1 ? ' checked' : '') + '><span class="nom" data-n="' + i.k + '">' + esc(etiquetaIng(r, i, e.rac)) + '</span><span class="cant" data-c="' + i.k + '">' + esc(cantidad(r, i, e.rac) || 'al gusto') + '</span></label></li>';
+        if (i.plano) return '<li><label><input type="checkbox" value="' + i.k + '"' + (e.tengo.indexOf(i.k) > -1 ? ' checked' : '') + '><span class="nom">' + esc(i.s) + '</span>' + dondeTag(i.s) + '</label></li>';
+        return '<li><label><input type="checkbox" value="' + i.k + '"' + (e.tengo.indexOf(i.k) > -1 ? ' checked' : '') + '><span class="nom" data-n="' + i.k + '">' + esc(etiquetaIng(r, i, e.rac)) + '</span><span class="cant" data-c="' + i.k + '">' + esc(cantidad(r, i, e.rac) || 'al gusto') + '</span>' + dondeTag(i.s) + '</label></li>';
       }).join('') + '</ul></section>';
     // Pasos
     h += '<div class="seccion-cab"><h2>Paso a paso</h2><p class="eti num" id="progreso" style="color:var(--ok)"></p></div>';

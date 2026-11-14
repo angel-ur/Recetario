@@ -27,3 +27,6 @@ Ya tenemos: raciones que recalculan, pasos ilustrados, temporizadores, modo coci
 
 ## Reglas inamovibles
 Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-action: manipulation; SVG interactivo con fill rgba(0,0,0,0) y cursor:pointer; verificar toques tras cada cambio.
+
+## Hecho 14 nov
+- Donde comprar: cada ingrediente (receta y lista de la compra) lleva una linea fina 'Super facil / X mejor' segun tipo (carniceria, pescaderia, mercado, herbolario, tienda gourmet...). Clasificacion por palabras clave en app.js (DONDE).
