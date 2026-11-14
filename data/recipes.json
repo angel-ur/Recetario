@@ -9842,7 +9842,7 @@
      {
       "t": "Corta la patata y la cebolla",
       "m": 10,
-      "x": "Pela {patata} y córtalas en láminas finas e irregulares, y {cebolla} en juliana. Sálalo todo y mézclalo con las manos.",
+      "x": "Pela 700 g de patatas y córtalas en láminas finas e irregulares (de 2-3 mm), y 1 cebolla en juliana. Sálalo todo con 1 cucharadita rasa de sal y mézclalo con las manos.",
       "f": 0,
       "e": {
        "k": "tabla",
@@ -9862,7 +9862,7 @@
      {
       "t": "Pocha a fuego suave",
       "m": 25,
-      "x": "Calienta {aceite} en una sartén honda y echa la patata y la cebolla cuando el aceite esté templado, no humeante. Deja que se hagan despacio, removiendo de vez en cuando, hasta que estén tiernas y apenas doradas.",
+      "x": "Calienta 400 ml de aceite de oliva en una sartén honda hasta unos 100-120 °C (templado, no humeante: una patata echada burbujea suave) y echa la patata y la cebolla. El aceite casi las cubre. Deja que se hagan despacio 20-25 minutos, removiendo de vez en cuando, hasta que estén tiernas y apenas doradas.",
       "tim": 20,
       "f": 2,
       "e": {
@@ -9884,7 +9884,7 @@
        ],
        "burbujas": "#F7DC8F"
       },
-      "ab": "Las patatas se pochan, no se fríen. Tienen que quedar blandas, casi confitadas; si chisporrotean mucho, baja el fuego."
+      "ab": "Las patatas se pochan, no se fríen: a fuego suave el almidón se cuece por dentro sin dorarse por fuera. Tienen que quedar blandas, casi confitadas; si chisporrotean mucho, baja el fuego."
      },
      {
       "t": "Escurre",
@@ -9919,7 +9919,7 @@
      {
       "t": "Bate y deja reposar",
       "m": 10,
-      "x": "Bate {huevo} con una pizca de sal, sin hacer espuma. Añade la patata aún templada, mezcla y deja reposar diez minutos.",
+      "x": "Bate 6 huevos con una pizca de sal, sin hacer espuma. Añade la patata aún templada (bien escurrida), mezcla y deja reposar 10 minutos.",
       "tim": 10,
       "f": 0,
       "e": {
@@ -9944,7 +9944,7 @@
      {
       "t": "Cuaja el primer lado",
       "m": 3,
-      "x": "Pon una sartén de unos 24 cm con una cucharada del aceite reservado, bien caliente. Vierte la mezcla, baja a fuego medio y mueve la sartén en círculos mientras metes los bordes hacia dentro con una espátula.",
+      "x": "Pon una sartén de unos 24 cm con 1 cucharada del aceite reservado, bien caliente. Vierte la mezcla, baja a fuego medio y mueve la sartén en círculos durante 3 minutos mientras metes los bordes hacia dentro con una espátula.",
       "tim": 3,
       "f": 4,
       "e": {
@@ -9965,7 +9965,7 @@
      {
       "t": "Dale la vuelta",
       "m": 2,
-      "x": "Tapa la sartén con un plato llano un poco más grande, dale la vuelta de un golpe decidido y desliza la tortilla de nuevo a la sartén. Uno o dos minutos más.",
+      "x": "Tapa la sartén con un plato llano un poco más grande, dale la vuelta de un golpe decidido y desliza la tortilla de nuevo a la sartén. Cuaja 1-2 minutos más por este lado.",
       "tim": 2,
       "f": 3,
       "e": {
@@ -9976,7 +9976,7 @@
      {
       "t": "Reposa y sirve",
       "m": 5,
-      "x": "Pásala a un plato y déjala reposar cinco minutos antes de cortarla. Termina de cuajarse con su propio calor.",
+      "x": "Pásala a un plato y déjala reposar 5 minutos antes de cortarla. Termina de cuajarse con su propio calor.",
       "f": 0,
       "w": 1,
       "e": {
