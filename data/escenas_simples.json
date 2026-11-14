@@ -1,0 +1,919 @@
+{
+ "arrozhorno": [
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 4,
+   "c": "#C99A3A",
+   "i": [
+    [
+     "costilla",
+     4,
+     1,
+     "r-dorado"
+    ],
+    [
+     "morcilla",
+     2
+    ]
+   ],
+   "chisp": 1
+  },
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 3,
+   "c": "#B9482F",
+   "i": [
+    [
+     "tomate",
+     3
+    ],
+    [
+     "ajo",
+     3
+    ],
+    [
+     "azafran",
+     2
+    ]
+   ],
+   "polvo": "#C8402B"
+  },
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 5,
+   "c": "#E3C062",
+   "i": [
+    [
+     "arroz",
+     26
+    ],
+    [
+     "garbanzo",
+     8
+    ],
+    [
+     "costilla",
+     3
+    ]
+   ],
+   "vierte": "agua",
+   "burbujas": 1
+  },
+  {
+   "k": "plato",
+   "v": "cuenco",
+   "c": "#D9A441",
+   "i": [
+    [
+     "arroz",
+     12
+    ],
+    [
+     "costilla",
+     2
+    ],
+    [
+     "morcilla",
+     2
+    ]
+   ],
+   "vapor": 1
+  }
+ ],
+ "caldereta": [
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 4,
+   "c": "#C99A3A",
+   "i": [
+    [
+     "cordero",
+     5,
+     1,
+     "r-dorado"
+    ]
+   ],
+   "chisp": 1
+  },
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 3,
+   "c": "#D3A548",
+   "i": [
+    [
+     "cebolla",
+     6,
+     1,
+     "o-pochada"
+    ],
+    [
+     "pimiento",
+     3
+    ],
+    [
+     "ajo",
+     3
+    ]
+   ],
+   "cuchara": 1
+  },
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 3,
+   "c": "#8E1B13",
+   "i": [
+    [
+     "cebolla",
+     3
+    ]
+   ],
+   "vierte": "vino",
+   "polvo": "#8E1B13"
+  },
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 1,
+   "c": "#B9482F",
+   "i": [
+    [
+     "cordero",
+     5
+    ],
+    [
+     "laurel",
+     1
+    ]
+   ],
+   "tapa": 1,
+   "vapor": 1,
+   "reloj": "80 min",
+   "rf": 0.5
+  }
+ ],
+ "caldero": [
+  {
+   "k": "fuego",
+   "v": "olla",
+   "f": 2,
+   "c": "#E8E0C8",
+   "i": [
+    [
+     "pescado",
+     4
+    ]
+   ],
+   "burbujas": 1,
+   "espuma": 1
+  },
+  {
+   "k": "fuego",
+   "v": "sarten",
+   "f": 3,
+   "c": "#C8402B",
+   "i": [
+    [
+     "nora",
+     3
+    ],
+    [
+     "ajo",
+     3
+    ],
+    [
+     "tomate",
+     3
+    ]
+   ],
+   "cuchara": 1
+  },
+  {
+   "k": "mortero",
+   "c": "#C8402B",
+   "i": [
+    [
+     "nora",
+     3
+    ],
+    [
+     "ajo",
+     3
+    ]
+   ]
+  },
+  {
+   "k": "fuego",
+   "v": "paellera",
+   "f": 4,
+   "c": "#E5B54C",
+   "i": [
+    [
+     "arroz",
+     30
+    ],
+    [
+     "azafran",
+     2
+    ]
+   ],
+   "vierte": "agua",
+   "burbujas": 1
+  },
+  {
+   "k": "plato",
+   "v": "llano",
+   "c": "#E5B54C",
+   "i": [
+    [
+     "pescado",
+     3
+    ],
+    [
+     "arroz",
+     12
+    ]
+   ],
+   "vapor": 1
+  }
+ ],
+ "callos": [
+  {
+   "k": "bol",
+   "c": "#BFDDF2",
+   "i": [
+    [
+     "callo",
+     6
+    ]
+   ]
+  },
+  {
+   "k": "fuego",
+   "v": "olla",
+   "f": 2,
+   "c": "#D9C8A0",
+   "i": [
+    [
+     "callo",
+     8
+    ],
+    [
+     "laurel",
+     2
+    ]
+   ],
+   "espuma": 1,
+   "burbujas": 1
+  },
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 3,
+   "c": "#B9482F",
+   "i": [
+    [
+     "cebolla",
+     5,
+     1,
+     "o-pochada"
+    ],
+    [
+     "ajo",
+     3
+    ],
+    [
+     "jamon",
+     3
+    ]
+   ],
+   "cuchara": 1,
+   "polvo": "#8E1B13"
+  },
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 1,
+   "c": "#A83A22",
+   "i": [
+    [
+     "callo",
+     8
+    ],
+    [
+     "chorizo",
+     3
+    ],
+    [
+     "morcilla",
+     2
+    ],
+    [
+     "guindilla",
+     1
+    ]
+   ],
+   "tapa": 1,
+   "vapor": 1,
+   "reloj": "1 h",
+   "rf": 0.4
+  }
+ ],
+ "chuletillas": [
+  {
+   "k": "fuego",
+   "v": "sarten",
+   "f": 5,
+   "c": "#6A4A2A",
+   "i": [
+    [
+     "romero",
+     3
+    ]
+   ],
+   "chisp": 1
+  },
+  {
+   "k": "plato",
+   "v": "llano",
+   "i": [
+    [
+     "chuleta",
+     6
+    ]
+   ],
+   "polvo": "#FFFFFF"
+  },
+  {
+   "k": "fuego",
+   "v": "sarten",
+   "f": 5,
+   "c": "#C99A3A",
+   "i": [
+    [
+     "chuleta",
+     6,
+     1,
+     "r-dorado"
+    ]
+   ],
+   "chisp": 1
+  },
+  {
+   "k": "plato",
+   "v": "llano",
+   "i": [
+    [
+     "chuleta",
+     6
+    ],
+    [
+     "pimiento",
+     2,
+     1,
+     "rojo"
+    ]
+   ],
+   "vapor": 1
+  }
+ ],
+ "cocidomontanes": [
+  {
+   "k": "remojo",
+   "i": [
+    [
+     "faba",
+     20
+    ]
+   ],
+   "t": "90 min"
+  },
+  {
+   "k": "fuego",
+   "v": "olla",
+   "f": 2,
+   "c": "#9CC8EA",
+   "i": [
+    [
+     "berza",
+     8
+    ]
+   ],
+   "burbujas": 1
+  },
+  {
+   "k": "fuego",
+   "v": "sarten",
+   "f": 2,
+   "c": "#C8402B",
+   "i": [
+    [
+     "ajo",
+     4
+    ]
+   ],
+   "polvo": "#8E1B13",
+   "cuchara": 1
+  },
+  {
+   "k": "fuego",
+   "v": "olla",
+   "f": 2,
+   "c": "#9A5A32",
+   "i": [
+    [
+     "faba",
+     20
+    ],
+    [
+     "patata",
+     4
+    ],
+    [
+     "chorizo",
+     3
+    ],
+    [
+     "morcilla",
+     2
+    ]
+   ],
+   "tapa": 2
+  }
+ ],
+ "empanadagallega": [
+  {
+   "k": "bol",
+   "c": "#F3E7C6",
+   "i": [],
+   "tenedor": 1
+  },
+  {
+   "k": "bol",
+   "c": "#F3E7C6",
+   "i": []
+  },
+  {
+   "k": "fuego",
+   "v": "sarten",
+   "f": 2,
+   "c": "#E3C062",
+   "i": [
+    [
+     "cebolla",
+     9,
+     1,
+     "o-pochada"
+    ],
+    [
+     "pimiento",
+     5
+    ]
+   ],
+   "cuchara": 1
+  },
+  {
+   "k": "bol",
+   "c": "#E6C39A",
+   "i": [
+    [
+     "atun",
+     4
+    ],
+    [
+     "huevo",
+     3
+    ]
+   ],
+   "tenedor": 1
+  },
+  {
+   "k": "formar"
+  },
+  {
+   "k": "horno",
+   "t": "200 °C",
+   "d": "bandeja",
+   "i": [
+    [
+     "empanada",
+     1
+    ]
+   ],
+   "c": "#D9A441"
+  }
+ ],
+ "gachas": [
+  {
+   "k": "fuego",
+   "v": "sarten",
+   "f": 2,
+   "c": "#E3C062",
+   "i": [
+    [
+     "ajo",
+     5
+    ]
+   ],
+   "cuchara": 1,
+   "burbujas": "#F7DC8F"
+  },
+  {
+   "k": "fuego",
+   "v": "sarten",
+   "f": 3,
+   "c": "#D8B96A",
+   "i": [
+    [
+     "almendra",
+     1
+    ]
+   ],
+   "vierte": "agua",
+   "polvo": "#8E1B13"
+  },
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 2,
+   "c": "#D9C58E",
+   "i": [],
+   "cuchara": 1,
+   "burbujas": 1
+  },
+  {
+   "k": "fuego",
+   "v": "sarten",
+   "f": 5,
+   "c": "#C99A3A",
+   "i": [
+    [
+     "tocino",
+     5,
+     1,
+     "r-dorado"
+    ]
+   ],
+   "chisp": 1
+  }
+ ],
+ "lechazo": [
+  {
+   "k": "plato",
+   "v": "cazuela",
+   "i": [
+    [
+     "cordero",
+     3
+    ]
+   ],
+   "polvo": "#FFFFFF"
+  },
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 0,
+   "c": "#E9D6B0",
+   "i": [
+    [
+     "laurel",
+     1
+    ]
+   ],
+   "vierte": "agua"
+  },
+  {
+   "k": "horno",
+   "t": "220 °C",
+   "d": "cazuela",
+   "i": [
+    [
+     "cordero",
+     3
+    ]
+   ],
+   "c": "#B5402F"
+  }
+ ],
+ "pilpil": [
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 2,
+   "c": "#E3C062",
+   "i": [
+    [
+     "ajo",
+     4
+    ],
+    [
+     "guindilla",
+     1
+    ]
+   ],
+   "burbujas": "#F7DC8F"
+  },
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 0,
+   "c": "#E3C062",
+   "i": []
+  },
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 1,
+   "c": "#E3C062",
+   "i": [
+    [
+     "bacalao",
+     4
+    ]
+   ],
+   "burbujas": "#F7DC8F"
+  },
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 0,
+   "c": "#EFD9A0",
+   "i": [
+    [
+     "bacalao",
+     4
+    ]
+   ],
+   "agita": 1
+  }
+ ],
+ "ropavieja": [
+  {
+   "k": "fuego",
+   "v": "sarten",
+   "f": 2,
+   "c": "#D3A548",
+   "i": [
+    [
+     "cebolla",
+     5,
+     1,
+     "o-pochada"
+    ],
+    [
+     "pimiento",
+     3
+    ],
+    [
+     "ajo",
+     3
+    ],
+    [
+     "tomate",
+     3
+    ]
+   ],
+   "cuchara": 1
+  },
+  {
+   "k": "fuego",
+   "v": "sarten",
+   "f": 0,
+   "c": "#B9482F",
+   "i": [],
+   "polvo": "#8E1B13",
+   "vierte": "vinagre"
+  },
+  {
+   "k": "fuego",
+   "v": "sarten",
+   "f": 2,
+   "c": "#C0743A",
+   "i": [
+    [
+     "garbanzo",
+     14
+    ],
+    [
+     "carne",
+     5
+    ],
+    [
+     "patata",
+     4
+    ]
+   ],
+   "cuchara": 1
+  },
+  {
+   "k": "plato",
+   "v": "cuenco",
+   "c": "#C0743A",
+   "i": [
+    [
+     "garbanzo",
+     12
+    ],
+    [
+     "carne",
+     4
+    ],
+    [
+     "patata",
+     3
+    ]
+   ],
+   "vapor": 1
+  }
+ ],
+ "sopasmallorquinas": [
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 2,
+   "c": "#D3A548",
+   "i": [
+    [
+     "cebolla",
+     5,
+     1,
+     "o-pochada"
+    ],
+    [
+     "pimiento",
+     3
+    ],
+    [
+     "ajo",
+     3
+    ]
+   ],
+   "cuchara": 1
+  },
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 0,
+   "c": "#B9482F",
+   "i": [
+    [
+     "tomate",
+     3
+    ]
+   ],
+   "polvo": "#8E1B13"
+  },
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 2,
+   "c": "#C0743A",
+   "i": [
+    [
+     "berza",
+     6
+    ]
+   ],
+   "vierte": "agua",
+   "burbujas": 1
+  },
+  {
+   "k": "fuego",
+   "v": "cazuela",
+   "f": 1,
+   "c": "#A3552F",
+   "i": [
+    [
+     "pan",
+     12
+    ]
+   ],
+   "tapa": 2,
+   "cuchara": 1
+  }
+ ],
+ "tempeh": [
+  {
+   "k": "remojo",
+   "i": [
+    [
+     "garbanzo",
+     24
+    ]
+   ],
+   "t": "12 h"
+  },
+  {
+   "k": "bol",
+   "c": "#BFDDF2",
+   "i": [
+    [
+     "garbanzo",
+     18
+    ]
+   ],
+   "cae": null
+  },
+  {
+   "k": "fuego",
+   "v": "olla",
+   "f": 2,
+   "c": "#C9D9E8",
+   "i": [
+    [
+     "garbanzo",
+     24
+    ]
+   ],
+   "burbujas": 1,
+   "espuma": 1
+  },
+  {
+   "k": "plato",
+   "v": "llano",
+   "c": "#F5F1E8",
+   "i": [
+    [
+     "garbanzo",
+     20
+    ]
+   ]
+  },
+  {
+   "k": "bol",
+   "c": "#F2E3B5",
+   "i": [
+    [
+     "garbanzo",
+     18
+    ]
+   ],
+   "tenedor": 1
+  },
+  {
+   "k": "formar"
+  },
+  {
+   "k": "horno",
+   "t": "30 °C",
+   "d": "bandeja",
+   "i": [
+    [
+     "tempeh",
+     3
+    ]
+   ],
+   "c": "#E9D9B0"
+  },
+  {
+   "k": "nevera",
+   "v": "fuente",
+   "c": "#E9D9B0",
+   "i": [
+    [
+     "tempeh",
+     3
+    ]
+   ],
+   "t": "3 días"
+  }
+ ],
+ "ternasco": [
+  {
+   "k": "plato",
+   "v": "llano",
+   "i": [
+    [
+     "cordero",
+     3
+    ],
+    [
+     "ajo",
+     4
+    ]
+   ],
+   "polvo": "#FFFFFF"
+  },
+  {
+   "k": "horno",
+   "t": "200 °C",
+   "d": "bandeja",
+   "i": [
+    [
+     "cordero",
+     3
+    ],
+    [
+     "patata",
+     6
+    ]
+   ],
+   "c": "#C0743A"
+  }
+ ]
+}

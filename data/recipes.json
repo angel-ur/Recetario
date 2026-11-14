@@ -98,14 +98,54 @@
       "t": "Dora la carne",
       "m": 10,
       "x": "En la cazuela de barro, dora la costilla con aceite. Aparta.",
-      "f": 0
+      "f": 4,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 4,
+       "c": "#C99A3A",
+       "i": [
+        [
+         "costilla",
+         4,
+         1,
+         "r-dorado"
+        ],
+        [
+         "morcilla",
+         2
+        ]
+       ],
+       "chisp": 1
+      }
      },
      {
       "t": "Tomate y especias",
       "m": 5,
       "x": "Añade el tomate rallado y el azafrán o pimentón (fuera del fuego, para que no se queme).",
       "ab": "Si se quema el pimentón, todo el arroz amarga.",
-      "f": 0
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#B9482F",
+       "i": [
+        [
+         "tomate",
+         3
+        ],
+        [
+         "ajo",
+         3
+        ],
+        [
+         "azafran",
+         2
+        ]
+       ],
+       "polvo": "#C8402B"
+      }
      }
     ]
    },
@@ -117,13 +157,55 @@
       "t": "Arroz y caldo",
       "m": 5,
       "x": "Añade el arroz, los garbanzos y el caldo hirviendo (el doble que de arroz, más un poco). Coloca la costilla, la morcilla y la cabeza de ajos.",
-      "f": 0
+      "f": 5,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 5,
+       "c": "#E3C062",
+       "i": [
+        [
+         "arroz",
+         26
+        ],
+        [
+         "garbanzo",
+         8
+        ],
+        [
+         "costilla",
+         3
+        ]
+       ],
+       "vierte": "agua",
+       "burbujas": 1
+      }
      },
      {
       "t": "Reposo",
       "m": 5,
       "x": "Deja reposar fuera del horno unos minutos antes de servir.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "cuenco",
+       "c": "#D9A441",
+       "i": [
+        [
+         "arroz",
+         12
+        ],
+        [
+         "costilla",
+         2
+        ],
+        [
+         "morcilla",
+         2
+        ]
+       ],
+       "vapor": 1
+      }
      }
     ]
    }
@@ -514,13 +596,51 @@
       "m": 15,
       "x": "Salpimenta y dora el cordero en aceite caliente por todos los lados, sin amontonar.",
       "ab": "Por tandas: si se amontona, suelta agua y no se dora.",
-      "f": 0
+      "f": 4,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 4,
+       "c": "#C99A3A",
+       "i": [
+        [
+         "cordero",
+         5,
+         1,
+         "r-dorado"
+        ]
+       ],
+       "chisp": 1
+      }
      },
      {
       "t": "Sofrito",
       "m": 10,
       "x": "Aparta la carne y en el mismo aceite pocha cebolla, pimiento y ajos picados.",
-      "f": 0
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#D3A548",
+       "i": [
+        [
+         "cebolla",
+         6,
+         1,
+         "o-pochada"
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "ajo",
+         3
+        ]
+       ],
+       "cuchara": 1
+      }
      }
     ]
    },
@@ -533,13 +653,47 @@
       "m": 5,
       "x": "Fuera del fuego, añade el pimentón, remueve y moja con el vino. Reduce un poco.",
       "ab": "El pimentón siempre fuera del fuego: se quema enseguida.",
-      "f": 0
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#8E1B13",
+       "i": [
+        [
+         "cebolla",
+         3
+        ]
+       ],
+       "vierte": "vino",
+       "polvo": "#8E1B13"
+      }
      },
      {
       "t": "A fuego lento",
       "m": 80,
       "x": "Vuelve la carne a la cazuela con el laurel y agua justo para cubrir. Cuece tapado a fuego suave hasta que esté tierno y la salsa, ligada.",
-      "f": 0
+      "f": 1,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#B9482F",
+       "i": [
+        [
+         "cordero",
+         5
+        ],
+        [
+         "laurel",
+         1
+        ]
+       ],
+       "tapa": 1,
+       "vapor": 1,
+       "reloj": "80 min",
+       "rf": 0.5
+      }
      }
     ]
    }
@@ -685,20 +839,69 @@
       "m": 20,
       "x": "Cuece el pescado con agua y sal. Cuela el caldo y reserva el pescado.",
       "ab": "Cuanto más pescado de roca, más sabor.",
-      "f": 0
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#E8E0C8",
+       "i": [
+        [
+         "pescado",
+         4
+        ]
+       ],
+       "burbujas": 1,
+       "espuma": 1
+      }
      },
      {
       "t": "Sofrito",
       "m": 10,
       "x": "Fríe las ñoras y los ajos en aceite, apártalos, y sofríe el tomate rallado.",
       "ab": "Las ñoras, 5 segundos nada más: se queman muy rápido.",
-      "f": 0
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 3,
+       "c": "#C8402B",
+       "i": [
+        [
+         "nora",
+         3
+        ],
+        [
+         "ajo",
+         3
+        ],
+        [
+         "tomate",
+         3
+        ]
+       ],
+       "cuchara": 1
+      }
      },
      {
       "t": "Pica",
       "m": 5,
       "x": "Machaca las ñoras y los ajos con un poco de caldo, y añádelos al sofrito.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "mortero",
+       "c": "#C8402B",
+       "i": [
+        [
+         "nora",
+         3
+        ],
+        [
+         "ajo",
+         3
+        ]
+       ]
+      }
      }
     ]
    },
@@ -711,13 +914,47 @@
       "m": 18,
       "x": "Añade el arroz y el caldo hirviendo (el doble de arroz, más un poco), con el azafrán. Cuece sin mover primero fuerte y luego suave.",
       "ab": "Al final, que quede meloso pero con el grano entero.",
-      "f": 0
+      "f": 4,
+      "e": {
+       "k": "fuego",
+       "v": "paellera",
+       "f": 4,
+       "c": "#E5B54C",
+       "i": [
+        [
+         "arroz",
+         30
+        ],
+        [
+         "azafran",
+         2
+        ]
+       ],
+       "vierte": "agua",
+       "burbujas": 1
+      }
      },
      {
       "t": "Reposa y sirve",
       "m": 5,
       "x": "Deja reposar unos minutos y sirve con el pescado aparte y alioli.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "llano",
+       "c": "#E5B54C",
+       "i": [
+        [
+         "pescado",
+         3
+        ],
+        [
+         "arroz",
+         12
+        ]
+       ],
+       "vapor": 1
+      }
      }
     ]
    }
@@ -1405,15 +1642,43 @@
       "m": 15,
       "x": "Lávalos con agua fría y vinagre, escúrrelos y córtalos en trozos. Escalda el morro igual.",
       "ab": "Dos o tres aguas: lo que se queda sin limpiar se nota en el plato.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#BFDDF2",
+       "i": [
+        [
+         "callo",
+         6
+        ]
+       ]
+      }
      },
      {
       "t": "Cuece despacio",
       "m": 120,
       "x": "En olla con agua, laurel y sal, cuece a fuego suave, quitando la espuma, hasta que estén tiernos.",
       "ab": "Se prueba pinchando: tiene que cortarse con la cuchara.",
-      "f": 0,
-      "w": 1
+      "f": 2,
+      "w": 1,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#D9C8A0",
+       "i": [
+        [
+         "callo",
+         8
+        ],
+        [
+         "laurel",
+         2
+        ]
+       ],
+       "espuma": 1,
+       "burbujas": 1
+      }
      }
     ]
    },
@@ -1426,14 +1691,66 @@
       "m": 20,
       "x": "Pocha cebolla y ajo picados con el jamón, añade harina y pimentón fuera del fuego, y moja con un poco del caldo.",
       "ab": "El pimentón se quema en un segundo y amarga: aparta del fuego antes de echarlo.",
-      "f": 0
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#B9482F",
+       "i": [
+        [
+         "cebolla",
+         5,
+         1,
+         "o-pochada"
+        ],
+        [
+         "ajo",
+         3
+        ],
+        [
+         "jamon",
+         3
+        ]
+       ],
+       "cuchara": 1,
+       "polvo": "#8E1B13"
+      }
      },
      {
       "t": "Todo junto",
       "m": 60,
       "x": "Une callos, salsa, chorizo, morcilla y guindilla, cubre con el caldo justo y deja a fuego muy suave hasta que la salsa esté ligada.",
       "ab": "Ligada, no seca: tiene que quedar una salsa brillante y espesa.",
-      "f": 0
+      "f": 1,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#A83A22",
+       "i": [
+        [
+         "callo",
+         8
+        ],
+        [
+         "chorizo",
+         3
+        ],
+        [
+         "morcilla",
+         2
+        ],
+        [
+         "guindilla",
+         1
+        ]
+       ],
+       "tapa": 1,
+       "vapor": 1,
+       "reloj": "1 h",
+       "rf": 0.4
+      }
      }
     ]
    }
@@ -1846,7 +2163,20 @@
       "m": 20,
       "x": "Prende los sarmientos en la parrilla y deja que se hagan brasa.",
       "ab": "Sin llama: solo brasa roja, o la carne se quema por fuera y queda cruda por dentro.",
-      "f": 0
+      "f": 5,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 5,
+       "c": "#6A4A2A",
+       "i": [
+        [
+         "romero",
+         3
+        ]
+       ],
+       "chisp": 1
+      }
      }
     ]
    },
@@ -1858,21 +2188,64 @@
       "t": "Sala",
       "m": 2,
       "x": "Sala las chuletillas justo antes de ponerlas.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "llano",
+       "i": [
+        [
+         "chuleta",
+         6
+        ]
+       ],
+       "polvo": "#FFFFFF"
+      }
      },
      {
       "t": "Asa",
       "m": 6,
       "x": "Colócalas sobre la parrilla y dales la vuelta cuando estén doradas.",
       "ab": "Poco tiempo: 2 a 3 minutos por lado.",
-      "f": 0
+      "f": 5,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 5,
+       "c": "#C99A3A",
+       "i": [
+        [
+         "chuleta",
+         6,
+         1,
+         "r-dorado"
+        ]
+       ],
+       "chisp": 1
+      }
      },
      {
       "t": "Sirve",
       "m": 2,
       "x": "Sírvelas enseguida, calientes, con pimientos o patatas.",
       "ab": "Se comen con la mano, sin cubiertos.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "llano",
+       "i": [
+        [
+         "chuleta",
+         6
+        ],
+        [
+         "pimiento",
+         2,
+         1,
+         "rojo"
+        ]
+       ],
+       "vapor": 1
+      }
      }
     ]
    }
@@ -2441,7 +2814,17 @@
       "m": 90,
       "x": "Cubre las alubias con agua fría con la carne y la cebolla. Cuece a fuego muy suave, \"asustándolas\" con agua fría cuando hierva.",
       "ab": "Asustar es echar un chorrito de agua fría: así la piel no se rompe.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "remojo",
+       "i": [
+        [
+         "faba",
+         20
+        ]
+       ],
+       "t": "90 min"
+      }
      }
     ]
    },
@@ -2453,20 +2836,72 @@
       "t": "Cuece la berza",
       "m": 25,
       "x": "Aparte, cuece la berza troceada con sal. Escurre.",
-      "f": 0
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#9CC8EA",
+       "i": [
+        [
+         "berza",
+         8
+        ]
+       ],
+       "burbujas": 1
+      }
      },
      {
       "t": "Sofrito",
       "m": 10,
       "x": "Sofríe ajo en aceite, aparta del fuego y añade el pimentón. Sirve sobre la berza.",
       "ab": "La berza se rehoga al final, con ajo y pimentón.",
-      "f": 0
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 2,
+       "c": "#C8402B",
+       "i": [
+        [
+         "ajo",
+         4
+        ]
+       ],
+       "polvo": "#8E1B13",
+       "cuchara": 1
+      }
      },
      {
       "t": "Patatas y chorizo",
       "m": 30,
       "x": "Añade las patatas, el chorizo y la morcilla a las alubias y cuece hasta que todo esté tierno.",
-      "f": 0
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#9A5A32",
+       "i": [
+        [
+         "faba",
+         20
+        ],
+        [
+         "patata",
+         4
+        ],
+        [
+         "chorizo",
+         3
+        ],
+        [
+         "morcilla",
+         2
+        ]
+       ],
+       "tapa": 2
+      }
      }
     ]
    }
@@ -3078,13 +3513,24 @@
       "m": 15,
       "x": "Mezcla harina, sal, agua templada y aceite. Amasa hasta que no se pegue.",
       "ab": "Tiene que quedar blanda y elástica, como el lóbulo de la oreja.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#F3E7C6",
+       "i": [],
+       "tenedor": 1
+      }
      },
      {
       "t": "Reposo",
       "m": 45,
       "x": "Tápala y déjala reposar en un sitio templado.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#F3E7C6",
+       "i": []
+      }
      }
     ]
    },
@@ -3097,14 +3543,48 @@
       "m": 40,
       "x": "Pica cebolla y pimiento fino y pocha a fuego suave con aceite hasta que estén muy tiernos. Añade una pizca de pimentón y el tomate.",
       "ab": "Sin prisa: la cebolla tiene que deshacerse. Si queda cruda por dentro, la empanada sale dura.",
-      "f": 0
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 2,
+       "c": "#E3C062",
+       "i": [
+        [
+         "cebolla",
+         9,
+         1,
+         "o-pochada"
+        ],
+        [
+         "pimiento",
+         5
+        ]
+       ],
+       "cuchara": 1
+      }
      },
      {
       "t": "Une el atún",
       "m": 5,
       "x": "Fuera del fuego, mezcla el atún desmenuzado y el huevo duro picado. Deja templar.",
       "ab": "Rellena siempre con el relleno frío, o la masa se reblandece.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#E6C39A",
+       "i": [
+        [
+         "atun",
+         4
+        ],
+        [
+         "huevo",
+         3
+        ]
+       ],
+       "tenedor": 1
+      }
      }
     ]
    },
@@ -3116,14 +3596,29 @@
       "t": "Estira y rellena",
       "m": 10,
       "x": "Divide la masa en dos, estira muy fina, pon una en la bandeja, extiende el relleno y tapa con la otra.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "formar"
+      }
      },
      {
       "t": "Cierra",
       "m": 5,
       "x": "Dobla el borde hacia dentro y repulgua. Haz un agujero en el centro y pinta con huevo.",
       "ab": "El agujero deja salir el vapor. Con un trocito de masa se hace el adorno del centro.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "bandeja",
+       "i": [
+        [
+         "empanada",
+         1
+        ]
+       ],
+       "c": "#D9A441"
+      }
      }
     ]
    }
@@ -3536,20 +4031,57 @@
       "t": "Fríe el ajo",
       "m": 5,
       "x": "En una sartén con aceite, fríe los ajos laminados sin que se quemen y retíralos.",
-      "f": 0
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 2,
+       "c": "#E3C062",
+       "i": [
+        [
+         "ajo",
+         5
+        ]
+       ],
+       "cuchara": 1,
+       "burbujas": "#F7DC8F"
+      }
      },
      {
       "t": "Harina y agua",
       "m": 5,
       "x": "Añade la harina y tuéstala un minuto. Fuera del fuego, añade el pimentón y moja con el agua fría, removiendo.",
       "ab": "Agua fría y removiendo sin parar, para que no salgan grumos.",
-      "f": 0
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 3,
+       "c": "#D8B96A",
+       "i": [
+        [
+         "almendra",
+         1
+        ]
+       ],
+       "vierte": "agua",
+       "polvo": "#8E1B13"
+      }
      },
      {
       "t": "Cuece",
       "m": 25,
       "x": "A fuego suave, sin dejar de remover, hasta que espese. Sala.",
-      "f": 0
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#D9C58E",
+       "i": [],
+       "cuchara": 1,
+       "burbujas": 1
+      }
      }
     ]
    },
@@ -3561,7 +4093,22 @@
       "t": "Frítelos",
       "m": 10,
       "x": "Fríe los torreznos hasta que estén crujientes. Sirve las gachas con los torreznos y el ajo por encima.",
-      "f": 0
+      "f": 5,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 5,
+       "c": "#C99A3A",
+       "i": [
+        [
+         "tocino",
+         5,
+         1,
+         "r-dorado"
+        ]
+       ],
+       "chisp": 1
+      }
      }
     ]
    }
@@ -3939,14 +4486,38 @@
       "m": 10,
       "x": "Sala el lechazo y colócalo en una cazuela de barro, con la piel hacia arriba.",
       "ab": "Con la piel hacia arriba para que se dore sin secarse.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "i": [
+        [
+         "cordero",
+         3
+        ]
+       ],
+       "polvo": "#FFFFFF"
+      }
      },
      {
       "t": "Agua",
       "m": 2,
       "x": "Añade un vaso de agua en el fondo y el laurel.",
       "ab": "Poca agua: para que la carne no se seque, no para hervir.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 0,
+       "c": "#E9D6B0",
+       "i": [
+        [
+         "laurel",
+         1
+        ]
+       ],
+       "vierte": "agua"
+      }
      }
     ]
    },
@@ -3958,7 +4529,19 @@
       "t": "Reposa",
       "m": 10,
       "x": "Saca y deja reposar tapado antes de servir.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "horno",
+       "t": "220 °C",
+       "d": "cazuela",
+       "i": [
+        [
+         "cordero",
+         3
+        ]
+       ],
+       "c": "#B5402F"
+      }
      }
     ]
    }
@@ -5696,14 +6279,38 @@
       "m": 8,
       "x": "En una cazuela de barro, calienta el aceite con los ajos y la guindilla a fuego suave. Cuando el ajo empiece a dorar, retíralo con la guindilla.",
       "ab": "Los ajos no deben oscurecer: si amargan, la salsa también.",
-      "f": 0
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#E3C062",
+       "i": [
+        [
+         "ajo",
+         4
+        ],
+        [
+         "guindilla",
+         1
+        ]
+       ],
+       "burbujas": "#F7DC8F"
+      }
      },
      {
       "t": "Templa el aceite",
       "m": 5,
       "x": "Deja que el aceite baje de temperatura antes de poner el bacalao.",
       "ab": "Tiene que estar caliente, nunca humeante.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 0,
+       "c": "#E3C062",
+       "i": []
+      }
      }
     ]
    },
@@ -5716,14 +6323,40 @@
       "m": 10,
       "x": "Pon los lomos con la piel hacia abajo y cocínalos muy suave. Dales la vuelta y deja otros 5 min.",
       "ab": "Al cocinarse suelta una gelatina blanca: es la que liga la salsa.",
-      "f": 0
+      "f": 1,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#E3C062",
+       "i": [
+        [
+         "bacalao",
+         4
+        ]
+       ],
+       "burbujas": "#F7DC8F"
+      }
      },
      {
       "t": "Mueve y liga",
       "m": 10,
       "x": "Retira el bacalao. Con la cazuela fuera del fuego, mueve con círculos suaves hasta que el aceite se vuelva cremoso. Vuelve el bacalao y los ajos.",
       "ab": "Si no liga, añade una cucharada de agua de cocer o espera a que baje la temperatura.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 0,
+       "c": "#EFD9A0",
+       "i": [
+        [
+         "bacalao",
+         4
+        ]
+       ],
+       "agita": 1
+      }
      }
     ]
    }
@@ -7190,14 +7823,50 @@
       "t": "Pocha",
       "m": 15,
       "x": "Sofríe cebolla, pimiento y ajo picados a fuego suave. Añade el tomate rallado.",
-      "f": 0
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 2,
+       "c": "#D3A548",
+       "i": [
+        [
+         "cebolla",
+         5,
+         1,
+         "o-pochada"
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "ajo",
+         3
+        ],
+        [
+         "tomate",
+         3
+        ]
+       ],
+       "cuchara": 1
+      }
      },
      {
       "t": "Pimentón",
       "m": 2,
       "x": "Fuera del fuego, añade el pimentón y un chorrito de vinagre.",
       "ab": "El vinagre da el punto canario que despierta el plato.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 0,
+       "c": "#B9482F",
+       "i": [],
+       "polvo": "#8E1B13",
+       "vierte": "vinagre"
+      }
      }
     ]
    },
@@ -7209,14 +7878,55 @@
       "t": "Mezcla",
       "m": 10,
       "x": "Añade garbanzos, carne y patata cortada, y rehoga todo a fuego suave.",
-      "f": 0
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 2,
+       "c": "#C0743A",
+       "i": [
+        [
+         "garbanzo",
+         14
+        ],
+        [
+         "carne",
+         5
+        ],
+        [
+         "patata",
+         4
+        ]
+       ],
+       "cuchara": 1
+      }
      },
      {
       "t": "Reposo",
       "m": 5,
       "x": "Deja reposar tapado antes de servir.",
       "ab": "Templada está mejor que hirviendo.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "cuenco",
+       "c": "#C0743A",
+       "i": [
+        [
+         "garbanzo",
+         12
+        ],
+        [
+         "carne",
+         4
+        ],
+        [
+         "patata",
+         3
+        ]
+       ],
+       "vapor": 1
+      }
      }
     ]
    }
@@ -7841,14 +8551,50 @@
       "t": "Pocha",
       "m": 15,
       "x": "En una cazuela de barro con aceite, pocha la cebolla, el pimiento y el ajo picados, a fuego suave.",
-      "f": 0
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#D3A548",
+       "i": [
+        [
+         "cebolla",
+         5,
+         1,
+         "o-pochada"
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "ajo",
+         3
+        ]
+       ],
+       "cuchara": 1
+      }
      },
      {
       "t": "Tomate y pimentón",
       "m": 5,
       "x": "Añade el tomate rallado y, fuera del fuego, el pimentón.",
       "ab": "El pimentón, siempre fuera del fuego: se quema y amarga.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 0,
+       "c": "#B9482F",
+       "i": [
+        [
+         "tomate",
+         3
+        ]
+       ],
+       "polvo": "#8E1B13"
+      }
      }
     ]
    },
@@ -7860,14 +8606,42 @@
       "t": "Verdura y agua",
       "m": 15,
       "x": "Añade la col troceada, el agua y la sal. Cuece hasta que la verdura esté tierna.",
-      "f": 0
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#C0743A",
+       "i": [
+        [
+         "berza",
+         6
+        ]
+       ],
+       "vierte": "agua",
+       "burbujas": 1
+      }
      },
      {
       "t": "El pan",
       "m": 15,
       "x": "Pon el pan en capas finas y deja que beba el caldo a fuego suave, sin remover. Debe quedar melosa, con poco caldo.",
       "ab": "Con cuchara de madera, apretando suavemente el pan: que no se deshaga del todo.",
-      "f": 0
+      "f": 1,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#A3552F",
+       "i": [
+        [
+         "pan",
+         12
+        ]
+       ],
+       "tapa": 2,
+       "cuchara": 1
+      }
      }
     ]
    }
@@ -7989,27 +8763,73 @@
       "x": "La noche antes: pon la soja en un bol grande, frota puñados entre las manos para partirla y cubre con unos 2,5 L de agua fría. Deja de 8 a 12 horas.",
       "ab": "En Indonesia el remojo largo también sirve para que el agua se vuelva ligeramente ácida, que es lo que necesita la fermentación (Antara). Por eso un chorrito de vinagre en casa hace un papel parecido.",
       "f": 0,
-      "w": 1
+      "w": 1,
+      "e": {
+       "k": "remojo",
+       "i": [
+        [
+         "garbanzo",
+         24
+        ]
+       ],
+       "t": "12 h"
+      }
      },
      {
       "t": "Descascarilla",
       "m": 15,
       "x": "Agita la soja con fuerza en el agua: las pieles suben y las retiras. Repite 3 o 4 veces. Quitar la mayoría basta.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#BFDDF2",
+       "i": [
+        [
+         "garbanzo",
+         18
+        ]
+       ],
+       "cae": null
+      }
      },
      {
       "t": "Cuece",
       "m": 45,
       "x": "Hierve en agua sin sal de 25 a 45 minutos, hasta que esté tierna pero con mordida, no blanda. Retira la espuma que suba. Escurre bien.",
       "ab": "Si la cueces demasiado, el tempeh queda pastoso. Mejor un punto firme.",
-      "f": 0
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#C9D9E8",
+       "i": [
+        [
+         "garbanzo",
+         24
+        ]
+       ],
+       "burbujas": 1,
+       "espuma": 1
+      }
      },
      {
       "t": "Seca muy bien",
       "m": 20,
       "x": "Este es el paso crítico. Vuelca la soja sobre un trapo limpio y frota hasta que la superficie esté seca al tacto. Deja enfriar hasta que esté templada, no caliente.",
       "ab": "Es lo que más determina el éxito. La humedad es el enemigo número uno, y el calor mata el fermento.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "llano",
+       "c": "#F5F1E8",
+       "i": [
+        [
+         "garbanzo",
+         20
+        ]
+       ]
+      }
      }
     ]
    },
@@ -8022,13 +8842,27 @@
       "m": 5,
       "x": "En un bol seco, mezcla la soja con las 2 cucharadas de vinagre. Luego espolvorea ½ cucharadita de fermento por encima y mezcla a fondo 1 minuto para repartirlo bien.",
       "ab": "Cuidado con pasarte: la receta tradicional usa muy poco fermento, del orden de 1 g por kilo de soja (Antara). Más fermento no da mejor tempeh.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#F2E3B5",
+       "i": [
+        [
+         "garbanzo",
+         18
+        ]
+       ],
+       "tenedor": 1
+      }
      },
      {
       "t": "Embolsa",
       "m": 10,
       "x": "Reparte en 2 bolsas y aplana en una capa uniforme de unos 2 cm. Pincha agujeros por las dos caras cada 2,5 cm más o menos.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "formar"
+      }
      }
     ]
    },
@@ -8042,14 +8876,38 @@
       "x": "Pon las bolsas separadas y elevadas sobre una rejilla, a 28-30 °C, para que corra el aire por debajo. A las 12 horas verás pelusa blanca y empezará a calentarse sola: a partir de aquí quita el calor externo, porque si pasa de 37 °C el hongo muere. Está listo a las 36-48 horas, cuando el bloque es sólido y blanco y todos los huecos están rellenos de micelio.",
       "ab": "En Java lo envuelven en hoja de plátano o plástico agujereado y lo pinchan con un palito tras la primera noche, para que corra el aire (Antara).",
       "f": 0,
-      "w": 1
+      "w": 1,
+      "e": {
+       "k": "horno",
+       "t": "30 °C",
+       "d": "bandeja",
+       "i": [
+        [
+         "tempeh",
+         3
+        ]
+       ],
+       "c": "#E9D9B0"
+      }
      },
      {
       "t": "Guarda",
       "m": 30,
       "x": "Si lo vas a comer en 3 o 4 días, a la nevera tal cual. Para congelar: vapor 15 minutos, enfriar y al congelador, hasta 3 meses, cortado antes en porciones.",
       "ab": "Siempre se cocina antes de comer: salteado, frito o al horno.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "nevera",
+       "v": "fuente",
+       "c": "#E9D9B0",
+       "i": [
+        [
+         "tempeh",
+         3
+        ]
+       ],
+       "t": "3 días"
+      }
      }
     ]
    }
@@ -8164,14 +9022,45 @@
       "t": "Adoba",
       "m": 10,
       "x": "Sala el ternasco, úntalo con un poco de aceite y ponlo en la bandeja con los ajos sin pelar.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "llano",
+       "i": [
+        [
+         "cordero",
+         3
+        ],
+        [
+         "ajo",
+         4
+        ]
+       ],
+       "polvo": "#FFFFFF"
+      }
      },
      {
       "t": "Patatas panadera",
       "m": 10,
       "x": "Corta las patatas en rodajas gruesas, sálalas y colócalas debajo y alrededor de la carne.",
       "ab": "Debajo de la carne para que beban el jugo.",
-      "f": 0
+      "f": 0,
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "bandeja",
+       "i": [
+        [
+         "cordero",
+         3
+        ],
+        [
+         "patata",
+         6
+        ]
+       ],
+       "c": "#C0743A"
+      }
      }
     ]
    },

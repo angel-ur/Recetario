@@ -212,6 +212,10 @@ def fallback_recipe(meta, intro, ingredientes, fases_md, secretos_md):
     }
 
 
+ESCENAS_SIMPLES = json.loads((ROOT / 'data' / 'escenas_simples.json').read_text(encoding='utf-8')) \
+    if (ROOT / 'data' / 'escenas_simples.json').exists() else {}
+
+
 def main():
     enriquecido = {r["id"]: r for r in json.loads(ENRIQUECIDO.read_text(encoding="utf-8"))} \
         if ENRIQUECIDO.exists() else {}
@@ -226,7 +230,17 @@ def main():
                                             enriquecido[meta["id"]], avisos))
             else:
                 avisos.append(f"{meta['id']}: sin enriquecido, se publica la version simple")
-                recetas.append(fallback_recipe(meta, intro, ings, fases, secretos))
+                rec = fallback_recipe(meta, intro, ings, fases, secretos)
+                if meta["id"] in ESCENAS_SIMPLES:
+                    es = ESCENAS_SIMPLES[meta["id"]]
+                    pasos = [p for f in rec["fases"] for p in f["p"]]
+                    if len(es) != len(pasos):
+                        avisos.append(f"{meta['id']}: {len(pasos)} pasos y {len(es)} escenas")
+                    for p, e in zip(pasos, es):
+                        p["e"] = e
+                        if isinstance(e.get("f"), int):
+                            p["f"] = e["f"]
+                recetas.append(rec)
         except Exception as e:  # noqa: BLE001
             errores.append(str(e))
     for a in avisos:
