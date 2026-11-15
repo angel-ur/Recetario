@@ -3,6 +3,8 @@
 (function () {
   'use strict';
 
+  var iluSeq = 0;
+
   /* ---------- Biblioteca de dibujos ---------- */
   var S = function (id, vb, cuerpo, libre) {
     return '<symbol id="e-' + id + '" viewBox="' + vb + '"' + (libre ? '' : ' preserveAspectRatio="none"') + '>' + cuerpo + '</symbol>';
@@ -493,7 +495,19 @@
 
   function svg(e, etiqueta) {
     e = e || { k: 'plato' };
-    if (e.k === 'ilu') return '<svg viewBox="0 0 320 180" role="img" aria-label="' + (etiqueta || '').replace(/"/g, '&quot;') + '">' + e.svg + '</svg>';
+    if (e.k === 'ilu') {
+      // Los id de las portadas se repiten en cada inyeccion (tarjeta, ficha,
+      // compartir); con duplicados, url(#id) puede resolver a una copia
+      // oculta y Chrome no pinta el degradado. Se hacen unicos por llamada.
+      var s = e.svg, ids = {}, suf = '_u' + (++iluSeq);
+      s.replace(/id="([^"]+)"/g, function (m, id) { ids[id] = 1; return m; });
+      for (var id in ids) {
+        s = s.split('id="' + id + '"').join('id="' + id + suf + '"')
+             .split('url(#' + id + ')').join('url(#' + id + suf + ')')
+             .split('href="#' + id + '"').join('href="#' + id + suf + '"');
+      }
+      return '<svg viewBox="0 0 320 180" role="img" aria-label="' + (etiqueta || '').replace(/"/g, '&quot;') + '">' + s + '</svg>';
+    }
     var rnd = azar(semilla(JSON.stringify(e)));
     var cuerpo = (TIPOS[e.k] || escenaPlato)(e, rnd);
     return '<svg viewBox="0 0 320 180" role="img" aria-label="' + (etiqueta || '').replace(/"/g, '&quot;') + '">' + cuerpo + '</svg>';
