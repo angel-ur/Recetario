@@ -10306,81 +10306,116 @@
   "n": "Sopas mallorquinas",
   "sub": "pan moreno, verdura de temporada y mucho pimentón",
   "reg": "bal",
-  "regs": [
-   "bal"
-  ],
   "lugar": "Illes Balears",
   "cat": "cuchara",
   "dif": 1,
   "b": 4,
   "rac": [
-   4
+   2,
+   4,
+   6
   ],
-  "intro": "Más un guiso que una sopa: rebanadas finas de pan seco que beben el caldo de la verdura hasta quedar melosas. Se hacían con lo que había en el huerto.",
+  "met": [
+   {
+    "id": "barro",
+    "n": "En cazuela de barro",
+    "d": "La de siempre: guarda el calor y melosa más"
+   },
+   {
+    "id": "metal",
+    "n": "En olla o cazuela de metal",
+    "d": "Sin barro: misma sopa, vigilando el fondo"
+   }
+  ],
+  "heroe": {
+   "k": "ilu",
+   "svg": "<defs><radialGradient id=\"i_sopasmallorquinas_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_sopasmallorquinas_fondo)\"/><defs><radialGradient id=\"i_sopasmallorquinas_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_sopasmallorquinas_greix\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#B85838\"/><stop offset=\"1\" stop-color=\"#8A3C24\"/></linearGradient><radialGradient id=\"i_sopasmallorquinas_sopm\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#C89248\"/><stop offset=\"1\" stop-color=\"#A06A28\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"152\" rx=\"112\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M54 92c0 34 26 52 106 52s106-18 106-52z\" fill=\"url(#i_sopasmallorquinas_greix)\"/><ellipse cx=\"160\" cy=\"92\" rx=\"106\" ry=\"25\" fill=\"#9C4428\"/><ellipse cx=\"160\" cy=\"94\" rx=\"96\" ry=\"20\" fill=\"url(#i_sopasmallorquinas_sopm)\"/><g transform=\"translate(112 90) rotate(-14)\"><path d=\"M-12 0q6 -9 12 0q-6 5 -12 0z\" fill=\"#5E8E42\"/></g><g transform=\"translate(150 96) rotate(10)\"><path d=\"M-12 0q6 -9 12 0q-6 5 -12 0z\" fill=\"#7DAB52\"/></g><g transform=\"translate(192 88) rotate(-24)\"><path d=\"M-12 0q6 -9 12 0q-6 5 -12 0z\" fill=\"#4E7A38\"/></g><g transform=\"translate(222 96) rotate(18)\"><path d=\"M-12 0q6 -9 12 0q-6 5 -12 0z\" fill=\"#6A9A4E\"/></g><g transform=\"translate(132 98)\"><circle r=\"6\" fill=\"#F0E8D0\"/><circle cx=\"-3.0\" cy=\"-2.0\" r=\"2.2\" fill=\"#FAF4E4\"/><circle cx=\"3.0\" cy=\"-2.0\" r=\"2.2\" fill=\"#FAF4E4\"/><circle cx=\"0.0\" cy=\"3.0\" r=\"2.2\" fill=\"#FAF4E4\"/></g><g transform=\"translate(176 86)\"><circle r=\"6\" fill=\"#F0E8D0\"/><circle cx=\"-3.0\" cy=\"-2.0\" r=\"2.2\" fill=\"#FAF4E4\"/><circle cx=\"3.0\" cy=\"-2.0\" r=\"2.2\" fill=\"#FAF4E4\"/><circle cx=\"0.0\" cy=\"3.0\" r=\"2.2\" fill=\"#FAF4E4\"/></g><g transform=\"translate(104 98) rotate(-20)\"><rect x=\"-16\" y=\"-6\" width=\"32\" height=\"12\" rx=\"5\" fill=\"#8A5E34\"/><rect x=\"-16\" y=\"-6\" width=\"32\" height=\"12\" rx=\"5\" fill=\"none\" stroke=\"#6E4624\" stroke-width=\"1.4\"/></g><g transform=\"translate(204 100) rotate(12)\"><rect x=\"-16\" y=\"-6\" width=\"32\" height=\"12\" rx=\"5\" fill=\"#8A5E34\"/><rect x=\"-16\" y=\"-6\" width=\"32\" height=\"12\" rx=\"5\" fill=\"none\" stroke=\"#6E4624\" stroke-width=\"1.4\"/></g><circle cx=\"134.7\" cy=\"98.0\" r=\"1.2\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"191.6\" cy=\"94.2\" r=\"0.9\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"212.3\" cy=\"91.8\" r=\"1.1\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"138.2\" cy=\"82.1\" r=\"1.1\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"227.2\" cy=\"92.9\" r=\"1.1\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"119.9\" cy=\"86.6\" r=\"1.1\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"193.2\" cy=\"82.1\" r=\"1.3\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"133.3\" cy=\"84.4\" r=\"0.9\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"132.1\" cy=\"88.7\" r=\"0.9\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"88.8\" cy=\"96.8\" r=\"1.0\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"99.5\" cy=\"86.6\" r=\"1.1\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"118.5\" cy=\"102.8\" r=\"0.9\" fill=\"#9C2E1E\" opacity=\".75\"/><ellipse cx=\"128\" cy=\"84\" rx=\"20\" ry=\"2.4\" fill=\"#fff\" opacity=\".25\"/>"
+  },
+  "regs": [
+   "bal"
+  ],
+  "intro": "Más un guiso que una sopa: rebanadas finas de pan moreno seco que beben el caldo de la verdura hasta quedar melosas. Se hacían con lo que había en el huerto y el pan del día antes.",
+  "secretos": [
+   [
+    "Pan duro",
+    "el pan tierno se deshace. Si el tuyo es fresco, córtalo en rebanadas y déjalo secar un día."
+   ],
+   [
+    "Poco caldo",
+    "son sopas, pero casi se comen con tenedor. Si te quedan caldosas, espera: el pan sigue bebiendo fuera del fuego."
+   ],
+   [
+    "A gustos, colores",
+    "hay quien pone coliflor en vez de col, quien añade unas galletas marías al final como en Menorca, y quien la guisa con costilla o butifarrón para hacerla de fiesta."
+   ],
+   [
+    "De un día para otro",
+    "al día siguiente espesa y está mejor."
+   ]
+  ],
   "ing": [
    [
-    "i0",
-    "250 g de pan moreno seco en rebanadas finas",
-    null,
-    null,
-    1,
-    "plano"
+    "pan",
+    "pan moreno seco|pan moreno seco",
+    250,
+    "g"
    ],
    [
-    "i1",
-    "1 cebolla",
-    null,
-    null,
+    "cebolla",
+    "cebolla|cebollas",
     1,
-    "plano"
+    "ud",
+    0.5
    ],
    [
-    "i2",
-    "1 pimiento verde",
-    null,
-    null,
+    "pimiento",
+    "pimiento verde|pimientos verdes",
     1,
-    "plano"
+    "ud",
+    0.5
    ],
    [
-    "i3",
-    "2 tomates maduros",
-    null,
-    null,
-    1,
-    "plano"
+    "tomate",
+    "tomate maduro rallado|tomates maduros rallados",
+    2,
+    "ud",
+    0.5
    ],
    [
-    "i4",
-    "1/4 de col o coliflor",
-    null,
-    null,
-    1,
-    "plano"
+    "col",
+    "col|col",
+    300,
+    "g"
    ],
    [
-    "i5",
-    "3 dientes de ajo",
-    null,
-    null,
-    1,
-    "plano"
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    3,
+    "ud",
+    1
    ],
    [
-    "i6",
-    "1 cucharadita de pimentón dulce",
-    null,
-    null,
+    "pimenton",
+    "pimentón dulce|pimentón dulce",
     1,
-    "plano"
+    "cdta"
    ],
    [
-    "i7",
-    "aceite de oliva, sal y 1 l de agua",
-    null,
-    null,
-    1,
-    "plano"
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    5,
+    "cda"
+   ],
+   [
+    "agua",
+    "agua|agua",
+    1000,
+    "ml"
+   ],
+   [
+    "sal",
+    "sal",
+    null
    ]
   ],
   "fases": [
@@ -10390,54 +10425,52 @@
     "p": [
      {
       "t": "Pocha",
-      "m": 15,
-      "x": "En una cazuela de barro con 5 cucharadas de aceite, pocha la cebolla, el pimiento y el ajo picados, a fuego suave.",
-      "f": 2,
-      "tim": 15,
+      "m": 10,
+      "x": "Pocha {cebolla}, {pimiento} y {ajo} picados en {aceite} en una cazuela amplia, a fuego suave 10 minutos.",
+      "tim": 10,
+      "f": 1,
       "e": {
        "k": "fuego",
        "v": "cazuela",
-       "f": 2,
-       "c": "#D3A548",
+       "f": 1,
+       "c": "#C77B3B",
        "i": [
         [
          "cebolla",
-         5,
-         1,
-         "o-pochada"
+         2
         ],
         [
          "pimiento",
-         3
+         1
         ],
         [
          "ajo",
-         3
+         1
         ]
        ],
-       "cuchara": 1
-      }
+       "vapor": 1
+      },
+      "ab": "La verdura bien picadita: es el fondo de la sopa."
      },
      {
       "t": "Tomate y pimentón",
       "m": 5,
-      "x": "Añade los 2 tomates rallados, cocina 5 minutos y, fuera del fuego, 1 cucharadita de pimentón.",
-      "ab": "El pimentón, siempre fuera del fuego: se quema y amarga.",
-      "f": 0,
+      "x": "Añade {tomate} y cocina 5 minutos. Fuera del fuego, añade {pimenton} y remueve bien.",
       "tim": 5,
+      "f": 1,
       "e": {
        "k": "fuego",
        "v": "cazuela",
        "f": 0,
-       "c": "#B9482F",
+       "c": "#C77B3B",
        "i": [
         [
          "tomate",
-         3
+         1
         ]
-       ],
-       "polvo": "#8E1B13"
-      }
+       ]
+      },
+      "ab": "El pimentón, siempre fuera del fuego: se quema y amarga."
      }
     ]
    },
@@ -10448,78 +10481,118 @@
      {
       "t": "Verdura y agua",
       "m": 15,
-      "x": "Añade 1/4 de col troceada, 1 litro de agua y 1 cucharadita de sal. Cuece hasta que la verdura esté tierna.",
-      "f": 2,
+      "x": "Añade {col} troceada, {agua} y sal, y cuece a fuego suave 15 minutos, hasta que la verdura esté tierna.",
       "tim": 15,
-      "e": {
-       "k": "fuego",
-       "v": "cazuela",
-       "f": 2,
-       "c": "#C0743A",
-       "i": [
-        [
-         "berza",
-         6
-        ]
-       ],
-       "vierte": "agua",
-       "burbujas": 1
-      }
-     },
-     {
-      "t": "El pan",
-      "m": 15,
-      "x": "Pon los 250 g de pan en capas finas y deja que beba el caldo a fuego suave, sin remover. Debe quedar melosa, con poco caldo.",
-      "ab": "Con cuchara de madera, apretando suavemente el pan: que no se deshaga del todo.",
       "f": 1,
-      "tim": 15,
       "e": {
        "k": "fuego",
        "v": "cazuela",
        "f": 1,
-       "c": "#A3552F",
+       "c": "#7A9A5B",
+       "i": [
+        [
+         "berza",
+         3
+        ],
+        [
+         "cebolla",
+         1
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "La col, en trozos que quepan en la cuchara."
+     },
+     {
+      "t": "El pan",
+      "m": 15,
+      "x": "Pon {pan} en rebanadas finas, en capas sobre la verdura, y deja que beba el caldo a fuego mínimo 15 minutos, sin remover. Debe quedar melosa, con poco caldo.",
+      "tim": 15,
+      "f": 1,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#D9A441",
        "i": [
         [
          "pan",
-         12
+         3
+        ],
+        [
+         "berza",
+         1
         ]
        ],
-       "tapa": 2,
-       "cuchara": 1
-      }
+       "vapor": 1
+      },
+      "ab": "Con cuchara de madera, apretando suavemente el pan: que no se deshaga del todo."
+     },
+     {
+      "t": "Reposo en barro",
+      "m": 10,
+      "x": "Apaga, tapa y deja reposar 10 minutos: el barro sigue trabajando y el pan acaba de beberse el caldo. Sirve en la misma cazuela.",
+      "tim": 10,
+      "solo": [
+       "barro"
+      ],
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#D9A441",
+       "i": [
+        [
+         "pan",
+         3
+        ],
+        [
+         "berza",
+         1
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "El reposo es medio plato: fuera del fuego, el pan termina de beber."
+     },
+     {
+      "t": "Reposo sin barro",
+      "m": 5,
+      "x": "Apaga, tapa y deja reposar 5 minutos. Sirve enseguida, que el metal no guarda el calor como el barro.",
+      "tim": 5,
+      "solo": [
+       "metal"
+      ],
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#D9A441",
+       "i": [
+        [
+         "pan",
+         3
+        ],
+        [
+         "berza",
+         1
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "El metal enfría rápido: cinco minutos y a la mesa."
      }
     ]
    }
   ],
-  "simple": 1,
-  "secretos": [
-   [
-    "Pan duro",
-    "el pan tierno se deshace."
-   ],
-   [
-    "De un día para otro",
-    "al día siguiente espesa y está mejor."
-   ],
-   [
-    "Poco caldo",
-    "son sopas, pero casi se comen con tenedor."
-   ]
-  ],
-  "heroe": {
-   "k": "ilu",
-   "svg": "<defs><radialGradient id=\"i_sopasmallorquinas_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_sopasmallorquinas_fondo)\"/><defs><radialGradient id=\"i_sopasmallorquinas_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_sopasmallorquinas_greix\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#B85838\"/><stop offset=\"1\" stop-color=\"#8A3C24\"/></linearGradient><radialGradient id=\"i_sopasmallorquinas_sopm\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#C89248\"/><stop offset=\"1\" stop-color=\"#A06A28\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"152\" rx=\"112\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M54 92c0 34 26 52 106 52s106-18 106-52z\" fill=\"url(#i_sopasmallorquinas_greix)\"/><ellipse cx=\"160\" cy=\"92\" rx=\"106\" ry=\"25\" fill=\"#9C4428\"/><ellipse cx=\"160\" cy=\"94\" rx=\"96\" ry=\"20\" fill=\"url(#i_sopasmallorquinas_sopm)\"/><g transform=\"translate(112 90) rotate(-14)\"><path d=\"M-12 0q6 -9 12 0q-6 5 -12 0z\" fill=\"#5E8E42\"/></g><g transform=\"translate(150 96) rotate(10)\"><path d=\"M-12 0q6 -9 12 0q-6 5 -12 0z\" fill=\"#7DAB52\"/></g><g transform=\"translate(192 88) rotate(-24)\"><path d=\"M-12 0q6 -9 12 0q-6 5 -12 0z\" fill=\"#4E7A38\"/></g><g transform=\"translate(222 96) rotate(18)\"><path d=\"M-12 0q6 -9 12 0q-6 5 -12 0z\" fill=\"#6A9A4E\"/></g><g transform=\"translate(132 98)\"><circle r=\"6\" fill=\"#F0E8D0\"/><circle cx=\"-3.0\" cy=\"-2.0\" r=\"2.2\" fill=\"#FAF4E4\"/><circle cx=\"3.0\" cy=\"-2.0\" r=\"2.2\" fill=\"#FAF4E4\"/><circle cx=\"0.0\" cy=\"3.0\" r=\"2.2\" fill=\"#FAF4E4\"/></g><g transform=\"translate(176 86)\"><circle r=\"6\" fill=\"#F0E8D0\"/><circle cx=\"-3.0\" cy=\"-2.0\" r=\"2.2\" fill=\"#FAF4E4\"/><circle cx=\"3.0\" cy=\"-2.0\" r=\"2.2\" fill=\"#FAF4E4\"/><circle cx=\"0.0\" cy=\"3.0\" r=\"2.2\" fill=\"#FAF4E4\"/></g><g transform=\"translate(104 98) rotate(-20)\"><rect x=\"-16\" y=\"-6\" width=\"32\" height=\"12\" rx=\"5\" fill=\"#8A5E34\"/><rect x=\"-16\" y=\"-6\" width=\"32\" height=\"12\" rx=\"5\" fill=\"none\" stroke=\"#6E4624\" stroke-width=\"1.4\"/></g><g transform=\"translate(204 100) rotate(12)\"><rect x=\"-16\" y=\"-6\" width=\"32\" height=\"12\" rx=\"5\" fill=\"#8A5E34\"/><rect x=\"-16\" y=\"-6\" width=\"32\" height=\"12\" rx=\"5\" fill=\"none\" stroke=\"#6E4624\" stroke-width=\"1.4\"/></g><circle cx=\"134.7\" cy=\"98.0\" r=\"1.2\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"191.6\" cy=\"94.2\" r=\"0.9\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"212.3\" cy=\"91.8\" r=\"1.1\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"138.2\" cy=\"82.1\" r=\"1.1\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"227.2\" cy=\"92.9\" r=\"1.1\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"119.9\" cy=\"86.6\" r=\"1.1\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"193.2\" cy=\"82.1\" r=\"1.3\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"133.3\" cy=\"84.4\" r=\"0.9\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"132.1\" cy=\"88.7\" r=\"0.9\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"88.8\" cy=\"96.8\" r=\"1.0\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"99.5\" cy=\"86.6\" r=\"1.1\" fill=\"#9C2E1E\" opacity=\".75\"/><circle cx=\"118.5\" cy=\"102.8\" r=\"0.9\" fill=\"#9C2E1E\" opacity=\".75\"/><ellipse cx=\"128\" cy=\"84\" rx=\"20\" ry=\"2.4\" fill=\"#fff\" opacity=\".25\"/>"
-  },
   "tienda": [
    [
     "El pan",
-    "«Pan moreno mallorquín» (pan de payés integral), seco. Corta en rebanadas finas y deja secar un día si está tierno.",
+    "«pan moreno» (pan de payés integral), seco. Corta en rebanadas finas y deja secar un día si está tierno.",
     "pan"
    ],
    [
     "La verdura",
-    "«Un cuarto de col o de coliflor»; que sea fresca y firme.",
-    "col|coliflor"
+    "«un trozo de col o de coliflor, la que veas más fresca»; las dos valen.",
+    "col"
    ]
   ]
  },

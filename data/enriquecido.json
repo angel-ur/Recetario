@@ -10959,5 +10959,260 @@
     ]
    }
   ]
+ },
+ {
+  "id": "sopasmallorquinas",
+  "n": "Sopas mallorquinas",
+  "sub": "pan moreno, verdura de temporada y mucho pimentón",
+  "reg": "bal",
+  "lugar": "Illes Balears",
+  "cat": "cuchara",
+  "dif": 1,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "met": [
+   {
+    "id": "barro",
+    "n": "En cazuela de barro",
+    "d": "La de siempre: guarda el calor y melosa más"
+   },
+   {
+    "id": "metal",
+    "n": "En olla o cazuela de metal",
+    "d": "Sin barro: misma sopa, vigilando el fondo"
+   }
+  ],
+  "ing": [
+   [
+    "pan",
+    "pan moreno seco|pan moreno seco",
+    250,
+    "g"
+   ],
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "pimiento",
+    "pimiento verde|pimientos verdes",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "tomate",
+    "tomate maduro rallado|tomates maduros rallados",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "col",
+    "col|col",
+    300,
+    "g"
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    3,
+    "ud",
+    1
+   ],
+   [
+    "pimenton",
+    "pimentón dulce|pimentón dulce",
+    1,
+    "cdta"
+   ],
+   [
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    5,
+    "cda"
+   ],
+   [
+    "agua",
+    "agua|agua",
+    1000,
+    "ml"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ]
+  ],
+  "fases": [
+   {
+    "n": "El sofrito",
+    "p": [
+     {
+      "t": "Pocha",
+      "m": 10,
+      "tim": 10,
+      "f": 1,
+      "x": "Pocha {cebolla}, {pimiento} y {ajo} picados en {aceite} en una cazuela amplia, a fuego suave 10 minutos.",
+      "ab": "La verdura bien picadita: es el fondo de la sopa.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#C77B3B",
+       "i": [
+        [
+         "cebolla",
+         2
+        ],
+        [
+         "pimiento",
+         1
+        ],
+        [
+         "ajo",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Tomate y pimentón",
+      "m": 5,
+      "tim": 5,
+      "f": 1,
+      "x": "Añade {tomate} y cocina 5 minutos. Fuera del fuego, añade {pimenton} y remueve bien.",
+      "ab": "El pimentón, siempre fuera del fuego: se quema y amarga.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 0,
+       "c": "#C77B3B",
+       "i": [
+        [
+         "tomate",
+         1
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "n": "Las sopas",
+    "p": [
+     {
+      "t": "Verdura y agua",
+      "m": 15,
+      "tim": 15,
+      "f": 1,
+      "x": "Añade {col} troceada, {agua} y sal, y cuece a fuego suave 15 minutos, hasta que la verdura esté tierna.",
+      "ab": "La col, en trozos que quepan en la cuchara.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#7A9A5B",
+       "i": [
+        [
+         "berza",
+         3
+        ],
+        [
+         "cebolla",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "El pan",
+      "m": 15,
+      "tim": 15,
+      "f": 1,
+      "x": "Pon {pan} en rebanadas finas, en capas sobre la verdura, y deja que beba el caldo a fuego mínimo 15 minutos, sin remover. Debe quedar melosa, con poco caldo.",
+      "ab": "Con cuchara de madera, apretando suavemente el pan: que no se deshaga del todo.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#D9A441",
+       "i": [
+        [
+         "pan",
+         3
+        ],
+        [
+         "berza",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Reposo en barro",
+      "m": 10,
+      "tim": 10,
+      "solo": [
+       "barro"
+      ],
+      "x": "Apaga, tapa y deja reposar 10 minutos: el barro sigue trabajando y el pan acaba de beberse el caldo. Sirve en la misma cazuela.",
+      "ab": "El reposo es medio plato: fuera del fuego, el pan termina de beber.",
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#D9A441",
+       "i": [
+        [
+         "pan",
+         3
+        ],
+        [
+         "berza",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Reposo sin barro",
+      "m": 5,
+      "tim": 5,
+      "solo": [
+       "metal"
+      ],
+      "x": "Apaga, tapa y deja reposar 5 minutos. Sirve enseguida, que el metal no guarda el calor como el barro.",
+      "ab": "El metal enfría rápido: cinco minutos y a la mesa.",
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#D9A441",
+       "i": [
+        [
+         "pan",
+         3
+        ],
+        [
+         "berza",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     }
+    ]
+   }
+  ]
  }
 ]

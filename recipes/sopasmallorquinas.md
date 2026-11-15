@@ -10,40 +10,49 @@ raciones: 4
 tags: [pan, col, tomate, pimiento, cebolla, ajo, pimenton]
 ---
 
-Más un guiso que una sopa: rebanadas finas de pan seco que beben el caldo de la verdura hasta quedar melosas. Se hacían con lo que había en el huerto.
+Más un guiso que una sopa: rebanadas finas de pan moreno seco que beben el caldo de la verdura hasta quedar melosas. Se hacían con lo que había en el huerto y el pan del día antes.
 
 ## Ingredientes
 
-- 250 g de pan moreno seco en rebanadas finas
+- 250 g de pan moreno seco
 - 1 cebolla
 - 1 pimiento verde
 - 2 tomates maduros
-- 1/4 de col o coliflor
+- 300 g de col (o coliflor)
 - 3 dientes de ajo
 - 1 cucharadita de pimentón dulce
-- aceite de oliva, sal y 1 l de agua
+- 5 cucharadas de aceite de oliva
+- 1 l de agua
+- sal
 
 ## Elaboración
 
 ### El sofrito
 
-1. **Pocha** (15 min) - En una cazuela de barro con 5 cucharadas de aceite, pocha la cebolla, el pimiento y el ajo picados, a fuego suave.
-2. **Tomate y pimentón** (5 min) - Añade los 2 tomates rallados, cocina 5 minutos y, fuera del fuego, 1 cucharadita de pimentón.
+1. **Pocha** (10 min) - Pocha cebollas, pimientos verdes y dientes de ajo picados en aceite de oliva en una cazuela amplia, a fuego suave 10 minutos.
+   > La verdura bien picadita: es el fondo de la sopa.
+2. **Tomate y pimentón** (5 min) - Añade tomates maduros rallados y cocina 5 minutos. Fuera del fuego, añade pimentón dulce y remueve bien.
    > El pimentón, siempre fuera del fuego: se quema y amarga.
 
 ### Las sopas
 
-3. **Verdura y agua** (15 min) - Añade 1/4 de col troceada, 1 litro de agua y 1 cucharadita de sal. Cuece hasta que la verdura esté tierna.
-4. **El pan** (15 min) - Pon los 250 g de pan en capas finas y deja que beba el caldo a fuego suave, sin remover. Debe quedar melosa, con poco caldo.
+3. **Verdura y agua** (15 min) - Añade col troceada, agua y sal, y cuece a fuego suave 15 minutos, hasta que la verdura esté tierna.
+   > La col, en trozos que quepan en la cuchara.
+4. **El pan** (15 min) - Pon pan moreno seco en rebanadas finas, en capas sobre la verdura, y deja que beba el caldo a fuego mínimo 15 minutos, sin remover. Debe quedar melosa, con poco caldo.
    > Con cuchara de madera, apretando suavemente el pan: que no se deshaga del todo.
+5. **Reposo en barro** (10 min) - Apaga, tapa y deja reposar 10 minutos: el barro sigue trabajando y el pan acaba de beberse el caldo. Sirve en la misma cazuela.
+   > El reposo es medio plato: fuera del fuego, el pan termina de beber.
+6. **Reposo sin barro** (5 min) - Apaga, tapa y deja reposar 5 minutos. Sirve enseguida, que el metal no guarda el calor como el barro.
+   > El metal enfría rápido: cinco minutos y a la mesa.
 
 ## Secretos de la abuela
 
-- **Pan duro**: el pan tierno se deshace.
+- **Pan duro**: el pan tierno se deshace. Si el tuyo es fresco, córtalo en rebanadas y déjalo secar un día.
+- **Poco caldo**: son sopas, pero casi se comen con tenedor. Si te quedan caldosas, espera: el pan sigue bebiendo fuera del fuego.
+- **A gustos, colores**: hay quien pone coliflor en vez de col, quien añade unas galletas marías al final como en Menorca, y quien la guisa con costilla o butifarrón para hacerla de fiesta.
 - **De un día para otro**: al día siguiente espesa y está mejor.
-- **Poco caldo**: son sopas, pero casi se comen con tenedor.
 
 ## En la tienda
 
-- **El pan** [pan]: «Pan moreno mallorquín» (pan de payés integral), seco. Corta en rebanadas finas y deja secar un día si está tierno.
-- **La verdura** [col|coliflor]: «Un cuarto de col o de coliflor»; que sea fresca y firme.
+- **El pan** [pan]: «pan moreno» (pan de payés integral), seco. Corta en rebanadas finas y deja secar un día si está tierno.
+- **La verdura** [col]: «un trozo de col o de coliflor, la que veas más fresca»; las dos valen.

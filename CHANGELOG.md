@@ -3,6 +3,7 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Sopas mallorquinas rehechas como el pil pil: cantidades ajustadas a cuantos sois (2, 4 o 6), dos cazuelas (la de barro, que guarda el calor y melosa más, o la olla de metal de siempre) y el pan moreno bien seco, que es medio plato.
 - Lechazo asado rehecho como el pil pil: cantidades ajustadas a cuantos sois (2, 4 o 6), dos hornos (cazuela de barro, la de los asadores, o fuente de metal, con sus tiempos y avisos propios) y la receta de la abuela: sal, agua al fondo, piel arriba y a regar con cuchara.
 - Ropa vieja canaria rehecha como el pil pil: cantidades ajustadas a cuantos sois (2, 4 o 6), dos caminos (con restos de puchero, la de verdad, o sin cocido previo, con garbanzo de bote y pollo) y el punto canario del vinagre al final.
 - Gachas manchegas rehechas como el pil pil: cantidades ajustadas a cuantos sois (2, 4 o 6), dos harinas (almortas, las autenticas, o harina de garbanzo si no las encuentras) y la receta de la abuela completa: agua fria y a remover, sueltas que luego espesan, y el torrezno que cruje.
