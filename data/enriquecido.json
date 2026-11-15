@@ -8083,5 +8083,259 @@
     ]
    }
   ]
+ },
+ {
+  "id": "arrozhorno",
+  "n": "Arroz al horno",
+  "sub": "garbanzos, costilla, morcilla y tomate, todo en la misma cazuela",
+  "reg": "val",
+  "lugar": "Comunitat Valenciana",
+  "cat": "arroz",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "met": [
+   {
+    "id": "barro",
+    "n": "Cazuela de barro",
+    "d": "La de siempre: del fuego al horno"
+   },
+   {
+    "id": "horno",
+    "n": "Otra cazuela apta para horno",
+    "d": "Hierro, acero o vidrio, igual de bien"
+   },
+   {
+    "id": "fuego",
+    "n": "Sin horno, al fuego",
+    "d": "Tapada y suave; sin costra"
+   }
+  ],
+  "ing": [
+   [
+    "arroz",
+    "arroz bomba|arroz bomba",
+    300,
+    "g"
+   ],
+   [
+    "caldo",
+    "caldo de cocido o de garbanzos|caldo de cocido o de garbanzos",
+    600,
+    "ml"
+   ],
+   [
+    "garbanzo",
+    "garbanzos cocidos|garbanzos cocidos",
+    200,
+    "g"
+   ],
+   [
+    "costilla",
+    "costilla de cerdo|costilla de cerdo",
+    300,
+    "g"
+   ],
+   [
+    "morcilla",
+    "morcilla de cebolla|morcillas de cebolla",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "tomate",
+    "tomates maduros|tomates maduros",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "ajos",
+    "cabeza de ajos|cabezas de ajos",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "azafran",
+    "unas hebras de azafrán (o 1 cdta de pimentón dulce)",
+    null
+   ],
+   [
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    3,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Sofrito",
+    "p": [
+     {
+      "t": "Dora la costilla",
+      "m": 10,
+      "f": 3,
+      "x": "En la cazuela, dora {costilla} en {aceite}, 8-10 minutos a fuego vivo, hasta que tome color por todos lados. Apártala a un plato.",
+      "ab": "Si la cazuela es de barro y va a tocar el fuego, ponle un difusor: la llama directa la agrieta. La costilla bien dorada es la que da gusto al caldo después.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#C0392B",
+       "i": [
+        [
+         "costilla",
+         3
+        ]
+       ]
+      }
+     },
+     {
+      "t": "Tomate y especias",
+      "m": 5,
+      "tim": 3,
+      "f": 2,
+      "x": "En el mismo aceite, añade {tomate} rallados y sofríelos 3 minutos. Retira la cazuela del fuego y suma {azafran}, removiendo con el calor que queda.",
+      "ab": "El azafrán y el pimentón, siempre fuera del fuego: en segundos se queman y amargan todo el arroz.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#C0392B",
+       "i": [
+        [
+         "tomate",
+         3
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "n": "El montaje",
+    "p": [
+     {
+      "t": "Arroz, garbanzos y caldo",
+      "m": 5,
+      "f": 2,
+      "x": "Añade {arroz}, los {garbanzo} y el {caldo} hirviendo (el doble de caldo que de arroz, y un chorrito más). Coloca por encima la costilla, {morcilla} y {ajos}, sin remover.",
+      "ab": "El caldo entra hirviendo: si entra frío, el arroz se para y no cuece parejo. La cabeza de ajos va entera, sin pelar: se asa con el vapor del arroz. Y una vez dentro, no se toca más.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#D9A441",
+       "i": [
+        [
+         "arroz",
+         10
+        ],
+        [
+         "garbanzo",
+         6
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "n": "El acabado",
+    "p": [
+     {
+      "t": "Al horno",
+      "m": 25,
+      "tim": 20,
+      "f": 0,
+      "w": 1,
+      "solo": [
+       "barro",
+       "horno"
+      ],
+      "x": "Precalienta el horno a 200 °C. Mete la cazuela, con calor arriba y abajo, 20-25 minutos, hasta que el arroz beba todo el caldo y haga una costra dorada arriba.",
+      "ab": "No lo muevas ni abras el horno a cada rato: la costra de arriba es lo mejor. Si queda pálida, un minuto de grill al final.",
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "cazuela",
+       "c": "#D9A441",
+       "i": [
+        [
+         "costilla",
+         2
+        ],
+        [
+         "morcilla",
+         1
+        ],
+        [
+         "ajo",
+         1
+        ]
+       ]
+      }
+     },
+     {
+      "t": "Al fuego, tapado",
+      "m": 20,
+      "tim": 18,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "fuego"
+      ],
+      "x": "Tapa la cazuela y acaba a fuego suave 18-20 minutos, sin remover, hasta que el arroz beba todo el caldo. No hará costra, pero el arroz queda igual de bueno.",
+      "ab": "Sin horno se acaba como un arroz de cazuela: tapado y suave. La costra la da el horno; el sabor, el caldo.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#D9A441",
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Reposo",
+      "m": 5,
+      "tim": 5,
+      "f": 0,
+      "w": 1,
+      "x": "Saca la cazuela y déjala reposar 5 minutos, tapada con un paño limpio, antes de llevarla a la mesa.",
+      "ab": "El reposo termina de hacer el arroz. Y la cabeza de ajos se come: exprimida sobre el arroz es un tesoro.",
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#D9A441",
+       "i": [
+        [
+         "arroz",
+         12
+        ],
+        [
+         "costilla",
+         2
+        ],
+        [
+         "ajo",
+         1
+        ]
+       ]
+      }
+     }
+    ]
+   }
+  ]
  }
 ]

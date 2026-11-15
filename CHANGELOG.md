@@ -3,6 +3,7 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Arroz al horno rehecho como el pil pil: cantidades ajustadas a cuantos sois (2, 4 o 6, con medias morcillas incluidas), tres formas de hacerlo (cazuela de barro, otra cazuela apta para horno, o sin horno al fuego) y la receta de la abuela completa, con sus variantes de cada casa y la tienda ampliada.
 - Bacalao al pil pil rehecho de arriba abajo: las cantidades se ajustan a cuantos sois (2, 4 o 6), eliges como hacerlo (cazuela de barro, sarten o cazuela de acero, o atajo con turmix) y la receta cuenta el desalado, el templado del aceite, la piel abajo y los trucos de la abuela (con sus variantes de cada casa).
 - Receta nueva: suquet de peix (guiso marinero de patata y pescado de roca, con su picada), con portada y escenas de mortero, fuego y plato. Ya son 40 recetas.
 - Receta nueva: tarta de Santiago (almendra, huevo y azucar, sin harina), con su portada y su cruz. Ya hay cuatro postres.

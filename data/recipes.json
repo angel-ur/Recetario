@@ -2,91 +2,121 @@
  {
   "id": "arrozhorno",
   "n": "Arroz al horno",
-  "sub": "garbanzos, costilla, morcilla y tomate, todo en la cazuela de barro",
+  "sub": "garbanzos, costilla, morcilla y tomate, todo en la misma cazuela",
   "reg": "val",
-  "regs": [
-   "val"
-  ],
   "lugar": "Comunitat Valenciana",
   "cat": "arroz",
   "dif": 2,
   "b": 4,
   "rac": [
-   4
+   2,
+   4,
+   6
   ],
-  "intro": "El arroz que se hacía los domingos en Valencia con lo que había: una cazuela de barro, un caldo bueno y el horno haciendo el trabajo.",
+  "met": [
+   {
+    "id": "barro",
+    "n": "Cazuela de barro",
+    "d": "La de siempre: del fuego al horno"
+   },
+   {
+    "id": "horno",
+    "n": "Otra cazuela apta para horno",
+    "d": "Hierro, acero o vidrio, igual de bien"
+   },
+   {
+    "id": "fuego",
+    "n": "Sin horno, al fuego",
+    "d": "Tapada y suave; sin costra"
+   }
+  ],
+  "heroe": {
+   "k": "ilu",
+   "svg": "<defs><radialGradient id=\"i_arrozhorno_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_arrozhorno_fondo)\"/><defs><radialGradient id=\"i_arrozhorno_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_arrozhorno_barro5\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_arrozhorno_arr\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#E8C06A\"/><stop offset=\"1\" stop-color=\"#C08A34\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"152\" rx=\"114\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M50 92c0 34 28 52 110 52s110-18 110-52z\" fill=\"url(#i_arrozhorno_barro5)\"/><ellipse cx=\"160\" cy=\"92\" rx=\"110\" ry=\"25\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"94\" rx=\"100\" ry=\"20\" fill=\"url(#i_arrozhorno_arr)\"/><ellipse cx=\"199.8\" cy=\"97.3\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(34 199.8 97.3)\"/><ellipse cx=\"234.2\" cy=\"98.6\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(10 234.2 98.6)\"/><ellipse cx=\"142.4\" cy=\"96.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(48 142.4 96.2)\"/><ellipse cx=\"137.7\" cy=\"94.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(40 137.7 94.2)\"/><ellipse cx=\"210.5\" cy=\"95.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(66 210.5 95.7)\"/><ellipse cx=\"100.4\" cy=\"100.3\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(135 100.4 100.3)\"/><ellipse cx=\"148.8\" cy=\"102.8\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(49 148.8 102.8)\"/><ellipse cx=\"136.5\" cy=\"98.1\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(132 136.5 98.1)\"/><ellipse cx=\"159.7\" cy=\"94.3\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(172 159.7 94.3)\"/><ellipse cx=\"157.2\" cy=\"91.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(74 157.2 91.5)\"/><ellipse cx=\"183.1\" cy=\"99.9\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(130 183.1 99.9)\"/><ellipse cx=\"146.7\" cy=\"105.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(139 146.7 105.7)\"/><ellipse cx=\"200.7\" cy=\"83.0\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(63 200.7 83.0)\"/><ellipse cx=\"175.9\" cy=\"84.3\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(99 175.9 84.3)\"/><ellipse cx=\"184.6\" cy=\"107.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(21 184.6 107.5)\"/><ellipse cx=\"196.5\" cy=\"95.4\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(63 196.5 95.4)\"/><ellipse cx=\"219.8\" cy=\"102.8\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(156 219.8 102.8)\"/><ellipse cx=\"131.7\" cy=\"93.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(169 131.7 93.2)\"/><ellipse cx=\"219.5\" cy=\"83.3\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(8 219.5 83.3)\"/><ellipse cx=\"165.7\" cy=\"84.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(75 165.7 84.2)\"/><ellipse cx=\"236.5\" cy=\"95.8\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(66 236.5 95.8)\"/><ellipse cx=\"219.0\" cy=\"98.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(65 219.0 98.5)\"/><ellipse cx=\"173.0\" cy=\"107.1\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(158 173.0 107.1)\"/><ellipse cx=\"190.6\" cy=\"80.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(19 190.6 80.5)\"/><ellipse cx=\"83.8\" cy=\"98.4\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(5 83.8 98.4)\"/><ellipse cx=\"230.0\" cy=\"100.4\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(31 230.0 100.4)\"/><ellipse cx=\"138.9\" cy=\"101.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(34 138.9 101.2)\"/><ellipse cx=\"200.2\" cy=\"82.0\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(97 200.2 82.0)\"/><ellipse cx=\"80.1\" cy=\"97.4\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(39 80.1 97.4)\"/><ellipse cx=\"218.8\" cy=\"92.1\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(50 218.8 92.1)\"/><ellipse cx=\"129.9\" cy=\"87.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(167 129.9 87.2)\"/><ellipse cx=\"140.1\" cy=\"105.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(36 140.1 105.7)\"/><ellipse cx=\"143.6\" cy=\"103.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(45 143.6 103.7)\"/><ellipse cx=\"131.4\" cy=\"90.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(103 131.4 90.5)\"/><ellipse cx=\"210.2\" cy=\"85.8\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(126 210.2 85.8)\"/><ellipse cx=\"84.8\" cy=\"101.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(109 84.8 101.7)\"/><ellipse cx=\"177.1\" cy=\"99.6\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(92 177.1 99.6)\"/><ellipse cx=\"244.5\" cy=\"98.1\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(59 244.5 98.1)\"/><ellipse cx=\"156.0\" cy=\"96.9\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(167 156.0 96.9)\"/><ellipse cx=\"144.7\" cy=\"104.6\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(94 144.7 104.6)\"/><circle cx=\"179.3\" cy=\"90.6\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"178.3\" cy=\"89.6\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"197.8\" cy=\"87.5\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"196.8\" cy=\"86.5\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"174.7\" cy=\"105.6\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"173.7\" cy=\"104.6\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"106.0\" cy=\"98.1\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"105.0\" cy=\"97.1\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"172.2\" cy=\"87.4\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"171.2\" cy=\"86.4\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"114.3\" cy=\"106.7\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"113.3\" cy=\"105.7\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"102.6\" cy=\"100.6\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"101.6\" cy=\"99.6\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"126.3\" cy=\"84.8\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"125.3\" cy=\"83.8\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"147.1\" cy=\"97.5\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"146.1\" cy=\"96.5\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"202.1\" cy=\"100.4\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"201.1\" cy=\"99.4\" r=\"1\" fill=\"#F7E2AC\"/><g transform=\"translate(118 88) rotate(-10)\"><circle r=\"9\" fill=\"#5E3226\"/><circle r=\"9\" fill=\"none\" stroke=\"#7C4A38\" stroke-width=\"1.6\"/></g><g transform=\"translate(196 92) rotate(14)\"><circle r=\"9\" fill=\"#5E3226\"/><circle r=\"9\" fill=\"none\" stroke=\"#7C4A38\" stroke-width=\"1.6\"/></g><g transform=\"translate(158 84)\"><circle r=\"8\" fill=\"#C04834\"/><circle r=\"5\" fill=\"#D86A4E\"/></g><g transform=\"translate(216 100) rotate(24)\"><rect x=\"-16\" y=\"-5\" width=\"32\" height=\"10\" rx=\"5\" fill=\"#B87E4A\"/><circle cx=\"-10\" cy=\"0\" r=\"3\" fill=\"#F0E4CC\"/><circle cx=\"0\" cy=\"0\" r=\"3\" fill=\"#F0E4CC\"/><circle cx=\"10\" cy=\"0\" r=\"3\" fill=\"#F0E4CC\"/></g><g transform=\"translate(80 102)\"><circle r=\"10\" fill=\"#EFE0C2\"/><path d=\"M-6 -2q3 -6 6 -8M0 -3q3 -5 6 -7M-2 3q4 2 8 0\" stroke=\"#D8BC8E\" stroke-width=\"1.6\" fill=\"none\"/><circle r=\"2\" fill=\"#C8A468\"/></g>"
+  },
+  "regs": [
+   "val"
+  ],
+  "intro": "El arroz de los domingos en Valencia, nacido para aprovechar el cocido del día anterior: todo en la misma cazuela y el horno haciendo el trabajo. La cazuela de barro es la de siempre, pero vale cualquiera que aguante el horno, y hasta el fuego si no hay horno.",
+  "secretos": [
+   [
+    "El caldo manda",
+    "De cocido o de garbanzos, casero si se puede. Con brick bueno también sale, pero el de verdad hace el domingo."
+   ],
+   [
+    "Cada casa, su arroz al horno",
+    "Hay quien suma panceta o butifarra, quien corona con medio tomate asado, quien pone rodajas de patata en la base. En casa: garbanzos, costilla, morcilla y la cabeza de ajos entera."
+   ],
+   [
+    "Plato de aprovechamiento",
+    "Nació para el cocido de ayer: garbanzos, gallina, lo que hubiera. Si te sobra caldo del cocido, aquí tiene su sitio."
+   ],
+   [
+    "La morcilla, entera o en rodajas",
+    "Entera encima se deshace menos; en rodajas gordas se reparte por todo el arroz. A gusto de cada casa."
+   ]
+  ],
   "ing": [
    [
-    "i0",
-    "300 g de arroz bomba",
-    null,
-    null,
-    1,
-    "plano"
+    "arroz",
+    "arroz bomba|arroz bomba",
+    300,
+    "g"
    ],
    [
-    "i1",
-    "600 ml de caldo de cocido o de garbanzos",
-    null,
-    null,
-    1,
-    "plano"
+    "caldo",
+    "caldo de cocido o de garbanzos|caldo de cocido o de garbanzos",
+    600,
+    "ml"
    ],
    [
-    "i2",
-    "200 g de garbanzos cocidos",
-    null,
-    null,
-    1,
-    "plano"
+    "garbanzo",
+    "garbanzos cocidos|garbanzos cocidos",
+    200,
+    "g"
    ],
    [
-    "i3",
-    "300 g de costilla de cerdo",
-    null,
-    null,
-    1,
-    "plano"
+    "costilla",
+    "costilla de cerdo|costilla de cerdo",
+    300,
+    "g"
    ],
    [
-    "i4",
-    "1 morcilla de cebolla",
-    null,
-    null,
+    "morcilla",
+    "morcilla de cebolla|morcillas de cebolla",
     1,
-    "plano"
+    "ud",
+    0.5
    ],
    [
-    "i5",
-    "2 tomates maduros",
-    null,
-    null,
-    1,
-    "plano"
+    "tomate",
+    "tomates maduros|tomates maduros",
+    2,
+    "ud",
+    0.5
    ],
    [
-    "i6",
-    "1 cabeza de ajos",
-    null,
-    null,
+    "ajos",
+    "cabeza de ajos|cabezas de ajos",
     1,
-    "plano"
+    "ud",
+    0.5
    ],
    [
-    "i7",
-    "1 pizca de azafrán o pimentón dulce",
-    null,
-    null,
-    1,
-    "plano"
+    "azafran",
+    "unas hebras de azafrán (o 1 cdta de pimentón dulce)",
+    null
    ],
    [
-    "i8",
-    "aceite de oliva y sal",
-    null,
-    null,
-    1,
-    "plano"
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    3,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
    ]
   ],
   "fases": [
@@ -95,132 +125,141 @@
     "tipo": "tu",
     "p": [
      {
-      "t": "Dora la carne",
+      "t": "Dora la costilla",
       "m": 10,
-      "x": "En la cazuela de barro, dora la costilla con 3 cucharadas de aceite, 8-10 minutos, hasta que tome color. Aparta.",
-      "f": 4,
-      "tim": 10,
-      "e": {
-       "k": "fuego",
-       "v": "cazuela",
-       "f": 4,
-       "c": "#C99A3A",
-       "i": [
-        [
-         "costilla",
-         4,
-         1,
-         "r-dorado"
-        ],
-        [
-         "morcilla",
-         2
-        ]
-       ],
-       "chisp": 1
-      }
-     },
-     {
-      "t": "Tomate y especias",
-      "m": 5,
-      "x": "Añade los 2 tomates rallados y sofríelos 3 minutos; retira del fuego y añade el azafrán (o 1 cucharadita de pimentón) para que no se queme.",
-      "ab": "Si se quema el pimentón, todo el arroz amarga.",
+      "x": "En la cazuela, dora {costilla} en {aceite}, 8-10 minutos a fuego vivo, hasta que tome color por todos lados. Apártala a un plato.",
       "f": 3,
-      "tim": 5,
       "e": {
        "k": "fuego",
        "v": "cazuela",
        "f": 3,
-       "c": "#B9482F",
+       "c": "#C0392B",
        "i": [
-        [
-         "tomate",
-         3
-        ],
-        [
-         "ajo",
-         3
-        ],
-        [
-         "azafran",
-         2
-        ]
-       ],
-       "polvo": "#C8402B"
-      }
-     }
-    ]
-   },
-   {
-    "n": "Horno",
-    "tipo": "tu",
-    "p": [
-     {
-      "t": "Arroz y caldo",
-      "m": 5,
-      "x": "Añade el arroz, los garbanzos y el caldo hirviendo (600 ml, el doble que de arroz, más un chorrito). Coloca la costilla, la morcilla y la cabeza de ajos.",
-      "f": 5,
-      "tim": 5,
-      "e": {
-       "k": "fuego",
-       "v": "cazuela",
-       "f": 5,
-       "c": "#E3C062",
-       "i": [
-        [
-         "arroz",
-         26
-        ],
-        [
-         "garbanzo",
-         8
-        ],
         [
          "costilla",
          3
         ]
-       ],
-       "vierte": "agua",
-       "burbujas": 1
-      }
+       ]
+      },
+      "ab": "Si la cazuela es de barro y va a tocar el fuego, ponle un difusor: la llama directa la agrieta. La costilla bien dorada es la que da gusto al caldo después."
      },
+     {
+      "t": "Tomate y especias",
+      "m": 5,
+      "x": "En el mismo aceite, añade {tomate} rallados y sofríelos 3 minutos. Retira la cazuela del fuego y suma {azafran}, removiendo con el calor que queda.",
+      "tim": 3,
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#C0392B",
+       "i": [
+        [
+         "tomate",
+         3
+        ]
+       ]
+      },
+      "ab": "El azafrán y el pimentón, siempre fuera del fuego: en segundos se queman y amargan todo el arroz."
+     }
+    ]
+   },
+   {
+    "n": "El montaje",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Arroz, garbanzos y caldo",
+      "m": 5,
+      "x": "Añade {arroz}, los {garbanzo} y el {caldo} hirviendo (el doble de caldo que de arroz, y un chorrito más). Coloca por encima la costilla, {morcilla} y {ajos}, sin remover.",
+      "f": 2,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#D9A441",
+       "i": [
+        [
+         "arroz",
+         10
+        ],
+        [
+         "garbanzo",
+         6
+        ]
+       ]
+      },
+      "ab": "El caldo entra hirviendo: si entra frío, el arroz se para y no cuece parejo. La cabeza de ajos va entera, sin pelar: se asa con el vapor del arroz. Y una vez dentro, no se toca más."
+     }
+    ]
+   },
+   {
+    "n": "El acabado",
+    "tipo": "tu",
+    "p": [
      {
       "t": "Al horno",
       "m": 25,
-      "x": "A 200 °C. Hornea con calor arriba y abajo, sin tapar, hasta que el arroz haya absorbido el caldo y quede una costra dorada arriba.",
-      "ab": "No lo muevas: la costra es lo mejor.",
+      "x": "Precalienta el horno a 200 °C. Mete la cazuela, con calor arriba y abajo, 20-25 minutos, hasta que el arroz beba todo el caldo y haga una costra dorada arriba.",
+      "tim": 20,
       "f": 0,
-      "tim": 25,
+      "w": 1,
+      "solo": [
+       "barro",
+       "horno"
+      ],
       "e": {
        "k": "horno",
        "t": "200 °C",
        "d": "cazuela",
+       "c": "#D9A441",
        "i": [
-        [
-         "arroz",
-         12
-        ],
         [
          "costilla",
          2
         ],
         [
          "morcilla",
-         2
+         1
+        ],
+        [
+         "ajo",
+         1
         ]
-       ],
-       "c": "#D9A441"
-      }
+       ]
+      },
+      "ab": "No lo muevas ni abras el horno a cada rato: la costra de arriba es lo mejor. Si queda pálida, un minuto de grill al final."
+     },
+     {
+      "t": "Al fuego, tapado",
+      "m": 20,
+      "x": "Tapa la cazuela y acaba a fuego suave 18-20 minutos, sin remover, hasta que el arroz beba todo el caldo. No hará costra, pero el arroz queda igual de bueno.",
+      "tim": 18,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "fuego"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#D9A441",
+       "vapor": 1
+      },
+      "ab": "Sin horno se acaba como un arroz de cazuela: tapado y suave. La costra la da el horno; el sabor, el caldo."
      },
      {
       "t": "Reposo",
       "m": 5,
-      "x": "Deja reposar fuera del horno unos minutos antes de servir.",
-      "f": 0,
+      "x": "Saca la cazuela y déjala reposar 5 minutos, tapada con un paño limpio, antes de llevarla a la mesa.",
       "tim": 5,
+      "f": 0,
+      "w": 1,
       "e": {
        "k": "plato",
-       "v": "cuenco",
+       "v": "cazuela",
        "c": "#D9A441",
        "i": [
         [
@@ -232,45 +271,41 @@
          2
         ],
         [
-         "morcilla",
-         2
+         "ajo",
+         1
         ]
-       ],
-       "vapor": 1
-      }
+       ]
+      },
+      "ab": "El reposo termina de hacer el arroz. Y la cabeza de ajos se come: exprimida sobre el arroz es un tesoro."
      }
     ]
    }
   ],
-  "simple": 1,
-  "secretos": [
-   [
-    "Caldo del cocido",
-    "da el sabor de verdad."
-   ],
-   [
-    "Cazuela de barro",
-    "reparte el calor."
-   ],
-   [
-    "Ajo asado",
-    "se come con el arroz, untado."
-   ]
-  ],
-  "heroe": {
-   "k": "ilu",
-   "svg": "<defs><radialGradient id=\"i_arrozhorno_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_arrozhorno_fondo)\"/><defs><radialGradient id=\"i_arrozhorno_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_arrozhorno_barro5\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_arrozhorno_arr\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#E8C06A\"/><stop offset=\"1\" stop-color=\"#C08A34\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"152\" rx=\"114\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M50 92c0 34 28 52 110 52s110-18 110-52z\" fill=\"url(#i_arrozhorno_barro5)\"/><ellipse cx=\"160\" cy=\"92\" rx=\"110\" ry=\"25\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"94\" rx=\"100\" ry=\"20\" fill=\"url(#i_arrozhorno_arr)\"/><ellipse cx=\"199.8\" cy=\"97.3\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(34 199.8 97.3)\"/><ellipse cx=\"234.2\" cy=\"98.6\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(10 234.2 98.6)\"/><ellipse cx=\"142.4\" cy=\"96.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(48 142.4 96.2)\"/><ellipse cx=\"137.7\" cy=\"94.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(40 137.7 94.2)\"/><ellipse cx=\"210.5\" cy=\"95.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(66 210.5 95.7)\"/><ellipse cx=\"100.4\" cy=\"100.3\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(135 100.4 100.3)\"/><ellipse cx=\"148.8\" cy=\"102.8\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(49 148.8 102.8)\"/><ellipse cx=\"136.5\" cy=\"98.1\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(132 136.5 98.1)\"/><ellipse cx=\"159.7\" cy=\"94.3\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(172 159.7 94.3)\"/><ellipse cx=\"157.2\" cy=\"91.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(74 157.2 91.5)\"/><ellipse cx=\"183.1\" cy=\"99.9\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(130 183.1 99.9)\"/><ellipse cx=\"146.7\" cy=\"105.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(139 146.7 105.7)\"/><ellipse cx=\"200.7\" cy=\"83.0\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(63 200.7 83.0)\"/><ellipse cx=\"175.9\" cy=\"84.3\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(99 175.9 84.3)\"/><ellipse cx=\"184.6\" cy=\"107.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(21 184.6 107.5)\"/><ellipse cx=\"196.5\" cy=\"95.4\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(63 196.5 95.4)\"/><ellipse cx=\"219.8\" cy=\"102.8\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(156 219.8 102.8)\"/><ellipse cx=\"131.7\" cy=\"93.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(169 131.7 93.2)\"/><ellipse cx=\"219.5\" cy=\"83.3\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(8 219.5 83.3)\"/><ellipse cx=\"165.7\" cy=\"84.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(75 165.7 84.2)\"/><ellipse cx=\"236.5\" cy=\"95.8\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(66 236.5 95.8)\"/><ellipse cx=\"219.0\" cy=\"98.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(65 219.0 98.5)\"/><ellipse cx=\"173.0\" cy=\"107.1\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(158 173.0 107.1)\"/><ellipse cx=\"190.6\" cy=\"80.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(19 190.6 80.5)\"/><ellipse cx=\"83.8\" cy=\"98.4\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(5 83.8 98.4)\"/><ellipse cx=\"230.0\" cy=\"100.4\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(31 230.0 100.4)\"/><ellipse cx=\"138.9\" cy=\"101.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(34 138.9 101.2)\"/><ellipse cx=\"200.2\" cy=\"82.0\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(97 200.2 82.0)\"/><ellipse cx=\"80.1\" cy=\"97.4\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(39 80.1 97.4)\"/><ellipse cx=\"218.8\" cy=\"92.1\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(50 218.8 92.1)\"/><ellipse cx=\"129.9\" cy=\"87.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(167 129.9 87.2)\"/><ellipse cx=\"140.1\" cy=\"105.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(36 140.1 105.7)\"/><ellipse cx=\"143.6\" cy=\"103.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(45 143.6 103.7)\"/><ellipse cx=\"131.4\" cy=\"90.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(103 131.4 90.5)\"/><ellipse cx=\"210.2\" cy=\"85.8\" rx=\"2.6\" ry=\"1.8\" fill=\"#F2E0A8\" transform=\"rotate(126 210.2 85.8)\"/><ellipse cx=\"84.8\" cy=\"101.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(109 84.8 101.7)\"/><ellipse cx=\"177.1\" cy=\"99.6\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(92 177.1 99.6)\"/><ellipse cx=\"244.5\" cy=\"98.1\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(59 244.5 98.1)\"/><ellipse cx=\"156.0\" cy=\"96.9\" rx=\"2.6\" ry=\"1.8\" fill=\"#F6E8BC\" transform=\"rotate(167 156.0 96.9)\"/><ellipse cx=\"144.7\" cy=\"104.6\" rx=\"2.6\" ry=\"1.8\" fill=\"#E8CC8A\" transform=\"rotate(94 144.7 104.6)\"/><circle cx=\"179.3\" cy=\"90.6\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"178.3\" cy=\"89.6\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"197.8\" cy=\"87.5\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"196.8\" cy=\"86.5\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"174.7\" cy=\"105.6\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"173.7\" cy=\"104.6\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"106.0\" cy=\"98.1\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"105.0\" cy=\"97.1\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"172.2\" cy=\"87.4\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"171.2\" cy=\"86.4\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"114.3\" cy=\"106.7\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"113.3\" cy=\"105.7\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"102.6\" cy=\"100.6\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"101.6\" cy=\"99.6\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"126.3\" cy=\"84.8\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"125.3\" cy=\"83.8\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"147.1\" cy=\"97.5\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"146.1\" cy=\"96.5\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"202.1\" cy=\"100.4\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"201.1\" cy=\"99.4\" r=\"1\" fill=\"#F7E2AC\"/><g transform=\"translate(118 88) rotate(-10)\"><circle r=\"9\" fill=\"#5E3226\"/><circle r=\"9\" fill=\"none\" stroke=\"#7C4A38\" stroke-width=\"1.6\"/></g><g transform=\"translate(196 92) rotate(14)\"><circle r=\"9\" fill=\"#5E3226\"/><circle r=\"9\" fill=\"none\" stroke=\"#7C4A38\" stroke-width=\"1.6\"/></g><g transform=\"translate(158 84)\"><circle r=\"8\" fill=\"#C04834\"/><circle r=\"5\" fill=\"#D86A4E\"/></g><g transform=\"translate(216 100) rotate(24)\"><rect x=\"-16\" y=\"-5\" width=\"32\" height=\"10\" rx=\"5\" fill=\"#B87E4A\"/><circle cx=\"-10\" cy=\"0\" r=\"3\" fill=\"#F0E4CC\"/><circle cx=\"0\" cy=\"0\" r=\"3\" fill=\"#F0E4CC\"/><circle cx=\"10\" cy=\"0\" r=\"3\" fill=\"#F0E4CC\"/></g><g transform=\"translate(80 102)\"><circle r=\"10\" fill=\"#EFE0C2\"/><path d=\"M-6 -2q3 -6 6 -8M0 -3q3 -5 6 -7M-2 3q4 2 8 0\" stroke=\"#D8BC8E\" stroke-width=\"1.6\" fill=\"none\"/><circle r=\"2\" fill=\"#C8A468\"/></g>"
-  },
   "tienda": [
    [
+    "El arroz",
+    "«Arroz bomba» (o de la D.O. Valencia). Aguanta el horno sin romperse; un arroz largo se pasa y se abre.",
+    "arroz"
+   ],
+   [
     "La costilla",
-    "«Costilla de cerdo en trozos de unos 5 cm, adobada o sin adobar».",
+    "«Costilla de cerdo en trozos de unos 5 cm». Si hay adobada, mejor: da un gustito a pimentón.",
     "costilla"
    ],
    [
     "La morcilla",
-    "«Morcilla de cebolla» (blanda, para guisar), no la seca de Burgos.",
+    "«Morcilla de cebolla», blanda, de guisar; no la seca de Burgos, que se deshace.",
     "morcilla"
+   ],
+   [
+    "Los garbanzos",
+    "«Garbanzos cocidos», de bote bueno o de casa. Los que sobren de un cocido, mejor que mejor.",
+    "garbanzo"
+   ],
+   [
+    "El caldo",
+    "El del cocido o el de cocer los garbanzos. Si es de brick, de pollo y bajo en sal.",
+    "caldo"
    ]
   ]
  },
