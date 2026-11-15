@@ -7593,5 +7593,278 @@
     ]
    }
   ]
+ },
+ {
+  "id": "suquet",
+  "n": "Suquet de peix",
+  "sub": "guiso marinero de patata y pescado de roca, con su picada",
+  "reg": "cat",
+  "lugar": "Cataluña",
+  "cat": "mar",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#D9A54A",
+   "i": [
+    [
+     "pescado",
+     3
+    ],
+    [
+     "patata",
+     3
+    ],
+    [
+     "perejil",
+     2
+    ]
+   ]
+  },
+  "ing": [
+   [
+    "pescado",
+    "pescado de roca en rodajas (rape, gallo, escórpora)|pescado de roca en rodajas (rape, gallo, escórpora)",
+    800,
+    "g"
+   ],
+   [
+    "langostino",
+    "langostinos o cigalas (opcional)|langostinos o cigalas (opcional)",
+    4,
+    "ud"
+   ],
+   [
+    "patata",
+    "patatas|patatas",
+    4,
+    "ud"
+   ],
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    1,
+    "ud"
+   ],
+   [
+    "tomate",
+    "tomates maduros|tomates maduros",
+    2,
+    "ud"
+   ],
+   [
+    "ajo",
+    "dientes de ajo|dientes de ajo",
+    4,
+    "ud"
+   ],
+   [
+    "pan",
+    "rebanada de pan|rebanadas de pan",
+    1,
+    "ud"
+   ],
+   [
+    "almendra",
+    "almendras tostadas|almendras tostadas",
+    12,
+    "ud"
+   ],
+   [
+    "azafran",
+    "unas hebras de azafrán",
+    null
+   ],
+   [
+    "vino",
+    "vino blanco|vino blanco",
+    100,
+    "ml"
+   ],
+   [
+    "fumet",
+    "fumet de pescado (o agua)|fumet de pescado (o agua)",
+    800,
+    "ml"
+   ],
+   [
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    5,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ],
+   [
+    "perejil",
+    "perejil picado",
+    null
+   ]
+  ],
+  "fases": [
+   {
+    "n": "La picada",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Picada de ajo y almendra",
+      "m": 10,
+      "f": 0,
+      "x": "Fríe la {pan} en un poco de aceite. En el mortero, machaca los {ajo} fritos o asados, las {almendra}, unas hebras de azafrán y el pan, hasta tener una pasta.",
+      "ab": "La picada es el alma del suquet: liga el caldo y le da el sabor.",
+      "e": {
+       "k": "mortero",
+       "c": "#C9973F",
+       "i": [
+        [
+         "almendra",
+         4
+        ],
+        [
+         "ajo",
+         3
+        ],
+        [
+         "pan",
+         1
+        ]
+       ],
+       "fuera": [
+        [
+         "almendra",
+         3
+        ]
+       ],
+       "vierte": "aceite"
+      }
+     }
+    ]
+   },
+   {
+    "n": "El sofrito",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Sofrito de cebolla y tomate",
+      "m": 15,
+      "tim": 13,
+      "f": 3,
+      "x": "Rehoga {cebolla} rallada en una cazuela con {aceite} 8 minutos. Añade {tomate} rallados y fríe 5 minutos más, hasta que el sofrito se pegue un poco.",
+      "ab": "El tomate bien frito, sin sabor a crudo: es la mitad del guiso.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#C0392B",
+       "i": [
+        [
+         "cebolla",
+         8
+        ],
+        [
+         "tomate",
+         3
+        ]
+       ],
+       "vapor": 1
+      }
+     }
+    ]
+   },
+   {
+    "n": "El guiso",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Patatas al fumet",
+      "m": 20,
+      "tim": 16,
+      "f": 2,
+      "x": "Pela y chasca las {patata}, añádelas al sofrito con el {vino} y deja evaporar 2 minutos. Cubre con el fumet caliente y guisa 15-18 minutos, hasta que la patata esté casi lista.",
+      "ab": "La patata chascada (rota a cuchara, no cortada del todo) suelta el almidón y espesa el caldo.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "patata",
+         6
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "El pescado, al final",
+      "m": 8,
+      "tim": 6,
+      "f": 2,
+      "x": "Sala las rodajas de pescado y colócalas en la cazuela con los langostinos. Guisa tapado 5-6 minutos. Añade la picada diluida en un cacillo de caldo, menea la cazuela y apaga en 2 minutos.",
+      "ab": "El pescado se hace con el calor justo; si hierve fuerte, se deshace.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "pescado",
+         3
+        ],
+        [
+         "patata",
+         3
+        ]
+       ],
+       "tapa": 2
+      }
+     }
+    ]
+   },
+   {
+    "n": "Servir",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Reposa y sirve",
+      "m": 5,
+      "tim": 5,
+      "f": 0,
+      "x": "Deja reposar 5 minutos tapado y sirve en la misma cazuela, con perejil picado por encima.",
+      "ab": "El reposo asienta el caldo: cinco minutos que cambian el plato.",
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#D9A54A",
+       "i": [
+        [
+         "pescado",
+         3
+        ],
+        [
+         "patata",
+         3
+        ],
+        [
+         "perejil",
+         2
+        ]
+       ]
+      }
+     }
+    ]
+   }
+  ]
  }
 ]
