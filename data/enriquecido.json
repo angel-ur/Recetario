@@ -8337,5 +8337,353 @@
     ]
    }
   ]
+ },
+ {
+  "id": "galets",
+  "n": "Galets de Nadal",
+  "sub": "la sopa de Navidad: galets en el caldo de la carn d'olla",
+  "reg": "cat",
+  "lugar": "Cataluña",
+  "cat": "cuchara",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "met": [
+   {
+    "id": "nadal",
+    "n": "Galets farcits",
+    "d": "Los de Navidad: rellenos de carne"
+   },
+   {
+    "id": "sopa",
+    "n": "Sopa de galets",
+    "d": "Sin rellenar, directos al caldo"
+   },
+   {
+    "id": "restes",
+    "n": "Con lo de ayer",
+    "d": "Caldo y carne ya hechos: en media hora"
+   }
+  ],
+  "ing": [
+   "#Para el caldo (la escudella)",
+   [
+    "ternera",
+    "morcillo de ternera|morcillo de ternera",
+    400,
+    "g"
+   ],
+   [
+    "costilla",
+    "costilla de cerdo|costilla de cerdo",
+    300,
+    "g"
+   ],
+   [
+    "pollo",
+    "pollo en trozos|pollo en trozos",
+    400,
+    "g"
+   ],
+   [
+    "hjamon",
+    "hueso de jamón|hueso de jamón",
+    1,
+    "ud",
+    1
+   ],
+   [
+    "hrodilla",
+    "hueso de rodilla de ternera|hueso de rodilla de ternera",
+    1,
+    "ud",
+    1
+   ],
+   [
+    "botiblan",
+    "botifarra blanca|botifarras blancas",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "botinegre",
+    "botifarra negre|botifarras negre",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "zanahoria",
+    "zanahoria|zanahorias",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "patata",
+    "patata|patatas",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "col",
+    "un trozo de col (un cuarto)|un trozo de col (un cuarto)",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "apio",
+    "rama de apio|rama de apio",
+    1,
+    "ud",
+    1
+   ],
+   [
+    "puerro",
+    "puerro|puerro",
+    1,
+    "ud",
+    1
+   ],
+   [
+    "garbanzo",
+    "garbanzos|garbanzos",
+    100,
+    "g"
+   ],
+   [
+    "agua",
+    "agua|agua",
+    3000,
+    "ml"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ],
+   "#Para la pilota y el relleno",
+   [
+    "picada",
+    "carne picada (mitad cerdo, mitad ternera)|carne picada (mitad cerdo, mitad ternera)",
+    300,
+    "g"
+   ],
+   [
+    "huevo",
+    "huevo|huevos",
+    1,
+    "ud",
+    1
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    1,
+    "ud",
+    1
+   ],
+   [
+    "perejil",
+    "perejil picado",
+    null
+   ],
+   [
+    "nuezmoscada",
+    "nuez moscada",
+    null
+   ],
+   [
+    "pimienta",
+    "pimienta negra",
+    null
+   ],
+   "#Los galets",
+   [
+    "galets",
+    "galets|galets",
+    250,
+    "g"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "La escudella (el caldo)",
+    "p": [
+     {
+      "t": "Carnes y huesos al agua fría",
+      "m": 10,
+      "tim": 10,
+      "f": 3,
+      "solo": [
+       "nadal",
+       "sopa"
+      ],
+      "x": "Pon {ternera}, {costilla}, {pollo}, {hjamon} y {hrodilla} en una olla grande y cubre con {agua} fría, dos dedos por encima. Lleva a ebullición a fuego fuerte.",
+      "ab": "El caldo empieza siempre en frío: así la carne suelta su jugo despacio. Si echas todo en agua hirviendo, se sella y el caldo queda soso.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 3,
+       "c": "#B5402F",
+       "i": [
+        [
+         "hueso",
+         2
+        ],
+        [
+         "pollo",
+         2
+        ],
+        [
+         "carne",
+         2
+        ]
+       ]
+      }
+     },
+     {
+      "t": "Espuma y chup-chup",
+      "m": 120,
+      "tim": 120,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "nadal",
+       "sopa"
+      ],
+      "x": "Cuando hierva, baja el fuego al mínimo, espuma bien y deja que haga chup-chup 2 horas, con la tapa entreabierta. Si los garbanzos son secos y los pusiste a remojo anoche, añade {garbanzo} ahora; si son cocidos, entran con las verduras.",
+      "ab": "Espumar es quitar la espuma gris que sube al principio: es lo que enturbia el caldo. Y chup-chup es un hervor tan suave que apenas manda un borbotón.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Verduras, botifarras y la pilota",
+      "m": 40,
+      "tim": 40,
+      "f": 1,
+      "solo": [
+       "nadal",
+       "sopa"
+      ],
+      "x": "Añade {zanahoria} en trozos, {patata} partidas por la mitad, {col}, {apio} y {puerro}. Amasa {picada} con {huevo}, {ajo} picado y {perejil}, una ralladura de nuez moscada, sal y pimienta: con la mitad haz una bola grande, la pilota, y reserva la otra mitad. Mete la pilota en la olla con {botiblan} y {botinegre} pinchadas con un palillo y cuece 40 minutos más.",
+      "ab": "La pilota se hunde al principio y sube cuando está hecha. Si se deshace, es que faltaba huevo o sobraba prisa: amásala bien. Las botifarras se pinchan para que no revienten.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#D9A441",
+       "i": [
+        [
+         "berza",
+         3
+        ],
+        [
+         "zanahoria",
+         3
+        ],
+        [
+         "patata",
+         2
+        ]
+       ],
+       "vapor": 1
+      }
+     }
+    ]
+   },
+   {
+    "n": "Los galets",
+    "p": [
+     {
+      "t": "Calienta el caldo de ayer",
+      "m": 5,
+      "tim": 5,
+      "f": 2,
+      "solo": [
+       "restes"
+      ],
+      "x": "Cuela el caldo que te sobró de la escudella y llévalo a ebullición. Si guardaste carne de la carn d'olla, desmígala: puede ir dentro o servirse después.",
+      "ab": "El caldo del día después está todavía mejor: la noche junta los sabores. La grasa cuajada de arriba se retira con la espumadera.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Rellena los galets",
+      "m": 15,
+      "f": 0,
+      "solo": [
+       "nadal"
+      ],
+      "x": "Con una cucharilla o con el dedo, rellena los {galets} crudos con la carne que reservaste, sin apretar demasiado, y apóyalos boca arriba en un plato.",
+      "ab": "Sin apretar: la carne crece al cocerse y el galet puede romperse. Y boca arriba, que no se salga el relleno.",
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "fideo",
+         6
+        ]
+       ]
+      }
+     },
+     {
+      "t": "Cuece los galets en el caldo",
+      "m": 15,
+      "tim": 12,
+      "f": 2,
+      "x": "Con el caldo colado y hirviendo, echa los {galets} y cuece lo que diga el paquete, unos 12-15 minutos. Rellenos: hasta que la carne pierda el color crudo. Solos: hasta que estén tiernos pero enteros.",
+      "ab": "Los galets se tragan mucho caldo: guarda siempre un cazo aparte para alargar la sopa al servir. Y remueve con cuidado, que son frágiles.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#D9A441",
+       "i": [
+        [
+         "fideo",
+         8
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Sirve la sopa",
+      "m": 5,
+      "f": 0,
+      "x": "Reparte los galets en los platos hondos y cúbrelos con el caldo bien caliente. La carne, la pilota y las verduras van aparte, en una fuente: primero la sopa, después la carn d'olla.",
+      "ab": "Primero la sopa y luego la carn d'olla con un poco de caldo por encima. Y si queda caldo, mañana hace un arroz o unas patatas que te mueres.",
+      "e": {
+       "k": "plato",
+       "v": "cuenco",
+       "c": "#D9A441",
+       "i": [
+        [
+         "fideo",
+         6
+        ]
+       ],
+       "vapor": 1
+      }
+     }
+    ]
+   }
+  ]
  }
 ]

@@ -62,6 +62,7 @@ Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-act
 - Más datos de dependencias (`tras`/`durante`/`enlaza`) en recetas fuera de caldo, rabo, cocido, lentejas y paella. [15 nov: +crema catalana, tumbet, xato, marmitako]
 
 ## Hecho 15 nov
+- [HECHO 15 nov] Galets de Nadal (urgente: Angel cocinandolos): escudella completa + 3 metodos (farcits / sopa / de aprovechamiento con lo de ayer), escalado 2/4/6 con cantidades vivas en pasos, voz abuela, variantes (canelons de Sant Esteve incluidos). PENDIENTE: portada ilustrada propia (sale con sprite de reserva).
 - [HECHO 15 nov] Arroz al horno a fondo: escalado 2/4/6 (ud con medias: 1/2 morcilla, 1 1/2 cdas), metodos barro / otra cazuela al horno / sin horno al fuego (paso de acabado cambia), voz abuela y variantes. Segunda receta del tratamiento pil pil.
 - [HECHO 15 nov] Pil pil a fondo (peticion de Angel): escalado 2/4/6 con cantidades vivas tambien en los pasos, tres metodos con selector (barro / sarten o acero / turmix con pasos propios), desalado como paso previo de 36 h, secretos con variantes de cada casa y tienda ampliada. Sirve de plantilla para el resto.
 - Auditoria de dependencias: Leaflet 1.9.4 (ultima estable) ahora se sirve desde el propio sitio en `js/vendor/leaflet/`, sin CDN ni integridad rota posible (ADR 0006). Antes se cargaba de unpkg al usar la ruta.
