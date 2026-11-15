@@ -8685,5 +8685,280 @@
     ]
    }
   ]
+ },
+ {
+  "id": "caldereta",
+  "n": "Caldereta de cordero extremeña",
+  "sub": "cordero guisado con pimentón, ajo y un chorro de vino",
+  "reg": "ext",
+  "lugar": "Extremadura",
+  "cat": "carne",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "met": [
+   {
+    "id": "fuego",
+    "n": "A fuego lento",
+    "d": "La de siempre: cazuela al fuego, hora y media"
+   },
+   {
+    "id": "rapida",
+    "n": "En olla rápida",
+    "d": "El mismo guiso en media hora"
+   },
+   {
+    "id": "horno",
+    "n": "Al horno",
+    "d": "Cazuela tapada al horno, sin vigilar el fuego"
+   }
+  ],
+  "ing": [
+   [
+    "cordero",
+    "cordero en trozos|cordero en trozos",
+    1200,
+    "g"
+   ],
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    5,
+    "ud",
+    1
+   ],
+   [
+    "pimiento",
+    "pimiento verde|pimientos verdes",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "pimenton",
+    "pimentón de la Vera|pimentón de la Vera",
+    1,
+    "cda"
+   ],
+   [
+    "laurel",
+    "hoja de laurel|hojas de laurel",
+    1,
+    "ud",
+    1
+   ],
+   [
+    "vino",
+    "vino blanco|vino blanco",
+    150,
+    "ml"
+   ],
+   [
+    "agua",
+    "agua|agua",
+    500,
+    "ml"
+   ],
+   [
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    4,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ],
+   [
+    "pimienta",
+    "pimienta negra",
+    null
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Dorar y sofrito",
+    "p": [
+     {
+      "t": "Sella la carne",
+      "m": 15,
+      "tim": 15,
+      "f": 3,
+      "x": "Salpimienta {cordero} y dóralo en {aceite} bien caliente, por todos los lados y sin amontonar: mejor en dos tandas que una revuelta.",
+      "ab": "Sin prisa y por tandas: si los trozos se tocan, sueltan agua y cuecen en vez de dorarse. El dorado es el sabor del guiso.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#B5402F",
+       "i": [
+        [
+         "cordero",
+         3
+        ]
+       ]
+      }
+     },
+     {
+      "t": "Sofrito",
+      "m": 10,
+      "tim": 10,
+      "f": 1,
+      "x": "Aparta la carne y en el mismo aceite pocha {cebolla}, {pimiento} y {ajo} picados, a fuego medio unos 10 minutos, hasta que la cebolla esté blandita y empiece a dorarse.",
+      "ab": "El sofrito es la mitad del guiso: fuego medio y sin correr, que la cebolla sude despacio.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#C77B3B",
+       "i": [
+        [
+         "cebolla",
+         2
+        ],
+        [
+         "ajo",
+         1
+        ],
+        [
+         "pimiento",
+         1
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "n": "El guiso",
+    "p": [
+     {
+      "t": "Pimentón y vino",
+      "m": 5,
+      "tim": 5,
+      "f": 1,
+      "x": "Fuera del fuego, añade {pimenton}, remueve 10 segundos y moja enseguida con {vino}. Deja hervir un minuto para que se vaya el alcohol.",
+      "ab": "El pimentón siempre fuera del fuego: se quema en un segundo y amarga el guiso entero.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#B5402F",
+       "i": [
+        [
+         "pimiento",
+         1
+        ]
+       ]
+      }
+     },
+     {
+      "t": "Fuego suave y tapada",
+      "m": 80,
+      "tim": 80,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "fuego"
+      ],
+      "x": "Vuelve la carne a la cazuela con {laurel} y {agua}, justo para cubrir. Cuando hierva, baja el fuego al mínimo y cuece tapada 1 hora y cuarto, hasta que la carne se suelte del hueso. Remueve de vez en cuando; si se queda seca, añade un poco más de agua caliente.",
+      "ab": "Que apenas borbotee: a fuego fuerte la carne se endurece y la salsa se rompe. La caldereta pide calma.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#8A4B2F",
+       "i": [
+        [
+         "cordero",
+         2
+        ],
+        [
+         "laurel",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "En olla rápida",
+      "m": 25,
+      "tim": 25,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "rapida"
+      ],
+      "x": "Vuelve la carne a la olla rápida con {laurel} y {agua} (en la olla evapora menos: que cubra justo). Cierra y, desde que suba la válvula, 25 minutos a fuego medio-bajo. Deja que la olla pierda la presión sola antes de abrir.",
+      "ab": "No fuerces la válvula ni abras en caliente: la carne se asienta mejor cuando la presión baja por sí sola.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#8A4B2F",
+       "i": [
+        [
+         "cordero",
+         2
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Al horno, tapada",
+      "m": 90,
+      "tim": 90,
+      "w": 1,
+      "solo": [
+       "horno"
+      ],
+      "x": "Calienta el horno a 170 °C. Vuelve la carne a la cazuela (de barro o apta para horno) con {laurel} y {agua}, tápala y hornea 1 hora y media. A mitad de camino, mira: si está seca, añade un poco de agua caliente.",
+      "ab": "Con cazuela de barro, métela con el horno aún frío y calienta todo junto: el barro no quiere sustos de temperatura.",
+      "e": {
+       "k": "horno",
+       "t": "170 °C",
+       "d": "cazuela"
+      }
+     },
+     {
+      "t": "Reposa y prueba la salsa",
+      "m": 10,
+      "tim": 10,
+      "x": "Apaga y deja reposar 10 minutos tapada. Prueba y rectifica de sal: si la salsa está aguada, saca la carne y redúcela unos minutos a fuego fuerte; si está muy espesa, un chorrito de agua caliente.",
+      "ab": "La caldereta está mejor de un día para otro: si puedes, hazla hoy para mañana y recaliéntala despacio.",
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#B5402F",
+       "i": [
+        [
+         "cordero",
+         3
+        ],
+        [
+         "laurel",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     }
+    ]
+   }
+  ]
  }
 ]

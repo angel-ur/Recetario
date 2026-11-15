@@ -570,228 +570,318 @@
   "n": "Caldereta de cordero extremeña",
   "sub": "cordero guisado con pimentón, ajo y un chorro de vino",
   "reg": "ext",
-  "regs": [
-   "ext"
-  ],
   "lugar": "Extremadura",
   "cat": "carne",
   "dif": 2,
   "b": 4,
   "rac": [
-   4
+   2,
+   4,
+   6
   ],
-  "intro": "El guiso de los pastores extremeños: cordero dorado, pimentón y ajo, a fuego lento hasta que la carne se suelta del hueso.",
+  "met": [
+   {
+    "id": "fuego",
+    "n": "A fuego lento",
+    "d": "La de siempre: cazuela al fuego, hora y media"
+   },
+   {
+    "id": "rapida",
+    "n": "En olla rápida",
+    "d": "El mismo guiso en media hora"
+   },
+   {
+    "id": "horno",
+    "n": "Al horno",
+    "d": "Cazuela tapada al horno, sin vigilar el fuego"
+   }
+  ],
+  "heroe": {
+   "k": "ilu",
+   "svg": "<defs><radialGradient id=\"i_caldereta_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_caldereta_fondo)\"/><defs><radialGradient id=\"i_caldereta_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_caldereta_barro2\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_caldereta_cald\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#A8542A\"/><stop offset=\"1\" stop-color=\"#7C3816\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"116\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M48 90c0 40 28 60 112 60s112-20 112-60z\" fill=\"url(#i_caldereta_barro2)\"/><rect x=\"22\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><rect x=\"268\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"90\" rx=\"112\" ry=\"26\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"92\" rx=\"102\" ry=\"21\" fill=\"url(#i_caldereta_cald)\"/><ellipse cx=\"110\" cy=\"91\" rx=\"20\" ry=\"8\" fill=\"#000\" opacity=\".14\"/><g transform=\"translate(110 88) rotate(-18)\"><ellipse rx=\"18\" ry=\"10\" fill=\"#8A5A34\"/><ellipse cx=\"-2\" cy=\"-2\" rx=\"12\" ry=\"6\" fill=\"#A87044\"/><rect x=\"10\" y=\"-3\" width=\"12\" height=\"6\" rx=\"3\" fill=\"#EFE2C4\"/><circle cx=\"22\" cy=\"-3\" r=\"3.5\" fill=\"#F4EAD2\"/><circle cx=\"22\" cy=\"3\" r=\"3.5\" fill=\"#F4EAD2\"/></g><ellipse cx=\"158\" cy=\"99\" rx=\"20\" ry=\"8\" fill=\"#000\" opacity=\".14\"/><g transform=\"translate(158 96) rotate(12)\"><ellipse rx=\"18\" ry=\"10\" fill=\"#8A5A34\"/><ellipse cx=\"-2\" cy=\"-2\" rx=\"12\" ry=\"6\" fill=\"#A87044\"/><rect x=\"10\" y=\"-3\" width=\"12\" height=\"6\" rx=\"3\" fill=\"#EFE2C4\"/><circle cx=\"22\" cy=\"-3\" r=\"3.5\" fill=\"#F4EAD2\"/><circle cx=\"22\" cy=\"3\" r=\"3.5\" fill=\"#F4EAD2\"/></g><g transform=\"translate(200 90) rotate(20)\"><ellipse rx=\"13\" ry=\"8\" fill=\"#F2E0A8\"/><path d=\"M-6 -2q6-3 12 0\" stroke=\"#E2C87E\" stroke-width=\"1.6\" fill=\"none\"/></g><g transform=\"translate(140 84) rotate(-8)\"><ellipse rx=\"13\" ry=\"8\" fill=\"#F2E0A8\"/><path d=\"M-6 -2q6-3 12 0\" stroke=\"#E2C87E\" stroke-width=\"1.6\" fill=\"none\"/></g><g transform=\"translate(90 96) rotate(30)\"><rect x=\"-10\" y=\"-3.5\" width=\"20\" height=\"7\" rx=\"3.5\" fill=\"#E8812A\"/><rect x=\"-8\" y=\"-2.4\" width=\"16\" height=\"2.2\" rx=\"1.1\" fill=\"#F4A24E\"/></g><g transform=\"translate(186 100) rotate(-20)\"><rect x=\"-10\" y=\"-3.5\" width=\"20\" height=\"7\" rx=\"3.5\" fill=\"#E8812A\"/><rect x=\"-8\" y=\"-2.4\" width=\"16\" height=\"2.2\" rx=\"1.1\" fill=\"#F4A24E\"/></g><circle cx=\"236.6\" cy=\"92.9\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"235.8\" cy=\"92.1\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"195.0\" cy=\"100.1\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"194.2\" cy=\"99.3\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"114.4\" cy=\"83.0\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"113.6\" cy=\"82.2\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"176.4\" cy=\"84.2\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"175.6\" cy=\"83.4\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"141.2\" cy=\"104.1\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"140.4\" cy=\"103.3\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"219.5\" cy=\"84.1\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"218.7\" cy=\"83.3\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"93.2\" cy=\"86.8\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"92.4\" cy=\"86.0\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"212.5\" cy=\"81.6\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"211.7\" cy=\"80.8\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"116.0\" cy=\"83.8\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"115.2\" cy=\"83.0\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"100.4\" cy=\"94.6\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"99.6\" cy=\"93.8\" r=\".9\" fill=\"#9CC265\"/><ellipse cx=\"126\" cy=\"84\" rx=\"22\" ry=\"2.6\" fill=\"#fff\" opacity=\".25\"/>"
+  },
+  "regs": [
+   "ext"
+  ],
+  "intro": "El guiso de los pastores extremeños: cordero dorado, pimentón de la Vera y ajo, a fuego lento hasta que la carne se suelta del hueso. En casa se hacía el día antes, porque de un día para otro está aún más buena.",
+  "secretos": [
+   [
+    "De un día para otro",
+    "la caldereta gana con el reposo. Hazla hoy para mañana y recaliéntala a fuego suave, que no hierva a lo loco."
+   ],
+   [
+    "A gustos, colores",
+    "hay casas donde los ajos van enteros y con piel (se retiran antes de servir), otras con un tomate rallado en el sofrito, y quien la liga con unas hebras de azafrán. Todas buenas."
+   ],
+   [
+    "Con patatas",
+    "si quieres plato único, añade patatas partidas a cachelos en los últimos 20-25 minutos de guiso: la salsa liga sola con su almidón."
+   ],
+   [
+    "Pan",
+    "pan bueno para la salsa, que es lo mejor del plato."
+   ]
+  ],
   "ing": [
    [
-    "i0",
-    "1,2 kg de cordero en trozos",
-    null,
-    null,
-    1,
-    "plano"
+    "cordero",
+    "cordero en trozos|cordero en trozos",
+    1200,
+    "g"
    ],
    [
-    "i1",
-    "1 cebolla",
-    null,
-    null,
+    "cebolla",
+    "cebolla|cebollas",
     1,
-    "plano"
+    "ud",
+    0.5
    ],
    [
-    "i2",
-    "5 dientes de ajo",
-    null,
-    null,
-    1,
-    "plano"
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    5,
+    "ud",
+    1
    ],
    [
-    "i3",
-    "1 pimiento",
-    null,
-    null,
+    "pimiento",
+    "pimiento verde|pimientos verdes",
     1,
-    "plano"
+    "ud",
+    0.5
    ],
    [
-    "i4",
-    "1 cucharada de pimentón de la Vera",
-    null,
-    null,
+    "pimenton",
+    "pimentón de la Vera|pimentón de la Vera",
     1,
-    "plano"
+    "cda"
    ],
    [
-    "i5",
-    "1 hoja de laurel",
-    null,
-    null,
+    "laurel",
+    "hoja de laurel|hojas de laurel",
     1,
-    "plano"
+    "ud",
+    1
    ],
    [
-    "i6",
-    "1 vaso de vino blanco",
-    null,
-    null,
-    1,
-    "plano"
+    "vino",
+    "vino blanco|vino blanco",
+    150,
+    "ml"
    ],
    [
-    "i7",
-    "aceite de oliva y sal",
-    null,
-    null,
-    1,
-    "plano"
+    "agua",
+    "agua|agua",
+    500,
+    "ml"
+   ],
+   [
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    4,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ],
+   [
+    "pimienta",
+    "pimienta negra",
+    null
    ]
   ],
   "fases": [
    {
-    "n": "Dorar",
+    "n": "Dorar y sofrito",
     "tipo": "tu",
     "p": [
      {
       "t": "Sella la carne",
       "m": 15,
-      "x": "Salpimenta y dora el cordero en 4 cucharadas de aceite bien caliente por todos los lados, sin amontonar.",
-      "ab": "Por tandas: si se amontona, suelta agua y no se dora.",
-      "f": 4,
+      "x": "Salpimienta {cordero} y dóralo en {aceite} bien caliente, por todos los lados y sin amontonar: mejor en dos tandas que una revuelta.",
       "tim": 15,
-      "e": {
-       "k": "fuego",
-       "v": "cazuela",
-       "f": 4,
-       "c": "#C99A3A",
-       "i": [
-        [
-         "cordero",
-         5,
-         1,
-         "r-dorado"
-        ]
-       ],
-       "chisp": 1
-      }
-     },
-     {
-      "t": "Sofrito",
-      "m": 10,
-      "x": "Aparta la carne y en el mismo aceite pocha 1 cebolla, 1 pimiento y 5 ajos picados a fuego medio 10 minutos.",
       "f": 3,
-      "tim": 10,
       "e": {
        "k": "fuego",
        "v": "cazuela",
        "f": 3,
-       "c": "#D3A548",
+       "c": "#B5402F",
+       "i": [
+        [
+         "cordero",
+         3
+        ]
+       ]
+      },
+      "ab": "Sin prisa y por tandas: si los trozos se tocan, sueltan agua y cuecen en vez de dorarse. El dorado es el sabor del guiso."
+     },
+     {
+      "t": "Sofrito",
+      "m": 10,
+      "x": "Aparta la carne y en el mismo aceite pocha {cebolla}, {pimiento} y {ajo} picados, a fuego medio unos 10 minutos, hasta que la cebolla esté blandita y empiece a dorarse.",
+      "tim": 10,
+      "f": 1,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#C77B3B",
        "i": [
         [
          "cebolla",
-         6,
-         1,
-         "o-pochada"
-        ],
-        [
-         "pimiento",
-         3
+         2
         ],
         [
          "ajo",
-         3
+         1
+        ],
+        [
+         "pimiento",
+         1
         ]
-       ],
-       "cuchara": 1
-      }
+       ]
+      },
+      "ab": "El sofrito es la mitad del guiso: fuego medio y sin correr, que la cebolla sude despacio."
      }
     ]
    },
    {
-    "n": "Guisar",
+    "n": "El guiso",
     "tipo": "tu",
     "p": [
      {
       "t": "Pimentón y vino",
       "m": 5,
-      "x": "Fuera del fuego, añade 1 cucharada de pimentón, remueve 10 segundos y moja con 150 ml de vino blanco. Reduce un poco.",
-      "ab": "El pimentón siempre fuera del fuego: se quema enseguida.",
-      "f": 3,
+      "x": "Fuera del fuego, añade {pimenton}, remueve 10 segundos y moja enseguida con {vino}. Deja hervir un minuto para que se vaya el alcohol.",
       "tim": 5,
-      "e": {
-       "k": "fuego",
-       "v": "cazuela",
-       "f": 3,
-       "c": "#8E1B13",
-       "i": [
-        [
-         "cebolla",
-         3
-        ]
-       ],
-       "vierte": "vino",
-       "polvo": "#8E1B13"
-      }
-     },
-     {
-      "t": "A fuego lento",
-      "m": 80,
-      "x": "Vuelve la carne a la cazuela con el laurel y unos 500 ml de agua, justo para cubrir. Cuece tapado a fuego muy suave (que apenas burbujee) hasta que esté tierno y la salsa, ligada.",
       "f": 1,
-      "tim": 80,
       "e": {
        "k": "fuego",
        "v": "cazuela",
        "f": 1,
-       "c": "#B9482F",
+       "c": "#B5402F",
+       "i": [
+        [
+         "pimiento",
+         1
+        ]
+       ]
+      },
+      "ab": "El pimentón siempre fuera del fuego: se quema en un segundo y amarga el guiso entero."
+     },
+     {
+      "t": "Fuego suave y tapada",
+      "m": 80,
+      "x": "Vuelve la carne a la cazuela con {laurel} y {agua}, justo para cubrir. Cuando hierva, baja el fuego al mínimo y cuece tapada 1 hora y cuarto, hasta que la carne se suelte del hueso. Remueve de vez en cuando; si se queda seca, añade un poco más de agua caliente.",
+      "tim": 80,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "fuego"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#8A4B2F",
        "i": [
         [
          "cordero",
-         5
+         2
         ],
         [
          "laurel",
          1
         ]
        ],
-       "tapa": 1,
-       "vapor": 1,
-       "reloj": "80 min",
-       "rf": 0.5
-      }
+       "vapor": 1
+      },
+      "ab": "Que apenas borbotee: a fuego fuerte la carne se endurece y la salsa se rompe. La caldereta pide calma."
+     },
+     {
+      "t": "En olla rápida",
+      "m": 25,
+      "x": "Vuelve la carne a la olla rápida con {laurel} y {agua} (en la olla evapora menos: que cubra justo). Cierra y, desde que suba la válvula, 25 minutos a fuego medio-bajo. Deja que la olla pierda la presión sola antes de abrir.",
+      "tim": 25,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "rapida"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#8A4B2F",
+       "i": [
+        [
+         "cordero",
+         2
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "No fuerces la válvula ni abras en caliente: la carne se asienta mejor cuando la presión baja por sí sola."
+     },
+     {
+      "t": "Al horno, tapada",
+      "m": 90,
+      "x": "Calienta el horno a 170 °C. Vuelve la carne a la cazuela (de barro o apta para horno) con {laurel} y {agua}, tápala y hornea 1 hora y media. A mitad de camino, mira: si está seca, añade un poco de agua caliente.",
+      "tim": 90,
+      "w": 1,
+      "solo": [
+       "horno"
+      ],
+      "e": {
+       "k": "horno",
+       "t": "170 °C",
+       "d": "cazuela"
+      },
+      "ab": "Con cazuela de barro, métela con el horno aún frío y calienta todo junto: el barro no quiere sustos de temperatura."
+     },
+     {
+      "t": "Reposa y prueba la salsa",
+      "m": 10,
+      "x": "Apaga y deja reposar 10 minutos tapada. Prueba y rectifica de sal: si la salsa está aguada, saca la carne y redúcela unos minutos a fuego fuerte; si está muy espesa, un chorrito de agua caliente.",
+      "tim": 10,
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#B5402F",
+       "i": [
+        [
+         "cordero",
+         3
+        ],
+        [
+         "laurel",
+         1
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "La caldereta está mejor de un día para otro: si puedes, hazla hoy para mañana y recaliéntala despacio."
      }
     ]
    }
   ],
-  "simple": 1,
-  "secretos": [
-   [
-    "Ajos enteros",
-    "con piel, para que no amarguen."
-   ],
-   [
-    "De un día para otro",
-    "está mejor recalentada."
-   ],
-   [
-    "Pan",
-    "para la salsa."
-   ]
-  ],
-  "heroe": {
-   "k": "ilu",
-   "svg": "<defs><radialGradient id=\"i_caldereta_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_caldereta_fondo)\"/><defs><radialGradient id=\"i_caldereta_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_caldereta_barro2\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_caldereta_cald\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#A8542A\"/><stop offset=\"1\" stop-color=\"#7C3816\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"116\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M48 90c0 40 28 60 112 60s112-20 112-60z\" fill=\"url(#i_caldereta_barro2)\"/><rect x=\"22\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><rect x=\"268\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"90\" rx=\"112\" ry=\"26\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"92\" rx=\"102\" ry=\"21\" fill=\"url(#i_caldereta_cald)\"/><ellipse cx=\"110\" cy=\"91\" rx=\"20\" ry=\"8\" fill=\"#000\" opacity=\".14\"/><g transform=\"translate(110 88) rotate(-18)\"><ellipse rx=\"18\" ry=\"10\" fill=\"#8A5A34\"/><ellipse cx=\"-2\" cy=\"-2\" rx=\"12\" ry=\"6\" fill=\"#A87044\"/><rect x=\"10\" y=\"-3\" width=\"12\" height=\"6\" rx=\"3\" fill=\"#EFE2C4\"/><circle cx=\"22\" cy=\"-3\" r=\"3.5\" fill=\"#F4EAD2\"/><circle cx=\"22\" cy=\"3\" r=\"3.5\" fill=\"#F4EAD2\"/></g><ellipse cx=\"158\" cy=\"99\" rx=\"20\" ry=\"8\" fill=\"#000\" opacity=\".14\"/><g transform=\"translate(158 96) rotate(12)\"><ellipse rx=\"18\" ry=\"10\" fill=\"#8A5A34\"/><ellipse cx=\"-2\" cy=\"-2\" rx=\"12\" ry=\"6\" fill=\"#A87044\"/><rect x=\"10\" y=\"-3\" width=\"12\" height=\"6\" rx=\"3\" fill=\"#EFE2C4\"/><circle cx=\"22\" cy=\"-3\" r=\"3.5\" fill=\"#F4EAD2\"/><circle cx=\"22\" cy=\"3\" r=\"3.5\" fill=\"#F4EAD2\"/></g><g transform=\"translate(200 90) rotate(20)\"><ellipse rx=\"13\" ry=\"8\" fill=\"#F2E0A8\"/><path d=\"M-6 -2q6-3 12 0\" stroke=\"#E2C87E\" stroke-width=\"1.6\" fill=\"none\"/></g><g transform=\"translate(140 84) rotate(-8)\"><ellipse rx=\"13\" ry=\"8\" fill=\"#F2E0A8\"/><path d=\"M-6 -2q6-3 12 0\" stroke=\"#E2C87E\" stroke-width=\"1.6\" fill=\"none\"/></g><g transform=\"translate(90 96) rotate(30)\"><rect x=\"-10\" y=\"-3.5\" width=\"20\" height=\"7\" rx=\"3.5\" fill=\"#E8812A\"/><rect x=\"-8\" y=\"-2.4\" width=\"16\" height=\"2.2\" rx=\"1.1\" fill=\"#F4A24E\"/></g><g transform=\"translate(186 100) rotate(-20)\"><rect x=\"-10\" y=\"-3.5\" width=\"20\" height=\"7\" rx=\"3.5\" fill=\"#E8812A\"/><rect x=\"-8\" y=\"-2.4\" width=\"16\" height=\"2.2\" rx=\"1.1\" fill=\"#F4A24E\"/></g><circle cx=\"236.6\" cy=\"92.9\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"235.8\" cy=\"92.1\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"195.0\" cy=\"100.1\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"194.2\" cy=\"99.3\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"114.4\" cy=\"83.0\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"113.6\" cy=\"82.2\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"176.4\" cy=\"84.2\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"175.6\" cy=\"83.4\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"141.2\" cy=\"104.1\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"140.4\" cy=\"103.3\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"219.5\" cy=\"84.1\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"218.7\" cy=\"83.3\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"93.2\" cy=\"86.8\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"92.4\" cy=\"86.0\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"212.5\" cy=\"81.6\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"211.7\" cy=\"80.8\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"116.0\" cy=\"83.8\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"115.2\" cy=\"83.0\" r=\".9\" fill=\"#9CC265\"/><circle cx=\"100.4\" cy=\"94.6\" r=\"2.6\" fill=\"#6E9A3E\"/><circle cx=\"99.6\" cy=\"93.8\" r=\".9\" fill=\"#9CC265\"/><ellipse cx=\"126\" cy=\"84\" rx=\"22\" ry=\"2.6\" fill=\"#fff\" opacity=\".25\"/>"
-  },
   "tienda": [
    [
     "El cordero",
-    "Pide «cordero para guisar, en trozos de 4-5 cm con hueso» (paletilla o pescuezo). El hueso da sabor y la grasa se funde. Pide que lo corten, no lo hagas tú.",
+    "pide «cordero para guisar, en trozos de 4-5 cm y con su hueso»: paletilla o pescuezo. El hueso y la grasa son el sabor del guiso. Que lo corten en la carnicería, no lo hagas tú en casa.",
     "cordero"
    ],
    [
-    "Pimentón",
-    "De la Vera, dulce o agridulce. Un pimentón rancio amarga el guiso.",
+    "El pimentón",
+    "de la Vera, dulce o agridulce. Si el bote lleva un año abierto, cómpralo nuevo: el pimentón viejo amarga.",
     "pimentón"
+   ],
+   [
+    "El vino",
+    "un blanco sencillo pero que te beberías. Si no sirve para un vaso, no sirve para el guiso.",
+    "vino"
    ]
   ]
  },

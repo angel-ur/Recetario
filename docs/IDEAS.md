@@ -30,7 +30,7 @@ Ya tenemos: raciones que recalculan, pasos ilustrados, temporizadores, modo coci
 11. [HECHO 15 nov] Buscador por ingrediente ("que tengo en la nevera"): varias palabras en el buscador exigen todas (AND) y ordenan por cuantos ingredientes coinciden.
 12. [HECHO 15 nov] Impresion limpia / PDF: boton «Imprimir la receta» en la ficha + hoja @media print (sin controles, ilustraciones pequenas, cortes de pagina cuidados).
 
-- En marcha (peticion de Angel 15 nov): dar a TODAS las recetas el tratamiento del pil pil (escalado, metodo con alternativas de utensilio, voz abuela, variantes). Primero las 13 que aun salen simples (sin enriquecido); luego repasar metodos/variantes en las 27 enriquecidas.
+- En marcha (peticion de Angel 15 nov): dar a TODAS las recetas el tratamiento del pil pil (escalado, metodo con alternativas de utensilio, voz abuela, variantes). Primero las que salen simples (sin enriquecido); luego repasar metodos/variantes en las enriquecidas. Hechas: pilpil, arrozhorno, galets (nueva), caldereta. Quedan 11 simples: caldero, callos, chuletillas, cocidomontanes, empanadagallega, gachas, lechazo, ropavieja, sopasmallorquinas, tempeh, ternasco.
 
 ## Reglas inamovibles
 Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-action: manipulation; SVG interactivo con fill rgba(0,0,0,0) y cursor:pointer; verificar toques tras cada cambio.
@@ -50,7 +50,7 @@ Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-act
 - Cada receta puede tener una ilustracion propia en `data/ilustraciones/<id>.svg` (viewBox 0 0 320 180, sin etiqueta svg exterior). `scripts/build.py` la usa si existe; si no, cae al sprite simple de `js/escenas.js`.
 - Se generan con `scripts/ilu_*.py` (+ `scripts/ilu_lib.py`). En el SVG los ids de degradado empiezan por `ID`; el build los prefija por receta.
 - Estilo acordado: fondo crema, plato ovalado con aro azul (var(--anil)), composicion simple, un plato reconocible y poco mas. Referencia de nivel: gazpacho. El tempeh es la excepcion (escena con tabla de madera, aprobada).
-- Hechas: tempeh, paella, tortilla (entera, cupula dorada), cocido, gazpacho, caldo, fabada, lentejas, croquetas, crema catalana (cazuelita, costra y pala), pulpo (tabla de madera), marmitako, migas (sarten y uvas), pisto (sarten y huevo), arroz con leche, xato, papas (arrugadas con mojos), tumbet (capas y tomate), chilindron, pil-pil (bacalao en su gelatina), caldereta, callos, empanada gallega (redonda con su cuña), lechazo (paletilla en barro), ropa vieja, sopa castellana, zarangollo, chuletillas, arroz al horno, caldero, riojana, cocido montanes, gachas, sopas mallorquinas, ternasco, sobaos, pochas, santiago, suquet (39/40). Solo falta: rabo (Angel la esta dictando).
+- Hechas: tempeh, paella, tortilla (entera, cupula dorada), cocido, gazpacho, caldo, fabada, lentejas, croquetas, crema catalana (cazuelita, costra y pala), pulpo (tabla de madera), marmitako, migas (sarten y uvas), pisto (sarten y huevo), arroz con leche, xato, papas (arrugadas con mojos), tumbet (capas y tomate), chilindron, pil-pil (bacalao en su gelatina), caldereta, callos, empanada gallega (redonda con su cuña), lechazo (paletilla en barro), ropa vieja, sopa castellana, zarangollo, chuletillas, arroz al horno, caldero, riojana, cocido montanes, gachas, sopas mallorquinas, ternasco, sobaos, pochas, santiago, suquet, galets (40/41). Solo falta: rabo (Angel la esta dictando).
 
 ## La compra por tienda (v1)
 - En «La compra» hay un selector Por receta / Por tienda (localStorage `cvista`).
@@ -62,7 +62,7 @@ Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-act
 - Más datos de dependencias (`tras`/`durante`/`enlaza`) en recetas fuera de caldo, rabo, cocido, lentejas y paella. [15 nov: +crema catalana, tumbet, xato, marmitako]
 
 ## Hecho 15 nov
-- [HECHO 15 nov] Galets de Nadal (urgente: Angel cocinandolos): escudella completa + 3 metodos (farcits / sopa / de aprovechamiento con lo de ayer), escalado 2/4/6 con cantidades vivas en pasos, voz abuela, variantes (canelons de Sant Esteve incluidos). PENDIENTE: portada ilustrada propia (sale con sprite de reserva).
+- [HECHO 15 nov] Galets de Nadal (urgente: Angel cocinandolos): escudella completa + 3 metodos (farcits / sopa / de aprovechamiento con lo de ayer), escalado 2/4/6 con cantidades vivas en pasos, voz abuela, variantes (canelons de Sant Esteve incluidos) y portada ilustrada propia (cuenco de aro azul, caldo dorado, galets en espiral).
 - [HECHO 15 nov] Arroz al horno a fondo: escalado 2/4/6 (ud con medias: 1/2 morcilla, 1 1/2 cdas), metodos barro / otra cazuela al horno / sin horno al fuego (paso de acabado cambia), voz abuela y variantes. Segunda receta del tratamiento pil pil.
 - [HECHO 15 nov] Pil pil a fondo (peticion de Angel): escalado 2/4/6 con cantidades vivas tambien en los pasos, tres metodos con selector (barro / sarten o acero / turmix con pasos propios), desalado como paso previo de 36 h, secretos con variantes de cada casa y tienda ampliada. Sirve de plantilla para el resto.
 - Auditoria de dependencias: Leaflet 1.9.4 (ultima estable) ahora se sirve desde el propio sitio en `js/vendor/leaflet/`, sin CDN ni integridad rota posible (ADR 0006). Antes se cargaba de unpkg al usar la ruta.
