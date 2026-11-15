@@ -2484,49 +2484,84 @@
   "n": "Chuletillas al sarmiento",
   "sub": "cordero lechal a la brasa de sarmientos, con sal y nada más",
   "reg": "rio",
-  "regs": [
-   "rio"
-  ],
   "lugar": "La Rioja",
   "cat": "carne",
   "dif": 2,
   "b": 4,
   "rac": [
-   4
+   2,
+   4,
+   6
   ],
-  "intro": "Plato de las bodegas de La Rioja: chuletillas de cordero lechal asadas sobre brasas de sarmientos de la vid, con sal gorda.",
+  "met": [
+   {
+    "id": "sarmientos",
+    "n": "A la brasa de sarmientos",
+    "d": "La de las bodegas: sarmientos secos de la vid"
+   },
+   {
+    "id": "carbon",
+    "n": "Con carbón o parrilla",
+    "d": "Sin sarmientos: carbón vegetal, mismo plan"
+   },
+   {
+    "id": "sarten",
+    "n": "En sartén o plancha",
+    "d": "Sin barbacoa: hierro fundido bien caliente"
+   }
+  ],
+  "heroe": {
+   "k": "ilu",
+   "svg": "<defs><radialGradient id=\"i_chuletillas_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_chuletillas_fondo)\"/><defs><radialGradient id=\"i_chuletillas_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"156\" rx=\"112\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.25\"/><ellipse cx=\"160\" cy=\"114\" rx=\"120\" ry=\"50\" fill=\"#D4CCBB\"/><ellipse cx=\"160\" cy=\"110\" rx=\"120\" ry=\"50\" fill=\"url(#i_chuletillas_pl)\"/><ellipse cx=\"160\" cy=\"112\" rx=\"96\" ry=\"36\" fill=\"none\" style=\"stroke:var(--anil)\" stroke-width=\"3.5\"/><g transform=\"translate(112 100) rotate(-14)\"><ellipse rx=\"24\" ry=\"15\" fill=\"#B87E4A\"/><ellipse cx=\"-2\" cy=\"-2\" rx=\"17\" ry=\"10\" fill=\"#CE9256\"/><path d=\"M-9 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><path d=\"M-2 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><path d=\"M5 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><rect x=\"18\" y=\"-4\" width=\"20\" height=\"7\" rx=\"3.5\" fill=\"#F0E4CC\"/><circle cx=\"38\" cy=\"-4\" r=\"4.6\" fill=\"#F6EEDB\"/><circle cx=\"38\" cy=\"3\" r=\"4.6\" fill=\"#F6EEDB\"/></g><g transform=\"translate(158 116) rotate(6)\"><ellipse rx=\"24\" ry=\"15\" fill=\"#B87E4A\"/><ellipse cx=\"-2\" cy=\"-2\" rx=\"17\" ry=\"10\" fill=\"#CE9256\"/><path d=\"M-9 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><path d=\"M-2 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><path d=\"M5 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><rect x=\"18\" y=\"-4\" width=\"20\" height=\"7\" rx=\"3.5\" fill=\"#F0E4CC\"/><circle cx=\"38\" cy=\"-4\" r=\"4.6\" fill=\"#F6EEDB\"/><circle cx=\"38\" cy=\"3\" r=\"4.6\" fill=\"#F6EEDB\"/></g><g transform=\"translate(200 98) rotate(18)\"><ellipse rx=\"24\" ry=\"15\" fill=\"#B87E4A\"/><ellipse cx=\"-2\" cy=\"-2\" rx=\"17\" ry=\"10\" fill=\"#CE9256\"/><path d=\"M-9 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><path d=\"M-2 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><path d=\"M5 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><rect x=\"18\" y=\"-4\" width=\"20\" height=\"7\" rx=\"3.5\" fill=\"#F0E4CC\"/><circle cx=\"38\" cy=\"-4\" r=\"4.6\" fill=\"#F6EEDB\"/><circle cx=\"38\" cy=\"3\" r=\"4.6\" fill=\"#F6EEDB\"/></g><g transform=\"translate(56 142) rotate(10)\"><path d=\"M-24 0q12 -6 24 -2M-20 4q10 -4 22 -1\" stroke=\"#8A6A44\" stroke-width=\"2.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(254 136) rotate(-30)\"><rect x=\"-16\" y=\"-1.2\" width=\"32\" height=\"2.4\" fill=\"#4E6A34\"/><path d=\"M-12 0l-3 -5M-12 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.6\"/><path d=\"M-6 0l-3 -5M-6 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.6\"/><path d=\"M0 0l-3 -5M0 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.6\"/><path d=\"M6 0l-3 -5M6 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.6\"/><path d=\"M12 0l-3 -5M12 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.6\"/></g>"
+  },
+  "regs": [
+   "rio"
+  ],
+  "intro": "Plato de las bodegas de La Rioja: chuletillas de cordero lechal asadas sobre brasas de sarmientos de la vid, con sal gorda y nada más. Las de verdad se comen con la mano, junto a la parrilla.",
+  "secretos": [
+   [
+    "El sarmiento es el aroma",
+    "no es un fuego cualquiera: la vid da un perfume que el carbón no tiene. Si un día pasas por una bodega, pregunta: suelen regalarte un manojo."
+   ],
+   [
+    "Lechal, poco fuego",
+    "la carne joven se hace en un suspiro. Si las chuletillas son de cordero mayor, un minuto más por lado."
+   ],
+   [
+    "A gustos, colores",
+    "hay quien las adoba un rato con ajo y perejil picados, y quien las riega con un chorrito del vino de la bodega al darles la vuelta. La abuela: sal gorda y ya está."
+   ],
+   [
+    "Con la mano",
+    "y pan para el juguito del plato."
+   ]
+  ],
   "ing": [
    [
-    "i0",
-    "16 chuletillas de cordero lechal",
-    null,
-    null,
-    1,
-    "plano"
+    "chuletillas",
+    "chuletilla de cordero lechal|chuletillas de cordero lechal",
+    16,
+    "ud",
+    1
    ],
    [
-    "i1",
-    "sarmientos secos (o leña de vid)",
-    null,
-    null,
-    1,
-    "plano"
+    "sarmientos",
+    "sarmientos secos|sarmientos secos",
+    2000,
+    "g"
    ],
    [
-    "i2",
-    "sal gorda",
-    null,
-    null,
+    "sal",
+    "sal gorda|sal gorda",
     1,
-    "plano"
+    "cdta"
    ],
    [
-    "i3",
-    "pimientos asados o patatas, para acompañar",
-    null,
-    null,
-    1,
-    "plano"
+    "pimiento",
+    "pimiento rojo|pimientos rojos",
+    2,
+    "ud",
+    0.5
    ]
   ],
   "fases": [
@@ -2535,25 +2570,59 @@
     "tipo": "tu",
     "p": [
      {
-      "t": "Enciende",
+      "t": "Brasa de sarmientos",
       "m": 20,
-      "x": "Prende un buen puñado de sarmientos (unos 2 kg) en la parrilla y deja que se hagan brasa hasta que estén cubiertos de ceniza blanca.",
-      "ab": "Sin llama: solo brasa roja, o la carne se quema por fuera y queda cruda por dentro.",
-      "f": 5,
+      "x": "Prende {sarmientos} en la parrilla y deja que se hagan brasa, cubiertos de ceniza blanca: unos 20 minutos.",
       "tim": 20,
+      "f": 3,
+      "w": 1,
+      "solo": [
+       "sarmientos"
+      ],
       "e": {
        "k": "fuego",
        "v": "sarten",
-       "f": 5,
-       "c": "#6A4A2A",
-       "i": [
-        [
-         "romero",
-         3
-        ]
-       ],
-       "chisp": 1
-      }
+       "f": 3,
+       "c": "#B5402F"
+      },
+      "ab": "Sin llama: solo brasa roja. Con llama, la carne se quema por fuera y queda cruda por dentro."
+     },
+     {
+      "t": "Brasa de carbón",
+      "m": 30,
+      "x": "Enciende el carbón y espera a que esté bien formado, gris por fuera y rojo por dentro: 25-30 minutos, sin llama viva.",
+      "tim": 30,
+      "f": 3,
+      "w": 1,
+      "solo": [
+       "carbon"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 3,
+       "c": "#7A5A4A"
+      },
+      "ab": "El carbón manda su tiempo: hasta que no está blanco por fuera, no hay brasa."
+     },
+     {
+      "t": "Calienta la sartén o plancha",
+      "m": 10,
+      "x": "Pon una sartén de hierro o plancha a fuego fuerte 5-10 minutos, hasta que humee. Sin aceite: la chuletilla suelta su propia grasa.",
+      "tim": 10,
+      "f": 3,
+      "w": 1,
+      "solo": [
+       "sarten"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 3,
+       "c": "#B5402F",
+       "vapor": 1
+      },
+      "ab": "La sartén muy caliente y sin prisa: si no humea, no dora."
      }
     ]
    },
@@ -2562,100 +2631,101 @@
     "tipo": "tu",
     "p": [
      {
-      "t": "Sala",
+      "t": "Sala justo antes",
       "m": 2,
-      "x": "Sala las 16 chuletillas con 1 cucharadita de sal gorda en total, justo antes de ponerlas.",
-      "f": 0,
+      "x": "Sala {chuletillas} con {sal}, justo antes de asarlas: si las salas antes, sueltan jugo y no doran.",
       "e": {
-       "k": "plato",
-       "v": "llano",
+       "k": "tabla",
        "i": [
         [
          "chuleta",
-         6
+         4
         ]
-       ],
-       "polvo": "#FFFFFF"
-      }
+       ]
+      },
+      "ab": "La sal, gorda y en el último momento."
      },
      {
-      "t": "Asa",
+      "t": "A la parrilla",
       "m": 6,
-      "x": "Colócalas sobre la parrilla a unos 10 cm de la brasa y dales la vuelta cuando estén doradas.",
-      "ab": "Poco tiempo: 2 a 3 minutos por lado.",
-      "f": 5,
+      "x": "Colócalas a unos 10 cm de la brasa y dales la vuelta cuando estén doradas: 2-3 minutos por lado, ni más.",
       "tim": 6,
+      "f": 3,
+      "solo": [
+       "sarmientos",
+       "carbon"
+      ],
       "e": {
        "k": "fuego",
        "v": "sarten",
-       "f": 5,
-       "c": "#C99A3A",
+       "f": 3,
+       "c": "#B5402F",
        "i": [
         [
          "chuleta",
-         6,
-         1,
-         "r-dorado"
+         4
         ]
-       ],
-       "chisp": 1
-      }
+       ]
+      },
+      "ab": "El lechal pide poco fuego: hechas por fuera, rosadas por dentro."
      },
      {
-      "t": "Sirve",
-      "m": 2,
-      "x": "Sírvelas enseguida, calientes, con pimientos o patatas.",
-      "ab": "Se comen con la mano, sin cubiertos.",
-      "f": 0,
+      "t": "En la sartén",
+      "m": 6,
+      "x": "Ponlas en la sartén humeante, sin aceite, 2-3 minutos por lado. Si chisporrotea mucho, baja un punto el fuego y ventila.",
+      "tim": 6,
+      "f": 3,
+      "solo": [
+       "sarten"
+      ],
       "e": {
-       "k": "plato",
-       "v": "llano",
+       "k": "fuego",
+       "v": "sarten",
+       "f": 3,
+       "c": "#B5402F",
        "i": [
         [
          "chuleta",
-         6
-        ],
-        [
-         "pimiento",
-         2,
-         1,
-         "rojo"
+         4
         ]
        ],
        "vapor": 1
-      }
+      },
+      "ab": "En tandas, sin amontonar: si se juntan, cuecen en vez de dorarse."
+     },
+     {
+      "t": "Sirve al momento",
+      "m": 2,
+      "x": "Sírvelas enseguida, bien calientes, con {pimiento} asados o unas patatas fritas.",
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#B5402F",
+       "i": [
+        [
+         "chuleta",
+         4
+        ],
+        [
+         "pimiento",
+         2
+        ]
+       ]
+      },
+      "ab": "Se comen con la mano, chupando el hueso. Cubiertos, para el pan."
      }
     ]
    }
   ],
-  "simple": 1,
-  "secretos": [
-   [
-    "Sarmientos",
-    "dan un aroma que no da el carbón."
-   ],
-   [
-    "Lechal",
-    "la carne joven pide poco fuego."
-   ],
-   [
-    "Sin nada",
-    "sal gorda, y ya está."
-   ]
-  ],
-  "heroe": {
-   "k": "ilu",
-   "svg": "<defs><radialGradient id=\"i_chuletillas_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_chuletillas_fondo)\"/><defs><radialGradient id=\"i_chuletillas_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"156\" rx=\"112\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.25\"/><ellipse cx=\"160\" cy=\"114\" rx=\"120\" ry=\"50\" fill=\"#D4CCBB\"/><ellipse cx=\"160\" cy=\"110\" rx=\"120\" ry=\"50\" fill=\"url(#i_chuletillas_pl)\"/><ellipse cx=\"160\" cy=\"112\" rx=\"96\" ry=\"36\" fill=\"none\" style=\"stroke:var(--anil)\" stroke-width=\"3.5\"/><g transform=\"translate(112 100) rotate(-14)\"><ellipse rx=\"24\" ry=\"15\" fill=\"#B87E4A\"/><ellipse cx=\"-2\" cy=\"-2\" rx=\"17\" ry=\"10\" fill=\"#CE9256\"/><path d=\"M-9 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><path d=\"M-2 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><path d=\"M5 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><rect x=\"18\" y=\"-4\" width=\"20\" height=\"7\" rx=\"3.5\" fill=\"#F0E4CC\"/><circle cx=\"38\" cy=\"-4\" r=\"4.6\" fill=\"#F6EEDB\"/><circle cx=\"38\" cy=\"3\" r=\"4.6\" fill=\"#F6EEDB\"/></g><g transform=\"translate(158 116) rotate(6)\"><ellipse rx=\"24\" ry=\"15\" fill=\"#B87E4A\"/><ellipse cx=\"-2\" cy=\"-2\" rx=\"17\" ry=\"10\" fill=\"#CE9256\"/><path d=\"M-9 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><path d=\"M-2 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><path d=\"M5 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><rect x=\"18\" y=\"-4\" width=\"20\" height=\"7\" rx=\"3.5\" fill=\"#F0E4CC\"/><circle cx=\"38\" cy=\"-4\" r=\"4.6\" fill=\"#F6EEDB\"/><circle cx=\"38\" cy=\"3\" r=\"4.6\" fill=\"#F6EEDB\"/></g><g transform=\"translate(200 98) rotate(18)\"><ellipse rx=\"24\" ry=\"15\" fill=\"#B87E4A\"/><ellipse cx=\"-2\" cy=\"-2\" rx=\"17\" ry=\"10\" fill=\"#CE9256\"/><path d=\"M-9 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><path d=\"M-2 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><path d=\"M5 -8l4 16\" stroke=\"#7C4A22\" stroke-width=\"2.2\" stroke-linecap=\"round\" opacity=\".8\"/><rect x=\"18\" y=\"-4\" width=\"20\" height=\"7\" rx=\"3.5\" fill=\"#F0E4CC\"/><circle cx=\"38\" cy=\"-4\" r=\"4.6\" fill=\"#F6EEDB\"/><circle cx=\"38\" cy=\"3\" r=\"4.6\" fill=\"#F6EEDB\"/></g><g transform=\"translate(56 142) rotate(10)\"><path d=\"M-24 0q12 -6 24 -2M-20 4q10 -4 22 -1\" stroke=\"#8A6A44\" stroke-width=\"2.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(254 136) rotate(-30)\"><rect x=\"-16\" y=\"-1.2\" width=\"32\" height=\"2.4\" fill=\"#4E6A34\"/><path d=\"M-12 0l-3 -5M-12 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.6\"/><path d=\"M-6 0l-3 -5M-6 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.6\"/><path d=\"M0 0l-3 -5M0 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.6\"/><path d=\"M6 0l-3 -5M6 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.6\"/><path d=\"M12 0l-3 -5M12 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.6\"/></g>"
-  },
   "tienda": [
    [
     "Las chuletillas",
-    "Pide «chuletillas de cordero lechal», de unos 5 por persona. Que sean pequeñas, de hueso fino y color rosado pálido. Pídelas ya separadas y limpias, sin la parte del costillar.",
+    "pide «chuletillas de cordero lechal», unas 5 por persona. Pequeñas, de hueso fino y color rosado pálido. Que te las den separadas y limpias, sin la parte del costillar.",
     "chuletillas"
    ],
    [
     "Los sarmientos",
-    "Se compran en tiendas de barbacoa, o pregunta en una bodega. Si no los hay, el carbón vegetal funciona.",
+    "en tiendas de barbacoa, o pregunta en una bodega. Si no los hay, carbón vegetal y listo: no es lo mismo, pero las chuletillas salen muy buenas igual.",
     "sarmientos"
    ]
   ]
@@ -3107,73 +3177,141 @@
   "n": "Cocido montañés",
   "sub": "alubias blancas, berza y compango, para los días de frío",
   "reg": "can",
-  "regs": [
-   "can"
-  ],
   "lugar": "Cantabria",
   "cat": "cuchara",
   "dif": 2,
   "b": 6,
   "rac": [
-   6
+   4,
+   6,
+   8
   ],
-  "intro": "El plato de los inviernos cántabros: alubias blancas con berza y el compango (chorizo, morcilla, tocino y costilla) que les da su sabor.",
+  "met": [
+   {
+    "id": "lenta",
+    "n": "A fuego lento",
+    "d": "La de siempre, con remojo la noche antes"
+   },
+   {
+    "id": "rapida",
+    "n": "En olla rápida",
+    "d": "Tiernas en 25 minutos desde la válvula"
+   },
+   {
+    "id": "bote",
+    "n": "Con alubia de bote",
+    "d": "Sin remojo ni esperas: en media hora"
+   }
+  ],
+  "heroe": {
+   "k": "ilu",
+   "svg": "<defs><radialGradient id=\"i_cocidomontanes_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_cocidomontanes_fondo)\"/><defs><radialGradient id=\"i_cocidomontanes_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_cocidomontanes_barro8\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_cocidomontanes_alub\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#D9AE5E\"/><stop offset=\"1\" stop-color=\"#B8863A\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"114\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M52 90c0 40 28 60 108 60s108-20 108-60z\" fill=\"url(#i_cocidomontanes_barro8)\"/><ellipse cx=\"160\" cy=\"90\" rx=\"108\" ry=\"26\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"92\" rx=\"98\" ry=\"21\" fill=\"url(#i_cocidomontanes_alub)\"/><ellipse cx=\"107.7\" cy=\"89.6\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(149 107.7 89.6)\"/><circle cx=\"106.7\" cy=\"88.8\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"194.6\" cy=\"103.5\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(72 194.6 103.5)\"/><circle cx=\"193.6\" cy=\"102.7\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"167.5\" cy=\"98.2\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(35 167.5 98.2)\"/><circle cx=\"166.5\" cy=\"97.4\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"199.5\" cy=\"100.5\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(177 199.5 100.5)\"/><circle cx=\"198.5\" cy=\"99.7\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"188.0\" cy=\"94.3\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(18 188.0 94.3)\"/><circle cx=\"187.0\" cy=\"93.5\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"139.5\" cy=\"92.8\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(133 139.5 92.8)\"/><circle cx=\"138.5\" cy=\"92.0\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"153.0\" cy=\"97.4\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(134 153.0 97.4)\"/><circle cx=\"152.0\" cy=\"96.6\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"112.2\" cy=\"82.8\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(177 112.2 82.8)\"/><circle cx=\"111.2\" cy=\"82.0\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"218.1\" cy=\"96.4\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(124 218.1 96.4)\"/><circle cx=\"217.1\" cy=\"95.6\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"85.9\" cy=\"96.9\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(166 85.9 96.9)\"/><circle cx=\"84.9\" cy=\"96.1\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"161.6\" cy=\"102.6\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(5 161.6 102.6)\"/><circle cx=\"160.6\" cy=\"101.8\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"135.7\" cy=\"84.7\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(26 135.7 84.7)\"/><circle cx=\"134.7\" cy=\"83.9\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"187.7\" cy=\"80.2\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(173 187.7 80.2)\"/><circle cx=\"186.7\" cy=\"79.4\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"189.1\" cy=\"94.5\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(30 189.1 94.5)\"/><circle cx=\"188.1\" cy=\"93.7\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"166.8\" cy=\"103.3\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(5 166.8 103.3)\"/><circle cx=\"165.8\" cy=\"102.5\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"210.1\" cy=\"91.6\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(176 210.1 91.6)\"/><circle cx=\"209.1\" cy=\"90.8\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"197.8\" cy=\"97.2\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(32 197.8 97.2)\"/><circle cx=\"196.8\" cy=\"96.4\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"164.4\" cy=\"83.7\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(88 164.4 83.7)\"/><circle cx=\"163.4\" cy=\"82.9\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"194.8\" cy=\"81.6\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(173 194.8 81.6)\"/><circle cx=\"193.8\" cy=\"80.8\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"129.9\" cy=\"97.7\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(66 129.9 97.7)\"/><circle cx=\"128.9\" cy=\"96.9\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"88.6\" cy=\"89.2\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(125 88.6 89.2)\"/><circle cx=\"87.6\" cy=\"88.4\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"82.6\" cy=\"89.8\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(38 82.6 89.8)\"/><circle cx=\"81.6\" cy=\"89.0\" r=\"1\" fill=\"#E0CCA6\"/><g transform=\"translate(120 88) rotate(-20)\"><path d=\"M-14 0q7 -10 14 0q-7 6 -14 0z\" fill=\"#4E7A38\"/><path d=\"M-10 0q5 -6 10 0\" stroke=\"#3E6228\" stroke-width=\"1.2\" fill=\"none\"/></g><g transform=\"translate(168 96) rotate(15)\"><path d=\"M-14 0q7 -10 14 0q-7 6 -14 0z\" fill=\"#4E7A38\"/><path d=\"M-10 0q5 -6 10 0\" stroke=\"#3E6228\" stroke-width=\"1.2\" fill=\"none\"/></g><g transform=\"translate(206 90) rotate(-8)\"><path d=\"M-14 0q7 -10 14 0q-7 6 -14 0z\" fill=\"#4E7A38\"/><path d=\"M-10 0q5 -6 10 0\" stroke=\"#3E6228\" stroke-width=\"1.2\" fill=\"none\"/></g><g transform=\"translate(140 86) rotate(-7)\"><circle r=\"7.5\" fill=\"#B34434\"/><circle r=\"7.5\" fill=\"none\" stroke=\"#8E2E22\" stroke-width=\"1.4\"/></g><g transform=\"translate(190 96) rotate(-19)\"><circle r=\"7.5\" fill=\"#B34434\"/><circle r=\"7.5\" fill=\"none\" stroke=\"#8E2E22\" stroke-width=\"1.4\"/></g><g transform=\"translate(100 96) rotate(12)\"><circle r=\"8\" fill=\"#5E3226\"/><circle r=\"8\" fill=\"none\" stroke=\"#7C4A38\" stroke-width=\"1.5\"/></g><ellipse cx=\"128\" cy=\"82\" rx=\"22\" ry=\"2.6\" fill=\"#fff\" opacity=\".25\"/>"
+  },
+  "regs": [
+   "can"
+  ],
+  "intro": "El plato de los inviernos cántabros: alubias blancas con berza y el compango (chorizo, morcilla, tocino y costilla) que les da el sabor. Que sea cocido y no sopa: caldo espesito y a la mesa.",
+  "secretos": [
+   [
+    "El remojo, la noche antes",
+    "sin remojo no hay cocido montañés que valga. Y las asustas cuando hiervan fuerte."
+   ],
+   [
+    "Al día siguiente, mejor",
+    "como todo cocido, gana reposado. Recalienta despacio, con un chorrito de agua si espesó de más."
+   ],
+   [
+    "A gustos, colores",
+    "hay quien cuece la berza dentro de las alubias los últimos 20 minutos (más sabor, caldo más turbio), quien le añade unos callos o manita de cerdo al compango, y quien sirve el caldito de primero, como sopa."
+   ],
+   [
+    "De bote en apuro",
+    "con alubia cocida buena y el mismo compango, sale un cocido muy digno en media hora."
+   ]
+  ],
   "ing": [
    [
-    "i0",
-    "400 g de alubias blancas, a remojo la noche anterior",
-    null,
-    null,
-    1,
-    "plano"
+    "alubias",
+    "alubia blanca|alubias blancas",
+    400,
+    "g"
    ],
    [
-    "i1",
-    "1 berza (repollo) mediana",
-    null,
-    null,
+    "berza",
+    "berza mediana|berzas medianas",
     1,
-    "plano"
+    "ud",
+    0.5
    ],
    [
-    "i2",
-    "1 chorizo y 1 morcilla",
-    null,
-    null,
+    "chorizo",
+    "chorizo para guisar|chorizo para guisar",
     1,
-    "plano"
+    "ud",
+    1
    ],
    [
-    "i3",
-    "150 g de tocino y 250 g de costilla de cerdo",
-    null,
-    null,
+    "morcilla",
+    "morcilla|morcilla",
     1,
-    "plano"
+    "ud",
+    1
    ],
    [
-    "i4",
-    "3 patatas",
-    null,
-    null,
-    1,
-    "plano"
+    "tocino",
+    "tocino|tocino",
+    150,
+    "g"
    ],
    [
-    "i5",
-    "1 cebolla, 3 dientes de ajo",
-    null,
-    null,
-    1,
-    "plano"
+    "costilla",
+    "costilla de cerdo adobada|costilla de cerdo adobada",
+    250,
+    "g"
    ],
    [
-    "i6",
-    "aceite, sal y pimentón",
-    null,
-    null,
+    "patata",
+    "patata|patatas",
+    3,
+    "ud",
+    0.5
+   ],
+   [
+    "cebolla",
+    "cebolla|cebollas",
     1,
-    "plano"
+    "ud",
+    0.5
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    3,
+    "ud",
+    1
+   ],
+   [
+    "agua",
+    "agua|agua",
+    2000,
+    "ml"
+   ],
+   [
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    4,
+    "cda"
+   ],
+   [
+    "pimenton",
+    "pimentón dulce|pimentón dulce",
+    1,
+    "cdta"
+   ],
+   [
+    "sal",
+    "sal",
+    null
    ]
   ],
   "fases": [
@@ -3182,140 +3320,238 @@
     "tipo": "tu",
     "p": [
      {
-      "t": "Pon a cocer",
-      "m": 90,
-      "x": "Pon 400 g de alubias en una olla con 2 litros de agua fría, el tocino, la costilla y la cebolla entera. Cuece a fuego muy suave 1 hora y media, \"asustándolas\" con un chorrito (100 ml) de agua fría cada vez que rompa a hervir.",
-      "ab": "Asustar es echar un chorrito de agua fría: así la piel no se rompe.",
+      "t": "Alubias en remojo",
+      "m": 720,
+      "x": "Pon {alubias} en remojo en abundante agua fría la noche anterior (casi doblan su tamaño: dales sitio).",
       "f": 0,
-      "tim": 90,
+      "pre": 1,
+      "solo": [
+       "lenta",
+       "rapida"
+      ],
       "e": {
        "k": "remojo",
        "i": [
         [
          "faba",
-         20
+         30
         ]
        ],
-       "t": "90 min"
-      }
+       "t": "12 h"
+      },
+      "ab": "Sin remojo, la alubia tarda el doble y se cuece desigual. La noche anterior, sin falta."
+     },
+     {
+      "t": "Alubias al chup-chup",
+      "m": 90,
+      "x": "Pon {alubias} escurridas en la olla con {agua} fría, {tocino} y {costilla}, y una cebolla entera. Cuando rompa a hervir, espuma y baja el fuego: 1 hora y media de chup-chup, asustándolas con un chorrito de agua fría cada vez que hierva fuerte.",
+      "tim": 90,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "lenta"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "faba",
+         5
+        ],
+        [
+         "tocino",
+         1
+        ],
+        [
+         "costilla",
+         1
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "Asustar es echar un chorrito de agua fría: la piel no se rompe y la alubia queda entera."
+     },
+     {
+      "t": "En olla rápida",
+      "m": 25,
+      "x": "Pon {alubias} escurridas con {agua} (que las cubra dos dedos), {tocino} y {costilla}, y una cebolla entera. Cierra y, desde que suba la válvula, 25 minutos a fuego medio-bajo. Deja que la olla pierda la presión sola.",
+      "tim": 25,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "rapida"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "faba",
+         5
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "Si las alubias son de cosecha vieja, dales 5 minutos más: la alubia dura no perdona."
+     },
+     {
+      "t": "Con alubia de bote",
+      "m": 10,
+      "x": "Cuece {tocino} y {costilla} en {agua} 15 minutos (mejor con un hueso o caldo, si tienes). Escurre y aclara {alubias} de bote (el doble de peso que de seca: unos 800 g) y añádelas con una cebolla picada fina.",
+      "tim": 10,
+      "f": 2,
+      "solo": [
+       "bote"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "faba",
+         5
+        ],
+        [
+         "tocino",
+         1
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "La alubia de bote buena saca del apuro: aclárala bien y añádela al final, que solo necesita coger sabor."
      }
     ]
    },
    {
-    "n": "La berza y el compango",
+    "n": "La berza y el final",
     "tipo": "tu",
     "p": [
      {
-      "t": "Cuece la berza",
+      "t": "Berza cocida aparte",
       "m": 25,
-      "x": "Aparte, cuece la berza troceada en abundante agua con 1 cucharada de sal 20-25 minutos. Escurre.",
-      "f": 2,
+      "x": "Cuece {berza} en trozos en abundante agua con sal, 20-25 minutos. Escúrrela bien.",
       "tim": 25,
+      "f": 2,
       "e": {
        "k": "fuego",
-       "v": "olla",
+       "v": "cazuela",
        "f": 2,
-       "c": "#9CC8EA",
+       "c": "#6B8E4E",
        "i": [
         [
          "berza",
-         8
+         3
         ]
        ],
-       "burbujas": 1
-      }
+       "vapor": 1
+      },
+      "ab": "La berza se cuece aparte: suelta un sabor fuerte que taparía el caldo de las alubias."
      },
      {
-      "t": "Sofrito",
+      "t": "Patatas, chorizo y morcilla",
+      "m": 30,
+      "x": "Añade a las alubias {patata} chascadas, {chorizo} y {morcilla}, esta pinchada con un palillo, y cuece 30 minutos más, hasta que la patata esté tierna.",
+      "tim": 30,
+      "f": 1,
+      "w": 1,
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "faba",
+         5
+        ],
+        [
+         "patata",
+         2
+        ],
+        [
+         "chorizo",
+         2
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "Chascar la patata: partirla a medias y terminar de romperla con la mano. Suelta el almidón y liga el caldo."
+     },
+     {
+      "t": "Rehoga la berza",
       "m": 10,
-      "x": "Sofríe 3 ajos laminados en 4 cucharadas de aceite hasta que se doren, aparta del fuego y añade 1 cucharadita de pimentón. Sirve sobre la berza.",
-      "ab": "La berza se rehoga al final, con ajo y pimentón.",
-      "f": 2,
+      "x": "Sofríe {ajo} laminados en {aceite} hasta que doren; fuera del fuego, añade {pimenton}, remueve y echa la berza escurrida: dos vueltas y lista.",
       "tim": 10,
+      "f": 2,
       "e": {
        "k": "fuego",
        "v": "sarten",
        "f": 2,
-       "c": "#C8402B",
+       "c": "#C77B3B",
        "i": [
         [
          "ajo",
-         4
+         2
+        ],
+        [
+         "berza",
+         2
         ]
-       ],
-       "polvo": "#8E1B13",
-       "cuchara": 1
-      }
+       ]
+      },
+      "ab": "El pimentón fuera del fuego, siempre: si se quema, amarga."
      },
      {
-      "t": "Patatas y chorizo",
-      "m": 30,
-      "x": "Añade las 3 patatas chascadas, el chorizo y la morcilla a las alubias y cuece 30 minutos, hasta que todo esté tierno.",
-      "f": 2,
-      "tim": 30,
+      "t": "Sirve por partes",
+      "m": 5,
+      "x": "Sirve las alubias con su compango, y la berza rehogada aparte. Que no falte el pan.",
       "e": {
-       "k": "fuego",
-       "v": "olla",
-       "f": 2,
-       "c": "#9A5A32",
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#E9D2A6",
        "i": [
         [
          "faba",
-         20
-        ],
-        [
-         "patata",
-         4
+         5
         ],
         [
          "chorizo",
-         3
+         1
         ],
         [
-         "morcilla",
-         2
+         "berza",
+         1
         ]
        ],
-       "tapa": 2
-      }
+       "vapor": 1
+      },
+      "ab": "El compango puede ir dentro o en fuentecita aparte, para que cada uno elija."
      }
     ]
    }
   ],
-  "simple": 1,
-  "secretos": [
-   [
-    "Remojo",
-    "la noche anterior, sin falta."
-   ],
-   [
-    "Sin prisa",
-    "a fuego suave, que sea cocido y no sopa."
-   ],
-   [
-    "Al día siguiente",
-    "recalentado, mejor."
-   ]
-  ],
-  "heroe": {
-   "k": "ilu",
-   "svg": "<defs><radialGradient id=\"i_cocidomontanes_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_cocidomontanes_fondo)\"/><defs><radialGradient id=\"i_cocidomontanes_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_cocidomontanes_barro8\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_cocidomontanes_alub\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#D9AE5E\"/><stop offset=\"1\" stop-color=\"#B8863A\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"114\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M52 90c0 40 28 60 108 60s108-20 108-60z\" fill=\"url(#i_cocidomontanes_barro8)\"/><ellipse cx=\"160\" cy=\"90\" rx=\"108\" ry=\"26\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"92\" rx=\"98\" ry=\"21\" fill=\"url(#i_cocidomontanes_alub)\"/><ellipse cx=\"107.7\" cy=\"89.6\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(149 107.7 89.6)\"/><circle cx=\"106.7\" cy=\"88.8\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"194.6\" cy=\"103.5\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(72 194.6 103.5)\"/><circle cx=\"193.6\" cy=\"102.7\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"167.5\" cy=\"98.2\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(35 167.5 98.2)\"/><circle cx=\"166.5\" cy=\"97.4\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"199.5\" cy=\"100.5\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(177 199.5 100.5)\"/><circle cx=\"198.5\" cy=\"99.7\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"188.0\" cy=\"94.3\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(18 188.0 94.3)\"/><circle cx=\"187.0\" cy=\"93.5\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"139.5\" cy=\"92.8\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(133 139.5 92.8)\"/><circle cx=\"138.5\" cy=\"92.0\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"153.0\" cy=\"97.4\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(134 153.0 97.4)\"/><circle cx=\"152.0\" cy=\"96.6\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"112.2\" cy=\"82.8\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(177 112.2 82.8)\"/><circle cx=\"111.2\" cy=\"82.0\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"218.1\" cy=\"96.4\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(124 218.1 96.4)\"/><circle cx=\"217.1\" cy=\"95.6\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"85.9\" cy=\"96.9\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(166 85.9 96.9)\"/><circle cx=\"84.9\" cy=\"96.1\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"161.6\" cy=\"102.6\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(5 161.6 102.6)\"/><circle cx=\"160.6\" cy=\"101.8\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"135.7\" cy=\"84.7\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(26 135.7 84.7)\"/><circle cx=\"134.7\" cy=\"83.9\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"187.7\" cy=\"80.2\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(173 187.7 80.2)\"/><circle cx=\"186.7\" cy=\"79.4\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"189.1\" cy=\"94.5\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(30 189.1 94.5)\"/><circle cx=\"188.1\" cy=\"93.7\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"166.8\" cy=\"103.3\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(5 166.8 103.3)\"/><circle cx=\"165.8\" cy=\"102.5\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"210.1\" cy=\"91.6\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(176 210.1 91.6)\"/><circle cx=\"209.1\" cy=\"90.8\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"197.8\" cy=\"97.2\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(32 197.8 97.2)\"/><circle cx=\"196.8\" cy=\"96.4\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"164.4\" cy=\"83.7\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(88 164.4 83.7)\"/><circle cx=\"163.4\" cy=\"82.9\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"194.8\" cy=\"81.6\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(173 194.8 81.6)\"/><circle cx=\"193.8\" cy=\"80.8\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"129.9\" cy=\"97.7\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(66 129.9 97.7)\"/><circle cx=\"128.9\" cy=\"96.9\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"88.6\" cy=\"89.2\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(125 88.6 89.2)\"/><circle cx=\"87.6\" cy=\"88.4\" r=\"1\" fill=\"#E0CCA6\"/><ellipse cx=\"82.6\" cy=\"89.8\" rx=\"4\" ry=\"2.8\" fill=\"#F4EAD2\" transform=\"rotate(38 82.6 89.8)\"/><circle cx=\"81.6\" cy=\"89.0\" r=\"1\" fill=\"#E0CCA6\"/><g transform=\"translate(120 88) rotate(-20)\"><path d=\"M-14 0q7 -10 14 0q-7 6 -14 0z\" fill=\"#4E7A38\"/><path d=\"M-10 0q5 -6 10 0\" stroke=\"#3E6228\" stroke-width=\"1.2\" fill=\"none\"/></g><g transform=\"translate(168 96) rotate(15)\"><path d=\"M-14 0q7 -10 14 0q-7 6 -14 0z\" fill=\"#4E7A38\"/><path d=\"M-10 0q5 -6 10 0\" stroke=\"#3E6228\" stroke-width=\"1.2\" fill=\"none\"/></g><g transform=\"translate(206 90) rotate(-8)\"><path d=\"M-14 0q7 -10 14 0q-7 6 -14 0z\" fill=\"#4E7A38\"/><path d=\"M-10 0q5 -6 10 0\" stroke=\"#3E6228\" stroke-width=\"1.2\" fill=\"none\"/></g><g transform=\"translate(140 86) rotate(-7)\"><circle r=\"7.5\" fill=\"#B34434\"/><circle r=\"7.5\" fill=\"none\" stroke=\"#8E2E22\" stroke-width=\"1.4\"/></g><g transform=\"translate(190 96) rotate(-19)\"><circle r=\"7.5\" fill=\"#B34434\"/><circle r=\"7.5\" fill=\"none\" stroke=\"#8E2E22\" stroke-width=\"1.4\"/></g><g transform=\"translate(100 96) rotate(12)\"><circle r=\"8\" fill=\"#5E3226\"/><circle r=\"8\" fill=\"none\" stroke=\"#7C4A38\" stroke-width=\"1.5\"/></g><ellipse cx=\"128\" cy=\"82\" rx=\"22\" ry=\"2.6\" fill=\"#fff\" opacity=\".25\"/>"
-  },
   "tienda": [
    [
-    "Berza",
-    "«Una berza mediana». Quítale las hojas exteriores duras en casa; deja el cogollo.",
+    "Las alubias",
+    "«alubias blancas de cosecha reciente». La alubia vieja no se ablanda ni con agua bendita.",
+    "alubias"
+   ],
+   [
+    "La berza",
+    "«una berza mediana». En casa, quítale las hojas exteriores duras y quédate con el cogollo.",
     "berza"
    ],
    [
-    "Compango",
-    "Pide el «compango» junto: chorizo, morcilla, tocino y costilla de cerdo adobada o fresca, en trozos.",
+    "El compango",
+    "pide el compango junto: chorizo y morcilla para guisar, tocino y costilla de cerdo adobada, en trozos.",
     "chorizo|tocino|costilla"
-   ],
-   [
-    "Alubias",
-    "«Alubias blancas de cosecha reciente» y ponlas a remojo la noche antes.",
-    "alubias"
    ]
   ]
  },

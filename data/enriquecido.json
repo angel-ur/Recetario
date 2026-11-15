@@ -9547,5 +9547,554 @@
     ]
    }
   ]
+ },
+ {
+  "id": "chuletillas",
+  "n": "Chuletillas al sarmiento",
+  "sub": "cordero lechal a la brasa de sarmientos, con sal y nada más",
+  "reg": "rio",
+  "lugar": "La Rioja",
+  "cat": "carne",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "met": [
+   {
+    "id": "sarmientos",
+    "n": "A la brasa de sarmientos",
+    "d": "La de las bodegas: sarmientos secos de la vid"
+   },
+   {
+    "id": "carbon",
+    "n": "Con carbón o parrilla",
+    "d": "Sin sarmientos: carbón vegetal, mismo plan"
+   },
+   {
+    "id": "sarten",
+    "n": "En sartén o plancha",
+    "d": "Sin barbacoa: hierro fundido bien caliente"
+   }
+  ],
+  "ing": [
+   [
+    "chuletillas",
+    "chuletilla de cordero lechal|chuletillas de cordero lechal",
+    16,
+    "ud",
+    1
+   ],
+   [
+    "sarmientos",
+    "sarmientos secos|sarmientos secos",
+    2000,
+    "g"
+   ],
+   [
+    "sal",
+    "sal gorda|sal gorda",
+    1,
+    "cdta"
+   ],
+   [
+    "pimiento",
+    "pimiento rojo|pimientos rojos",
+    2,
+    "ud",
+    0.5
+   ]
+  ],
+  "fases": [
+   {
+    "n": "La brasa",
+    "p": [
+     {
+      "t": "Brasa de sarmientos",
+      "m": 20,
+      "tim": 20,
+      "f": 3,
+      "w": 1,
+      "solo": [
+       "sarmientos"
+      ],
+      "x": "Prende {sarmientos} en la parrilla y deja que se hagan brasa, cubiertos de ceniza blanca: unos 20 minutos.",
+      "ab": "Sin llama: solo brasa roja. Con llama, la carne se quema por fuera y queda cruda por dentro.",
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 3,
+       "c": "#B5402F"
+      }
+     },
+     {
+      "t": "Brasa de carbón",
+      "m": 30,
+      "tim": 30,
+      "f": 3,
+      "w": 1,
+      "solo": [
+       "carbon"
+      ],
+      "x": "Enciende el carbón y espera a que esté bien formado, gris por fuera y rojo por dentro: 25-30 minutos, sin llama viva.",
+      "ab": "El carbón manda su tiempo: hasta que no está blanco por fuera, no hay brasa.",
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 3,
+       "c": "#7A5A4A"
+      }
+     },
+     {
+      "t": "Calienta la sartén o plancha",
+      "m": 10,
+      "tim": 10,
+      "f": 3,
+      "w": 1,
+      "solo": [
+       "sarten"
+      ],
+      "x": "Pon una sartén de hierro o plancha a fuego fuerte 5-10 minutos, hasta que humee. Sin aceite: la chuletilla suelta su propia grasa.",
+      "ab": "La sartén muy caliente y sin prisa: si no humea, no dora.",
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 3,
+       "c": "#B5402F",
+       "vapor": 1
+      }
+     }
+    ]
+   },
+   {
+    "n": "Las chuletillas",
+    "p": [
+     {
+      "t": "Sala justo antes",
+      "m": 2,
+      "x": "Sala {chuletillas} con {sal}, justo antes de asarlas: si las salas antes, sueltan jugo y no doran.",
+      "ab": "La sal, gorda y en el último momento.",
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "chuleta",
+         4
+        ]
+       ]
+      }
+     },
+     {
+      "t": "A la parrilla",
+      "m": 6,
+      "tim": 6,
+      "f": 3,
+      "solo": [
+       "sarmientos",
+       "carbon"
+      ],
+      "x": "Colócalas a unos 10 cm de la brasa y dales la vuelta cuando estén doradas: 2-3 minutos por lado, ni más.",
+      "ab": "El lechal pide poco fuego: hechas por fuera, rosadas por dentro.",
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 3,
+       "c": "#B5402F",
+       "i": [
+        [
+         "chuleta",
+         4
+        ]
+       ]
+      }
+     },
+     {
+      "t": "En la sartén",
+      "m": 6,
+      "tim": 6,
+      "f": 3,
+      "solo": [
+       "sarten"
+      ],
+      "x": "Ponlas en la sartén humeante, sin aceite, 2-3 minutos por lado. Si chisporrotea mucho, baja un punto el fuego y ventila.",
+      "ab": "En tandas, sin amontonar: si se juntan, cuecen en vez de dorarse.",
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 3,
+       "c": "#B5402F",
+       "i": [
+        [
+         "chuleta",
+         4
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Sirve al momento",
+      "m": 2,
+      "x": "Sírvelas enseguida, bien calientes, con {pimiento} asados o unas patatas fritas.",
+      "ab": "Se comen con la mano, chupando el hueso. Cubiertos, para el pan.",
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#B5402F",
+       "i": [
+        [
+         "chuleta",
+         4
+        ],
+        [
+         "pimiento",
+         2
+        ]
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cocidomontanes",
+  "n": "Cocido montañés",
+  "sub": "alubias blancas, berza y compango, para los días de frío",
+  "reg": "can",
+  "lugar": "Cantabria",
+  "cat": "cuchara",
+  "dif": 2,
+  "b": 6,
+  "rac": [
+   4,
+   6,
+   8
+  ],
+  "met": [
+   {
+    "id": "lenta",
+    "n": "A fuego lento",
+    "d": "La de siempre, con remojo la noche antes"
+   },
+   {
+    "id": "rapida",
+    "n": "En olla rápida",
+    "d": "Tiernas en 25 minutos desde la válvula"
+   },
+   {
+    "id": "bote",
+    "n": "Con alubia de bote",
+    "d": "Sin remojo ni esperas: en media hora"
+   }
+  ],
+  "ing": [
+   [
+    "alubias",
+    "alubia blanca|alubias blancas",
+    400,
+    "g"
+   ],
+   [
+    "berza",
+    "berza mediana|berzas medianas",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "chorizo",
+    "chorizo para guisar|chorizo para guisar",
+    1,
+    "ud",
+    1
+   ],
+   [
+    "morcilla",
+    "morcilla|morcilla",
+    1,
+    "ud",
+    1
+   ],
+   [
+    "tocino",
+    "tocino|tocino",
+    150,
+    "g"
+   ],
+   [
+    "costilla",
+    "costilla de cerdo adobada|costilla de cerdo adobada",
+    250,
+    "g"
+   ],
+   [
+    "patata",
+    "patata|patatas",
+    3,
+    "ud",
+    0.5
+   ],
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    3,
+    "ud",
+    1
+   ],
+   [
+    "agua",
+    "agua|agua",
+    2000,
+    "ml"
+   ],
+   [
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    4,
+    "cda"
+   ],
+   [
+    "pimenton",
+    "pimentón dulce|pimentón dulce",
+    1,
+    "cdta"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Las alubias",
+    "p": [
+     {
+      "t": "Alubias en remojo",
+      "m": 720,
+      "pre": 1,
+      "f": 0,
+      "solo": [
+       "lenta",
+       "rapida"
+      ],
+      "x": "Pon {alubias} en remojo en abundante agua fría la noche anterior (casi doblan su tamaño: dales sitio).",
+      "ab": "Sin remojo, la alubia tarda el doble y se cuece desigual. La noche anterior, sin falta.",
+      "e": {
+       "k": "remojo",
+       "i": [
+        [
+         "faba",
+         30
+        ]
+       ],
+       "t": "12 h"
+      }
+     },
+     {
+      "t": "Alubias al chup-chup",
+      "m": 90,
+      "tim": 90,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "lenta"
+      ],
+      "x": "Pon {alubias} escurridas en la olla con {agua} fría, {tocino} y {costilla}, y una cebolla entera. Cuando rompa a hervir, espuma y baja el fuego: 1 hora y media de chup-chup, asustándolas con un chorrito de agua fría cada vez que hierva fuerte.",
+      "ab": "Asustar es echar un chorrito de agua fría: la piel no se rompe y la alubia queda entera.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "faba",
+         5
+        ],
+        [
+         "tocino",
+         1
+        ],
+        [
+         "costilla",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "En olla rápida",
+      "m": 25,
+      "tim": 25,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "rapida"
+      ],
+      "x": "Pon {alubias} escurridas con {agua} (que las cubra dos dedos), {tocino} y {costilla}, y una cebolla entera. Cierra y, desde que suba la válvula, 25 minutos a fuego medio-bajo. Deja que la olla pierda la presión sola.",
+      "ab": "Si las alubias son de cosecha vieja, dales 5 minutos más: la alubia dura no perdona.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "faba",
+         5
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Con alubia de bote",
+      "m": 10,
+      "tim": 10,
+      "f": 2,
+      "solo": [
+       "bote"
+      ],
+      "x": "Cuece {tocino} y {costilla} en {agua} 15 minutos (mejor con un hueso o caldo, si tienes). Escurre y aclara {alubias} de bote (el doble de peso que de seca: unos 800 g) y añádelas con una cebolla picada fina.",
+      "ab": "La alubia de bote buena saca del apuro: aclárala bien y añádela al final, que solo necesita coger sabor.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "faba",
+         5
+        ],
+        [
+         "tocino",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     }
+    ]
+   },
+   {
+    "n": "La berza y el final",
+    "p": [
+     {
+      "t": "Berza cocida aparte",
+      "m": 25,
+      "tim": 25,
+      "f": 2,
+      "x": "Cuece {berza} en trozos en abundante agua con sal, 20-25 minutos. Escúrrela bien.",
+      "ab": "La berza se cuece aparte: suelta un sabor fuerte que taparía el caldo de las alubias.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#6B8E4E",
+       "i": [
+        [
+         "berza",
+         3
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Patatas, chorizo y morcilla",
+      "m": 30,
+      "tim": 30,
+      "f": 1,
+      "w": 1,
+      "x": "Añade a las alubias {patata} chascadas, {chorizo} y {morcilla}, esta pinchada con un palillo, y cuece 30 minutos más, hasta que la patata esté tierna.",
+      "ab": "Chascar la patata: partirla a medias y terminar de romperla con la mano. Suelta el almidón y liga el caldo.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "faba",
+         5
+        ],
+        [
+         "patata",
+         2
+        ],
+        [
+         "chorizo",
+         2
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Rehoga la berza",
+      "m": 10,
+      "tim": 10,
+      "f": 2,
+      "x": "Sofríe {ajo} laminados en {aceite} hasta que doren; fuera del fuego, añade {pimenton}, remueve y echa la berza escurrida: dos vueltas y lista.",
+      "ab": "El pimentón fuera del fuego, siempre: si se quema, amarga.",
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 2,
+       "c": "#C77B3B",
+       "i": [
+        [
+         "ajo",
+         2
+        ],
+        [
+         "berza",
+         2
+        ]
+       ]
+      }
+     },
+     {
+      "t": "Sirve por partes",
+      "m": 5,
+      "x": "Sirve las alubias con su compango, y la berza rehogada aparte. Que no falte el pan.",
+      "ab": "El compango puede ir dentro o en fuentecita aparte, para que cada uno elija.",
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "faba",
+         5
+        ],
+        [
+         "chorizo",
+         1
+        ],
+        [
+         "berza",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     }
+    ]
+   }
+  ]
  }
 ]
