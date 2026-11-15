@@ -7432,5 +7432,166 @@
     ]
    }
   ]
+ },
+ {
+  "id": "santiago",
+  "n": "Tarta de Santiago",
+  "sub": "almendra, huevo y azúcar, con su cruz",
+  "reg": "gal",
+  "lugar": "Galicia",
+  "cat": "postre",
+  "dif": 1,
+  "b": 8,
+  "rac": [
+   4,
+   8,
+   12
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "fuente",
+   "c": "#E8C88E",
+   "i": [
+    [
+     "almendra",
+     8
+    ]
+   ]
+  },
+  "ing": [
+   [
+    "almendra",
+    "almendra molida|almendra molida",
+    250,
+    "g"
+   ],
+   [
+    "azucar",
+    "azúcar|azúcar",
+    250,
+    "g"
+   ],
+   [
+    "huevo",
+    "huevos|huevos",
+    5,
+    "ud"
+   ],
+   [
+    "limon",
+    "la ralladura de un limón",
+    null
+   ],
+   [
+    "canela",
+    "una pizca de canela (opcional)",
+    null
+   ],
+   [
+    "glas",
+    "azúcar glas para la cruz",
+    null
+   ]
+  ],
+  "fases": [
+   {
+    "n": "La mezcla",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Huevos y azúcar",
+      "m": 5,
+      "f": 0,
+      "x": "Calienta el horno a 180 °C. Bate {huevo} con {azucar} en un bol grande hasta que blanqueen un poco.",
+      "ab": "No hacen falta varillas eléctricas: con un tenedor y dos minutos de brazo vale.",
+      "e": {
+       "k": "bol",
+       "c": "#F3D477",
+       "varillas": 1
+      }
+     },
+     {
+      "t": "Almendra y limón",
+      "m": 5,
+      "f": 0,
+      "x": "Añade {almendra}, la ralladura de un limón y una pizca de canela, y mezcla hasta que no queden grumos.",
+      "ab": "La masa queda espesa y perezosa: es lo suyo.",
+      "e": {
+       "k": "bol",
+       "c": "#E8D3A8",
+       "i": [
+        [
+         "almendra",
+         6
+        ]
+       ],
+       "tenedor": 1
+      }
+     }
+    ]
+   },
+   {
+    "n": "Al horno",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Molde y al horno",
+      "m": 35,
+      "tim": 32,
+      "f": 0,
+      "x": "A 180 °C. Forra un molde redondo de unos 22 cm con papel de horno, vierte la masa y hornea de 30 a 35 minutos, hasta que esté dorada y al pinchar salga la aguja limpia.",
+      "ab": "Si se dora demasiado pronto, cúbrela con un papel y sigue: la almendra se tuesta rápido.",
+      "e": {
+       "k": "horno",
+       "t": "180 °C",
+       "d": "molde",
+       "c": "#E8C88E"
+      }
+     },
+     {
+      "t": "Reposa",
+      "m": 60,
+      "tim": 60,
+      "f": 0,
+      "x": "Sácala y déjala enfriar del todo sobre una rejilla antes de desmoldar.",
+      "ab": "Caliente se rompe; fría se corta limpio.",
+      "e": {
+       "k": "tabla",
+       "c": "#E8C88E",
+       "i": [
+        [
+         "almendra",
+         4
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "n": "La cruz",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "La cruz de Santiago",
+      "m": 5,
+      "f": 0,
+      "x": "Pon una cruz de Santiago recortada en papel en el centro y espolvorea azúcar glas por encima con un colador. Retira el papel con cuidado.",
+      "ab": "La cruz queda tostada sobre el campo blanco: es la firma de la tarta.",
+      "e": {
+       "k": "plato",
+       "v": "fuente",
+       "c": "#E8C88E",
+       "i": [
+        [
+         "almendra",
+         6
+        ]
+       ]
+      }
+     }
+    ]
+   }
+  ]
  }
 ]

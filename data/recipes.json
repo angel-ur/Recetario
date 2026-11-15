@@ -8505,6 +8505,190 @@
   ]
  },
  {
+  "id": "santiago",
+  "n": "Tarta de Santiago",
+  "sub": "almendra, huevo y azúcar, con su cruz",
+  "reg": "gal",
+  "lugar": "Galicia",
+  "cat": "postre",
+  "dif": 1,
+  "b": 8,
+  "rac": [
+   4,
+   8,
+   12
+  ],
+  "heroe": {
+   "k": "ilu",
+   "svg": "<defs><radialGradient id=\"i_santiago_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_santiago_fondo)\"/><defs><radialGradient id=\"i_santiago_tarta\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#DDAF6A\"/><stop offset=\"1\" stop-color=\"#A0632E\"/></radialGradient><radialGradient id=\"i_santiago_glas\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FDFBF4\"/><stop offset=\"1\" stop-color=\"#EFE6D2\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"158\" rx=\"118\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.2\"/><ellipse cx=\"160\" cy=\"104\" rx=\"128\" ry=\"46\" fill=\"#F7F4EE\"/><ellipse cx=\"160\" cy=\"104\" rx=\"128\" ry=\"46\" fill=\"none\" style=\"stroke:var(--anil)\" stroke-width=\"3\"/><ellipse cx=\"160\" cy=\"104\" rx=\"112\" ry=\"38\" fill=\"#EFE9DC\"/><path d=\"M76 96c0 20 38 34 84 34s84-14 84-34v-8c0 20-38 34-84 34s-84-14-84-34z\" fill=\"#9A6534\"/><ellipse cx=\"160\" cy=\"92\" rx=\"84\" ry=\"30\" fill=\"url(#i_santiago_tarta)\"/><circle cx=\"233.6\" cy=\"94.5\" r=\"1.2\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"226.7\" cy=\"102.9\" r=\"1.2\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"211.7\" cy=\"109.9\" r=\"1.3\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"190.4\" cy=\"114.8\" r=\"1.7\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"165.5\" cy=\"116.9\" r=\"1.4\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"139.9\" cy=\"116.1\" r=\"1.3\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"116.8\" cy=\"112.3\" r=\"1.0\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"98.8\" cy=\"106.1\" r=\"1.2\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"88.3\" cy=\"98.2\" r=\"1.0\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"86.4\" cy=\"89.5\" r=\"1.4\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"93.3\" cy=\"81.1\" r=\"1.5\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"108.3\" cy=\"74.1\" r=\"1.8\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"129.6\" cy=\"69.2\" r=\"1.4\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"154.5\" cy=\"67.1\" r=\"1.2\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"180.1\" cy=\"67.9\" r=\"1.4\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"203.2\" cy=\"71.7\" r=\"1.4\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"221.2\" cy=\"77.9\" r=\"1.4\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"231.7\" cy=\"85.8\" r=\"1.7\" fill=\"#8F5E2A\" opacity=\".5\"/><ellipse cx=\"160\" cy=\"92\" rx=\"61\" ry=\"19.5\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"217.8\" cy=\"95.7\" r=\"2.3\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"208.9\" cy=\"102.3\" r=\"1.8\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"192.6\" cy=\"107.4\" r=\"2.0\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"171.3\" cy=\"110.2\" r=\"2.1\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"148.3\" cy=\"110.1\" r=\"1.7\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"127.0\" cy=\"107.3\" r=\"2.1\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"110.8\" cy=\"102.2\" r=\"1.8\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"102.1\" cy=\"95.5\" r=\"1.8\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"102.2\" cy=\"88.3\" r=\"2.2\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"111.1\" cy=\"81.7\" r=\"1.6\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"127.4\" cy=\"76.6\" r=\"1.8\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"148.7\" cy=\"73.8\" r=\"2.1\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"171.7\" cy=\"73.9\" r=\"1.8\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"193.0\" cy=\"76.7\" r=\"2.3\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"209.2\" cy=\"81.8\" r=\"1.8\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"217.9\" cy=\"88.5\" r=\"2.1\" fill=\"url(#i_santiago_glas)\"/><g transform=\"translate(160 92) scale(1.18)\"><g fill=\"#96602F\"><path d=\"M-2.6 -22 L2.6 -22 L2.6 -5 L2.6 11 L0 19 L-2.6 11 L-2.6 -5 Z\"/><path d=\"M-19 -10 L-3 -10 L-3 -3.4 L-19 -3.4 Q-23.5 -6.7 -19 -10 Z\"/><path d=\"M19 -10 L3 -10 L3 -3.4 L19 -3.4 Q23.5 -6.7 19 -10 Z\"/><circle cx=\"0\" cy=\"-23\" r=\"4\"/><circle cx=\"-5\" cy=\"-20.5\" r=\"3\"/><circle cx=\"5\" cy=\"-20.5\" r=\"3\"/><circle cx=\"-20.5\" cy=\"-6.7\" r=\"3.2\"/><circle cx=\"20.5\" cy=\"-6.7\" r=\"3.2\"/></g><g fill=\"#8F5E2A\" opacity=\".5\"><path d=\"M-1.2 -20 L1.2 -20 L1.2 10 L0 15.5 L-1.2 10 Z\"/><path d=\"M-17 -8.6 L-3 -8.6 L-3 -5 L-17 -5 Q-20 -6.7 -17 -8.6 Z\"/><path d=\"M17 -8.6 L3 -8.6 L3 -5 L17 -5 Q20 -6.7 17 -8.6 Z\"/></g></g><circle cx=\"64\" cy=\"110\" r=\"1.6\" fill=\"#FDFBF4\"/><circle cx=\"86\" cy=\"124\" r=\"1.2\" fill=\"#FDFBF4\"/><circle cx=\"238\" cy=\"118\" r=\"1.5\" fill=\"#FDFBF4\"/><circle cx=\"254\" cy=\"104\" r=\"1.2\" fill=\"#FDFBF4\"/><circle cx=\"112\" cy=\"130\" r=\"1.3\" fill=\"#FDFBF4\"/><circle cx=\"206\" cy=\"128\" r=\"1.4\" fill=\"#FDFBF4\"/>"
+  },
+  "regs": [
+   "gal"
+  ],
+  "intro": "La tarta de almendra de Compostela: almendra molida, huevo y azúcar, sin harina ni mantequilla. Se hace en un bol con un tenedor y en media hora de horno está lista.",
+  "secretos": [
+   [
+    "Sin harina",
+    "No la lleva: la almendra lo es todo. Por eso la miga queda húmeda y densa."
+   ],
+   [
+    "La ralladura, sin lo blanco",
+    "Solo la parte amarilla de la piel del limón; lo blanco amarga."
+   ],
+   [
+    "Mejor al día siguiente",
+    "Tapada aguanta una semana y gana en jugosidad."
+   ]
+  ],
+  "ing": [
+   [
+    "almendra",
+    "almendra molida|almendra molida",
+    250,
+    "g"
+   ],
+   [
+    "azucar",
+    "azúcar|azúcar",
+    250,
+    "g"
+   ],
+   [
+    "huevo",
+    "huevos|huevos",
+    5,
+    "ud"
+   ],
+   [
+    "limon",
+    "la ralladura de un limón",
+    null
+   ],
+   [
+    "canela",
+    "una pizca de canela (opcional)",
+    null
+   ],
+   [
+    "glas",
+    "azúcar glas para la cruz",
+    null
+   ]
+  ],
+  "fases": [
+   {
+    "n": "La mezcla",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Huevos y azúcar",
+      "m": 5,
+      "x": "Calienta el horno a 180 °C. Bate {huevo} con {azucar} en un bol grande hasta que blanqueen un poco.",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#F3D477",
+       "varillas": 1
+      },
+      "ab": "No hacen falta varillas eléctricas: con un tenedor y dos minutos de brazo vale."
+     },
+     {
+      "t": "Almendra y limón",
+      "m": 5,
+      "x": "Añade {almendra}, la ralladura de un limón y una pizca de canela, y mezcla hasta que no queden grumos.",
+      "f": 0,
+      "e": {
+       "k": "bol",
+       "c": "#E8D3A8",
+       "i": [
+        [
+         "almendra",
+         6
+        ]
+       ],
+       "tenedor": 1
+      },
+      "ab": "La masa queda espesa y perezosa: es lo suyo."
+     }
+    ]
+   },
+   {
+    "n": "Al horno",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Molde y al horno",
+      "m": 35,
+      "x": "A 180 °C. Forra un molde redondo de unos 22 cm con papel de horno, vierte la masa y hornea de 30 a 35 minutos, hasta que esté dorada y al pinchar salga la aguja limpia.",
+      "tim": 32,
+      "f": 0,
+      "e": {
+       "k": "horno",
+       "t": "180 °C",
+       "d": "molde",
+       "c": "#E8C88E"
+      },
+      "ab": "Si se dora demasiado pronto, cúbrela con un papel y sigue: la almendra se tuesta rápido."
+     },
+     {
+      "t": "Reposa",
+      "m": 60,
+      "x": "Sácala y déjala enfriar del todo sobre una rejilla antes de desmoldar.",
+      "tim": 60,
+      "f": 0,
+      "e": {
+       "k": "tabla",
+       "c": "#E8C88E",
+       "i": [
+        [
+         "almendra",
+         4
+        ]
+       ]
+      },
+      "ab": "Caliente se rompe; fría se corta limpio."
+     }
+    ]
+   },
+   {
+    "n": "La cruz",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "La cruz de Santiago",
+      "m": 5,
+      "x": "Pon una cruz de Santiago recortada en papel en el centro y espolvorea azúcar glas por encima con un colador. Retira el papel con cuidado.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "fuente",
+       "c": "#E8C88E",
+       "i": [
+        [
+         "almendra",
+         6
+        ]
+       ]
+      },
+      "ab": "La cruz queda tostada sobre el campo blanco: es la firma de la tarta."
+     }
+    ]
+   }
+  ],
+  "tienda": [
+   [
+    "La almendra",
+    "«Almendra molida», mejor si es marcona. Si la compras entera, muélela con un poco del azúcar para que no se apelmace.",
+    "almendra"
+   ],
+   [
+    "El limón",
+    "Uno sin tratar, que la ralladura va con piel y todo.",
+    "limón"
+   ]
+  ]
+ },
+ {
   "id": "sobaos",
   "n": "Sobaos pasiegos",
   "sub": "de mantequilla, tiernos y esponjosos",
