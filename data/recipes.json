@@ -4643,130 +4643,173 @@
   "n": "Gachas manchegas",
   "sub": "harina de almortas con ajo, pimentón y torreznos",
   "reg": "clm",
-  "regs": [
-   "clm"
-  ],
   "lugar": "Castilla-La Mancha",
   "cat": "cuchara",
   "dif": 2,
   "b": 4,
   "rac": [
-   4
+   2,
+   4,
+   6
   ],
-  "intro": "Plato de pastores y de invierno: una crema espesa de harina de almortas con ajo y pimentón, rematada con torreznos crujientes.",
+  "met": [
+   {
+    "id": "almortas",
+    "n": "Harina de almortas",
+    "d": "Las auténticas, las de los pastores"
+   },
+   {
+    "id": "garbanzo",
+    "n": "Harina de garbanzo",
+    "d": "Si no hay almortas: la prima hermana"
+   }
+  ],
+  "heroe": {
+   "k": "ilu",
+   "svg": "<defs><radialGradient id=\"i_gachas_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_gachas_fondo)\"/><defs><radialGradient id=\"i_gachas_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_gachas_hierro\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#5A5E66\"/><stop offset=\"1\" stop-color=\"#3A3E46\"/></linearGradient><radialGradient id=\"i_gachas_gach\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#E8C06A\"/><stop offset=\"1\" stop-color=\"#C08A34\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"148\" rx=\"112\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M52 94c0 26 28 40 108 40s108-14 108-40z\" fill=\"url(#i_gachas_hierro)\"/><rect x=\"264\" y=\"92\" width=\"52\" height=\"13\" rx=\"6.5\" fill=\"#4A4E56\"/><circle cx=\"306\" cy=\"98\" r=\"3\" fill=\"#33373E\"/><ellipse cx=\"160\" cy=\"94\" rx=\"108\" ry=\"24\" fill=\"#4A4E56\"/><ellipse cx=\"160\" cy=\"96\" rx=\"98\" ry=\"20\" fill=\"url(#i_gachas_gach)\"/><path d=\"M100 88q30 -5 60 0q30 5 60 0\" stroke=\"#C89A4E\" stroke-width=\"2\" fill=\"none\" opacity=\".7\"/><path d=\"M100 96q30 6 60 0q30 -6 60 0\" stroke=\"#C89A4E\" stroke-width=\"2\" fill=\"none\" opacity=\".7\"/><path d=\"M100 104q30 -5 60 0q30 5 60 0\" stroke=\"#C89A4E\" stroke-width=\"2\" fill=\"none\" opacity=\".7\"/><g transform=\"translate(124 90) rotate(-14)\"><rect x=\"-13\" y=\"-7\" width=\"26\" height=\"14\" rx=\"4\" fill=\"#B8642E\"/><rect x=\"-13\" y=\"-7\" width=\"26\" height=\"4\" rx=\"2\" fill=\"#E8985A\"/><path d=\"M-8 0h16M-8 3h16\" stroke=\"#8A4420\" stroke-width=\"1.4\"/></g><g transform=\"translate(158 100) rotate(6)\"><rect x=\"-13\" y=\"-7\" width=\"26\" height=\"14\" rx=\"4\" fill=\"#B8642E\"/><rect x=\"-13\" y=\"-7\" width=\"26\" height=\"4\" rx=\"2\" fill=\"#E8985A\"/><path d=\"M-8 0h16M-8 3h16\" stroke=\"#8A4420\" stroke-width=\"1.4\"/></g><g transform=\"translate(196 92) rotate(18)\"><rect x=\"-13\" y=\"-7\" width=\"26\" height=\"14\" rx=\"4\" fill=\"#B8642E\"/><rect x=\"-13\" y=\"-7\" width=\"26\" height=\"4\" rx=\"2\" fill=\"#E8985A\"/><path d=\"M-8 0h16M-8 3h16\" stroke=\"#8A4420\" stroke-width=\"1.4\"/></g><circle cx=\"122.0\" cy=\"86.1\" r=\"1.1\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"225.4\" cy=\"102.4\" r=\"1.2\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"203.8\" cy=\"96.5\" r=\"1.4\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"175.8\" cy=\"95.9\" r=\"1.3\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"98.0\" cy=\"101.0\" r=\"0.9\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"132.4\" cy=\"102.9\" r=\"0.8\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"163.0\" cy=\"90.9\" r=\"0.8\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"215.8\" cy=\"84.1\" r=\"1.1\" fill=\"#9C2E1E\" opacity=\".8\"/><ellipse cx=\"140\" cy=\"102\" rx=\"6\" ry=\"4\" fill=\"#E8C88A\"/><ellipse cx=\"212\" cy=\"100\" rx=\"6\" ry=\"4\" fill=\"#E8C88A\"/>"
+  },
+  "regs": [
+   "clm"
+  ],
+  "intro": "Plato de pastores y de invierno: una crema espesa de harina de almortas con ajo y pimentón, rematada con torreznos crujientes. De las que se comen a cucharadas, alrededor de la sartén.",
+  "secretos": [
+   [
+    "Cuchara de palo y mismo sentido",
+    "las gachas se hacen removiendo; quien se para, encuentra grumos."
+   ],
+   [
+    "Sueltas, que espesan",
+    "al templar cuajan más. Mejor algo claras en la sartén que cemento en el plato."
+   ],
+   [
+    "A gustos, colores",
+    "hay quien echa la panceta en tiras dentro de la masa, quien las corona con un huevo frito, y quien las toma dulces con leche, azúcar y canela, como en Cuaresma."
+   ],
+   [
+    "Al día siguiente",
+    "frías se cortan a rodajas y se fríen. Gachas de ayer, otro plato distinto."
+   ]
+  ],
   "ing": [
    [
-    "i0",
-    "200 g de harina de almortas",
-    null,
-    null,
-    1,
-    "plano"
+    "harina",
+    "harina de almortas|harina de almortas",
+    200,
+    "g"
    ],
    [
-    "i1",
-    "1 l de agua",
-    null,
-    null,
-    1,
-    "plano"
+    "agua",
+    "agua fría|agua fría",
+    1000,
+    "ml"
    ],
    [
-    "i2",
-    "4 dientes de ajo",
-    null,
-    null,
-    1,
-    "plano"
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    4,
+    "ud",
+    1
    ],
    [
-    "i3",
-    "1 cucharadita de pimentón dulce",
-    null,
-    null,
+    "pimenton",
+    "pimentón dulce|pimentón dulce",
     1,
-    "plano"
+    "cdta"
    ],
    [
-    "i4",
-    "150 g de torreznos o panceta",
-    null,
-    null,
-    1,
-    "plano"
+    "torrezno",
+    "torreznos o panceta en tiras|torreznos o panceta en tiras",
+    150,
+    "g"
    ],
    [
-    "i5",
-    "aceite y sal",
-    null,
-    null,
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    4,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal|sal",
     1,
-    "plano"
+    "cdta"
    ]
   ],
   "fases": [
    {
-    "n": "La crema",
+    "n": "Las gachas",
     "tipo": "tu",
     "p": [
      {
-      "t": "Fríe el ajo",
+      "t": "Ajos dorados",
       "m": 5,
-      "x": "En una sartén con 4 cucharadas de aceite, fríe los 4 ajos laminados sin que se quemen y retíralos.",
-      "f": 2,
+      "x": "Lamina {ajo} y fríelos en {aceite} a fuego medio hasta que empiecen a dorarse; sácalos y resérvalos.",
       "tim": 5,
+      "f": 2,
       "e": {
        "k": "fuego",
        "v": "sarten",
        "f": 2,
-       "c": "#E3C062",
+       "c": "#C77B3B",
        "i": [
         [
          "ajo",
-         5
+         3
         ]
-       ],
-       "cuchara": 1,
-       "burbujas": "#F7DC8F"
-      }
+       ]
+      },
+      "ab": "El ajo, dorado y no quemado: si se pasa, amarga. Por eso se saca y se pone al final."
      },
      {
-      "t": "Harina y agua",
+      "t": "Harina tostada y agua fría",
       "m": 5,
-      "x": "Añade los 200 g de harina y tuéstala 1 minuto, removiendo. Fuera del fuego, añade 1 cucharadita de pimentón y moja poco a poco con 1 litro de agua fría, removiendo con varillas.",
-      "ab": "Agua fría y removiendo sin parar, para que no salgan grumos.",
-      "f": 3,
+      "x": "En ese aceite, tuesta {harina} 1 minuto sin dejar de remover. Fuera del fuego, añade {pimenton} y moja poco a poco con {agua}, removiendo con varillas para que no haga grumos.",
       "tim": 5,
+      "f": 1,
+      "solo": [
+       "almortas"
+      ],
       "e": {
        "k": "fuego",
        "v": "sarten",
-       "f": 3,
-       "c": "#D8B96A",
-       "i": [
-        [
-         "almendra",
-         1
-        ]
-       ],
-       "vierte": "agua",
-       "polvo": "#8E1B13"
-      }
+       "f": 1,
+       "c": "#C9973F"
+      },
+      "ab": "Agua fría y a remover sin parar: el agua caliente hace grumos seguros."
      },
      {
-      "t": "Cuece",
-      "m": 25,
-      "x": "A fuego suave, sin dejar de remover, 20-25 minutos hasta que espese como una crema. Sala con 1 cucharadita rasa de sal.",
-      "f": 2,
-      "tim": 25,
+      "t": "Con harina de garbanzo",
+      "m": 5,
+      "x": "Igual que con la de almortas: tuesta la harina de garbanzo (los mismos gramos que marca la lista) 1 minuto, y fuera del fuego añade {pimenton} y moja con {agua} poco a poco, removiendo con varillas.",
+      "tim": 5,
+      "f": 1,
+      "solo": [
+       "garbanzo"
+      ],
       "e": {
        "k": "fuego",
-       "v": "cazuela",
-       "f": 2,
-       "c": "#D9C58E",
-       "i": [],
-       "cuchara": 1,
-       "burbujas": 1
-      }
+       "v": "sarten",
+       "f": 1,
+       "c": "#C9973F"
+      },
+      "ab": "La harina de garbanzo tuesta antes: no la dejes sola, que se pasa en un descuido."
+     },
+     {
+      "t": "A fuego suave, removiendo",
+      "m": 25,
+      "x": "Cuece a fuego suave 20-25 minutos, removiendo con la cuchara de palo, hasta que espese como una crema espesa. Sala con {sal} y prueba.",
+      "tim": 25,
+      "f": 1,
+      "w": 1,
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 1,
+       "c": "#C9973F",
+       "vapor": 1,
+       "agita": 1
+      },
+      "ab": "Removiendo siempre y en el mismo sentido, decía la abuela. Al templar espesan más: déjalas algo sueltas."
      }
     ]
    },
@@ -4775,58 +4818,37 @@
     "tipo": "tu",
     "p": [
      {
-      "t": "Frítelos",
+      "t": "Torreznos crujientes",
       "m": 10,
-      "x": "Fríe los 150 g de torreznos en su propia grasa hasta que estén crujientes. Sirve las gachas con los torreznos y el ajo por encima.",
-      "f": 5,
+      "x": "Fríe {torrezno} en su propia grasa (en sartén aparte, sin aceite) hasta que estén crujientes. Sirve las gachas con los torreznos y el ajo dorado por encima.",
       "tim": 10,
+      "f": 2,
       "e": {
-       "k": "fuego",
-       "v": "sarten",
-       "f": 5,
-       "c": "#C99A3A",
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#C9973F",
        "i": [
         [
          "tocino",
-         5,
-         1,
-         "r-dorado"
+         3
         ]
        ],
-       "chisp": 1
-      }
+       "vapor": 1
+      },
+      "ab": "El torrezno tiene que crujir: es el contraste con la crema."
      }
     ]
    }
   ],
-  "simple": 1,
-  "secretos": [
-   [
-    "Cuchara de palo",
-    "remover siempre en el mismo sentido."
-   ],
-   [
-    "Espesor",
-    "al enfriar espesa más, deja las gachas algo sueltas."
-   ],
-   [
-    "El torrezno",
-    "crujiente, para contrastar."
-   ]
-  ],
-  "heroe": {
-   "k": "ilu",
-   "svg": "<defs><radialGradient id=\"i_gachas_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_gachas_fondo)\"/><defs><radialGradient id=\"i_gachas_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_gachas_hierro\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#5A5E66\"/><stop offset=\"1\" stop-color=\"#3A3E46\"/></linearGradient><radialGradient id=\"i_gachas_gach\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#E8C06A\"/><stop offset=\"1\" stop-color=\"#C08A34\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"148\" rx=\"112\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M52 94c0 26 28 40 108 40s108-14 108-40z\" fill=\"url(#i_gachas_hierro)\"/><rect x=\"264\" y=\"92\" width=\"52\" height=\"13\" rx=\"6.5\" fill=\"#4A4E56\"/><circle cx=\"306\" cy=\"98\" r=\"3\" fill=\"#33373E\"/><ellipse cx=\"160\" cy=\"94\" rx=\"108\" ry=\"24\" fill=\"#4A4E56\"/><ellipse cx=\"160\" cy=\"96\" rx=\"98\" ry=\"20\" fill=\"url(#i_gachas_gach)\"/><path d=\"M100 88q30 -5 60 0q30 5 60 0\" stroke=\"#C89A4E\" stroke-width=\"2\" fill=\"none\" opacity=\".7\"/><path d=\"M100 96q30 6 60 0q30 -6 60 0\" stroke=\"#C89A4E\" stroke-width=\"2\" fill=\"none\" opacity=\".7\"/><path d=\"M100 104q30 -5 60 0q30 5 60 0\" stroke=\"#C89A4E\" stroke-width=\"2\" fill=\"none\" opacity=\".7\"/><g transform=\"translate(124 90) rotate(-14)\"><rect x=\"-13\" y=\"-7\" width=\"26\" height=\"14\" rx=\"4\" fill=\"#B8642E\"/><rect x=\"-13\" y=\"-7\" width=\"26\" height=\"4\" rx=\"2\" fill=\"#E8985A\"/><path d=\"M-8 0h16M-8 3h16\" stroke=\"#8A4420\" stroke-width=\"1.4\"/></g><g transform=\"translate(158 100) rotate(6)\"><rect x=\"-13\" y=\"-7\" width=\"26\" height=\"14\" rx=\"4\" fill=\"#B8642E\"/><rect x=\"-13\" y=\"-7\" width=\"26\" height=\"4\" rx=\"2\" fill=\"#E8985A\"/><path d=\"M-8 0h16M-8 3h16\" stroke=\"#8A4420\" stroke-width=\"1.4\"/></g><g transform=\"translate(196 92) rotate(18)\"><rect x=\"-13\" y=\"-7\" width=\"26\" height=\"14\" rx=\"4\" fill=\"#B8642E\"/><rect x=\"-13\" y=\"-7\" width=\"26\" height=\"4\" rx=\"2\" fill=\"#E8985A\"/><path d=\"M-8 0h16M-8 3h16\" stroke=\"#8A4420\" stroke-width=\"1.4\"/></g><circle cx=\"122.0\" cy=\"86.1\" r=\"1.1\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"225.4\" cy=\"102.4\" r=\"1.2\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"203.8\" cy=\"96.5\" r=\"1.4\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"175.8\" cy=\"95.9\" r=\"1.3\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"98.0\" cy=\"101.0\" r=\"0.9\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"132.4\" cy=\"102.9\" r=\"0.8\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"163.0\" cy=\"90.9\" r=\"0.8\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"215.8\" cy=\"84.1\" r=\"1.1\" fill=\"#9C2E1E\" opacity=\".8\"/><ellipse cx=\"140\" cy=\"102\" rx=\"6\" ry=\"4\" fill=\"#E8C88A\"/><ellipse cx=\"212\" cy=\"100\" rx=\"6\" ry=\"4\" fill=\"#E8C88A\"/>"
-  },
   "tienda": [
    [
     "La harina de almortas",
-    "«Harina de almortas (titos o guijas)». Búscala en tiendas de productos de la zona o en herbolarios. Si no la hay, se puede hacer con harina de garbanzo, pero el sabor cambia.",
+    "«harina de almortas (titos o guijas)», en tiendas de productos manchegos o herbolarios. Si no la hay, harina de garbanzo, que el sabor cambia pero salen muy ricas.",
     "almortas"
    ],
    [
     "Los torreznos",
-    "«Panceta fresca en tiras» para freír, o torreznos ya hechos.",
+    "«panceta fresca en tiras» para freír, o torreznos ya hechos.",
     "torreznos|panceta"
    ]
   ]

@@ -10368,5 +10368,180 @@
     ]
    }
   ]
+ },
+ {
+  "id": "gachas",
+  "n": "Gachas manchegas",
+  "sub": "harina de almortas con ajo, pimentón y torreznos",
+  "reg": "clm",
+  "lugar": "Castilla-La Mancha",
+  "cat": "cuchara",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "met": [
+   {
+    "id": "almortas",
+    "n": "Harina de almortas",
+    "d": "Las auténticas, las de los pastores"
+   },
+   {
+    "id": "garbanzo",
+    "n": "Harina de garbanzo",
+    "d": "Si no hay almortas: la prima hermana"
+   }
+  ],
+  "ing": [
+   [
+    "harina",
+    "harina de almortas|harina de almortas",
+    200,
+    "g"
+   ],
+   [
+    "agua",
+    "agua fría|agua fría",
+    1000,
+    "ml"
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    4,
+    "ud",
+    1
+   ],
+   [
+    "pimenton",
+    "pimentón dulce|pimentón dulce",
+    1,
+    "cdta"
+   ],
+   [
+    "torrezno",
+    "torreznos o panceta en tiras|torreznos o panceta en tiras",
+    150,
+    "g"
+   ],
+   [
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    4,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal|sal",
+    1,
+    "cdta"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Las gachas",
+    "p": [
+     {
+      "t": "Ajos dorados",
+      "m": 5,
+      "tim": 5,
+      "f": 2,
+      "x": "Lamina {ajo} y fríelos en {aceite} a fuego medio hasta que empiecen a dorarse; sácalos y resérvalos.",
+      "ab": "El ajo, dorado y no quemado: si se pasa, amarga. Por eso se saca y se pone al final.",
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 2,
+       "c": "#C77B3B",
+       "i": [
+        [
+         "ajo",
+         3
+        ]
+       ]
+      }
+     },
+     {
+      "t": "Harina tostada y agua fría",
+      "m": 5,
+      "tim": 5,
+      "f": 1,
+      "solo": [
+       "almortas"
+      ],
+      "x": "En ese aceite, tuesta {harina} 1 minuto sin dejar de remover. Fuera del fuego, añade {pimenton} y moja poco a poco con {agua}, removiendo con varillas para que no haga grumos.",
+      "ab": "Agua fría y a remover sin parar: el agua caliente hace grumos seguros.",
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 1,
+       "c": "#C9973F"
+      }
+     },
+     {
+      "t": "Con harina de garbanzo",
+      "m": 5,
+      "tim": 5,
+      "f": 1,
+      "solo": [
+       "garbanzo"
+      ],
+      "x": "Igual que con la de almortas: tuesta la harina de garbanzo (los mismos gramos que marca la lista) 1 minuto, y fuera del fuego añade {pimenton} y moja con {agua} poco a poco, removiendo con varillas.",
+      "ab": "La harina de garbanzo tuesta antes: no la dejes sola, que se pasa en un descuido.",
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 1,
+       "c": "#C9973F"
+      }
+     },
+     {
+      "t": "A fuego suave, removiendo",
+      "m": 25,
+      "tim": 25,
+      "f": 1,
+      "w": 1,
+      "x": "Cuece a fuego suave 20-25 minutos, removiendo con la cuchara de palo, hasta que espese como una crema espesa. Sala con {sal} y prueba.",
+      "ab": "Removiendo siempre y en el mismo sentido, decía la abuela. Al templar espesan más: déjalas algo sueltas.",
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 1,
+       "c": "#C9973F",
+       "vapor": 1,
+       "agita": 1
+      }
+     }
+    ]
+   },
+   {
+    "n": "Los torreznos",
+    "p": [
+     {
+      "t": "Torreznos crujientes",
+      "m": 10,
+      "tim": 10,
+      "f": 2,
+      "x": "Fríe {torrezno} en su propia grasa (en sartén aparte, sin aceite) hasta que estén crujientes. Sirve las gachas con los torreznos y el ajo dorado por encima.",
+      "ab": "El torrezno tiene que crujir: es el contraste con la crema.",
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#C9973F",
+       "i": [
+        [
+         "tocino",
+         3
+        ]
+       ],
+       "vapor": 1
+      }
+     }
+    ]
+   }
+  ]
  }
 ]
