@@ -3,6 +3,8 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Tortilla de patatas: las cantidades ya se ajustan también dentro de los pasos, y nuevo selector "Cómo lo vas a hacer" con las dos de siempre: con cebolla (la de casa, más jugosa) o sin cebolla (la de los puristas), cada una con sus pasos propios. Secretos con las variantes de cada casa.
+- Croquetas de jamón: las cantidades ya se ajustan también dentro de los pasos, y nuevo selector "Cómo lo vas a hacer": fritas en sartén, las de siempre, o al horno o freidora de aire, sin freír. Secretos con las variantes de cada casa.
 - Tempeh casero rehecho como el pil pil: la soja y el fermento se ajustan a la tanda que hagas (3, 6 o 9 raciones) y tres formas de fermentar a elegir (el horno apagado con la luz, la yogurtera o deshidratador, o el rincón más cálido de casa), cada una con sus tiempos y avisos.
 - Ternasco de Aragón rehecho como el pil pil: cantidades ajustadas a cuantos sois (2, 4 o 6), dos asados (bandeja de horno, la clásica, o cazuela de barro tapada, que guarda todo el jugo y se destapa al final para dorar) y patatas panadera que beben el jugo.
 - Sopas mallorquinas rehechas como el pil pil: cantidades ajustadas a cuantos sois (2, 4 o 6), dos cazuelas (la de barro, que guarda el calor y melosa más, o la olla de metal de siempre) y el pan moreno bien seco, que es medio plato.

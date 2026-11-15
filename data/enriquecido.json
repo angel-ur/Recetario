@@ -74,7 +74,29 @@
          5
         ]
        ]
-      }
+      },
+      "solo": [
+       "cebolla"
+      ]
+     },
+     {
+      "t": "Corta la patata",
+      "m": 10,
+      "f": 0,
+      "x": "Pela {patata} y córtalas en láminas finas e irregulares. Sálalas y mézclalas con las manos.",
+      "ab": "No usa tabla: va cascando la patata con el cuchillo directamente sobre el cuenco. Los bordes irregulares sueltan almidón y luego ligan mejor con el huevo.",
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "patata",
+         6
+        ]
+       ]
+      },
+      "solo": [
+       "sinc"
+      ]
      },
      {
       "t": "Pocha a fuego suave",
@@ -101,7 +123,34 @@
         ]
        ],
        "burbujas": "#F7DC8F"
-      }
+      },
+      "solo": [
+       "cebolla"
+      ]
+     },
+     {
+      "t": "Pocha sin cebolla",
+      "m": 25,
+      "tim": 20,
+      "f": 2,
+      "x": "Calienta {aceite} en una sartén honda y echa la patata cuando el aceite esté templado, no humeante. Deja que se haga despacio, removiendo de vez en cuando, hasta que esté tierna y apenas dorada.",
+      "ab": "Las patatas se pochan, no se fríen. Tienen que quedar blandas, casi confitadas; si chisporrotean mucho, baja el fuego.",
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 2,
+       "c": "#E3C062",
+       "i": [
+        [
+         "patata",
+         9
+        ]
+       ],
+       "burbujas": "#F7DC8F"
+      },
+      "solo": [
+       "sinc"
+      ]
      },
      {
       "t": "Escurre",
@@ -219,6 +268,18 @@
     "Huevo en proporción",
     "Una buena medida es un huevo por cada 100 o 120 g de patata ya pochada. Si la mezcla queda espesa, añade otro."
    ]
+  ],
+  "met": [
+   {
+    "id": "cebolla",
+    "n": "Con cebolla",
+    "d": "La de casa: más jugosa y dulce"
+   },
+   {
+    "id": "sinc",
+    "n": "Sin cebolla",
+    "d": "La de los puristas: patata, huevo y sal"
+   }
   ]
  },
  {
@@ -426,7 +487,7 @@
       "m": 25,
       "f": 0,
       "x": "Coge porciones con una cuchara, dales forma con las manos untadas en aceite y pásalas por {huevo} batido y por {panrallado}.",
-      "ab": "Con las manos aceitadas la masa no se pega. Si vas a congelar, este es el momento: luego se fríen sin descongelar.",
+      "ab": "Con las manos aceitadas la masa no se pega. Si vas a congelar, este es el momento: luego van directas sin descongelar.",
       "e": {
        "k": "formar"
       }
@@ -450,7 +511,26 @@
         ]
        ],
        "burbujas": "#FFF3C4"
-      }
+      },
+      "solo": [
+       "sarten"
+      ]
+     },
+     {
+      "t": "Al horno o freidora de aire",
+      "m": 12,
+      "tim": 12,
+      "f": 0,
+      "x": "Calienta el horno o la freidora de aire a 200 °C. Pon las croquetas en la bandeja sobre papel de horno, pulverízalas con aceite y hornea de 10 a 12 minutos, dándoles la vuelta a mitad, hasta que doren.",
+      "ab": "No quedan como fritas, pero muy dignas: la costra cruje si el horno va bien caliente.",
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "bandeja"
+      },
+      "solo": [
+       "horno"
+      ]
      }
     ]
    }
@@ -468,6 +548,18 @@
     "Doble rebozado",
     "Para una costra más gruesa y que no revienten, pásalas dos veces por huevo y pan rallado."
    ]
+  ],
+  "met": [
+   {
+    "id": "sarten",
+    "n": "Fritas en sartén",
+    "d": "Las de siempre: abundante aceite de oliva"
+   },
+   {
+    "id": "horno",
+    "n": "Al horno o freidora de aire",
+    "d": "Sin freír: pulverizadas de aceite"
+   }
   ]
  },
  {

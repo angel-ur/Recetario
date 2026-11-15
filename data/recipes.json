@@ -3776,6 +3776,18 @@
    45
   ],
   "ud": "croquetas",
+  "met": [
+   {
+    "id": "sarten",
+    "n": "Fritas en sartén",
+    "d": "Las de siempre: abundante aceite de oliva"
+   },
+   {
+    "id": "horno",
+    "n": "Al horno o freidora de aire",
+    "d": "Sin freír: pulverizadas de aceite"
+   }
+  ],
   "heroe": {
    "k": "ilu",
    "svg": "<defs><radialGradient id=\"i_croquetas_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_croquetas_fondo)\"/><defs><radialGradient id=\"i_croquetas_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_croquetas_cr\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#E9A840\"/><stop offset=\"1\" stop-color=\"#B8681E\"/></linearGradient><radialGradient id=\"i_croquetas_beb\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFF6D8\"/><stop offset=\"1\" stop-color=\"#F1DDA2\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"110\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.25\"/><ellipse cx=\"160\" cy=\"112\" rx=\"118\" ry=\"50\" fill=\"#D4CCBB\"/><ellipse cx=\"160\" cy=\"108\" rx=\"118\" ry=\"50\" fill=\"url(#i_croquetas_pl)\"/><ellipse cx=\"160\" cy=\"110\" rx=\"94\" ry=\"36\" fill=\"none\" style=\"stroke:var(--anil)\" stroke-width=\"3.5\"/><g transform=\"translate(112 100) rotate(-10)\"><ellipse cx=\"0\" cy=\"12\" rx=\"18.0\" ry=\"3.5\" fill=\"#000\" opacity=\".13\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"17\" rx=\"8.5\" fill=\"url(#i_croquetas_cr)\"/><rect x=\"-15.0\" y=\"-6.5\" width=\"26\" height=\"3\" rx=\"1.5\" fill=\"#FBD789\" opacity=\".8\"/><circle cx=\"-12.1\" cy=\"-1.0\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"-10.9\" cy=\"2.8\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"0.3\" cy=\"-5.0\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"-12.7\" cy=\"2.6\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"-9.7\" cy=\"2.6\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"3.7\" cy=\"0.0\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"10.0\" cy=\"1.1\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/></g><g transform=\"translate(168 92) rotate(5)\"><ellipse cx=\"0\" cy=\"12\" rx=\"18.0\" ry=\"3.5\" fill=\"#000\" opacity=\".13\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"17\" rx=\"8.5\" fill=\"url(#i_croquetas_cr)\"/><rect x=\"-15.0\" y=\"-6.5\" width=\"26\" height=\"3\" rx=\"1.5\" fill=\"#FBD789\" opacity=\".8\"/><circle cx=\"2.1\" cy=\"-1.1\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"-7.0\" cy=\"-4.0\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"-2.1\" cy=\"-1.4\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"7.6\" cy=\"-2.5\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"-2.8\" cy=\"4.9\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"3.4\" cy=\"1.8\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"5.3\" cy=\"4.5\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/></g><g transform=\"translate(220 104) rotate(12)\"><ellipse cx=\"0\" cy=\"12\" rx=\"18.0\" ry=\"3.5\" fill=\"#000\" opacity=\".13\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"17\" rx=\"8.5\" fill=\"url(#i_croquetas_cr)\"/><rect x=\"-15.0\" y=\"-6.5\" width=\"26\" height=\"3\" rx=\"1.5\" fill=\"#FBD789\" opacity=\".8\"/><circle cx=\"-8.2\" cy=\"3.0\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"-12.2\" cy=\"-2.7\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"2.7\" cy=\"-2.0\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"-0.3\" cy=\"-3.1\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"-6.9\" cy=\"-0.7\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"3.1\" cy=\"2.1\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"-0.0\" cy=\"-1.3\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/></g><g transform=\"translate(138 124) rotate(6)\"><ellipse cx=\"0\" cy=\"12\" rx=\"18.0\" ry=\"3.5\" fill=\"#000\" opacity=\".13\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"17\" rx=\"8.5\" fill=\"url(#i_croquetas_cr)\"/><rect x=\"-15.0\" y=\"-6.5\" width=\"26\" height=\"3\" rx=\"1.5\" fill=\"#FBD789\" opacity=\".8\"/><circle cx=\"13.1\" cy=\"3.0\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"1.3\" cy=\"0.5\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"-9.8\" cy=\"-3.3\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"-11.6\" cy=\"4.9\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"9.2\" cy=\"-4.8\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"5.4\" cy=\"-1.4\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"4.6\" cy=\"-0.7\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/></g><g transform=\"translate(196 126) rotate(-6)\"><ellipse cx=\"0\" cy=\"12\" rx=\"18.0\" ry=\"3.5\" fill=\"#000\" opacity=\".13\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"17\" rx=\"8.5\" fill=\"url(#i_croquetas_cr)\"/><rect x=\"-15.0\" y=\"-6.5\" width=\"26\" height=\"3\" rx=\"1.5\" fill=\"#FBD789\" opacity=\".8\"/><circle cx=\"-4.8\" cy=\"-4.7\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"-8.6\" cy=\"-0.8\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"6.1\" cy=\"-3.8\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"-1.7\" cy=\"5.1\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"-11.1\" cy=\"-1.0\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"9.9\" cy=\"1.7\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/><circle cx=\"12.6\" cy=\"1.1\" r=\".9\" fill=\"#8F4A12\" opacity=\".5\"/></g><g transform=\"translate(168 92)\"></g><ellipse cx=\"226\" cy=\"124\" rx=\"16\" ry=\"9\" fill=\"#E3D6B8\"/><ellipse cx=\"226\" cy=\"123\" rx=\"13\" ry=\"7\" fill=\"url(#i_croquetas_beb)\"/>"
@@ -3787,15 +3799,15 @@
   "secretos": [
    [
     "Masa que no se pega",
-    "Si al formarla se te pega a las manos, no estaba fría del todo o le faltó cocción. Vuelve a la nevera media hora."
-   ],
-   [
-    "De sobras",
-    "Con pollo asado, la carne del cocido, bacalao o setas. La bechamel es siempre la misma."
+    "si al formarla se te pega a las manos, no estaba fría del todo o le faltó cocción. Vuelve a la nevera media hora."
    ],
    [
     "Doble rebozado",
-    "Para una costra más gruesa y que no revienten, pásalas dos veces por huevo y pan rallado."
+    "para una costra más gruesa y que no revienten, pásalas dos veces por huevo y pan rallado."
+   ],
+   [
+    "A gustos, colores",
+    "la misma masa vale con pollo asado desmigado, la carne del cocido, bacalao desalado o setas salteadas. Hay quien infusiona la leche con cáscara de cebolla y una hoja de laurel, y quien hace la masa mitad mantequilla y mitad aceite."
    ]
   ],
   "ing": [
@@ -3868,7 +3880,7 @@
      {
       "t": "Rehoga la cebolla y el jamón",
       "m": 10,
-      "x": "Derrite 100 g de mantequilla en una cazuela amplia a fuego medio-bajo y pocha media cebolla muy picada 8 minutos, sin que coja color. Añade 150 g de jamón serrano muy picado y rehógalo 1 minuto.",
+      "x": "Derrite {mantequilla} en una cazuela amplia y pocha {cebolla} muy picada, sin que coja color. Añade {jamon} y rehógalo un minuto.",
       "tim": 8,
       "f": 2,
       "e": {
@@ -3895,7 +3907,7 @@
      {
       "t": "Tuesta la harina",
       "m": 3,
-      "x": "Echa los 100 g de harina de golpe y remueve con varilla o cuchara de madera 2-3 minutos a fuego medio-bajo, hasta que huela a galleta y forme una pasta.",
+      "x": "Echa {harina} de golpe y remueve dos o tres minutos, hasta que huela a galleta.",
       "tim": 3,
       "f": 2,
       "e": {
@@ -3911,12 +3923,12 @@
        ],
        "cuchara": 1
       },
-      "ab": "Si no tuestas la harina, la croqueta sabe a crudo. Ese olor a galleta es la señal de que está. La harina cuece en la grasa antes de la leche: así espesa sin grumos."
+      "ab": "Si no tuestas la harina, la croqueta sabe a crudo. Ese olor a galleta es la señal de que está."
      },
      {
       "t": "La leche, poco a poco",
       "m": 25,
-      "x": "Ve añadiendo 1 litro de leche entera caliente, un cazo (unos 150 ml) cada vez, sin dejar de remover y esperando a que la masa absorba cada cazo. Sazona con 1 cucharadita de sal y una pizca de nuez moscada, y cuece 15-20 minutos a fuego bajo, hasta que la masa se despegue de las paredes.",
+      "x": "Ve añadiendo {leche} caliente, un cazo cada vez, sin dejar de remover. Sazona con sal y {nuez}, y cuece hasta que la masa se despegue de las paredes.",
       "tim": 25,
       "f": 2,
       "e": {
@@ -3933,7 +3945,7 @@
        "vierte": "leche",
        "cuchara": 1
       },
-      "ab": "Leche caliente y poco a poco: la fría o de golpe hace que la harina se apelmace en grumos. Y cocerla bien, 15-20 minutos, para que quede fina y no sepa a harina. Si la masa está floja, la croqueta se abre al freír."
+      "ab": "Leche caliente y poco a poco: así no salen grumos. Y cocerla bien, veinte minutos largos, para que quede fina y no sepa a harina."
      }
     ]
    },
@@ -3944,7 +3956,7 @@
      {
       "t": "Enfría la masa",
       "m": 240,
-      "x": "Extiende la masa en una fuente, tápala con film tocando la superficie y déjala en la nevera al menos 4 horas (mejor 8, de un día para otro).",
+      "x": "Extiende la masa en una fuente, tápala con film tocando la superficie y déjala en la nevera al menos cuatro horas.",
       "f": "n",
       "w": 1,
       "e": {
@@ -3970,19 +3982,22 @@
      {
       "t": "Forma las croquetas",
       "m": 25,
-      "x": "Coge porciones de unos 30 g (una cucharada colmada, salen unas 35-40), dales forma de cilindro con las manos untadas en aceite y pásalas por 2 huevos batidos y por 150 g de pan rallado.",
+      "x": "Coge porciones con una cuchara, dales forma con las manos untadas en aceite y pásalas por {huevo} batido y por {panrallado}.",
       "f": 0,
       "e": {
        "k": "formar"
       },
-      "ab": "Con las manos aceitadas la masa no se pega. Si vas a congelar, este es el momento: luego se fríen sin descongelar."
+      "ab": "Con las manos aceitadas la masa no se pega. Si vas a congelar, este es el momento: luego van directas sin descongelar."
      },
      {
       "t": "Fríe en tandas",
       "m": 10,
-      "x": "Calienta 500 ml de aceite de oliva a 180 °C (una miga de pan se dora en 15 segundos) y fríe las croquetas de 5 o 6 en 5 o 6, 1-2 minutos, hasta que estén doradas. Escúrrelas sobre papel de cocina.",
+      "x": "Calienta {aceite} abundante y fríe las croquetas de pocas en pocas, uno o dos minutos, hasta que estén doradas. Escúrrelas sobre papel de cocina.",
       "tim": 2,
       "f": 5,
+      "solo": [
+       "sarten"
+      ],
       "e": {
        "k": "fuego",
        "v": "sarten",
@@ -3996,7 +4011,23 @@
        ],
        "burbujas": "#FFF3C4"
       },
-      "ab": "Pocas a la vez: si echas muchas, el aceite se enfría, la costra no se sella a tiempo y revientan. Tiene que cubrirlas al menos hasta la mitad."
+      "ab": "Pocas a la vez: si echas muchas, el aceite se enfría y revientan. Tiene que cubrirlas al menos hasta la mitad."
+     },
+     {
+      "t": "Al horno o freidora de aire",
+      "m": 12,
+      "x": "Calienta el horno o la freidora de aire a 200 °C. Pon las croquetas en la bandeja sobre papel de horno, pulverízalas con aceite y hornea de 10 a 12 minutos, dándoles la vuelta a mitad, hasta que doren.",
+      "tim": 12,
+      "f": 0,
+      "solo": [
+       "horno"
+      ],
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "bandeja"
+      },
+      "ab": "No quedan como fritas, pero muy dignas: la costra cruje si el horno va bien caliente."
      }
     ]
    }
@@ -4004,17 +4035,17 @@
   "tienda": [
    [
     "El jamón",
-    "Pide «taquitos de jamón serrano para croquetas», o recortes. Que lleve poca sal.",
+    "pide «taquitos de jamón serrano para croquetas», o recortes. Que lleve poca sal.",
     "jamón"
    ],
    [
     "La leche",
-    "Entera. La desnatada da una bechamel sin cuerpo.",
+    "entera. La desnatada da una bechamel sin cuerpo.",
     "leche"
    ],
    [
     "Pan rallado",
-    "Fino, de panadería, no el de bote muy fino que se quema.",
+    "fino, de panadería, no el de bote muy fino que se quema.",
     "pan rallado"
    ]
   ]
@@ -11355,6 +11386,18 @@
    4,
    6
   ],
+  "met": [
+   {
+    "id": "cebolla",
+    "n": "Con cebolla",
+    "d": "La de casa: más jugosa y dulce"
+   },
+   {
+    "id": "sinc",
+    "n": "Sin cebolla",
+    "d": "La de los puristas: patata, huevo y sal"
+   }
+  ],
   "heroe": {
    "k": "ilu",
    "svg": "<defs><radialGradient id=\"i_tortilla_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_tortilla_fondo)\"/><defs><radialGradient id=\"i_tortilla_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient><linearGradient id=\"i_tortilla_lado\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#EFC04E\"/><stop offset=\"1\" stop-color=\"#D9962E\"/></linearGradient><radialGradient id=\"i_tortilla_tapa\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#F7D45E\"/><stop offset=\"1\" stop-color=\"#E3A93A\"/></radialGradient><linearGradient id=\"i_tortilla_borde\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#D99A32\"/><stop offset=\"1\" stop-color=\"#B9741F\"/></linearGradient></defs><ellipse cx=\"160\" cy=\"156\" rx=\"126\" ry=\"11\" fill=\"#4A2E10\" opacity=\"0.22\"/><ellipse cx=\"160\" cy=\"112\" rx=\"126\" ry=\"54\" fill=\"#D4CCBB\"/><ellipse cx=\"160\" cy=\"108\" rx=\"126\" ry=\"54\" fill=\"url(#i_tortilla_pl)\"/><ellipse cx=\"160\" cy=\"110\" rx=\"102\" ry=\"42\" fill=\"none\" style=\"stroke:var(--anil)\" stroke-width=\"3.5\"/><ellipse cx=\"160\" cy=\"132\" rx=\"104\" ry=\"28\" fill=\"#000\" opacity=\".13\"/><path d=\"M62 92 C52 112 66 144 160 150 C254 144 268 112 258 92 Z\" fill=\"url(#i_tortilla_lado)\"/><ellipse cx=\"114.1\" cy=\"139.2\" rx=\"3.6\" ry=\"1.8\" fill=\"#B9701C\" opacity=\"0.13\"/><ellipse cx=\"117.6\" cy=\"140.0\" rx=\"4.0\" ry=\"1.8\" fill=\"#B9701C\" opacity=\"0.19\"/><ellipse cx=\"152.1\" cy=\"128.9\" rx=\"4.0\" ry=\"2.0\" fill=\"#B9701C\" opacity=\"0.13\"/><ellipse cx=\"115.3\" cy=\"118.4\" rx=\"4.3\" ry=\"1.5\" fill=\"#B9701C\" opacity=\"0.26\"/><ellipse cx=\"139.7\" cy=\"120.5\" rx=\"4.3\" ry=\"2.2\" fill=\"#B9701C\" opacity=\"0.13\"/><ellipse cx=\"180.2\" cy=\"126.3\" rx=\"6.3\" ry=\"1.4\" fill=\"#B9701C\" opacity=\"0.23\"/><ellipse cx=\"159.6\" cy=\"132.3\" rx=\"7.5\" ry=\"1.7\" fill=\"#B9701C\" opacity=\"0.14\"/><ellipse cx=\"86.8\" cy=\"138.8\" rx=\"5.4\" ry=\"1.2\" fill=\"#B9701C\" opacity=\"0.27\"/><ellipse cx=\"173.3\" cy=\"134.0\" rx=\"7.4\" ry=\"1.3\" fill=\"#B9701C\" opacity=\"0.18\"/><ellipse cx=\"223.5\" cy=\"121.0\" rx=\"6.8\" ry=\"1.1\" fill=\"#B9701C\" opacity=\"0.23\"/><ellipse cx=\"194.0\" cy=\"138.9\" rx=\"7.2\" ry=\"1.6\" fill=\"#B9701C\" opacity=\"0.15\"/><ellipse cx=\"101.2\" cy=\"129.6\" rx=\"5.5\" ry=\"1.1\" fill=\"#B9701C\" opacity=\"0.26\"/><ellipse cx=\"161.2\" cy=\"133.4\" rx=\"4.1\" ry=\"1.3\" fill=\"#B9701C\" opacity=\"0.12\"/><ellipse cx=\"133.7\" cy=\"123.9\" rx=\"5.1\" ry=\"1.5\" fill=\"#B9701C\" opacity=\"0.25\"/><ellipse cx=\"225.8\" cy=\"121.9\" rx=\"5.0\" ry=\"1.2\" fill=\"#B9701C\" opacity=\"0.23\"/><ellipse cx=\"239.8\" cy=\"122.4\" rx=\"6.8\" ry=\"1.4\" fill=\"#B9701C\" opacity=\"0.12\"/><ellipse cx=\"204.4\" cy=\"125.5\" rx=\"3.9\" ry=\"1.5\" fill=\"#B9701C\" opacity=\"0.16\"/><ellipse cx=\"144.9\" cy=\"127.8\" rx=\"5.1\" ry=\"1.7\" fill=\"#B9701C\" opacity=\"0.17\"/><ellipse cx=\"92.0\" cy=\"119.9\" rx=\"3.5\" ry=\"1.6\" fill=\"#B9701C\" opacity=\"0.18\"/><ellipse cx=\"211.7\" cy=\"129.1\" rx=\"6.5\" ry=\"2.2\" fill=\"#B9701C\" opacity=\"0.13\"/><ellipse cx=\"78.8\" cy=\"121.1\" rx=\"4.9\" ry=\"1.7\" fill=\"#B9701C\" opacity=\"0.24\"/><ellipse cx=\"135.0\" cy=\"139.2\" rx=\"3.0\" ry=\"2.0\" fill=\"#B9701C\" opacity=\"0.15\"/><ellipse cx=\"223.0\" cy=\"118.7\" rx=\"7.8\" ry=\"1.9\" fill=\"#B9701C\" opacity=\"0.28\"/><ellipse cx=\"173.4\" cy=\"121.9\" rx=\"7.8\" ry=\"1.5\" fill=\"#B9701C\" opacity=\"0.13\"/><ellipse cx=\"177.7\" cy=\"128.9\" rx=\"5.4\" ry=\"1.2\" fill=\"#B9701C\" opacity=\"0.14\"/><ellipse cx=\"173.6\" cy=\"128.0\" rx=\"3.6\" ry=\"1.5\" fill=\"#B9701C\" opacity=\"0.24\"/><path d=\"M66 112C74 134 112 144 160 145\" fill=\"none\" stroke=\"#FFE9A0\" stroke-width=\"2.5\" stroke-linecap=\"round\" opacity=\".55\"/><ellipse cx=\"160\" cy=\"92\" rx=\"98\" ry=\"40\" fill=\"#D79A34\"/><ellipse cx=\"160\" cy=\"90\" rx=\"95\" ry=\"38\" fill=\"url(#i_tortilla_tapa)\"/><ellipse cx=\"147.6\" cy=\"68.5\" rx=\"7.8\" ry=\"2.5\" fill=\"#C27A22\" opacity=\"0.23\" transform=\"rotate(-13 147.6 68.5)\"/><ellipse cx=\"186.7\" cy=\"93.2\" rx=\"6.5\" ry=\"1.6\" fill=\"#C27A22\" opacity=\"0.30\" transform=\"rotate(-24 186.7 93.2)\"/><ellipse cx=\"117.1\" cy=\"65.9\" rx=\"8.7\" ry=\"3.9\" fill=\"#C27A22\" opacity=\"0.33\" transform=\"rotate(13 117.1 65.9)\"/><ellipse cx=\"89.5\" cy=\"89.6\" rx=\"6.4\" ry=\"2.2\" fill=\"#C27A22\" opacity=\"0.29\" transform=\"rotate(22 89.5 89.6)\"/><ellipse cx=\"123.1\" cy=\"88.2\" rx=\"7.0\" ry=\"2.3\" fill=\"#C27A22\" opacity=\"0.20\" transform=\"rotate(-5 123.1 88.2)\"/><ellipse cx=\"234.8\" cy=\"76.1\" rx=\"6.6\" ry=\"2.3\" fill=\"#C27A22\" opacity=\"0.29\" transform=\"rotate(22 234.8 76.1)\"/><ellipse cx=\"104.5\" cy=\"112.7\" rx=\"11.0\" ry=\"2.8\" fill=\"#C27A22\" opacity=\"0.31\" transform=\"rotate(-3 104.5 112.7)\"/><ellipse cx=\"169.5\" cy=\"73.0\" rx=\"10.9\" ry=\"2.1\" fill=\"#C27A22\" opacity=\"0.25\" transform=\"rotate(12 169.5 73.0)\"/><ellipse cx=\"186.9\" cy=\"75.3\" rx=\"7.0\" ry=\"3.1\" fill=\"#C27A22\" opacity=\"0.35\" transform=\"rotate(18 186.9 75.3)\"/><ellipse cx=\"91.0\" cy=\"86.1\" rx=\"7.5\" ry=\"3.2\" fill=\"#C27A22\" opacity=\"0.30\" transform=\"rotate(18 91.0 86.1)\"/><ellipse cx=\"107.2\" cy=\"99.9\" rx=\"8.7\" ry=\"3.6\" fill=\"#C27A22\" opacity=\"0.23\" transform=\"rotate(-21 107.2 99.9)\"/><ellipse cx=\"81.8\" cy=\"90.3\" rx=\"11.9\" ry=\"3.5\" fill=\"#C27A22\" opacity=\"0.30\" transform=\"rotate(-8 81.8 90.3)\"/><ellipse cx=\"203.8\" cy=\"88.6\" rx=\"10.8\" ry=\"2.2\" fill=\"#C27A22\" opacity=\"0.38\" transform=\"rotate(15 203.8 88.6)\"/><ellipse cx=\"117.1\" cy=\"100.1\" rx=\"11.8\" ry=\"3.5\" fill=\"#C27A22\" opacity=\"0.33\" transform=\"rotate(-10 117.1 100.1)\"/><ellipse cx=\"167.5\" cy=\"118.7\" rx=\"8.7\" ry=\"2.1\" fill=\"#C27A22\" opacity=\"0.28\" transform=\"rotate(-19 167.5 118.7)\"/><ellipse cx=\"174.1\" cy=\"70.8\" rx=\"9.6\" ry=\"3.5\" fill=\"#C27A22\" opacity=\"0.38\" transform=\"rotate(-23 174.1 70.8)\"/><circle cx=\"167.3\" cy=\"77.7\" r=\"1.4\" fill=\"#A9611A\" opacity=\"0.42\"/><circle cx=\"211.1\" cy=\"102.0\" r=\"1.7\" fill=\"#A9611A\" opacity=\"0.48\"/><circle cx=\"183.9\" cy=\"85.3\" r=\"1.4\" fill=\"#A9611A\" opacity=\"0.47\"/><circle cx=\"131.4\" cy=\"74.3\" r=\"0.8\" fill=\"#A9611A\" opacity=\"0.48\"/><circle cx=\"205.0\" cy=\"68.7\" r=\"1.2\" fill=\"#A9611A\" opacity=\"0.46\"/><circle cx=\"189.7\" cy=\"63.4\" r=\"1.4\" fill=\"#A9611A\" opacity=\"0.33\"/><circle cx=\"144.8\" cy=\"109.5\" r=\"1.1\" fill=\"#A9611A\" opacity=\"0.38\"/><circle cx=\"216.4\" cy=\"109.0\" r=\"1.1\" fill=\"#A9611A\" opacity=\"0.29\"/><circle cx=\"158.3\" cy=\"111.2\" r=\"1.2\" fill=\"#A9611A\" opacity=\"0.45\"/><circle cx=\"193.6\" cy=\"99.4\" r=\"1.1\" fill=\"#A9611A\" opacity=\"0.29\"/><circle cx=\"159.9\" cy=\"78.8\" r=\"0.9\" fill=\"#A9611A\" opacity=\"0.39\"/><circle cx=\"153.1\" cy=\"59.2\" r=\"1.4\" fill=\"#A9611A\" opacity=\"0.33\"/><circle cx=\"215.6\" cy=\"70.3\" r=\"1.3\" fill=\"#A9611A\" opacity=\"0.39\"/><circle cx=\"240.9\" cy=\"76.7\" r=\"1.7\" fill=\"#A9611A\" opacity=\"0.28\"/><circle cx=\"133.9\" cy=\"109.2\" r=\"1.0\" fill=\"#A9611A\" opacity=\"0.44\"/><circle cx=\"236.9\" cy=\"101.9\" r=\"1.4\" fill=\"#A9611A\" opacity=\"0.40\"/><circle cx=\"86.7\" cy=\"106.8\" r=\"1.4\" fill=\"#A9611A\" opacity=\"0.47\"/><circle cx=\"224.7\" cy=\"76.8\" r=\"1.8\" fill=\"#A9611A\" opacity=\"0.37\"/><circle cx=\"106.0\" cy=\"113.2\" r=\"1.3\" fill=\"#A9611A\" opacity=\"0.33\"/><circle cx=\"134.2\" cy=\"68.8\" r=\"0.9\" fill=\"#A9611A\" opacity=\"0.46\"/><circle cx=\"73.3\" cy=\"90.0\" r=\"1.3\" fill=\"#A9611A\" opacity=\"0.48\"/><circle cx=\"150.0\" cy=\"105.4\" r=\"1.3\" fill=\"#A9611A\" opacity=\"0.44\"/><circle cx=\"192.1\" cy=\"65.6\" r=\"0.9\" fill=\"#A9611A\" opacity=\"0.35\"/><circle cx=\"212.3\" cy=\"94.5\" r=\"1.7\" fill=\"#A9611A\" opacity=\"0.34\"/><circle cx=\"138.1\" cy=\"64.6\" r=\"0.9\" fill=\"#A9611A\" opacity=\"0.42\"/><circle cx=\"193.2\" cy=\"97.0\" r=\"1.4\" fill=\"#A9611A\" opacity=\"0.28\"/><circle cx=\"216.0\" cy=\"85.1\" r=\"1.4\" fill=\"#A9611A\" opacity=\"0.49\"/><circle cx=\"228.5\" cy=\"111.3\" r=\"0.8\" fill=\"#A9611A\" opacity=\"0.40\"/><circle cx=\"111.3\" cy=\"62.0\" r=\"1.2\" fill=\"#A9611A\" opacity=\"0.49\"/><circle cx=\"124.3\" cy=\"71.0\" r=\"1.0\" fill=\"#A9611A\" opacity=\"0.31\"/><circle cx=\"125.7\" cy=\"105.0\" r=\"1.2\" fill=\"#A9611A\" opacity=\"0.45\"/><circle cx=\"110.7\" cy=\"109.1\" r=\"0.8\" fill=\"#A9611A\" opacity=\"0.29\"/><circle cx=\"139.3\" cy=\"58.9\" r=\"1.1\" fill=\"#A9611A\" opacity=\"0.26\"/><circle cx=\"165.8\" cy=\"110.3\" r=\"1.2\" fill=\"#A9611A\" opacity=\"0.39\"/><circle cx=\"137.4\" cy=\"115.9\" r=\"1.6\" fill=\"#A9611A\" opacity=\"0.45\"/><circle cx=\"156.4\" cy=\"64.1\" r=\"1.1\" fill=\"#A9611A\" opacity=\"0.46\"/><circle cx=\"139.9\" cy=\"120.6\" r=\"1.2\" fill=\"#A9611A\" opacity=\"0.41\"/><circle cx=\"88.8\" cy=\"90.1\" r=\"1.1\" fill=\"#A9611A\" opacity=\"0.39\"/><circle cx=\"155.5\" cy=\"69.6\" r=\"1.4\" fill=\"#A9611A\" opacity=\"0.36\"/><circle cx=\"106.5\" cy=\"93.9\" r=\"1.3\" fill=\"#A9611A\" opacity=\"0.43\"/><circle cx=\"175.5\" cy=\"101.5\" r=\"1.6\" fill=\"#A9611A\" opacity=\"0.27\"/><circle cx=\"180.5\" cy=\"61.5\" r=\"1.0\" fill=\"#A9611A\" opacity=\"0.41\"/><circle cx=\"158.2\" cy=\"121.9\" r=\"1.0\" fill=\"#A9611A\" opacity=\"0.28\"/><circle cx=\"232.6\" cy=\"96.6\" r=\"1.0\" fill=\"#A9611A\" opacity=\"0.33\"/><circle cx=\"234.7\" cy=\"85.8\" r=\"1.5\" fill=\"#A9611A\" opacity=\"0.39\"/><circle cx=\"154.1\" cy=\"87.2\" r=\"1.6\" fill=\"#A9611A\" opacity=\"0.33\"/><circle cx=\"194.6\" cy=\"72.7\" r=\"1.7\" fill=\"#A9611A\" opacity=\"0.25\"/><circle cx=\"187.0\" cy=\"88.7\" r=\"1.3\" fill=\"#A9611A\" opacity=\"0.37\"/><circle cx=\"234.2\" cy=\"87.5\" r=\"1.8\" fill=\"#A9611A\" opacity=\"0.48\"/><circle cx=\"129.8\" cy=\"95.9\" r=\"0.9\" fill=\"#A9611A\" opacity=\"0.43\"/><circle cx=\"228.4\" cy=\"81.6\" r=\"1.1\" fill=\"#A9611A\" opacity=\"0.40\"/><circle cx=\"135.5\" cy=\"75.7\" r=\"1.5\" fill=\"#A9611A\" opacity=\"0.30\"/><circle cx=\"182.0\" cy=\"91.5\" r=\"1.3\" fill=\"#A9611A\" opacity=\"0.42\"/><circle cx=\"168.5\" cy=\"111.2\" r=\"1.5\" fill=\"#A9611A\" opacity=\"0.32\"/><circle cx=\"92.3\" cy=\"86.3\" r=\"1.2\" fill=\"#A9611A\" opacity=\"0.30\"/><circle cx=\"134.0\" cy=\"63.4\" r=\"1.0\" fill=\"#A9611A\" opacity=\"0.45\"/><circle cx=\"114.1\" cy=\"63.8\" r=\"1.6\" fill=\"#A9611A\" opacity=\"0.37\"/><circle cx=\"149.5\" cy=\"71.4\" r=\"1.5\" fill=\"#A9611A\" opacity=\"0.27\"/><circle cx=\"124.5\" cy=\"109.9\" r=\"1.7\" fill=\"#A9611A\" opacity=\"0.42\"/><circle cx=\"229.0\" cy=\"72.8\" r=\"1.8\" fill=\"#A9611A\" opacity=\"0.40\"/><path d=\"M86 78C110 62 160 58 220 66\" fill=\"none\" stroke=\"#FFF3BE\" stroke-width=\"4\" stroke-linecap=\"round\" opacity=\".7\"/><path d=\"M64 98C66 120 110 132 160 132\" fill=\"none\" stroke=\"#C98A2A\" stroke-width=\"1.2\" opacity=\".0\"/>"
@@ -11366,15 +11409,19 @@
   "secretos": [
    [
     "Patata de guisar",
-    "Las algo harinosas se deshacen un poco y ligan con el huevo. Las nuevas quedan más enteras y la tortilla se abre al cortarla."
+    "las algo harinosas se deshacen un poco y ligan con el huevo. Las nuevas quedan más enteras y la tortilla se abre al cortarla."
    ],
    [
     "El aceite templado",
-    "Si está demasiado caliente, la patata se dora por fuera y queda cruda por dentro. Templado y con paciencia."
+    "si está demasiado caliente, la patata se dora por fuera y queda cruda por dentro. Templado y con paciencia."
    ],
    [
     "Huevo en proporción",
-    "Una buena medida es un huevo por cada 100 o 120 g de patata ya pochada. Si la mezcla queda espesa, añade otro."
+    "una buena medida es un huevo por cada 100 o 120 g de patata ya pochada. Si la mezcla queda espesa, añade otro."
+   ],
+   [
+    "A gustos, colores",
+    "lo de la cebolla es la gran discusión de este país. Y hay quien le pone pimiento verde pochado con la patata, quien bate el huevo con un chorrito de leche para que quede más jugosa, y quien la hace de calabacín en verano."
    ]
   ],
   "ing": [
@@ -11417,8 +11464,11 @@
      {
       "t": "Corta la patata y la cebolla",
       "m": 10,
-      "x": "Pela 700 g de patatas y córtalas en láminas finas e irregulares (de 2-3 mm), y 1 cebolla en juliana. Sálalo todo con 1 cucharadita rasa de sal y mézclalo con las manos.",
+      "x": "Pela {patata} y córtalas en láminas finas e irregulares, y {cebolla} en juliana. Sálalo todo y mézclalo con las manos.",
       "f": 0,
+      "solo": [
+       "cebolla"
+      ],
       "e": {
        "k": "tabla",
        "i": [
@@ -11435,11 +11485,33 @@
       "ab": "No usa tabla: va cascando la patata con el cuchillo directamente sobre el cuenco. Los bordes irregulares sueltan almidón y luego ligan mejor con el huevo."
      },
      {
+      "t": "Corta la patata",
+      "m": 10,
+      "x": "Pela {patata} y córtalas en láminas finas e irregulares. Sálalas y mézclalas con las manos.",
+      "f": 0,
+      "solo": [
+       "sinc"
+      ],
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "patata",
+         6
+        ]
+       ]
+      },
+      "ab": "No usa tabla: va cascando la patata con el cuchillo directamente sobre el cuenco. Los bordes irregulares sueltan almidón y luego ligan mejor con el huevo."
+     },
+     {
       "t": "Pocha a fuego suave",
       "m": 25,
-      "x": "Calienta 400 ml de aceite de oliva en una sartén honda hasta unos 100-120 °C (templado, no humeante: una patata echada burbujea suave) y echa la patata y la cebolla. El aceite casi las cubre. Deja que se hagan despacio 20-25 minutos, removiendo de vez en cuando, hasta que estén tiernas y apenas doradas.",
+      "x": "Calienta {aceite} en una sartén honda y echa la patata y la cebolla cuando el aceite esté templado, no humeante. Deja que se hagan despacio, removiendo de vez en cuando, hasta que estén tiernas y apenas doradas.",
       "tim": 20,
       "f": 2,
+      "solo": [
+       "cebolla"
+      ],
       "e": {
        "k": "fuego",
        "v": "sarten",
@@ -11459,7 +11531,31 @@
        ],
        "burbujas": "#F7DC8F"
       },
-      "ab": "Las patatas se pochan, no se fríen: a fuego suave el almidón se cuece por dentro sin dorarse por fuera. Tienen que quedar blandas, casi confitadas; si chisporrotean mucho, baja el fuego."
+      "ab": "Las patatas se pochan, no se fríen. Tienen que quedar blandas, casi confitadas; si chisporrotean mucho, baja el fuego."
+     },
+     {
+      "t": "Pocha sin cebolla",
+      "m": 25,
+      "x": "Calienta {aceite} en una sartén honda y echa la patata cuando el aceite esté templado, no humeante. Deja que se haga despacio, removiendo de vez en cuando, hasta que esté tierna y apenas dorada.",
+      "tim": 20,
+      "f": 2,
+      "solo": [
+       "sinc"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 2,
+       "c": "#E3C062",
+       "i": [
+        [
+         "patata",
+         9
+        ]
+       ],
+       "burbujas": "#F7DC8F"
+      },
+      "ab": "Las patatas se pochan, no se fríen. Tienen que quedar blandas, casi confitadas; si chisporrotean mucho, baja el fuego."
      },
      {
       "t": "Escurre",
@@ -11494,7 +11590,7 @@
      {
       "t": "Bate y deja reposar",
       "m": 10,
-      "x": "Bate 6 huevos con una pizca de sal, sin hacer espuma. Añade la patata aún templada (bien escurrida), mezcla y deja reposar 10 minutos.",
+      "x": "Bate {huevo} con una pizca de sal, sin hacer espuma. Añade la patata aún templada, mezcla y deja reposar diez minutos.",
       "tim": 10,
       "f": 0,
       "e": {
@@ -11519,7 +11615,7 @@
      {
       "t": "Cuaja el primer lado",
       "m": 3,
-      "x": "Pon una sartén de unos 24 cm con 1 cucharada del aceite reservado, bien caliente. Vierte la mezcla, baja a fuego medio y mueve la sartén en círculos durante 3 minutos mientras metes los bordes hacia dentro con una espátula.",
+      "x": "Pon una sartén de unos 24 cm con una cucharada del aceite reservado, bien caliente. Vierte la mezcla, baja a fuego medio y mueve la sartén en círculos mientras metes los bordes hacia dentro con una espátula.",
       "tim": 3,
       "f": 4,
       "e": {
@@ -11540,7 +11636,7 @@
      {
       "t": "Dale la vuelta",
       "m": 2,
-      "x": "Tapa la sartén con un plato llano un poco más grande, dale la vuelta de un golpe decidido y desliza la tortilla de nuevo a la sartén. Cuaja 1-2 minutos más por este lado.",
+      "x": "Tapa la sartén con un plato llano un poco más grande, dale la vuelta de un golpe decidido y desliza la tortilla de nuevo a la sartén. Uno o dos minutos más.",
       "tim": 2,
       "f": 3,
       "e": {
@@ -11551,7 +11647,7 @@
      {
       "t": "Reposa y sirve",
       "m": 5,
-      "x": "Pásala a un plato y déjala reposar 5 minutos antes de cortarla. Termina de cuajarse con su propio calor.",
+      "x": "Pásala a un plato y déjala reposar cinco minutos antes de cortarla. Termina de cuajarse con su propio calor.",
       "f": 0,
       "w": 1,
       "e": {
@@ -11567,17 +11663,17 @@
   "tienda": [
    [
     "Patatas",
-    "«Patatas para freír», de las de carne firme (Monalisa, Kennebec). Unos 700 g para 6 huevos.",
+    "«patatas para freír», de las de carne firme (Monalisa, Kennebec).",
     "patatas"
    ],
    [
     "Huevos",
-    "Huevos frescos, categoría L, mejor camperos.",
+    "huevos frescos, categoría L, mejor camperos.",
     "huevos"
    ],
    [
     "Aceite",
-    "Aceite de oliva suave: se usa para pochar, no para bañar.",
+    "aceite de oliva suave: se usa para pochar, no para bañar.",
     "aceite"
    ]
   ]
