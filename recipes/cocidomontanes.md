@@ -38,7 +38,7 @@ El plato de los inviernos cántabros: alubias blancas con berza y el compango (c
    > Asustar es echar un chorrito de agua fría: la piel no se rompe y la alubia queda entera.
 3. **En olla rápida** (25 min) - Pon alubias blancas escurridas con agua (que las cubra dos dedos), tocino y costilla de cerdo adobada, y una cebolla entera. Cierra y, desde que suba la válvula, 25 minutos a fuego medio-bajo. Deja que la olla pierda la presión sola.
    > Si las alubias son de cosecha vieja, dales 5 minutos más: la alubia dura no perdona.
-4. **Con alubia de bote** (10 min) - Cuece tocino y costilla de cerdo adobada en agua 15 minutos (mejor con un hueso o caldo, si tienes). Escurre y aclara alubias blancas de bote (el doble de peso que de seca: unos 800 g) y añádelas con una cebolla picada fina.
+4. **Con alubia de bote** (10 min) - Cuece tocino y costilla de cerdo adobada en agua 15 minutos (mejor con un hueso o caldo, si tienes). Escurre y aclara la alubia de bote y añádela con una cebolla picada fina: de bote necesitas el doble de peso escurrido que de seca, así que mira los gramos de alubia de tu lista y compra el doble en bote.
    > La alubia de bote buena saca del apuro: aclárala bien y añádela al final, que solo necesita coger sabor.
 
 ### La berza y el final
