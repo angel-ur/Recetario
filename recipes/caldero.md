@@ -10,43 +10,53 @@ raciones: 4
 tags: [arroz, nora, ajo, pescado, tomate, alioli]
 ---
 
-El arroz de los pescadores del Mar Menor: poco ingrediente y mucho fumet, con el caldo y el arroz cocinados por separado del pescado, y alioli para terminar.
+El arroz de los pescadores del Mar Menor: se hacía en el mismo caldero de la barca, con la morralla que no se vendía y mucho fumet. El caldo y el pescado van por un lado, y el arroz, oscuro de ñora, con su alioli.
 
 ## Ingredientes
 
 - 320 g de arroz bomba
 - 1 kg de pescado de roca o morralla
 - 2 tomates maduros
-- 1 cabeza de ajos
+- 6 dientes de ajo (una cabeza)
 - 3 ñoras
 - 1 pizca de azafrán
 - 1 l de agua
-- aceite y sal
-- alioli, para servir
+- 4 cucharadas de aceite de oliva
+- sal
+- alioli casero, para servir
 
 ## Elaboración
 
-### El caldo
+### El fumet
 
-1. **Fumet** (20 min) - Cuece el pescado con 1 litro de agua y 1 cucharadita de sal, sin que hierva a borbotones. Cuela el caldo y reserva el pescado.
-   > Cuanto más pescado de roca, más sabor.
-2. **Sofrito** (10 min) - Fríe las 3 ñoras (remojadas) y los ajos en 4 cucharadas de aceite, apártalos, y sofríe los 2 tomates rallados 5 minutos.
-   > Las ñoras, 5 segundos nada más: se queman muy rápido.
-3. **Pica** (5 min) - Machaca las ñoras y los ajos con un poco de caldo, y añádelos al sofrito.
+1. **Fumet de roca** (20 min) - Cuece pescado de roca o morralla con agua fría y sal, a hervor suave 20 minutos. Espuma si hace falta. Cuela el caldo y reserva el pescado tapado, que no se seque.
+   > Cuanta más morralla, más sabor. Espuma al principio y no dejes que hierva a lo loco, que el caldo se enturbia.
+
+### El sofrito y la picada
+
+2. **Ñoras, ajos y tomate** (10 min) - Calienta aceite de oliva a fuego medio. Fríe ñoras, remojadas y escurridas, 5 segundos y apártalas; dora dientes de ajo con piel, solo aplastados, y apártalos. En ese aceite, añade tomates maduros rallados y sofríe 5-8 minutos, hasta que esté oscuro y dulce.
+   > Las ñoras se fríen 5 segundos, ni uno más: si se queman, amargan todo el arroz.
+3. **La picada** (5 min) - Abre ñoras y raspa la pulpa con una cucharita; machácala en el mortero con dientes de ajo, una pizca de sal y un chorro del caldo, hasta tener una pasta fina. Añádela al tomate.
+   > Sin mortero, la turmix con un poco de caldo: misma pasta, menos brazo.
 
 ### El arroz
 
-4. **Arroz y caldo** (18 min) - Añade el arroz y el caldo hirviendo (unos 700 ml, algo más del doble que de arroz), con el azafrán. Cuece sin mover primero fuerte y luego suave.
-   > Al final, que quede meloso pero con el grano entero.
-5. **Reposa y sirve** (5 min) - Deja reposar unos minutos y sirve con el pescado aparte y alioli.
+4. **En caldero o cazuela ancha** (18 min) - Reparte arroz bomba por la cazuela con el sofrito, cubre con el caldo hirviendo (algo más del doble que de arroz), añade pizca de azafrán y cuece 5 minutos a fuego fuerte y 13 a fuego suave, sin remover: como mucho, sacude la cazuela por el mango.
+   > El arroz no se remueve: se sacude la cazuela. Si al probarlo falta sal, es el momento.
+5. **En olla normal** (20 min) - Echa arroz bomba en la olla con el sofrito, cubre con el caldo hirviendo (en olla evapora menos: un dedo por encima del arroz basta), añade pizca de azafrán y cuece a fuego medio 18-20 minutos, moviendo suave una sola vez a mitad.
+   > En olla queda más meloso, que también es delicia: el caldero de taberna es así.
+6. **Reposa y sirve** (5 min) - Apaga, cubre con un paño y deja reposar 5 minutos. Sirve el arroz con su alioli y el pescado aparte, en una fuente, que cada uno se sirva.
+   > Primero el arroz y luego el pescado, como en los chinchorros del Mar Menor.
 
 ## Secretos de la abuela
 
-- **Ñora**: da el color y el sabor propio de Murcia.
-- **Alioli**: un poco encima de cada plato.
-- **Sin prisa**: el fumet es lo que hace el arroz.
+- **La ñora, 5 segundos**: si se quema, amarga. Y raspa bien su pulpa, que es el tesoro del plato: la piel, fuera.
+- **A gustos, colores**: en unas casas el arroz va caldoso y en otras meloso; hay quien le echa un pimiento verde al sofrito y quien sirve el pescado desmigado dentro del arroz en vez de aparte.
+- **El alioli**: un pegote encima de cada plato, que se funda con el calor. Sin alioli no es caldero.
+- **Si no hay morralla**: un buen fumet de pescado de brick y unos trozos de rape o gallineta para servir. No es lo mismo, pero queda un arroz muy digno.
 
 ## En la tienda
 
-- **El pescado** [pescado]: Pide «pescado de roca o morralla para caldero» (cabracho, rape, gallineta, congrio, dorada pequeña). Que te lo limpien y lo corten en trozos, y que te guarden las cabezas y espinas para el fumet.
-- **Las ñoras** [ñoras]: Secas, en la sección de especias o verduras secas. Remójalas antes.
+- **El pescado** [pescado]: pide «pescado de roca o morralla para caldero» (cabracho, gallineta, rape, congrio). Que te lo limpien y lo troceen, y que te den cabezas y espinas: el fumet es el alma del plato.
+- **Las ñoras** [ñoras]: secas, en la sección de especias o de verduras secas. Remójalas una hora antes en agua templada.
+- **El arroz** [arroz]: bomba, que aguanta el punto sin pasarse.

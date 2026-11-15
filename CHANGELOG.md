@@ -3,6 +3,7 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Caldero murciano rehecho como el pil pil: cantidades ajustadas a cuantos sois (2, 4 o 6, tambien dentro de los pasos), dos formas de hacerlo (caldero o cazuela ancha al fuego, u olla normal, que queda mas meloso) y la receta de la abuela completa: el fumet de roca, la picada de nora y ajo, y el alioli.
 - Caldereta de cordero rehecha como el pil pil: cantidades ajustadas a cuantos sois (2, 4 o 6, tambien dentro de los pasos), tres formas de hacerla (a fuego lento, en olla rapida o al horno en cazuela de barro) y la receta de la abuela completa, con sus variantes de cada casa y la tienda ampliada.
 - Galets: el paso de rellenar ahora dice claro con que carne (la picada amasada: la mitad reservada de la pilota, o la mezcla hecha al momento si no hay pilota).
 - Receta nueva: galets de Nadal (peticion de Angel, para cocinar hoy). La escudella completa (carnes, huesos, verduras, botifarras y la pilota) y los galets, con tres formas: farcits (rellenos), sopa (sin rellenar) y con lo de ayer (caldo y carn d'olla de la vispera, en media hora). Cantidades ajustadas a cuantos sois. Ya son 41 recetas.

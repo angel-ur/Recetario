@@ -890,167 +890,201 @@
   "n": "Caldero murciano",
   "sub": "arroz del Mar Menor con ñora, ajo y pescado de roca",
   "reg": "mur",
-  "regs": [
-   "mur"
-  ],
   "lugar": "Región de Murcia",
   "cat": "arroz",
   "dif": 2,
   "b": 4,
   "rac": [
-   4
+   2,
+   4,
+   6
   ],
-  "intro": "El arroz de los pescadores del Mar Menor: poco ingrediente y mucho fumet, con el caldo y el arroz cocinados por separado del pescado, y alioli para terminar.",
+  "met": [
+   {
+    "id": "caldero",
+    "n": "Caldero o cazuela ancha",
+    "d": "El de siempre: al fuego y sin remover"
+   },
+   {
+    "id": "olla",
+    "n": "En olla normal",
+    "d": "La que tengas: sale un poco más meloso"
+   }
+  ],
+  "heroe": {
+   "k": "ilu",
+   "svg": "<defs><radialGradient id=\"i_caldero_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_caldero_fondo)\"/><defs><radialGradient id=\"i_caldero_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_caldero_barro6\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_caldero_cald\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#B07838\"/><stop offset=\"1\" stop-color=\"#8A5424\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"112\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M54 92c0 38 26 58 106 58s106-20 106-58z\" fill=\"url(#i_caldero_barro6)\"/><ellipse cx=\"160\" cy=\"92\" rx=\"106\" ry=\"25\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"94\" rx=\"96\" ry=\"20\" fill=\"url(#i_caldero_cald)\"/><ellipse cx=\"139.7\" cy=\"81.6\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(161 139.7 81.6)\"/><ellipse cx=\"152.0\" cy=\"85.8\" rx=\"2.6\" ry=\"1.8\" fill=\"#D4B078\" transform=\"rotate(94 152.0 85.8)\"/><ellipse cx=\"110.2\" cy=\"89.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(18 110.2 89.7)\"/><ellipse cx=\"88.9\" cy=\"97.3\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(73 88.9 97.3)\"/><ellipse cx=\"129.2\" cy=\"84.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(30 129.2 84.7)\"/><ellipse cx=\"190.3\" cy=\"99.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#E0C088\" transform=\"rotate(44 190.3 99.7)\"/><ellipse cx=\"182.8\" cy=\"102.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#D4B078\" transform=\"rotate(133 182.8 102.2)\"/><ellipse cx=\"118.7\" cy=\"96.6\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(77 118.7 96.6)\"/><ellipse cx=\"193.3\" cy=\"104.4\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(171 193.3 104.4)\"/><ellipse cx=\"130.0\" cy=\"95.0\" rx=\"2.6\" ry=\"1.8\" fill=\"#D4B078\" transform=\"rotate(128 130.0 95.0)\"/><ellipse cx=\"102.8\" cy=\"88.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(31 102.8 88.5)\"/><ellipse cx=\"162.0\" cy=\"84.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#E0C088\" transform=\"rotate(110 162.0 84.2)\"/><ellipse cx=\"163.7\" cy=\"80.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(58 163.7 80.2)\"/><ellipse cx=\"180.4\" cy=\"83.0\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(159 180.4 83.0)\"/><ellipse cx=\"143.4\" cy=\"95.1\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(165 143.4 95.1)\"/><ellipse cx=\"175.7\" cy=\"88.4\" rx=\"2.6\" ry=\"1.8\" fill=\"#E0C088\" transform=\"rotate(54 175.7 88.4)\"/><ellipse cx=\"189.2\" cy=\"83.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#E0C088\" transform=\"rotate(97 189.2 83.5)\"/><ellipse cx=\"230.0\" cy=\"96.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(124 230.0 96.5)\"/><ellipse cx=\"209.7\" cy=\"97.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(90 209.7 97.7)\"/><ellipse cx=\"150.2\" cy=\"98.3\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(106 150.2 98.3)\"/><ellipse cx=\"109.5\" cy=\"87.3\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(26 109.5 87.3)\"/><ellipse cx=\"221.1\" cy=\"102.8\" rx=\"2.6\" ry=\"1.8\" fill=\"#D4B078\" transform=\"rotate(169 221.1 102.8)\"/><ellipse cx=\"117.7\" cy=\"93.4\" rx=\"2.6\" ry=\"1.8\" fill=\"#D4B078\" transform=\"rotate(11 117.7 93.4)\"/><ellipse cx=\"183.7\" cy=\"92.9\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(144 183.7 92.9)\"/><ellipse cx=\"230.4\" cy=\"94.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#D4B078\" transform=\"rotate(136 230.4 94.7)\"/><ellipse cx=\"155.6\" cy=\"86.4\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(6 155.6 86.4)\"/><ellipse cx=\"207.2\" cy=\"103.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(64 207.2 103.2)\"/><ellipse cx=\"133.2\" cy=\"98.6\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(158 133.2 98.6)\"/><ellipse cx=\"119.3\" cy=\"94.1\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(105 119.3 94.1)\"/><ellipse cx=\"157.8\" cy=\"87.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#E0C088\" transform=\"rotate(135 157.8 87.5)\"/><ellipse cx=\"164.2\" cy=\"90.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#E0C088\" transform=\"rotate(112 164.2 90.2)\"/><ellipse cx=\"144.1\" cy=\"87.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#E0C088\" transform=\"rotate(154 144.1 87.2)\"/><ellipse cx=\"133.6\" cy=\"98.8\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(42 133.6 98.8)\"/><ellipse cx=\"151.2\" cy=\"90.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(33 151.2 90.7)\"/><circle cx=\"164.9\" cy=\"97.2\" r=\"1.0\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"139.0\" cy=\"99.0\" r=\"1.7\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"138.5\" cy=\"86.5\" r=\"0.9\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"230.8\" cy=\"88.0\" r=\"1.6\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"222.7\" cy=\"102.3\" r=\"1.7\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"151.3\" cy=\"88.2\" r=\"1.6\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"229.4\" cy=\"93.2\" r=\"1.7\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"96.3\" cy=\"103.9\" r=\"0.9\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"120.9\" cy=\"91.9\" r=\"1.1\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"210.8\" cy=\"92.0\" r=\"1.6\" fill=\"#F0DCA8\" opacity=\".7\"/><g transform=\"translate(150 90) rotate(-8)\"><path d=\"M-30 0q4 -12 22 -12q22 0 26 12q-4 12 -26 12q-18 0 -22 -12z\" fill=\"#9AA8B2\"/><path d=\"M18 0l14 -8l-2 8l2 8z\" fill=\"#82909A\"/><circle cx=\"-20\" cy=\"-3\" r=\"2.2\" fill=\"#2E3A42\"/><path d=\"M-12 -6q10 -4 20 0\" stroke=\"#C8D2DA\" stroke-width=\"1.8\" fill=\"none\"/></g><g transform=\"translate(206 98) rotate(20)\"><path d=\"M-10 2q0 -10 10 -10q8 0 8 7\" stroke=\"#E89060\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><circle cx=\"10\" cy=\"-2\" r=\"1.6\" fill=\"#8A4020\"/></g><g transform=\"translate(56 132) rotate(-14)\"><path d=\"M-10 0q0 -14 10 -14q10 0 10 14q0 8 -10 8q-10 0 -10 -8z\" fill=\"#7C2E1E\"/><path d=\"M-4 -14l4 -6\" stroke=\"#4E6A34\" stroke-width=\"2.4\"/></g>"
+  },
+  "regs": [
+   "mur"
+  ],
+  "intro": "El arroz de los pescadores del Mar Menor: se hacía en el mismo caldero de la barca, con la morralla que no se vendía y mucho fumet. El caldo y el pescado van por un lado, y el arroz, oscuro de ñora, con su alioli.",
+  "secretos": [
+   [
+    "La ñora, 5 segundos",
+    "si se quema, amarga. Y raspa bien su pulpa, que es el tesoro del plato: la piel, fuera."
+   ],
+   [
+    "A gustos, colores",
+    "en unas casas el arroz va caldoso y en otras meloso; hay quien le echa un pimiento verde al sofrito y quien sirve el pescado desmigado dentro del arroz en vez de aparte."
+   ],
+   [
+    "El alioli",
+    "un pegote encima de cada plato, que se funda con el calor. Sin alioli no es caldero."
+   ],
+   [
+    "Si no hay morralla",
+    "un buen fumet de pescado de brick y unos trozos de rape o gallineta para servir. No es lo mismo, pero queda un arroz muy digno."
+   ]
+  ],
   "ing": [
    [
-    "i0",
-    "320 g de arroz bomba",
-    null,
-    null,
-    1,
-    "plano"
+    "arroz",
+    "arroz bomba|arroz bomba",
+    320,
+    "g"
    ],
    [
-    "i1",
-    "1 kg de pescado de roca o morralla",
-    null,
-    null,
-    1,
-    "plano"
+    "pescado",
+    "pescado de roca o morralla|pescado de roca o morralla",
+    1000,
+    "g"
    ],
    [
-    "i2",
-    "2 tomates maduros",
-    null,
-    null,
-    1,
-    "plano"
+    "tomate",
+    "tomate maduro rallado|tomates maduros rallados",
+    2,
+    "ud",
+    0.5
    ],
    [
-    "i3",
-    "1 cabeza de ajos",
-    null,
-    null,
-    1,
-    "plano"
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    6,
+    "ud",
+    1
    ],
    [
-    "i4",
-    "3 ñoras",
-    null,
-    null,
-    1,
-    "plano"
+    "nora",
+    "ñora|ñoras",
+    3,
+    "ud",
+    1
    ],
    [
-    "i5",
-    "1 pizca de azafrán",
-    null,
-    null,
+    "azafran",
+    "pizca de azafrán|pizcas de azafrán",
     1,
-    "plano"
+    "ud",
+    1
    ],
    [
-    "i6",
-    "1 l de agua",
-    null,
-    null,
-    1,
-    "plano"
+    "agua",
+    "agua|agua",
+    1000,
+    "ml"
    ],
    [
-    "i7",
-    "aceite y sal",
-    null,
-    null,
-    1,
-    "plano"
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    4,
+    "cda"
    ],
    [
-    "i8",
-    "alioli, para servir",
-    null,
-    null,
-    1,
-    "plano"
+    "sal",
+    "sal",
+    null
+   ],
+   [
+    "alioli",
+    "alioli casero",
+    null
    ]
   ],
   "fases": [
    {
-    "n": "El caldo",
+    "n": "El fumet",
     "tipo": "tu",
     "p": [
      {
-      "t": "Fumet",
+      "t": "Fumet de roca",
       "m": 20,
-      "x": "Cuece el pescado con 1 litro de agua y 1 cucharadita de sal, sin que hierva a borbotones. Cuela el caldo y reserva el pescado.",
-      "ab": "Cuanto más pescado de roca, más sabor.",
-      "f": 2,
+      "x": "Cuece {pescado} con {agua} fría y sal, a hervor suave 20 minutos. Espuma si hace falta. Cuela el caldo y reserva el pescado tapado, que no se seque.",
       "tim": 20,
+      "f": 1,
       "e": {
        "k": "fuego",
        "v": "olla",
-       "f": 2,
-       "c": "#E8E0C8",
+       "f": 1,
+       "c": "#3E5E7E",
        "i": [
         [
          "pescado",
-         4
+         2
+        ],
+        [
+         "hueso",
+         1
         ]
        ],
-       "burbujas": 1,
-       "espuma": 1
-      }
-     },
+       "vapor": 1
+      },
+      "ab": "Cuanta más morralla, más sabor. Espuma al principio y no dejes que hierva a lo loco, que el caldo se enturbia."
+     }
+    ]
+   },
+   {
+    "n": "El sofrito y la picada",
+    "tipo": "tu",
+    "p": [
      {
-      "t": "Sofrito",
+      "t": "Ñoras, ajos y tomate",
       "m": 10,
-      "x": "Fríe las 3 ñoras (remojadas) y los ajos en 4 cucharadas de aceite, apártalos, y sofríe los 2 tomates rallados 5 minutos.",
-      "ab": "Las ñoras, 5 segundos nada más: se queman muy rápido.",
-      "f": 3,
+      "x": "Calienta {aceite} a fuego medio. Fríe {nora}, remojadas y escurridas, 5 segundos y apártalas; dora {ajo} con piel, solo aplastados, y apártalos. En ese aceite, añade {tomate} y sofríe 5-8 minutos, hasta que esté oscuro y dulce.",
       "tim": 10,
+      "f": 2,
       "e": {
        "k": "fuego",
        "v": "sarten",
-       "f": 3,
-       "c": "#C8402B",
+       "f": 2,
+       "c": "#C77B3B",
        "i": [
         [
          "nora",
-         3
+         2
         ],
         [
          "ajo",
-         3
+         2
         ],
         [
          "tomate",
-         3
+         1
         ]
-       ],
-       "cuchara": 1
-      }
+       ]
+      },
+      "ab": "Las ñoras se fríen 5 segundos, ni uno más: si se queman, amargan todo el arroz."
      },
      {
-      "t": "Pica",
+      "t": "La picada",
       "m": 5,
-      "x": "Machaca las ñoras y los ajos con un poco de caldo, y añádelos al sofrito.",
-      "f": 0,
+      "x": "Abre {nora} y raspa la pulpa con una cucharita; machácala en el mortero con {ajo}, una pizca de sal y un chorro del caldo, hasta tener una pasta fina. Añádela al tomate.",
       "tim": 5,
       "e": {
        "k": "mortero",
-       "c": "#C8402B",
+       "c": "#8A5A2B",
        "i": [
         [
          "nora",
-         3
+         2
         ],
         [
          "ajo",
-         3
+         2
         ]
        ]
-      }
+      },
+      "ab": "Sin mortero, la turmix con un poco de caldo: misma pasta, menos brazo."
      }
     ]
    },
@@ -1059,86 +1093,98 @@
     "tipo": "tu",
     "p": [
      {
-      "t": "Arroz y caldo",
+      "t": "En caldero o cazuela ancha",
       "m": 18,
-      "x": "Añade el arroz y el caldo hirviendo (unos 700 ml, algo más del doble que de arroz), con el azafrán. Cuece sin mover primero fuerte y luego suave.",
-      "ab": "Al final, que quede meloso pero con el grano entero.",
-      "f": 4,
+      "x": "Reparte {arroz} por la cazuela con el sofrito, cubre con el caldo hirviendo (algo más del doble que de arroz), añade {azafran} y cuece 5 minutos a fuego fuerte y 13 a fuego suave, sin remover: como mucho, sacude la cazuela por el mango.",
       "tim": 18,
+      "f": 2,
+      "solo": [
+       "caldero"
+      ],
       "e": {
        "k": "fuego",
-       "v": "paellera",
-       "f": 4,
-       "c": "#E5B54C",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#D9A441",
        "i": [
         [
          "arroz",
-         30
+         8
         ],
         [
-         "azafran",
-         2
+         "nora",
+         1
         ]
        ],
-       "vierte": "agua",
-       "burbujas": 1
-      }
+       "vapor": 1
+      },
+      "ab": "El arroz no se remueve: se sacude la cazuela. Si al probarlo falta sal, es el momento."
+     },
+     {
+      "t": "En olla normal",
+      "m": 20,
+      "x": "Echa {arroz} en la olla con el sofrito, cubre con el caldo hirviendo (en olla evapora menos: un dedo por encima del arroz basta), añade {azafran} y cuece a fuego medio 18-20 minutos, moviendo suave una sola vez a mitad.",
+      "tim": 20,
+      "f": 2,
+      "solo": [
+       "olla"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#D9A441",
+       "i": [
+        [
+         "arroz",
+         8
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "En olla queda más meloso, que también es delicia: el caldero de taberna es así."
      },
      {
       "t": "Reposa y sirve",
       "m": 5,
-      "x": "Deja reposar unos minutos y sirve con el pescado aparte y alioli.",
-      "f": 0,
+      "x": "Apaga, cubre con un paño y deja reposar 5 minutos. Sirve el arroz con su alioli y el pescado aparte, en una fuente, que cada uno se sirva.",
       "tim": 5,
       "e": {
        "k": "plato",
-       "v": "llano",
-       "c": "#E5B54C",
+       "v": "cazuela",
+       "c": "#D9A441",
        "i": [
         [
-         "pescado",
-         3
+         "arroz",
+         6
         ],
         [
-         "arroz",
-         12
+         "pescado",
+         2
         ]
        ],
        "vapor": 1
-      }
+      },
+      "ab": "Primero el arroz y luego el pescado, como en los chinchorros del Mar Menor."
      }
     ]
    }
   ],
-  "simple": 1,
-  "secretos": [
-   [
-    "Ñora",
-    "da el color y el sabor propio de Murcia."
-   ],
-   [
-    "Alioli",
-    "un poco encima de cada plato."
-   ],
-   [
-    "Sin prisa",
-    "el fumet es lo que hace el arroz."
-   ]
-  ],
-  "heroe": {
-   "k": "ilu",
-   "svg": "<defs><radialGradient id=\"i_caldero_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_caldero_fondo)\"/><defs><radialGradient id=\"i_caldero_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_caldero_barro6\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_caldero_cald\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#B07838\"/><stop offset=\"1\" stop-color=\"#8A5424\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"112\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M54 92c0 38 26 58 106 58s106-20 106-58z\" fill=\"url(#i_caldero_barro6)\"/><ellipse cx=\"160\" cy=\"92\" rx=\"106\" ry=\"25\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"94\" rx=\"96\" ry=\"20\" fill=\"url(#i_caldero_cald)\"/><ellipse cx=\"139.7\" cy=\"81.6\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(161 139.7 81.6)\"/><ellipse cx=\"152.0\" cy=\"85.8\" rx=\"2.6\" ry=\"1.8\" fill=\"#D4B078\" transform=\"rotate(94 152.0 85.8)\"/><ellipse cx=\"110.2\" cy=\"89.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(18 110.2 89.7)\"/><ellipse cx=\"88.9\" cy=\"97.3\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(73 88.9 97.3)\"/><ellipse cx=\"129.2\" cy=\"84.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(30 129.2 84.7)\"/><ellipse cx=\"190.3\" cy=\"99.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#E0C088\" transform=\"rotate(44 190.3 99.7)\"/><ellipse cx=\"182.8\" cy=\"102.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#D4B078\" transform=\"rotate(133 182.8 102.2)\"/><ellipse cx=\"118.7\" cy=\"96.6\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(77 118.7 96.6)\"/><ellipse cx=\"193.3\" cy=\"104.4\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(171 193.3 104.4)\"/><ellipse cx=\"130.0\" cy=\"95.0\" rx=\"2.6\" ry=\"1.8\" fill=\"#D4B078\" transform=\"rotate(128 130.0 95.0)\"/><ellipse cx=\"102.8\" cy=\"88.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(31 102.8 88.5)\"/><ellipse cx=\"162.0\" cy=\"84.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#E0C088\" transform=\"rotate(110 162.0 84.2)\"/><ellipse cx=\"163.7\" cy=\"80.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(58 163.7 80.2)\"/><ellipse cx=\"180.4\" cy=\"83.0\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(159 180.4 83.0)\"/><ellipse cx=\"143.4\" cy=\"95.1\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(165 143.4 95.1)\"/><ellipse cx=\"175.7\" cy=\"88.4\" rx=\"2.6\" ry=\"1.8\" fill=\"#E0C088\" transform=\"rotate(54 175.7 88.4)\"/><ellipse cx=\"189.2\" cy=\"83.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#E0C088\" transform=\"rotate(97 189.2 83.5)\"/><ellipse cx=\"230.0\" cy=\"96.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(124 230.0 96.5)\"/><ellipse cx=\"209.7\" cy=\"97.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(90 209.7 97.7)\"/><ellipse cx=\"150.2\" cy=\"98.3\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(106 150.2 98.3)\"/><ellipse cx=\"109.5\" cy=\"87.3\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(26 109.5 87.3)\"/><ellipse cx=\"221.1\" cy=\"102.8\" rx=\"2.6\" ry=\"1.8\" fill=\"#D4B078\" transform=\"rotate(169 221.1 102.8)\"/><ellipse cx=\"117.7\" cy=\"93.4\" rx=\"2.6\" ry=\"1.8\" fill=\"#D4B078\" transform=\"rotate(11 117.7 93.4)\"/><ellipse cx=\"183.7\" cy=\"92.9\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(144 183.7 92.9)\"/><ellipse cx=\"230.4\" cy=\"94.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#D4B078\" transform=\"rotate(136 230.4 94.7)\"/><ellipse cx=\"155.6\" cy=\"86.4\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(6 155.6 86.4)\"/><ellipse cx=\"207.2\" cy=\"103.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(64 207.2 103.2)\"/><ellipse cx=\"133.2\" cy=\"98.6\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(158 133.2 98.6)\"/><ellipse cx=\"119.3\" cy=\"94.1\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(105 119.3 94.1)\"/><ellipse cx=\"157.8\" cy=\"87.5\" rx=\"2.6\" ry=\"1.8\" fill=\"#E0C088\" transform=\"rotate(135 157.8 87.5)\"/><ellipse cx=\"164.2\" cy=\"90.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#E0C088\" transform=\"rotate(112 164.2 90.2)\"/><ellipse cx=\"144.1\" cy=\"87.2\" rx=\"2.6\" ry=\"1.8\" fill=\"#E0C088\" transform=\"rotate(154 144.1 87.2)\"/><ellipse cx=\"133.6\" cy=\"98.8\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(42 133.6 98.8)\"/><ellipse cx=\"151.2\" cy=\"90.7\" rx=\"2.6\" ry=\"1.8\" fill=\"#EACC9C\" transform=\"rotate(33 151.2 90.7)\"/><circle cx=\"164.9\" cy=\"97.2\" r=\"1.0\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"139.0\" cy=\"99.0\" r=\"1.7\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"138.5\" cy=\"86.5\" r=\"0.9\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"230.8\" cy=\"88.0\" r=\"1.6\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"222.7\" cy=\"102.3\" r=\"1.7\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"151.3\" cy=\"88.2\" r=\"1.6\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"229.4\" cy=\"93.2\" r=\"1.7\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"96.3\" cy=\"103.9\" r=\"0.9\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"120.9\" cy=\"91.9\" r=\"1.1\" fill=\"#F0DCA8\" opacity=\".7\"/><circle cx=\"210.8\" cy=\"92.0\" r=\"1.6\" fill=\"#F0DCA8\" opacity=\".7\"/><g transform=\"translate(150 90) rotate(-8)\"><path d=\"M-30 0q4 -12 22 -12q22 0 26 12q-4 12 -26 12q-18 0 -22 -12z\" fill=\"#9AA8B2\"/><path d=\"M18 0l14 -8l-2 8l2 8z\" fill=\"#82909A\"/><circle cx=\"-20\" cy=\"-3\" r=\"2.2\" fill=\"#2E3A42\"/><path d=\"M-12 -6q10 -4 20 0\" stroke=\"#C8D2DA\" stroke-width=\"1.8\" fill=\"none\"/></g><g transform=\"translate(206 98) rotate(20)\"><path d=\"M-10 2q0 -10 10 -10q8 0 8 7\" stroke=\"#E89060\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><circle cx=\"10\" cy=\"-2\" r=\"1.6\" fill=\"#8A4020\"/></g><g transform=\"translate(56 132) rotate(-14)\"><path d=\"M-10 0q0 -14 10 -14q10 0 10 14q0 8 -10 8q-10 0 -10 -8z\" fill=\"#7C2E1E\"/><path d=\"M-4 -14l4 -6\" stroke=\"#4E6A34\" stroke-width=\"2.4\"/></g>"
-  },
   "tienda": [
    [
     "El pescado",
-    "Pide «pescado de roca o morralla para caldero» (cabracho, rape, gallineta, congrio, dorada pequeña). Que te lo limpien y lo corten en trozos, y que te guarden las cabezas y espinas para el fumet.",
+    "pide «pescado de roca o morralla para caldero» (cabracho, gallineta, rape, congrio). Que te lo limpien y lo troceen, y que te den cabezas y espinas: el fumet es el alma del plato.",
     "pescado"
    ],
    [
     "Las ñoras",
-    "Secas, en la sección de especias o verduras secas. Remójalas antes.",
+    "secas, en la sección de especias o de verduras secas. Remójalas una hora antes en agua templada.",
     "ñoras"
+   ],
+   [
+    "El arroz",
+    "bomba, que aguanta el punto sin pasarse.",
+    "arroz"
    ]
   ]
  },

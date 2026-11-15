@@ -8960,5 +8960,262 @@
     ]
    }
   ]
+ },
+ {
+  "id": "caldero",
+  "n": "Caldero murciano",
+  "sub": "arroz del Mar Menor con ñora, ajo y pescado de roca",
+  "reg": "mur",
+  "lugar": "Región de Murcia",
+  "cat": "arroz",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "met": [
+   {
+    "id": "caldero",
+    "n": "Caldero o cazuela ancha",
+    "d": "El de siempre: al fuego y sin remover"
+   },
+   {
+    "id": "olla",
+    "n": "En olla normal",
+    "d": "La que tengas: sale un poco más meloso"
+   }
+  ],
+  "ing": [
+   [
+    "arroz",
+    "arroz bomba|arroz bomba",
+    320,
+    "g"
+   ],
+   [
+    "pescado",
+    "pescado de roca o morralla|pescado de roca o morralla",
+    1000,
+    "g"
+   ],
+   [
+    "tomate",
+    "tomate maduro rallado|tomates maduros rallados",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    6,
+    "ud",
+    1
+   ],
+   [
+    "nora",
+    "ñora|ñoras",
+    3,
+    "ud",
+    1
+   ],
+   [
+    "azafran",
+    "pizca de azafrán|pizcas de azafrán",
+    1,
+    "ud",
+    1
+   ],
+   [
+    "agua",
+    "agua|agua",
+    1000,
+    "ml"
+   ],
+   [
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    4,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ],
+   [
+    "alioli",
+    "alioli casero",
+    null
+   ]
+  ],
+  "fases": [
+   {
+    "n": "El fumet",
+    "p": [
+     {
+      "t": "Fumet de roca",
+      "m": 20,
+      "tim": 20,
+      "f": 1,
+      "x": "Cuece {pescado} con {agua} fría y sal, a hervor suave 20 minutos. Espuma si hace falta. Cuela el caldo y reserva el pescado tapado, que no se seque.",
+      "ab": "Cuanta más morralla, más sabor. Espuma al principio y no dejes que hierva a lo loco, que el caldo se enturbia.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#3E5E7E",
+       "i": [
+        [
+         "pescado",
+         2
+        ],
+        [
+         "hueso",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     }
+    ]
+   },
+   {
+    "n": "El sofrito y la picada",
+    "p": [
+     {
+      "t": "Ñoras, ajos y tomate",
+      "m": 10,
+      "tim": 10,
+      "f": 2,
+      "x": "Calienta {aceite} a fuego medio. Fríe {nora}, remojadas y escurridas, 5 segundos y apártalas; dora {ajo} con piel, solo aplastados, y apártalos. En ese aceite, añade {tomate} y sofríe 5-8 minutos, hasta que esté oscuro y dulce.",
+      "ab": "Las ñoras se fríen 5 segundos, ni uno más: si se queman, amargan todo el arroz.",
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 2,
+       "c": "#C77B3B",
+       "i": [
+        [
+         "nora",
+         2
+        ],
+        [
+         "ajo",
+         2
+        ],
+        [
+         "tomate",
+         1
+        ]
+       ]
+      }
+     },
+     {
+      "t": "La picada",
+      "m": 5,
+      "tim": 5,
+      "x": "Abre {nora} y raspa la pulpa con una cucharita; machácala en el mortero con {ajo}, una pizca de sal y un chorro del caldo, hasta tener una pasta fina. Añádela al tomate.",
+      "ab": "Sin mortero, la turmix con un poco de caldo: misma pasta, menos brazo.",
+      "e": {
+       "k": "mortero",
+       "c": "#8A5A2B",
+       "i": [
+        [
+         "nora",
+         2
+        ],
+        [
+         "ajo",
+         2
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "n": "El arroz",
+    "p": [
+     {
+      "t": "En caldero o cazuela ancha",
+      "m": 18,
+      "tim": 18,
+      "f": 2,
+      "solo": [
+       "caldero"
+      ],
+      "x": "Reparte {arroz} por la cazuela con el sofrito, cubre con el caldo hirviendo (algo más del doble que de arroz), añade {azafran} y cuece 5 minutos a fuego fuerte y 13 a fuego suave, sin remover: como mucho, sacude la cazuela por el mango.",
+      "ab": "El arroz no se remueve: se sacude la cazuela. Si al probarlo falta sal, es el momento.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#D9A441",
+       "i": [
+        [
+         "arroz",
+         8
+        ],
+        [
+         "nora",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "En olla normal",
+      "m": 20,
+      "tim": 20,
+      "f": 2,
+      "solo": [
+       "olla"
+      ],
+      "x": "Echa {arroz} en la olla con el sofrito, cubre con el caldo hirviendo (en olla evapora menos: un dedo por encima del arroz basta), añade {azafran} y cuece a fuego medio 18-20 minutos, moviendo suave una sola vez a mitad.",
+      "ab": "En olla queda más meloso, que también es delicia: el caldero de taberna es así.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#D9A441",
+       "i": [
+        [
+         "arroz",
+         8
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Reposa y sirve",
+      "m": 5,
+      "tim": 5,
+      "x": "Apaga, cubre con un paño y deja reposar 5 minutos. Sirve el arroz con su alioli y el pescado aparte, en una fuente, que cada uno se sirva.",
+      "ab": "Primero el arroz y luego el pescado, como en los chinchorros del Mar Menor.",
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#D9A441",
+       "i": [
+        [
+         "arroz",
+         6
+        ],
+        [
+         "pescado",
+         2
+        ]
+       ],
+       "vapor": 1
+      }
+     }
+    ]
+   }
+  ]
  }
 ]
