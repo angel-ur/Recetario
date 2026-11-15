@@ -10543,5 +10543,421 @@
     ]
    }
   ]
+ },
+ {
+  "id": "lechazo",
+  "n": "Lechazo asado",
+  "sub": "cordero lechal en cazuela de barro, solo sal y agua",
+  "reg": "cyl",
+  "lugar": "Castilla y León",
+  "cat": "carne",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "met": [
+   {
+    "id": "barro",
+    "n": "En cazuela de barro",
+    "d": "La de los asadores: el barro reparte el calor"
+   },
+   {
+    "id": "metal",
+    "n": "En fuente de horno",
+    "d": "Sin barro: la fuente de metal de siempre"
+   }
+  ],
+  "ing": [
+   [
+    "lechazo",
+    "lechazo en trozos grandes con hueso|lechazo en trozos grandes con hueso",
+    1500,
+    "g"
+   ],
+   [
+    "agua",
+    "agua|agua",
+    200,
+    "ml"
+   ],
+   [
+    "sal",
+    "sal gorda|sal gorda",
+    1,
+    "cda"
+   ],
+   [
+    "laurel",
+    "hoja de laurel|hojas de laurel",
+    1,
+    "ud",
+    1
+   ],
+   [
+    "manteca",
+    "manteca de cerdo|manteca de cerdo",
+    1,
+    "cda"
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Preparar",
+    "p": [
+     {
+      "t": "Sala y coloca",
+      "m": 10,
+      "tim": 10,
+      "x": "Calienta el horno a 190 °C. Sala {lechazo} con {sal} (y úntalo con {manteca} si la tienes) y colócalo en la cazuela o fuente, con la piel hacia arriba.",
+      "ab": "La piel hacia arriba: así se dora y protege la carne, que no se seca.",
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "cordero",
+         2
+        ]
+       ]
+      }
+     },
+     {
+      "t": "Un vaso de agua",
+      "m": 2,
+      "x": "Echa {agua} en el fondo de la cazuela, con {laurel}. Poca agua: es para que no se reseque, no para hervir.",
+      "ab": "El agua no se echa encima: al fondo, que la piel se mantenga seca y cruja.",
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "cordero",
+         2
+        ],
+        [
+         "laurel",
+         1
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "n": "El horno",
+    "p": [
+     {
+      "t": "Horno fuerte, en barro",
+      "m": 60,
+      "tim": 60,
+      "w": 1,
+      "solo": [
+       "barro"
+      ],
+      "x": "Mete la cazuela de barro en el horno ya caliente, a media altura, y hornea 1 hora sin tocar nada.",
+      "ab": "Con barro refractario, al horno ya caliente. Si dudas de tu cazuela, métela con el horno frío y cuenta la hora desde que llegue a 190 °C.",
+      "e": {
+       "k": "horno",
+       "t": "190 °C",
+       "d": "cazuela"
+      }
+     },
+     {
+      "t": "Horno fuerte, en fuente de metal",
+      "m": 55,
+      "tim": 55,
+      "w": 1,
+      "solo": [
+       "metal"
+      ],
+      "x": "Mete la fuente en el horno ya caliente, a media altura, 50-55 minutos. El metal calienta más la base: vigila que no se pegue y añade un chorrito de agua si se seca.",
+      "ab": "La fuente de metal tuesta más el fondo: media altura y ojo a los últimos 15 minutos.",
+      "e": {
+       "k": "horno",
+       "t": "190 °C",
+       "d": "bandeja"
+      }
+     },
+     {
+      "t": "La vuelta y el riego",
+      "m": 45,
+      "tim": 45,
+      "w": 1,
+      "x": "Baja el horno a 180 °C, dale la vuelta a la carne y sigue 45 minutos, regando con su jugo cada 15, hasta que la piel cruja y la carne se separe del hueso.",
+      "ab": "Riega con cuchara y sin pinchar: los pinchos dejan escapar el jugo.",
+      "e": {
+       "k": "horno",
+       "t": "180 °C",
+       "d": "cazuela"
+      }
+     },
+     {
+      "t": "Reposo",
+      "m": 10,
+      "tim": 10,
+      "x": "Saca, tapa con papel de aluminio y deja reposar 10 minutos. El jugo se reparte y la carne se asienta.",
+      "ab": "Con una ensalada de lechuga y cebolla, y pan. No pide más.",
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#B5742F",
+       "i": [
+        [
+         "cordero",
+         3
+        ]
+       ],
+       "vapor": 1
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ropavieja",
+  "n": "Ropa vieja canaria",
+  "sub": "garbanzos, carne deshilachada y patata en un guiso aliñado",
+  "reg": "cnr",
+  "lugar": "Canarias",
+  "cat": "cuchara",
+  "dif": 1,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "met": [
+   {
+    "id": "puchero",
+    "n": "Con restos de puchero",
+    "d": "La de verdad: del cocido de ayer"
+   },
+   {
+    "id": "bote",
+    "n": "Sin cocido previo",
+    "d": "Garbanzo de bote y pollo cocido"
+   }
+  ],
+  "ing": [
+   [
+    "garbanzo",
+    "garbanzo cocido|garbanzos cocidos",
+    400,
+    "g"
+   ],
+   [
+    "carne",
+    "carne de puchero deshilachada|carne de puchero deshilachada",
+    300,
+    "g"
+   ],
+   [
+    "patata",
+    "patata cocida|patatas cocidas",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "pimiento",
+    "pimiento|pimientos",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "tomate",
+    "tomate maduro rallado|tomates maduros rallados",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    3,
+    "ud",
+    1
+   ],
+   [
+    "pimenton",
+    "pimentón dulce|pimentón dulce",
+    1,
+    "cdta"
+   ],
+   [
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    4,
+    "cda"
+   ],
+   [
+    "vinagre",
+    "vinagre|vinagre",
+    1,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ]
+  ],
+  "fases": [
+   {
+    "n": "El sofrito",
+    "p": [
+     {
+      "t": "Pocha lenta",
+      "m": 15,
+      "tim": 15,
+      "f": 1,
+      "x": "Pocha {cebolla}, {pimiento} y {ajo} picados en {aceite} a fuego suave 10 minutos. Añade {tomate} y cocina 5 minutos más, hasta que frite.",
+      "ab": "El tomate tiene que freírse: si queda crudo, la ropa vieja queda aguada.",
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 1,
+       "c": "#C77B3B",
+       "i": [
+        [
+         "cebolla",
+         2
+        ],
+        [
+         "pimiento",
+         1
+        ],
+        [
+         "ajo",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Pimentón y vinagre",
+      "m": 2,
+      "x": "Fuera del fuego, añade {pimenton} y {vinagre}, y remueve bien.",
+      "ab": "El pimentón fuera del fuego, que se quema en un segundo. Y el vinagre es el punto canario: que se note sin mandar.",
+      "e": {
+       "k": "fuego",
+       "v": "sarten",
+       "f": 0,
+       "c": "#C77B3B",
+       "i": [
+        [
+         "tomate",
+         1
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "n": "El guiso",
+    "p": [
+     {
+      "t": "Todo al sofrito",
+      "m": 10,
+      "tim": 10,
+      "f": 1,
+      "solo": [
+       "puchero"
+      ],
+      "x": "Añade {garbanzo} escurridos, {carne} y {patata} en dados, con un cazo del caldo del puchero si lo guardaste. Rehoga a fuego suave 10 minutos, con cuidado de no romper las patatas.",
+      "ab": "Rehoga, no remuevas a lo loco: la patata se rompe y el garbanzo se deshace.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#D9A441",
+       "i": [
+        [
+         "garbanzo",
+         5
+        ],
+        [
+         "carne",
+         2
+        ],
+        [
+         "patata",
+         2
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Sin cocido previo",
+      "m": 10,
+      "tim": 10,
+      "f": 1,
+      "solo": [
+       "bote"
+      ],
+      "x": "Añade {garbanzo} de bote bien escurridos, {carne} (o pollo cocido desmigado) y {patata} en dados, con un chorrito de agua o caldo. Rehoga a fuego suave 10 minutos.",
+      "ab": "De bote y con pollo asado sale muy digna: la gracia está en el sofrito y el vinagre.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#D9A441",
+       "i": [
+        [
+         "garbanzo",
+         5
+        ],
+        [
+         "carne",
+         2
+        ],
+        [
+         "patata",
+         2
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Reposo y a la mesa",
+      "m": 5,
+      "tim": 5,
+      "x": "Apaga, tapa y deja reposar 5 minutos. Sirve templada, con unas tiras de huevo duro por encima si te apetece.",
+      "ab": "Templada está mejor que hirviendo: los sabores se asientan.",
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#D9A441",
+       "i": [
+        [
+         "garbanzo",
+         5
+        ],
+        [
+         "carne",
+         2
+        ]
+       ],
+       "vapor": 1
+      }
+     }
+    ]
+   }
+  ]
  }
 ]

@@ -10,38 +10,43 @@ raciones: 4
 tags: [cordero, lechazo, sal, agua, laurel, horno]
 ---
 
-El asado de las celebraciones castellanas: carne de lechazo muy tierna, piel dorada y nada más que sal y agua. El horno hace el resto.
+El asado de las celebraciones castellanas: carne de lechazo muy tierna, piel dorada y nada más que sal y un vaso de agua. El horno hace el resto.
 
 ## Ingredientes
 
-- 1,5 kg de lechazo (media paletilla o pierna) en trozos
-- 1 vaso de agua
-- sal gorda
+- 1,5 kg de lechazo en trozos grandes con hueso
+- 1 vaso de agua (200 ml)
+- 1 cucharada de sal gorda
 - 1 hoja de laurel
-- manteca de cerdo (opcional)
+- 1 cucharada de manteca de cerdo (si tienes)
 
 ## Elaboración
 
 ### Preparar
 
-1. **Sala y coloca** (10 min) - Sala el lechazo con 1 cucharada de sal gorda (y 1 cucharada de manteca si tienes, repartida por encima) y colócalo en una cazuela de barro, con la piel hacia arriba.
-   > Con la piel hacia arriba para que se dore sin secarse.
-2. **Agua** (2 min) - Añade 200 ml de agua (un vaso) en el fondo y la hoja de laurel. Enciende el horno a 190 °C.
-   > Poca agua: para que la carne no se seque, no para hervir.
+1. **Sala y coloca** (10 min) - Calienta el horno a 190 °C. Sala lechazo en trozos grandes con hueso con sal gorda (y úntalo con manteca de cerdo si la tienes) y colócalo en la cazuela o fuente, con la piel hacia arriba.
+   > La piel hacia arriba: así se dora y protege la carne, que no se seca.
+2. **Un vaso de agua** (2 min) - Echa agua en el fondo de la cazuela, con hoja de laurel. Poca agua: es para que no se reseque, no para hervir.
+   > El agua no se echa encima: al fondo, que la piel se mantenga seca y cruja.
 
 ### El horno
 
-3. **Horno fuerte** (60 min, 190 °C) - Hornea con calor arriba y abajo, sin tocar, 1 hora, hasta que la carne empiece a dorarse.
-4. **Da la vuelta** (45 min, 180 °C) - Baja el horno a 180 °C, dale la vuelta, riega con su jugo cada 15 minutos y termina de asar 45 minutos, hasta que la piel esté crujiente y la carne se separe del hueso.
-   > Riega con cuchara y paciencia, sin pincharlo.
-5. **Reposa** (10 min) - Saca y deja reposar tapado con papel de aluminio 10 minutos antes de servir.
+3. **Horno fuerte, en barro** (60 min) - Mete la cazuela de barro en el horno ya caliente, a media altura, y hornea 1 hora sin tocar nada.
+   > Con barro refractario, al horno ya caliente. Si dudas de tu cazuela, métela con el horno frío y cuenta la hora desde que llegue a 190 °C.
+4. **Horno fuerte, en fuente de metal** (55 min) - Mete la fuente en el horno ya caliente, a media altura, 50-55 minutos. El metal calienta más la base: vigila que no se pegue y añade un chorrito de agua si se seca.
+   > La fuente de metal tuesta más el fondo: media altura y ojo a los últimos 15 minutos.
+5. **La vuelta y el riego** (45 min) - Baja el horno a 180 °C, dale la vuelta a la carne y sigue 45 minutos, regando con su jugo cada 15, hasta que la piel cruja y la carne se separe del hueso.
+   > Riega con cuchara y sin pinchar: los pinchos dejan escapar el jugo.
+6. **Reposo** (10 min) - Saca, tapa con papel de aluminio y deja reposar 10 minutos. El jugo se reparte y la carne se asienta.
+   > Con una ensalada de lechuga y cebolla, y pan. No pide más.
 
 ## Secretos de la abuela
 
-- **Poco**: el buen lechazo no necesita nada más.
-- **Barro**: la cazuela reparte el calor.
-- **Con ensalada**: lechuga y cebolla, sin nada más.
+- **El lechazo manda**: buena materia, sal y agua: no necesita nada más. Ni limón, ni ajo: eso es para carnes que piden ayuda.
+- **El barro reparte**: si tienes cazuela de barro, úsala: el calor llega parejo y el fondo no se quema.
+- **A gustos, colores**: en muchas casas castellanas se riega con un chorrito de vino blanco a media cocción, y en otras se unta con manteca ibérica. Los puristas: solo sal.
+- **Con ensalada**: lechuga y cebolla tierna, aliñada suave. Y pan para el juguito.
 
 ## En la tienda
 
-- **El lechazo** [lechazo]: Pide «lechazo, media paletilla o pierna, en trozos grandes con hueso» y que sea de menos de 35 días (carne rosada pálida, grasa blanca). Dile que es para asar en horno de barro o cazuela.
+- **El lechazo** [lechazo]: pide «lechazo, media paletilla o pierna, en trozos grandes con hueso», de menos de 35 días (carne rosada pálida, grasa blanca). Dile que es para asar: que lo corte a trozos de ración.
