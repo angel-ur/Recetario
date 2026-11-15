@@ -10,54 +10,58 @@ raciones: 6
 tags: [soja, tempeh, fermento, vinagre, fermentacion]
 ---
 
-Para 500 g de soja seca. Tiempo activo: unas 1,5 h; fermentación: 36 a 48 h. Las dos claves: secar muy bien la soja y mantener 28-30 °C las primeras 12 h. Si clavas eso, sale solo.
+Bloque blanco y firme de soja fermentada, el de verdad. Tiempo activo: unas 1,5 h; fermentación: 36 a 48 h. Las dos claves: secar muy bien la soja y mantener 28-30 °C las primeras 12 h. Si clavas eso, sale solo.
 
 ## Ingredientes
 
 - 500 g de soja amarilla seca
-- ½ cucharadita de fermento de tempeh (Rhizopus), o 1,5 g
-- 2 cucharadas de vinagre (blanco, de manzana o de arroz sin azúcar)
-- Material: bolsas zip y un palillo o tenedor para los agujeros
-- Material: un sitio cálido a 28-30 °C (el horno con la luz encendida va bien)
+- ½ cucharadita de fermento de tempeh (Rhizopus)
+- 2 cucharadas de vinagre blanco o de manzana
+- 2,5 l de agua para el remojo
+- Material: 2 bolsas zip y un palillo o tenedor para los agujeros
+- Material: un sitio cálido a 28-30 °C
 - Material: termómetro de cocina (muy recomendable)
 
 ## Elaboración
 
 ### Preparar la soja
 
-1. **Remojo** (720 min) - La noche antes: pon la soja en un bol grande, frota puñados entre las manos para partirla y cubre con unos 2,5 L de agua fría. Deja de 8 a 12 horas.
-   > En Indonesia el remojo largo también sirve para que el agua se vuelva ligeramente ácida, que es lo que necesita la fermentación (Antara). Por eso un chorrito de vinagre en casa hace un papel parecido.
-2. **Descascarilla** (15 min) - Agita la soja con fuerza en el agua: las pieles suben y las retiras. Repite 3 o 4 veces. Quitar la mayoría basta.
-3. **Cuece** (45 min) - Hierve en agua sin sal de 25 a 45 minutos, hasta que esté tierna pero con mordida, no blanda. Retira la espuma que suba. Escurre bien.
+1. **Remojo** (720 min) - La noche antes: pon soja amarilla seca en un bol grande, frota puñados entre las manos para partirla y cubre con agua fría. Deja de 8 a 12 horas.
+   > El remojo largo también vuelve el agua ligeramente ácida, que es lo que quiere la fermentación. Por eso luego va un chorrito de vinagre.
+2. **Descascarilla** (15 min) - Agita la soja con fuerza en el agua del remojo: las pieles suben y las retiras. Repite 3 o 4 veces. Quitar la mayoría basta.
+3. **Cuece** (45 min) - Hierve la soja en agua limpia sin sal de 25 a 45 minutos, hasta que esté tierna pero con mordida, no blanda. Retira la espuma que suba y escurre bien.
    > Si la cueces demasiado, el tempeh queda pastoso. Mejor un punto firme.
-4. **Seca muy bien** (20 min) - Este es el paso crítico. Vuelca la soja sobre un trapo limpio y frota hasta que la superficie esté seca al tacto. Deja enfriar hasta que esté templada, no caliente.
-   > Es lo que más determina el éxito. La humedad es el enemigo número uno, y el calor mata el fermento.
+4. **Seca muy bien** (20 min) - Este es el paso crítico: vuelca la soja sobre un trapo limpio y frota hasta que la superficie esté seca al tacto. Deja enfriar hasta que esté templada, no caliente.
+   > La humedad es el enemigo número uno, y el calor mata el fermento.
 
 ### Inocular y embolsar
 
-5. **Inocula** (5 min) - En un bol seco, mezcla la soja con las 2 cucharadas de vinagre. Luego espolvorea ½ cucharadita de fermento por encima y mezcla a fondo 1 minuto para repartirlo bien.
-   > Cuidado con pasarte: la receta tradicional usa muy poco fermento, del orden de 1 g por kilo de soja (Antara). Más fermento no da mejor tempeh.
-6. **Embolsa** (10 min) - Reparte en 2 bolsas y aplana en una capa uniforme de unos 2 cm. Pincha agujeros por las dos caras cada 2,5 cm más o menos.
+5. **Inocula** (5 min) - En un bol seco, mezcla la soja con vinagre blanco o de manzana. Espolvorea fermento de tempeh por encima y mezcla a fondo 1 minuto para repartirlo bien.
+   > Poco fermento y bien repartido: más fermento no da mejor tempeh.
+6. **Embolsa** (10 min) - Reparte en bolsas zip y aplana en una capa uniforme de unos 2 cm. Pincha agujeros por las dos caras cada 2,5 cm más o menos.
+   > Los agujeros son los pulmones del tempeh: el hongo respira por ahí.
 
 ### Fermentar
 
-7. **Fermenta** (2160 min) - Pon las bolsas separadas y elevadas sobre una rejilla, a 28-30 °C, para que corra el aire por debajo. A las 12 horas verás pelusa blanca y empezará a calentarse sola: a partir de aquí quita el calor externo, porque si pasa de 37 °C el hongo muere. Está listo a las 36-48 horas, cuando el bloque es sólido y blanco y todos los huecos están rellenos de micelio.
-   > En Java lo envuelven en hoja de plátano o plástico agujereado y lo pinchan con un palito tras la primera noche, para que corra el aire (Antara).
-   > Con el horno solo con la luz, comprueba con un termómetro que no pase de 32 °C.
-8. **Guarda** (30 min) - Si lo vas a comer en 3 o 4 días, a la nevera tal cual. Para congelar: vapor 15 minutos, enfriar y al congelador, hasta 3 meses, cortado antes en porciones.
+7. **Fermenta en el horno** (2160 min) - Pon las bolsas separadas y elevadas sobre una rejilla en el horno apagado, solo con la luz encendida. A las 12 horas verás pelusa blanca y empezará a calentarse sola: apaga entonces la luz, porque si pasa de 37 °C el hongo muere. Está listo a las 36-48 horas, cuando el bloque es sólido y blanco y todos los huecos están rellenos.
+   > Comprueba con el termómetro que no pase de 32 °C mientras la luz está encendida.
+8. **Fermenta con yogurtera** (2160 min) - Pon las bolsas separadas en la yogurtera o el deshidratador a 30 °C. A las 12 horas verás pelusa blanca y empezará a calentarse sola: baja entonces al mínimo o apaga, porque si pasa de 37 °C el hongo muere. Está listo a las 36-48 horas, cuando el bloque es sólido y blanco.
+   > La yogurtera es lo más fácil: temperatura fija y te olvidas.
+9. **Fermenta sin aparatos** (4320 min) - Pon las bolsas separadas y elevadas en el rincón más cálido de casa (junto al radiador o sobre la nevera), tapadas con un trapo limpio. Tardará más: está listo a las 48-72 horas, cuando el bloque es sólido y blanco. Si pasa de 37 °C, aléjalo del calor.
+   > En Java lo envuelven en hoja de plátano agujereada y lo dejan en un sitio cálido dos noches: el aire tiene que correr.
+10. **Guarda** (30 min) - Si lo vas a comer en 3 o 4 días, a la nevera tal cual. Para congelar: vapor 15 minutos, enfriar y al congelador, hasta 3 meses, cortado antes en porciones.
    > Siempre se cocina antes de comer: salteado, frito o al horno.
 
 ## Secretos de la abuela
 
-- **Las dos claves**: Secar muy bien la soja y mantener 28-30 °C las primeras 12 horas.
-- **Bien**: Olor a nuez o champiñón, bloque blanco sólido. Manchas grises o negras en los agujeros son normales.
-- **Mal**: Moho rosa o verde, babas u olor a amoniaco o podrido: a la basura.
-- **Sin sal al cocer**: La soja se cuece en agua sin sal.
-- **Cómo se hace en Indonesia**: En los talleres tradicionales el fermento es el «usar» o «laru», que se obtiene de hojas de teca o de waru y es una colonia de hongo ya lista para sembrar. Hoy se usa ragi de tempe (Kompas). Se envuelve en hoja de plátano o plástico con agujeros y se deja madurar en un sitio cálido, unas 24 horas en el obrador a unos 30 °C o dos noches en casa.
-- **Limpieza ante todo**: En Indonesia se dice que el tempeh no sale si el agua no está limpia y las manos no están limpias. Una familia contaba que se le estropeó la tanda por tocar la soja alguien que venía de la calle (Eksotika Desa).
-- **Fuentes de estas notas**: Antara News, «Cara membuat tempe kedelai tradisional...», 1 jun 2025, antaranews.com/berita/4870645. Kompas.com, «Proses Pembuatan Tempe dari Nol sampai ke Meja Makanmu», 14 sep 2020, kompas.com/food/read/2020/09/14/133727575. Eksotika Desa, «Tempe Bungkus Daun Pisang», 19 nov 2022, eksotikadesa.id/tempe-bungkus-daun-pisang.
+- **Las dos claves**: secar muy bien la soja y mantener 28-30 °C las primeras 12 horas.
+- **Bien**: olor a nuez o champiñón, bloque blanco sólido. Manchas grises o negras en los agujeros son normales.
+- **Mal**: moho rosa o verde, babas u olor a amoniaco o podrido: a la basura, sin dudar.
+- **Sin sal al cocer**: la soja se cuece en agua sin sal.
+- **A gustos, colores**: hay quien le añade un puñado de arroz cocido a la soja para que fermente antes, quien lo hace con garbanzos o alubias en vez de soja (tempeh de legumbre), y quien lo corta y lo marina en salsa de soja antes de freírlo.
+- **Limpieza ante todo**: en Indonesia dicen que el tempeh no sale si el agua y las manos no están limpias. Lávate bien antes de tocar la soja.
 
 ## En la tienda
 
-- **La soja** [soja]: «Soja amarilla seca, ecológica», sin cáscara, en herbolarios o tiendas de alimentación ecológica.
-- **El fermento** [fermento]: «Fermento de tempeh (Rhizopus oligosporus)», solo se encuentra online o en tiendas especializadas. Un sobre da para varios lotes.
+- **La soja** [soja]: «soja amarilla seca, ecológica», sin cáscara, en herbolarios o tiendas de alimentación ecológica.
+- **El fermento** [fermento]: «fermento de tempeh (Rhizopus oligosporus)», solo online o en tiendas especializadas. Un sobre da para varios lotes.

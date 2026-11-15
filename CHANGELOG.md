@@ -3,6 +3,8 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Tempeh casero rehecho como el pil pil: la soja y el fermento se ajustan a la tanda que hagas (3, 6 o 9 raciones) y tres formas de fermentar a elegir (el horno apagado con la luz, la yogurtera o deshidratador, o el rincón más cálido de casa), cada una con sus tiempos y avisos.
+- Ternasco de Aragón rehecho como el pil pil: cantidades ajustadas a cuantos sois (2, 4 o 6), dos asados (bandeja de horno, la clásica, o cazuela de barro tapada, que guarda todo el jugo y se destapa al final para dorar) y patatas panadera que beben el jugo.
 - Sopas mallorquinas rehechas como el pil pil: cantidades ajustadas a cuantos sois (2, 4 o 6), dos cazuelas (la de barro, que guarda el calor y melosa más, o la olla de metal de siempre) y el pan moreno bien seco, que es medio plato.
 - Lechazo asado rehecho como el pil pil: cantidades ajustadas a cuantos sois (2, 4 o 6), dos hornos (cazuela de barro, la de los asadores, o fuente de metal, con sus tiempos y avisos propios) y la receta de la abuela: sal, agua al fondo, piel arriba y a regar con cuchara.
 - Ropa vieja canaria rehecha como el pil pil: cantidades ajustadas a cuantos sois (2, 4 o 6), dos caminos (con restos de puchero, la de verdad, o sin cocido previo, con garbanzo de bote y pollo) y el punto canario del vinagre al final.

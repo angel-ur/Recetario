@@ -10889,65 +10889,106 @@
   "n": "Tempeh casero",
   "sub": "soja fermentada: seca bien y mantén el calor",
   "reg": "w-IDN",
-  "regs": [
-   "w-IDN"
-  ],
   "lugar": "Indonesia, Java",
   "cat": "huerta",
   "dif": 3,
   "b": 6,
   "rac": [
-   6
+   3,
+   6,
+   9
   ],
-  "intro": "Para 500 g de soja seca. Tiempo activo: unas 1,5 h; fermentación: 36 a 48 h. Las dos claves: secar muy bien la soja y mantener 28-30 °C las primeras 12 h. Si clavas eso, sale solo.",
+  "met": [
+   {
+    "id": "horno",
+    "n": "En el horno con la luz",
+    "d": "Apagado, solo con la luz: da 28-30 °C"
+   },
+   {
+    "id": "yogurtera",
+    "n": "Con yogurtera o deshidratador",
+    "d": "Temperatura fija, la más fácil"
+   },
+   {
+    "id": "casa",
+    "n": "Sin aparatos",
+    "d": "El rincón más cálido: radiador o sobre la nevera"
+   }
+  ],
+  "heroe": {
+   "k": "ilu",
+   "svg": "<defs><radialGradient id=\"i_tempeh_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_tempeh_fondo)\"/><defs><radialGradient id=\"i_tempeh_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_tempeh_fr\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#E8B04A\"/><stop offset=\"1\" stop-color=\"#B8741F\"/></linearGradient><linearGradient id=\"i_tempeh_ce\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#FBF6E4\"/><stop offset=\"1\" stop-color=\"#E8DDBC\"/></linearGradient><radialGradient id=\"i_tempeh_sam\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#E5482F\"/><stop offset=\"1\" stop-color=\"#A52418\"/></radialGradient></defs><ellipse cx=\"150\" cy=\"154\" rx=\"104\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.25\"/><ellipse cx=\"150\" cy=\"112\" rx=\"112\" ry=\"50\" fill=\"#D4CCBB\"/><ellipse cx=\"150\" cy=\"108\" rx=\"112\" ry=\"50\" fill=\"url(#i_tempeh_pl)\"/><ellipse cx=\"150\" cy=\"110\" rx=\"88\" ry=\"36\" fill=\"none\" style=\"stroke:var(--anil)\" stroke-width=\"3.5\"/><g transform=\"translate(100 104) rotate(-8)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"-1.5\" cy=\"0.2\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"13.6\" cy=\"-0.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"0.3\" cy=\"0.5\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-10.1\" cy=\"-0.4\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"4.2\" cy=\"2.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.0\" cy=\"-2.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.1\" cy=\"2.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"6.2\" cy=\"-5.5\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"15.4\" cy=\"4.6\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"4.9\" cy=\"0.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-11.0\" cy=\"-5.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><g transform=\"translate(150 96) rotate(4)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"0.9\" cy=\"-5.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.9\" cy=\"-3.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-15.0\" cy=\"-0.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-1.9\" cy=\"3.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"0.6\" cy=\"1.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-0.0\" cy=\"1.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-1.4\" cy=\"-2.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"15.9\" cy=\"5.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"10.9\" cy=\"1.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-5.9\" cy=\"-3.5\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-6.8\" cy=\"-5.2\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><g transform=\"translate(198 104) rotate(9)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"8.5\" cy=\"-1.6\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"11.1\" cy=\"-1.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"14.7\" cy=\"3.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-16.0\" cy=\"-3.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"13.1\" cy=\"-0.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"15.4\" cy=\"-1.6\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.7\" cy=\"0.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"8.9\" cy=\"-3.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.2\" cy=\"-2.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"14.9\" cy=\"2.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-12.2\" cy=\"-3.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><g transform=\"translate(122 128) rotate(3)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"-12.8\" cy=\"-5.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"9.5\" cy=\"-4.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"1.9\" cy=\"-1.1\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.9\" cy=\"2.1\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-11.8\" cy=\"1.1\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-12.3\" cy=\"-1.4\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.2\" cy=\"-3.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"15.1\" cy=\"2.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-6.3\" cy=\"3.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.3\" cy=\"-1.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"11.3\" cy=\"1.1\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><g transform=\"translate(176 129) rotate(-5)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"-12.8\" cy=\"4.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.2\" cy=\"-3.2\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"8.7\" cy=\"-2.4\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-6.5\" cy=\"-5.2\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.1\" cy=\"0.4\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-8.2\" cy=\"0.6\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-4.1\" cy=\"-1.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"14.7\" cy=\"-0.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"2.4\" cy=\"3.5\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-10.1\" cy=\"-4.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"13.1\" cy=\"3.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><ellipse cx=\"252\" cy=\"114.8\" rx=\"20.8\" ry=\"8\" fill=\"#4A2E10\" opacity=\"0.25\"/><path d=\"M226 90c2 16 9 21 26 21s20-5 26 -21z\" fill=\"#F4F0E6\"/><path d=\"M234 98c4 12 8 17 18 17s14-4 18 -17\" fill=\"none\" stroke=\"#3C5C8E\" stroke-width=\"3\"/><ellipse cx=\"252\" cy=\"90\" rx=\"26\" ry=\"7\" fill=\"#E4DECF\"/><ellipse cx=\"252\" cy=\"91\" rx=\"21\" ry=\"5\" fill=\"url(#i_tempeh_sam)\"/><ellipse cx=\"246\" cy=\"86\" rx=\"8\" ry=\"1.8\" fill=\"#fff\" opacity=\".35\"/><circle cx=\"60\" cy=\"140\" r=\"10\" fill=\"#F6E24B\"/><circle cx=\"60\" cy=\"140\" r=\"8\" fill=\"#FBF08A\"/><path d=\"M60 140L68.0 140.0\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L64.0 146.9\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L56.0 146.9\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L52.0 140.0\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L56.0 133.1\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L64.0 133.1\" stroke=\"#F0D63A\" stroke-width=\".9\"/>"
+  },
+  "regs": [
+   "w-IDN"
+  ],
+  "intro": "Bloque blanco y firme de soja fermentada, el de verdad. Tiempo activo: unas 1,5 h; fermentación: 36 a 48 h. Las dos claves: secar muy bien la soja y mantener 28-30 °C las primeras 12 h. Si clavas eso, sale solo.",
+  "secretos": [
+   [
+    "Las dos claves",
+    "secar muy bien la soja y mantener 28-30 °C las primeras 12 horas."
+   ],
+   [
+    "Bien",
+    "olor a nuez o champiñón, bloque blanco sólido. Manchas grises o negras en los agujeros son normales."
+   ],
+   [
+    "Mal",
+    "moho rosa o verde, babas u olor a amoniaco o podrido: a la basura, sin dudar."
+   ],
+   [
+    "Sin sal al cocer",
+    "la soja se cuece en agua sin sal."
+   ],
+   [
+    "A gustos, colores",
+    "hay quien le añade un puñado de arroz cocido a la soja para que fermente antes, quien lo hace con garbanzos o alubias en vez de soja (tempeh de legumbre), y quien lo corta y lo marina en salsa de soja antes de freírlo."
+   ],
+   [
+    "Limpieza ante todo",
+    "en Indonesia dicen que el tempeh no sale si el agua y las manos no están limpias. Lávate bien antes de tocar la soja."
+   ]
+  ],
   "ing": [
    [
-    "i0",
-    "500 g de soja amarilla seca",
-    null,
-    null,
-    1,
-    "plano"
+    "soja",
+    "soja amarilla seca|soja amarilla seca",
+    500,
+    "g"
    ],
    [
-    "i1",
-    "½ cucharadita de fermento de tempeh (Rhizopus), o 1,5 g",
-    null,
-    null,
-    1,
-    "plano"
+    "fermento",
+    "fermento de tempeh|fermento de tempeh",
+    0.5,
+    "cdta",
+    0.5
    ],
    [
-    "i2",
-    "2 cucharadas de vinagre (blanco, de manzana o de arroz sin azúcar)",
-    null,
-    null,
-    1,
-    "plano"
+    "vinagre",
+    "vinagre blanco o de manzana|vinagre blanco o de manzana",
+    2,
+    "cda"
    ],
    [
-    "i3",
-    "Material: bolsas zip y un palillo o tenedor para los agujeros",
-    null,
-    null,
-    1,
-    "plano"
+    "agua",
+    "agua|agua",
+    2500,
+    "ml"
    ],
    [
-    "i4",
-    "Material: un sitio cálido a 28-30 °C (el horno con la luz encendida va bien)",
-    null,
-    null,
-    1,
-    "plano"
+    "material1",
+    "2 bolsas zip y un palillo o tenedor para los agujeros",
+    null
    ],
    [
-    "i5",
-    "Material: termómetro de cocina (muy recomendable)",
-    null,
-    null,
-    1,
-    "plano"
+    "material2",
+    "un sitio cálido a 28-30 °C",
+    null
+   ],
+   [
+    "material3",
+    "termómetro de cocina (muy recomendable)",
+    null
    ]
   ],
   "fases": [
@@ -10958,80 +10999,45 @@
      {
       "t": "Remojo",
       "m": 720,
-      "x": "La noche antes: pon la soja en un bol grande, frota puñados entre las manos para partirla y cubre con unos 2,5 L de agua fría. Deja de 8 a 12 horas.",
-      "ab": "En Indonesia el remojo largo también sirve para que el agua se vuelva ligeramente ácida, que es lo que necesita la fermentación (Antara). Por eso un chorrito de vinagre en casa hace un papel parecido.",
-      "f": 0,
-      "w": 1,
-      "tim": 720,
+      "x": "La noche antes: pon {soja} en un bol grande, frota puñados entre las manos para partirla y cubre con {agua} fría. Deja de 8 a 12 horas.",
       "e": {
        "k": "remojo",
-       "i": [
-        [
-         "garbanzo",
-         24
-        ]
-       ],
        "t": "12 h"
-      }
+      },
+      "ab": "El remojo largo también vuelve el agua ligeramente ácida, que es lo que quiere la fermentación. Por eso luego va un chorrito de vinagre."
      },
      {
       "t": "Descascarilla",
       "m": 15,
-      "x": "Agita la soja con fuerza en el agua: las pieles suben y las retiras. Repite 3 o 4 veces. Quitar la mayoría basta.",
-      "f": 0,
-      "tim": 15,
+      "x": "Agita la soja con fuerza en el agua del remojo: las pieles suben y las retiras. Repite 3 o 4 veces. Quitar la mayoría basta.",
       "e": {
-       "k": "bol",
-       "c": "#BFDDF2",
-       "i": [
-        [
-         "garbanzo",
-         18
-        ]
-       ],
-       "cae": null
+       "k": "remojo",
+       "t": "a mano"
       }
      },
      {
       "t": "Cuece",
       "m": 45,
-      "x": "Hierve en agua sin sal de 25 a 45 minutos, hasta que esté tierna pero con mordida, no blanda. Retira la espuma que suba. Escurre bien.",
-      "ab": "Si la cueces demasiado, el tempeh queda pastoso. Mejor un punto firme.",
-      "f": 2,
+      "x": "Hierve la soja en agua limpia sin sal de 25 a 45 minutos, hasta que esté tierna pero con mordida, no blanda. Retira la espuma que suba y escurre bien.",
       "tim": 45,
+      "f": 2,
       "e": {
        "k": "fuego",
        "v": "olla",
        "f": 2,
-       "c": "#C9D9E8",
-       "i": [
-        [
-         "garbanzo",
-         24
-        ]
-       ],
-       "burbujas": 1,
-       "espuma": 1
-      }
+       "vapor": 1
+      },
+      "ab": "Si la cueces demasiado, el tempeh queda pastoso. Mejor un punto firme."
      },
      {
       "t": "Seca muy bien",
       "m": 20,
-      "x": "Este es el paso crítico. Vuelca la soja sobre un trapo limpio y frota hasta que la superficie esté seca al tacto. Deja enfriar hasta que esté templada, no caliente.",
-      "ab": "Es lo que más determina el éxito. La humedad es el enemigo número uno, y el calor mata el fermento.",
-      "f": 0,
+      "x": "Este es el paso crítico: vuelca la soja sobre un trapo limpio y frota hasta que la superficie esté seca al tacto. Deja enfriar hasta que esté templada, no caliente.",
       "tim": 20,
       "e": {
-       "k": "plato",
-       "v": "llano",
-       "c": "#F5F1E8",
-       "i": [
-        [
-         "garbanzo",
-         20
-        ]
-       ]
-      }
+       "k": "tabla"
+      },
+      "ab": "La humedad es el enemigo número uno, y el calor mata el fermento."
      }
     ]
    },
@@ -11042,31 +11048,20 @@
      {
       "t": "Inocula",
       "m": 5,
-      "x": "En un bol seco, mezcla la soja con las 2 cucharadas de vinagre. Luego espolvorea ½ cucharadita de fermento por encima y mezcla a fondo 1 minuto para repartirlo bien.",
-      "ab": "Cuidado con pasarte: la receta tradicional usa muy poco fermento, del orden de 1 g por kilo de soja (Antara). Más fermento no da mejor tempeh.",
-      "f": 0,
-      "tim": 5,
+      "x": "En un bol seco, mezcla la soja con {vinagre}. Espolvorea {fermento} por encima y mezcla a fondo 1 minuto para repartirlo bien.",
       "e": {
-       "k": "bol",
-       "c": "#F2E3B5",
-       "i": [
-        [
-         "garbanzo",
-         18
-        ]
-       ],
-       "tenedor": 1
-      }
+       "k": "tabla"
+      },
+      "ab": "Poco fermento y bien repartido: más fermento no da mejor tempeh."
      },
      {
       "t": "Embolsa",
       "m": 10,
-      "x": "Reparte en 2 bolsas y aplana en una capa uniforme de unos 2 cm. Pincha agujeros por las dos caras cada 2,5 cm más o menos.",
-      "f": 0,
-      "tim": 10,
+      "x": "Reparte en bolsas zip y aplana en una capa uniforme de unos 2 cm. Pincha agujeros por las dos caras cada 2,5 cm más o menos.",
       "e": {
-       "k": "formar"
-      }
+       "k": "tabla"
+      },
+      "ab": "Los agujeros son los pulmones del tempeh: el hongo respira por ahí."
      }
     ]
    },
@@ -11075,93 +11070,72 @@
     "tipo": "tu",
     "p": [
      {
-      "t": "Fermenta",
+      "t": "Fermenta en el horno",
       "m": 2160,
-      "x": "Pon las bolsas separadas y elevadas sobre una rejilla, a 28-30 °C, para que corra el aire por debajo. A las 12 horas verás pelusa blanca y empezará a calentarse sola: a partir de aquí quita el calor externo, porque si pasa de 37 °C el hongo muere. Está listo a las 36-48 horas, cuando el bloque es sólido y blanco y todos los huecos están rellenos de micelio.",
-      "ab": "En Java lo envuelven en hoja de plátano o plástico agujereado y lo pinchan con un palito tras la primera noche, para que corra el aire (Antara).",
-      "f": 0,
-      "w": 1,
-      "tim": 2160,
+      "x": "Pon las bolsas separadas y elevadas sobre una rejilla en el horno apagado, solo con la luz encendida. A las 12 horas verás pelusa blanca y empezará a calentarse sola: apaga entonces la luz, porque si pasa de 37 °C el hongo muere. Está listo a las 36-48 horas, cuando el bloque es sólido y blanco y todos los huecos están rellenos.",
+      "solo": [
+       "horno"
+      ],
       "e": {
        "k": "horno",
-       "t": "30 °C",
-       "d": "bandeja",
-       "i": [
-        [
-         "tempeh",
-         3
-        ]
-       ],
-       "c": "#E9D9B0"
-      }
+       "t": "30 °C"
+      },
+      "ab": "Comprueba con el termómetro que no pase de 32 °C mientras la luz está encendida."
+     },
+     {
+      "t": "Fermenta con yogurtera",
+      "m": 2160,
+      "x": "Pon las bolsas separadas en la yogurtera o el deshidratador a 30 °C. A las 12 horas verás pelusa blanca y empezará a calentarse sola: baja entonces al mínimo o apaga, porque si pasa de 37 °C el hongo muere. Está listo a las 36-48 horas, cuando el bloque es sólido y blanco.",
+      "solo": [
+       "yogurtera"
+      ],
+      "e": {
+       "k": "horno",
+       "t": "30 °C"
+      },
+      "ab": "La yogurtera es lo más fácil: temperatura fija y te olvidas."
+     },
+     {
+      "t": "Fermenta sin aparatos",
+      "m": 4320,
+      "x": "Pon las bolsas separadas y elevadas en el rincón más cálido de casa (junto al radiador o sobre la nevera), tapadas con un trapo limpio. Tardará más: está listo a las 48-72 horas, cuando el bloque es sólido y blanco. Si pasa de 37 °C, aléjalo del calor.",
+      "solo": [
+       "casa"
+      ],
+      "e": {
+       "k": "tabla"
+      },
+      "ab": "En Java lo envuelven en hoja de plátano agujereada y lo dejan en un sitio cálido dos noches: el aire tiene que correr."
      },
      {
       "t": "Guarda",
       "m": 30,
       "x": "Si lo vas a comer en 3 o 4 días, a la nevera tal cual. Para congelar: vapor 15 minutos, enfriar y al congelador, hasta 3 meses, cortado antes en porciones.",
-      "ab": "Siempre se cocina antes de comer: salteado, frito o al horno.",
-      "f": 0,
-      "tim": 30,
+      "tim": 15,
       "e": {
-       "k": "nevera",
-       "v": "fuente",
-       "c": "#E9D9B0",
+       "k": "plato",
+       "v": "cuenco",
        "i": [
         [
          "tempeh",
-         3
+         2
         ]
-       ],
-       "t": "3 días"
-      }
+       ]
+      },
+      "ab": "Siempre se cocina antes de comer: salteado, frito o al horno."
      }
     ]
    }
   ],
-  "simple": 1,
-  "secretos": [
-   [
-    "Las dos claves",
-    "Secar muy bien la soja y mantener 28-30 °C las primeras 12 horas."
-   ],
-   [
-    "Bien",
-    "Olor a nuez o champiñón, bloque blanco sólido. Manchas grises o negras en los agujeros son normales."
-   ],
-   [
-    "Mal",
-    "Moho rosa o verde, babas u olor a amoniaco o podrido: a la basura."
-   ],
-   [
-    "Sin sal al cocer",
-    "La soja se cuece en agua sin sal."
-   ],
-   [
-    "Cómo se hace en Indonesia",
-    "En los talleres tradicionales el fermento es el «usar» o «laru», que se obtiene de hojas de teca o de waru y es una colonia de hongo ya lista para sembrar. Hoy se usa ragi de tempe (Kompas). Se envuelve en hoja de plátano o plástico con agujeros y se deja madurar en un sitio cálido, unas 24 horas en el obrador a unos 30 °C o dos noches en casa."
-   ],
-   [
-    "Limpieza ante todo",
-    "En Indonesia se dice que el tempeh no sale si el agua no está limpia y las manos no están limpias. Una familia contaba que se le estropeó la tanda por tocar la soja alguien que venía de la calle (Eksotika Desa)."
-   ],
-   [
-    "Fuentes de estas notas",
-    "Antara News, «Cara membuat tempe kedelai tradisional...», 1 jun 2025, antaranews.com/berita/4870645. Kompas.com, «Proses Pembuatan Tempe dari Nol sampai ke Meja Makanmu», 14 sep 2020, kompas.com/food/read/2020/09/14/133727575. Eksotika Desa, «Tempe Bungkus Daun Pisang», 19 nov 2022, eksotikadesa.id/tempe-bungkus-daun-pisang."
-   ]
-  ],
-  "heroe": {
-   "k": "ilu",
-   "svg": "<defs><radialGradient id=\"i_tempeh_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_tempeh_fondo)\"/><defs><radialGradient id=\"i_tempeh_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_tempeh_fr\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#E8B04A\"/><stop offset=\"1\" stop-color=\"#B8741F\"/></linearGradient><linearGradient id=\"i_tempeh_ce\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#FBF6E4\"/><stop offset=\"1\" stop-color=\"#E8DDBC\"/></linearGradient><radialGradient id=\"i_tempeh_sam\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#E5482F\"/><stop offset=\"1\" stop-color=\"#A52418\"/></radialGradient></defs><ellipse cx=\"150\" cy=\"154\" rx=\"104\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.25\"/><ellipse cx=\"150\" cy=\"112\" rx=\"112\" ry=\"50\" fill=\"#D4CCBB\"/><ellipse cx=\"150\" cy=\"108\" rx=\"112\" ry=\"50\" fill=\"url(#i_tempeh_pl)\"/><ellipse cx=\"150\" cy=\"110\" rx=\"88\" ry=\"36\" fill=\"none\" style=\"stroke:var(--anil)\" stroke-width=\"3.5\"/><g transform=\"translate(100 104) rotate(-8)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"-1.5\" cy=\"0.2\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"13.6\" cy=\"-0.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"0.3\" cy=\"0.5\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-10.1\" cy=\"-0.4\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"4.2\" cy=\"2.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.0\" cy=\"-2.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.1\" cy=\"2.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"6.2\" cy=\"-5.5\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"15.4\" cy=\"4.6\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"4.9\" cy=\"0.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-11.0\" cy=\"-5.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><g transform=\"translate(150 96) rotate(4)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"0.9\" cy=\"-5.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.9\" cy=\"-3.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-15.0\" cy=\"-0.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-1.9\" cy=\"3.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"0.6\" cy=\"1.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-0.0\" cy=\"1.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-1.4\" cy=\"-2.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"15.9\" cy=\"5.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"10.9\" cy=\"1.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-5.9\" cy=\"-3.5\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-6.8\" cy=\"-5.2\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><g transform=\"translate(198 104) rotate(9)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"8.5\" cy=\"-1.6\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"11.1\" cy=\"-1.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"14.7\" cy=\"3.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-16.0\" cy=\"-3.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"13.1\" cy=\"-0.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"15.4\" cy=\"-1.6\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.7\" cy=\"0.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"8.9\" cy=\"-3.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.2\" cy=\"-2.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"14.9\" cy=\"2.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-12.2\" cy=\"-3.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><g transform=\"translate(122 128) rotate(3)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"-12.8\" cy=\"-5.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"9.5\" cy=\"-4.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"1.9\" cy=\"-1.1\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.9\" cy=\"2.1\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-11.8\" cy=\"1.1\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-12.3\" cy=\"-1.4\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.2\" cy=\"-3.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"15.1\" cy=\"2.8\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-6.3\" cy=\"3.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.3\" cy=\"-1.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"11.3\" cy=\"1.1\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><g transform=\"translate(176 129) rotate(-5)\"><ellipse cx=\"0\" cy=\"14\" rx=\"20.0\" ry=\"3.5\" fill=\"#000\" opacity=\".14\"/><rect x=\"-23.0\" y=\"-11.0\" width=\"46\" height=\"22\" rx=\"5\" fill=\"url(#i_tempeh_fr)\"/><rect x=\"-20.0\" y=\"-8.5\" width=\"40\" height=\"16\" rx=\"3.5\" fill=\"url(#i_tempeh_ce)\" opacity=\"0.55\"/><rect x=\"-22.0\" y=\"-11.0\" width=\"44\" height=\"9.9\" rx=\"5\" fill=\"#F4C766\" opacity=\".35\"/><ellipse cx=\"-12.8\" cy=\"4.9\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-9.2\" cy=\"-3.2\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"8.7\" cy=\"-2.4\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-6.5\" cy=\"-5.2\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-13.1\" cy=\"0.4\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-8.2\" cy=\"0.6\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-4.1\" cy=\"-1.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"14.7\" cy=\"-0.7\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"2.4\" cy=\"3.5\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"-10.1\" cy=\"-4.3\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/><ellipse cx=\"13.1\" cy=\"3.0\" rx=\"2.3\" ry=\"1.7\" fill=\"#EAD9A6\" stroke=\"#BFA25E\" stroke-width=\".5\"/></g><ellipse cx=\"252\" cy=\"114.8\" rx=\"20.8\" ry=\"8\" fill=\"#4A2E10\" opacity=\"0.25\"/><path d=\"M226 90c2 16 9 21 26 21s20-5 26 -21z\" fill=\"#F4F0E6\"/><path d=\"M234 98c4 12 8 17 18 17s14-4 18 -17\" fill=\"none\" stroke=\"#3C5C8E\" stroke-width=\"3\"/><ellipse cx=\"252\" cy=\"90\" rx=\"26\" ry=\"7\" fill=\"#E4DECF\"/><ellipse cx=\"252\" cy=\"91\" rx=\"21\" ry=\"5\" fill=\"url(#i_tempeh_sam)\"/><ellipse cx=\"246\" cy=\"86\" rx=\"8\" ry=\"1.8\" fill=\"#fff\" opacity=\".35\"/><circle cx=\"60\" cy=\"140\" r=\"10\" fill=\"#F6E24B\"/><circle cx=\"60\" cy=\"140\" r=\"8\" fill=\"#FBF08A\"/><path d=\"M60 140L68.0 140.0\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L64.0 146.9\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L56.0 146.9\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L52.0 140.0\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L56.0 133.1\" stroke=\"#F0D63A\" stroke-width=\".9\"/><path d=\"M60 140L64.0 133.1\" stroke=\"#F0D63A\" stroke-width=\".9\"/>"
-  },
   "tienda": [
    [
     "La soja",
-    "«Soja amarilla seca, ecológica», sin cáscara, en herbolarios o tiendas de alimentación ecológica.",
+    "«soja amarilla seca, ecológica», sin cáscara, en herbolarios o tiendas de alimentación ecológica.",
     "soja"
    ],
    [
     "El fermento",
-    "«Fermento de tempeh (Rhizopus oligosporus)», solo se encuentra online o en tiendas especializadas. Un sobre da para varios lotes.",
+    "«fermento de tempeh (Rhizopus oligosporus)», solo online o en tiendas especializadas. Un sobre da para varios lotes.",
     "fermento"
    ]
   ]
@@ -11171,180 +11145,35 @@
   "n": "Ternasco de Aragón asado",
   "sub": "cordero joven con ajo, patatas panadera y su jugo",
   "reg": "ara",
-  "regs": [
-   "ara"
-  ],
   "lugar": "Aragón",
   "cat": "carne",
   "dif": 2,
   "b": 4,
   "rac": [
-   4
+   2,
+   4,
+   6
   ],
-  "intro": "El ternasco, cordero joven de Aragón, se asa con poco: ajo, un vaso de vino y patatas debajo que beben su jugo.",
-  "ing": [
-   [
-    "i0",
-    "1,2 kg de ternasco (paletilla o pierna)",
-    null,
-    null,
-    1,
-    "plano"
-   ],
-   [
-    "i1",
-    "800 g de patatas",
-    null,
-    null,
-    1,
-    "plano"
-   ],
-   [
-    "i2",
-    "1 cabeza de ajos",
-    null,
-    null,
-    1,
-    "plano"
-   ],
-   [
-    "i3",
-    "1 vaso de vino blanco",
-    null,
-    null,
-    1,
-    "plano"
-   ],
-   [
-    "i4",
-    "zumo de 1/2 limón",
-    null,
-    null,
-    1,
-    "plano"
-   ],
-   [
-    "i5",
-    "aceite, sal y pimienta",
-    null,
-    null,
-    1,
-    "plano"
-   ]
-  ],
-  "fases": [
+  "met": [
    {
-    "n": "Preparar",
-    "tipo": "tu",
-    "p": [
-     {
-      "t": "Adoba",
-      "m": 10,
-      "x": "Sala el ternasco con 1 cucharadita de sal, úntalo con 2 cucharadas de aceite y pimienta, y ponlo en la bandeja con la cabeza de ajos abierta por la mitad (sin pelar). Enciende el horno a 190 °C.",
-      "f": 0,
-      "tim": 10,
-      "e": {
-       "k": "plato",
-       "v": "llano",
-       "i": [
-        [
-         "cordero",
-         3
-        ],
-        [
-         "ajo",
-         4
-        ]
-       ],
-       "polvo": "#FFFFFF"
-      }
-     },
-     {
-      "t": "Patatas panadera",
-      "m": 10,
-      "x": "Pela 800 g de patatas y córtalas en rodajas de 1 cm, sálalas con 1 cucharadita de sal y colócalas debajo y alrededor de la carne.",
-      "ab": "Debajo de la carne para que beban el jugo.",
-      "f": 0,
-      "tim": 10,
-      "e": {
-       "k": "plato",
-       "v": "llano",
-       "i": [
-        [
-         "patata",
-         10
-        ],
-        [
-         "cordero",
-         3
-        ],
-        [
-         "ajo",
-         4
-        ]
-       ],
-       "polvo": "#FFFFFF"
-      }
-     }
-    ]
+    "id": "bandeja",
+    "n": "En bandeja de horno",
+    "d": "La clásica: patatas debajo bebiendo el jugo"
    },
    {
-    "n": "Asar",
-    "tipo": "tu",
-    "p": [
-     {
-      "t": "Horno",
-      "m": 50,
-      "x": "A 190 °C. Hornea con calor arriba y abajo y riega cada 15 minutos con una mezcla de 150 ml de vino blanco y el zumo de 1/2 limón.",
-      "f": 0,
-      "tim": 50,
-      "e": {
-       "k": "horno",
-       "t": "190 °C",
-       "d": "bandeja",
-       "i": [
-        [
-         "cordero",
-         3
-        ],
-        [
-         "patata",
-         6
-        ]
-       ],
-       "c": "#C0743A"
-      }
-     },
-     {
-      "t": "Vuelta",
-      "m": 35,
-      "x": "A 190 °C. Dale la vuelta a la carne, riega con su jugo y asa hasta que esté dorada y las patatas tiernas.",
-      "ab": "Si se secan las patatas, añade 100 ml de agua caliente.",
-      "f": 0,
-      "tim": 35,
-      "e": {
-       "k": "horno",
-       "t": "190 °C",
-       "d": "bandeja",
-       "i": [
-        [
-         "cordero",
-         3,
-         1,
-         "r-dorado"
-        ],
-        [
-         "patata",
-         6
-        ]
-       ],
-       "c": "#B5622E"
-      }
-     }
-    ]
+    "id": "barro",
+    "n": "En cazuela de barro tapada",
+    "d": "El jugo no se evapora; se destapa al final"
    }
   ],
-  "simple": 1,
+  "heroe": {
+   "k": "ilu",
+   "svg": "<defs><radialGradient id=\"i_ternasco_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_ternasco_fondo)\"/><defs><radialGradient id=\"i_ternasco_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"158\" rx=\"114\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.25\"/><ellipse cx=\"160\" cy=\"116\" rx=\"122\" ry=\"50\" fill=\"#D4CCBB\"/><ellipse cx=\"160\" cy=\"112\" rx=\"122\" ry=\"50\" fill=\"url(#i_ternasco_pl)\"/><ellipse cx=\"160\" cy=\"114\" rx=\"98\" ry=\"36\" fill=\"none\" style=\"stroke:var(--anil)\" stroke-width=\"3.5\"/><defs><radialGradient id=\"i_ternasco_ter\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#C88A48\"/><stop offset=\"1\" stop-color=\"#9C6228\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"112\" rx=\"96\" ry=\"30\" fill=\"#B0742E\" opacity=\".85\"/><g transform=\"translate(100 104) rotate(-14)\"><ellipse rx=\"13\" ry=\"8\" fill=\"#F2DEA0\"/><ellipse rx=\"13\" ry=\"8\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.4\"/></g><g transform=\"translate(124 122) rotate(8)\"><ellipse rx=\"13\" ry=\"8\" fill=\"#F2DEA0\"/><ellipse rx=\"13\" ry=\"8\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.4\"/></g><g transform=\"translate(206 118) rotate(-20)\"><ellipse rx=\"13\" ry=\"8\" fill=\"#F2DEA0\"/><ellipse rx=\"13\" ry=\"8\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.4\"/></g><g transform=\"translate(232 102) rotate(14)\"><ellipse rx=\"13\" ry=\"8\" fill=\"#F2DEA0\"/><ellipse rx=\"13\" ry=\"8\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.4\"/></g><g transform=\"translate(142 126) rotate(-4)\"><ellipse rx=\"13\" ry=\"8\" fill=\"#F2DEA0\"/><ellipse rx=\"13\" ry=\"8\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.4\"/></g><g transform=\"translate(162 96) rotate(-8)\"><ellipse rx=\"46\" ry=\"22\" fill=\"url(#i_ternasco_ter)\"/><ellipse cx=\"-6\" cy=\"-4\" rx=\"32\" ry=\"14\" fill=\"#D9A05A\"/><rect x=\"36\" y=\"-5\" width=\"22\" height=\"10\" rx=\"5\" fill=\"#EFE2C4\"/><circle cx=\"58\" cy=\"-5\" r=\"5.6\" fill=\"#F4EAD2\"/><circle cx=\"58\" cy=\"4\" r=\"5.6\" fill=\"#F4EAD2\"/></g><ellipse cx=\"96\" cy=\"124\" rx=\"7\" ry=\"5\" fill=\"#E8D4A8\"/><ellipse cx=\"96\" cy=\"123\" rx=\"4\" ry=\"2.6\" fill=\"#C8A468\"/><ellipse cx=\"222\" cy=\"126\" rx=\"7\" ry=\"5\" fill=\"#E8D4A8\"/><ellipse cx=\"222\" cy=\"125\" rx=\"4\" ry=\"2.6\" fill=\"#C8A468\"/><g transform=\"translate(252 90) rotate(40)\"><rect x=\"-14\" y=\"-1.2\" width=\"28\" height=\"2.4\" fill=\"#4E6A34\"/><path d=\"M-10 0l-3 -5M-10 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.5\"/><path d=\"M-4 0l-3 -5M-4 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.5\"/><path d=\"M2 0l-3 -5M2 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.5\"/><path d=\"M8 0l-3 -5M8 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.5\"/></g>"
+  },
+  "regs": [
+   "ara"
+  ],
+  "intro": "El ternasco, cordero joven de Aragón, se asa con poco: ajo, un vaso de vino y patatas debajo que beben su jugo. La paletilla queda más melosa; la pierna, más limpia de cortar.",
   "secretos": [
    [
     "Fuego parejo",
@@ -11355,23 +11184,155 @@
     "tapado con un paño 10 minutos antes de cortar."
    ],
    [
-    "Jugo",
+    "El jugo",
     "para las patatas, nunca se tira."
+   ],
+   [
+    "A gustos, colores",
+    "hay quien lo adoba desde la víspera con ajo y romero, quien pone unas rodajas de cebolla con las patatas, y quien termina con un chorrito de vinagre en vez de limón."
    ]
   ],
-  "heroe": {
-   "k": "ilu",
-   "svg": "<defs><radialGradient id=\"i_ternasco_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_ternasco_fondo)\"/><defs><radialGradient id=\"i_ternasco_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"158\" rx=\"114\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.25\"/><ellipse cx=\"160\" cy=\"116\" rx=\"122\" ry=\"50\" fill=\"#D4CCBB\"/><ellipse cx=\"160\" cy=\"112\" rx=\"122\" ry=\"50\" fill=\"url(#i_ternasco_pl)\"/><ellipse cx=\"160\" cy=\"114\" rx=\"98\" ry=\"36\" fill=\"none\" style=\"stroke:var(--anil)\" stroke-width=\"3.5\"/><defs><radialGradient id=\"i_ternasco_ter\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#C88A48\"/><stop offset=\"1\" stop-color=\"#9C6228\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"112\" rx=\"96\" ry=\"30\" fill=\"#B0742E\" opacity=\".85\"/><g transform=\"translate(100 104) rotate(-14)\"><ellipse rx=\"13\" ry=\"8\" fill=\"#F2DEA0\"/><ellipse rx=\"13\" ry=\"8\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.4\"/></g><g transform=\"translate(124 122) rotate(8)\"><ellipse rx=\"13\" ry=\"8\" fill=\"#F2DEA0\"/><ellipse rx=\"13\" ry=\"8\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.4\"/></g><g transform=\"translate(206 118) rotate(-20)\"><ellipse rx=\"13\" ry=\"8\" fill=\"#F2DEA0\"/><ellipse rx=\"13\" ry=\"8\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.4\"/></g><g transform=\"translate(232 102) rotate(14)\"><ellipse rx=\"13\" ry=\"8\" fill=\"#F2DEA0\"/><ellipse rx=\"13\" ry=\"8\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.4\"/></g><g transform=\"translate(142 126) rotate(-4)\"><ellipse rx=\"13\" ry=\"8\" fill=\"#F2DEA0\"/><ellipse rx=\"13\" ry=\"8\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.4\"/></g><g transform=\"translate(162 96) rotate(-8)\"><ellipse rx=\"46\" ry=\"22\" fill=\"url(#i_ternasco_ter)\"/><ellipse cx=\"-6\" cy=\"-4\" rx=\"32\" ry=\"14\" fill=\"#D9A05A\"/><rect x=\"36\" y=\"-5\" width=\"22\" height=\"10\" rx=\"5\" fill=\"#EFE2C4\"/><circle cx=\"58\" cy=\"-5\" r=\"5.6\" fill=\"#F4EAD2\"/><circle cx=\"58\" cy=\"4\" r=\"5.6\" fill=\"#F4EAD2\"/></g><ellipse cx=\"96\" cy=\"124\" rx=\"7\" ry=\"5\" fill=\"#E8D4A8\"/><ellipse cx=\"96\" cy=\"123\" rx=\"4\" ry=\"2.6\" fill=\"#C8A468\"/><ellipse cx=\"222\" cy=\"126\" rx=\"7\" ry=\"5\" fill=\"#E8D4A8\"/><ellipse cx=\"222\" cy=\"125\" rx=\"4\" ry=\"2.6\" fill=\"#C8A468\"/><g transform=\"translate(252 90) rotate(40)\"><rect x=\"-14\" y=\"-1.2\" width=\"28\" height=\"2.4\" fill=\"#4E6A34\"/><path d=\"M-10 0l-3 -5M-10 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.5\"/><path d=\"M-4 0l-3 -5M-4 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.5\"/><path d=\"M2 0l-3 -5M2 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.5\"/><path d=\"M8 0l-3 -5M8 0l-3 5\" stroke=\"#5E7E3E\" stroke-width=\"1.5\"/></g>"
-  },
+  "ing": [
+   [
+    "ternasco",
+    "ternasco en trozos grandes|ternasco en trozos grandes",
+    1200,
+    "g"
+   ],
+   [
+    "patata",
+    "patata panadera|patata panadera",
+    800,
+    "g"
+   ],
+   [
+    "ajo",
+    "cabeza de ajos|cabezas de ajos",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "vino",
+    "vino blanco|vino blanco",
+    150,
+    "ml"
+   ],
+   [
+    "limon",
+    "zumo de limón|zumo de limón",
+    30,
+    "ml"
+   ],
+   [
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    2,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ],
+   [
+    "pimienta",
+    "pimienta",
+    null
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Preparar",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Adoba",
+      "m": 10,
+      "x": "Sala {ternasco} y úntalo con {aceite} y pimienta, y ponlo en la bandeja o cazuela con {ajo} abierta por la mitad, sin pelar. Enciende el horno a 190 °C.",
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "cordero",
+         1
+        ]
+       ]
+      },
+      "ab": "La cabeza de ajos entera y sin pelar: da sabor sin quemarse."
+     },
+     {
+      "t": "Patatas panadera",
+      "m": 10,
+      "x": "Pela {patata}, córtala en rodajas de 1 cm, sálala y colócala debajo y alrededor de la carne.",
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "patata",
+         2
+        ]
+       ]
+      },
+      "ab": "Debajo de la carne, que beban el jugo."
+     }
+    ]
+   },
+   {
+    "n": "Asar",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Horno",
+      "m": 50,
+      "x": "Hornea a 190 °C con calor arriba y abajo, y riega cada 15 minutos con {vino} mezclado con {limon}.",
+      "tim": 15,
+      "e": {
+       "k": "horno",
+       "t": "190 °C",
+       "d": "bandeja"
+      },
+      "ab": "Regar cada cuarto de hora es lo que hace la piel tostada y el jugo."
+     },
+     {
+      "t": "Vuelta",
+      "m": 35,
+      "x": "Dale la vuelta a la carne, riega con su jugo y asa hasta que esté dorada y las patatas tiernas.",
+      "tim": 35,
+      "e": {
+       "k": "horno",
+       "t": "190 °C",
+       "d": "bandeja"
+      },
+      "ab": "Si las patatas se secan, añade un chorrito de agua caliente."
+     },
+     {
+      "t": "Dorado en barro",
+      "m": 15,
+      "x": "Destapa la cazuela, sube el horno a 200 °C y asa 15 minutos más, hasta que la piel dore.",
+      "tim": 15,
+      "solo": [
+       "barro"
+      ],
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "cazuela"
+      },
+      "ab": "El barro tapado guarda todo el jugo; el dorado llega al final."
+     }
+    ]
+   }
+  ],
   "tienda": [
    [
     "El ternasco",
-    "Pide «ternasco de Aragón, paletilla o pierna, en trozos grandes». Con la denominación Ternasco de Aragón, si lo tienen. Que lo corten en 4 o 6 trozos.",
+    "pide «ternasco de Aragón, paletilla o pierna, en trozos grandes». Con la denominación Ternasco de Aragón, si lo tienen. Que lo corten en 4 o 6 trozos.",
     "ternasco"
    ],
    [
     "Las patatas",
-    "Patatas de guisar o de freír, de tamaño medio, que se cortan en rodajas gruesas.",
+    "patatas de guisar, de tamaño medio, que aguantan el horno sin romperse.",
     "patatas"
    ]
   ]

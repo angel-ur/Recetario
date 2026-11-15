@@ -11214,5 +11214,369 @@
     ]
    }
   ]
+ },
+ {
+  "id": "tempeh",
+  "n": "Tempeh casero",
+  "sub": "soja fermentada: seca bien y mantén el calor",
+  "reg": "w-IDN",
+  "lugar": "Indonesia, Java",
+  "cat": "huerta",
+  "dif": 3,
+  "b": 6,
+  "rac": [
+   3,
+   6,
+   9
+  ],
+  "met": [
+   {
+    "id": "horno",
+    "n": "En el horno con la luz",
+    "d": "Apagado, solo con la luz: da 28-30 °C"
+   },
+   {
+    "id": "yogurtera",
+    "n": "Con yogurtera o deshidratador",
+    "d": "Temperatura fija, la más fácil"
+   },
+   {
+    "id": "casa",
+    "n": "Sin aparatos",
+    "d": "El rincón más cálido: radiador o sobre la nevera"
+   }
+  ],
+  "ing": [
+   [
+    "soja",
+    "soja amarilla seca|soja amarilla seca",
+    500,
+    "g"
+   ],
+   [
+    "fermento",
+    "fermento de tempeh|fermento de tempeh",
+    0.5,
+    "cdta",
+    0.5
+   ],
+   [
+    "vinagre",
+    "vinagre blanco o de manzana|vinagre blanco o de manzana",
+    2,
+    "cda"
+   ],
+   [
+    "agua",
+    "agua|agua",
+    2500,
+    "ml"
+   ],
+   [
+    "material1",
+    "2 bolsas zip y un palillo o tenedor para los agujeros",
+    null
+   ],
+   [
+    "material2",
+    "un sitio cálido a 28-30 °C",
+    null
+   ],
+   [
+    "material3",
+    "termómetro de cocina (muy recomendable)",
+    null
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Preparar la soja",
+    "p": [
+     {
+      "t": "Remojo",
+      "m": 720,
+      "x": "La noche antes: pon {soja} en un bol grande, frota puñados entre las manos para partirla y cubre con {agua} fría. Deja de 8 a 12 horas.",
+      "ab": "El remojo largo también vuelve el agua ligeramente ácida, que es lo que quiere la fermentación. Por eso luego va un chorrito de vinagre.",
+      "e": {
+       "k": "remojo",
+       "t": "12 h"
+      }
+     },
+     {
+      "t": "Descascarilla",
+      "m": 15,
+      "x": "Agita la soja con fuerza en el agua del remojo: las pieles suben y las retiras. Repite 3 o 4 veces. Quitar la mayoría basta.",
+      "e": {
+       "k": "remojo",
+       "t": "a mano"
+      }
+     },
+     {
+      "t": "Cuece",
+      "m": 45,
+      "tim": 45,
+      "f": 2,
+      "x": "Hierve la soja en agua limpia sin sal de 25 a 45 minutos, hasta que esté tierna pero con mordida, no blanda. Retira la espuma que suba y escurre bien.",
+      "ab": "Si la cueces demasiado, el tempeh queda pastoso. Mejor un punto firme.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "vapor": 1
+      }
+     },
+     {
+      "t": "Seca muy bien",
+      "m": 20,
+      "tim": 20,
+      "x": "Este es el paso crítico: vuelca la soja sobre un trapo limpio y frota hasta que la superficie esté seca al tacto. Deja enfriar hasta que esté templada, no caliente.",
+      "ab": "La humedad es el enemigo número uno, y el calor mata el fermento.",
+      "e": {
+       "k": "tabla"
+      }
+     }
+    ]
+   },
+   {
+    "n": "Inocular y embolsar",
+    "p": [
+     {
+      "t": "Inocula",
+      "m": 5,
+      "x": "En un bol seco, mezcla la soja con {vinagre}. Espolvorea {fermento} por encima y mezcla a fondo 1 minuto para repartirlo bien.",
+      "ab": "Poco fermento y bien repartido: más fermento no da mejor tempeh.",
+      "e": {
+       "k": "tabla"
+      }
+     },
+     {
+      "t": "Embolsa",
+      "m": 10,
+      "x": "Reparte en bolsas zip y aplana en una capa uniforme de unos 2 cm. Pincha agujeros por las dos caras cada 2,5 cm más o menos.",
+      "ab": "Los agujeros son los pulmones del tempeh: el hongo respira por ahí.",
+      "e": {
+       "k": "tabla"
+      }
+     }
+    ]
+   },
+   {
+    "n": "Fermentar",
+    "p": [
+     {
+      "t": "Fermenta en el horno",
+      "m": 2160,
+      "solo": [
+       "horno"
+      ],
+      "x": "Pon las bolsas separadas y elevadas sobre una rejilla en el horno apagado, solo con la luz encendida. A las 12 horas verás pelusa blanca y empezará a calentarse sola: apaga entonces la luz, porque si pasa de 37 °C el hongo muere. Está listo a las 36-48 horas, cuando el bloque es sólido y blanco y todos los huecos están rellenos.",
+      "ab": "Comprueba con el termómetro que no pase de 32 °C mientras la luz está encendida.",
+      "e": {
+       "k": "horno",
+       "t": "30 °C"
+      }
+     },
+     {
+      "t": "Fermenta con yogurtera",
+      "m": 2160,
+      "solo": [
+       "yogurtera"
+      ],
+      "x": "Pon las bolsas separadas en la yogurtera o el deshidratador a 30 °C. A las 12 horas verás pelusa blanca y empezará a calentarse sola: baja entonces al mínimo o apaga, porque si pasa de 37 °C el hongo muere. Está listo a las 36-48 horas, cuando el bloque es sólido y blanco.",
+      "ab": "La yogurtera es lo más fácil: temperatura fija y te olvidas.",
+      "e": {
+       "k": "horno",
+       "t": "30 °C"
+      }
+     },
+     {
+      "t": "Fermenta sin aparatos",
+      "m": 4320,
+      "solo": [
+       "casa"
+      ],
+      "x": "Pon las bolsas separadas y elevadas en el rincón más cálido de casa (junto al radiador o sobre la nevera), tapadas con un trapo limpio. Tardará más: está listo a las 48-72 horas, cuando el bloque es sólido y blanco. Si pasa de 37 °C, aléjalo del calor.",
+      "ab": "En Java lo envuelven en hoja de plátano agujereada y lo dejan en un sitio cálido dos noches: el aire tiene que correr.",
+      "e": {
+       "k": "tabla"
+      }
+     },
+     {
+      "t": "Guarda",
+      "m": 30,
+      "tim": 15,
+      "x": "Si lo vas a comer en 3 o 4 días, a la nevera tal cual. Para congelar: vapor 15 minutos, enfriar y al congelador, hasta 3 meses, cortado antes en porciones.",
+      "ab": "Siempre se cocina antes de comer: salteado, frito o al horno.",
+      "e": {
+       "k": "plato",
+       "v": "cuenco",
+       "i": [
+        [
+         "tempeh",
+         2
+        ]
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ternasco",
+  "n": "Ternasco de Aragón asado",
+  "sub": "cordero joven con ajo, patatas panadera y su jugo",
+  "reg": "ara",
+  "lugar": "Aragón",
+  "cat": "carne",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "met": [
+   {
+    "id": "bandeja",
+    "n": "En bandeja de horno",
+    "d": "La clásica: patatas debajo bebiendo el jugo"
+   },
+   {
+    "id": "barro",
+    "n": "En cazuela de barro tapada",
+    "d": "El jugo no se evapora; se destapa al final"
+   }
+  ],
+  "ing": [
+   [
+    "ternasco",
+    "ternasco en trozos grandes|ternasco en trozos grandes",
+    1200,
+    "g"
+   ],
+   [
+    "patata",
+    "patata panadera|patata panadera",
+    800,
+    "g"
+   ],
+   [
+    "ajo",
+    "cabeza de ajos|cabezas de ajos",
+    1,
+    "ud",
+    0.5
+   ],
+   [
+    "vino",
+    "vino blanco|vino blanco",
+    150,
+    "ml"
+   ],
+   [
+    "limon",
+    "zumo de limón|zumo de limón",
+    30,
+    "ml"
+   ],
+   [
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    2,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ],
+   [
+    "pimienta",
+    "pimienta",
+    null
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Preparar",
+    "p": [
+     {
+      "t": "Adoba",
+      "m": 10,
+      "x": "Sala {ternasco} y úntalo con {aceite} y pimienta, y ponlo en la bandeja o cazuela con {ajo} abierta por la mitad, sin pelar. Enciende el horno a 190 °C.",
+      "ab": "La cabeza de ajos entera y sin pelar: da sabor sin quemarse.",
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "cordero",
+         1
+        ]
+       ]
+      }
+     },
+     {
+      "t": "Patatas panadera",
+      "m": 10,
+      "x": "Pela {patata}, córtala en rodajas de 1 cm, sálala y colócala debajo y alrededor de la carne.",
+      "ab": "Debajo de la carne, que beban el jugo.",
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "patata",
+         2
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "n": "Asar",
+    "p": [
+     {
+      "t": "Horno",
+      "m": 50,
+      "tim": 15,
+      "x": "Hornea a 190 °C con calor arriba y abajo, y riega cada 15 minutos con {vino} mezclado con {limon}.",
+      "ab": "Regar cada cuarto de hora es lo que hace la piel tostada y el jugo.",
+      "e": {
+       "k": "horno",
+       "t": "190 °C",
+       "d": "bandeja"
+      }
+     },
+     {
+      "t": "Vuelta",
+      "m": 35,
+      "tim": 35,
+      "x": "Dale la vuelta a la carne, riega con su jugo y asa hasta que esté dorada y las patatas tiernas.",
+      "ab": "Si las patatas se secan, añade un chorrito de agua caliente.",
+      "e": {
+       "k": "horno",
+       "t": "190 °C",
+       "d": "bandeja"
+      }
+     },
+     {
+      "t": "Dorado en barro",
+      "m": 15,
+      "tim": 15,
+      "solo": [
+       "barro"
+      ],
+      "x": "Destapa la cazuela, sube el horno a 200 °C y asa 15 minutos más, hasta que la piel dore.",
+      "ab": "El barro tapado guarda todo el jugo; el dorado llega al final.",
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "cazuela"
+      }
+     }
+    ]
+   }
+  ]
  }
 ]
