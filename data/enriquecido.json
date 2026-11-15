@@ -676,7 +676,7 @@
    ],
    [
     "tomate",
-    "tomate maduro|tomates maduros",
+    "tomate maduro rallado|tomates maduros rallados",
     1,
     "ud",
     0.5
@@ -731,7 +731,7 @@
       "m": 8,
       "tim": 5,
       "f": 2,
-      "x": "En una sartén pequeña con {aceite}, dora a fuego suave {ajo} laminados. Añade {tomate} rallado y deja que se haga cinco minutos. Aparta del fuego y añade {pimenton}.",
+      "x": "En una sartén pequeña con {aceite}, dora a fuego suave {ajo} laminados, sin que cojan color. Añade {tomate} y deja que se haga cinco minutos. Aparta del fuego y añade {pimenton}.",
       "ab": "El pimentón, siempre con el fuego apagado: en un segundo se quema y amarga todo el guiso.",
       "e": {
        "k": "fuego",
@@ -828,6 +828,37 @@
       }
      },
      {
+      "t": "Cierra la exprés",
+      "m": 12,
+      "tim": 12,
+      "f": 2,
+      "solo": [
+       "expres"
+      ],
+      "x": "Ponlo a fuego fuerte y, cuando rompa a hervir, cierra la olla exprés. Desde que suba la válvula, cuece 12 minutos a fuego medio-bajo y deja que pierda la presión sola antes de abrir.",
+      "ab": "Con la exprés no hace falta asustarlas: la presión hace el trabajo.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#7A5235",
+       "i": [
+        [
+         "lenteja",
+         26
+        ],
+        [
+         "zanahoria",
+         4
+        ],
+        [
+         "chorizo",
+         4
+        ]
+       ]
+      }
+     },
+     {
       "t": "Patata chascada y refrito",
       "m": 3,
       "f": 2,
@@ -913,7 +944,66 @@
          "rf": 0.2
         }
        }
-      }
+      },
+      "solo": [
+       "olla"
+      ]
+     },
+     {
+      "t": "Abre y termina",
+      "m": 10,
+      "tim": 10,
+      "w": 1,
+      "f": 2,
+      "x": "Con la presión ya soltada, abre la olla y deja que siga a fuego suave unos diez minutos, hasta que la patata esté tierna. Si se queda corto de caldo, añade agua caliente.",
+      "ab": "Prueba una lenteja: tiene que estar mantecosa, sin punto duro.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#8A4A2E",
+       "i": [
+        [
+         "lenteja",
+         22
+        ],
+        [
+         "chorizo",
+         4
+        ],
+        [
+         "patata",
+         4
+        ],
+        [
+         "zanahoria",
+         3
+        ]
+       ],
+       "tapa": 2
+      },
+      "alt": {
+       "expres": {
+        "t": "Cierra la olla exprés",
+        "m": 25,
+        "tim": 12,
+        "f": 3,
+        "x": "Cierra la olla y ponla a fuego fuerte. Cuando suba la válvula, baja el fuego y cuenta doce minutos. Apaga y deja que baje la presión sola.",
+        "ab": "En olla exprés basta con que el agua cubra dos dedos por encima: casi no se evapora.",
+        "e": {
+         "k": "fuego",
+         "v": "olla",
+         "f": 3,
+         "tapa": 1,
+         "vapor": 1,
+         "reloj": "12 min",
+         "rf": 0.2
+        }
+       }
+      },
+      "solo": [
+       "expres"
+      ]
      }
     ]
    },
@@ -1177,7 +1267,51 @@
         "tomate",
         "pimiento"
        ]
-      }
+      },
+      "solo": [
+       "batidora"
+      ]
+     },
+     {
+      "t": "Tritura en el robot",
+      "m": 5,
+      "f": 0,
+      "x": "Tritura las verduras con el pan escurrido, {vinagre} y sal a velocidad máxima unos 2 minutos, hasta que no quede ningún trozo.",
+      "ab": "El robot lo deja finísimo; aun así, colado gana mucho.",
+      "e": {
+       "k": "bol",
+       "c": "#E0552F",
+       "i": [
+        [
+         "tomate",
+         2
+        ],
+        [
+         "pepino",
+         2
+        ]
+       ],
+       "cae": [
+        "tomate",
+        "pimiento"
+       ]
+      },
+      "solo": [
+       "robot"
+      ]
+     },
+     {
+      "t": "Maja en el mortero",
+      "m": 15,
+      "f": 0,
+      "x": "Maja en el mortero {ajo} con sal gruesa, añade las verduras poco a poco machacando bien, y luego el pan escurrido y {vinagre}, hasta tener una pasta fina.",
+      "ab": "Al mortero es otro gazpacho: más textura y más aliciente. Si lo quieres fino fino, pásalo luego por el colador.",
+      "e": {
+       "k": "mortero"
+      },
+      "solo": [
+       "mortero"
+      ]
      },
      {
       "t": "Emulsiona con el aceite",
@@ -1189,7 +1323,39 @@
        "k": "bol",
        "c": "#E9733F",
        "vierte": "aceite"
-      }
+      },
+      "solo": [
+       "batidora"
+      ]
+     },
+     {
+      "t": "Emulsiona en el robot",
+      "m": 3,
+      "f": 0,
+      "x": "Con el robot en marcha a velocidad media, añade {aceite} en un hilo fino por el bocal. El color se vuelve anaranjado y la textura, cremosa.",
+      "ab": "El aceite al final y poco a poco es lo que hace que emulsione. Si lo echas de golpe, se separa.",
+      "e": {
+       "k": "bol",
+       "c": "#E9733F",
+       "vierte": "aceite"
+      },
+      "solo": [
+       "robot"
+      ]
+     },
+     {
+      "t": "Emulsiona en el mortero",
+      "m": 5,
+      "f": 0,
+      "x": "Sin dejar de darle con la mano del mortero, añade {aceite} en un hilo fino, como para una mayonesa. El color se vuelve anaranjado y la textura, cremosa.",
+      "ab": "Como una mayonesa: el hilo fino y sin parar de remover, que si no se corta.",
+      "e": {
+       "k": "mortero",
+       "vierte": "aceite"
+      },
+      "solo": [
+       "mortero"
+      ]
      },
      {
       "t": "Cuela",
@@ -1268,6 +1434,23 @@
     "De un día para otro",
     "Aguanta perfecto dos días en la nevera, y al segundo está más redondo."
    ]
+  ],
+  "met": [
+   {
+    "id": "batidora",
+    "n": "Con batidora o turmix",
+    "d": "La de hoy: fina y emulsionada"
+   },
+   {
+    "id": "robot",
+    "n": "Con Thermomix o robot",
+    "d": "Velocidad máxima y listo"
+   },
+   {
+    "id": "mortero",
+    "n": "Al mortero, la antigua",
+    "d": "Sin aparatos: textura de antes"
+   }
   ]
  },
  {

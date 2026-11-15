@@ -3,6 +3,8 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Lentejas estofadas: las cantidades ya se ajustan también dentro de los pasos, la olla exprés por fin tiene sus pasos propios (12 minutos con presión y terminar abierta) y secretos con las variantes de cada casa.
+- Gazpacho andaluz: las cantidades ya se ajustan también dentro de los pasos, y nuevo selector "Cómo lo vas a hacer" con tres formas: batidora o turmix, Thermomix o robot, o al mortero, la antigua, cada una con sus pasos. Secretos con variantes (sin pan, con cebolla dulce, o el salmorejo de Córdoba).
 - Tortilla de patatas: las cantidades ya se ajustan también dentro de los pasos, y nuevo selector "Cómo lo vas a hacer" con las dos de siempre: con cebolla (la de casa, más jugosa) o sin cebolla (la de los puristas), cada una con sus pasos propios. Secretos con las variantes de cada casa.
 - Croquetas de jamón: las cantidades ya se ajustan también dentro de los pasos, y nuevo selector "Cómo lo vas a hacer": fritas en sartén, las de siempre, o al horno o freidora de aire, sin freír. Secretos con las variantes de cada casa.
 - Tempeh casero rehecho como el pil pil: la soja y el fermento se ajustan a la tanda que hagas (3, 6 o 9 raciones) y tres formas de fermentar a elegir (el horno apagado con la luz, la yogurtera o deshidratador, o el rincón más cálido de casa), cada una con sus tiempos y avisos.
