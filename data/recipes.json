@@ -4024,105 +4024,129 @@
   "n": "Empanada gallega de atún",
   "sub": "masa de aceite y un sofrito largo de cebolla y pimiento",
   "reg": "gal",
-  "regs": [
-   "gal"
-  ],
   "lugar": "Galicia",
   "cat": "picar",
   "dif": 2,
   "b": 8,
   "rac": [
+   4,
+   6,
    8
   ],
-  "intro": "La empanada de las romerías y de las comidas de domingo: una masa fina y un relleno que se cuece despacio hasta quedar jugoso, sin que moje la base.",
+  "met": [
+   {
+    "id": "bandeja",
+    "n": "A mano, en bandeja",
+    "d": "La de romería: amasado a mano, rectangular"
+   },
+   {
+    "id": "molde",
+    "n": "A mano, en molde redondo",
+    "d": "La de la panadería, alta y redonda"
+   },
+   {
+    "id": "maquina",
+    "n": "Con panificadora",
+    "d": "La masa se amasa sola"
+   }
+  ],
+  "heroe": {
+   "k": "ilu",
+   "svg": "<defs><radialGradient id=\"i_empanadagallega_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_empanadagallega_fondo)\"/><defs><radialGradient id=\"i_empanadagallega_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_empanadagallega_masa\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#EEC072\"/><stop offset=\"1\" stop-color=\"#C4883A\"/></linearGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"110\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.25\"/><ellipse cx=\"160\" cy=\"112\" rx=\"118\" ry=\"52\" fill=\"#D4CCBB\"/><ellipse cx=\"160\" cy=\"108\" rx=\"118\" ry=\"52\" fill=\"url(#i_empanadagallega_pl)\"/><ellipse cx=\"160\" cy=\"110\" rx=\"94\" ry=\"38\" fill=\"none\" style=\"stroke:var(--anil)\" stroke-width=\"3.5\"/><g transform=\"translate(238 112) rotate(24)\"><path d=\"M0 0 L34 -8 L34 16 L0 22 Z\" fill=\"#C4883A\"/><path d=\"M2 3 L32 -4 L32 0 L2 8 Z\" fill=\"#B8582E\"/><path d=\"M4 5q8 -2 14 -3\" stroke=\"#7DAB52\" stroke-width=\"2.4\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M0 0 L34 -8 L30 -12 L-2 -3 Z\" fill=\"#E8B96A\"/></g><g transform=\"translate(148 100)\"><ellipse rx=\"72\" ry=\"34\" fill=\"url(#i_empanadagallega_masa)\"/><path d=\"M20 -30 A72 34 0 0 1 66 -14 L0 2 Z\" fill=\"url(#mesaGrad)\"/><ellipse rx=\"72\" ry=\"34\" fill=\"none\" stroke=\"#A96A28\" stroke-width=\"1.6\" opacity=\".5\"/><circle cx=\"64.0\" cy=\"0.0\" r=\"3.4\" fill=\"#C4883A\"/><circle cx=\"10.9\" cy=\"29.6\" r=\"3.4\" fill=\"#C4883A\"/><circle cx=\"-11.4\" cy=\"29.5\" r=\"3.4\" fill=\"#C4883A\"/><circle cx=\"-32.3\" cy=\"25.9\" r=\"3.4\" fill=\"#C4883A\"/><circle cx=\"-49.3\" cy=\"19.1\" r=\"3.4\" fill=\"#C4883A\"/><circle cx=\"-60.3\" cy=\"10.0\" r=\"3.4\" fill=\"#C4883A\"/><circle cx=\"-64.0\" cy=\"-0.3\" r=\"3.4\" fill=\"#C4883A\"/><path d=\"M-46 -12 q20 -10 44 -6 M-52 2 q22 -10 50 -6 M-40 14 q18 -8 40 -6\" stroke=\"#B87E3E\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" opacity=\".8\"/><ellipse cx=\"-4\" cy=\"0\" rx=\"5\" ry=\"3\" fill=\"#8A5220\"/><ellipse cx=\"-5\" cy=\"-0.6\" rx=\"2.4\" ry=\"1.4\" fill=\"#5E3010\"/><ellipse cx=\"-20\" cy=\"-14\" rx=\"20\" ry=\"3\" fill=\"#fff\" opacity=\".28\"/></g><g transform=\"translate(70 142)\"><circle r=\"11\" fill=\"none\" stroke=\"#B3341F\" stroke-width=\"4.5\"/><circle r=\"11\" fill=\"none\" stroke=\"#8E2416\" stroke-width=\"1.2\"/></g>"
+  },
+  "regs": [
+   "gal"
+  ],
+  "intro": "La empanada de las romerías y de los domingos: masa fina de aceite y un relleno que se cuece despacio hasta quedar jugoso, sin mojar la base. Mejor al día siguiente, templada.",
+  "secretos": [
+   [
+    "Masa fina, relleno jugoso",
+    "lo que manda es el sofrito: si el relleno está bueno a cucharadas, la empanada está hecha."
+   ],
+   [
+    "Mejor al día siguiente",
+    "reposada una noche, la masa se asienta y el relleno se junta. Fría de nevera, no: templada."
+   ],
+   [
+    "A gustos, colores",
+    "de bonito del norte en vez de atún, con unas pasas y piñones en el sofrito (muy de Pontevedra), con berberechos, o de zorza si la quieres de carne. Cada casa, la suya."
+   ],
+   [
+    "La chimenea",
+    "el agujerito del centro no es adorno: por ahí sale el vapor y la tapa queda crujiente."
+   ]
+  ],
   "ing": [
    [
-    "i0",
-    "500 g de harina de trigo",
-    null,
-    null,
-    1,
-    "plano"
+    "harina",
+    "harina de trigo|harina de trigo",
+    500,
+    "g"
    ],
    [
-    "i1",
-    "250 ml de agua templada",
-    null,
-    null,
-    1,
-    "plano"
+    "agua",
+    "agua templada|agua templada",
+    250,
+    "ml"
    ],
    [
-    "i2",
-    "60 ml de aceite de oliva suave",
-    null,
-    null,
-    1,
-    "plano"
+    "aceite",
+    "aceite de oliva suave|aceite de oliva suave",
+    135,
+    "ml"
    ],
    [
-    "i3",
-    "1 cucharadita de sal",
-    null,
-    null,
+    "sal",
+    "sal|sal",
     1,
-    "plano"
+    "cdta"
    ],
    [
-    "i4",
-    "3 cebollas grandes",
-    null,
-    null,
-    1,
-    "plano"
+    "cebolla",
+    "cebolla grande|cebollas grandes",
+    3,
+    "ud",
+    0.5
    ],
    [
-    "i5",
-    "2 pimientos (uno rojo, uno verde)",
-    null,
-    null,
-    1,
-    "plano"
+    "pimiento",
+    "pimiento carnoso|pimientos carnosos",
+    2,
+    "ud",
+    0.5
    ],
    [
-    "i6",
-    "3 cucharadas de tomate frito",
-    null,
-    null,
+    "pimenton",
+    "pimentón dulce|pimentón dulce",
     1,
-    "plano"
+    "cdta"
    ],
    [
-    "i7",
-    "3 latas de atún en aceite o bonito",
-    null,
-    null,
-    1,
-    "plano"
+    "tomate",
+    "tomate frito|tomate frito",
+    3,
+    "cda"
    ],
    [
-    "i8",
-    "2 huevos duros",
-    null,
-    null,
-    1,
-    "plano"
+    "atun",
+    "lata de atún|latas de atún",
+    3,
+    "ud",
+    1
    ],
    [
-    "i9",
-    "1 huevo para pintar",
-    null,
-    null,
-    1,
-    "plano"
+    "huevoduro",
+    "huevo duro|huevos duros",
+    2,
+    "ud",
+    1
    ],
    [
-    "i10",
-    "aceite de oliva y pimentón",
-    null,
-    null,
+    "huevopintar",
+    "huevo|huevo",
     1,
-    "plano"
+    "ud",
+    1
    ]
   ],
   "fases": [
@@ -4131,30 +4155,60 @@
     "tipo": "tu",
     "p": [
      {
-      "t": "Amasa",
+      "t": "Amasa a mano",
       "m": 15,
-      "x": "Mezcla 500 g de harina, 1 cucharadita de sal, 250 ml de agua templada y 60 ml de aceite. Amasa 10 minutos hasta que no se pegue.",
-      "ab": "Tiene que quedar blanda y elástica, como el lóbulo de la oreja.",
-      "f": 0,
+      "x": "Mezcla {harina} con {sal}, {agua} y un chorro generoso del aceite (deja la mayor parte para el sofrito). Amasa 10 minutos, hasta que no se pegue a las manos.",
       "tim": 15,
+      "solo": [
+       "bandeja",
+       "molde"
+      ],
       "e": {
-       "k": "bol",
-       "c": "#F3E7C6",
-       "i": [],
-       "tenedor": 1
-      }
+       "k": "tabla",
+       "i": [
+        [
+         "pan",
+         1
+        ]
+       ]
+      },
+      "ab": "Tiene que quedar blanda y elástica, como el lóbulo de la oreja. Si se pega, un puñadito más de harina; si se rompe, un chorrito de agua."
      },
      {
-      "t": "Reposo",
-      "m": 45,
-      "x": "Tápala y déjala reposar en un sitio templado.",
-      "f": 0,
-      "tim": 45,
+      "t": "En panificadora o amasadora",
+      "m": 10,
+      "x": "Pon {harina}, {sal}, {agua} y un chorro del aceite en la cubeta y programa amasado 10 minutos (en amasadora con gancho, 5-6 a velocidad baja). Debe quedar lisa y elástica.",
+      "tim": 10,
+      "solo": [
+       "maquina"
+      ],
       "e": {
-       "k": "bol",
-       "c": "#F3E7C6",
-       "i": []
-      }
+       "k": "tabla",
+       "i": [
+        [
+         "pan",
+         1
+        ]
+       ]
+      },
+      "ab": "La máquina amasa, pero el punto lo das tú: si la ves pegajosa, un puñadito de harina."
+     },
+     {
+      "t": "Reposo de la masa",
+      "m": 45,
+      "x": "Haz una bola, tápala con un paño y déjala reposar 45 minutos en un sitio templado. Después se estira sin pelear.",
+      "tim": 45,
+      "w": 1,
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "pan",
+         1
+        ]
+       ]
+      },
+      "ab": "El reposo no es opcional: sin él, la masa encoge al estirarla."
      }
     ]
    },
@@ -4165,52 +4219,47 @@
      {
       "t": "Sofrito largo",
       "m": 40,
-      "x": "Pica las 3 cebollas y los 2 pimientos fino y pocha a fuego suave con 5 cucharadas de aceite 35-40 minutos, hasta que estén muy tiernos. Retira del fuego, añade 1 cucharadita de pimentón y las 3 cucharadas de tomate.",
-      "ab": "Sin prisa: la cebolla tiene que deshacerse. Si queda cruda por dentro, la empanada sale dura.",
-      "f": 2,
+      "x": "Pica {cebolla} y {pimiento} finito y pocha en el resto del aceite a fuego suave 35-40 minutos, hasta que la cebolla se deshaga. Fuera del fuego, añade {pimenton} y {tomate}.",
       "tim": 40,
+      "f": 1,
       "e": {
        "k": "fuego",
        "v": "sarten",
-       "f": 2,
-       "c": "#E3C062",
+       "f": 1,
+       "c": "#C77B3B",
        "i": [
         [
          "cebolla",
-         9,
-         1,
-         "o-pochada"
+         3
         ],
         [
          "pimiento",
-         5
+         2
         ]
        ],
-       "cuchara": 1
-      }
+       "vapor": 1
+      },
+      "ab": "Sin prisa: la cebolla tiene que deshacerse. Si queda cruda por dentro, la empanada sale correosa."
      },
      {
-      "t": "Une el atún",
+      "t": "Atún y huevo",
       "m": 5,
-      "x": "Fuera del fuego, mezcla las 3 latas de atún desmenuzado y los 2 huevos duros picados. Deja templar.",
-      "ab": "Rellena siempre con el relleno frío, o la masa se reblandece.",
-      "f": 0,
+      "x": "Fuera del fuego, mezcla {atun}, bien escurridas, y {huevoduro} en trocitos. Deja templar el relleno antes de montar.",
       "tim": 5,
       "e": {
-       "k": "bol",
-       "c": "#E6C39A",
+       "k": "tabla",
        "i": [
         [
          "atun",
-         4
+         2
         ],
         [
          "huevo",
-         3
+         1
         ]
-       ],
-       "tenedor": 1
-      }
+       ]
+      },
+      "ab": "Rellena con el relleno frío o templado, nunca caliente: si no, ablanda la masa y la rompe."
      }
     ]
    },
@@ -4221,83 +4270,70 @@
      {
       "t": "Estira y rellena",
       "m": 10,
-      "x": "Divide la masa en dos (una algo más grande para la base), estira muy fina (2 mm), pon una en la bandeja, extiende el relleno y tapa con la otra.",
-      "f": 0,
+      "x": "Divide la masa en dos (una algo mayor para la base) y estira fina, de unos 2 mm. Pon la base en la bandeja o el molde, extiende el relleno sin llegar al borde y tapa con la otra masa.",
       "tim": 10,
       "e": {
-       "k": "formar"
-      }
-     },
-     {
-      "t": "Cierra",
-      "m": 5,
-      "x": "Dobla el borde hacia dentro y repúlgalo: pellizca y gira el borde con los dedos, formando una cuerda. Haz un agujero en el centro y pinta con el huevo batido.",
-      "ab": "El agujero deja salir el vapor. Con un trocito de masa se hace el adorno del centro.",
-      "f": 0,
-      "tim": 5,
-      "e": {
-       "k": "plato",
-       "v": "llano",
+       "k": "tabla",
        "i": [
         [
          "empanada",
          1
         ]
-       ],
-       "c": "#D9A441"
-      }
+       ]
+      },
+      "ab": "Masa fina: lo que se nota al comer es el relleno, no el pan."
+     },
+     {
+      "t": "Cierra y pinta",
+      "m": 5,
+      "x": "Dobla el borde hacia dentro y repulga: pellizca y gira formando una cuerda. Haz un agujero en el centro para que salga el vapor y pinta con {huevopintar} batido.",
+      "tim": 5,
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "empanada",
+         1
+        ],
+        [
+         "huevo",
+         1
+        ]
+       ]
+      },
+      "ab": "El agujero del centro es la chimenea: por ahí sale el vapor y la tapa queda crujiente. Con un recorte de masa, el adorno."
      },
      {
       "t": "Hornea",
       "m": 40,
-      "x": "A 200 °C. Hornea a 200 °C, calor arriba y abajo, hasta que esté bien dorada. Deja templar antes de cortar.",
-      "f": 0,
+      "x": "Hornea a 200 °C, calor arriba y abajo, 35-40 minutos, hasta que esté bien dorada. Deja templar al menos 20 minutos antes de cortar.",
       "tim": 40,
+      "w": 1,
       "e": {
        "k": "horno",
        "t": "200 °C",
-       "d": "bandeja",
-       "i": [
-        [
-         "empanada",
-         1
-        ]
-       ],
-       "c": "#D9A441"
-      }
+       "d": "bandeja"
+      },
+      "ab": "Cortada en caliente se desmiguela: con paciencia y cuchillo de sierra."
      }
     ]
    }
   ],
-  "simple": 1,
-  "secretos": [
-   [
-    "Masa fina",
-    "lo que se nota al comer es el relleno, no el pan."
-   ],
-   [
-    "Del día anterior",
-    "reposada una noche está mejor."
-   ],
-   [
-    "Frío no, templado",
-    "cortada con paciencia, sin que se desmigue."
-   ]
-  ],
-  "heroe": {
-   "k": "ilu",
-   "svg": "<defs><radialGradient id=\"i_empanadagallega_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_empanadagallega_fondo)\"/><defs><radialGradient id=\"i_empanadagallega_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_empanadagallega_masa\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#EEC072\"/><stop offset=\"1\" stop-color=\"#C4883A\"/></linearGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"110\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.25\"/><ellipse cx=\"160\" cy=\"112\" rx=\"118\" ry=\"52\" fill=\"#D4CCBB\"/><ellipse cx=\"160\" cy=\"108\" rx=\"118\" ry=\"52\" fill=\"url(#i_empanadagallega_pl)\"/><ellipse cx=\"160\" cy=\"110\" rx=\"94\" ry=\"38\" fill=\"none\" style=\"stroke:var(--anil)\" stroke-width=\"3.5\"/><g transform=\"translate(238 112) rotate(24)\"><path d=\"M0 0 L34 -8 L34 16 L0 22 Z\" fill=\"#C4883A\"/><path d=\"M2 3 L32 -4 L32 0 L2 8 Z\" fill=\"#B8582E\"/><path d=\"M4 5q8 -2 14 -3\" stroke=\"#7DAB52\" stroke-width=\"2.4\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M0 0 L34 -8 L30 -12 L-2 -3 Z\" fill=\"#E8B96A\"/></g><g transform=\"translate(148 100)\"><ellipse rx=\"72\" ry=\"34\" fill=\"url(#i_empanadagallega_masa)\"/><path d=\"M20 -30 A72 34 0 0 1 66 -14 L0 2 Z\" fill=\"url(#mesaGrad)\"/><ellipse rx=\"72\" ry=\"34\" fill=\"none\" stroke=\"#A96A28\" stroke-width=\"1.6\" opacity=\".5\"/><circle cx=\"64.0\" cy=\"0.0\" r=\"3.4\" fill=\"#C4883A\"/><circle cx=\"10.9\" cy=\"29.6\" r=\"3.4\" fill=\"#C4883A\"/><circle cx=\"-11.4\" cy=\"29.5\" r=\"3.4\" fill=\"#C4883A\"/><circle cx=\"-32.3\" cy=\"25.9\" r=\"3.4\" fill=\"#C4883A\"/><circle cx=\"-49.3\" cy=\"19.1\" r=\"3.4\" fill=\"#C4883A\"/><circle cx=\"-60.3\" cy=\"10.0\" r=\"3.4\" fill=\"#C4883A\"/><circle cx=\"-64.0\" cy=\"-0.3\" r=\"3.4\" fill=\"#C4883A\"/><path d=\"M-46 -12 q20 -10 44 -6 M-52 2 q22 -10 50 -6 M-40 14 q18 -8 40 -6\" stroke=\"#B87E3E\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" opacity=\".8\"/><ellipse cx=\"-4\" cy=\"0\" rx=\"5\" ry=\"3\" fill=\"#8A5220\"/><ellipse cx=\"-5\" cy=\"-0.6\" rx=\"2.4\" ry=\"1.4\" fill=\"#5E3010\"/><ellipse cx=\"-20\" cy=\"-14\" rx=\"20\" ry=\"3\" fill=\"#fff\" opacity=\".28\"/></g><g transform=\"translate(70 142)\"><circle r=\"11\" fill=\"none\" stroke=\"#B3341F\" stroke-width=\"4.5\"/><circle r=\"11\" fill=\"none\" stroke=\"#8E2416\" stroke-width=\"1.2\"/></g>"
-  },
   "tienda": [
    [
-    "El atún o el bonito",
-    "«Atún o bonito en aceite de oliva» en lata, buena calidad, bien escurrido.",
-    "atún|bonito"
+    "El atún",
+    "«atún o bonito en aceite de oliva», de buena calidad y bien escurrido. Si es bonito del norte, mejor todavía.",
+    "atún"
    ],
    [
     "Los pimientos",
-    "Carnosos, de carne gruesa; si son finos se deshacen en el relleno.",
+    "carnosos, de carne gruesa: los finos se deshacen en el sofrito y no se notan.",
     "pimientos"
+   ],
+   [
+    "La harina",
+    "de fuerza si tienes: estira mejor y no se rompe.",
+    "harina"
    ]
   ]
  },
