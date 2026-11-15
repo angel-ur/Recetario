@@ -30,6 +30,8 @@ Ya tenemos: raciones que recalculan, pasos ilustrados, temporizadores, modo coci
 11. [HECHO 15 nov] Buscador por ingrediente ("que tengo en la nevera"): varias palabras en el buscador exigen todas (AND) y ordenan por cuantos ingredientes coinciden.
 12. [HECHO 15 nov] Impresion limpia / PDF: boton «Imprimir la receta» en la ficha + hoja @media print (sin controles, ilustraciones pequenas, cortes de pagina cuidados).
 
+- En marcha (peticion de Angel 15 nov): dar a TODAS las recetas el tratamiento del pil pil (escalado, metodo con alternativas de utensilio, voz abuela, variantes). Primero las 13 que aun salen simples (sin enriquecido); luego repasar metodos/variantes en las 27 enriquecidas.
+
 ## Reglas inamovibles
 Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-action: manipulation; SVG interactivo con fill rgba(0,0,0,0) y cursor:pointer; verificar toques tras cada cambio.
 
@@ -60,5 +62,6 @@ Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-act
 - Más datos de dependencias (`tras`/`durante`/`enlaza`) en recetas fuera de caldo, rabo, cocido, lentejas y paella. [15 nov: +crema catalana, tumbet, xato, marmitako]
 
 ## Hecho 15 nov
+- [HECHO 15 nov] Pil pil a fondo (peticion de Angel): escalado 2/4/6 con cantidades vivas tambien en los pasos, tres metodos con selector (barro / sarten o acero / turmix con pasos propios), desalado como paso previo de 36 h, secretos con variantes de cada casa y tienda ampliada. Sirve de plantilla para el resto.
 - Auditoria de dependencias: Leaflet 1.9.4 (ultima estable) ahora se sirve desde el propio sitio en `js/vendor/leaflet/`, sin CDN ni integridad rota posible (ADR 0006). Antes se cargaba de unpkg al usar la ruta.
 - Portada ilustrada de crema catalana.

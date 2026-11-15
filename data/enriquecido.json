@@ -7866,5 +7866,222 @@
     ]
    }
   ]
+ },
+ {
+  "id": "pilpil",
+  "n": "Bacalao al pil-pil",
+  "sub": "aceite, ajo y la gelatina del propio bacalao",
+  "reg": "pv",
+  "lugar": "País Vasco",
+  "cat": "mar",
+  "dif": 3,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "met": [
+   {
+    "id": "barro",
+    "n": "Cazuela de barro",
+    "d": "La de siempre: calor suave y parejo"
+   },
+   {
+    "id": "sarten",
+    "n": "Sartén o cazuela de acero",
+    "d": "La que tengas: calienta y enfría antes"
+   },
+   {
+    "id": "turmix",
+    "n": "Atajo con túrmix",
+    "d": "La salsa se liga a máquina; mismo sabor"
+   }
+  ],
+  "ing": [
+   [
+    "bacalao",
+    "lomo de bacalao con piel|lomos de bacalao con piel",
+    4,
+    "ud"
+   ],
+   [
+    "aceite",
+    "aceite de oliva suave|aceite de oliva suave",
+    250,
+    "ml"
+   ],
+   [
+    "ajo",
+    "dientes de ajo en láminas|dientes de ajo en láminas",
+    4,
+    "ud"
+   ],
+   [
+    "guindilla",
+    "guindilla|guindillas",
+    1,
+    "ud"
+   ],
+   [
+    "sal",
+    "sal (la justa, al probar)",
+    null
+   ]
+  ],
+  "fases": [
+   {
+    "n": "El día antes",
+    "p": [
+     {
+      "t": "Desala el bacalao",
+      "m": 2160,
+      "f": 0,
+      "w": 1,
+      "x": "Si es bacalao en sal, pon {bacalao} a remojo en agua fría, con la piel hacia arriba, de 36 a 48 horas en la nevera, y cambia el agua tres o cuatro veces.",
+      "ab": "En la nevera, nunca a temperatura ambiente, y con la piel hacia arriba, que la sal pesa y baja al fondo. ¿Lo compras ya desalado? Te saltas este paso y empiezas por los ajos.",
+      "e": {
+       "k": "remojo",
+       "i": [
+        [
+         "bacalao",
+         26
+        ]
+       ],
+       "t": "36 h"
+      }
+     }
+    ]
+   },
+   {
+    "n": "El aceite",
+    "p": [
+     {
+      "t": "Ajos y guindilla",
+      "m": 8,
+      "tim": 6,
+      "f": 1,
+      "x": "En la cazuela, pon el {aceite} con {ajo} y {guindilla} en rodajas, a fuego bajo. Cuando el ajo coja un dorado claro, unos 6 minutos, retíralos y resérvalos.",
+      "ab": "Rubios, no tostados: un ajo pasado amarga el aceite, y todo el pil pil con él.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#E8D3A8",
+       "i": [
+        [
+         "ajo",
+         4
+        ],
+        [
+         "guindilla",
+         1
+        ]
+       ]
+      }
+     },
+     {
+      "t": "Templa el aceite",
+      "m": 5,
+      "f": 0,
+      "w": 1,
+      "x": "Aparta la cazuela del fuego y deja que el aceite quede tibio, unos 5 minutos: caliente pero sin humear. Con termómetro, sobre 60 °C.",
+      "ab": "Tibio es el truco: si el aceite está a tope, el bacalao se fríe y se endurece en vez de soltar su gelatina. El barro tarda más en templar que el metal; a eso se le coge el punto con la mano cerca.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 0
+      }
+     }
+    ]
+   },
+   {
+    "n": "El bacalao",
+    "p": [
+     {
+      "t": "El bacalao, piel abajo",
+      "m": 10,
+      "tim": 8,
+      "f": 1,
+      "x": "Seca bien los lomos con papel de cocina y ponlos en el aceite tibio, con la piel hacia abajo. Vuelve a un fuego muy suave 8 a 10 minutos, hasta que la piel suelte burbujitas blancas: es la gelatina.",
+      "ab": "Piel abajo, siempre: de ahí sale la gelatina que liga. Y bien secos, que el agua hace saltar el aceite. Que no burbujee fuerte: solo un hilo fino.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#E8D3A8",
+       "i": [
+        [
+         "bacalao",
+         4
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "n": "La salsa",
+    "p": [
+     {
+      "t": "Mueve y liga",
+      "m": 10,
+      "tim": 8,
+      "f": 0,
+      "solo": [
+       "barro",
+       "sarten"
+      ],
+      "x": "Saca la cazuela del fuego y muévela en círculos, sin parar, de 8 a 10 minutos. El aceite irá cambiando: primero pardo y transparente, después cremoso y claro. Cuando ligue como una salsa fina, ya tienes el pil pil.",
+      "ab": "Se mece, no se remueve: nada de cuchara, la cazuela entera en círculos. Si no espesa, apártala un minuto, deja que temple y sigue. La paciencia es el ingrediente que no sale en la lista.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 0,
+       "agita": 1
+      }
+     },
+     {
+      "t": "Liga con la túrmix",
+      "m": 4,
+      "tim": 2,
+      "f": 0,
+      "solo": [
+       "turmix"
+      ],
+      "x": "Retira los lomos con cuidado y pasa el aceite tibio con su gelatina al vaso de la batidora. Tritura 1 o 2 minutos, hasta que emulsione y espese, y devuelve la salsa a la cazuela.",
+      "ab": "No es lo de siempre, pero el pil pil no perdona y la túrmix liga en un minuto. Mismo sabor, menos muñeca.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 0,
+       "batidora": 1
+      }
+     },
+     {
+      "t": "Junta y sirve",
+      "m": 2,
+      "f": 1,
+      "x": "Vuelve a poner los lomos en la cazuela con la salsa, añade los ajos y la guindilla reservados y dale 2 minutos de fuego muy suave, moviendo otra vez, para que todo se abrace. Sirve en la misma cazuela, bien caliente.",
+      "ab": "A la mesa en su cazuela, humeante, y pan del bueno: la salsa es lo mejor del plato.",
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#EBD9A0",
+       "i": [
+        [
+         "bacalao",
+         3
+        ],
+        [
+         "ajo",
+         2
+        ]
+       ]
+      }
+     }
+    ]
+   }
+  ]
  }
 ]

@@ -3,6 +3,7 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Bacalao al pil pil rehecho de arriba abajo: las cantidades se ajustan a cuantos sois (2, 4 o 6), eliges como hacerlo (cazuela de barro, sarten o cazuela de acero, o atajo con turmix) y la receta cuenta el desalado, el templado del aceite, la piel abajo y los trucos de la abuela (con sus variantes de cada casa).
 - Receta nueva: suquet de peix (guiso marinero de patata y pescado de roca, con su picada), con portada y escenas de mortero, fuego y plato. Ya son 40 recetas.
 - Receta nueva: tarta de Santiago (almendra, huevo y azucar, sin harina), con su portada y su cruz. Ya hay cuatro postres.
 - Las portadas ya no salen planas al entrar a una receta desde la lista: los degradados de las ilustraciones llevaban identificadores repetidos y el navegador podia pintarlos vacios. Ahora cada copia lleva los suyos.
