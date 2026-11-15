@@ -11000,6 +11000,7 @@
       "t": "Remojo",
       "m": 720,
       "x": "La noche antes: pon {soja} en un bol grande, frota puñados entre las manos para partirla y cubre con {agua} fría. Deja de 8 a 12 horas.",
+      "w": 1,
       "e": {
        "k": "remojo",
        "t": "12 h"
@@ -11073,6 +11074,7 @@
       "t": "Fermenta en el horno",
       "m": 2160,
       "x": "Pon las bolsas separadas y elevadas sobre una rejilla en el horno apagado, solo con la luz encendida. A las 12 horas verás pelusa blanca y empezará a calentarse sola: apaga entonces la luz, porque si pasa de 37 °C el hongo muere. Está listo a las 36-48 horas, cuando el bloque es sólido y blanco y todos los huecos están rellenos.",
+      "w": 1,
       "solo": [
        "horno"
       ],
@@ -11086,6 +11088,7 @@
       "t": "Fermenta con yogurtera",
       "m": 2160,
       "x": "Pon las bolsas separadas en la yogurtera o el deshidratador a 30 °C. A las 12 horas verás pelusa blanca y empezará a calentarse sola: baja entonces al mínimo o apaga, porque si pasa de 37 °C el hongo muere. Está listo a las 36-48 horas, cuando el bloque es sólido y blanco.",
+      "w": 1,
       "solo": [
        "yogurtera"
       ],
@@ -11099,6 +11102,7 @@
       "t": "Fermenta sin aparatos",
       "m": 4320,
       "x": "Pon las bolsas separadas y elevadas en el rincón más cálido de casa (junto al radiador o sobre la nevera), tapadas con un trapo limpio. Tardará más: está listo a las 48-72 horas, cuando el bloque es sólido y blanco. Si pasa de 37 °C, aléjalo del calor.",
+      "w": 1,
       "solo": [
        "casa"
       ],

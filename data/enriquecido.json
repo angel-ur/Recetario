@@ -11300,7 +11300,8 @@
       "e": {
        "k": "remojo",
        "t": "12 h"
-      }
+      },
+      "w": 1
      },
      {
       "t": "Descascarilla",
@@ -11374,7 +11375,8 @@
       "e": {
        "k": "horno",
        "t": "30 °C"
-      }
+      },
+      "w": 1
      },
      {
       "t": "Fermenta con yogurtera",
@@ -11387,7 +11389,8 @@
       "e": {
        "k": "horno",
        "t": "30 °C"
-      }
+      },
+      "w": 1
      },
      {
       "t": "Fermenta sin aparatos",
@@ -11399,7 +11402,8 @@
       "ab": "En Java lo envuelven en hoja de plátano agujereada y lo dejan en un sitio cálido dos noches: el aire tiene que correr.",
       "e": {
        "k": "tabla"
-      }
+      },
+      "w": 1
      },
      {
       "t": "Guarda",
