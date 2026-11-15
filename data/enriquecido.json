@@ -7160,5 +7160,277 @@
     "En la nevera, 3 o 4 días a 4 °C o menos. Congelado, mejor tomarlo en 2 o 3 meses."
    ]
   ]
+ },
+ {
+  "id": "pochas",
+  "n": "Pochas a la navarra",
+  "sub": "alubias tiernas de la huerta, con su caldo meloso",
+  "reg": "nav",
+  "lugar": "Navarra",
+  "cat": "cuchara",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "plato",
+   "v": "cazuela",
+   "c": "#E9C79A",
+   "i": [
+    [
+     "faba",
+     30
+    ],
+    [
+     "laurel",
+     1
+    ]
+   ],
+   "pan": 1
+  },
+  "ing": [
+   [
+    "pocha",
+    "pochas de Navarra|pochas de Navarra",
+    400,
+    "g"
+   ],
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    1,
+    "ud"
+   ],
+   [
+    "pimverde",
+    "pimiento verde|pimientos verdes",
+    1,
+    "ud"
+   ],
+   [
+    "zanahoria",
+    "zanahoria|zanahorias",
+    1,
+    "ud"
+   ],
+   [
+    "tomate",
+    "tomates maduros|tomates maduros",
+    2,
+    "ud"
+   ],
+   [
+    "ajo",
+    "dientes de ajo|dientes de ajo",
+    2,
+    "ud"
+   ],
+   [
+    "laurel",
+    "hoja de laurel|hojas de laurel",
+    1,
+    "ud"
+   ],
+   [
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    5,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ]
+  ],
+  "fases": [
+   {
+    "n": "La víspera",
+    "tipo": "previo",
+    "p": [
+     {
+      "t": "Pochas en remojo",
+      "m": 720,
+      "pre": 1,
+      "f": 0,
+      "x": "Pon las {pocha} en remojo en agua fría, unas doce horas.",
+      "ab": "Agua fría y abundante, porque las pochas casi doblan su tamaño.",
+      "e": {
+       "k": "remojo",
+       "i": [
+        [
+         "faba",
+         22
+        ]
+       ],
+       "t": "12 h"
+      }
+     }
+    ]
+   },
+   {
+    "n": "El sofrito",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Sofrito de huerta",
+      "m": 15,
+      "tim": 15,
+      "f": 3,
+      "x": "Calienta {aceite} en una cazuela y rehoga {cebolla} y {ajo} picados 5 minutos. Añade {pimverde} y {zanahoria} en daditos y sofríe 5 minutos más. Suma {tomate} rallados y deja que se haga 5 minutos, hasta que esté meloso.",
+      "ab": "La zanahoria en daditos pequeños, que se deshaga: da dulzor y luego ayuda a ligar el caldo.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#C8A03C",
+       "i": [
+        [
+         "cebolla",
+         10
+        ],
+        [
+         "pimiento",
+         4
+        ],
+        [
+         "zanahoria",
+         6
+        ],
+        [
+         "tomate",
+         3
+        ]
+       ],
+       "vapor": 1
+      }
+     }
+    ]
+   },
+   {
+    "n": "El guiso",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Pochas al agua fría",
+      "m": 5,
+      "f": 0,
+      "x": "Añade las {pocha} escurridas y la {laurel}, y cubre con agua fría dos dedos por encima.",
+      "ab": "Como con las fabes: se empieza siempre en agua fría, nunca caliente.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 0,
+       "c": "#BFDDF2",
+       "i": [
+        [
+         "faba",
+         26
+        ],
+        [
+         "laurel",
+         1
+        ]
+       ]
+      }
+     },
+     {
+      "t": "Hierve, espuma y asústalas",
+      "m": 15,
+      "tim": 15,
+      "f": 5,
+      "x": "Lleva a ebullición a fuego fuerte, retira la espuma que suba y asusta las pochas con un vaso de agua fría. Repite el susto una vez más cuando vuelva a hervir.",
+      "ab": "El susto corta el hervor de golpe: la piel queda firme y el interior, cremoso.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 5,
+       "c": "#E9D2A6",
+       "espuma": 1,
+       "i": [
+        [
+         "faba",
+         24
+        ]
+       ]
+      }
+     },
+     {
+      "t": "Fuego suave y a menear",
+      "m": 75,
+      "tim": 75,
+      "f": 1,
+      "x": "Baja el fuego al mínimo, tapa a medias y guisa entre 1 hora y 1 hora y media, meneando la cazuela en círculos de vez en cuando. Sala a media cocción.",
+      "ab": "Ni cuchara ni cucharón, que rompen las pochas. Si el caldo baja, añade agua caliente, nunca fría.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "tapa": 2,
+       "c": "#E9C79A",
+       "i": [
+        [
+         "faba",
+         26
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "El caldo meloso",
+      "m": 10,
+      "f": 1,
+      "x": "Saca un cacillo de pochas con un poco de caldo, pásalo por el pasapurés y devuélvelo a la cazuela. Menea un par de minutos hasta que el caldo quede meloso.",
+      "ab": "Este es el gesto que convierte un guiso de alubias correcto en uno de abuela.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#E9C79A",
+       "i": [
+        [
+         "faba",
+         24
+        ]
+       ],
+       "cuchara": 1
+      }
+     }
+    ]
+   },
+   {
+    "n": "Servir",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Sirve con su caldo",
+      "m": 5,
+      "f": 0,
+      "x": "Reparte las pochas bien calientes en platos hondos o cazuelitas de barro, con su caldo por encima.",
+      "ab": "Como toda legumbre, reposadas de un día para otro ganan muchísimo.",
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#E9C79A",
+       "i": [
+        [
+         "faba",
+         28
+        ],
+        [
+         "laurel",
+         1
+        ]
+       ],
+       "pan": 1
+      }
+     }
+    ]
+   }
+  ]
  }
 ]

@@ -6888,6 +6888,300 @@
   ]
  },
  {
+  "id": "pochas",
+  "n": "Pochas a la navarra",
+  "sub": "alubias tiernas de la huerta, con su caldo meloso",
+  "reg": "nav",
+  "lugar": "Navarra",
+  "cat": "cuchara",
+  "dif": 2,
+  "b": 4,
+  "rac": [
+   2,
+   4,
+   6
+  ],
+  "heroe": {
+   "k": "ilu",
+   "svg": "<defs><radialGradient id=\"i_pochas_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_pochas_fondo)\"/><defs><linearGradient id=\"i_pochas_barro\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_pochas_caldo\" cx=\".45\" cy=\".4\" r=\".85\"><stop offset=\"0\" stop-color=\"#F2DFAF\"/><stop offset=\"1\" stop-color=\"#D6B67E\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"116\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M48 90c0 40 28 60 112 60s112-20 112-60z\" fill=\"url(#i_pochas_barro)\"/><rect x=\"22\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><rect x=\"268\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"90\" rx=\"112\" ry=\"26\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"92\" rx=\"102\" ry=\"21\" fill=\"url(#i_pochas_caldo)\"/><ellipse cx=\"140.1\" cy=\"105.7\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"167.6\" cy=\"80.8\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"116.9\" cy=\"88.4\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"133.7\" cy=\"80.4\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"121.4\" cy=\"96.8\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"246.9\" cy=\"89.2\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"192.6\" cy=\"88.9\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"145.2\" cy=\"88.6\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"97.7\" cy=\"91.4\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"217.5\" cy=\"83.4\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"105.9\" cy=\"107.7\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"169.8\" cy=\"89.9\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"180.1\" cy=\"109.0\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"231.8\" cy=\"97.5\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"75.1\" cy=\"100.3\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"198.8\" cy=\"100.8\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"99.5\" cy=\"84.3\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"158.3\" cy=\"95.0\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"155.8\" cy=\"104.1\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"224.3\" cy=\"89.5\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"219.9\" cy=\"105.4\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"90.7\" cy=\"98.0\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"115.4\" cy=\"80.4\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"136.0\" cy=\"98.4\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><g transform=\"translate(140.1 103.1) rotate(-25)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(167.6 78.2) rotate(-2)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(116.9 85.8) rotate(0)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(133.7 77.8) rotate(-17)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(121.4 94.2) rotate(-19)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(246.9 86.6) rotate(-15)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(192.6 86.3) rotate(-16)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(145.2 86.0) rotate(7)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(97.7 88.8) rotate(26)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(217.5 80.8) rotate(22)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(105.9 105.1) rotate(22)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(169.8 87.3) rotate(-12)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(180.1 106.4) rotate(20)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(231.8 94.9) rotate(-2)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(75.1 97.7) rotate(28)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(198.8 98.2) rotate(-27)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(99.5 81.7) rotate(-1)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(158.3 92.4) rotate(-21)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(155.8 101.5) rotate(-11)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(224.3 86.9) rotate(-16)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(219.9 102.8) rotate(20)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(90.7 95.4) rotate(-3)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(115.4 77.8) rotate(-27)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(136.0 95.8) rotate(17)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(142.1 85.8) rotate(39)\"><rect x=\"-3.5\" y=\"-2.5\" width=\"7.0\" height=\"5.0\" rx=\"1.8\" fill=\"#4E7A2E\"/><rect x=\"-2.5\" y=\"-1.9\" width=\"5.0\" height=\"1.8\" rx=\".9\" fill=\"#6E9A3E\"/></g><g transform=\"translate(78.6 87.4) rotate(309)\"><rect x=\"-3.5\" y=\"-2.5\" width=\"7.0\" height=\"5.0\" rx=\"1.8\" fill=\"#4E7A2E\"/><rect x=\"-2.5\" y=\"-1.9\" width=\"5.0\" height=\"1.8\" rx=\".9\" fill=\"#6E9A3E\"/></g><g transform=\"translate(160.3 97.4) rotate(70)\"><rect x=\"-3.5\" y=\"-2.5\" width=\"7.0\" height=\"5.0\" rx=\"1.8\" fill=\"#4E7A2E\"/><rect x=\"-2.5\" y=\"-1.9\" width=\"5.0\" height=\"1.8\" rx=\".9\" fill=\"#6E9A3E\"/></g><g transform=\"translate(86.3 97.7) rotate(223)\"><rect x=\"-3.5\" y=\"-2.5\" width=\"7.0\" height=\"5.0\" rx=\"1.8\" fill=\"#4E7A2E\"/><rect x=\"-2.5\" y=\"-1.9\" width=\"5.0\" height=\"1.8\" rx=\".9\" fill=\"#6E9A3E\"/></g><g transform=\"translate(198.2 88.3) rotate(315)\"><rect x=\"-3.5\" y=\"-2.5\" width=\"7.0\" height=\"5.0\" rx=\"1.8\" fill=\"#4E7A2E\"/><rect x=\"-2.5\" y=\"-1.9\" width=\"5.0\" height=\"1.8\" rx=\".9\" fill=\"#6E9A3E\"/></g><g transform=\"translate(104.3 92.6) rotate(60)\"><rect x=\"-3.5\" y=\"-2.5\" width=\"7.0\" height=\"5.0\" rx=\"1.8\" fill=\"#4E7A2E\"/><rect x=\"-2.5\" y=\"-1.9\" width=\"5.0\" height=\"1.8\" rx=\".9\" fill=\"#6E9A3E\"/></g><g transform=\"translate(155.1 86.4) rotate(61)\"><rect x=\"-3.5\" y=\"-2.5\" width=\"7.0\" height=\"5.0\" rx=\"1.8\" fill=\"#4E7A2E\"/><rect x=\"-2.5\" y=\"-1.9\" width=\"5.0\" height=\"1.8\" rx=\".9\" fill=\"#6E9A3E\"/></g><g transform=\"translate(87.4 92.4) rotate(274)\"><rect x=\"-3.0\" y=\"-2.5\" width=\"6.0\" height=\"5.0\" rx=\"1.8\" fill=\"#D07A28\"/><rect x=\"-2.0\" y=\"-1.9\" width=\"4.0\" height=\"1.8\" rx=\".9\" fill=\"#E89A4A\"/></g><g transform=\"translate(126.7 83.7) rotate(255)\"><rect x=\"-3.0\" y=\"-2.5\" width=\"6.0\" height=\"5.0\" rx=\"1.8\" fill=\"#D07A28\"/><rect x=\"-2.0\" y=\"-1.9\" width=\"4.0\" height=\"1.8\" rx=\".9\" fill=\"#E89A4A\"/></g><g transform=\"translate(245.8 92.1) rotate(304)\"><rect x=\"-3.0\" y=\"-2.5\" width=\"6.0\" height=\"5.0\" rx=\"1.8\" fill=\"#D07A28\"/><rect x=\"-2.0\" y=\"-1.9\" width=\"4.0\" height=\"1.8\" rx=\".9\" fill=\"#E89A4A\"/></g><g transform=\"translate(164.8 101.1) rotate(4)\"><rect x=\"-3.0\" y=\"-2.5\" width=\"6.0\" height=\"5.0\" rx=\"1.8\" fill=\"#D07A28\"/><rect x=\"-2.0\" y=\"-1.9\" width=\"4.0\" height=\"1.8\" rx=\".9\" fill=\"#E89A4A\"/></g><g transform=\"translate(82.4 92.6) rotate(229)\"><rect x=\"-3.0\" y=\"-2.5\" width=\"6.0\" height=\"5.0\" rx=\"1.8\" fill=\"#D07A28\"/><rect x=\"-2.0\" y=\"-1.9\" width=\"4.0\" height=\"1.8\" rx=\".9\" fill=\"#E89A4A\"/></g><g transform=\"translate(156.6 100.4) rotate(121)\"><rect x=\"-3.0\" y=\"-2.5\" width=\"6.0\" height=\"5.0\" rx=\"1.8\" fill=\"#D07A28\"/><rect x=\"-2.0\" y=\"-1.9\" width=\"4.0\" height=\"1.8\" rx=\".9\" fill=\"#E89A4A\"/></g><g transform=\"translate(232 84) rotate(35)\"><path d=\"M0-9C7-7 8 4 0 9-8 4-7-7 0-9z\" fill=\"#3E5E26\"/><path d=\"M0-7V7\" stroke=\"#2E4A1C\" stroke-width=\"1.1\"/></g><ellipse cx=\"126\" cy=\"84\" rx=\"24\" ry=\"2.8\" fill=\"#fff\" opacity=\".30\"/>"
+  },
+  "regs": [
+   "nav"
+  ],
+  "intro": "La pocha es la alubia blanca y tierna de Navarra, de piel fina y carne mantecosa. Se guisa con la verdura de la huerta y solo pide tres cosas: remojo en frío, asustarla y menear la cazuela en vez de removerla.",
+  "secretos": [
+   [
+    "La pocha de verdad",
+    "La pocha navarra se recolecta tierna, antes de que la alubia madure del todo. Si no la encuentras, una alubia blanca pequeña tipo arrocina va muy bien."
+   ],
+   [
+    "Menear, no remover",
+    "La cuchara rompe las pochas. La cazuela se menea en círculos y ellas solas se van moviendo."
+   ],
+   [
+    "Los sustos",
+    "Dos sustos con agua fría en el primer hervor: piel firme por fuera, mantequilla por dentro."
+   ],
+   [
+    "De víspera",
+    "Reposadas, el caldo liga aún más. Recaliéntalas a fuego muy suave, con un chorrito de agua si hace falta."
+   ]
+  ],
+  "ing": [
+   [
+    "pocha",
+    "pochas de Navarra|pochas de Navarra",
+    400,
+    "g"
+   ],
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    1,
+    "ud"
+   ],
+   [
+    "pimverde",
+    "pimiento verde|pimientos verdes",
+    1,
+    "ud"
+   ],
+   [
+    "zanahoria",
+    "zanahoria|zanahorias",
+    1,
+    "ud"
+   ],
+   [
+    "tomate",
+    "tomates maduros|tomates maduros",
+    2,
+    "ud"
+   ],
+   [
+    "ajo",
+    "dientes de ajo|dientes de ajo",
+    2,
+    "ud"
+   ],
+   [
+    "laurel",
+    "hoja de laurel|hojas de laurel",
+    1,
+    "ud"
+   ],
+   [
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    5,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ]
+  ],
+  "fases": [
+   {
+    "n": "La víspera",
+    "tipo": "previo",
+    "p": [
+     {
+      "t": "Pochas en remojo",
+      "m": 720,
+      "x": "Pon las {pocha} en remojo en agua fría, unas doce horas.",
+      "f": 0,
+      "pre": 1,
+      "e": {
+       "k": "remojo",
+       "i": [
+        [
+         "faba",
+         22
+        ]
+       ],
+       "t": "12 h"
+      },
+      "ab": "Agua fría y abundante, porque las pochas casi doblan su tamaño."
+     }
+    ]
+   },
+   {
+    "n": "El sofrito",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Sofrito de huerta",
+      "m": 15,
+      "x": "Calienta {aceite} en una cazuela y rehoga {cebolla} y {ajo} picados 5 minutos. Añade {pimverde} y {zanahoria} en daditos y sofríe 5 minutos más. Suma {tomate} rallados y deja que se haga 5 minutos, hasta que esté meloso.",
+      "tim": 15,
+      "f": 3,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 3,
+       "c": "#C8A03C",
+       "i": [
+        [
+         "cebolla",
+         10
+        ],
+        [
+         "pimiento",
+         4
+        ],
+        [
+         "zanahoria",
+         6
+        ],
+        [
+         "tomate",
+         3
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "La zanahoria en daditos pequeños, que se deshaga: da dulzor y luego ayuda a ligar el caldo."
+     }
+    ]
+   },
+   {
+    "n": "El guiso",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Pochas al agua fría",
+      "m": 5,
+      "x": "Añade las {pocha} escurridas y la {laurel}, y cubre con agua fría dos dedos por encima.",
+      "f": 0,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 0,
+       "c": "#BFDDF2",
+       "i": [
+        [
+         "faba",
+         26
+        ],
+        [
+         "laurel",
+         1
+        ]
+       ]
+      },
+      "ab": "Como con las fabes: se empieza siempre en agua fría, nunca caliente."
+     },
+     {
+      "t": "Hierve, espuma y asústalas",
+      "m": 15,
+      "x": "Lleva a ebullición a fuego fuerte, retira la espuma que suba y asusta las pochas con un vaso de agua fría. Repite el susto una vez más cuando vuelva a hervir.",
+      "tim": 15,
+      "f": 5,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 5,
+       "c": "#E9D2A6",
+       "espuma": 1,
+       "i": [
+        [
+         "faba",
+         24
+        ]
+       ]
+      },
+      "ab": "El susto corta el hervor de golpe: la piel queda firme y el interior, cremoso."
+     },
+     {
+      "t": "Fuego suave y a menear",
+      "m": 75,
+      "x": "Baja el fuego al mínimo, tapa a medias y guisa entre 1 hora y 1 hora y media, meneando la cazuela en círculos de vez en cuando. Sala a media cocción.",
+      "tim": 75,
+      "f": 1,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "tapa": 2,
+       "c": "#E9C79A",
+       "i": [
+        [
+         "faba",
+         26
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "Ni cuchara ni cucharón, que rompen las pochas. Si el caldo baja, añade agua caliente, nunca fría."
+     },
+     {
+      "t": "El caldo meloso",
+      "m": 10,
+      "x": "Saca un cacillo de pochas con un poco de caldo, pásalo por el pasapurés y devuélvelo a la cazuela. Menea un par de minutos hasta que el caldo quede meloso.",
+      "f": 1,
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#E9C79A",
+       "i": [
+        [
+         "faba",
+         24
+        ]
+       ],
+       "cuchara": 1
+      },
+      "ab": "Este es el gesto que convierte un guiso de alubias correcto en uno de abuela."
+     }
+    ]
+   },
+   {
+    "n": "Servir",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Sirve con su caldo",
+      "m": 5,
+      "x": "Reparte las pochas bien calientes en platos hondos o cazuelitas de barro, con su caldo por encima.",
+      "f": 0,
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#E9C79A",
+       "i": [
+        [
+         "faba",
+         28
+        ],
+        [
+         "laurel",
+         1
+        ]
+       ],
+       "pan": 1
+      },
+      "ab": "Como toda legumbre, reposadas de un día para otro ganan muchísimo."
+     }
+    ]
+   }
+  ],
+  "tienda": [
+   [
+    "Las pochas",
+    "«Pochas de Navarra», de la cosecha del año. Si no hay, alubia blanca pequeña: arrocina o riñón.",
+    "pocha"
+   ],
+   [
+    "La verdura",
+    "Cebolla, pimiento verde de freír, zanahoria y tomates maduros de verdad: la huerta navarra dentro de la cazuela.",
+    "verdura"
+   ]
+  ]
+ },
+ {
   "id": "pulpo",
   "n": "Pulpo á feira",
   "sub": "con cachelos, pimentón y aceite",

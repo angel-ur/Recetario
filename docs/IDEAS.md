@@ -13,7 +13,7 @@ Ya tenemos: raciones que recalculan, pasos ilustrados, temporizadores, modo coci
 - Plan anclado a la hora real de inicio.
 
 ## P1 (siguiente)
-1. Recetas nuevas: 2+ platos por comunidad. [14 nov: añadidas empanada gallega, callos, lechazo, caldereta; ronda 3: pil-pil, arroz al horno, ternasco, caldero murciano; ronda 4: sopas mallorquinas, cocido montañés, gachas, ropa vieja, chuletillas. Las 17 comunidades tienen 2+] Gestos de abuela, no relleno.
+1. Recetas nuevas: 2+ platos por comunidad. [14 nov: añadidas empanada gallega, callos, lechazo, caldereta; ronda 3: pil-pil, arroz al horno, ternasco, caldero murciano; ronda 4: sopas mallorquinas, cocido montañés, gachas, ropa vieja, chuletillas; ronda 16: pochas a la navarra (Navarra tenia 1 y quedaba fuera del reto). Las 17 comunidades tienen 2+] Gestos de abuela, no relleno.
 2. [HECHO 14 nov] Plato del dia: una receta destacada por fecha (determinista, sin servidor) en la cabecera.
 3. [HECHO 14 nov] Lista de la compra desde una o varias recetas (ingredientes agregados, tachables, guardada en local).
 4. [HECHO 14 nov] Favoritos ("mi recetario"): corazon + filtro.
@@ -48,7 +48,7 @@ Puerta (_worker.js) intacta; sin :hover fuera de @media (hover:hover); touch-act
 - Cada receta puede tener una ilustracion propia en `data/ilustraciones/<id>.svg` (viewBox 0 0 320 180, sin etiqueta svg exterior). `scripts/build.py` la usa si existe; si no, cae al sprite simple de `js/escenas.js`.
 - Se generan con `scripts/ilu_*.py` (+ `scripts/ilu_lib.py`). En el SVG los ids de degradado empiezan por `ID`; el build los prefija por receta.
 - Estilo acordado: fondo crema, plato ovalado con aro azul (var(--anil)), composicion simple, un plato reconocible y poco mas. Referencia de nivel: gazpacho. El tempeh es la excepcion (escena con tabla de madera, aprobada).
-- Hechas: tempeh, paella, tortilla (entera, cupula dorada), cocido, gazpacho, caldo, fabada, lentejas, croquetas, crema catalana (cazuelita, costra y pala), pulpo (tabla de madera), marmitako, migas (sarten y uvas), pisto (sarten y huevo), arroz con leche, xato, papas (arrugadas con mojos), tumbet (capas y tomate), chilindron, pil-pil (bacalao en su gelatina), caldereta, callos, empanada gallega (redonda con su cuña), lechazo (paletilla en barro), ropa vieja, sopa castellana, zarangollo, chuletillas, arroz al horno, caldero, riojana, cocido montanes, gachas, sopas mallorquinas, ternasco, sobaos (36/37). Solo falta: rabo (Angel la esta dictando).
+- Hechas: tempeh, paella, tortilla (entera, cupula dorada), cocido, gazpacho, caldo, fabada, lentejas, croquetas, crema catalana (cazuelita, costra y pala), pulpo (tabla de madera), marmitako, migas (sarten y uvas), pisto (sarten y huevo), arroz con leche, xato, papas (arrugadas con mojos), tumbet (capas y tomate), chilindron, pil-pil (bacalao en su gelatina), caldereta, callos, empanada gallega (redonda con su cuña), lechazo (paletilla en barro), ropa vieja, sopa castellana, zarangollo, chuletillas, arroz al horno, caldero, riojana, cocido montanes, gachas, sopas mallorquinas, ternasco, sobaos, pochas (37/38). Solo falta: rabo (Angel la esta dictando).
 
 ## La compra por tienda (v1)
 - En «La compra» hay un selector Por receta / Por tienda (localStorage `cvista`).
