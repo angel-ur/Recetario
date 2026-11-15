@@ -8577,7 +8577,7 @@
        "nadal",
        "sopa"
       ],
-      "x": "Añade {zanahoria} en trozos, {patata} partidas por la mitad, {col}, {apio} y {puerro}. Amasa {picada} con {huevo}, {ajo} picado y {perejil}, una ralladura de nuez moscada, sal y pimienta: con la mitad haz una bola grande, la pilota, y reserva la otra mitad. Mete la pilota en la olla con {botiblan} y {botinegre} pinchadas con un palillo y cuece 40 minutos más.",
+      "x": "Añade {zanahoria} en trozos, {patata} partidas por la mitad, {col}, {apio} y {puerro}. Amasa {picada} con {huevo}, {ajo} picado y {perejil}, una ralladura de nuez moscada, sal y pimienta: con la mitad haz una bola grande, la pilota, y reserva la otra mitad para rellenar los galets. Mete la pilota en la olla con {botiblan} y {botinegre} pinchadas con un palillo y cuece 40 minutos más.",
       "ab": "La pilota se hunde al principio y sube cuando está hecha. Si se deshace, es que faltaba huevo o sobraba prisa: amásala bien. Las botifarras se pinchan para que no revienten.",
       "e": {
        "k": "fuego",
@@ -8630,7 +8630,7 @@
       "solo": [
        "nadal"
       ],
-      "x": "Con una cucharilla o con el dedo, rellena los {galets} crudos con la carne que reservaste, sin apretar demasiado, y apóyalos boca arriba en un plato.",
+      "x": "Rellena los {galets} crudos con la carne picada amasada: si hiciste la pilota, la mitad que reservaste; si no, amasa ahora {picada} con {huevo}, {ajo} picado, {perejil}, sal, pimienta y nuez moscada. Usa una cucharilla o el dedo, sin apretar demasiado, y apóyalos boca arriba en un plato.",
       "ab": "Sin apretar: la carne crece al cocerse y el galet puede romperse. Y boca arriba, que no se salga el relleno.",
       "e": {
        "k": "tabla",

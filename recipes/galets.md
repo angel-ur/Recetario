@@ -48,14 +48,14 @@ La Navidad en Cataluña empieza con una escudella humeante: el caldo de la carn 
    > El caldo empieza siempre en frío: así la carne suelta su jugo despacio. Si echas todo en agua hirviendo, se sella y el caldo queda soso.
 2. **Espuma y chup-chup** (120 min) - Cuando hierva, baja el fuego al mínimo, espuma bien y deja que haga chup-chup 2 horas, con la tapa entreabierta. Si los garbanzos son secos y los pusiste a remojo anoche, añade garbanzos ahora; si son cocidos, entran con las verduras.
    > Espumar es quitar la espuma gris que sube al principio: es lo que enturbia el caldo. Y chup-chup es un hervor tan suave que apenas manda un borbotón.
-3. **Verduras, botifarras y la pilota** (40 min) - Añade zanahorias en trozos, patatas partidas por la mitad, un trozo de col (un cuarto), rama de apio y puerro. Amasa carne picada (mitad cerdo, mitad ternera) con huevos, dientes de ajo picado y perejil picado, una ralladura de nuez moscada, sal y pimienta: con la mitad haz una bola grande, la pilota, y reserva la otra mitad. Mete la pilota en la olla con botifarras blancas y botifarras negre pinchadas con un palillo y cuece 40 minutos más.
+3. **Verduras, botifarras y la pilota** (40 min) - Añade zanahorias en trozos, patatas partidas por la mitad, un trozo de col (un cuarto), rama de apio y puerro. Amasa carne picada (mitad cerdo, mitad ternera) con huevos, dientes de ajo picado y perejil picado, una ralladura de nuez moscada, sal y pimienta: con la mitad haz una bola grande, la pilota, y reserva la otra mitad para rellenar los galets. Mete la pilota en la olla con botifarras blancas y botifarras negre pinchadas con un palillo y cuece 40 minutos más.
    > La pilota se hunde al principio y sube cuando está hecha. Si se deshace, es que faltaba huevo o sobraba prisa: amásala bien. Las botifarras se pinchan para que no revienten.
 
 ### Los galets
 
 4. **Calienta el caldo de ayer** (5 min) - Cuela el caldo que te sobró de la escudella y llévalo a ebullición. Si guardaste carne de la carn d'olla, desmígala: puede ir dentro o servirse después.
    > El caldo del día después está todavía mejor: la noche junta los sabores. La grasa cuajada de arriba se retira con la espumadera.
-5. **Rellena los galets** (15 min) - Con una cucharilla o con el dedo, rellena los galets crudos con la carne que reservaste, sin apretar demasiado, y apóyalos boca arriba en un plato.
+5. **Rellena los galets** (15 min) - Rellena los galets crudos con la carne picada amasada: si hiciste la pilota, la mitad que reservaste; si no, amasa ahora carne picada (mitad cerdo, mitad ternera) con huevo, diente de ajo picado, perejil picado, sal, pimienta y nuez moscada. Usa una cucharilla o el dedo, sin apretar demasiado, y apóyalos boca arriba en un plato.
    > Sin apretar: la carne crece al cocerse y el galet puede romperse. Y boca arriba, que no se salga el relleno.
 6. **Cuece los galets en el caldo** (15 min) - Con el caldo colado y hirviendo, echa los galets y cuece lo que diga el paquete, unos 12-15 minutos. Rellenos: hasta que la carne pierda el color crudo. Solos: hasta que estén tiernos pero enteros.
    > Los galets se tragan mucho caldo: guarda siempre un cazo aparte para alargar la sopa al servir. Y remueve con cuidado, que son frágiles.

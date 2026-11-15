@@ -3,6 +3,7 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Galets: el paso de rellenar ahora dice claro con que carne (la picada amasada: la mitad reservada de la pilota, o la mezcla hecha al momento si no hay pilota).
 - Receta nueva: galets de Nadal (peticion de Angel, para cocinar hoy). La escudella completa (carnes, huesos, verduras, botifarras y la pilota) y los galets, con tres formas: farcits (rellenos), sopa (sin rellenar) y con lo de ayer (caldo y carn d'olla de la vispera, en media hora). Cantidades ajustadas a cuantos sois. Ya son 41 recetas.
 - Arroz al horno rehecho como el pil pil: cantidades ajustadas a cuantos sois (2, 4 o 6, con medias morcillas incluidas), tres formas de hacerlo (cazuela de barro, otra cazuela apta para horno, o sin horno al fuego) y la receta de la abuela completa, con sus variantes de cada casa y la tienda ampliada.
 - Bacalao al pil pil rehecho de arriba abajo: las cantidades se ajustan a cuantos sois (2, 4 o 6), eliges como hacerlo (cazuela de barro, sarten o cazuela de acero, o atajo con turmix) y la receta cuenta el desalado, el templado del aceite, la piel abajo y los trucos de la abuela (con sus variantes de cada casa).

@@ -4589,7 +4589,7 @@
      {
       "t": "Verduras, botifarras y la pilota",
       "m": 40,
-      "x": "Añade {zanahoria} en trozos, {patata} partidas por la mitad, {col}, {apio} y {puerro}. Amasa {picada} con {huevo}, {ajo} picado y {perejil}, una ralladura de nuez moscada, sal y pimienta: con la mitad haz una bola grande, la pilota, y reserva la otra mitad. Mete la pilota en la olla con {botiblan} y {botinegre} pinchadas con un palillo y cuece 40 minutos más.",
+      "x": "Añade {zanahoria} en trozos, {patata} partidas por la mitad, {col}, {apio} y {puerro}. Amasa {picada} con {huevo}, {ajo} picado y {perejil}, una ralladura de nuez moscada, sal y pimienta: con la mitad haz una bola grande, la pilota, y reserva la otra mitad para rellenar los galets. Mete la pilota en la olla con {botiblan} y {botinegre} pinchadas con un palillo y cuece 40 minutos más.",
       "tim": 40,
       "f": 1,
       "solo": [
@@ -4645,7 +4645,7 @@
      {
       "t": "Rellena los galets",
       "m": 15,
-      "x": "Con una cucharilla o con el dedo, rellena los {galets} crudos con la carne que reservaste, sin apretar demasiado, y apóyalos boca arriba en un plato.",
+      "x": "Rellena los {galets} crudos con la carne picada amasada: si hiciste la pilota, la mitad que reservaste; si no, amasa ahora {picada} con {huevo}, {ajo} picado, {perejil}, sal, pimienta y nuez moscada. Usa una cucharilla o el dedo, sin apretar demasiado, y apóyalos boca arriba en un plato.",
       "f": 0,
       "solo": [
        "nadal"
