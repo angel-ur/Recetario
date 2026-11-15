@@ -37,9 +37,9 @@ Plato de aprovechamiento: lo que sobró del puchero (carne, garbanzos, patata) s
 
 ### El guiso
 
-3. **Todo al sofrito** (10 min) - Añade garbanzos cocidos escurridos, carne de puchero deshilachada y patatas cocidas en dados, con un cazo del caldo del puchero si lo guardaste. Rehoga a fuego suave 10 minutos, con cuidado de no romper las patatas.
+3. **Todo al sofrito** (10 min) - Añade garbanzo cocido, bien escurrido, carne de puchero deshilachada y patata cocida en dados, con un cazo del caldo del puchero si lo guardaste. Rehoga a fuego suave 10 minutos, con cuidado de no romper las patatas.
    > Rehoga, no remuevas a lo loco: la patata se rompe y el garbanzo se deshace.
-4. **Sin cocido previo** (10 min) - Añade garbanzos cocidos de bote bien escurridos, carne de puchero deshilachada (o pollo cocido desmigado) y patatas cocidas en dados, con un chorrito de agua o caldo. Rehoga a fuego suave 10 minutos.
+4. **Sin cocido previo** (10 min) - Añade garbanzo cocido de bote, bien escurrido y aclarado, carne de puchero deshilachada (o pollo cocido desmigado) y patata cocida en dados, con un chorrito de agua o caldo. Rehoga a fuego suave 10 minutos.
    > De bote y con pollo asado sale muy digna: la gracia está en el sofrito y el vinagre.
 5. **Reposo y a la mesa** (5 min) - Apaga, tapa y deja reposar 5 minutos. Sirve templada, con unas tiras de huevo duro por encima si te apetece.
    > Templada está mejor que hirviendo: los sabores se asientan.

@@ -9530,7 +9530,7 @@
      {
       "t": "Todo al sofrito",
       "m": 10,
-      "x": "Añade {garbanzo} escurridos, {carne} y {patata} en dados, con un cazo del caldo del puchero si lo guardaste. Rehoga a fuego suave 10 minutos, con cuidado de no romper las patatas.",
+      "x": "Añade {garbanzo}, bien escurrido, {carne} y {patata} en dados, con un cazo del caldo del puchero si lo guardaste. Rehoga a fuego suave 10 minutos, con cuidado de no romper las patatas.",
       "tim": 10,
       "f": 1,
       "solo": [
@@ -9562,7 +9562,7 @@
      {
       "t": "Sin cocido previo",
       "m": 10,
-      "x": "Añade {garbanzo} de bote bien escurridos, {carne} (o pollo cocido desmigado) y {patata} en dados, con un chorrito de agua o caldo. Rehoga a fuego suave 10 minutos.",
+      "x": "Añade {garbanzo} de bote, bien escurrido y aclarado, {carne} (o pollo cocido desmigado) y {patata} en dados, con un chorrito de agua o caldo. Rehoga a fuego suave 10 minutos.",
       "tim": 10,
       "f": 1,
       "solo": [

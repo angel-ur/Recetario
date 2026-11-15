@@ -10877,7 +10877,7 @@
       "solo": [
        "puchero"
       ],
-      "x": "Añade {garbanzo} escurridos, {carne} y {patata} en dados, con un cazo del caldo del puchero si lo guardaste. Rehoga a fuego suave 10 minutos, con cuidado de no romper las patatas.",
+      "x": "Añade {garbanzo}, bien escurrido, {carne} y {patata} en dados, con un cazo del caldo del puchero si lo guardaste. Rehoga a fuego suave 10 minutos, con cuidado de no romper las patatas.",
       "ab": "Rehoga, no remuevas a lo loco: la patata se rompe y el garbanzo se deshace.",
       "e": {
        "k": "fuego",
@@ -10909,7 +10909,7 @@
       "solo": [
        "bote"
       ],
-      "x": "Añade {garbanzo} de bote bien escurridos, {carne} (o pollo cocido desmigado) y {patata} en dados, con un chorrito de agua o caldo. Rehoga a fuego suave 10 minutos.",
+      "x": "Añade {garbanzo} de bote, bien escurrido y aclarado, {carne} (o pollo cocido desmigado) y {patata} en dados, con un chorrito de agua o caldo. Rehoga a fuego suave 10 minutos.",
       "ab": "De bote y con pollo asado sale muy digna: la gracia está en el sofrito y el vinagre.",
       "e": {
        "k": "fuego",
