@@ -9217,5 +9217,335 @@
     ]
    }
   ]
+ },
+ {
+  "id": "callos",
+  "n": "Callos a la madrileña",
+  "sub": "callos, morro y chorizo, hasta que la salsa pega en los labios",
+  "reg": "mad",
+  "lugar": "Comunidad de Madrid",
+  "cat": "cuchara",
+  "dif": 3,
+  "b": 6,
+  "rac": [
+   4,
+   6,
+   8
+  ],
+  "met": [
+   {
+    "id": "lenta",
+    "n": "A fuego lento",
+    "d": "La de siempre: 2 horas de cocción suave"
+   },
+   {
+    "id": "rapida",
+    "n": "En olla rápida",
+    "d": "Tiernos en 35 minutos desde la válvula"
+   },
+   {
+    "id": "crockpot",
+    "n": "En olla de cocción lenta",
+    "d": "Se hace sola: 6-8 horas sin mirarla"
+   }
+  ],
+  "ing": [
+   [
+    "callos",
+    "callos de ternera limpios|callos de ternera limpios",
+    1000,
+    "g"
+   ],
+   [
+    "morro",
+    "morro de ternera|morro de ternera",
+    300,
+    "g"
+   ],
+   [
+    "chorizo",
+    "chorizo para guisar|chorizos para guisar",
+    1,
+    "ud",
+    1
+   ],
+   [
+    "morcilla",
+    "morcilla de cebolla|morcillas de cebolla",
+    1,
+    "ud",
+    1
+   ],
+   [
+    "jamon",
+    "jamón serrano en un trozo|jamón serrano en un trozo",
+    100,
+    "g"
+   ],
+   [
+    "cebolla",
+    "cebolla|cebollas",
+    2,
+    "ud",
+    0.5
+   ],
+   [
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    3,
+    "ud",
+    1
+   ],
+   [
+    "laurel",
+    "hoja de laurel|hojas de laurel",
+    1,
+    "ud",
+    1
+   ],
+   [
+    "pimenton",
+    "pimentón dulce|pimentón dulce",
+    1,
+    "cda"
+   ],
+   [
+    "pimentonpic",
+    "pizca de pimentón picante|pizca de pimentón picante",
+    null
+   ],
+   [
+    "guindilla",
+    "guindilla|guindillas",
+    1,
+    "ud",
+    1
+   ],
+   [
+    "harina",
+    "harina|harina",
+    1,
+    "cda"
+   ],
+   [
+    "vinagre",
+    "vinagre|vinagre",
+    3,
+    "cda"
+   ],
+   [
+    "agua",
+    "agua|agua",
+    3000,
+    "ml"
+   ],
+   [
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    4,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
+   ]
+  ],
+  "fases": [
+   {
+    "n": "Limpiar y cocer",
+    "p": [
+     {
+      "t": "Lava y corta los callos",
+      "m": 15,
+      "tim": 15,
+      "x": "Lava {callos} con agua fría y {vinagre}, escúrrelos y córtalos en trozos de 3-4 cm; trocea también {morro}.",
+      "ab": "Dos o tres aguas: lo que quede sin limpiar se nota en el plato.",
+      "e": {
+       "k": "tabla",
+       "i": [
+        [
+         "callo",
+         3
+        ]
+       ]
+      }
+     },
+     {
+      "t": "Cocción suave",
+      "m": 120,
+      "tim": 120,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "lenta"
+      ],
+      "x": "Cubre {callos} y {morro} con {agua} fría en la olla, con {laurel} y sal. Cuando hierva, baja al mínimo y cuece apenas burbujeando 2 horas, espumando de vez en cuando, hasta que estén tiernos.",
+      "ab": "Se prueba pinchando: el callo tierno se corta con la cuchara.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#8A4B2F",
+       "i": [
+        [
+         "callo",
+         3
+        ],
+        [
+         "laurel",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "En olla rápida",
+      "m": 35,
+      "tim": 35,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "rapida"
+      ],
+      "x": "Cubre {callos} y {morro} con {agua} (dos dedos por encima), {laurel} y sal. Cierra y, desde que suba la válvula, 35 minutos a fuego medio-bajo. Deja que la olla pierda la presión sola.",
+      "ab": "No fuerces la válvula: que la presión baje por sí sola, que la carne se asienta.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#8A4B2F",
+       "i": [
+        [
+         "callo",
+         3
+        ]
+       ],
+       "vapor": 1
+      }
+     },
+     {
+      "t": "En la olla de cocción lenta",
+      "m": 480,
+      "tim": 480,
+      "w": 1,
+      "solo": [
+       "crockpot"
+      ],
+      "x": "Pon {callos} y {morro} en la olla lenta, cubre con {agua} (apenas evapora: lo justo para cubrir), {laurel} y sal. Programa 6-8 horas en bajo o 4 en alto.",
+      "ab": "La olla lenta es el rescoldo de ahora: fuego mínimo y sin prisa, y no hay que mirarla.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#8A4B2F",
+       "i": [
+        [
+         "callo",
+         3
+        ],
+        [
+         "laurel",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     }
+    ]
+   },
+   {
+    "n": "La salsa",
+    "p": [
+     {
+      "t": "Sofrito con su pimentón",
+      "m": 20,
+      "tim": 20,
+      "f": 2,
+      "x": "Pocha {cebolla} y {ajo} picados en {aceite} con {jamon}, 15 minutos a fuego medio. Fuera del fuego, añade {harina}, {pimenton} y {pimentonpic}, remueve 10 segundos y moja con un cazo del caldo de cocer.",
+      "ab": "El pimentón, siempre fuera del fuego: se quema en un segundo y amarga la salsa entera.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#C77B3B",
+       "i": [
+        [
+         "cebolla",
+         2
+        ],
+        [
+         "ajo",
+         1
+        ],
+        [
+         "jamon",
+         1
+        ]
+       ]
+      }
+     },
+     {
+      "t": "Todo junto, a fuego mínimo",
+      "m": 60,
+      "tim": 60,
+      "f": 1,
+      "w": 1,
+      "x": "Une los callos y el morro escurridos con la salsa, {chorizo} y {morcilla} en rodajas gruesas y {guindilla}; cubre con el caldo justo y cuece a fuego muy suave 1 hora, hasta que la salsa ligue y brille.",
+      "ab": "Ligada, no seca: una salsa brillante que pegue en los labios. Si liga de más, un cazo de caldo.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#B5402F",
+       "i": [
+        [
+         "callo",
+         3
+        ],
+        [
+         "chorizo",
+         2
+        ],
+        [
+         "morcilla",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     }
+    ]
+   },
+   {
+    "n": "El reposo",
+    "p": [
+     {
+      "t": "Reposa y sirve",
+      "m": 10,
+      "tim": 10,
+      "x": "Apaga y deja reposar 10 minutos. Mejor aún: de un día para otro. Sirve bien caliente, en cazuelita, con pan.",
+      "ab": "Los callos, como todo guiso de cuchara, ganan con la noche de por medio. Al recalentar, fuego suave y un chorrito de agua o caldo.",
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#B5402F",
+       "i": [
+        [
+         "callo",
+         3
+        ],
+        [
+         "chorizo",
+         1
+        ]
+       ],
+       "vapor": 1
+      }
+     }
+    ]
+   }
+  ]
  }
 ]

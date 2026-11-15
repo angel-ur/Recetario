@@ -1805,113 +1805,158 @@
   "n": "Callos a la madrileña",
   "sub": "callos, morro y chorizo, hasta que la salsa pega en los labios",
   "reg": "mad",
-  "regs": [
-   "mad"
-  ],
   "lugar": "Comunidad de Madrid",
   "cat": "cuchara",
   "dif": 3,
   "b": 6,
   "rac": [
-   6
+   4,
+   6,
+   8
   ],
-  "intro": "El plato de las tabernas de Madrid en invierno. Lleva tiempo y una buena limpieza, pero luego está para repetir al día siguiente.",
+  "met": [
+   {
+    "id": "lenta",
+    "n": "A fuego lento",
+    "d": "La de siempre: 2 horas de cocción suave"
+   },
+   {
+    "id": "rapida",
+    "n": "En olla rápida",
+    "d": "Tiernos en 35 minutos desde la válvula"
+   },
+   {
+    "id": "crockpot",
+    "n": "En olla de cocción lenta",
+    "d": "Se hace sola: 6-8 horas sin mirarla"
+   }
+  ],
+  "heroe": {
+   "k": "ilu",
+   "svg": "<defs><radialGradient id=\"i_callos_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_callos_fondo)\"/><defs><radialGradient id=\"i_callos_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_callos_barro3\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_callos_cal2\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#B8401E\"/><stop offset=\"1\" stop-color=\"#8E2A12\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"116\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M48 90c0 40 28 60 112 60s112-20 112-60z\" fill=\"url(#i_callos_barro3)\"/><rect x=\"22\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><rect x=\"268\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"90\" rx=\"112\" ry=\"26\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"92\" rx=\"102\" ry=\"21\" fill=\"url(#i_callos_cal2)\"/><g transform=\"translate(161.3 103.4) rotate(14)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(116.9 92.9) rotate(-23)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(108.8 97.1) rotate(-25)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(160.0 103.6) rotate(-5)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(179.2 86.6) rotate(35)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(170.6 97.5) rotate(28)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(190.4 99.0) rotate(-31)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(178.9 91.0) rotate(-16)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><ellipse cx=\"112\" cy=\"86\" rx=\"12\" ry=\"6\" fill=\"#B3341F\"/><ellipse cx=\"110\" cy=\"84.5\" rx=\"7\" ry=\"2.4\" fill=\"#E27A5E\" opacity=\".7\"/><ellipse cx=\"176\" cy=\"96\" rx=\"12\" ry=\"6\" fill=\"#B3341F\"/><ellipse cx=\"174\" cy=\"94.5\" rx=\"7\" ry=\"2.4\" fill=\"#E27A5E\" opacity=\".7\"/><ellipse cx=\"208\" cy=\"88\" rx=\"12\" ry=\"6\" fill=\"#B3341F\"/><ellipse cx=\"206\" cy=\"86.5\" rx=\"7\" ry=\"2.4\" fill=\"#E27A5E\" opacity=\".7\"/><ellipse cx=\"146\" cy=\"86\" rx=\"12\" ry=\"6\" fill=\"#3B1E1A\"/><ellipse cx=\"144\" cy=\"84.5\" rx=\"6\" ry=\"2\" fill=\"#7A4A40\" opacity=\".7\"/><circle cx=\"104.5\" cy=\"85.6\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"103.5\" cy=\"84.6\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"118.9\" cy=\"89.8\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"117.9\" cy=\"88.8\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"216.9\" cy=\"84.6\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"215.9\" cy=\"83.6\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"178.1\" cy=\"89.2\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"177.1\" cy=\"88.2\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"126.6\" cy=\"86.4\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"125.6\" cy=\"85.4\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"204.6\" cy=\"101.6\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"203.6\" cy=\"100.6\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"197.2\" cy=\"102.9\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"196.2\" cy=\"101.9\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"196.5\" cy=\"86.4\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"195.5\" cy=\"85.4\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"117.4\" cy=\"93.9\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"116.4\" cy=\"92.9\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"177.5\" cy=\"100.0\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"176.5\" cy=\"99.0\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"225.0\" cy=\"100.3\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"224.0\" cy=\"99.3\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"236.2\" cy=\"96.9\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"235.2\" cy=\"95.9\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"189.2\" cy=\"100.4\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"188.2\" cy=\"99.4\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"159.5\" cy=\"100.3\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"158.5\" cy=\"99.3\" r=\"1\" fill=\"#F7E2AC\"/><ellipse cx=\"126\" cy=\"82\" rx=\"22\" ry=\"2.6\" fill=\"#fff\" opacity=\".25\"/>"
+  },
+  "regs": [
+   "mad"
+  ],
+  "intro": "El plato de las tabernas de Madrid cuando hace frío. Lleva su tiempo y una buena limpieza, pero se hace casi solo y, reposado de un día para otro, está para repetir.",
+  "secretos": [
+   [
+    "El morro es la gelatina",
+    "es lo que hace que la salsa pegue en los labios. Sin morro, la salsa queda aguada."
+   ],
+   [
+    "De un día para otro",
+    "reposados y recalentados despacio están más buenos. Hazlos hoy para mañana."
+   ],
+   [
+    "A gustos, colores",
+    "hay quien le echa unas patatas en la última media hora, quien pone la morcilla entera para que no se deshaga (se pincha con un palillo) y quien sube la guindilla a dos. De picante, al gusto de cada casa."
+   ],
+   [
+    "Pan",
+    "para untar en la salsa, que es lo mejor. Y luego la cuchara de postre, si hace falta."
+   ]
+  ],
   "ing": [
    [
-    "i0",
-    "1 kg de callos de ternera limpios",
-    null,
-    null,
-    1,
-    "plano"
+    "callos",
+    "callos de ternera limpios|callos de ternera limpios",
+    1000,
+    "g"
    ],
    [
-    "i1",
-    "300 g de morro de ternera",
-    null,
-    null,
-    1,
-    "plano"
+    "morro",
+    "morro de ternera|morro de ternera",
+    300,
+    "g"
    ],
    [
-    "i2",
-    "1 chorizo",
-    null,
-    null,
+    "chorizo",
+    "chorizo para guisar|chorizos para guisar",
     1,
-    "plano"
+    "ud",
+    1
    ],
    [
-    "i3",
-    "1 morcilla de cebolla",
-    null,
-    null,
+    "morcilla",
+    "morcilla de cebolla|morcillas de cebolla",
     1,
-    "plano"
+    "ud",
+    1
    ],
    [
-    "i4",
-    "100 g de jamón o tocino",
-    null,
-    null,
-    1,
-    "plano"
+    "jamon",
+    "jamón serrano en un trozo|jamón serrano en un trozo",
+    100,
+    "g"
    ],
    [
-    "i5",
-    "2 cebollas",
-    null,
-    null,
-    1,
-    "plano"
+    "cebolla",
+    "cebolla|cebollas",
+    2,
+    "ud",
+    0.5
    ],
    [
-    "i6",
-    "3 dientes de ajo",
-    null,
-    null,
-    1,
-    "plano"
+    "ajo",
+    "diente de ajo|dientes de ajo",
+    3,
+    "ud",
+    1
    ],
    [
-    "i7",
-    "1 hoja de laurel",
-    null,
-    null,
+    "laurel",
+    "hoja de laurel|hojas de laurel",
     1,
-    "plano"
+    "ud",
+    1
    ],
    [
-    "i8",
-    "1 cucharada de pimentón dulce y un poco de picante",
-    null,
-    null,
+    "pimenton",
+    "pimentón dulce|pimentón dulce",
     1,
-    "plano"
+    "cda"
    ],
    [
-    "i9",
-    "1 guindilla",
-    null,
-    null,
-    1,
-    "plano"
+    "pimentonpic",
+    "pizca de pimentón picante|pizca de pimentón picante",
+    null
    ],
    [
-    "i10",
-    "1 cucharada de harina",
-    null,
-    null,
+    "guindilla",
+    "guindilla|guindillas",
     1,
-    "plano"
+    "ud",
+    1
    ],
    [
-    "i11",
-    "vinagre y sal",
-    null,
-    null,
+    "harina",
+    "harina|harina",
     1,
-    "plano"
+    "cda"
+   ],
+   [
+    "vinagre",
+    "vinagre|vinagre",
+    3,
+    "cda"
+   ],
+   [
+    "agua",
+    "agua|agua",
+    3000,
+    "ml"
+   ],
+   [
+    "aceite",
+    "aceite de oliva|aceite de oliva",
+    4,
+    "cda"
+   ],
+   [
+    "sal",
+    "sal",
+    null
    ]
   ],
   "fases": [
@@ -1920,160 +1965,213 @@
     "tipo": "tu",
     "p": [
      {
-      "t": "Lava los callos",
+      "t": "Lava y corta los callos",
       "m": 15,
-      "x": "Lávalos con agua fría y 3 cucharadas de vinagre, escúrrelos y córtalos en trozos. Escalda el morro igual.",
-      "ab": "Dos o tres aguas: lo que se queda sin limpiar se nota en el plato.",
-      "f": 0,
+      "x": "Lava {callos} con agua fría y {vinagre}, escúrrelos y córtalos en trozos de 3-4 cm; trocea también {morro}.",
       "tim": 15,
       "e": {
-       "k": "bol",
-       "c": "#BFDDF2",
+       "k": "tabla",
        "i": [
         [
          "callo",
-         6
+         3
         ]
        ]
-      }
+      },
+      "ab": "Dos o tres aguas: lo que quede sin limpiar se nota en el plato."
      },
      {
-      "t": "Cuece despacio",
+      "t": "Cocción suave",
       "m": 120,
-      "x": "En una olla con 3 litros de agua, el laurel y 1 cucharada de sal, cuece a fuego suave (apenas burbujeando) 2 horas, quitando la espuma, hasta que estén tiernos.",
-      "ab": "Se prueba pinchando: tiene que cortarse con la cuchara.",
-      "f": 2,
-      "w": 1,
+      "x": "Cubre {callos} y {morro} con {agua} fría en la olla, con {laurel} y sal. Cuando hierva, baja al mínimo y cuece apenas burbujeando 2 horas, espumando de vez en cuando, hasta que estén tiernos.",
       "tim": 120,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "lenta"
+      ],
       "e": {
        "k": "fuego",
        "v": "olla",
-       "f": 2,
-       "c": "#D9C8A0",
+       "f": 1,
+       "c": "#8A4B2F",
        "i": [
         [
          "callo",
-         8
+         3
         ],
         [
          "laurel",
-         2
+         1
         ]
        ],
-       "espuma": 1,
-       "burbujas": 1
-      }
+       "vapor": 1
+      },
+      "ab": "Se prueba pinchando: el callo tierno se corta con la cuchara."
+     },
+     {
+      "t": "En olla rápida",
+      "m": 35,
+      "x": "Cubre {callos} y {morro} con {agua} (dos dedos por encima), {laurel} y sal. Cierra y, desde que suba la válvula, 35 minutos a fuego medio-bajo. Deja que la olla pierda la presión sola.",
+      "tim": 35,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "rapida"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#8A4B2F",
+       "i": [
+        [
+         "callo",
+         3
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "No fuerces la válvula: que la presión baje por sí sola, que la carne se asienta."
+     },
+     {
+      "t": "En la olla de cocción lenta",
+      "m": 480,
+      "x": "Pon {callos} y {morro} en la olla lenta, cubre con {agua} (apenas evapora: lo justo para cubrir), {laurel} y sal. Programa 6-8 horas en bajo o 4 en alto.",
+      "tim": 480,
+      "w": 1,
+      "solo": [
+       "crockpot"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#8A4B2F",
+       "i": [
+        [
+         "callo",
+         3
+        ],
+        [
+         "laurel",
+         1
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "La olla lenta es el rescoldo de ahora: fuego mínimo y sin prisa, y no hay que mirarla."
      }
     ]
    },
    {
-    "n": "La salsa",
+    "n": "El reposo",
     "tipo": "tu",
     "p": [
      {
-      "t": "Sofrito",
+      "t": "Sofrito con su pimentón",
       "m": 20,
-      "x": "En 4 cucharadas de aceite pocha las 2 cebollas y los 3 ajos picados con los 100 g de jamón, 15 minutos a fuego medio. Retira del fuego, añade 1 cucharada de harina y 1 cucharada de pimentón dulce (con una pizca de picante), remueve 10 segundos y moja con 300 ml del caldo de cocer.",
-      "ab": "El pimentón se quema en un segundo y amarga: aparta del fuego antes de echarlo.",
-      "f": 3,
+      "x": "Pocha {cebolla} y {ajo} picados en {aceite} con {jamon}, 15 minutos a fuego medio. Fuera del fuego, añade {harina}, {pimenton} y {pimentonpic}, remueve 10 segundos y moja con un cazo del caldo de cocer.",
       "tim": 20,
+      "f": 2,
       "e": {
        "k": "fuego",
        "v": "cazuela",
-       "f": 3,
-       "c": "#B9482F",
+       "f": 2,
+       "c": "#C77B3B",
        "i": [
         [
          "cebolla",
-         5,
-         1,
-         "o-pochada"
+         2
         ],
         [
          "ajo",
-         3
+         1
         ],
         [
          "jamon",
-         3
+         1
         ]
-       ],
-       "cuchara": 1,
-       "polvo": "#8E1B13"
-      }
+       ]
+      },
+      "ab": "El pimentón, siempre fuera del fuego: se quema en un segundo y amarga la salsa entera."
      },
      {
-      "t": "Todo junto",
+      "t": "Todo junto, a fuego mínimo",
       "m": 60,
-      "x": "Une callos, salsa, chorizo, morcilla y guindilla, cubre con el caldo justo (unos 500 ml más) y deja a fuego muy suave, 1 hora, hasta que la salsa esté ligada.",
-      "ab": "Ligada, no seca: tiene que quedar una salsa brillante y espesa.",
-      "f": 1,
+      "x": "Une los callos y el morro escurridos con la salsa, {chorizo} y {morcilla} en rodajas gruesas y {guindilla}; cubre con el caldo justo y cuece a fuego muy suave 1 hora, hasta que la salsa ligue y brille.",
       "tim": 60,
+      "f": 1,
+      "w": 1,
       "e": {
        "k": "fuego",
        "v": "cazuela",
        "f": 1,
-       "c": "#A83A22",
+       "c": "#B5402F",
        "i": [
         [
          "callo",
-         8
-        ],
-        [
-         "chorizo",
          3
         ],
         [
-         "morcilla",
+         "chorizo",
          2
         ],
         [
-         "guindilla",
+         "morcilla",
          1
         ]
        ],
-       "tapa": 1,
-       "vapor": 1,
-       "reloj": "1 h",
-       "rf": 0.4
-      }
+       "vapor": 1
+      },
+      "ab": "Ligada, no seca: una salsa brillante que pegue en los labios. Si liga de más, un cazo de caldo."
+     }
+    ]
+   },
+   {
+    "n": "El reposo",
+    "tipo": "tu",
+    "p": [
+     {
+      "t": "Reposa y sirve",
+      "m": 10,
+      "x": "Apaga y deja reposar 10 minutos. Mejor aún: de un día para otro. Sirve bien caliente, en cazuelita, con pan.",
+      "tim": 10,
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#B5402F",
+       "i": [
+        [
+         "callo",
+         3
+        ],
+        [
+         "chorizo",
+         1
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "Los callos, como todo guiso de cuchara, ganan con la noche de por medio. Al recalentar, fuego suave y un chorrito de agua o caldo."
      }
     ]
    }
   ],
-  "simple": 1,
-  "secretos": [
-   [
-    "Al día siguiente",
-    "reposados están mejores."
-   ],
-   [
-    "La gelatina",
-    "el morro es lo que da la salsa pegajosa."
-   ],
-   [
-    "Pan",
-    "para untar, sin cuchara de postre."
-   ]
-  ],
-  "heroe": {
-   "k": "ilu",
-   "svg": "<defs><radialGradient id=\"i_callos_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_callos_fondo)\"/><defs><radialGradient id=\"i_callos_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_callos_barro3\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_callos_cal2\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#B8401E\"/><stop offset=\"1\" stop-color=\"#8E2A12\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"116\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M48 90c0 40 28 60 112 60s112-20 112-60z\" fill=\"url(#i_callos_barro3)\"/><rect x=\"22\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><rect x=\"268\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"90\" rx=\"112\" ry=\"26\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"92\" rx=\"102\" ry=\"21\" fill=\"url(#i_callos_cal2)\"/><g transform=\"translate(161.3 103.4) rotate(14)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(116.9 92.9) rotate(-23)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(108.8 97.1) rotate(-25)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(160.0 103.6) rotate(-5)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(179.2 86.6) rotate(35)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(170.6 97.5) rotate(28)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(190.4 99.0) rotate(-31)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(178.9 91.0) rotate(-16)\"><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#F0E4D0\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M-14 0q4 -5 8 0t8 0\" stroke=\"#D9C2A8\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/></g><ellipse cx=\"112\" cy=\"86\" rx=\"12\" ry=\"6\" fill=\"#B3341F\"/><ellipse cx=\"110\" cy=\"84.5\" rx=\"7\" ry=\"2.4\" fill=\"#E27A5E\" opacity=\".7\"/><ellipse cx=\"176\" cy=\"96\" rx=\"12\" ry=\"6\" fill=\"#B3341F\"/><ellipse cx=\"174\" cy=\"94.5\" rx=\"7\" ry=\"2.4\" fill=\"#E27A5E\" opacity=\".7\"/><ellipse cx=\"208\" cy=\"88\" rx=\"12\" ry=\"6\" fill=\"#B3341F\"/><ellipse cx=\"206\" cy=\"86.5\" rx=\"7\" ry=\"2.4\" fill=\"#E27A5E\" opacity=\".7\"/><ellipse cx=\"146\" cy=\"86\" rx=\"12\" ry=\"6\" fill=\"#3B1E1A\"/><ellipse cx=\"144\" cy=\"84.5\" rx=\"6\" ry=\"2\" fill=\"#7A4A40\" opacity=\".7\"/><circle cx=\"104.5\" cy=\"85.6\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"103.5\" cy=\"84.6\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"118.9\" cy=\"89.8\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"117.9\" cy=\"88.8\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"216.9\" cy=\"84.6\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"215.9\" cy=\"83.6\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"178.1\" cy=\"89.2\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"177.1\" cy=\"88.2\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"126.6\" cy=\"86.4\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"125.6\" cy=\"85.4\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"204.6\" cy=\"101.6\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"203.6\" cy=\"100.6\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"197.2\" cy=\"102.9\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"196.2\" cy=\"101.9\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"196.5\" cy=\"86.4\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"195.5\" cy=\"85.4\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"117.4\" cy=\"93.9\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"116.4\" cy=\"92.9\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"177.5\" cy=\"100.0\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"176.5\" cy=\"99.0\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"225.0\" cy=\"100.3\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"224.0\" cy=\"99.3\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"236.2\" cy=\"96.9\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"235.2\" cy=\"95.9\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"189.2\" cy=\"100.4\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"188.2\" cy=\"99.4\" r=\"1\" fill=\"#F7E2AC\"/><circle cx=\"159.5\" cy=\"100.3\" r=\"3.2\" fill=\"#E9C77C\"/><circle cx=\"158.5\" cy=\"99.3\" r=\"1\" fill=\"#F7E2AC\"/><ellipse cx=\"126\" cy=\"82\" rx=\"22\" ry=\"2.6\" fill=\"#fff\" opacity=\".25\"/>"
-  },
   "tienda": [
    [
     "Los callos",
-    "Pide «callos de ternera, ya limpios y blanqueados». Si te los dan sin limpiar, hay que lavarlos mucho con sal y vinagre. Cortados en trozos de 3-4 cm para guisar.",
+    "pide «callos de ternera, ya limpios y blanqueados». Si te los dan sin limpiar, hay que lavarlos mucho con sal y vinagre. Cortados en trozos de 3-4 cm para guisar.",
     "callos"
    ],
    [
     "El morro",
-    "«Morro de ternera, en trozos, limpio y sin pelos». Es lo que da la gelatina a la salsa.",
+    "«morro de ternera, en trozos, limpio y sin pelos». Es lo que da la gelatina a la salsa.",
     "morro"
    ],
    [
     "Chorizo y morcilla",
-    "«Chorizo y morcilla para guisar», no de cortar en lonchas.",
+    "«chorizo y morcilla para guisar», no de cortar en lonchas.",
     "chorizo|morcilla"
    ]
   ]

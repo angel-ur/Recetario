@@ -3,6 +3,7 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Callos a la madrileña rehechos como el pil pil: cantidades ajustadas a cuantos sois (4, 6 u 8, tambien dentro de los pasos), tres formas de cocerlos (a fuego lento, en olla rapida o en olla de coccion lenta, que se hace sola) y la receta de la abuela completa, con sus variantes de cada casa.
 - Caldero murciano rehecho como el pil pil: cantidades ajustadas a cuantos sois (2, 4 o 6, tambien dentro de los pasos), dos formas de hacerlo (caldero o cazuela ancha al fuego, u olla normal, que queda mas meloso) y la receta de la abuela completa: el fumet de roca, la picada de nora y ajo, y el alioli.
 - Caldereta de cordero rehecha como el pil pil: cantidades ajustadas a cuantos sois (2, 4 o 6, tambien dentro de los pasos), tres formas de hacerla (a fuego lento, en olla rapida o al horno en cazuela de barro) y la receta de la abuela completa, con sus variantes de cada casa y la tienda ampliada.
 - Galets: el paso de rellenar ahora dice claro con que carne (la picada amasada: la mitad reservada de la pilota, o la mezcla hecha al momento si no hay pilota).
