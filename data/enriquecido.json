@@ -5834,11 +5834,17 @@
       "solo": [
        "fuego"
       ]
-     },
+     }
+    ]
+   },
+   {
+    "n": "El remate",
+    "tipo": "tu",
+    "p": [
      {
       "t": "Con huevo frito",
       "m": 5,
-      "tim": 3,
+      "tim": 5,
       "f": 4,
       "x": "Fríe {huevo} y sírvelos encima del pisto, con la yema para romper.",
       "ab": "En La Mancha, con pan para mojar la yema y el pisto a la vez.",

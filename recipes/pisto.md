@@ -47,6 +47,9 @@ Cada verdura entra cuando la anterior se ha ablandado, y todo a fuego lento hast
 
 7. **El tomate, despacio** (40 min) - Incorpora el tomate y deja que se haga a fuego mínimo unos 40 minutos, removiendo de vez en cuando, hasta que no quede caldo. Prueba, rectifica de sal y, si está ácido, añade una pizca de azúcar.
    > Está hecho cuando, al pasar la cuchara por el fondo, el camino no se llena de líquido.
+
+### El remate
+
 8. **Con huevo frito** (5 min) - Fríe huevos y sírvelos encima del pisto, con la yema para romper.
    > En La Mancha, con pan para mojar la yema y el pisto a la vez.
 ## Secretos de la abuela

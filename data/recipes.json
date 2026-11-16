@@ -8818,12 +8818,18 @@
        "cuchara": 1
       },
       "ab": "Está hecho cuando, al pasar la cuchara por el fondo, el camino no se llena de líquido."
-     },
+     }
+    ]
+   },
+   {
+    "n": "El remate",
+    "tipo": "tu",
+    "p": [
      {
       "t": "Con huevo frito",
       "m": 5,
       "x": "Fríe {huevo} y sírvelos encima del pisto, con la yema para romper.",
-      "tim": 3,
+      "tim": 5,
       "f": 4,
       "e": {
        "k": "plato",
