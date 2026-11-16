@@ -7470,8 +7470,7 @@
        "f": 2,
        "c": "#9CC8EA",
        "tapa": 1,
-       "vapor": 1,
-       "reloj": "12 min"
+       "vapor": 1
       },
       "solo": [
        "expres"
@@ -7492,7 +7491,6 @@
        "c": "#9CC8EA",
        "tapa": 1,
        "vapor": 1,
-       "reloj": "12 min",
        "burbujas": 1
       },
       "solo": [

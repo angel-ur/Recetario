@@ -9599,8 +9599,7 @@
        "f": 2,
        "c": "#9CC8EA",
        "tapa": 1,
-       "vapor": 1,
-       "reloj": "12 min"
+       "vapor": 1
       },
       "ab": "La presión, que baje sola: ese descenso lento termina de ablandarlo. Abrir con agua fría lo corta de golpe y lo deja duro."
      },
@@ -9621,7 +9620,6 @@
        "c": "#9CC8EA",
        "tapa": 1,
        "vapor": 1,
-       "reloj": "12 min",
        "burbujas": 1
       },
       "ab": "El reposo termina de ablandarlo y asienta la piel."
