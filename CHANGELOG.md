@@ -4,6 +4,9 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+- Pulpo: "un dedo de agua" queda acotado por el liquido minimo y el limite de llenado del fabricante (normalmente dos tercios).
+- Temporizadores: botones -5 min y +5 min disponibles tambien antes de iniciar, para ajustar el tiempo al equipo antes de empezar; el ajuste se muestra como "Ajustado: dale al play" y no ocupa la barra de temporizadores.
+
 - Pulpo: la coccion con presion distingue olla rapida (11-16 min) de expres tradicional (20-22 min) y el temporizador se declara orientativo, ajustable con el boton de +5 min.
 
 - Pulpo: la subida y bajada de presion ya no prometen minutos fijos; se describen como estimaciones variables segun olla y fuego, y el reposo y el pincho quedan con su criterio (fuentes: cocinatusrecetas.com, bacalalo.com).

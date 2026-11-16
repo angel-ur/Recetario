@@ -1196,7 +1196,7 @@
     pref = pref || '';
     var timer = p.tim ? '<div class="temporizador" data-t="' + key + '" data-seg="' + (p.tim * 60) + '" data-estado="parado">' +
       '<button class="t-btn" type="button" data-tb="' + key + '"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><use href="#e-play"/></svg><svg class="i-pausa" viewBox="0 0 16 16" aria-hidden="true"><use href="#e-pausa"/></svg><svg class="i-campana" viewBox="0 0 16 16" aria-hidden="true"><use href="#e-campana"/></svg><span class="t-txt"></span></button>' +
-      '<span class="t-progreso" hidden><i></i></span><span class="t-extra" hidden><button class="t-mas" type="button" data-tm="' + key + '">+5 min</button><button class="t-reset" type="button" data-tr="' + key + '" hidden>Reiniciar</button><span class="t-est"></span></span></div>' : '';
+      '<span class="t-progreso" hidden><i></i></span><span class="t-extra" hidden><button class="t-mas" type="button" data-tq="' + key + '">-5 min</button><button class="t-mas" type="button" data-tm="' + key + '">+5 min</button><button class="t-reset" type="button" data-tr="' + key + '" hidden>Reiniciar</button><span class="t-est"></span></span></div>' : '';
     return '<article class="paso" id="' + pref + 'p-' + p.key + '" data-key="' + key + '" aria-labelledby="' + pref + 'pt-' + p.key + '">' +
       '<figure class="ilustra">' + ESC.svg(p.e, p.t) + '</figure><div class="paso-cuerpo">' +
       '<div class="paso-cab"><span class="paso-num" aria-hidden="true">' + p.n + '</span><h4 id="' + pref + 'pt-' + p.key + '">' + esc(p.t) + '</h4><span class="paso-hora num" data-h="' + p.key + '">' + (pref ? esc(hora(p.ini)) : '') + '</span></div>' +
@@ -1309,11 +1309,26 @@
     var t = T[k], now = Date.now();
     if (!t) { if (!seg) { var pp = pasoDeClave(k); seg = pp && pp.p.tim ? pp.p.tim * 60 : 0; } if (!seg) return; T[k] = { e: 'marcha', fin: now + seg * 1000, total: seg * 1000 }; }
     else if (t.e === 'marcha') { t.e = 'pausa'; t.resto = Math.max(0, t.fin - now); }
-    else if (t.e === 'pausa') { t.e = 'marcha'; t.fin = now + t.resto; }
+    else if (t.e === 'pausa') { t.e = 'marcha'; t.fin = now + t.resto; delete t.ajustado; }
     else delete T[k];
     guardaT(); revisaAlarma(); pintaTimers();
   }
-  function mas5(k) { var t = T[k], now = Date.now(); if (!t) return; if (t.e === 'listo') T[k] = { e: 'marcha', fin: now + 300000, total: 300000 }; else if (t.e === 'marcha') { t.fin += 300000; t.total += 300000; } else { t.resto += 300000; t.total += 300000; } guardaT(); revisaAlarma(); pintaTimers(); }
+  function ajusta(k, delta) {
+    var t = T[k], now = Date.now();
+    if (!t) {
+      var pp = pasoDeClave(k), sg = pp && pp.p.tim ? pp.p.tim * 60 : 0;
+      if (!sg) return;
+      var base = Math.max(60000, sg * 1000 + delta);
+      T[k] = { e: 'pausa', resto: base, total: base, ajustado: 1 };
+    } else if (t.e === 'listo') {
+      if (delta > 0) T[k] = { e: 'marcha', fin: now + 300000, total: 300000 };
+    } else if (t.e === 'marcha') {
+      t.fin = Math.max(now + 60000, t.fin + delta); t.total = Math.max(t.fin - now, t.total + delta);
+    } else {
+      t.resto = Math.max(60000, t.resto + delta); t.total = Math.max(t.resto, t.total + delta);
+    }
+    guardaT(); revisaAlarma(); pintaTimers();
+  }
   function reinicia(k) { delete T[k]; guardaT(); revisaAlarma(); pintaTimers(); }
   function pintaTimers() {
     var now = Date.now();
@@ -1321,10 +1336,10 @@
       var k = box.getAttribute('data-t'), seg = +box.getAttribute('data-seg'), t = T[k], e = t ? t.e : 'parado', r = restante(k, now, seg);
       box.setAttribute('data-estado', e);
       $('.t-txt', box).textContent = e === 'listo' ? '¡Tiempo!' : fmt(r / 1000);
-      $('.t-est', box).textContent = e === 'pausa' ? 'En pausa' : '';
-      var lab = e === 'parado' ? 'Iniciar temporizador de ' + durTxt(seg / 60) : e === 'marcha' ? 'Pausar temporizador' : e === 'pausa' ? 'Reanudar temporizador' : 'Parar la alarma';
+      $('.t-est', box).textContent = e === 'pausa' ? (t.ajustado ? 'Ajustado: dale al play' : 'En pausa') : '';
+      var lab = e === 'parado' ? 'Iniciar temporizador de ' + durTxt(seg / 60) : e === 'marcha' ? 'Pausar temporizador' : e === 'pausa' ? (t.ajustado ? 'Iniciar temporizador ajustado' : 'Reanudar temporizador') : 'Parar la alarma';
       var b = $('.t-btn', box); if (b.getAttribute('aria-label') !== lab) b.setAttribute('aria-label', lab);
-      $('.t-extra', box).hidden = !t;
+      $('.t-extra', box).hidden = false;
       $('.t-reset', box).hidden = !(e === 'marcha' || e === 'pausa');
       $('.t-progreso', box).hidden = !(e === 'marcha' || e === 'pausa');
       if (t && t.total) $('.t-progreso i', box).style.width = Math.max(0, Math.min(100, (1 - r / t.total) * 100)).toFixed(2) + '%';
@@ -1333,7 +1348,7 @@
   }
   function orden(k) { var t = T[k]; return t.e === 'listo' ? -1 : t.e === 'marcha' ? 1 + t.fin / 1e13 : 2; }
   function pintaDock(now) {
-    var ks = Object.keys(T), dock = $('#dock');
+    var ks = Object.keys(T).filter(function (k) { return !T[k].ajustado; }), dock = $('#dock');
     if (!ks.length) { dock.hidden = true; return; }
     ks.sort(function (a, b) { return orden(a) - orden(b); });
     var k = ks[0], t = T[k], info = pasoDeClave(k);
@@ -1757,7 +1772,7 @@
   /* ---------- Eventos ---------- */
   document.addEventListener('click', function (ev) {
     if (!$('#menu').hidden && !ev.target.closest('#menu,#menu-btn')) menuAbre(false);
-    var t = ev.target.closest('[data-ir],[data-menu],#mas-filtros,#quita-filtros,[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-desglose],[data-cvista],[data-ruta],[data-cerrada],[data-usamk],[data-nocerradas],[data-cambia],[data-alt],[data-planb],[data-tpref],[data-casa],[data-vaciar],[data-fav],[data-comparte],[data-imprime],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
+    var t = ev.target.closest('[data-ir],[data-menu],#mas-filtros,#quita-filtros,[data-reg],[data-vista],#ver-espana,[data-cat],[data-tiempo],[data-tb],[data-tm],[data-tq],[data-tr],[data-hecho],[data-cocina],[data-cocinado],[data-geo],[data-reset],[data-comprar],[data-compra],[data-desglose],[data-cvista],[data-ruta],[data-cerrada],[data-usamk],[data-nocerradas],[data-cambia],[data-alt],[data-planb],[data-tpref],[data-casa],[data-vaciar],[data-fav],[data-comparte],[data-imprime],#ver-favs,#ahora,.cocina-cerrar,#c-ant,#c-sig,#dock-accion,#dock-ir');
     if (!t) return;
     if (t.hasAttribute('data-ir')) { ir(t.getAttribute('data-ir')); return; }
     if (t.hasAttribute('data-menu')) { var ma = t.getAttribute('data-menu'); if (ma === 'abre') { menuAbre($('#menu').hidden); return; } menuAccion(ma); return; }
@@ -1768,7 +1783,8 @@
     if (t.hasAttribute('data-cat')) { filtro.cat = t.getAttribute('data-cat'); $$('[data-cat]').forEach(function (b) { b.setAttribute('aria-pressed', b === t ? 'true' : 'false'); }); pintaFichas(); return; }
     if (t.hasAttribute('data-tiempo')) { filtro.t = t.getAttribute('data-tiempo'); $$('[data-tiempo]').forEach(function (b) { b.setAttribute('aria-pressed', b === t ? 'true' : 'false'); }); pintaFichas(); return; }
     if (t.hasAttribute('data-tb')) { var box = t.closest('.temporizador'); pulsa(t.getAttribute('data-tb'), +box.getAttribute('data-seg')); return; }
-    if (t.hasAttribute('data-tm')) { mas5(t.getAttribute('data-tm')); return; }
+    if (t.hasAttribute('data-tm')) { ajusta(t.getAttribute('data-tm'), 300000); return; }
+    if (t.hasAttribute('data-tq')) { ajusta(t.getAttribute('data-tq'), -300000); return; }
     if (t.hasAttribute('data-tr')) { reinicia(t.getAttribute('data-tr')); return; }
     if (t.hasAttribute('data-hecho')) { var p = t.getAttribute('data-hecho').split(':'); marcaHecho(porId[p[0]], +p[1]); if (cocina) pintaCocina(); else pintaHechos(); return; }
     if (t.hasAttribute('data-fav')) { if (favs[actual.id]) delete favs[actual.id]; else favs[actual.id] = Date.now(); store.set('favs', favs); t.setAttribute('aria-pressed', !!favs[actual.id]); t.textContent = favs[actual.id] ? '♥ En favoritos' : '♡ Guardar'; return; }
