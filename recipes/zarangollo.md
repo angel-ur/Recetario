@@ -28,22 +28,23 @@ De la huerta murciana: calabacín y cebolla pochados muy despacio, casi confitad
 1. **Corta muy fino** (15 min) - Corta calabacines en láminas finas o medias lunas y cebollas en juliana fina.
    > Muy fino, para que se haga casi una crema. En algunas casas añaden {patata} en láminas.
 2. **La cebolla, a fuego suave** (15 min) - Pocha la cebolla en aceite de oliva a fuego suave, sin que coja color.
-3. **La verdura, en el robot** (27 min) - En el vaso del robot, pon aceite de oliva, la cebolla y el calabacín con sal y programa 25 minutos a 100 °C, velocidad cuchara, quitando el cubilete los últimos 10 minutos para que evapore.
-   > Sin cubilete al final, que el zarangollo no puede quedar aguado.
-4. **La verdura, al microondas** (18 min) - En un bol amplio apto para microondas, pon la cebolla y el calabacín con aceite de oliva y sal, tapa y calienta a máxima potencia de 12 a 15 minutos, removiendo a mitad, hasta que esté todo muy tierno y haya soltado el agua.
+3. **La cebolla, en el robot** (17 min) - En el vaso del robot, pon aceite de oliva, la cebolla y una pizca de sal y programa 15 minutos, temperatura varoma o 120 °C, giro a la izquierda y velocidad cuchara.
+4. **El calabacín, sin cubilete** (22 min) - Añade el calabacín con sal y programa 20 minutos, misma temperatura y velocidad, quitando el cubilete para que la verdura suelte el agua.
+   > Sin cubilete, que el zarangollo no puede quedar aguado.
+5. **La verdura, al microondas** (18 min) - En un bol amplio apto para microondas, pon la cebolla y el calabacín con aceite de oliva y sal, tapa y calienta a máxima potencia de 12 a 15 minutos, removiendo a mitad, hasta que esté todo muy tierno y haya soltado el agua.
    > Tápalo bien, que tiene que sudar como en la cazuela tapada.
-5. **Calabacín, despacio** (35 min) - Añade el calabacín con sal, tapa y deja que se haga a fuego mínimo unos 35 minutos, removiendo de vez en cuando, hasta que esté muy tierno y haya soltado el agua.
+6. **Calabacín, despacio** (35 min) - Añade el calabacín con sal, tapa y deja que se haga a fuego mínimo unos 35 minutos, removiendo de vez en cuando, hasta que esté muy tierno y haya soltado el agua.
    > Tapado al principio para que sude y destapado al final para que se vaya el agua. Sin prisa, que no se dore.
 
 ### El huevo
 
-6. **Cuaja el huevo** (3 min) - Bate ligeramente huevos, échalos sobre la verdura y remueve con suavidad hasta que empiecen a cuajar. Apaga enseguida.
+7. **Cuaja el huevo** (3 min) - Bate ligeramente huevos, échalos sobre la verdura y remueve con suavidad hasta que empiecen a cuajar. Apaga enseguida.
    > Tiene que quedar jugoso, como un revuelto poco hecho: termina de cuajar con el calor.
-7. **El huevo, un minuto** (2 min) - Bate ligeramente huevos, échalos sobre la verdura caliente y remueve. Dale 1 minuto más al microondas y remueve de nuevo: tiene que quedar jugoso, como un revuelto poco hecho.
+8. **El huevo, un minuto** (2 min) - Bate ligeramente huevos, échalos sobre la verdura caliente y remueve. Dale 1 minuto más al microondas y remueve de nuevo: tiene que quedar jugoso, como un revuelto poco hecho.
    > Si te queda crudo, mejor 30 segundos más que un minuto entero: se pasa en nada.
-8. **El huevo, un minuto** (2 min) - Bate ligeramente huevos, añádelos al vaso y dale 1 minuto más a 100 °C, removiendo: tienen que quedar jugosos, como un revuelto poco hecho.
+9. **El huevo, dos minutos** (3 min) - Bate ligeramente huevos, añádelos al vaso y programa 2 minutos, misma temperatura y velocidad, removiendo: tienen que quedar jugosos, como un revuelto poco hecho.
    > Mejor corto que pasado: el calor de la verdura termina de cuajarlo.
-9. **Sirve** (2 min) - Sírvelo templado, con pan.
+10. **Sirve** (2 min) - Sírvelo templado, con pan.
    > En Murcia se toma de tapa en las barras o como cena ligera.
 ## Secretos de la abuela
 

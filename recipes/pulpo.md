@@ -34,11 +34,11 @@ Como en las ferias gallegas: el pulpo asustado tres veces, cortado con tijera so
    > Asustarlo hace que los tentáculos se ricen y que la piel no se despegue al cocer.
 3. **Cuece** (40 min) - Cuece a fuego medio unos 40 minutos para un pulpo de 2 kg, unos 20 minutos por kilo. Pincha la parte gruesa de un tentáculo: debe entrar con facilidad, con un punto firme.
    > Ni duro ni chicloso: tierno, pero que la piel no se deshaga.
-4. **Carga la exprés** (5 min) - Pon el pulpo en la olla exprés con agua que apenas lo cubra, sin sal. Cierra la olla como indica su fabricante y ponla a fuego fuerte hasta que suba la válvula.
+4. **Carga la exprés** (5 min) - Pon el pulpo en la olla exprés con un dedo de agua, sin sal (suelta mucha agua propia). Cierra la olla como indica su fabricante y ponla a fuego fuerte hasta que suba la válvula: unos minutos, según tu olla y tu fuego.
    > En exprés no hace falta asustarlo: la presión lo deja tierno igual y la piel aguanta.
-5. **Cocción con presión** (14 min) - Cuando suba la válvula, baja el fuego y cuenta el tiempo de presión. Para un pulpo de unos 2 kg, unos 12 minutos es el punto de partida, pero manda el manual de tu olla. Pasado el tiempo, suelta la presión como indique el fabricante antes de abrir.
-   > Los tiempos de presión cambian de una olla a otra: el manual de la tuya manda sobre cualquier receta, esta incluida.
-6. **Comprueba y reposa** (12 min) - Pincha la parte gruesa de un tentáculo: debe entrar con facilidad, con un punto firme. Si resiste, cierra y dale dos minutos más de presión. Luego déjalo reposar en su agua diez minutos.
+5. **Cocción con presión** (14 min) - Cuando suba la válvula, baja el fuego al mínimo que mantenga la presión y cuenta el tiempo. Para un pulpo de unos 2 kg, de 11 a 16 minutos según la olla (las rápidas de dos anillas piden menos que las de una); ante la duda, por lo bajo, y manda siempre el manual de la tuya. Pasado el tiempo, apaga y deja que la presión baje sola, unos minutos más.
+   > La presión, que baje sola: ese descenso lento termina de ablandarlo. Abrir con agua fría lo corta de golpe y lo deja duro.
+6. **Comprueba y reposa** (12 min) - Pincha la parte gruesa de un tentáculo, junto a la cabeza: debe entrar con una ligera resistencia. Si va duro, cierra y dale dos minutos más de presión. Luego déjalo reposar en su agua diez minutos, con la olla abierta.
    > El reposo termina de ablandarlo y asienta la piel.
 7. **Reposa en su agua** (10 min) - Apaga el fuego y déjalo reposar en el agua diez minutos. Sácalo y resérvalo.
    > El reposo termina de ablandarlo y asienta la piel.

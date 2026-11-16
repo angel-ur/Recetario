@@ -3,6 +3,10 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+
+- Pulpo: la subida y bajada de presion ya no prometen minutos fijos; se describen como estimaciones variables segun olla y fuego, y el reposo y el pincho quedan con su criterio (fuentes: cocinatusrecetas.com, bacalalo.com).
+- Zarangollo robot: la verdura se divide en dos pasos (cebolla 15 min con cubilete / calabacin 20 min sin cubilete) y el huevo gana su propio paso de 2 minutos; las intervenciones ya no se esconden en tramos libres.
+- Pisto robot: la verdura llega al vaso por tandas (cebolla, pimientos, calabacin) y el tomate cuece aparte sin cubilete; cada intervencion corta el tiempo libre.
 - Pulpo en exprés, por partes: cargar la olla, la cocción con presión y la comprobación con reposo son pasos separados, y el tiempo de presión remite al manual de cada olla (12 min como punto de partida para 2 kg, sin regla por kilo).
 - Zarangollo en robot: la verdura (25 min) y el huevo (1 minuto) son pasos separados, y la fase «El huevo» ya no se queda solo con el «Sirve» en ese método.
 - Pulpo a feira: selector "Cómo lo vas a hacer" (en olla, la de siempre, asustado; o en olla exprés, 12 minutos con presión y sin asustar), cantidades ajustadas dentro de los pasos y variantes (solo dulce, sin patatas como en O Carballiño, ajos fritos).

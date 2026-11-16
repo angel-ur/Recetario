@@ -38,19 +38,22 @@ Cada verdura entra cuando la anterior se ha ablandado, y todo a fuego lento hast
 3. **Cebolla y pimientos** (25 min) - Pocha la cebolla en aceite de oliva virgen extra a fuego suave diez minutos. Añade los pimientos y deja otros quince, hasta que estén blandos.
    > Fuego suave y tapado al principio: las verduras sudan y se ablandan sin dorarse.
 4. **El calabacín** (15 min) - Añade el calabacín con una pizca de sal y cocina quince minutos más.
-5. **La verdura, en el robot** (45 min) - En el vaso del robot, pon aceite de oliva virgen extra y la cebolla y programa 10 minutos a 120 °C, velocidad cuchara, giro inverso. Añade los pimientos, 10 minutos más. Echa el calabacín con una pizca de sal, otros 10, y por último el tomate: 15 minutos sin cubilete, para que evapore. Prueba y, si está ácido, añade una pizca de azúcar.
+5. **La cebolla, en el robot** (12 min) - En el vaso del robot, pon aceite de oliva virgen extra y la cebolla y programa 10 minutos a 120 °C, velocidad cuchara, giro inverso.
+6. **Los pimientos, al vaso** (10 min) - Añade los pimientos y programa 10 minutos más, a la misma temperatura y velocidad.
+7. **El calabacín, otros 10** (10 min) - Echa el calabacín con una pizca de sal y programa otros 10 minutos.
+8. **El tomate, sin cubilete** (17 min) - Por último, añade el tomate y programa 15 minutos sin el cubilete, para que evapore. Prueba y, si está ácido, añade una pizca de azúcar.
    > Sin cubilete al final, que el pisto tiene que perder el agua, no guardarla.
-6. **Las verduras, asadas** (50 min) - Calienta el horno a 200 °C. Reparte la cebolla, los pimientos y el calabacín en una bandeja grande, riega con aceite de oliva virgen extra, sala y asa unos 40 minutos, removiendo a mitad de tiempo. Añade el tomate troceado, mezcla bien y deja 10 minutos más, hasta que no quede caldo.
+9. **Las verduras, asadas** (50 min) - Calienta el horno a 200 °C. Reparte la cebolla, los pimientos y el calabacín en una bandeja grande, riega con aceite de oliva virgen extra, sala y asa unos 40 minutos, removiendo a mitad de tiempo. Añade el tomate troceado, mezcla bien y deja 10 minutos más, hasta que no quede caldo.
    > Asado, el pisto queda más meloso y con un punto tostado. En verano, además, no se enciende el fuego.
 
 ### Confitar
 
-7. **El tomate, despacio** (40 min) - Incorpora el tomate y deja que se haga a fuego mínimo unos 40 minutos, removiendo de vez en cuando, hasta que no quede caldo. Prueba, rectifica de sal y, si está ácido, añade una pizca de azúcar.
+10. **El tomate, despacio** (40 min) - Incorpora el tomate y deja que se haga a fuego mínimo unos 40 minutos, removiendo de vez en cuando, hasta que no quede caldo. Prueba, rectifica de sal y, si está ácido, añade una pizca de azúcar.
    > Está hecho cuando, al pasar la cuchara por el fondo, el camino no se llena de líquido.
 
 ### El remate
 
-8. **Con huevo frito** (5 min) - Fríe huevos y sírvelos encima del pisto, con la yema para romper.
+11. **Con huevo frito** (5 min) - Fríe huevos y sírvelos encima del pisto, con la yema para romper.
    > En La Mancha, con pan para mojar la yema y el pisto a la vez.
 ## Secretos de la abuela
 

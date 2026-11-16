@@ -5713,11 +5713,114 @@
       ]
      },
      {
-      "t": "La verdura, en el robot",
-      "m": 45,
-      "tim": 45,
+      "t": "La cebolla, en el robot",
+      "m": 12,
+      "tim": 10,
       "f": 0,
-      "x": "En el vaso del robot, pon {aceite} y la cebolla y programa 10 minutos a 120 °C, velocidad cuchara, giro inverso. Añade los pimientos, 10 minutos más. Echa el calabacín con una pizca de sal, otros 10, y por último el tomate: 15 minutos sin cubilete, para que evapore. Prueba y, si está ácido, añade {azucar}.",
+      "x": "En el vaso del robot, pon {aceite} y la cebolla y programa 10 minutos a 120 °C, velocidad cuchara, giro inverso.",
+      "e": {
+       "k": "bol",
+       "c": "#B8432C",
+       "i": [
+        [
+         "cebolla",
+         5
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "pimiento",
+         2,
+         1,
+         "rojo"
+        ],
+        [
+         "calabacin",
+         3
+        ]
+       ]
+      },
+      "solo": [
+       "robot"
+      ]
+     },
+     {
+      "t": "Los pimientos, al vaso",
+      "m": 10,
+      "tim": 10,
+      "f": 0,
+      "x": "Añade los pimientos y programa 10 minutos más, a la misma temperatura y velocidad.",
+      "e": {
+       "k": "bol",
+       "c": "#B8432C",
+       "i": [
+        [
+         "cebolla",
+         5
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "pimiento",
+         2,
+         1,
+         "rojo"
+        ],
+        [
+         "calabacin",
+         3
+        ]
+       ]
+      },
+      "solo": [
+       "robot"
+      ]
+     },
+     {
+      "t": "El calabacín, otros 10",
+      "m": 10,
+      "tim": 10,
+      "f": 0,
+      "x": "Echa el calabacín con una pizca de sal y programa otros 10 minutos.",
+      "e": {
+       "k": "bol",
+       "c": "#B8432C",
+       "i": [
+        [
+         "cebolla",
+         5
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "pimiento",
+         2,
+         1,
+         "rojo"
+        ],
+        [
+         "calabacin",
+         3
+        ]
+       ]
+      },
+      "solo": [
+       "robot"
+      ]
+     },
+     {
+      "t": "El tomate, sin cubilete",
+      "m": 17,
+      "tim": 15,
+      "w": 1,
+      "f": 0,
+      "x": "Por último, añade el tomate y programa 15 minutos sin el cubilete, para que evapore. Prueba y, si está ácido, añade {azucar}.",
       "ab": "Sin cubilete al final, que el pisto tiene que perder el agua, no guardarla.",
       "e": {
        "k": "bol",
@@ -7340,7 +7443,7 @@
       "t": "Carga la exprés",
       "m": 5,
       "f": 5,
-      "x": "Pon el pulpo en la olla exprés con agua que apenas lo cubra, sin sal. Cierra la olla como indica su fabricante y ponla a fuego fuerte hasta que suba la válvula.",
+      "x": "Pon el pulpo en la olla exprés con un dedo de agua, sin sal (suelta mucha agua propia). Cierra la olla como indica su fabricante y ponla a fuego fuerte hasta que suba la válvula: unos minutos, según tu olla y tu fuego.",
       "ab": "En exprés no hace falta asustarlo: la presión lo deja tierno igual y la piel aguanta.",
       "e": {
        "k": "fuego",
@@ -7359,8 +7462,8 @@
       "tim": 12,
       "w": 1,
       "f": 2,
-      "x": "Cuando suba la válvula, baja el fuego y cuenta el tiempo de presión. Para un pulpo de unos 2 kg, unos 12 minutos es el punto de partida, pero manda el manual de tu olla. Pasado el tiempo, suelta la presión como indique el fabricante antes de abrir.",
-      "ab": "Los tiempos de presión cambian de una olla a otra: el manual de la tuya manda sobre cualquier receta, esta incluida.",
+      "x": "Cuando suba la válvula, baja el fuego al mínimo que mantenga la presión y cuenta el tiempo. Para un pulpo de unos 2 kg, de 11 a 16 minutos según la olla (las rápidas de dos anillas piden menos que las de una); ante la duda, por lo bajo, y manda siempre el manual de la tuya. Pasado el tiempo, apaga y deja que la presión baje sola, unos minutos más.",
+      "ab": "La presión, que baje sola: ese descenso lento termina de ablandarlo. Abrir con agua fría lo corta de golpe y lo deja duro.",
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -7380,7 +7483,7 @@
       "tim": 10,
       "w": 1,
       "f": "a",
-      "x": "Pincha la parte gruesa de un tentáculo: debe entrar con facilidad, con un punto firme. Si resiste, cierra y dale dos minutos más de presión. Luego déjalo reposar en su agua diez minutos.",
+      "x": "Pincha la parte gruesa de un tentáculo, junto a la cabeza: debe entrar con una ligera resistencia. Si va duro, cierra y dale dos minutos más de presión. Luego déjalo reposar en su agua diez minutos, con la olla abierta.",
       "ab": "El reposo termina de ablandarlo y asienta la piel.",
       "e": {
        "k": "fuego",
@@ -7650,13 +7753,38 @@
       ]
      },
      {
-      "t": "La verdura, en el robot",
-      "m": 27,
-      "tim": 25,
+      "t": "La cebolla, en el robot",
+      "m": 17,
+      "tim": 15,
       "w": 1,
       "f": 0,
-      "x": "En el vaso del robot, pon {aceite}, la cebolla y el calabacín con sal y programa 25 minutos a 100 °C, velocidad cuchara, quitando el cubilete los últimos 10 minutos para que evapore.",
-      "ab": "Sin cubilete al final, que el zarangollo no puede quedar aguado.",
+      "x": "En el vaso del robot, pon {aceite}, la cebolla y una pizca de sal y programa 15 minutos, temperatura varoma o 120 °C, giro a la izquierda y velocidad cuchara.",
+      "e": {
+       "k": "bol",
+       "c": "#8FA84B",
+       "i": [
+        [
+         "cebolla",
+         4
+        ],
+        [
+         "calabacin",
+         5
+        ]
+       ]
+      },
+      "solo": [
+       "robot"
+      ]
+     },
+     {
+      "t": "El calabacín, sin cubilete",
+      "m": 22,
+      "tim": 20,
+      "w": 1,
+      "f": 0,
+      "x": "Añade el calabacín con sal y programa 20 minutos, misma temperatura y velocidad, quitando el cubilete para que la verdura suelte el agua.",
+      "ab": "Sin cubilete, que el zarangollo no puede quedar aguado.",
       "e": {
        "k": "bol",
        "c": "#8FA84B",
@@ -7783,11 +7911,11 @@
       ]
      },
      {
-      "t": "El huevo, un minuto",
-      "m": 2,
-      "tim": 1,
+      "t": "El huevo, dos minutos",
+      "m": 3,
+      "tim": 2,
       "f": 0,
-      "x": "Bate ligeramente {huevo}, añádelos al vaso y dale 1 minuto más a 100 °C, removiendo: tienen que quedar jugosos, como un revuelto poco hecho.",
+      "x": "Bate ligeramente {huevo}, añádelos al vaso y programa 2 minutos, misma temperatura y velocidad, removiendo: tienen que quedar jugosos, como un revuelto poco hecho.",
       "ab": "Mejor corto que pasado: el calor de la verdura termina de cuajarlo.",
       "e": {
        "k": "bol",
