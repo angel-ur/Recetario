@@ -12560,7 +12560,7 @@
      {
       "t": "El pescado, al varoma",
       "m": 12,
-      "x": "Sala las rodajas de pescado de roca en rodajas (rape, gallo, escórpora), de unos 2 cm de grosor, y ponlas en el recipiente varoma con los langostinos o cigalas (opcional). Encaja el varoma sobre el vaso, programa temperatura varoma y velocidad suave, y cuando salga vapor de verdad por arriba, cuenta unos 12 minutos, que son orientativos: cada robot levanta el vapor a su ritmo. Lo que manda es el punto: la carne pasa de translúcida a opaca y se separa en lascas con un tenedor; con termómetro, que el centro llegue a 68 grados, que es la referencia de AESAN para el pescado. Si va cruda, dale 2-3 minutos más. Saca el varoma, añade la picada diluida en un cacillo de caldo al vaso y remueve con la espátula.",
+      "x": "Sala las rodajas de {pescado}, de unos 2 cm de grosor, y ponlas en el recipiente varoma con los {langostino}. Encaja el varoma sobre el vaso, programa temperatura varoma y velocidad suave, y cuando salga vapor de verdad por arriba, dale a play al temporizador y cuenta unos 12 minutos, que son orientativos: cada robot levanta el vapor a su ritmo. Lo que manda es el punto: la carne pasa de translúcida a opaca y se separa en lascas con un tenedor; con termómetro, que el centro llegue a 68 grados durante al menos 15 segundos, que es la referencia de AESAN para el pescado. Si va cruda, dale 2-3 minutos más. Saca el varoma, añade la picada diluida en un cacillo de caldo al vaso y remueve con la espátula.",
       "tim": 12,
       "solo": [
        "robot"
