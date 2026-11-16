@@ -43,7 +43,7 @@ El guiso de los pescadores de la costa catalana: patata chascada, pescado de roc
 1. **Sofrito de cebolla y tomate** (13 min) - Rehoga cebolla rallada en una cazuela con aceite de oliva 8 minutos. Añade tomates maduros rallados y fríe 5 minutos más, hasta que el sofrito se pegue un poco.
    > El tomate bien frito, sin sabor a crudo: es la mitad del guiso.
 
-2. **El sofrito, en el robot** (12 min) - Pon cebolla y tomates maduros en el vaso y pica 3 segundos a velocidad media. Añade aceite de oliva y sofríe 10 minutos a 120 °C, velocidad suave, hasta que el tomate pierda el sabor a crudo.
+2. **El sofrito, en el robot** (10 min) - Pon cebolla y tomates maduros en el vaso y pica 3 segundos a velocidad media. Añade aceite de oliva y sofríe 10 minutos a 120 °C, velocidad suave, hasta que el tomate pierda el sabor a crudo.
    > El tomate bien frito, sin sabor a crudo: es la mitad del guiso.
 
 ### El guiso
@@ -52,13 +52,13 @@ El guiso de los pescadores de la costa catalana: patata chascada, pescado de roc
 1. **Patatas al fumet** (15 min) - Pela y chasca las patatas, añádelas al sofrito con el vino blanco y deja evaporar 2 minutos. Cubre con el fumet caliente y guisa 15-18 minutos, hasta que la patata esté casi lista.
    > La patata chascada (rota a cuchara, no cortada del todo) suelta el almidón y espesa el caldo.
 
-2. **Las patatas, en el robot** (20 min) - Añade patatas chascadas y vino blanco al vaso y dales 2 minutos a 120 °C. Cubre con el fumet de pescado (o agua) caliente, pon la mariposa y programa 18 minutos a 100 °C con giro a la izquierda y velocidad cuchara, hasta que la patata esté casi lista.
+2. **Las patatas, en el robot** (20 min) - Añade patatas chascadas y vino blanco al vaso y dales 2 minutos a 120 °C. Cubre con el fumet de pescado (o agua) caliente, pon la mariposa y programa 18 minutos a 100 °C con giro a la izquierda y velocidad cuchara (el temporizador cuenta este guiso), hasta que la patata esté casi lista.
    > La mariposa puesta siempre: con la cuchilla al aire, la patata se tritura.
 
-3. **El pescado, al final** (8 min) - Sala las rodajas de pescado de roca en rodajas (rape, gallo, escórpora) y colócalas en la cazuela con los langostinos o cigalas (opcional). Guisa tapado 5-6 minutos (el temporizador cuenta este tramo). Añade la picada diluida en un cacillo de caldo, menea la cazuela y apaga en 2 minutos.
+3. **El pescado, al final** (8 min) - Sala las rodajas de pescado de roca en rodajas (rape, gallo, escórpora) y colócalas en la cazuela con los langostinos o cigalas (opcional). Guisa tapado 5-6 minutos (el temporizador cuenta este tramo): en su punto, la carne pasa de translúcida a opaca y se separa en lascas con un tenedor. Añade la picada diluida en un cacillo de caldo, menea la cazuela y apaga en 2 minutos.
    > El pescado se hace con el calor justo; si hierve fuerte, se deshace.
 
-4. **El pescado, al varoma** (10 min) - Sala las rodajas de pescado de roca en rodajas (rape, gallo, escórpora) y ponlas en el recipiente varoma con los langostinos o cigalas (opcional). Encaja el varoma sobre el vaso y programa 10 minutos a temperatura varoma, velocidad suave: se hacen con el vapor del propio guiso. Saca el varoma, añade la picada diluida en un cacillo de caldo al vaso y remueve con la espátula.
+4. **El pescado, al varoma** (12 min) - Sala las rodajas de pescado de roca en rodajas (rape, gallo, escórpora), de unos 2 cm de grosor, y ponlas en el recipiente varoma con los langostinos o cigalas (opcional). Encaja el varoma sobre el vaso, que ya está hirviendo, y programa 12 minutos a temperatura varoma, velocidad suave: se hacen con el vapor del propio guiso. Están en su punto cuando la carne pasa de translúcida a opaca y se separa en lascas con un tenedor; si va cruda, dale 2-3 minutos más. Saca el varoma, añade la picada diluida en un cacillo de caldo al vaso y remueve con la espátula.
    > Al vapor del guiso, el pescado queda jugoso y entero: no necesita hervir dentro.
 
 ### Servir

@@ -4,6 +4,9 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+- Suquet: pescado al varoma con grosor (2 cm), 12 min contados desde vaso hirviendo y criterio de cocción verificable (carne opaca que se separa en lascas; +2-3 min si va cruda); mismo criterio en cazuela. Aclarado qué cuenta cada temporizador del robot.
+- Caldo: la nota del tueste se queda en sabor y color; retirada la relación sin respaldo entre tostar y quitar impurezas de hueso no eco.
+
 - Santiago: selector horno / freidora de aire (160 °C, 30-35 min, molde de 18-20 cm; fuentes recetasdeairfryer y consejo de Sabina Banzo), pastilla/timer a 30 y 'A gustos, colores'.
 - Suquet: selector cazuela / robot (sofrito 10 min 120 °C, patatas 18 min 100 °C giro izquierda con mariposa, pescado 10 min al varoma; fuentes thermomix-barcelona-centro y cookpad), temporizadores alineados y 'A gustos, colores'.
 - Caldo: tueste de huesos alineado a 20 min (texto 20-30) y 'A gustos, colores'; variantes alt de olla normal revisadas y coherentes.

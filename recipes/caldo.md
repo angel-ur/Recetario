@@ -48,7 +48,7 @@ Huesos con mucho colágeno, muchas horas a fuego mínimo y sin sal. Si sale bien
 
 
 1. **Tuesta los huesos** (20 min) - Enciende el horno a 200 °C. Pon huesos de rodilla de ternera y huesos de tuétano en una bandeja, sin aceite ni sal, y tuéstalos unos 20 minutos (hasta 30 si son muy grandes), dándoles la vuelta a mitad, hasta que estén bien dorados pero sin quemarse.
-   > Tostar da sabor y color y, si el hueso no es de pasto o eco, ayuda a quitar parte de las impurezas. Si se queman, amargan todo el caldo. La oreja y la pata no se tuestan: son piel y cartílago, solo aportan gelatina.
+   > Tostar da sabor y color al caldo. Si se queman, amargan toda la olla. La oreja y la pata no se tuestan: son piel y cartílago, solo aportan gelatina.
 
 2. **Escalda el resto** (20 min) - Mientras se tuestan, pon a hervir 3 litros de agua en una olla grande. Echa carcasa de pollo, las patas de gallo si las consigues, oreja de cerdo y pata de ternera (o 2 manitas de cerdo), y déjalo unos 5 minutos (blanquear). Tira esa agua y enjuaga todo con agua del grifo. A las patas de gallo, quítales la piel amarilla y córtales las uñas por la primera articulación.
    > Al hervir salen la sangre y las impurezas en forma de espuma gris. Tirar esa primera agua deja el caldo limpio y sin sabor áspero.

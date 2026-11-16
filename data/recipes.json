@@ -1550,7 +1550,7 @@
         ]
        ]
       },
-      "ab": "Tostar da sabor y color y, si el hueso no es de pasto o eco, ayuda a quitar parte de las impurezas. Si se queman, amargan todo el caldo. La oreja y la pata no se tuestan: son piel y cartílago, solo aportan gelatina."
+      "ab": "Tostar da sabor y color al caldo. Si se queman, amargan toda la olla. La oreja y la pata no se tuestan: son piel y cartílago, solo aportan gelatina."
      },
      {
       "t": "Escalda el resto",
@@ -12457,7 +12457,7 @@
      },
      {
       "t": "El sofrito, en el robot",
-      "m": 12,
+      "m": 10,
       "x": "Pon {cebolla} y {tomate} en el vaso y pica 3 segundos a velocidad media. Añade {aceite} y sofríe 10 minutos a 120 °C, velocidad suave, hasta que el tomate pierda el sabor a crudo.",
       "tim": 10,
       "solo": [
@@ -12512,7 +12512,7 @@
      {
       "t": "Las patatas, en el robot",
       "m": 20,
-      "x": "Añade {patata} chascadas y {vino} al vaso y dales 2 minutos a 120 °C. Cubre con el {fumet} caliente, pon la mariposa y programa 18 minutos a 100 °C con giro a la izquierda y velocidad cuchara, hasta que la patata esté casi lista.",
+      "x": "Añade {patata} chascadas y {vino} al vaso y dales 2 minutos a 120 °C. Cubre con el {fumet} caliente, pon la mariposa y programa 18 minutos a 100 °C con giro a la izquierda y velocidad cuchara (el temporizador cuenta este guiso), hasta que la patata esté casi lista.",
       "tim": 18,
       "solo": [
        "robot"
@@ -12532,7 +12532,7 @@
      {
       "t": "El pescado, al final",
       "m": 8,
-      "x": "Sala las rodajas de {pescado} y colócalas en la cazuela con los {langostino}. Guisa tapado 5-6 minutos (el temporizador cuenta este tramo). Añade la picada diluida en un cacillo de caldo, menea la cazuela y apaga en 2 minutos.",
+      "x": "Sala las rodajas de {pescado} y colócalas en la cazuela con los {langostino}. Guisa tapado 5-6 minutos (el temporizador cuenta este tramo): en su punto, la carne pasa de translúcida a opaca y se separa en lascas con un tenedor. Añade la picada diluida en un cacillo de caldo, menea la cazuela y apaga en 2 minutos.",
       "tim": 6,
       "f": 2,
       "solo": [
@@ -12559,9 +12559,9 @@
      },
      {
       "t": "El pescado, al varoma",
-      "m": 10,
-      "x": "Sala las rodajas de {pescado} y ponlas en el recipiente varoma con los {langostino}. Encaja el varoma sobre el vaso y programa 10 minutos a temperatura varoma, velocidad suave: se hacen con el vapor del propio guiso. Saca el varoma, añade la picada diluida en un cacillo de caldo al vaso y remueve con la espátula.",
-      "tim": 10,
+      "m": 12,
+      "x": "Sala las rodajas de {pescado}, de unos 2 cm de grosor, y ponlas en el recipiente varoma con los {langostino}. Encaja el varoma sobre el vaso, que ya está hirviendo, y programa 12 minutos a temperatura varoma, velocidad suave: se hacen con el vapor del propio guiso. Están en su punto cuando la carne pasa de translúcida a opaca y se separa en lascas con un tenedor; si va cruda, dale 2-3 minutos más. Saca el varoma, añade la picada diluida en un cacillo de caldo al vaso y remueve con la espátula.",
+      "tim": 12,
       "solo": [
        "robot"
       ],
