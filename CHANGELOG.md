@@ -3,6 +3,8 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Sobaos pasiegos: selector "Cómo lo vas a hacer" (con varillas eléctricas, la de siempre; a mano, sobando de verdad; o en robot con la pala), cantidades ajustadas dentro de los pasos y variantes (anís, canela, naranja rallada).
+- Pisto manchego: selector "Cómo lo vas a hacer" (en cazuela, la de siempre; en robot de cocina; o con las verduras asadas al horno), cantidades ajustadas dentro de los pasos y variantes (ajo, berenjena, bacalao).
 - Tumbet: selector con sartén (la de siempre), verduras al horno y freidora de aire; pasos a fichas; variantes (calabacín, ajos tiernos, huevo frito).
 - Papas arrugadas: selector con olla y mortero, olla exprés y mojos en batidora; variantes (pimiento asado al picón, gofio, enjuague rápido).
 - Paella valenciana: nuevo selector "Cómo lo vas a hacer" (al fuego, la de siempre; en vitro o inducción, girándola; o terminada al horno, que reparte el calor por ti), cantidades que se ajustan dentro de los pasos y secretos con las variantes de cada casa.

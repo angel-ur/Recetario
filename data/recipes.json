@@ -8469,6 +8469,23 @@
    4,
    6
   ],
+  "met": [
+   {
+    "id": "fuego",
+    "n": "En cazuela, la de siempre",
+    "d": "cada verdura por turnos, a fuego lento"
+   },
+   {
+    "id": "robot",
+    "n": "En robot de cocina",
+    "d": "45 minutos, la máquina remueve por ti"
+   },
+   {
+    "id": "horno",
+    "n": "Con las verduras asadas",
+    "d": "todo a la bandeja, 40 min a 200 °C"
+   }
+  ],
   "heroe": {
    "k": "ilu",
    "svg": "<defs><radialGradient id=\"i_pisto_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_pisto_fondo)\"/><defs><radialGradient id=\"i_pisto_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_pisto_sar\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#7A7A84\"/><stop offset=\"1\" stop-color=\"#4E4E58\"/></linearGradient><radialGradient id=\"i_pisto_pis\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#C2582E\"/><stop offset=\"1\" stop-color=\"#9C3E1E\"/></radialGradient><linearGradient id=\"i_pisto_hue\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#F8F4E8\"/><stop offset=\"1\" stop-color=\"#EDE4CE\"/></linearGradient></defs><ellipse cx=\"150\" cy=\"148\" rx=\"110\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M44 96c0 26 26 44 106 44s106-18 106-44z\" fill=\"url(#i_pisto_sar)\"/><ellipse cx=\"150\" cy=\"96\" rx=\"106\" ry=\"26\" fill=\"#3C3C44\"/><ellipse cx=\"150\" cy=\"97\" rx=\"95\" ry=\"20\" fill=\"url(#i_pisto_pis)\"/><rect x=\"256\" y=\"90\" width=\"50\" height=\"11\" rx=\"5.5\" fill=\"#5A5A64\"/><circle cx=\"299\" cy=\"95\" r=\"3\" fill=\"#3C3C44\"/><rect x=\"119.7\" y=\"108.6\" width=\"4.0\" height=\"5.0\" rx=\"1.5\" fill=\"#7DAB52\" opacity=\".92\" transform=\"rotate(33 119.7 108.6)\"/><rect x=\"202.6\" y=\"103.1\" width=\"5.8\" height=\"4.0\" rx=\"1.5\" fill=\"#D9B84A\" opacity=\".92\" transform=\"rotate(67 202.6 103.1)\"/><rect x=\"98.4\" y=\"108.1\" width=\"6.3\" height=\"3.7\" rx=\"1.5\" fill=\"#7DAB52\" opacity=\".92\" transform=\"rotate(4 98.4 108.1)\"/><rect x=\"141.4\" y=\"99.3\" width=\"5.9\" height=\"3.4\" rx=\"1.5\" fill=\"#7DAB52\" opacity=\".92\" transform=\"rotate(41 141.4 99.3)\"/><rect x=\"193.4\" y=\"90.0\" width=\"6.8\" height=\"5.0\" rx=\"1.5\" fill=\"#D9B84A\" opacity=\".92\" transform=\"rotate(2 193.4 90.0)\"/><rect x=\"150.1\" y=\"103.3\" width=\"4.7\" height=\"4.5\" rx=\"1.5\" fill=\"#E8D9A0\" opacity=\".92\" transform=\"rotate(45 150.1 103.3)\"/><rect x=\"146.6\" y=\"99.1\" width=\"5.1\" height=\"3.8\" rx=\"1.5\" fill=\"#5E8A3C\" opacity=\".92\" transform=\"rotate(12 146.6 99.1)\"/><rect x=\"150.2\" y=\"106.0\" width=\"5.2\" height=\"4.0\" rx=\"1.5\" fill=\"#E8D9A0\" opacity=\".92\" transform=\"rotate(76 150.2 106.0)\"/><rect x=\"177.3\" y=\"89.7\" width=\"4.3\" height=\"3.6\" rx=\"1.5\" fill=\"#7DAB52\" opacity=\".92\" transform=\"rotate(20 177.3 89.7)\"/><rect x=\"97.2\" y=\"91.8\" width=\"5.0\" height=\"3.2\" rx=\"1.5\" fill=\"#D9B84A\" opacity=\".92\" transform=\"rotate(79 97.2 91.8)\"/><rect x=\"154.2\" y=\"88.7\" width=\"6.2\" height=\"3.0\" rx=\"1.5\" fill=\"#7DAB52\" opacity=\".92\" transform=\"rotate(28 154.2 88.7)\"/><rect x=\"79.1\" y=\"99.4\" width=\"5.5\" height=\"4.0\" rx=\"1.5\" fill=\"#B3341F\" opacity=\".92\" transform=\"rotate(31 79.1 99.4)\"/><rect x=\"145.9\" y=\"103.2\" width=\"4.2\" height=\"4.1\" rx=\"1.5\" fill=\"#7DAB52\" opacity=\".92\" transform=\"rotate(16 145.9 103.2)\"/><rect x=\"172.2\" y=\"94.4\" width=\"7.0\" height=\"3.9\" rx=\"1.5\" fill=\"#8E2416\" opacity=\".92\" transform=\"rotate(54 172.2 94.4)\"/><rect x=\"181.8\" y=\"90.1\" width=\"5.6\" height=\"3.6\" rx=\"1.5\" fill=\"#8E2416\" opacity=\".92\" transform=\"rotate(70 181.8 90.1)\"/><rect x=\"190.5\" y=\"88.4\" width=\"6.9\" height=\"3.8\" rx=\"1.5\" fill=\"#8E2416\" opacity=\".92\" transform=\"rotate(38 190.5 88.4)\"/><rect x=\"112.7\" y=\"87.8\" width=\"6.0\" height=\"3.6\" rx=\"1.5\" fill=\"#5E8A3C\" opacity=\".92\" transform=\"rotate(6 112.7 87.8)\"/><rect x=\"130.7\" y=\"99.0\" width=\"4.7\" height=\"4.2\" rx=\"1.5\" fill=\"#D9B84A\" opacity=\".92\" transform=\"rotate(19 130.7 99.0)\"/><rect x=\"209.8\" y=\"89.7\" width=\"5.7\" height=\"3.7\" rx=\"1.5\" fill=\"#8E2416\" opacity=\".92\" transform=\"rotate(6 209.8 89.7)\"/><rect x=\"143.5\" y=\"102.1\" width=\"5.6\" height=\"4.3\" rx=\"1.5\" fill=\"#B3341F\" opacity=\".92\" transform=\"rotate(70 143.5 102.1)\"/><rect x=\"103.0\" y=\"95.3\" width=\"6.6\" height=\"3.0\" rx=\"1.5\" fill=\"#B3341F\" opacity=\".92\" transform=\"rotate(48 103.0 95.3)\"/><rect x=\"119.6\" y=\"109.2\" width=\"4.8\" height=\"5.0\" rx=\"1.5\" fill=\"#5E8A3C\" opacity=\".92\" transform=\"rotate(72 119.6 109.2)\"/><rect x=\"93.9\" y=\"100.5\" width=\"6.2\" height=\"3.5\" rx=\"1.5\" fill=\"#7DAB52\" opacity=\".92\" transform=\"rotate(61 93.9 100.5)\"/><rect x=\"147.2\" y=\"82.4\" width=\"5.7\" height=\"4.8\" rx=\"1.5\" fill=\"#8E2416\" opacity=\".92\" transform=\"rotate(23 147.2 82.4)\"/><rect x=\"92.3\" y=\"100.7\" width=\"4.4\" height=\"4.7\" rx=\"1.5\" fill=\"#5E8A3C\" opacity=\".92\" transform=\"rotate(72 92.3 100.7)\"/><rect x=\"222.6\" y=\"104.3\" width=\"5.4\" height=\"3.3\" rx=\"1.5\" fill=\"#7DAB52\" opacity=\".92\" transform=\"rotate(24 222.6 104.3)\"/><rect x=\"223.9\" y=\"95.2\" width=\"5.1\" height=\"3.0\" rx=\"1.5\" fill=\"#D9B84A\" opacity=\".92\" transform=\"rotate(17 223.9 95.2)\"/><rect x=\"201.6\" y=\"107.5\" width=\"5.9\" height=\"4.3\" rx=\"1.5\" fill=\"#8E2416\" opacity=\".92\" transform=\"rotate(64 201.6 107.5)\"/><rect x=\"170.4\" y=\"97.1\" width=\"6.6\" height=\"3.2\" rx=\"1.5\" fill=\"#B3341F\" opacity=\".92\" transform=\"rotate(83 170.4 97.1)\"/><rect x=\"206.2\" y=\"84.9\" width=\"4.8\" height=\"4.9\" rx=\"1.5\" fill=\"#5E8A3C\" opacity=\".92\" transform=\"rotate(90 206.2 84.9)\"/><rect x=\"146.0\" y=\"113.4\" width=\"4.6\" height=\"4.7\" rx=\"1.5\" fill=\"#E8D9A0\" opacity=\".92\" transform=\"rotate(80 146.0 113.4)\"/><rect x=\"193.1\" y=\"88.2\" width=\"4.9\" height=\"3.1\" rx=\"1.5\" fill=\"#B3341F\" opacity=\".92\" transform=\"rotate(49 193.1 88.2)\"/><rect x=\"159.9\" y=\"83.0\" width=\"5.9\" height=\"4.4\" rx=\"1.5\" fill=\"#B3341F\" opacity=\".92\" transform=\"rotate(76 159.9 83.0)\"/><rect x=\"191.2\" y=\"99.8\" width=\"6.1\" height=\"3.7\" rx=\"1.5\" fill=\"#8E2416\" opacity=\".92\" transform=\"rotate(41 191.2 99.8)\"/><rect x=\"132.7\" y=\"105.9\" width=\"5.8\" height=\"4.3\" rx=\"1.5\" fill=\"#B3341F\" opacity=\".92\" transform=\"rotate(30 132.7 105.9)\"/><rect x=\"72.8\" y=\"94.8\" width=\"6.2\" height=\"3.8\" rx=\"1.5\" fill=\"#B3341F\" opacity=\".92\" transform=\"rotate(14 72.8 94.8)\"/><rect x=\"70.5\" y=\"92.1\" width=\"6.4\" height=\"4.9\" rx=\"1.5\" fill=\"#E8D9A0\" opacity=\".92\" transform=\"rotate(69 70.5 92.1)\"/><rect x=\"107.8\" y=\"88.8\" width=\"5.6\" height=\"4.9\" rx=\"1.5\" fill=\"#D9B84A\" opacity=\".92\" transform=\"rotate(54 107.8 88.8)\"/><rect x=\"185.2\" y=\"92.2\" width=\"5.9\" height=\"3.1\" rx=\"1.5\" fill=\"#B3341F\" opacity=\".92\" transform=\"rotate(50 185.2 92.2)\"/><rect x=\"147.7\" y=\"96.7\" width=\"6.6\" height=\"4.1\" rx=\"1.5\" fill=\"#7DAB52\" opacity=\".92\" transform=\"rotate(14 147.7 96.7)\"/><rect x=\"84.2\" y=\"103.8\" width=\"4.3\" height=\"4.8\" rx=\"1.5\" fill=\"#D9B84A\" opacity=\".92\" transform=\"rotate(21 84.2 103.8)\"/><rect x=\"112.9\" y=\"95.7\" width=\"5.9\" height=\"3.4\" rx=\"1.5\" fill=\"#5E8A3C\" opacity=\".92\" transform=\"rotate(25 112.9 95.7)\"/><rect x=\"180.4\" y=\"89.2\" width=\"6.3\" height=\"4.0\" rx=\"1.5\" fill=\"#E8D9A0\" opacity=\".92\" transform=\"rotate(23 180.4 89.2)\"/><rect x=\"91.0\" y=\"106.8\" width=\"6.3\" height=\"3.8\" rx=\"1.5\" fill=\"#E8D9A0\" opacity=\".92\" transform=\"rotate(76 91.0 106.8)\"/><rect x=\"137.1\" y=\"112.5\" width=\"5.4\" height=\"4.2\" rx=\"1.5\" fill=\"#E8D9A0\" opacity=\".92\" transform=\"rotate(38 137.1 112.5)\"/><rect x=\"190.5\" y=\"102.5\" width=\"6.3\" height=\"4.2\" rx=\"1.5\" fill=\"#7DAB52\" opacity=\".92\" transform=\"rotate(86 190.5 102.5)\"/><rect x=\"190.6\" y=\"110.2\" width=\"6.4\" height=\"4.8\" rx=\"1.5\" fill=\"#7DAB52\" opacity=\".92\" transform=\"rotate(70 190.6 110.2)\"/><rect x=\"113.3\" y=\"110.2\" width=\"6.5\" height=\"4.8\" rx=\"1.5\" fill=\"#E8D9A0\" opacity=\".92\" transform=\"rotate(73 113.3 110.2)\"/><g transform=\"translate(150 92)\"><path d=\"M-26 -4Q-30 -14 -16 -15 -4 -20 8 -14 24 -16 26 -4 28 8 12 10 0 14 -14 10 -28 6 -26 -4Z\" fill=\"url(#i_pisto_hue)\" stroke=\"#E2D4B4\" stroke-width=\"1.2\"/><circle cx=\"0\" cy=\"-2\" r=\"8.5\" fill=\"#F2B41E\"/><circle cx=\"-1.5\" cy=\"-3.5\" r=\"3\" fill=\"#F8D05A\"/></g>"
@@ -8489,6 +8506,10 @@
    [
     "Para todo",
     "Además de con huevo, sirve para rellenar empanadillas, con bacalao o como guarnición."
+   ],
+   [
+    "A gustos, colores",
+    "Hay casas que no perdonan un diente de ajo al principio y casas que le ponen berenjena. Con bacalao desmigado es plato de fiesta. Y en invierno, un buen tomate triturado de lata vale más que un tomate de invernadero, que lo único que tiene es el precio."
    ]
   ],
   "ing": [
@@ -8534,7 +8555,7 @@
    ],
    [
     "azucar",
-    "una pizca de azúcar, si el tomate está ácido",
+    "una pizca de azúcar",
     null
    ],
    [
@@ -8557,7 +8578,7 @@
      {
       "t": "Pica la verdura",
       "m": 15,
-      "x": "Pica 2 cebollas, 2 pimientos verdes, 1 pimiento rojo y 2 calabacines en daditos de 1 cm, todos del mismo tamaño.",
+      "x": "Pica {cebolla}, {pimiento}, {pimrojo} y {calabacin} en daditos de un centímetro, todos del mismo tamaño.",
       "f": 0,
       "e": {
        "k": "tabla",
@@ -8587,7 +8608,7 @@
      {
       "t": "Pela el tomate",
       "m": 10,
-      "x": "Haz un corte en cruz en la base de 1 kg de tomates maduros, escáldalos 30 segundos en agua hirviendo, pásalos a agua fría, pélalos y trocéalos.",
+      "x": "Haz un corte en cruz en la base de {tomate}, escáldalos treinta segundos en agua hirviendo, pélalos y trocéalos.",
       "f": 4,
       "e": {
        "k": "fuego",
@@ -8613,9 +8634,12 @@
      {
       "t": "Cebolla y pimientos",
       "m": 25,
-      "x": "Pocha la cebolla en 6 cucharadas de aceite de oliva virgen extra a fuego suave 10 minutos. Añade los pimientos y deja otros 15, hasta que estén blandos.",
+      "x": "Pocha la cebolla en {aceite} a fuego suave diez minutos. Añade los pimientos y deja otros quince, hasta que estén blandos.",
       "tim": 25,
       "f": 2,
+      "solo": [
+       "fuego"
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -8646,9 +8670,12 @@
      {
       "t": "El calabacín",
       "m": 15,
-      "x": "Añade el calabacín con una pizca de sal y cocina 15 minutos más.",
+      "x": "Añade el calabacín con una pizca de sal y cocina quince minutos más.",
       "tim": 15,
       "f": 2,
+      "solo": [
+       "fuego"
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -8675,6 +8702,81 @@
         "calabacin"
        ]
       }
+     },
+     {
+      "t": "La verdura, en el robot",
+      "m": 45,
+      "x": "En el vaso del robot, pon {aceite} y la cebolla y programa 10 minutos a 120 °C, velocidad cuchara, giro inverso. Añade los pimientos, 10 minutos más. Echa el calabacín con una pizca de sal, otros 10, y por último el tomate: 15 minutos sin cubilete, para que evapore. Prueba y, si está ácido, añade {azucar}.",
+      "tim": 45,
+      "f": 0,
+      "solo": [
+       "robot"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#B8432C",
+       "i": [
+        [
+         "cebolla",
+         5
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "pimiento",
+         2,
+         1,
+         "rojo"
+        ],
+        [
+         "calabacin",
+         3
+        ]
+       ],
+       "cuchara": 1
+      },
+      "ab": "Sin cubilete al final, que el pisto tiene que perder el agua, no guardarla."
+     },
+     {
+      "t": "Las verduras, asadas",
+      "m": 50,
+      "x": "Calienta el horno a 200 °C. Reparte la cebolla, los pimientos y el calabacín en una bandeja grande, riega con {aceite}, sala y asa unos 40 minutos, removiendo a mitad de tiempo. Añade el tomate troceado, mezcla bien y deja 10 minutos más, hasta que no quede caldo.",
+      "tim": 40,
+      "f": 3,
+      "solo": [
+       "horno"
+      ],
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "bandeja",
+       "c": "#D9A548",
+       "i": [
+        [
+         "cebolla",
+         4
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "pimiento",
+         2,
+         1,
+         "rojo"
+        ],
+        [
+         "calabacin",
+         4
+        ]
+       ]
+      },
+      "ab": "Asado, el pisto queda más meloso y con un punto tostado. En verano, además, no se enciende el fuego."
      }
     ]
    },
@@ -8685,10 +8787,13 @@
      {
       "t": "El tomate, despacio",
       "m": 40,
-      "x": "Incorpora el tomate y deja que se haga a fuego mínimo unos 40 minutos, removiendo de vez en cuando, hasta que no quede caldo. Prueba y, si está ácido, añade una pizca de azúcar (media cucharadita) y 1 cucharadita rasa de sal.",
+      "x": "Incorpora el tomate y deja que se haga a fuego mínimo unos 40 minutos, removiendo de vez en cuando, hasta que no quede caldo. Prueba, rectifica de sal y, si está ácido, añade {azucar}.",
       "tim": 40,
       "f": 1,
       "w": 1,
+      "solo": [
+       "fuego"
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -8717,7 +8822,7 @@
      {
       "t": "Con huevo frito",
       "m": 5,
-      "x": "Fríe 4 huevos y sírvelos encima del pisto, con la yema para romper.",
+      "x": "Fríe {huevo} y sírvelos encima del pisto, con la yema para romper.",
       "tim": 3,
       "f": 4,
       "e": {
@@ -10635,6 +10740,23 @@
    18
   ],
   "ud": "sobaos",
+  "met": [
+   {
+    "id": "varillas",
+    "n": "Con varillas eléctricas",
+    "d": "la de siempre, diez minutos de batido"
+   },
+   {
+    "id": "mano",
+    "n": "A mano, sobando de verdad",
+    "d": "tenedor y varillas de mano, unos 20 minutos"
+   },
+   {
+    "id": "robot",
+    "n": "En robot o amasadora",
+    "d": "con la pala, no las varillas"
+   }
+  ],
   "heroe": {
    "k": "ilu",
    "svg": "<defs><radialGradient id=\"i_sobaos_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_sobaos_fondo)\"/><defs><radialGradient id=\"i_sobaos_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><g transform=\"translate(150 112)\"><rect x=\"-120\" y=\"-34\" width=\"240\" height=\"68\" rx=\"10\" fill=\"#B8926A\"/><rect x=\"-120\" y=\"-34\" width=\"240\" height=\"68\" rx=\"10\" fill=\"none\" stroke=\"#9A7452\" stroke-width=\"2\"/><path d=\"M-100 -18h200M-104 0h208M-100 18h200\" stroke=\"#A67E58\" stroke-width=\"1.6\"/></g><ellipse cx=\"150\" cy=\"158\" rx=\"100\" ry=\"8\" fill=\"#4A2E10\" opacity=\"0.2\"/><g transform=\"translate(140 102) rotate(-8)\"><rect x=\"-24\" y=\"-16\" width=\"48\" height=\"32\" rx=\"6\" fill=\"#E8B45E\"/><rect x=\"-24\" y=\"-16\" width=\"48\" height=\"10\" rx=\"5\" fill=\"#F0C87E\"/><path d=\"M-14 -12q4 -4 8 0M2 -13q4 -3 8 0\" stroke=\"#D89A46\" stroke-width=\"1.6\" fill=\"none\"/></g><g transform=\"translate(196 118) rotate(4)\"><rect x=\"-24\" y=\"-16\" width=\"48\" height=\"32\" rx=\"6\" fill=\"#E8B45E\"/><rect x=\"-24\" y=\"-16\" width=\"48\" height=\"10\" rx=\"5\" fill=\"#F0C87E\"/><path d=\"M-14 -12q4 -4 8 0M2 -13q4 -3 8 0\" stroke=\"#D89A46\" stroke-width=\"1.6\" fill=\"none\"/></g><g transform=\"translate(246 96) rotate(12)\"><rect x=\"-24\" y=\"-16\" width=\"48\" height=\"32\" rx=\"6\" fill=\"#E8B45E\"/><rect x=\"-24\" y=\"-16\" width=\"48\" height=\"10\" rx=\"5\" fill=\"#F0C87E\"/><path d=\"M-14 -12q4 -4 8 0M2 -13q4 -3 8 0\" stroke=\"#D89A46\" stroke-width=\"1.6\" fill=\"none\"/><path d=\"M24 -16q-10 4 -6 12q-6 6 2 12l4 8z\" fill=\"url(#i_sobaos_mesaGrad)\"/><path d=\"M22 -14q-8 4 -5 10q-5 5 2 10\" stroke=\"#C8944A\" stroke-width=\"1.6\" fill=\"none\"/></g><g transform=\"translate(52 100)\"><rect x=\"-18\" y=\"-8\" width=\"36\" height=\"34\" rx=\"3\" fill=\"#F4EBD8\"/><path d=\"M-18 -2l6 -6M18 -2l-6 -6\" stroke=\"#E0D2B8\" stroke-width=\"1.6\"/><rect x=\"-14\" y=\"-24\" width=\"28\" height=\"20\" rx=\"4\" fill=\"#E8B45E\"/><rect x=\"-14\" y=\"-24\" width=\"28\" height=\"7\" rx=\"3.5\" fill=\"#F0C87E\"/><rect x=\"-18\" y=\"-8\" width=\"36\" height=\"34\" rx=\"3\" fill=\"none\" stroke=\"#D8C8AC\" stroke-width=\"1.8\"/><path d=\"M-12 4h24M-12 10h24M-12 16h24\" stroke=\"#E4D6BC\" stroke-width=\"1.2\"/></g>"
@@ -10655,6 +10777,10 @@
    [
     "La quesada",
     "En los mismos valles pasiegos se hace la quesada, otro dulce de siempre con leche cuajada."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien los hace con anís en vez de ron y quien no los concibe sin una pizca de canela. En algunas casas el limón se cambia por naranja rallada. Y hay quien los parte por la mitad y los rellena de nata, aunque eso ya no es sobao de libro."
    ]
   ],
   "ing": [
@@ -10690,7 +10816,7 @@
    ],
    [
     "limon",
-    "limón (su ralladura)|limones (su ralladura)",
+    "limón|limones",
     1,
     "ud",
     0.5
@@ -10715,7 +10841,7 @@
      {
       "t": "Mantequilla a punto de pomada",
       "m": 60,
-      "x": "Saca 250 g de mantequilla de la nevera una hora antes: tiene que estar blanda como una pomada.",
+      "x": "Saca {mantequilla} de la nevera una hora antes: tiene que estar blanda como una pomada.",
       "f": 0,
       "w": 1,
       "e": {
@@ -10733,8 +10859,11 @@
      {
       "t": "Bate con el azúcar",
       "m": 10,
-      "x": "Bate la mantequilla con 250 g de azúcar y una pizca de sal con varillas eléctricas hasta que blanquee y esté esponjosa, de 5 a 10 minutos.",
+      "x": "Bate la mantequilla con {azucar} y {sal} con varillas eléctricas, hasta que blanquee y esté esponjosa, de cinco a diez minutos.",
       "f": 0,
+      "solo": [
+       "varillas"
+      ],
       "e": {
        "k": "bol",
        "c": "#F7E7B0",
@@ -10743,9 +10872,39 @@
       "ab": "Aquí está el «sobado»: cuanto más aire metas ahora, más esponjoso saldrá."
      },
      {
+      "t": "El sobado, a mano",
+      "m": 20,
+      "x": "En un cuenco grande, trabaja la mantequilla con {azucar} y {sal}: primero aplastándola con un tenedor y luego con varillas de mano, hasta que blanquee y esté esponjosa, unos veinte minutos.",
+      "f": 0,
+      "solo": [
+       "mano"
+      ],
+      "e": {
+       "k": "bol",
+       "c": "#F7E7B0",
+       "varillas": 1
+      },
+      "ab": "El «sobar» de verdad es esto, a mano y sin prisa. Mete más aire levantando la masa que batiendo fuerte."
+     },
+     {
+      "t": "En el robot, con la pala",
+      "m": 12,
+      "x": "En el robot o la amasadora, con la pala (no las varillas de batir), trabaja la mantequilla con {azucar} y {sal} a velocidad media hasta que blanquee y esté esponjosa, de ocho a diez minutos, raspando las paredes del cuenco a mitad.",
+      "f": 0,
+      "solo": [
+       "robot"
+      ],
+      "e": {
+       "k": "bol",
+       "c": "#F7E7B0",
+       "varillas": 1
+      },
+      "ab": "La pala, no el batidor de varillas: para crema de mantequilla y azúcar vale más la pala."
+     },
+     {
       "t": "Los huevos, de uno en uno",
       "m": 5,
-      "x": "Añade 4 huevos de uno en uno (a temperatura ambiente), sin echar el siguiente hasta que el anterior esté integrado. Agrega la ralladura de 1 limón y 1 cucharada de ron o anís (opcional).",
+      "x": "Añade {huevo} de uno en uno, sin echar el siguiente hasta que el anterior esté integrado. Agrega la ralladura de {limon} y {ron}.",
       "f": 0,
       "e": {
        "k": "bol",
@@ -10760,7 +10919,7 @@
      {
       "t": "La harina, sin batir de más",
       "m": 5,
-      "x": "Incorpora 250 g de harina de trigo tamizada con 8 g de levadura química (media cucharada), con movimientos suaves de abajo arriba, solo hasta que no se vea harina.",
+      "x": "Incorpora {harina} tamizada con {levadura} (media cucharada), con movimientos suaves de abajo arriba, solo hasta que no se vea harina.",
       "f": 0,
       "e": {
        "k": "bol",
@@ -10782,7 +10941,7 @@
      {
       "t": "Llena los moldes",
       "m": 10,
-      "x": "Reparte la masa en moldes de papel rectangulares, llenándolos hasta la mitad (unos 50 g de masa por molde, salen unos 12), y espolvorea un poco de azúcar por encima.",
+      "x": "Reparte la masa en moldes de papel rectangulares, llenándolos hasta la mitad, y espolvorea un poco de azúcar por encima.",
       "f": 0,
       "e": {
        "k": "plato",
@@ -10799,7 +10958,7 @@
      {
       "t": "Hornea",
       "m": 20,
-      "x": "Hornea en el horno precalentado a 190 °C, con calor arriba y abajo, 20-25 minutos, hasta que estén dorados y un palillo pinchado en el centro salga limpio.",
+      "x": "Hornea en el horno precalentado a 190 °C, con calor arriba y abajo, de 20 a 25 minutos, hasta que estén dorados y un palillo pinchado en el centro salga limpio.",
       "tim": 20,
       "f": "h190",
       "w": 1,
@@ -10813,7 +10972,7 @@
         ]
        ]
       },
-      "ab": "No abras el horno en los primeros 15 minutos, o se bajan: el aire frío corta la subida de la levadura."
+      "ab": "No abras el horno en los primeros quince minutos, o se bajan."
      },
      {
       "t": "Enfría y guarda",
