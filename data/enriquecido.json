@@ -7304,7 +7304,10 @@
          3
         ]
        ]
-      }
+      },
+      "solo": [
+       "olla"
+      ]
      },
      {
       "t": "Cuece",
@@ -7328,7 +7331,32 @@
        "burbujas": 1,
        "reloj": "40 min",
        "rf": 0.67
-      }
+      },
+      "solo": [
+       "olla"
+      ]
+     },
+     {
+      "t": "En la exprés, sin asustar",
+      "m": 15,
+      "tim": 12,
+      "w": 1,
+      "f": 3,
+      "x": "Pon el pulpo en la olla exprés con agua que apenas lo cubra, sin sal. Cierra y, desde que suba la válvula, cuece 12 minutos a fuego suave para un pulpo de 2 kg (unos 6 por kilo). Suelta la presión, pincha la parte gruesa de un tentáculo: debe entrar con facilidad, con un punto firme. Déjalo reposar en su agua diez minutos.",
+      "ab": "En exprés no hace falta asustarlo: la presión lo deja tierno igual y la piel aguanta. Si al pincharlo resiste, dale dos minutos más.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 3,
+       "c": "#9CC8EA",
+       "tapa": 1,
+       "vapor": 1,
+       "reloj": "12 min",
+       "burbujas": 1
+      },
+      "solo": [
+       "expres"
+      ]
      },
      {
       "t": "Reposa en su agua",
@@ -7349,7 +7377,10 @@
          5
         ]
        ]
-      }
+      },
+      "solo": [
+       "olla"
+      ]
      },
      {
       "t": "Cachelos en el agua del pulpo",
@@ -7436,7 +7467,23 @@
    [
     "Con vino del Ribeiro",
     "En las ferias se toma con vino del Ribeiro en cunca, la taza de barro."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien le pone solo pimentón dulce y quien mezcla dulce y picante a partes iguales. En O Carballiño lo sirven sin patatas, solo con pan, y hay casas que le dan un golpe de ajos fritos por encima, aunque eso ya no es a feira."
    ]
+  ],
+  "met": [
+   {
+    "id": "olla",
+    "n": "En olla, la de siempre",
+    "d": "asustado y 40 minutos de cocción suave"
+   },
+   {
+    "id": "expres",
+    "n": "En olla exprés",
+    "d": "12 minutos con presión, sin asustar"
+   }
   ]
  },
  {
@@ -7559,7 +7606,60 @@
         ]
        ],
        "cuchara": 1
-      }
+      },
+      "solo": [
+       "fuego"
+      ]
+     },
+     {
+      "t": "Todo al robot",
+      "m": 30,
+      "tim": 28,
+      "f": 0,
+      "x": "En el vaso del robot, pon {aceite}, la cebolla y el calabacín con sal y programa 25 minutos a 100 °C, velocidad cuchara, quitando el cubilete los últimos 10 para que evapore. Bate ligeramente {huevo}, añádelos y dale 1 minuto más removiendo: tienen que quedar jugosos.",
+      "ab": "Sin cubilete al final, que el zarangollo no puede quedar aguado.",
+      "e": {
+       "k": "bol",
+       "c": "#8FA84B",
+       "i": [
+        [
+         "cebolla",
+         4
+        ],
+        [
+         "calabacin",
+         5
+        ]
+       ]
+      },
+      "solo": [
+       "robot"
+      ]
+     },
+     {
+      "t": "La verdura, al microondas",
+      "m": 18,
+      "tim": 15,
+      "f": 0,
+      "x": "En un bol amplio apto para microondas, pon la cebolla y el calabacín con {aceite} y sal, tapa y calienta a máxima potencia de 12 a 15 minutos, removiendo a mitad, hasta que esté todo muy tierno y haya soltado el agua.",
+      "ab": "Tápalo bien, que tiene que sudar como en la cazuela tapada.",
+      "e": {
+       "k": "bol",
+       "c": "#8FA84B",
+       "i": [
+        [
+         "cebolla",
+         4
+        ],
+        [
+         "calabacin",
+         5
+        ]
+       ]
+      },
+      "solo": [
+       "micro"
+      ]
      },
      {
       "t": "Calabacín, despacio",
@@ -7586,7 +7686,10 @@
          "o-pochada"
         ]
        ]
-      }
+      },
+      "solo": [
+       "fuego"
+      ]
      }
     ]
    },
@@ -7617,7 +7720,28 @@
         ]
        ],
        "vierte": "huevo"
-      }
+      },
+      "solo": [
+       "fuego"
+      ]
+     },
+     {
+      "t": "El huevo, un minuto",
+      "m": 2,
+      "tim": 1,
+      "f": 0,
+      "x": "Bate ligeramente {huevo}, échalos sobre la verdura caliente y remueve. Dale 1 minuto más al microondas y remueve de nuevo: tiene que quedar jugoso, como un revuelto poco hecho.",
+      "ab": "Si te queda crudo, mejor 30 segundos más que un minuto entero: se pasa en nada.",
+      "e": {
+       "k": "bol",
+       "c": "#E8C84A",
+       "cae": [
+        "huevo"
+       ]
+      },
+      "solo": [
+       "micro"
+      ]
      },
      {
       "t": "Sirve",
@@ -7662,7 +7786,28 @@
    [
     "Templado",
     "Recién hecho está bueno, pero templado sabe más a huerta."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien le añade patata en láminas (así es cena completa), quien le pone un diente de ajo con la cebolla y quien lo remata con un poco de queso fundido por encima. En algunas casas el huevo va entero, cuajado como en la sopa castellana."
    ]
+  ],
+  "met": [
+   {
+    "id": "fuego",
+    "n": "A fuego lento, la de siempre",
+    "d": "tapado, que sude, 35 minutos"
+   },
+   {
+    "id": "robot",
+    "n": "En robot de cocina",
+    "d": "100 °C, velocidad cuchara, 25 minutos"
+   },
+   {
+    "id": "micro",
+    "n": "Al microondas",
+    "d": "la verdura tapada, 15 minutos"
+   }
   ]
  },
  {

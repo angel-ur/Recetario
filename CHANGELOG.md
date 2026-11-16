@@ -3,6 +3,8 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Pulpo a feira: selector "Cómo lo vas a hacer" (en olla, la de siempre, asustado; o en olla exprés, 12 minutos con presión y sin asustar), cantidades ajustadas dentro de los pasos y variantes (solo dulce, sin patatas como en O Carballiño, ajos fritos).
+- Zarangollo murciano: selector "Cómo lo vas a hacer" (a fuego lento, la de siempre; en robot de cocina; o al microondas), cantidades ajustadas dentro de los pasos y variantes (con patata, ajo, queso fundido, huevo entero cuajado).
 - Los pasos al horno (o freidora de aire) ya no llevan la etiqueta «Fuego medio»: dicen «Horno 200 °C» (o 180), en croquetas, paella, tumbet, pisto, sopa castellana, migas, santiago y arroz al horno.
 - Xató: selector "Cómo lo vas a hacer" (la salsa en el mortero, la de siempre; o en batidora o túrmix), cantidades ajustadas dentro de los pasos y variantes (coñac, solo almendras, anchoas dentro de la salsa).
 - Migas de pastor: selector "Cómo lo vas a hacer" (en sartén, a brazo; al horno en bandeja; o en robot de cocina, que las mueve por ti), cantidades ajustadas dentro de los pasos y variantes (sin carne, con pimientos o sardinas, con leche en vez de agua).
