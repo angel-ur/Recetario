@@ -3889,7 +3889,94 @@
          1
         ]
        ]
-      }
+      },
+      "solo": [
+       "fuego"
+      ]
+     },
+     {
+      "t": "Fuerte y luego suave, girándola",
+      "m": 18,
+      "tim": 18,
+      "w": 1,
+      "f": 4,
+      "x": "Diez minutos a fuego fuerte y unos ocho más a fuego suave, girando la paella un cuarto de vuelta cada pocos minutos para que cueza parejo, hasta que el grano esté hecho y el caldo, consumido. Pon {romero} encima en los últimos minutos.",
+      "ab": "En vitro el calor no abraza los lados: girar la paella es la única manera de que el arroz se haga por igual.",
+      "e": {
+       "k": "fuego",
+       "v": "paellera",
+       "f": 4,
+       "c": "#E5B54C",
+       "i": [
+        [
+         "arroz",
+         50
+        ],
+        [
+         "pollo",
+         4,
+         1,
+         "p-dorado"
+        ],
+        [
+         "judia",
+         4
+        ],
+        [
+         "garrofo",
+         4
+        ],
+        [
+         "romero",
+         1
+        ]
+       ]
+      },
+      "solo": [
+       "vitro"
+      ]
+     },
+     {
+      "t": "El horno la termina",
+      "m": 18,
+      "tim": 18,
+      "w": 1,
+      "f": 3,
+      "x": "Cinco minutos a fuego fuerte y, sin dejar de hervir, mete la paella en el horno a 200 °C unos trece minutos más, hasta que el grano esté hecho y el caldo, consumido. Pon {romero} encima al meterla.",
+      "ab": "El horno calienta por igual sin girar nada: es el truco para cuando el fuego de casa no da para una paella grande.",
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "bandeja",
+       "c": "#E5B54C",
+       "i": [
+        [
+         "arroz",
+         50
+        ],
+        [
+         "pollo",
+         4,
+         1,
+         "p-dorado"
+        ],
+        [
+         "judia",
+         4
+        ],
+        [
+         "garrofo",
+         4
+        ],
+        [
+         "romero",
+         1
+        ]
+       ]
+      },
+      "solo": [
+       "horno"
+      ]
      },
      {
       "t": "Socarrat y reposo",
@@ -3927,7 +4014,52 @@
         ]
        ],
        "cuchara": 1
-      }
+      },
+      "solo": [
+       "fuego",
+       "vitro"
+      ]
+     },
+     {
+      "t": "Socarrat y reposo",
+      "m": 7,
+      "tim": 5,
+      "f": 5,
+      "x": "Saca la paella del horno y dale un minuto de fuego fuerte, hasta oír el arroz crepitar como papel. Retira el romero, tapa con un paño limpio y deja reposar cinco minutos.",
+      "ab": "El socarrat se oye antes de olerse. Si huele a quemado, ya te has pasado.",
+      "e": {
+       "k": "plato",
+       "v": "paellera",
+       "c": "#E5B54C",
+       "i": [
+        [
+         "arroz",
+         46
+        ],
+        [
+         "pollo",
+         5,
+         1,
+         "p-dorado"
+        ],
+        [
+         "judia",
+         5
+        ],
+        [
+         "garrofo",
+         5
+        ],
+        [
+         "limon",
+         2
+        ]
+       ],
+       "cuchara": 1
+      },
+      "solo": [
+       "horno"
+      ]
      }
     ]
    }
@@ -3944,7 +4076,28 @@
    [
     "Se come de la paella",
     "La paella va al centro de la mesa y cada uno come de su triángulo, con cuchara de madera."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien dora unos ajos enteros con piel junto a la carne, quien la corona con tiras de pimiento rojo asado y quien no la sirve sin limón. Si no hay conejo, dobla de pollo, que sale buenísima igual; y con pato, de lujo. Eso sí: ni se te ocurra removerla una vez echado el arroz."
    ]
+  ],
+  "met": [
+   {
+    "id": "fuego",
+    "n": "Al fuego, la de siempre",
+    "d": "paellero de gas o leña, el fuego abraza la paella"
+   },
+   {
+    "id": "vitro",
+    "n": "En vitro o inducción",
+    "d": "girando la paella para que cueza parejo"
+   },
+   {
+    "id": "horno",
+    "n": "Terminada al horno",
+    "d": "el horno reparte el calor por ti"
+   }
   ]
  },
  {
@@ -4202,7 +4355,49 @@
         ]
        ],
        "vierte": "vinoblanco"
-      }
+      },
+      "solo": [
+       "cazuela"
+      ]
+     },
+     {
+      "t": "Cierra la exprés",
+      "m": 12,
+      "tim": 8,
+      "w": 1,
+      "f": 2,
+      "x": "Vuelve a meter el pollo, riega con {vino} y deja que se evapore el alcohol un par de minutos. Cierra la olla exprés y, desde que suba la válvula, guisa 8 minutos a fuego suave. Suelta la presión y abre.",
+      "ab": "Si al abrir la salsa queda clara, hiérvela destapada unos minutos: tiene que quedar espesa y pegada al pollo.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#B5402F",
+       "i": [
+        [
+         "pollo",
+         4,
+         1,
+         "p-dorado"
+        ],
+        [
+         "pimiento",
+         3,
+         1,
+         "rojo"
+        ],
+        [
+         "jamon",
+         5
+        ]
+       ],
+       "tapa": 1,
+       "vapor": 1,
+       "reloj": "8 min"
+      },
+      "solo": [
+       "expres"
+      ]
      },
      {
       "t": "Sirve",
@@ -4254,7 +4449,23 @@
    [
     "También con cordero",
     "El chilindrón se hace igual con cordero o con conejo."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien echa una patata troceada al guiso para que la salsa espese, quien lo termina con perejil picado y quien le da un punto de guindilla. Y si no hay jamón, unos tacos de panceta curada hacen el mismo papel."
    ]
+  ],
+  "met": [
+   {
+    "id": "cazuela",
+    "n": "En cazuela, la de siempre",
+    "d": "40 minutos de guiso suave"
+   },
+   {
+    "id": "expres",
+    "n": "En olla exprés",
+    "d": "8 minutos con presión"
+   }
   ]
  },
  {
