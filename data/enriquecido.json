@@ -2286,7 +2286,48 @@
          "rf": 0.67
         }
        }
-      }
+      },
+      "solo": [
+       "olla"
+      ]
+     },
+     {
+      "t": "Cierra la exprés",
+      "m": 30,
+      "tim": 30,
+      "w": 1,
+      "f": 2,
+      "x": "Baja a fuego medio, cierra la olla exprés y, desde que suba la válvula, cuece 30 minutos. Deja que pierda la presión sola antes de abrir.",
+      "ab": "Con la exprés el cocido sale en la mitad de tiempo; el sabor, casi el mismo.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#D9B36B",
+       "tapa": 1
+      },
+      "alt": {
+       "expres": {
+        "t": "Olla exprés",
+        "m": 55,
+        "tim": 40,
+        "f": 3,
+        "x": "Cierra la olla exprés con las carnes y los garbanzos. Cuando suba la válvula, baja el fuego y cuenta 40 minutos; deja que baje la presión y abre.",
+        "ab": "En olla exprés pon menos agua: lo justo para cubrir, sin pasar de dos tercios de la olla.",
+        "e": {
+         "k": "fuego",
+         "v": "olla",
+         "f": 3,
+         "tapa": 1,
+         "vapor": 1,
+         "reloj": "40 min",
+         "rf": 0.67
+        }
+       }
+      },
+      "solo": [
+       "expres"
+      ]
      },
      {
       "t": "La verdura al caldo",
@@ -2323,7 +2364,50 @@
         "tim": 25,
         "x": "Abre la olla, añade {zanahoria}, {puerro} y {patata} enteros, y deja cocer sin tapar unos 25 minutos, hasta que estén tiernos."
        }
-      }
+      },
+      "solo": [
+       "olla"
+      ]
+     },
+     {
+      "t": "La verdura, sin presión",
+      "m": 25,
+      "tim": 20,
+      "w": 1,
+      "f": 2,
+      "x": "Abre la olla, añade {zanahoria} y {puerro} enteros y {patata} peladas y enteras, y deja que cueza destapado unos 20 minutos, hasta que la verdura esté tierna.",
+      "ab": "Patatas enteras, que cortadas se deshacen y enturbian el caldo.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#D9B36B",
+       "i": [
+        [
+         "zanahoria",
+         3
+        ],
+        [
+         "puerro",
+         2
+        ],
+        [
+         "patata",
+         2
+        ]
+       ],
+       "tapa": 2
+      },
+      "alt": {
+       "expres": {
+        "m": 30,
+        "tim": 25,
+        "x": "Abre la olla, añade {zanahoria}, {puerro} y {patata} enteros, y deja cocer sin tapar unos 25 minutos, hasta que estén tiernos."
+       }
+      },
+      "solo": [
+       "expres"
+      ]
      },
      {
       "t": "Chorizo, morcilla y repollo, aparte",
@@ -2627,7 +2711,10 @@
         ]
        ],
        "vierte": "agua"
-      }
+      },
+      "solo": [
+       "cazuela"
+      ]
      }
     ]
    },
@@ -2669,7 +2756,29 @@
        "agita": 1,
        "reloj": "2½ h",
        "rf": 0.21
-      }
+      },
+      "solo": [
+       "cazuela"
+      ]
+     },
+     {
+      "t": "Cierra la exprés",
+      "m": 45,
+      "tim": 45,
+      "w": 1,
+      "f": 1,
+      "x": "Cierra la olla exprés y, desde que suba la válvula, cuece 45 minutos a fuego medio-bajo. Deja que pierda la presión sola y, al abrir, añade {azafran} y menea la cazuela por las asas, sin cuchara.",
+      "ab": "En la exprés, no llenes más de dos tercios y que el agua cubra justa: las fabes se hacen sin que las toque nadie.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 2,
+       "c": "#E9C79A",
+       "tapa": 1
+      },
+      "solo": [
+       "expres"
+      ]
      },
      {
       "t": "Sal y reposo",
@@ -2739,6 +2848,18 @@
     "Mejor de víspera",
     "Reposada de un día para otro queda más mantecosa. Recaliéntala despacio, con un poco de agua si hace falta."
    ]
+  ],
+  "met": [
+   {
+    "id": "cazuela",
+    "n": "En cazuela, la de siempre",
+    "d": "2 h y media a fuego mínimo, asustándolas"
+   },
+   {
+    "id": "expres",
+    "n": "En olla exprés",
+    "d": "45 min con presión"
+   }
   ]
  },
  {

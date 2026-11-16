@@ -38,30 +38,34 @@ El de los domingos: garbanzos a remojo la víspera, carnes a fuego lento y servi
 
 ### La víspera
 
-1. **Garbanzos en remojo** (720 min) - Pon los 500 g de garbanzos en un bol con 2 litros de agua templada y 1 cucharada de sal gorda, unas 12 horas (los garbanzos casi doblan su tamaño, deja sitio).
+1. **Garbanzos en remojo** (720 min) - Pon garbanzos en remojo en abundante agua templada con un puñado de sal, unas doce horas.
    > Agua templada y sal en el remojo: así la piel queda fina y el garbanzo, mantecoso.
 
 ### El caldo
 
-2. **Carnes a la olla** (15 min) - Pon en una olla grande (de 6-7 litros) el morcillo, la gallina o los muslos, el tocino, el hueso de caña y la punta de jamón, cubiertos con 4 litros de agua fría. Llévalo a hervir a fuego fuerte (unos 20 minutos) y ve quitando la espuma gris que sube con una espumadera.
-   > Espumar bien al principio es lo que hace que el caldo salga limpio y no sepa a turbio: la espuma es proteína que se corta con el calor. Empezar en frío deja que la carne suelte su sabor al agua; si metes la carne en agua hirviendo, la carne suelta menos sabor al caldo y este sale más flojo.
-3. **Garbanzos al agua caliente** (5 min) - Cuando hierva y ya hayas quitado la espuma, escurre los garbanzos y añádelos dentro de una malla o red de cocido, para sacarlos luego enteros.
+2. **Carnes a la olla** (15 min) - Pon en una olla grande morcillo de ternera, gallina o muslos de pollo, tocino fresco o veteado, hueso de caña (con tuétano) y punta de jamón, cubiertos con agua fría. Llévalo a hervir y ve quitando la espuma que sube.
+   > Espumar bien al principio es lo que hace que el caldo salga limpio y no sepa a turbio.
+3. **Garbanzos al agua caliente** (5 min) - Cuando hierva, añade los garbanzos escurridos dentro de una malla, para sacarlos luego enteros.
    > Los garbanzos siempre en agua ya caliente: si los echas en frío se encallan y quedan duros. La malla es su truco para servirlos sin romperlos.
 
 ### Chup-chup
 
-4. **A fuego suave** (90 min) - Baja a fuego suave (una burbuja perezosa cada pocos segundos), tapa a medias y deja que cueza 1 hora y media. Si baja el nivel y los garbanzos quedan al aire, añade agua caliente, nunca fría, medio litro cada vez.
+4. **A fuego suave** (90 min) - Baja a fuego suave, tapa a medias y deja que cueza hora y media. Si hace falta, añade agua caliente, nunca fría.
    > Desde que entran los garbanzos, toda el agua que añadas, caliente: la fría los encalla.
-5. **La verdura al caldo** (60 min) - Añade 3 zanahorias y 1 puerro enteros y deja otra hora, hasta que los garbanzos se deshagan al apretarlos con los dedos (en total unas 2 horas y media desde que hierve). En la última media hora, mete 4 patatas medianas peladas y enteras.
-   > Patatas enteras y solo la última media hora: cortadas o más tiempo se deshacen y enturbian el caldo. Las zanahorias y el puerro enteros aguantan una hora sin deshacerse y le dan dulzor.
-6. **Chorizo, morcilla y repollo, aparte** (40 min) - Mientras, cuece 2 chorizos para cocido y 1 morcilla en otra olla con 1,5 litros de agua, 30 minutos a fuego suave (pínchalos con un palillo para que no revienten). Cuece 1 repollo pequeño troceado en agua con sal 15 minutos, escúrrelo y rehógalo 5 minutos en una sartén con 3 cucharadas de aceite de oliva y 2 dientes de ajo laminados.
+5. **Cierra la exprés** (30 min) - Baja a fuego medio, cierra la olla exprés y, desde que suba la válvula, cuece 30 minutos. Deja que pierda la presión sola antes de abrir.
+   > Con la exprés el cocido sale en la mitad de tiempo; el sabor, casi el mismo.
+6. **La verdura al caldo** (60 min) - Añade zanahorias y puerros enteros y deja otra hora, hasta que los garbanzos estén tiernos. En la última media hora, mete patatas medianas peladas y enteras.
+   > Patatas enteras, que cortadas se deshacen y enturbian el caldo.
+7. **La verdura, sin presión** (25 min) - Abre la olla, añade zanahorias y puerros enteros y patatas medianas peladas y enteras, y deja que cueza destapado unos 20 minutos, hasta que la verdura esté tierna.
+   > Patatas enteras, que cortadas se deshacen y enturbian el caldo.
+8. **Chorizo, morcilla y repollo, aparte** (40 min) - Mientras, cuece chorizo para cocido y morcilla de cebolla en otra olla con agua, unos 30 minutos. Cuece también repollo pequeño troceado y luego rehógalo en una sartén con aceite de oliva y diente de ajo laminado.
    > El chorizo y la morcilla van aparte para que el caldo no salga rojo ni grasiento. Es la diferencia entre un cocido fino y uno basto.
 
 ### Los tres vuelcos
 
-7. **Primer vuelco: la sopa** (10 min) - Cuela unos 1,5 litros del caldo en una cazuela, llévalo a hervir y cuece 150 g de fideo cabellín 3-4 minutos (unos 25 g por ración). Sirve la sopa bien caliente.
+9. **Primer vuelco: la sopa** (10 min) - Cuela parte del caldo en una cazuela, llévalo a hervir y cuece fideo cabellín tres o cuatro minutos. Sirve la sopa bien caliente.
    > Prueba el caldo antes de echar el fideo: el punto de sal se ajusta ahora.
-8. **Segundo y tercer vuelco** (10 min) - Sirve en una fuente los garbanzos con las patatas, la verdura y el repollo; en otra, las carnes troceadas con el chorizo, la morcilla y el tocino.
+10. **Segundo y tercer vuelco** (10 min) - Sirve en una fuente los garbanzos con las patatas, la verdura y el repollo; en otra, las carnes troceadas con el chorizo, la morcilla y el tocino.
    > Cada casa tiene su orden, pero la regla es la misma: primero la sopa, luego garbanzos con verdura y, por último, la carne.
 
 ## Secretos de la abuela
@@ -69,6 +73,7 @@ El de los domingos: garbanzos a remojo la víspera, carnes a fuego lento y servi
 - **Agua caliente para el garbanzo**: Es la regla de oro: el garbanzo entra en agua hirviendo y, si hay que añadir, siempre caliente. En frío se encalla.
 - **Espumar con paciencia**: Los primeros minutos de hervor sueltan la espuma de las carnes. Retirarla deja un caldo limpio y dorado.
 - **Nada se tira**: Con las sobras salen ropa vieja, croquetas o la pringá en pan. El caldo sobrante se congela para otra sopa.
+- **A gustos, colores**: cada casa pone lo suyo: hay quien añade un hueso de espinazo para el caldo, quien hace la pelota de relleno como en Madrid, y quien lo sirve todo junto en una gran fuente en vez de por vuelcos.
 
 ## En la tienda
 

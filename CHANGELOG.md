@@ -3,6 +3,8 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Cocido madrileño: la olla exprés ya tiene sus pasos propios (30 minutos con presión y la verdura después, sin presión), las cantidades se ajustan también dentro de los pasos y secretos con las variantes de cada casa.
+- Fabada asturiana: nuevo selector "Cómo lo vas a hacer" (en cazuela, la de siempre, asustándolas; o en olla exprés, 45 minutos con presión), cantidades que se ajustan dentro de los pasos y secretos con variantes.
 - Lentejas estofadas: las cantidades ya se ajustan también dentro de los pasos, la olla exprés por fin tiene sus pasos propios (12 minutos con presión y terminar abierta) y secretos con las variantes de cada casa.
 - Gazpacho andaluz: las cantidades ya se ajustan también dentro de los pasos, y nuevo selector "Cómo lo vas a hacer" con tres formas: batidora o turmix, Thermomix o robot, o al mortero, la antigua, cada una con sus pasos. Secretos con variantes (sin pan, con cebolla dulce, o el salmorejo de Córdoba).
 - Tortilla de patatas: las cantidades ya se ajustan también dentro de los pasos, y nuevo selector "Cómo lo vas a hacer" con las dos de siempre: con cebolla (la de casa, más jugosa) o sin cebolla (la de los puristas), cada una con sus pasos propios. Secretos con las variantes de cada casa.
