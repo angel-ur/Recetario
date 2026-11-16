@@ -9139,11 +9139,11 @@
   "regs": [
    "nav"
   ],
-  "intro": "La pocha es la alubia blanca y tierna de Navarra, de piel fina y carne mantecosa. Se guisa con la verdura de la huerta y solo pide tres cosas: remojo en frío, asustarla y menear la cazuela en vez de removerla.",
+  "intro": "La pocha es la alubia blanca de Navarra, recolectada tierna, de piel fina y carne mantecosa. Esta receta va con la pocha seca, la de la cosecha del año, que pide tres cosas: remojo en frío, asustarla y menear la cazuela en vez de removerla.",
   "secretos": [
    [
     "La pocha de verdad",
-    "La pocha navarra se recolecta tierna, antes de que la alubia madure del todo. Si no la encuentras, una alubia blanca pequeña tipo arrocina va muy bien."
+    "La pocha navarra se recolecta tierna, antes de que la alubia madure del todo, y se vende seca todo el año: es la de esta receta. La fresca de temporada (o congelada) es otra cosa: no pide remojo, va al agua ya hirviendo y está en 35-45 minutos de hervor suave. Y si no encuentras pocha, una alubia blanca pequeña tipo arrocina va muy bien."
    ],
    [
     "Menear, no remover",
@@ -9225,7 +9225,7 @@
      {
       "t": "Pochas en remojo",
       "m": 720,
-      "x": "Pon las {pocha} en remojo en agua fría, unas doce horas.",
+      "x": "Pon {pocha} en remojo en agua fría, unas doce horas. Después tira esa agua y enjuágalas bien antes de guisarlas.",
       "f": 0,
       "pre": 1,
       "e": {
@@ -9238,7 +9238,7 @@
        ],
        "t": "12 h"
       },
-      "ab": "Agua fría y abundante, porque las pochas casi doblan su tamaño."
+      "ab": "Agua fría y abundante, porque casi doblan su tamaño. El agua del remojo no se aprovecha: fuera."
      }
     ]
    },
@@ -9371,9 +9371,9 @@
      },
      {
       "t": "Fuego suave y a menear",
-      "m": 75,
-      "x": "Baja el fuego al mínimo, tapa a medias y guisa entre 1 hora y 1 hora y media, meneando la cazuela en círculos de vez en cuando. Sala a media cocción.",
-      "tim": 75,
+      "m": 90,
+      "x": "Baja el fuego al mínimo, tapa a medias y guisa entre 1 hora y media y 2 horas, según lo tierna que venga la cosecha, meneando la cazuela en círculos de vez en cuando. Sala a media cocción y pruébalas a partir de la hora y media.",
+      "tim": 90,
       "f": 1,
       "solo": [
        "olla"
@@ -9417,7 +9417,7 @@
      {
       "t": "El guiso, en el robot",
       "m": 60,
-      "x": "Pon {pocha} en el vaso, vuelca encima el sofrito y cubre con agua caliente hasta dos dedos por encima, sin pasar nunca del límite del vaso de tu robot (si no cabe, haz media receta). Programa 60 minutos a 100 °C con giro a la izquierda, velocidad cuchara y la mariposa puesta. La alubia seca es cabezona: puede pedir hasta una hora y media; prueba una y, si va dura, alarga en bloques de 15 minutos.",
+      "x": "Pon {pocha} en el vaso, vuelca encima el sofrito y cubre con agua fría hasta dos dedos por encima, sin pasar nunca del límite del vaso de tu robot (si no cabe, haz media receta). Programa 60 minutos a 100 °C con giro a la izquierda, velocidad cuchara y la mariposa puesta. La alubia seca es cabezona: puede pedir hasta una hora y media; prueba una y, si va dura, alarga en bloques de 15 minutos.",
       "tim": 60,
       "f": 0,
       "w": 1,
