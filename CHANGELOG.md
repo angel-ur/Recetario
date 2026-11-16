@@ -4,6 +4,8 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+- Pulpo: la coccion con presion distingue olla rapida (11-16 min) de expres tradicional (20-22 min) y el temporizador se declara orientativo, ajustable con el boton de +5 min.
+
 - Pulpo: la subida y bajada de presion ya no prometen minutos fijos; se describen como estimaciones variables segun olla y fuego, y el reposo y el pincho quedan con su criterio (fuentes: cocinatusrecetas.com, bacalalo.com).
 - Zarangollo robot: la verdura se divide en dos pasos (cebolla 15 min con cubilete / calabacin 20 min sin cubilete) y el huevo gana su propio paso de 2 minutos; las intervenciones ya no se esconden en tramos libres.
 - Pisto robot: la verdura llega al vaso por tandas (cebolla, pimientos, calabacin) y el tomate cuece aparte sin cubilete; cada intervencion corta el tiempo libre.
