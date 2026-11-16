@@ -6021,7 +6021,7 @@
       "m": 6,
       "tim": 5,
       "f": 2,
-      "x": "En una cazuela de barro con {aceite}, dora a fuego suave {ajo} laminados. Añade {jamon} y rehógalo un minuto.",
+      "x": "En la cazuela o la olla con {aceite}, dora a fuego suave {ajo} laminados. Añade {jamon} y rehógalo un minuto.",
       "ab": "Fuego suave: el ajo dorado perfuma; el quemado amarga toda la sopa.",
       "e": {
        "k": "fuego",
@@ -6107,7 +6107,7 @@
       "m": 4,
       "tim": 4,
       "f": 2,
-      "x": "Casca {huevo} sobre la sopa y deja que cuajen tres o cuatro minutos, sin remover. O mete la cazuela al horno a 200 °C hasta que cuaje la clara.",
+      "x": "Casca {huevo} sobre la sopa y deja que cuajen tres o cuatro minutos, sin remover.",
       "ab": "La yema tiene que quedar líquida, para romperla dentro de la sopa.",
       "e": {
        "k": "fuego",
@@ -6126,7 +6126,38 @@
          0.8
         ]
        ]
-      }
+      },
+      "solo": [
+       "barro",
+       "olla"
+      ]
+     },
+     {
+      "t": "Los huevos, al horno",
+      "m": 10,
+      "tim": 8,
+      "f": 3,
+      "x": "Calienta el horno a 200 °C. Reparte la sopa en cazuelitas aptas para horno, casca {huevo} sobre cada una y hornea unos 8 minutos, hasta que la clara cuaje y la yema siga blanda.",
+      "ab": "La yema tiene que quedar líquida, para romperla dentro de la sopa.",
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "cazuela",
+       "c": "#C88A3A",
+       "i": [
+        [
+         "huevofrito",
+         2
+        ],
+        [
+         "jamon",
+         2
+        ]
+       ]
+      },
+      "solo": [
+       "horno"
+      ]
      },
      {
       "t": "A la mesa en la cazuela",
@@ -6150,7 +6181,38 @@
         ]
        ],
        "vapor": 1
-      }
+      },
+      "solo": [
+       "barro"
+      ]
+     },
+     {
+      "t": "A la mesa, bien caliente",
+      "m": 2,
+      "f": 0,
+      "x": "Sírvela bien caliente, en cazuelitas o platos hondos.",
+      "ab": "La sopa de ajo se toma humeante: si espera, el pan sigue bebiendo caldo y se espesa de más.",
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#C87A3A",
+       "i": [
+        [
+         "huevofrito",
+         3,
+         0.8
+        ],
+        [
+         "jamon",
+         5
+        ]
+       ],
+       "vapor": 1
+      },
+      "solo": [
+       "olla",
+       "horno"
+      ]
      }
     ]
    }
@@ -6167,7 +6229,28 @@
    [
     "Pimentón de la Vera",
     "Si es ahumado, de la Vera, la sopa coge un punto que recuerda a la matanza."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien echa unos taquitos de chorizo con el jamón, quien le pone una guindilla con los ajos y quien bate los huevos y los echa revueltos en vez de cuajarlos enteros. En Zamora la llaman sopa de ajo y no le falta nunca el pimentón generoso."
    ]
+  ],
+  "met": [
+   {
+    "id": "barro",
+    "n": "En cazuela de barro",
+    "d": "la de siempre, y a la mesa en ella"
+   },
+   {
+    "id": "olla",
+    "n": "En olla o cacerola",
+    "d": "la misma sopa sin barro"
+   },
+   {
+    "id": "horno",
+    "n": "Con los huevos al horno",
+    "d": "en cazuelitas, 8 minutos a 200 °C"
+   }
   ]
  },
  {
@@ -6303,7 +6386,55 @@
        "f": 2,
        "c": "#F3D77E",
        "cuchara": 1
-      }
+      },
+      "solo": [
+       "fuego"
+      ]
+     },
+     {
+      "t": "Espesa en el robot",
+      "m": 12,
+      "tim": 12,
+      "f": 0,
+      "x": "Vierte la mezcla en el vaso del robot y programa 12 minutos a 90 °C, velocidad suave (3 o 4). La crema tiene que cubrir la cuchara; si la ves fina, dale dos minutos más.",
+      "ab": "Que no pase de 90 °C: a más temperatura, las yemas se cuajan y la crema sale con grumos.",
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#E8C84A",
+       "i": [
+        [
+         "canela",
+         2
+        ]
+       ],
+       "cuchara": 1
+      },
+      "solo": [
+       "robot"
+      ]
+     },
+     {
+      "t": "Espesa al microondas",
+      "m": 10,
+      "tim": 8,
+      "f": 0,
+      "x": "Pon la mezcla en un bol amplio apto para microondas y calienta a potencia media-alta en tandas de 2 minutos, removiendo bien entre tanda y tanda, hasta que espese y cubra la cuchara, unos 8 minutos en total.",
+      "ab": "Entre tanda y tanda, remueve siempre: en el microondas se hace por los bordes primero y ahí se pegan los grumos.",
+      "e": {
+       "k": "bol",
+       "c": "#E8C84A",
+       "i": [
+        [
+         "canela",
+         2
+        ]
+       ]
+      },
+      "solo": [
+       "micro"
+      ]
      }
     ]
    },
@@ -6359,7 +6490,28 @@
    [
     "Costra fina",
     "Poca azúcar y bien repartida: una capa gruesa queda dura y amarga."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien la perfuma también con piel de naranja, quien le da un chorrito de anís y quien la hace solo con canela. Si no hay pala ni soplete, la costra se hace bajo el grill del horno bien caliente, un par de minutos y sin perderla de vista."
    ]
+  ],
+  "met": [
+   {
+    "id": "fuego",
+    "n": "Al fuego, la de siempre",
+    "d": "removiendo sin parar, 8 minutos"
+   },
+   {
+    "id": "robot",
+    "n": "En robot de cocina",
+    "d": "90 °C, velocidad suave, 12 minutos"
+   },
+   {
+    "id": "micro",
+    "n": "Al microondas",
+    "d": "a tandas de 2 minutos, unos 8 en total"
+   }
   ]
  },
  {

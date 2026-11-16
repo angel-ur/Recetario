@@ -3801,6 +3801,23 @@
    6,
    8
   ],
+  "met": [
+   {
+    "id": "fuego",
+    "n": "Al fuego, la de siempre",
+    "d": "removiendo sin parar, 8 minutos"
+   },
+   {
+    "id": "robot",
+    "n": "En robot de cocina",
+    "d": "90 °C, velocidad suave, 12 minutos"
+   },
+   {
+    "id": "micro",
+    "n": "Al microondas",
+    "d": "a tandas de 2 minutos, unos 8 en total"
+   }
+  ],
   "heroe": {
    "k": "ilu",
    "svg": "<defs><radialGradient id=\"i_cremacatalana_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_cremacatalana_fondo)\"/><defs><linearGradient id=\"i_cremacatalana_barro\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C7683A\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_cremacatalana_crema\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#F6E3A8\"/><stop offset=\"1\" stop-color=\"#E8C476\"/></radialGradient><linearGradient id=\"i_cremacatalana_costra\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#D89020\"/><stop offset=\"1\" stop-color=\"#9A5A10\"/></linearGradient><linearGradient id=\"i_cremacatalana_hierro\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#6A6A72\"/><stop offset=\"1\" stop-color=\"#3A3A42\"/></linearGradient></defs><ellipse cx=\"140\" cy=\"152\" rx=\"92\" ry=\"9\" fill=\"#4A2E10\" opacity=\"0.25\"/><path d=\"M52 96c0 34 40 52 88 52s88-18 88-52z\" fill=\"url(#i_cremacatalana_barro)\"/><path d=\"M58 108c10 22 42 34 82 34s72-12 82-34\" fill=\"none\" stroke=\"#7A3618\" stroke-width=\"2\" opacity=\".5\"/><ellipse cx=\"140\" cy=\"96\" rx=\"88\" ry=\"26\" fill=\"#A0522A\"/><ellipse cx=\"140\" cy=\"94\" rx=\"88\" ry=\"26\" fill=\"url(#i_cremacatalana_barro)\"/><ellipse cx=\"140\" cy=\"94\" rx=\"76\" ry=\"21\" fill=\"url(#i_cremacatalana_crema)\"/><ellipse cx=\"140\" cy=\"94\" rx=\"76\" ry=\"21\" fill=\"url(#i_cremacatalana_costra)\" opacity=\".82\"/><ellipse cx=\"113.4\" cy=\"103.2\" rx=\"5.7\" ry=\"1.8\" fill=\"#C98A28\" opacity=\"0.39\"/><ellipse cx=\"182.5\" cy=\"96.9\" rx=\"3.1\" ry=\"1.4\" fill=\"#6E3C08\" opacity=\"0.58\"/><ellipse cx=\"155.2\" cy=\"79.6\" rx=\"3.1\" ry=\"2.7\" fill=\"#6E3C08\" opacity=\"0.45\"/><ellipse cx=\"146.2\" cy=\"106.6\" rx=\"5.2\" ry=\"2.9\" fill=\"#B86E14\" opacity=\"0.45\"/><ellipse cx=\"131.6\" cy=\"83.8\" rx=\"5.1\" ry=\"2.2\" fill=\"#8A4E0C\" opacity=\"0.33\"/><ellipse cx=\"175.1\" cy=\"79.9\" rx=\"3.2\" ry=\"1.8\" fill=\"#6E3C08\" opacity=\"0.45\"/><ellipse cx=\"78.8\" cy=\"93.2\" rx=\"3.6\" ry=\"2.8\" fill=\"#8A4E0C\" opacity=\"0.57\"/><ellipse cx=\"158.0\" cy=\"87.3\" rx=\"7.5\" ry=\"2.6\" fill=\"#6E3C08\" opacity=\"0.49\"/><ellipse cx=\"126.5\" cy=\"109.0\" rx=\"4.4\" ry=\"2.2\" fill=\"#6E3C08\" opacity=\"0.37\"/><ellipse cx=\"96.6\" cy=\"89.1\" rx=\"6.4\" ry=\"1.9\" fill=\"#8A4E0C\" opacity=\"0.46\"/><ellipse cx=\"118.4\" cy=\"88.3\" rx=\"5.9\" ry=\"2.9\" fill=\"#8A4E0C\" opacity=\"0.41\"/><ellipse cx=\"189.9\" cy=\"92.5\" rx=\"7.8\" ry=\"1.3\" fill=\"#6E3C08\" opacity=\"0.43\"/><ellipse cx=\"106.3\" cy=\"85.6\" rx=\"7.8\" ry=\"1.9\" fill=\"#B86E14\" opacity=\"0.46\"/><ellipse cx=\"182.8\" cy=\"85.9\" rx=\"8.7\" ry=\"2.8\" fill=\"#6E3C08\" opacity=\"0.54\"/><ellipse cx=\"112.3\" cy=\"90.3\" rx=\"5.6\" ry=\"3.0\" fill=\"#8A4E0C\" opacity=\"0.31\"/><ellipse cx=\"161.4\" cy=\"91.0\" rx=\"3.8\" ry=\"2.6\" fill=\"#6E3C08\" opacity=\"0.43\"/><ellipse cx=\"175.3\" cy=\"101.3\" rx=\"6.9\" ry=\"1.9\" fill=\"#6E3C08\" opacity=\"0.26\"/><ellipse cx=\"168.0\" cy=\"95.9\" rx=\"6.1\" ry=\"2.1\" fill=\"#C98A28\" opacity=\"0.43\"/><ellipse cx=\"133.7\" cy=\"93.3\" rx=\"3.4\" ry=\"2.7\" fill=\"#6E3C08\" opacity=\"0.47\"/><ellipse cx=\"191.3\" cy=\"98.0\" rx=\"7.3\" ry=\"1.9\" fill=\"#B86E14\" opacity=\"0.28\"/><ellipse cx=\"187.5\" cy=\"98.3\" rx=\"4.4\" ry=\"2.8\" fill=\"#8A4E0C\" opacity=\"0.44\"/><ellipse cx=\"144.2\" cy=\"80.3\" rx=\"8.9\" ry=\"1.3\" fill=\"#C98A28\" opacity=\"0.37\"/><ellipse cx=\"161.8\" cy=\"95.9\" rx=\"5.5\" ry=\"2.8\" fill=\"#C98A28\" opacity=\"0.46\"/><ellipse cx=\"184.7\" cy=\"98.8\" rx=\"8.4\" ry=\"2.4\" fill=\"#C98A28\" opacity=\"0.54\"/><ellipse cx=\"93.2\" cy=\"99.3\" rx=\"7.6\" ry=\"1.3\" fill=\"#6E3C08\" opacity=\"0.52\"/><ellipse cx=\"117.1\" cy=\"94.4\" rx=\"4.5\" ry=\"2.6\" fill=\"#8A4E0C\" opacity=\"0.41\"/><ellipse cx=\"92.5\" cy=\"86.5\" rx=\"8.6\" ry=\"3.0\" fill=\"#B86E14\" opacity=\"0.59\"/><ellipse cx=\"160.9\" cy=\"107.4\" rx=\"3.2\" ry=\"1.7\" fill=\"#C98A28\" opacity=\"0.38\"/><ellipse cx=\"136.1\" cy=\"88.3\" rx=\"6.1\" ry=\"2.3\" fill=\"#C98A28\" opacity=\"0.44\"/><ellipse cx=\"153.1\" cy=\"81.1\" rx=\"5.5\" ry=\"2.4\" fill=\"#8A4E0C\" opacity=\"0.51\"/><ellipse cx=\"195.3\" cy=\"103.2\" rx=\"6.1\" ry=\"1.7\" fill=\"#6E3C08\" opacity=\"0.44\"/><ellipse cx=\"125.7\" cy=\"98.4\" rx=\"8.6\" ry=\"2.7\" fill=\"#C98A28\" opacity=\"0.38\"/><ellipse cx=\"102.9\" cy=\"107.2\" rx=\"8.6\" ry=\"2.3\" fill=\"#6E3C08\" opacity=\"0.34\"/><ellipse cx=\"128.5\" cy=\"105.6\" rx=\"7.0\" ry=\"2.7\" fill=\"#6E3C08\" opacity=\"0.41\"/><ellipse cx=\"146.2\" cy=\"84.3\" rx=\"7.0\" ry=\"1.5\" fill=\"#C98A28\" opacity=\"0.25\"/><ellipse cx=\"99.3\" cy=\"99.5\" rx=\"5.6\" ry=\"2.7\" fill=\"#6E3C08\" opacity=\"0.35\"/><ellipse cx=\"118.5\" cy=\"110.0\" rx=\"5.5\" ry=\"2.1\" fill=\"#8A4E0C\" opacity=\"0.43\"/><ellipse cx=\"102.1\" cy=\"93.2\" rx=\"3.1\" ry=\"2.3\" fill=\"#C98A28\" opacity=\"0.55\"/><ellipse cx=\"184.8\" cy=\"87.1\" rx=\"6.6\" ry=\"2.3\" fill=\"#C98A28\" opacity=\"0.47\"/><ellipse cx=\"164.4\" cy=\"107.2\" rx=\"7.9\" ry=\"1.5\" fill=\"#8A4E0C\" opacity=\"0.47\"/><ellipse cx=\"123.4\" cy=\"94.4\" rx=\"5.8\" ry=\"2.9\" fill=\"#C98A28\" opacity=\"0.25\"/><ellipse cx=\"151.8\" cy=\"97.6\" rx=\"5.3\" ry=\"1.9\" fill=\"#C98A28\" opacity=\"0.47\"/><ellipse cx=\"134.1\" cy=\"81.6\" rx=\"3.6\" ry=\"2.6\" fill=\"#C98A28\" opacity=\"0.58\"/><ellipse cx=\"80.4\" cy=\"89.0\" rx=\"4.0\" ry=\"2.4\" fill=\"#C98A28\" opacity=\"0.40\"/><ellipse cx=\"160.3\" cy=\"84.3\" rx=\"6.0\" ry=\"2.0\" fill=\"#8A4E0C\" opacity=\"0.36\"/><ellipse cx=\"154.3\" cy=\"88.8\" rx=\"7.3\" ry=\"2.1\" fill=\"#B86E14\" opacity=\"0.34\"/><path d=\"M144.5 89.9q7.5 -0.8 6.0 1.2\" stroke=\"#5E3206\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M113.5 93.4q-3.9 2.9 5.6 0.0\" stroke=\"#5E3206\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M172.8 100.9q-3.4 -2.6 2.3 -1.1\" stroke=\"#5E3206\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M96.1 95.7q-1.6 -2.1 5.5 -1.5\" stroke=\"#5E3206\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M147.9 86.1q-5.5 -3.2 4.1 -3.8\" stroke=\"#5E3206\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M155.0 98.5q-5.4 -3.3 1.1 4.3\" stroke=\"#5E3206\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M166.9 100.2q0.8 -2.2 5.0 3.2\" stroke=\"#5E3206\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><ellipse cx=\"112\" cy=\"87\" rx=\"26\" ry=\"4.5\" fill=\"#FFE9A8\" opacity=\".38\"/><ellipse cx=\"258\" cy=\"150\" rx=\"46\" ry=\"6\" fill=\"#4A2E10\" opacity=\"0.22\"/><g transform=\"translate(258 118) rotate(-18)\"><rect x=\"-4\" y=\"-58\" width=\"8\" height=\"58\" rx=\"3.5\" fill=\"#8A5A28\"/><rect x=\"-4\" y=\"-58\" width=\"3\" height=\"58\" fill=\"#B07838\" opacity=\".8\"/><circle cx=\"0\" cy=\"8\" r=\"20\" fill=\"url(#i_cremacatalana_hierro)\"/><circle cx=\"0\" cy=\"8\" r=\"20\" fill=\"none\" stroke=\"#2A2A32\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"8\" r=\"12\" fill=\"none\" stroke=\"#88888F\" stroke-width=\"1.4\" opacity=\".6\"/><ellipse cx=\"-6\" cy=\"2\" rx=\"6\" ry=\"3\" fill=\"#fff\" opacity=\".18\"/></g><g transform=\"translate(52 140) rotate(24)\"><rect x=\"-16\" y=\"-4\" width=\"32\" height=\"8\" rx=\"4\" fill=\"#8A4E22\"/><rect x=\"-16\" y=\"-4\" width=\"32\" height=\"3\" rx=\"1.5\" fill=\"#A86834\"/><ellipse cx=\"-16\" cy=\"0\" rx=\"3\" ry=\"4\" fill=\"#6E3A16\"/></g><path d=\"M206 148q14-10 26-2 4 4-2 8-14 6-26 2-6-4 2-8z\" fill=\"#F2C93C\"/><path d=\"M210 148q10-6 20-1\" stroke=\"#F8E27A\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/>"
@@ -3821,6 +3838,10 @@
    [
     "Costra fina",
     "Poca azúcar y bien repartida: una capa gruesa queda dura y amarga."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien la perfuma también con piel de naranja, quien le da un chorrito de anís y quien la hace solo con canela. Si no hay pala ni soplete, la costra se hace bajo el grill del horno bien caliente, un par de minutos y sin perderla de vista."
    ]
   ],
   "ing": [
@@ -3876,7 +3897,7 @@
      {
       "t": "Perfuma la leche",
       "m": 15,
-      "x": "Calienta 800 ml de leche entera (guarda 200 ml, un vaso, aparte y fríos) con la piel de 1 limón (sin lo blanco) y 1 rama de canela. Cuando hierva, apaga, tapa y deja que repose 10 minutos.",
+      "x": "Calienta {leche}, guardando un vaso aparte, con {piel} y {canela}. Cuando hierva, apaga y deja que repose diez minutos.",
       "tim": 10,
       "f": 3,
       "e": {
@@ -3900,7 +3921,7 @@
      {
       "t": "Yemas, azúcar y maicena",
       "m": 5,
-      "x": "Bate 6 yemas con 150 g de azúcar hasta que blanqueen. Disuelve 40 g de maicena en el vaso de leche fría que reservaste y añádelo.",
+      "x": "Bate {yema} con {azucar} hasta que blanqueen. Disuelve {maicena} en el vaso de leche fría que reservaste y añádelo.",
       "f": 0,
       "durante": 1,
       "e": {
@@ -3926,9 +3947,12 @@
      {
       "t": "Espesa a fuego suave",
       "m": 8,
-      "x": "Vuelve todo a la olla a fuego suave y remueve sin parar 6-8 minutos, hasta que espese y cubra la cuchara (a unos 82-85 °C, sin hervir). Que no llegue a hervir fuerte.",
+      "x": "Vuelve todo a la olla a fuego suave y remueve sin parar hasta que espese y cubra la cuchara. Que no llegue a hervir fuerte.",
       "tim": 8,
       "f": 2,
+      "solo": [
+       "fuego"
+      ],
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -3937,6 +3961,51 @@
        "cuchara": 1
       },
       "ab": "Remueve siempre en el mismo sentido «para que no se corte». Lo que de verdad importa es no parar y no pasarse de fuego."
+     },
+     {
+      "t": "Espesa en el robot",
+      "m": 12,
+      "x": "Vierte la mezcla en el vaso del robot y programa 12 minutos a 90 °C, velocidad suave (3 o 4). La crema tiene que cubrir la cuchara; si la ves fina, dale dos minutos más.",
+      "tim": 12,
+      "f": 0,
+      "solo": [
+       "robot"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "cazuela",
+       "f": 1,
+       "c": "#E8C84A",
+       "i": [
+        [
+         "canela",
+         2
+        ]
+       ],
+       "cuchara": 1
+      },
+      "ab": "Que no pase de 90 °C: a más temperatura, las yemas se cuajan y la crema sale con grumos."
+     },
+     {
+      "t": "Espesa al microondas",
+      "m": 10,
+      "x": "Pon la mezcla en un bol amplio apto para microondas y calienta a potencia media-alta en tandas de 2 minutos, removiendo bien entre tanda y tanda, hasta que espese y cubra la cuchara, unos 8 minutos en total.",
+      "tim": 8,
+      "f": 0,
+      "solo": [
+       "micro"
+      ],
+      "e": {
+       "k": "bol",
+       "c": "#E8C84A",
+       "i": [
+        [
+         "canela",
+         2
+        ]
+       ]
+      },
+      "ab": "Entre tanda y tanda, remueve siempre: en el microondas se hace por los bordes primero y ahí se pegan los grumos."
      }
     ]
    },
@@ -3947,7 +4016,7 @@
      {
       "t": "Reparte y enfría",
       "m": 240,
-      "x": "Reparte la crema en cazuelitas de barro, deja que se temple y guárdala en la nevera al menos 4 horas.",
+      "x": "Reparte la crema en cazuelitas de barro, deja que se temple y guárdala en la nevera al menos cuatro horas.",
       "f": "n",
       "w": 1,
       "e": {
@@ -3967,7 +4036,7 @@
      {
       "t": "Quema el azúcar",
       "m": 5,
-      "x": "Justo antes de servir, cubre cada cazuelita con 1 cucharada rasa de azúcar (6 en total) y quémala con la pala de hierro al rojo o con un soplete, hasta que caramelice.",
+      "x": "Justo antes de servir, cubre cada cazuelita con una capa fina de {azucarq} y quémala con la pala de hierro al rojo o con un soplete, hasta que caramelice.",
       "f": 0,
       "e": {
        "k": "plato",
@@ -11028,6 +11097,23 @@
    4,
    6
   ],
+  "met": [
+   {
+    "id": "barro",
+    "n": "En cazuela de barro",
+    "d": "la de siempre, y a la mesa en ella"
+   },
+   {
+    "id": "olla",
+    "n": "En olla o cacerola",
+    "d": "la misma sopa sin barro"
+   },
+   {
+    "id": "horno",
+    "n": "Con los huevos al horno",
+    "d": "en cazuelitas, 8 minutos a 200 °C"
+   }
+  ],
   "heroe": {
    "k": "ilu",
    "svg": "<defs><radialGradient id=\"i_sopacastellana_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_sopacastellana_fondo)\"/><defs><radialGradient id=\"i_sopacastellana_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_sopacastellana_barro3\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_sopacastellana_caldo\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#D8A34E\"/><stop offset=\"1\" stop-color=\"#B07A2E\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"110\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M56 92c0 36 26 56 104 56s104-20 104-56z\" fill=\"url(#i_sopacastellana_barro3)\"/><ellipse cx=\"160\" cy=\"92\" rx=\"104\" ry=\"24\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"94\" rx=\"94\" ry=\"19\" fill=\"url(#i_sopacastellana_caldo)\"/><g transform=\"translate(120 92) rotate(-14)\"><rect x=\"-20\" y=\"-8\" width=\"40\" height=\"16\" rx=\"6\" fill=\"#E3C084\"/><rect x=\"-20\" y=\"-8\" width=\"40\" height=\"16\" rx=\"6\" fill=\"none\" stroke=\"#B8863E\" stroke-width=\"1.6\"/><path d=\"M-12 -2h24M-12 3h24\" stroke=\"#C89A4E\" stroke-width=\"1.4\"/></g><g transform=\"translate(168 98) rotate(8)\"><rect x=\"-20\" y=\"-8\" width=\"40\" height=\"16\" rx=\"6\" fill=\"#E3C084\"/><rect x=\"-20\" y=\"-8\" width=\"40\" height=\"16\" rx=\"6\" fill=\"none\" stroke=\"#B8863E\" stroke-width=\"1.6\"/><path d=\"M-12 -2h24M-12 3h24\" stroke=\"#C89A4E\" stroke-width=\"1.4\"/></g><g transform=\"translate(204 90) rotate(-6)\"><rect x=\"-20\" y=\"-8\" width=\"40\" height=\"16\" rx=\"6\" fill=\"#E3C084\"/><rect x=\"-20\" y=\"-8\" width=\"40\" height=\"16\" rx=\"6\" fill=\"none\" stroke=\"#B8863E\" stroke-width=\"1.6\"/><path d=\"M-12 -2h24M-12 3h24\" stroke=\"#C89A4E\" stroke-width=\"1.4\"/></g><g transform=\"translate(131.9 101.0) rotate(-29)\"><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"6\" rx=\"2\" fill=\"#B34434\"/><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"2\" rx=\"1\" fill=\"#E8A888\"/></g><g transform=\"translate(143.7 81.4) rotate(-25)\"><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"6\" rx=\"2\" fill=\"#B34434\"/><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"2\" rx=\"1\" fill=\"#E8A888\"/></g><g transform=\"translate(136.9 96.4) rotate(-28)\"><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"6\" rx=\"2\" fill=\"#B34434\"/><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"2\" rx=\"1\" fill=\"#E8A888\"/></g><g transform=\"translate(191.9 86.8) rotate(30)\"><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"6\" rx=\"2\" fill=\"#B34434\"/><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"2\" rx=\"1\" fill=\"#E8A888\"/></g><g transform=\"translate(187.8 106.1) rotate(22)\"><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"6\" rx=\"2\" fill=\"#B34434\"/><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"2\" rx=\"1\" fill=\"#E8A888\"/></g><g transform=\"translate(197.8 105.6) rotate(29)\"><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"6\" rx=\"2\" fill=\"#B34434\"/><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"2\" rx=\"1\" fill=\"#E8A888\"/></g><g transform=\"translate(91.7 85.4) rotate(17)\"><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"6\" rx=\"2\" fill=\"#B34434\"/><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"2\" rx=\"1\" fill=\"#E8A888\"/></g><g transform=\"translate(194.5 101.4) rotate(-14)\"><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"6\" rx=\"2\" fill=\"#B34434\"/><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"2\" rx=\"1\" fill=\"#E8A888\"/></g><g transform=\"translate(181.7 102.2) rotate(-32)\"><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"6\" rx=\"2\" fill=\"#B34434\"/><rect x=\"-5\" y=\"-3\" width=\"10\" height=\"2\" rx=\"1\" fill=\"#E8A888\"/></g><g transform=\"translate(160 88)\"><ellipse rx=\"22\" ry=\"12\" fill=\"#FBF6E8\"/><circle r=\"7\" fill=\"#E9A02E\"/><circle cx=\"-2\" cy=\"-2\" r=\"2.6\" fill=\"#F7C25E\"/></g><circle cx=\"91.2\" cy=\"103.3\" r=\"1.0\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"151.0\" cy=\"84.1\" r=\"0.8\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"99.2\" cy=\"84.2\" r=\"1.2\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"142.3\" cy=\"100.7\" r=\"1.3\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"177.2\" cy=\"86.9\" r=\"0.8\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"225.1\" cy=\"93.8\" r=\"0.9\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"223.8\" cy=\"86.1\" r=\"1.2\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"91.4\" cy=\"92.5\" r=\"0.9\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"226.3\" cy=\"92.9\" r=\"1.0\" fill=\"#9C2E1E\" opacity=\".8\"/><circle cx=\"203.0\" cy=\"97.1\" r=\"1.2\" fill=\"#9C2E1E\" opacity=\".8\"/><ellipse cx=\"130\" cy=\"82\" rx=\"20\" ry=\"2.4\" fill=\"#fff\" opacity=\".25\"/><g transform=\"translate(266 130)\"><ellipse rx=\"12\" ry=\"9\" fill=\"#F0E4CC\"/><path d=\"M-8 -2q4 -8 8 -10M0 -3q4 -7 8 -8\" stroke=\"#D8C4A0\" stroke-width=\"1.6\" fill=\"none\"/><path d=\"M-4 -8l2 -4M2 -9l2 -4\" stroke=\"#C8B088\" stroke-width=\"1.4\"/></g>"
@@ -11048,6 +11134,10 @@
    [
     "Pimentón de la Vera",
     "Si es ahumado, de la Vera, la sopa coge un punto que recuerda a la matanza."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien echa unos taquitos de chorizo con el jamón, quien le pone una guindilla con los ajos y quien bate los huevos y los echa revueltos en vez de cuajarlos enteros. En Zamora la llaman sopa de ajo y no le falta nunca el pimentón generoso."
    ]
   ],
   "ing": [
@@ -11107,7 +11197,7 @@
      {
       "t": "Corta el pan muy fino",
       "m": 5,
-      "x": "Corta 200 g de pan de pueblo duro en rebanadas de 2-3 mm.",
+      "x": "Corta {pan} en rebanadas muy finas.",
       "f": 0,
       "e": {
        "k": "tabla",
@@ -11123,7 +11213,7 @@
      {
       "t": "Ajos a fuego suave",
       "m": 6,
-      "x": "En una cazuela de barro con 5 cucharadas de aceite de oliva, dora a fuego suave 6 dientes de ajo laminados, 2-3 minutos. Añade 100 g de jamón serrano en taquitos y rehógalo 1 minuto.",
+      "x": "En la cazuela o la olla con {aceite}, dora a fuego suave {ajo} laminados. Añade {jamon} y rehógalo un minuto.",
       "tim": 5,
       "f": 2,
       "e": {
@@ -11148,7 +11238,7 @@
      {
       "t": "Pan y pimentón, fuera del fuego",
       "m": 4,
-      "x": "Añade el pan y dale unas vueltas para que se empape. Aparta la cazuela del fuego y echa 1 cucharada de pimentón dulce o de la Vera, removiendo rápido.",
+      "x": "Añade el pan y dale unas vueltas para que se empape. Aparta la cazuela del fuego y echa {pimenton}, removiendo rápido.",
       "f": "a",
       "e": {
        "k": "fuego",
@@ -11183,7 +11273,7 @@
      {
       "t": "El caldo, caliente",
       "m": 15,
-      "x": "Vierte 1,25 litros de caldo de cocido o de pollo caliente, prueba de sal y deja que hierva suave unos 15 minutos, hasta que el pan se deshaga un poco.",
+      "x": "Vierte {caldo} caliente, prueba de sal y deja que hierva suave unos quince minutos, hasta que el pan se deshaga un poco.",
       "tim": 15,
       "f": 2,
       "e": {
@@ -11209,9 +11299,13 @@
      {
       "t": "Cuaja los huevos",
       "m": 4,
-      "x": "Casca 4 huevos sobre la sopa y deja que cuajen 3-4 minutos, sin remover. O mete la cazuela al horno a 200 °C hasta que cuaje la clara.",
+      "x": "Casca {huevo} sobre la sopa y deja que cuajen tres o cuatro minutos, sin remover.",
       "tim": 4,
       "f": 2,
+      "solo": [
+       "barro",
+       "olla"
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -11233,10 +11327,40 @@
       "ab": "La yema tiene que quedar líquida, para romperla dentro de la sopa."
      },
      {
+      "t": "Los huevos, al horno",
+      "m": 10,
+      "x": "Calienta el horno a 200 °C. Reparte la sopa en cazuelitas aptas para horno, casca {huevo} sobre cada una y hornea unos 8 minutos, hasta que la clara cuaje y la yema siga blanda.",
+      "tim": 8,
+      "f": 3,
+      "solo": [
+       "horno"
+      ],
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "cazuela",
+       "c": "#C88A3A",
+       "i": [
+        [
+         "huevofrito",
+         2
+        ],
+        [
+         "jamon",
+         2
+        ]
+       ]
+      },
+      "ab": "La yema tiene que quedar líquida, para romperla dentro de la sopa."
+     },
+     {
       "t": "A la mesa en la cazuela",
       "m": 2,
       "x": "Sírvela en la misma cazuela de barro, muy caliente.",
       "f": 0,
+      "solo": [
+       "barro"
+      ],
       "e": {
        "k": "plato",
        "v": "cazuela",
@@ -11255,6 +11379,34 @@
        "vapor": 1
       },
       "ab": "En las casas de pueblo se pone la cazuela en el centro de la mesa y cada uno se sirve."
+     },
+     {
+      "t": "A la mesa, bien caliente",
+      "m": 2,
+      "x": "Sírvela bien caliente, en cazuelitas o platos hondos.",
+      "f": 0,
+      "solo": [
+       "olla",
+       "horno"
+      ],
+      "e": {
+       "k": "plato",
+       "v": "cazuela",
+       "c": "#C87A3A",
+       "i": [
+        [
+         "huevofrito",
+         3,
+         0.8
+        ],
+        [
+         "jamon",
+         5
+        ]
+       ],
+       "vapor": 1
+      },
+      "ab": "La sopa de ajo se toma humeante: si espera, el pan sigue bebiendo caldo y se espesa de más."
      }
     ]
    }

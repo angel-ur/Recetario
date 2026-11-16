@@ -27,27 +27,31 @@ La sopa de ajo de los inviernos castellanos: pan de varios días, ajo, pimentón
 
 ### El sofrito
 
-1. **Corta el pan muy fino** (5 min) - Corta 200 g de pan de pueblo duro en rebanadas de 2-3 mm.
+1. **Corta el pan muy fino** (5 min) - Corta pan de pueblo duro en rebanadas muy finas.
    > Cuanto más duro el pan, mejor. El tierno se deshace y la sopa queda como un engrudo.
-2. **Ajos a fuego suave** (6 min) - En una cazuela de barro con 5 cucharadas de aceite de oliva, dora a fuego suave 6 dientes de ajo laminados, 2-3 minutos. Añade 100 g de jamón serrano en taquitos y rehógalo 1 minuto.
+2. **Ajos a fuego suave** (6 min) - En la cazuela o la olla con aceite de oliva, dora a fuego suave dientes de ajo laminados. Añade jamón serrano en taquitos y rehógalo un minuto.
    > Fuego suave: el ajo dorado perfuma; el quemado amarga toda la sopa.
-3. **Pan y pimentón, fuera del fuego** (4 min) - Añade el pan y dale unas vueltas para que se empape. Aparta la cazuela del fuego y echa 1 cucharada de pimentón dulce o de la Vera, removiendo rápido.
+3. **Pan y pimentón, fuera del fuego** (4 min) - Añade el pan y dale unas vueltas para que se empape. Aparta la cazuela del fuego y echa pimentón dulce o de la Vera, removiendo rápido.
    > El pimentón, siempre con el fuego apagado, que en un segundo se quema y amarga.
 
 ### Al caldo
 
-4. **El caldo, caliente** (15 min) - Vierte 1,25 litros de caldo de cocido o de pollo caliente, prueba de sal y deja que hierva suave unos 15 minutos, hasta que el pan se deshaga un poco.
+4. **El caldo, caliente** (15 min) - Vierte caldo de cocido o de pollo caliente, prueba de sal y deja que hierva suave unos quince minutos, hasta que el pan se deshaga un poco.
    > Usa el caldo que sobra del cocido. Si no hay, agua con un hueso de jamón.
-5. **Cuaja los huevos** (4 min) - Casca 4 huevos sobre la sopa y deja que cuajen 3-4 minutos, sin remover. O mete la cazuela al horno a 200 °C hasta que cuaje la clara.
+5. **Cuaja los huevos** (4 min) - Casca huevos sobre la sopa y deja que cuajen tres o cuatro minutos, sin remover.
    > La yema tiene que quedar líquida, para romperla dentro de la sopa.
-6. **A la mesa en la cazuela** (2 min) - Sírvela en la misma cazuela de barro, muy caliente.
+6. **Los huevos, al horno** (10 min) - Calienta el horno a 200 °C. Reparte la sopa en cazuelitas aptas para horno, casca huevos sobre cada una y hornea unos 8 minutos, hasta que la clara cuaje y la yema siga blanda.
+   > La yema tiene que quedar líquida, para romperla dentro de la sopa.
+7. **A la mesa en la cazuela** (2 min) - Sírvela en la misma cazuela de barro, muy caliente.
    > En las casas de pueblo se pone la cazuela en el centro de la mesa y cada uno se sirve.
-
+8. **A la mesa, bien caliente** (2 min) - Sírvela bien caliente, en cazuelitas o platos hondos.
+   > La sopa de ajo se toma humeante: si espera, el pan sigue bebiendo caldo y se espesa de más.
 ## Secretos de la abuela
 
 - **Cazuela de barro**: Guarda el calor y la sopa llega humeante al plato. Si es nueva, cúrala antes de usarla.
 - **Caldo con fundamento**: Con el caldo del cocido sale otra sopa. Con agua sola queda pobre.
 - **Pimentón de la Vera**: Si es ahumado, de la Vera, la sopa coge un punto que recuerda a la matanza.
+- **A gustos, colores**: Hay quien echa unos taquitos de chorizo con el jamón, quien le pone una guindilla con los ajos y quien bate los huevos y los echa revueltos en vez de cuajarlos enteros. En Zamora la llaman sopa de ajo y no le falta nunca el pimentón generoso.
 
 ## En la tienda
 

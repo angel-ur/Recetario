@@ -3,6 +3,9 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Sopa castellana: selector "Cómo lo vas a hacer" (en cazuela de barro, la de siempre; en olla o cacerola; o con los huevos al horno en cazuelitas), cantidades ajustadas dentro de los pasos y variantes (chorizo, guindilla, huevo revuelto).
+
+- Crema catalana: selector "Cómo lo vas a hacer" (al fuego, la de siempre; en robot de cocina, 90 °C; o al microondas a tandas), cantidades ajustadas dentro de los pasos y variantes (naranja, anís, costra bajo el grill).
 - Pisto: el huevo frito pasa a su propia fase «El remate», para que «Confitar» (casi todo es esperar) solo aparezca en el método de cazuela, y su temporizador dura lo mismo que el paso (5 min).
 - Sobaos pasiegos: selector "Cómo lo vas a hacer" (con varillas eléctricas, la de siempre; a mano, sobando de verdad; o en robot con la pala), cantidades ajustadas dentro de los pasos y variantes (anís, canela, naranja rallada).
 - Pisto manchego: selector "Cómo lo vas a hacer" (en cazuela, la de siempre; en robot de cocina; o con las verduras asadas al horno), cantidades ajustadas dentro de los pasos y variantes (ajo, berenjena, bacalao).
