@@ -3035,7 +3035,9 @@
       "x": "Añade {azucar} y {mantequilla}, y cuece diez minutos más removiendo sin parar. Retira la piel de limón y la canela.",
       "ab": "Si echas el azúcar al principio, el grano se endurece y no termina de hacerse.",
       "e": {
-       "k": "bol",
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
        "c": "#F5ECD6",
        "i": [
         [
@@ -3090,9 +3092,7 @@
       "x": "Añade {azucar} y {mantequilla} al vaso y programa diez minutos más a 90 °C, velocidad cuchara. Retira la piel de limón y la canela.",
       "ab": "El azúcar siempre al final: echado al principio, el grano se endurece y no termina de hacerse.",
       "e": {
-       "k": "fuego",
-       "v": "olla",
-       "f": 1,
+       "k": "bol",
        "c": "#F5ECD6",
        "i": [
         [
