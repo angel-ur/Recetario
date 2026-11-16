@@ -3,6 +3,7 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Los pasos de robot de cocina (crema catalana, pisto, arroz con leche) muestran ahora el cuenco de la máquina en vez de una cazuela al fuego.
 - Sopa castellana: selector "Cómo lo vas a hacer" (en cazuela de barro, la de siempre; en olla o cacerola; o con los huevos al horno en cazuelitas), cantidades ajustadas dentro de los pasos y variantes (chorizo, guindilla, huevo revuelto).
 
 - Crema catalana: selector "Cómo lo vas a hacer" (al fuego, la de siempre; en robot de cocina, 90 °C; o al microondas a tandas), cantidades ajustadas dentro de los pasos y variantes (naranja, anís, costra bajo el grill).

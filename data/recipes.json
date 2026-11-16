@@ -544,9 +544,7 @@
        "robot"
       ],
       "e": {
-       "k": "fuego",
-       "v": "olla",
-       "f": 1,
+       "k": "bol",
        "c": "#F5ECD6",
        "i": [
         [
@@ -554,7 +552,6 @@
          26
         ]
        ],
-       "cuchara": 1,
        "reloj": "40 min"
       },
       "ab": "A 90 °C no hierve ni se pega, y el giro suave mueve el arroz sin romperlo."
@@ -569,9 +566,7 @@
        "fuego"
       ],
       "e": {
-       "k": "fuego",
-       "v": "olla",
-       "f": 2,
+       "k": "bol",
        "c": "#F5ECD6",
        "i": [
         [
@@ -582,10 +577,8 @@
        "cae": [
         "azucar",
         "azucar",
-        "azucar",
         "azucar"
-       ],
-       "cuchara": 1
+       ]
       },
       "ab": "Si echas el azúcar al principio, el grano se endurece y no termina de hacerse."
      },
@@ -3972,17 +3965,14 @@
        "robot"
       ],
       "e": {
-       "k": "fuego",
-       "v": "cazuela",
-       "f": 1,
+       "k": "bol",
        "c": "#E8C84A",
        "i": [
         [
          "canela",
          2
         ]
-       ],
-       "cuchara": 1
+       ]
       },
       "ab": "Que no pase de 90 °C: a más temperatura, las yemas se cuajan y la crema sale con grumos."
      },
@@ -8782,9 +8772,7 @@
        "robot"
       ],
       "e": {
-       "k": "fuego",
-       "v": "cazuela",
-       "f": 2,
+       "k": "bol",
        "c": "#B8432C",
        "i": [
         [
@@ -8805,8 +8793,7 @@
          "calabacin",
          3
         ]
-       ],
-       "cuchara": 1
+       ]
       },
       "ab": "Sin cubilete al final, que el pisto tiene que perder el agua, no guardarla."
      },
