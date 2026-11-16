@@ -3,6 +3,7 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Pisto: el huevo frito pasa a su propia fase «El remate», para que «Confitar» (casi todo es esperar) solo aparezca en el método de cazuela, y su temporizador dura lo mismo que el paso (5 min).
 - Sobaos pasiegos: selector "Cómo lo vas a hacer" (con varillas eléctricas, la de siempre; a mano, sobando de verdad; o en robot con la pala), cantidades ajustadas dentro de los pasos y variantes (anís, canela, naranja rallada).
 - Pisto manchego: selector "Cómo lo vas a hacer" (en cazuela, la de siempre; en robot de cocina; o con las verduras asadas al horno), cantidades ajustadas dentro de los pasos y variantes (ajo, berenjena, bacalao).
 - Tumbet: selector con sartén (la de siempre), verduras al horno y freidora de aire; pasos a fichas; variantes (calabacín, ajos tiernos, huevo frito).
