@@ -2897,7 +2897,7 @@
       "m": 15,
       "tim": 10,
       "f": 2,
-      "x": "Calienta {leche} con {piel} y {canela} hasta que esté a punto de hervir. Apaga y deja que repose diez minutos para que coja aroma.",
+      "x": "Calienta {leche} con {piel} y {canela} hasta que esté a punto de hervir (en el robot, 8 minutos a 90 °C). Aparta y deja reposar diez minutos para que coja aroma.",
       "ab": "La piel del limón, sin nada de la parte blanca, que amarga.",
       "e": {
        "k": "fuego",
@@ -2926,7 +2926,7 @@
       "t": "Añade el arroz",
       "m": 5,
       "f": 2,
-      "x": "Vuelve a encender a fuego suave y echa {arroz} en forma de lluvia, sin lavar.",
+      "x": "Vuelve a calentar la leche y echa {arroz} en forma de lluvia, sin lavar.",
       "ab": "El arroz no se lava: su almidón es lo que hace el arroz con leche cremoso.",
       "e": {
        "k": "fuego",
@@ -2971,7 +2971,64 @@
         ]
        ],
        "cuchara": 1
-      }
+      },
+      "solo": [
+       "fuego"
+      ]
+     },
+     {
+      "t": "Cierra la exprés",
+      "m": 12,
+      "tim": 5,
+      "w": 1,
+      "f": 2,
+      "x": "Con el arroz ya dentro, cierra la olla exprés y, desde que suba la válvula, cuece 5 minutos a fuego suave. Apaga y deja que pierda la presión sola.",
+      "ab": "La leche en la exprés, siempre por debajo de dos tercios de la olla, que sube mucha espuma.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#F5ECD6",
+       "i": [
+        [
+         "arroz",
+         26
+        ]
+       ],
+       "tapa": 1,
+       "vapor": 1,
+       "reloj": "5 min",
+       "rf": 0.1
+      },
+      "solo": [
+       "expres"
+      ]
+     },
+     {
+      "t": "El robot cuece por ti",
+      "m": 40,
+      "tim": 40,
+      "w": 1,
+      "f": 1,
+      "x": "Con la leche y el arroz en el vaso, programa 40 minutos a 90 °C, velocidad cuchara, giro a la izquierda si tu robot lo tiene.",
+      "ab": "A 90 °C no hierve ni se pega, y el giro suave mueve el arroz sin romperlo.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#F5ECD6",
+       "i": [
+        [
+         "arroz",
+         26
+        ]
+       ],
+       "cuchara": 1,
+       "reloj": "40 min"
+      },
+      "solo": [
+       "robot"
+      ]
      },
      {
       "t": "El azúcar, al final",
@@ -2998,7 +3055,67 @@
         "azucar"
        ],
        "cuchara": 1
-      }
+      },
+      "solo": [
+       "fuego"
+      ]
+     },
+     {
+      "t": "El azúcar, sin presión",
+      "m": 5,
+      "tim": 5,
+      "f": 1,
+      "x": "Abre la olla, añade {azucar} y {mantequilla} y cuece destapada cinco minutos, removiendo sin parar. Retira la piel de limón y la canela.",
+      "ab": "El azúcar siempre al final: echado al principio, el grano se endurece y no termina de hacerse.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#F5ECD6",
+       "i": [
+        [
+         "arroz",
+         26
+        ]
+       ],
+       "cae": [
+        "azucar",
+        "azucar",
+        "azucar"
+       ],
+       "cuchara": 1
+      },
+      "solo": [
+       "expres"
+      ]
+     },
+     {
+      "t": "El azúcar, al final",
+      "m": 10,
+      "tim": 10,
+      "f": 1,
+      "x": "Añade {azucar} y {mantequilla} al vaso y programa diez minutos más a 90 °C, velocidad cuchara. Retira la piel de limón y la canela.",
+      "ab": "El azúcar siempre al final: echado al principio, el grano se endurece y no termina de hacerse.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#F5ECD6",
+       "i": [
+        [
+         "arroz",
+         26
+        ]
+       ],
+       "cae": [
+        "azucar",
+        "azucar",
+        "azucar"
+       ]
+      },
+      "solo": [
+       "robot"
+      ]
      }
     ]
    },
@@ -3056,7 +3173,28 @@
    [
     "Templado o frío",
     "En cada casa se toma de una forma: templado recién hecho o frío de nevera."
+   ],
+   [
+    "A gustos, colores",
+    "Con vainilla en vez de limón y canela queda más fino; con un puñado de pasas remojadas al final, más de fiesta. Si la leche entera te echa para atrás, no uses desnatada, que queda soso: prueba con bebida de avena, que da cuerpo. Y el requemado, siempre opcional: con canela molida está igual de bueno."
    ]
+  ],
+  "met": [
+   {
+    "id": "fuego",
+    "n": "Al fuego, la de siempre",
+    "d": "una hora de cuchara de palo y paciencia"
+   },
+   {
+    "id": "expres",
+    "n": "En olla exprés",
+    "d": "5 minutos con presión"
+   },
+   {
+    "id": "robot",
+    "n": "En robot de cocina",
+    "d": "90 °C, el robot remueve por ti"
+   }
   ]
  },
  {
@@ -3245,7 +3383,7 @@
       "t": "Choricero y patata chascada",
       "m": 5,
       "f": 3,
-      "x": "Añade {choricero}, remueve y echa {patata} chascada en trozos medianos. Rehoga dos minutos para que se impregne.",
+      "x": "Añade {choricero}, remueve y echa {patata} chascadas en trozos medianos. Rehoga dos minutos para que se impregne.",
       "ab": "Chascar es clavar el cuchillo y romper la patata en vez de cortarla del todo. Los bordes rotos sueltan almidón y espesan el caldo solos.",
       "e": {
        "k": "fuego",
@@ -3288,7 +3426,38 @@
         ]
        ],
        "tapa": 2
-      }
+      },
+      "solo": [
+       "cazuela"
+      ]
+     },
+     {
+      "t": "Cierra la exprés",
+      "m": 8,
+      "tim": 4,
+      "w": 1,
+      "f": 2,
+      "x": "Cubre con el caldo caliente, sala con cuidado, cierra la olla exprés y, desde que suba la válvula, cuece 4 minutos a fuego suave. Suelta la presión y abre: la patata no debe pasarse.",
+      "ab": "En la exprés la patata se pasa en un descuido: cuatro minutos justos y a abrir en cuanto se pueda.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#C77A3E",
+       "i": [
+        [
+         "patata",
+         10
+        ]
+       ],
+       "tapa": 1,
+       "vapor": 1,
+       "reloj": "4 min",
+       "rf": 0.08
+      },
+      "solo": [
+       "expres"
+      ]
      }
     ]
    },
@@ -3302,7 +3471,7 @@
       "tim": 5,
       "w": 1,
       "f": "a",
-      "x": "Apaga el fuego, añade {bonito} salado y tapa. Déjalo cinco minutos: se hace con el calor del guiso.",
+      "x": "Apaga el fuego (y abre, si es la exprés). Añade {bonito}, salado con una pizca, y tapa. Déjalo cinco minutos: se hace con el calor del guiso.",
       "ab": "Es el truco de los barcos. Si el bonito hierve, se queda seco y como de lata; con el fuego apagado queda jugoso y rosado.",
       "e": {
        "k": "fuego",
@@ -3363,7 +3532,23 @@
    [
     "Pimiento choricero",
     "Es la carne de un pimiento seco. Se vende en tarro; si tienes los pimientos secos, remójalos y raspa la carne."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien sofríe un tomate rallado con la cebolla y quien le echa un chorro de vino blanco al sofrito. En unas casas entra la guindilla y en otras ni se nombra. Y hay quien echa unas almejas al final, con el bonito ya apagado."
    ]
+  ],
+  "met": [
+   {
+    "id": "cazuela",
+    "n": "En cazuela, la de siempre",
+    "d": "25 minutos a fuego suave"
+   },
+   {
+    "id": "expres",
+    "n": "En olla exprés",
+    "d": "4 minutos con presión"
+   }
   ]
  },
  {

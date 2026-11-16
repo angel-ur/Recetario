@@ -323,6 +323,23 @@
    6,
    8
   ],
+  "met": [
+   {
+    "id": "fuego",
+    "n": "Al fuego, la de siempre",
+    "d": "una hora de cuchara de palo y paciencia"
+   },
+   {
+    "id": "expres",
+    "n": "En olla exprés",
+    "d": "5 minutos con presión"
+   },
+   {
+    "id": "robot",
+    "n": "En robot de cocina",
+    "d": "90 °C, el robot remueve por ti"
+   }
+  ],
   "heroe": {
    "k": "ilu",
    "svg": "<defs><radialGradient id=\"i_arrozleche_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_arrozleche_fondo)\"/><defs><radialGradient id=\"i_arrozleche_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><radialGradient id=\"i_arrozleche_arr\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#F8F0DC\"/><stop offset=\"1\" stop-color=\"#EAD9AE\"/></radialGradient></defs><ellipse cx=\"140\" cy=\"152\" rx=\"84\" ry=\"9\" fill=\"#4A2E10\" opacity=\"0.25\"/><path d=\"M64 88c2 40 28 60 76 60s74-20 76-60z\" fill=\"#F4F0E6\"/><path d=\"M72 96c4 30 24 46 68 46s64-16 68-46\" fill=\"none\" stroke=\"#3C5C8E\" stroke-width=\"3\"/><ellipse cx=\"140\" cy=\"88\" rx=\"76\" ry=\"20\" fill=\"#E4DECF\"/><ellipse cx=\"140\" cy=\"89\" rx=\"69\" ry=\"16.5\" fill=\"url(#i_arrozleche_arr)\"/><ellipse cx=\"131.8\" cy=\"98.4\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(46 131.8 98.4)\"/><ellipse cx=\"93.9\" cy=\"91.5\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(103 93.9 91.5)\"/><ellipse cx=\"112.3\" cy=\"88.3\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(5 112.3 88.3)\"/><ellipse cx=\"138.2\" cy=\"100.9\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(106 138.2 100.9)\"/><ellipse cx=\"115.9\" cy=\"96.0\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(110 115.9 96.0)\"/><ellipse cx=\"146.2\" cy=\"91.9\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(145 146.2 91.9)\"/><ellipse cx=\"94.5\" cy=\"82.3\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(23 94.5 82.3)\"/><ellipse cx=\"86.0\" cy=\"91.7\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(33 86.0 91.7)\"/><ellipse cx=\"143.8\" cy=\"95.2\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(70 143.8 95.2)\"/><ellipse cx=\"124.4\" cy=\"76.4\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(129 124.4 76.4)\"/><ellipse cx=\"163.4\" cy=\"98.3\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(21 163.4 98.3)\"/><ellipse cx=\"143.8\" cy=\"85.2\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(33 143.8 85.2)\"/><ellipse cx=\"101.5\" cy=\"85.9\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(143 101.5 85.9)\"/><ellipse cx=\"143.0\" cy=\"101.5\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(14 143.0 101.5)\"/><ellipse cx=\"93.1\" cy=\"95.5\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(15 93.1 95.5)\"/><ellipse cx=\"108.1\" cy=\"77.6\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(105 108.1 77.6)\"/><ellipse cx=\"167.1\" cy=\"99.4\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(34 167.1 99.4)\"/><ellipse cx=\"141.3\" cy=\"93.7\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(76 141.3 93.7)\"/><ellipse cx=\"164.5\" cy=\"82.2\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(104 164.5 82.2)\"/><ellipse cx=\"149.9\" cy=\"90.2\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(26 149.9 90.2)\"/><ellipse cx=\"193.6\" cy=\"83.8\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(119 193.6 83.8)\"/><ellipse cx=\"122.2\" cy=\"87.8\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(82 122.2 87.8)\"/><ellipse cx=\"159.7\" cy=\"90.2\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(74 159.7 90.2)\"/><ellipse cx=\"156.6\" cy=\"99.7\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(106 156.6 99.7)\"/><ellipse cx=\"191.6\" cy=\"90.9\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(103 191.6 90.9)\"/><ellipse cx=\"98.1\" cy=\"83.2\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(4 98.1 83.2)\"/><ellipse cx=\"168.1\" cy=\"88.8\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(135 168.1 88.8)\"/><ellipse cx=\"144.0\" cy=\"101.2\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(34 144.0 101.2)\"/><ellipse cx=\"159.5\" cy=\"77.5\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(28 159.5 77.5)\"/><ellipse cx=\"115.9\" cy=\"84.7\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(69 115.9 84.7)\"/><ellipse cx=\"157.9\" cy=\"100.2\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(34 157.9 100.2)\"/><ellipse cx=\"103.1\" cy=\"92.2\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(43 103.1 92.2)\"/><ellipse cx=\"166.8\" cy=\"84.5\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(162 166.8 84.5)\"/><ellipse cx=\"132.9\" cy=\"82.2\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(17 132.9 82.2)\"/><ellipse cx=\"177.5\" cy=\"94.2\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(161 177.5 94.2)\"/><ellipse cx=\"127.3\" cy=\"91.8\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(134 127.3 91.8)\"/><ellipse cx=\"181.7\" cy=\"82.3\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(105 181.7 82.3)\"/><ellipse cx=\"141.9\" cy=\"86.1\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(147 141.9 86.1)\"/><ellipse cx=\"130.4\" cy=\"86.8\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(71 130.4 86.8)\"/><ellipse cx=\"85.8\" cy=\"90.2\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(25 85.8 90.2)\"/><ellipse cx=\"181.3\" cy=\"89.0\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(161 181.3 89.0)\"/><ellipse cx=\"103.5\" cy=\"98.7\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(133 103.5 98.7)\"/><ellipse cx=\"135.9\" cy=\"83.2\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(166 135.9 83.2)\"/><ellipse cx=\"89.2\" cy=\"92.9\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(100 89.2 92.9)\"/><ellipse cx=\"151.6\" cy=\"93.6\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(1 151.6 93.6)\"/><ellipse cx=\"143.4\" cy=\"78.5\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(106 143.4 78.5)\"/><ellipse cx=\"143.0\" cy=\"93.1\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(22 143.0 93.1)\"/><ellipse cx=\"102.2\" cy=\"89.3\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(55 102.2 89.3)\"/><ellipse cx=\"178.2\" cy=\"79.3\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(87 178.2 79.3)\"/><ellipse cx=\"153.5\" cy=\"101.2\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(53 153.5 101.2)\"/><ellipse cx=\"130.8\" cy=\"100.1\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(100 130.8 100.1)\"/><ellipse cx=\"146.7\" cy=\"101.3\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(54 146.7 101.3)\"/><ellipse cx=\"138.1\" cy=\"79.5\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(50 138.1 79.5)\"/><ellipse cx=\"136.9\" cy=\"77.8\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(62 136.9 77.8)\"/><ellipse cx=\"147.0\" cy=\"92.0\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(62 147.0 92.0)\"/><ellipse cx=\"137.6\" cy=\"85.5\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(40 137.6 85.5)\"/><ellipse cx=\"150.2\" cy=\"99.3\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(87 150.2 99.3)\"/><ellipse cx=\"172.5\" cy=\"94.3\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(179 172.5 94.3)\"/><ellipse cx=\"114.0\" cy=\"92.8\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(42 114.0 92.8)\"/><ellipse cx=\"169.1\" cy=\"87.3\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(3 169.1 87.3)\"/><ellipse cx=\"153.4\" cy=\"97.6\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(154 153.4 97.6)\"/><ellipse cx=\"116.9\" cy=\"91.3\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(136 116.9 91.3)\"/><ellipse cx=\"146.1\" cy=\"98.9\" rx=\"3.4\" ry=\"1.7\" fill=\"#FBF6E6\" transform=\"rotate(24 146.1 98.9)\"/><ellipse cx=\"164.2\" cy=\"90.9\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(5 164.2 90.9)\"/><ellipse cx=\"142.9\" cy=\"78.8\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(94 142.9 78.8)\"/><ellipse cx=\"171.4\" cy=\"92.0\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(83 171.4 92.0)\"/><ellipse cx=\"94.9\" cy=\"80.5\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(81 94.9 80.5)\"/><ellipse cx=\"139.3\" cy=\"88.5\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(18 139.3 88.5)\"/><ellipse cx=\"164.7\" cy=\"93.9\" rx=\"3.4\" ry=\"1.7\" fill=\"#EFE2BC\" transform=\"rotate(39 164.7 93.9)\"/><ellipse cx=\"137.4\" cy=\"76.3\" rx=\"3.4\" ry=\"1.7\" fill=\"#F4EAD0\" transform=\"rotate(105 137.4 76.3)\"/><circle cx=\"158.4\" cy=\"85.5\" r=\"0.8\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"118.4\" cy=\"88.9\" r=\"1.1\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"148.2\" cy=\"83.0\" r=\"0.7\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"110.7\" cy=\"87.5\" r=\"0.9\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"128.2\" cy=\"85.4\" r=\"1.1\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"157.0\" cy=\"89.5\" r=\"1.0\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"122.3\" cy=\"85.5\" r=\"0.9\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"111.2\" cy=\"88.0\" r=\"1.3\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"123.7\" cy=\"88.6\" r=\"0.9\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"130.4\" cy=\"90.3\" r=\"1.0\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"124.0\" cy=\"83.2\" r=\"1.2\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"152.7\" cy=\"88.2\" r=\"1.2\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"112.1\" cy=\"91.2\" r=\"1.0\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"154.0\" cy=\"93.7\" r=\"0.8\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"128.8\" cy=\"95.4\" r=\"0.9\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"139.9\" cy=\"83.8\" r=\"0.8\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"115.6\" cy=\"89.3\" r=\"0.8\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"143.1\" cy=\"95.6\" r=\"0.8\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"168.9\" cy=\"90.4\" r=\"0.9\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"131.5\" cy=\"85.0\" r=\"0.8\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"135.3\" cy=\"84.3\" r=\"1.3\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"123.9\" cy=\"87.2\" r=\"0.9\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"139.6\" cy=\"92.2\" r=\"0.9\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"145.1\" cy=\"91.8\" r=\"0.8\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"133.4\" cy=\"91.6\" r=\"1.0\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"121.6\" cy=\"91.0\" r=\"0.8\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"140.9\" cy=\"89.3\" r=\"0.7\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"121.2\" cy=\"93.8\" r=\"0.9\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"115.5\" cy=\"91.1\" r=\"0.7\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"151.9\" cy=\"84.9\" r=\"1.3\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"120.5\" cy=\"85.0\" r=\"0.9\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"114.0\" cy=\"87.7\" r=\"1.1\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"118.8\" cy=\"85.3\" r=\"0.7\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"125.7\" cy=\"91.7\" r=\"0.7\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"125.5\" cy=\"86.7\" r=\"1.2\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"147.7\" cy=\"86.6\" r=\"1.3\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"146.9\" cy=\"84.3\" r=\"1.1\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"152.6\" cy=\"85.7\" r=\"1.1\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"133.7\" cy=\"94.8\" r=\"0.9\" fill=\"#8A5A28\" opacity=\".8\"/><circle cx=\"112.2\" cy=\"90.3\" r=\"0.7\" fill=\"#8A5A28\" opacity=\".8\"/><g transform=\"translate(196 78) rotate(28)\"><rect x=\"-22\" y=\"-4.5\" width=\"44\" height=\"9\" rx=\"4.5\" fill=\"#8A4E22\"/><rect x=\"-22\" y=\"-4.5\" width=\"44\" height=\"3.4\" rx=\"1.7\" fill=\"#A86834\"/><ellipse cx=\"-22\" cy=\"0\" rx=\"3.4\" ry=\"4.5\" fill=\"#6E3A16\"/></g><path d=\"M84 108q14-10 26-2 4 4-2 8-14 6-26 2-6-4 2-8z\" fill=\"#F2C93C\"/><path d=\"M88 108q10-6 20-1\" stroke=\"#F8E27A\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><ellipse cx=\"112\" cy=\"84\" rx=\"20\" ry=\"2.4\" fill=\"#fff\" opacity=\".4\"/>"
@@ -343,6 +360,10 @@
    [
     "Templado o frío",
     "En cada casa se toma de una forma: templado recién hecho o frío de nevera."
+   ],
+   [
+    "A gustos, colores",
+    "Con vainilla en vez de limón y canela queda más fino; con un puñado de pasas remojadas al final, más de fiesta. Si la leche entera te echa para atrás, no uses desnatada, que queda soso: prueba con bebida de avena, que da cuerpo. Y el requemado, siempre opcional: con canela molida está igual de bueno."
    ]
   ],
   "ing": [
@@ -403,7 +424,7 @@
      {
       "t": "Perfuma la leche",
       "m": 15,
-      "x": "Calienta 1,25 litros de leche entera con la piel de 1 limón (sin lo blanco, en tiras) y 1 rama de canela hasta que esté a punto de hervir (unos 5 minutos). Apaga, tapa y deja que repose 10 minutos para que coja aroma.",
+      "x": "Calienta {leche} con {piel} y {canela} hasta que esté a punto de hervir (en el robot, 8 minutos a 90 °C). Aparta y deja reposar diez minutos para que coja aroma.",
       "tim": 10,
       "f": 2,
       "e": {
@@ -422,7 +443,7 @@
         ]
        ]
       },
-      "ab": "La piel del limón, sin nada de la parte blanca, que amarga. Con la leche caliente la canela y el limón sueltan su aroma sin que la leche se pase."
+      "ab": "La piel del limón, sin nada de la parte blanca, que amarga."
      }
     ]
    },
@@ -433,7 +454,7 @@
      {
       "t": "Añade el arroz",
       "m": 5,
-      "x": "Vuelve a encender a fuego suave y echa 125 g de arroz redondo en forma de lluvia, sin lavar.",
+      "x": "Vuelve a calentar la leche y echa {arroz} en forma de lluvia, sin lavar.",
       "f": 2,
       "e": {
        "k": "fuego",
@@ -463,9 +484,12 @@
      {
       "t": "Cuece con paciencia",
       "m": 45,
-      "x": "Cuece a fuego muy suave 40-45 minutos (apenas un temblor en la superficie), removiendo a menudo con una cuchara de madera para que no se pegue, hasta que el arroz esté muy tierno.",
+      "x": "Cuece a fuego suave unos 45 minutos, removiendo a menudo con una cuchara de madera para que no se pegue, hasta que el arroz esté muy tierno.",
       "tim": 45,
       "f": 2,
+      "solo": [
+       "fuego"
+      ],
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -482,11 +506,68 @@
       "ab": "Cuanto más lento, más cremoso. Si se pega al fondo, cambia de olla sin rascar: el sabor a quemado no se va."
      },
      {
+      "t": "Cierra la exprés",
+      "m": 12,
+      "x": "Con el arroz ya dentro, cierra la olla exprés y, desde que suba la válvula, cuece 5 minutos a fuego suave. Apaga y deja que pierda la presión sola.",
+      "tim": 5,
+      "f": 2,
+      "w": 1,
+      "solo": [
+       "expres"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#F5ECD6",
+       "i": [
+        [
+         "arroz",
+         26
+        ]
+       ],
+       "tapa": 1,
+       "vapor": 1,
+       "reloj": "5 min",
+       "rf": 0.1
+      },
+      "ab": "La leche en la exprés, siempre por debajo de dos tercios de la olla, que sube mucha espuma."
+     },
+     {
+      "t": "El robot cuece por ti",
+      "m": 40,
+      "x": "Con la leche y el arroz en el vaso, programa 40 minutos a 90 °C, velocidad cuchara, giro a la izquierda si tu robot lo tiene.",
+      "tim": 40,
+      "f": 1,
+      "w": 1,
+      "solo": [
+       "robot"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#F5ECD6",
+       "i": [
+        [
+         "arroz",
+         26
+        ]
+       ],
+       "cuchara": 1,
+       "reloj": "40 min"
+      },
+      "ab": "A 90 °C no hierve ni se pega, y el giro suave mueve el arroz sin romperlo."
+     },
+     {
       "t": "El azúcar, al final",
       "m": 10,
-      "x": "Añade 125 g de azúcar y 20 g de mantequilla (opcional), y cuece 10 minutos más removiendo sin parar. Retira la piel de limón y la canela.",
+      "x": "Añade {azucar} y {mantequilla}, y cuece diez minutos más removiendo sin parar. Retira la piel de limón y la canela.",
       "tim": 10,
       "f": 2,
+      "solo": [
+       "fuego"
+      ],
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -506,7 +587,64 @@
        ],
        "cuchara": 1
       },
-      "ab": "Si echas el azúcar al principio, el grano se endurece y no termina de hacerse: el azúcar roba agua al arroz y lo frena."
+      "ab": "Si echas el azúcar al principio, el grano se endurece y no termina de hacerse."
+     },
+     {
+      "t": "El azúcar, sin presión",
+      "m": 5,
+      "x": "Abre la olla, añade {azucar} y {mantequilla} y cuece destapada cinco minutos, removiendo sin parar. Retira la piel de limón y la canela.",
+      "tim": 5,
+      "f": 1,
+      "solo": [
+       "expres"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#F5ECD6",
+       "i": [
+        [
+         "arroz",
+         26
+        ]
+       ],
+       "cae": [
+        "azucar",
+        "azucar",
+        "azucar"
+       ],
+       "cuchara": 1
+      },
+      "ab": "El azúcar siempre al final: echado al principio, el grano se endurece y no termina de hacerse."
+     },
+     {
+      "t": "El azúcar, al final",
+      "m": 10,
+      "x": "Añade {azucar} y {mantequilla} al vaso y programa diez minutos más a 90 °C, velocidad cuchara. Retira la piel de limón y la canela.",
+      "tim": 10,
+      "f": 1,
+      "solo": [
+       "robot"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 1,
+       "c": "#F5ECD6",
+       "i": [
+        [
+         "arroz",
+         26
+        ]
+       ],
+       "cae": [
+        "azucar",
+        "azucar",
+        "azucar"
+       ]
+      },
+      "ab": "El azúcar siempre al final: echado al principio, el grano se endurece y no termina de hacerse."
      }
     ]
    },
@@ -517,7 +655,7 @@
      {
       "t": "Deja que enfríe",
       "m": 120,
-      "x": "Reparte en cuencos y deja que se enfríe al menos 2 horas. Espesa bastante al enfriar (el arroz sigue absorbiendo leche).",
+      "x": "Reparte en cuencos y deja que se enfríe. Espesa bastante al enfriar.",
       "f": "n",
       "w": 1,
       "e": {
@@ -532,7 +670,7 @@
      {
       "t": "Canela o requemado",
       "m": 5,
-      "x": "Antes de servir, espolvorea canela molida. O, al estilo asturiano, cubre cada cuenco con 1 cucharada de azúcar y quémalo con un hierro al rojo o un soplete.",
+      "x": "Antes de servir, espolvorea {canelam}. O, al estilo asturiano, cubre con {azucarq} y quémalo con un hierro al rojo o un soplete.",
       "f": 0,
       "e": {
        "k": "plato",
@@ -6485,6 +6623,18 @@
    4,
    6
   ],
+  "met": [
+   {
+    "id": "cazuela",
+    "n": "En cazuela, la de siempre",
+    "d": "25 minutos a fuego suave"
+   },
+   {
+    "id": "expres",
+    "n": "En olla exprés",
+    "d": "4 minutos con presión"
+   }
+  ],
   "heroe": {
    "k": "ilu",
    "svg": "<defs><radialGradient id=\"i_marmitako_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_marmitako_fondo)\"/><defs><radialGradient id=\"i_marmitako_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_marmitako_barro\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_marmitako_cal\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#E8963C\"/><stop offset=\"1\" stop-color=\"#C86E22\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"116\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M48 88c0 42 28 64 112 64s112-22 112-64z\" fill=\"url(#i_marmitako_barro)\"/><rect x=\"20\" y=\"84\" width=\"32\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><rect x=\"268\" y=\"84\" width=\"32\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"88\" rx=\"112\" ry=\"26\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"90\" rx=\"102\" ry=\"21\" fill=\"url(#i_marmitako_cal)\"/><ellipse cx=\"104\" cy=\"89\" rx=\"17\" ry=\"7\" fill=\"#000\" opacity=\".12\"/><g transform=\"translate(104 86) rotate(-15)\"><ellipse rx=\"17\" ry=\"9\" fill=\"#F2E0A8\"/><path d=\"M-8 -3q8-4 16 0\" stroke=\"#E2C87E\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/></g><ellipse cx=\"150\" cy=\"97\" rx=\"17\" ry=\"7\" fill=\"#000\" opacity=\".12\"/><g transform=\"translate(150 94) rotate(10)\"><ellipse rx=\"17\" ry=\"9\" fill=\"#F2E0A8\"/><path d=\"M-8 -3q8-4 16 0\" stroke=\"#E2C87E\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/></g><ellipse cx=\"196\" cy=\"87\" rx=\"17\" ry=\"7\" fill=\"#000\" opacity=\".12\"/><g transform=\"translate(196 84) rotate(25)\"><ellipse rx=\"17\" ry=\"9\" fill=\"#F2E0A8\"/><path d=\"M-8 -3q8-4 16 0\" stroke=\"#E2C87E\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/></g><ellipse cx=\"128\" cy=\"81\" rx=\"17\" ry=\"7\" fill=\"#000\" opacity=\".12\"/><g transform=\"translate(128 78) rotate(40)\"><ellipse rx=\"17\" ry=\"9\" fill=\"#F2E0A8\"/><path d=\"M-8 -3q8-4 16 0\" stroke=\"#E2C87E\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/></g><ellipse cx=\"178\" cy=\"99\" rx=\"17\" ry=\"7\" fill=\"#000\" opacity=\".12\"/><g transform=\"translate(178 96) rotate(-30)\"><ellipse rx=\"17\" ry=\"9\" fill=\"#F2E0A8\"/><path d=\"M-8 -3q8-4 16 0\" stroke=\"#E2C87E\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(120 92) rotate(-10)\"><path d=\"M-16 -6Q0 -10 16 -5 18 4 8 7 -8 9 -16 3Z\" fill=\"#E9A88E\"/><path d=\"M-12 -2q12-4 24-1\" stroke=\"#C97A5E\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/></g><g transform=\"translate(170 80) rotate(15)\"><path d=\"M-16 -6Q0 -10 16 -5 18 4 8 7 -8 9 -16 3Z\" fill=\"#E9A88E\"/><path d=\"M-12 -2q12-4 24-1\" stroke=\"#C97A5E\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/></g><ellipse cx=\"115.9\" cy=\"102.1\" rx=\"4\" ry=\"1.8\" fill=\"#B3341F\" opacity=\".8\"/><ellipse cx=\"215.5\" cy=\"96.0\" rx=\"4\" ry=\"1.8\" fill=\"#B3341F\" opacity=\".8\"/><ellipse cx=\"188.8\" cy=\"76.3\" rx=\"4\" ry=\"1.8\" fill=\"#B3341F\" opacity=\".8\"/><ellipse cx=\"212.5\" cy=\"86.6\" rx=\"4\" ry=\"1.8\" fill=\"#B3341F\" opacity=\".8\"/><ellipse cx=\"209.0\" cy=\"91.0\" rx=\"4\" ry=\"1.8\" fill=\"#B3341F\" opacity=\".8\"/><ellipse cx=\"201.8\" cy=\"96.4\" rx=\"4\" ry=\"1.8\" fill=\"#B3341F\" opacity=\".8\"/><ellipse cx=\"134.2\" cy=\"94.8\" rx=\"4\" ry=\"1.8\" fill=\"#B3341F\" opacity=\".8\"/><ellipse cx=\"225.2\" cy=\"78.8\" rx=\"4\" ry=\"1.8\" fill=\"#B3341F\" opacity=\".8\"/><circle cx=\"182.5\" cy=\"99.7\" r=\"1.3\" fill=\"#5E8A3C\"/><circle cx=\"128.8\" cy=\"77.3\" r=\"1.3\" fill=\"#5E8A3C\"/><circle cx=\"199.7\" cy=\"91.8\" r=\"1.3\" fill=\"#5E8A3C\"/><circle cx=\"234.5\" cy=\"83.1\" r=\"1.3\" fill=\"#5E8A3C\"/><circle cx=\"94.2\" cy=\"92.2\" r=\"1.3\" fill=\"#5E8A3C\"/><circle cx=\"215.2\" cy=\"94.2\" r=\"1.3\" fill=\"#5E8A3C\"/><circle cx=\"96.9\" cy=\"85.5\" r=\"1.3\" fill=\"#5E8A3C\"/><circle cx=\"100.4\" cy=\"87.3\" r=\"1.3\" fill=\"#5E8A3C\"/><circle cx=\"204.5\" cy=\"88.7\" r=\"1.3\" fill=\"#5E8A3C\"/><circle cx=\"165.8\" cy=\"82.3\" r=\"1.3\" fill=\"#5E8A3C\"/><circle cx=\"162.8\" cy=\"103.7\" r=\"1.3\" fill=\"#5E8A3C\"/><circle cx=\"143.9\" cy=\"84.6\" r=\"1.3\" fill=\"#5E8A3C\"/><ellipse cx=\"120\" cy=\"82\" rx=\"24\" ry=\"3\" fill=\"#fff\" opacity=\".3\"/>"
@@ -6505,6 +6655,10 @@
    [
     "Pimiento choricero",
     "Es la carne de un pimiento seco. Se vende en tarro; si tienes los pimientos secos, remójalos y raspa la carne."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien sofríe un tomate rallado con la cebolla y quien le echa un chorro de vino blanco al sofrito. En unas casas entra la guindilla y en otras ni se nombra. Y hay quien echa unas almejas al final, con el bonito ya apagado."
    ]
   ],
   "ing": [
@@ -6584,7 +6738,7 @@
      {
       "t": "Caldo con las espinas",
       "m": 20,
-      "x": "Si en la pescadería te dan la espina y la cabeza del bonito, cuécelas 20 minutos en 1,5 litros de agua con media cebolla y un puerro, y cuela (saldrá 1 litro). Si no, usa 1 litro de caldo de pescado ya hecho, o agua.",
+      "x": "Si en la pescadería te dan la espina y la cabeza del bonito, cuécelas veinte minutos en agua con una cebolla y un puerro, y cuela. Si no, usa {caldo} ya hecho o agua.",
       "tim": 20,
       "f": 3,
       "e": {
@@ -6615,7 +6769,7 @@
      {
       "t": "El sofrito",
       "m": 15,
-      "x": "En una cazuela con aceite de oliva, calienta 4 cucharadas de aceite y pocha a fuego suave 15 minutos 1 cebolla, 1 pimiento verde, medio pimiento rojo y 2 dientes de ajo, todo picado.",
+      "x": "En una cazuela con {aceite}, pocha a fuego suave {cebolla}, {pimiento}, {pimrojo} y {ajo}, todo picado.",
       "tim": 15,
       "f": 2,
       "durante": 1,
@@ -6653,7 +6807,7 @@
      {
       "t": "Choricero y patata chascada",
       "m": 5,
-      "x": "Añade 2 cucharadas de carne de pimiento choricero, remueve y echa 1 kg de patatas chascadas en trozos de 3-4 cm. Rehoga 2 minutos para que se impregne.",
+      "x": "Añade {choricero}, remueve y echa {patata} chascadas en trozos medianos. Rehoga dos minutos para que se impregne.",
       "f": 3,
       "e": {
        "k": "fuego",
@@ -6680,10 +6834,13 @@
      {
       "t": "Cubre y cuece",
       "m": 25,
-      "x": "Cubre con el litro de caldo caliente, sala con cuidado (1 cucharadita rasa) y deja cocer a fuego suave unos 25 minutos, hasta que la patata esté tierna.",
+      "x": "Cubre con el caldo caliente, sala con cuidado y deja cocer a fuego suave unos 25 minutos, hasta que la patata esté tierna.",
       "tim": 25,
       "f": 2,
       "w": 1,
+      "solo": [
+       "cazuela"
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -6698,6 +6855,34 @@
        "tapa": 2
       },
       "ab": "Sin remover mucho: menea la cazuela para que las patatas no se deshagan."
+     },
+     {
+      "t": "Cierra la exprés",
+      "m": 8,
+      "x": "Cubre con el caldo caliente, sala con cuidado, cierra la olla exprés y, desde que suba la válvula, cuece 4 minutos a fuego suave. Suelta la presión y abre: la patata no debe pasarse.",
+      "tim": 4,
+      "f": 2,
+      "w": 1,
+      "solo": [
+       "expres"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#C77A3E",
+       "i": [
+        [
+         "patata",
+         10
+        ]
+       ],
+       "tapa": 1,
+       "vapor": 1,
+       "reloj": "4 min",
+       "rf": 0.08
+      },
+      "ab": "En la exprés la patata se pasa en un descuido: cuatro minutos justos y a abrir en cuanto se pueda."
      }
     ]
    },
@@ -6708,7 +6893,7 @@
      {
       "t": "Bonito con el fuego apagado",
       "m": 5,
-      "x": "Apaga el fuego, añade los 600 g de bonito en tacos de 3 cm, salados con una pizca, y tapa. Déjalo 5 minutos: se hace con el calor del guiso.",
+      "x": "Apaga el fuego (y abre, si es la exprés). Añade {bonito}, salado con una pizca, y tapa. Déjalo cinco minutos: se hace con el calor del guiso.",
       "tim": 5,
       "f": "a",
       "w": 1,

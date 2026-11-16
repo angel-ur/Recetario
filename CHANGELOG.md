@@ -3,6 +3,8 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Arroz con leche: nuevo selector "Cómo lo vas a hacer" (al fuego, la de siempre; en olla exprés, 5 minutos con presión; o en robot de cocina, que remueve por ti), cantidades que se ajustan dentro de los pasos y secretos con las variantes de cada casa.
+- Marmitako: nuevo selector "Cómo lo vas a hacer" (en cazuela, la de siempre; o en olla exprés, 4 minutos con presión), cantidades que se ajustan dentro de los pasos y secretos con variantes.
 - Cocido madrileño: la olla exprés ya tiene sus pasos propios (30 minutos con presión y la verdura después, sin presión), las cantidades se ajustan también dentro de los pasos y secretos con las variantes de cada casa.
 - Fabada asturiana: nuevo selector "Cómo lo vas a hacer" (en cazuela, la de siempre, asustándolas; o en olla exprés, 45 minutos con presión), cantidades que se ajustan dentro de los pasos y secretos con variantes.
 - Lentejas estofadas: las cantidades ya se ajustan también dentro de los pasos, la olla exprés por fin tiene sus pasos propios (12 minutos con presión y terminar abierta) y secretos con las variantes de cada casa.
