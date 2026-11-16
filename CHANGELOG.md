@@ -4,6 +4,10 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+- Santiago: selector horno / freidora de aire (160 °C, 30-35 min, molde de 18-20 cm; fuentes recetasdeairfryer y consejo de Sabina Banzo), pastilla/timer a 30 y 'A gustos, colores'.
+- Suquet: selector cazuela / robot (sofrito 10 min 120 °C, patatas 18 min 100 °C giro izquierda con mariposa, pescado 10 min al varoma; fuentes thermomix-barcelona-centro y cookpad), temporizadores alineados y 'A gustos, colores'.
+- Caldo: tueste de huesos alineado a 20 min (texto 20-30) y 'A gustos, colores'; variantes alt de olla normal revisadas y coherentes.
+
 - Pochas: borboteo suave pero constante explícito en cazuela y robot (hervor real hasta ablandar, no programa tibio), sin equivalencias inventadas para la exprés.
 
 - Pochas: identidad del ingrediente aclarada (pocha seca de la cosecha del año, no fresca), agua de remojo que se tira y enjuague (EFSA), guiso en cazuela de 1 h 30 a 2 h, y nota de la pocha fresca de temporada (sin remojo, 35-45 min).

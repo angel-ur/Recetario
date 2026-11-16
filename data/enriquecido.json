@@ -8578,8 +8578,8 @@
     "p": [
      {
       "t": "Tuesta los huesos",
-      "m": 10,
-      "tim": 25,
+      "m": 20,
+      "tim": 20,
       "par": 1,
       "f": "h200",
       "x": "Enciende el horno a 200 °C. Pon {rodilla} y {tuetano} en una bandeja, sin aceite ni sal, y tuéstalos unos 20 minutos (hasta 30 si son muy grandes), dándoles la vuelta a mitad, hasta que estén bien dorados pero sin quemarse.",
@@ -9432,7 +9432,7 @@
       "t": "Huevos y azúcar",
       "m": 5,
       "f": 0,
-      "x": "Calienta el horno a 180 °C. Bate {huevo} con {azucar} en un bol grande hasta que blanqueen un poco.",
+      "x": "Calienta el horno a 180 °C (la freidora de aire, a 160 °C). Bate {huevo} con {azucar} en un bol grande hasta que blanqueen un poco.",
       "ab": "No hacen falta varillas eléctricas: con un tenedor y dos minutos de brazo vale.",
       "e": {
        "k": "bol",
@@ -9466,14 +9466,33 @@
     "p": [
      {
       "t": "Molde y al horno",
-      "m": 35,
-      "tim": 32,
+      "m": 30,
+      "tim": 30,
       "f": "h180",
       "x": "A 180 °C. Forra un molde redondo de unos 22 cm con papel de horno, vierte la masa y hornea de 30 a 35 minutos, hasta que esté dorada y al pinchar salga la aguja limpia.",
       "ab": "Si se dora demasiado pronto, cúbrela con un papel y sigue: la almendra se tuesta rápido.",
       "e": {
        "k": "horno",
        "t": "180 °C",
+       "d": "molde",
+       "c": "#E8C88E"
+      },
+      "solo": [
+       "horno"
+      ]
+     },
+     {
+      "t": "Molde y freidora de aire",
+      "m": 30,
+      "tim": 30,
+      "solo": [
+       "aire"
+      ],
+      "x": "Forra la base de un molde de unos 18-20 cm que quepa en la cubeta (o usa uno de silicona), vierte la masa y cocina a 160 °C de 30 a 35 minutos: si se dora demasiado pronto, cúbrela con papel de aluminio bien sujeto. Está lista cuando al pinchar salga la aguja limpia.",
+      "ab": "En la freidora la resistencia queda muy cerca: mejor 160 °C y paciencia que 180 °C y prisa, que se quema por fuera y queda cruda por dentro.",
+      "e": {
+       "k": "horno",
+       "t": "160 °C",
        "d": "molde",
        "c": "#E8C88E"
       }
@@ -9521,6 +9540,18 @@
       }
      }
     ]
+   }
+  ],
+  "met": [
+   {
+    "id": "horno",
+    "n": "En el horno de siempre",
+    "d": "180 °C y media hora"
+   },
+   {
+    "id": "aire",
+    "n": "En la freidora de aire",
+    "d": "160 °C, molde pequeño y paciencia"
    }
   ]
  },
@@ -9685,7 +9716,7 @@
     "p": [
      {
       "t": "Sofrito de cebolla y tomate",
-      "m": 15,
+      "m": 13,
       "tim": 13,
       "f": 3,
       "x": "Rehoga {cebolla} rallada en una cazuela con {aceite} 8 minutos. Añade {tomate} rallados y fríe 5 minutos más, hasta que el sofrito se pegue un poco.",
@@ -9706,6 +9737,33 @@
         ]
        ],
        "vapor": 1
+      },
+      "solo": [
+       "cazuela"
+      ]
+     },
+     {
+      "t": "El sofrito, en el robot",
+      "m": 12,
+      "tim": 10,
+      "solo": [
+       "robot"
+      ],
+      "x": "Pon {cebolla} y {tomate} en el vaso y pica 3 segundos a velocidad media. Añade {aceite} y sofríe 10 minutos a 120 °C, velocidad suave, hasta que el tomate pierda el sabor a crudo.",
+      "ab": "El tomate bien frito, sin sabor a crudo: es la mitad del guiso.",
+      "e": {
+       "k": "bol",
+       "c": "#C0392B",
+       "i": [
+        [
+         "cebolla",
+         4
+        ],
+        [
+         "tomate",
+         3
+        ]
+       ]
       }
      }
     ]
@@ -9716,8 +9774,8 @@
     "p": [
      {
       "t": "Patatas al fumet",
-      "m": 20,
-      "tim": 16,
+      "m": 15,
+      "tim": 15,
       "f": 2,
       "x": "Pela y chasca las {patata}, añádelas al sofrito con el {vino} y deja evaporar 2 minutos. Cubre con el fumet caliente y guisa 15-18 minutos, hasta que la patata esté casi lista.",
       "ab": "La patata chascada (rota a cuchara, no cortada del todo) suelta el almidón y espesa el caldo.",
@@ -9733,6 +9791,29 @@
         ]
        ],
        "vapor": 1
+      },
+      "solo": [
+       "cazuela"
+      ]
+     },
+     {
+      "t": "Las patatas, en el robot",
+      "m": 20,
+      "tim": 18,
+      "solo": [
+       "robot"
+      ],
+      "x": "Añade {patata} chascadas y {vino} al vaso y dales 2 minutos a 120 °C. Cubre con el {fumet} caliente, pon la mariposa y programa 18 minutos a 100 °C con giro a la izquierda y velocidad cuchara, hasta que la patata esté casi lista.",
+      "ab": "La mariposa puesta siempre: con la cuchilla al aire, la patata se tritura.",
+      "e": {
+       "k": "bol",
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "patata",
+         6
+        ]
+       ]
       }
      },
      {
@@ -9740,7 +9821,7 @@
       "m": 8,
       "tim": 6,
       "f": 2,
-      "x": "Sala las rodajas de pescado y colócalas en la cazuela con los langostinos. Guisa tapado 5-6 minutos. Añade la picada diluida en un cacillo de caldo, menea la cazuela y apaga en 2 minutos.",
+      "x": "Sala las rodajas de {pescado} y colócalas en la cazuela con los {langostino}. Guisa tapado 5-6 minutos (el temporizador cuenta este tramo). Añade la picada diluida en un cacillo de caldo, menea la cazuela y apaga en 2 minutos.",
       "ab": "El pescado se hace con el calor justo; si hierve fuerte, se deshace.",
       "e": {
        "k": "fuego",
@@ -9758,6 +9839,33 @@
         ]
        ],
        "tapa": 2
+      },
+      "solo": [
+       "cazuela"
+      ]
+     },
+     {
+      "t": "El pescado, al varoma",
+      "m": 10,
+      "tim": 10,
+      "solo": [
+       "robot"
+      ],
+      "x": "Sala las rodajas de {pescado} y ponlas en el recipiente varoma con los {langostino}. Encaja el varoma sobre el vaso y programa 10 minutos a temperatura varoma, velocidad suave: se hacen con el vapor del propio guiso. Saca el varoma, añade la picada diluida en un cacillo de caldo al vaso y remueve con la espátula.",
+      "ab": "Al vapor del guiso, el pescado queda jugoso y entero: no necesita hervir dentro.",
+      "e": {
+       "k": "bol",
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "pescado",
+         3
+        ],
+        [
+         "patata",
+         3
+        ]
+       ]
       }
      }
     ]
@@ -9794,6 +9902,18 @@
       }
      }
     ]
+   }
+  ],
+  "met": [
+   {
+    "id": "cazuela",
+    "n": "En la cazuela, despacio",
+    "d": "patata al fumet y el pescado, al final"
+   },
+   {
+    "id": "robot",
+    "n": "En el robot de cocina",
+    "d": "sofrito al 120 y el pescado, al varoma"
    }
   ]
  },

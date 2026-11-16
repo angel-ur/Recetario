@@ -46,36 +46,47 @@ Huesos con mucho colágeno, muchas horas a fuego mínimo y sin sal. Si sale bien
 
 ### Preparar
 
-1. **Tuesta los huesos** (10 min) - Enciende el horno a 200 °C. Pon huesos de rodilla de ternera y huesos de tuétano en una bandeja, sin aceite ni sal, y tuéstalos unos 20 minutos (hasta 30 si son muy grandes), dándoles la vuelta a mitad, hasta que estén bien dorados pero sin quemarse.
+
+1. **Tuesta los huesos** (20 min) - Enciende el horno a 200 °C. Pon huesos de rodilla de ternera y huesos de tuétano en una bandeja, sin aceite ni sal, y tuéstalos unos 20 minutos (hasta 30 si son muy grandes), dándoles la vuelta a mitad, hasta que estén bien dorados pero sin quemarse.
    > Tostar da sabor y color y, si el hueso no es de pasto o eco, ayuda a quitar parte de las impurezas. Si se queman, amargan todo el caldo. La oreja y la pata no se tuestan: son piel y cartílago, solo aportan gelatina.
+
 2. **Escalda el resto** (20 min) - Mientras se tuestan, pon a hervir 3 litros de agua en una olla grande. Echa carcasa de pollo, las patas de gallo si las consigues, oreja de cerdo y pata de ternera (o 2 manitas de cerdo), y déjalo unos 5 minutos (blanquear). Tira esa agua y enjuaga todo con agua del grifo. A las patas de gallo, quítales la piel amarilla y córtales las uñas por la primera articulación.
    > Al hervir salen la sangre y las impurezas en forma de espuma gris. Tirar esa primera agua deja el caldo limpio y sin sabor áspero.
-3. **Vinagre y reposo** (20 min) - Saca la bandeja del horno y pasa los huesos tostados a la olla lenta, junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja y rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade 5 o 6 cucharadas de vinagre de manzana sin filtrar, con la madre, y 500 ml de agua mineral fría, y deja reposar 20 minutos mientras preparas lo demás.
+
+3. **Vinagre y reposo** (20 min) - Saca la bandeja del horno y pasa los huesos tostados a la olla lenta, junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja y rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade vinagre de manzana sin filtrar, con la madre y 500 ml de agua mineral fría, y deja reposar 20 minutos mientras preparas lo demás.
    > El vinagre de manzana sin filtrar, con la madre, ayuda a sacar el colágeno y los minerales de los huesos, y no se nota en el sabor. Lo pegado a la bandeja es puro sabor: por eso se desglasa.
 
 ### Horas de olla
 
-4. **Agua, hervor y espuma** (20 min) - Añade el resto del agua mineral hasta casi arriba (cubriendo los huesos al menos 2 dedos), pero deja sitio en la olla para la verdura de mañana (unos 4 litros en total). Pon la olla en HIGH, sin tapa, hasta que arranque a hervir. Saldrá espuma gris: quítala con una espumadera o un cucharón durante los primeros 10 o 15 minutos, hasta que deje de salir (espumar).
+
+1. **Agua, hervor y espuma** (20 min) - Añade el resto del agua mineral hasta casi arriba (cubriendo los huesos al menos 2 dedos), pero deja sitio en la olla para la verdura de mañana (unos 4 litros en total). Pon la olla en HIGH, sin tapa, hasta que arranque a hervir. Saldrá espuma gris: quítala con una espumadera o un cucharón durante los primeros 10 o 15 minutos, hasta que deje de salir (espumar).
    > La espuma es proteína coagulada y las impurezas que sueltan los huesos: si se queda, enturbia el caldo y le da un sabor áspero. Quitarla ahora, mientras sube, es lo que lo deja limpio.
-5. **Especias y a dormir** (480 min) - Añade cúrcuma molida (o 3 cm de raíz fresca), pimienta negra en grano, trozo de jengibre fresco de 4 cm (o jengibre molido), en rodajas si es fresco, rama de romero, hoja de laurel y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.
+
+2. **Especias y a dormir** (480 min) - Añade cúrcuma molida (o 3 cm de raíz fresca), pimienta negra en grano, trozo de jengibre fresco de 4 cm (o jengibre molido), en rodajas si es fresco, rama de romero, hoja de laurel y un poco de azafrán si tienes. Sin sal. Tapa y ponla en LOW unas 8 horas: lo mejor es dejarla toda la noche.
    > La pimienta negra va con la cúrcuma por algo: activa la cúrcuma. Y la olla lenta marca la diferencia: a temperatura baja y muchas horas es cuando suelta toda su gelatina. La sal va al final porque el caldo se concentra y podría quedar salado.
-6. **Las verduras, la última hora** (60 min) - Echa a la olla cebolla, diente de ajo, zanahoria, puerro grande y rama de apio en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Sigue con el hervor mínimo y tapa a medias otra hora.
-   > Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Tostarlas antes es opcional (más color y dulzor); la versión de la casa las echa crudas.
-7. **Las verduras, por la mañana** (270 min) - A la mañana siguiente, trocea en trozos gruesos cebolla, diente de ajo, zanahoria, puerro grande y rama de apio, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.
+
+3. **Las verduras, la última hora** (60 min) - Echa a la olla cebolla, diente de ajo, zanahoria, puerro grande y rama de apio en trozos gruesos (y el nabo, la chirivía o el perejil si los usas). Sigue con el hervor mínimo y tapa a medias otra hora.
+   > Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Entra casi al final. Tostarlas antes es opcional (más color y dulzor); la versión de la casa las echa crudas.
+
+4. **Las verduras, por la mañana** (270 min) - A la mañana siguiente, trocea en trozos gruesos cebolla, diente de ajo, zanahoria, puerro grande y rama de apio, y el nabo, la chirivía o el perejil si los usas. Échalo todo a la olla y deja otras 4 o 5 horas en LOW.
    > Con la olla lenta y su temperatura baja, la verdura aguanta bien estas 4 o 5 horas; en cacerola normal no, por eso allí solo entra la última hora. Tostarla antes es opcional (más color y dulzor); la versión de la casa la echa cruda.
 
 ### Colar y guardar
 
-8. **Cuela el caldo** (20 min) - Apaga el fuego y saca con una espumadera los huesos, las verduras y los restos sólidos. Pasa el caldo por un colador fino y después por una tela limpia apta para alimentos, sin apretar. Si lo quieres muy limpio, fíltralo dos o tres veces.
+
+1. **Cuela el caldo** (20 min) - Apaga el fuego y saca con una espumadera los huesos, las verduras y los restos sólidos. Pasa el caldo por un colador fino y después por una tela limpia apta para alimentos, sin apretar. Si lo quieres muy limpio, fíltralo dos o tres veces.
    > La tela atrapa lo que el colador deja pasar. Si aprietas los huesos, sale turbiedad al caldo.
-9. **Reparte y a la nevera** (10 min) - Reparte el caldo en recipientes de unos 500 ml, deja que pierda calor 20 o 30 minutos y mételo en la nevera (o en el congelador) cuanto antes. No lo dejes más de 2 horas a temperatura ambiente. Sal: solo al calentar cada ración, un pellizco por taza y prueba.
+
+2. **Reparte y a la nevera** (10 min) - Reparte el caldo en recipientes de unos 500 ml, deja que pierda calor 20 o 30 minutos y mételo en la nevera (o en el congelador) cuanto antes. No lo dejes más de 2 horas a temperatura ambiente. Sal: solo al calentar cada ración, un pellizco por taza y prueba.
    > En recipientes pequeños se enfría mucho antes y cuanto menos rato pase templado, mejor se conserva. En la nevera aguanta 3 o 4 días; congelado, 2 o 3 meses.
 
 ### En frío
 
-9. **Deja que cuaje** (360 min) - Déjalo en la nevera 6 horas como mínimo. Arriba verás una capa sólida de grasa, parecida al ghee. Retírala con una cuchara y tírala (desgrasar). Debajo, si ha salido muy bien, estará tan cuajado que parece gelatina y no se cae al dar la vuelta al tupper.
+
+1. **Deja que cuaje** (360 min) - Déjalo en la nevera 6 horas como mínimo. Arriba verás una capa sólida de grasa, parecida al ghee. Retírala con una cuchara y tírala (desgrasar). Debajo, si ha salido muy bien, estará tan cuajado que parece gelatina y no se cae al dar la vuelta al tupper.
    > Con el frío se nota todo el colágeno que han soltado las patas, las orejas y las articulaciones: el caldo cuaja como una gelatina.
-10. **Desgrasa y comprueba** (5 min) - Retira la capa de grasa con una cuchara. Debajo, el caldo debería estar cuajado: tan firme que casi no se mueve al inclinar el tarro. Si no cuaja, es que lleva más agua o menos colágeno; sigue siendo un buen caldo.
+
+2. **Desgrasa y comprueba** (5 min) - Retira la capa de grasa con una cuchara. Debajo, el caldo debería estar cuajado: tan firme que casi no se mueve al inclinar el tarro. Si no cuaja, es que lleva más agua o menos colágeno; sigue siendo un buen caldo.
    > Esa es la prueba de que ha salido bien. Si no cuaja del todo, no significa que esté mal: solo que está más diluido.
 
 ## Secretos de la abuela
@@ -86,6 +97,8 @@ Huesos con mucho colágeno, muchas horas a fuego mínimo y sin sal. Si sale bien
 - **Alterna el colágeno**: Una oreja de cerdo y una pata de ternera, o dos patas de ternera, o manitas de cerdo. Alterna entre ellas. Un casco de pollo (de un pollo entero) y patas de gallo suman colágeno.
 - **Gelatina = fuego lento**: Para que cuaje de verdad hace falta fuego muy lento muchas horas. En cacerola salen 3 o 4 horas y no cuaja igual: en ese caso va todo a la vez, verdura incluida.
 - **Cuánto aguanta**: En la nevera, 3 o 4 días a 4 °C o menos. Congelado, mejor tomarlo en 2 o 3 meses.
+
+- **A gustos, colores**: Un hueso de jamón le da otro aire; solo de pollo sale más ligero; con nabo y chirivía, más dulce. Y quien no tiene cúrcuma no se queda sin caldo: la casa la lleva por costumbre, no por obligación.
 
 ## En la tienda
 

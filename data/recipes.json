@@ -1379,6 +1379,10 @@
    [
     "Cuánto aguanta",
     "En la nevera, 3 o 4 días a 4 °C o menos. Congelado, mejor tomarlo en 2 o 3 meses."
+   ],
+   [
+    "A gustos, colores",
+    "Un hueso de jamón le da otro aire; solo de pollo sale más ligero; con nabo y chirivía, más dulce. Y quien no tiene cúrcuma no se queda sin caldo: la casa la lleva por costumbre, no por obligación."
    ]
   ],
   "ing": [
@@ -1523,9 +1527,9 @@
     "p": [
      {
       "t": "Tuesta los huesos",
-      "m": 10,
+      "m": 20,
       "x": "Enciende el horno a 200 °C. Pon {rodilla} y {tuetano} en una bandeja, sin aceite ni sal, y tuéstalos unos 20 minutos (hasta 30 si son muy grandes), dándoles la vuelta a mitad, hasta que estén bien dorados pero sin quemarse.",
-      "tim": 25,
+      "tim": 20,
       "f": "h200",
       "par": 1,
       "e": {
@@ -1584,7 +1588,7 @@
      {
       "t": "Vinagre y reposo",
       "m": 20,
-      "x": "Saca la bandeja del horno y pasa los huesos tostados a la olla lenta, junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja y rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade 5 o 6 cucharadas de vinagre de manzana sin filtrar, con la madre, y 500 ml de agua mineral fría, y deja reposar 20 minutos mientras preparas lo demás.",
+      "x": "Saca la bandeja del horno y pasa los huesos tostados a la olla lenta, junto con todo lo escaldado. Echa un vaso de agua caliente (200 ml) en la bandeja y rasca el fondo con una cuchara (desglasar) y viértelo a la olla. Añade {vinagre} y 500 ml de agua mineral fría, y deja reposar 20 minutos mientras preparas lo demás.",
       "tim": 20,
       "f": 0,
       "w": 1,
@@ -1780,7 +1784,7 @@
        "reloj": "1 h",
        "rf": 0.33
       },
-      "ab": "Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Tostarlas antes es opcional (más color y dulzor); la versión de la casa las echa crudas."
+      "ab": "Las verduras van en la última hora porque tres horas las deshacen y dejan el caldo amargo y turbio. Entra casi al final. Tostarlas antes es opcional (más color y dulzor); la versión de la casa las echa crudas."
      },
      {
       "t": "Las verduras, por la mañana",
@@ -11121,6 +11125,18 @@
    8,
    12
   ],
+  "met": [
+   {
+    "id": "horno",
+    "n": "En el horno de siempre",
+    "d": "180 °C y media hora"
+   },
+   {
+    "id": "aire",
+    "n": "En la freidora de aire",
+    "d": "160 °C, molde pequeño y paciencia"
+   }
+  ],
   "heroe": {
    "k": "ilu",
    "svg": "<defs><radialGradient id=\"i_santiago_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_santiago_fondo)\"/><defs><radialGradient id=\"i_santiago_tarta\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#DDAF6A\"/><stop offset=\"1\" stop-color=\"#A0632E\"/></radialGradient><radialGradient id=\"i_santiago_glas\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FDFBF4\"/><stop offset=\"1\" stop-color=\"#EFE6D2\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"158\" rx=\"118\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.2\"/><ellipse cx=\"160\" cy=\"104\" rx=\"128\" ry=\"46\" fill=\"#F7F4EE\"/><ellipse cx=\"160\" cy=\"104\" rx=\"128\" ry=\"46\" fill=\"none\" style=\"stroke:var(--anil)\" stroke-width=\"3\"/><ellipse cx=\"160\" cy=\"104\" rx=\"112\" ry=\"38\" fill=\"#EFE9DC\"/><path d=\"M76 96c0 20 38 34 84 34s84-14 84-34v-8c0 20-38 34-84 34s-84-14-84-34z\" fill=\"#9A6534\"/><ellipse cx=\"160\" cy=\"92\" rx=\"84\" ry=\"30\" fill=\"url(#i_santiago_tarta)\"/><circle cx=\"233.6\" cy=\"94.5\" r=\"1.2\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"226.7\" cy=\"102.9\" r=\"1.2\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"211.7\" cy=\"109.9\" r=\"1.3\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"190.4\" cy=\"114.8\" r=\"1.7\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"165.5\" cy=\"116.9\" r=\"1.4\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"139.9\" cy=\"116.1\" r=\"1.3\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"116.8\" cy=\"112.3\" r=\"1.0\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"98.8\" cy=\"106.1\" r=\"1.2\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"88.3\" cy=\"98.2\" r=\"1.0\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"86.4\" cy=\"89.5\" r=\"1.4\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"93.3\" cy=\"81.1\" r=\"1.5\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"108.3\" cy=\"74.1\" r=\"1.8\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"129.6\" cy=\"69.2\" r=\"1.4\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"154.5\" cy=\"67.1\" r=\"1.2\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"180.1\" cy=\"67.9\" r=\"1.4\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"203.2\" cy=\"71.7\" r=\"1.4\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"221.2\" cy=\"77.9\" r=\"1.4\" fill=\"#8F5E2A\" opacity=\".5\"/><circle cx=\"231.7\" cy=\"85.8\" r=\"1.7\" fill=\"#8F5E2A\" opacity=\".5\"/><ellipse cx=\"160\" cy=\"92\" rx=\"61\" ry=\"19.5\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"217.8\" cy=\"95.7\" r=\"2.3\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"208.9\" cy=\"102.3\" r=\"1.8\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"192.6\" cy=\"107.4\" r=\"2.0\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"171.3\" cy=\"110.2\" r=\"2.1\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"148.3\" cy=\"110.1\" r=\"1.7\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"127.0\" cy=\"107.3\" r=\"2.1\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"110.8\" cy=\"102.2\" r=\"1.8\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"102.1\" cy=\"95.5\" r=\"1.8\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"102.2\" cy=\"88.3\" r=\"2.2\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"111.1\" cy=\"81.7\" r=\"1.6\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"127.4\" cy=\"76.6\" r=\"1.8\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"148.7\" cy=\"73.8\" r=\"2.1\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"171.7\" cy=\"73.9\" r=\"1.8\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"193.0\" cy=\"76.7\" r=\"2.3\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"209.2\" cy=\"81.8\" r=\"1.8\" fill=\"url(#i_santiago_glas)\"/><circle cx=\"217.9\" cy=\"88.5\" r=\"2.1\" fill=\"url(#i_santiago_glas)\"/><g transform=\"translate(160 92) scale(1.18)\"><g fill=\"#96602F\"><path d=\"M-2.6 -22 L2.6 -22 L2.6 -5 L2.6 11 L0 19 L-2.6 11 L-2.6 -5 Z\"/><path d=\"M-19 -10 L-3 -10 L-3 -3.4 L-19 -3.4 Q-23.5 -6.7 -19 -10 Z\"/><path d=\"M19 -10 L3 -10 L3 -3.4 L19 -3.4 Q23.5 -6.7 19 -10 Z\"/><circle cx=\"0\" cy=\"-23\" r=\"4\"/><circle cx=\"-5\" cy=\"-20.5\" r=\"3\"/><circle cx=\"5\" cy=\"-20.5\" r=\"3\"/><circle cx=\"-20.5\" cy=\"-6.7\" r=\"3.2\"/><circle cx=\"20.5\" cy=\"-6.7\" r=\"3.2\"/></g><g fill=\"#8F5E2A\" opacity=\".5\"><path d=\"M-1.2 -20 L1.2 -20 L1.2 10 L0 15.5 L-1.2 10 Z\"/><path d=\"M-17 -8.6 L-3 -8.6 L-3 -5 L-17 -5 Q-20 -6.7 -17 -8.6 Z\"/><path d=\"M17 -8.6 L3 -8.6 L3 -5 L17 -5 Q20 -6.7 17 -8.6 Z\"/></g></g><circle cx=\"64\" cy=\"110\" r=\"1.6\" fill=\"#FDFBF4\"/><circle cx=\"86\" cy=\"124\" r=\"1.2\" fill=\"#FDFBF4\"/><circle cx=\"238\" cy=\"118\" r=\"1.5\" fill=\"#FDFBF4\"/><circle cx=\"254\" cy=\"104\" r=\"1.2\" fill=\"#FDFBF4\"/><circle cx=\"112\" cy=\"130\" r=\"1.3\" fill=\"#FDFBF4\"/><circle cx=\"206\" cy=\"128\" r=\"1.4\" fill=\"#FDFBF4\"/>"
@@ -11141,6 +11157,10 @@
    [
     "Mejor al día siguiente",
     "Tapada aguanta una semana y gana en jugosidad."
+   ],
+   [
+    "A gustos, colores",
+    "Con canela o sin ella, con ralladura de limón o de naranja, con la almendra marcona bien molida o con un punto más grueso; y hay quien la acompaña de un vino dulce. La cruz, eso sí, no se negocia."
    ]
   ],
   "ing": [
@@ -11186,7 +11206,7 @@
      {
       "t": "Huevos y azúcar",
       "m": 5,
-      "x": "Calienta el horno a 180 °C. Bate {huevo} con {azucar} en un bol grande hasta que blanqueen un poco.",
+      "x": "Calienta el horno a 180 °C (la freidora de aire, a 160 °C). Bate {huevo} con {azucar} en un bol grande hasta que blanqueen un poco.",
       "f": 0,
       "e": {
        "k": "bol",
@@ -11221,10 +11241,13 @@
     "p": [
      {
       "t": "Molde y al horno",
-      "m": 35,
+      "m": 30,
       "x": "A 180 °C. Forra un molde redondo de unos 22 cm con papel de horno, vierte la masa y hornea de 30 a 35 minutos, hasta que esté dorada y al pinchar salga la aguja limpia.",
-      "tim": 32,
+      "tim": 30,
       "f": "h180",
+      "solo": [
+       "horno"
+      ],
       "e": {
        "k": "horno",
        "t": "180 °C",
@@ -11232,6 +11255,22 @@
        "c": "#E8C88E"
       },
       "ab": "Si se dora demasiado pronto, cúbrela con un papel y sigue: la almendra se tuesta rápido."
+     },
+     {
+      "t": "Molde y freidora de aire",
+      "m": 30,
+      "x": "Forra la base de un molde de unos 18-20 cm que quepa en la cubeta (o usa uno de silicona), vierte la masa y cocina a 160 °C de 30 a 35 minutos: si se dora demasiado pronto, cúbrela con papel de aluminio bien sujeto. Está lista cuando al pinchar salga la aguja limpia.",
+      "tim": 30,
+      "solo": [
+       "aire"
+      ],
+      "e": {
+       "k": "horno",
+       "t": "160 °C",
+       "d": "molde",
+       "c": "#E8C88E"
+      },
+      "ab": "En la freidora la resistencia queda muy cerca: mejor 160 °C y paciencia que 180 °C y prisa, que se quema por fuera y queda cruda por dentro."
      },
      {
       "t": "Reposa",
@@ -12224,6 +12263,18 @@
    4,
    6
   ],
+  "met": [
+   {
+    "id": "cazuela",
+    "n": "En la cazuela, despacio",
+    "d": "patata al fumet y el pescado, al final"
+   },
+   {
+    "id": "robot",
+    "n": "En el robot de cocina",
+    "d": "sofrito al 120 y el pescado, al varoma"
+   }
+  ],
   "heroe": {
    "k": "ilu",
    "svg": "<defs><radialGradient id=\"i_suquet_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_suquet_fondo)\"/><defs><linearGradient id=\"i_suquet_barro\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_suquet_caldo\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#E8B84E\"/><stop offset=\"1\" stop-color=\"#C98F2E\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"116\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M48 90c0 40 28 60 112 60s112-20 112-60z\" fill=\"url(#i_suquet_barro)\"/><rect x=\"22\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><rect x=\"268\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"90\" rx=\"112\" ry=\"26\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"92\" rx=\"102\" ry=\"21\" fill=\"url(#i_suquet_caldo)\"/><ellipse cx=\"112\" cy=\"95\" rx=\"21\" ry=\"8\" fill=\"#4A2E10\" opacity=\".12\"/><g transform=\"translate(112 92) rotate(-12)\"><ellipse rx=\"15\" ry=\"9\" fill=\"#E9C979\"/><ellipse cy=\"-1\" rx=\"12\" ry=\"6.6\" fill=\"#F2DA9A\"/><circle cx=\"-3\" cy=\"-1\" r=\"1\" fill=\"#D9B264\"/><circle cx=\"4\" cy=\"1\" r=\".9\" fill=\"#D9B264\"/></g><ellipse cx=\"158\" cy=\"99\" rx=\"20\" ry=\"8\" fill=\"#4A2E10\" opacity=\".12\"/><g transform=\"translate(158 95) rotate(8) scale(1.0)\"><ellipse rx=\"21\" ry=\"10\" fill=\"#E9E4D8\"/><path d=\"M-21 0a21 10 0 0 1 42 0l-2 1.4a19 8.6 0 0 0-38 0z\" fill=\"#7C8B96\"/><ellipse cy=\"1.4\" rx=\"17\" ry=\"7.4\" fill=\"#F4F0E4\"/><path d=\"M-6 -2q6 -2 12 0M-8 2q8 -3 16 0\" stroke=\"#DAD2BE\" stroke-width=\"1.4\" fill=\"none\"/></g><ellipse cx=\"206\" cy=\"93\" rx=\"20\" ry=\"8\" fill=\"#4A2E10\" opacity=\".12\"/><g transform=\"translate(206 89) rotate(-14) scale(0.92)\"><ellipse rx=\"21\" ry=\"10\" fill=\"#E9E4D8\"/><path d=\"M-21 0a21 10 0 0 1 42 0l-2 1.4a19 8.6 0 0 0-38 0z\" fill=\"#7C8B96\"/><ellipse cy=\"1.4\" rx=\"17\" ry=\"7.4\" fill=\"#F4F0E4\"/><path d=\"M-6 -2q6 -2 12 0M-8 2q8 -3 16 0\" stroke=\"#DAD2BE\" stroke-width=\"1.4\" fill=\"none\"/></g><g transform=\"translate(140 86) rotate(20)\"><ellipse rx=\"15\" ry=\"9\" fill=\"#E9C979\"/><ellipse cy=\"-1\" rx=\"12\" ry=\"6.6\" fill=\"#F2DA9A\"/><circle cx=\"-3\" cy=\"-1\" r=\"1\" fill=\"#D9B264\"/><circle cx=\"4\" cy=\"1\" r=\".9\" fill=\"#D9B264\"/></g><g transform=\"translate(228 98) rotate(14)\"><ellipse rx=\"15\" ry=\"9\" fill=\"#E9C979\"/><ellipse cy=\"-1\" rx=\"12\" ry=\"6.6\" fill=\"#F2DA9A\"/><circle cx=\"-3\" cy=\"-1\" r=\"1\" fill=\"#D9B264\"/><circle cx=\"4\" cy=\"1\" r=\".9\" fill=\"#D9B264\"/></g><g transform=\"translate(96 84) rotate(-24) scale(0.9)\"><path d=\"M-16 2Q-10 -10 2 -10Q16 -10 16 0Q16 8 6 8L2 8Q8 4 6 0Q4 -4 -2 -4Q-10 -4 -12 4Z\" fill=\"#E8763E\"/><path d=\"M-12 -2l4 3M-8 -6l4 3M-3 -8.4l4 3M2 -9l4 3M7 -8.6l4 3\" stroke=\"#C94F22\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M16 0l7 -3M16 1.6l7 -1M15 3l6 2\" stroke=\"#E8763E\" stroke-width=\"1.6\" fill=\"none\" stroke-linecap=\"round\"/><circle cx=\"-13\" cy=\"-3\" r=\"1.1\" fill=\"#8A2E12\"/></g><g transform=\"translate(128 100) rotate(30)\"><path d=\"M0 -4C3 -3 3 2 0 4-3 2-3 -3 0 -4z\" fill=\"#4E7A2E\"/></g><g transform=\"translate(176 87) rotate(-40)\"><path d=\"M0 -4C3 -3 3 2 0 4-3 2-3 -3 0 -4z\" fill=\"#4E7A2E\"/></g><g transform=\"translate(214 101) rotate(70)\"><path d=\"M0 -4C3 -3 3 2 0 4-3 2-3 -3 0 -4z\" fill=\"#4E7A2E\"/></g><g transform=\"translate(148 96) rotate(100)\"><path d=\"M0 -4C3 -3 3 2 0 4-3 2-3 -3 0 -4z\" fill=\"#4E7A2E\"/></g><ellipse cx=\"126\" cy=\"84\" rx=\"22\" ry=\"2.6\" fill=\"#fff\" opacity=\".30\"/>"
@@ -12244,6 +12295,10 @@
    [
     "La picada, al final",
     "Entra en los últimos minutos; si hierve mucho rato, amarga."
+   ],
+   [
+    "A gustos, colores",
+    "Con cigalas o gambas en vez de langostinos, con almejas o mejillones dentro, con la picada de almendra y avellana a partes iguales; y el pescado, el de roca que traiga el día: rape, gallo, escórpora o lo que mande la pescadería."
    ]
   ],
   "ing": [
@@ -12374,10 +12429,13 @@
     "p": [
      {
       "t": "Sofrito de cebolla y tomate",
-      "m": 15,
+      "m": 13,
       "x": "Rehoga {cebolla} rallada en una cazuela con {aceite} 8 minutos. Añade {tomate} rallados y fríe 5 minutos más, hasta que el sofrito se pegue un poco.",
       "tim": 13,
       "f": 3,
+      "solo": [
+       "cazuela"
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -12396,6 +12454,30 @@
        "vapor": 1
       },
       "ab": "El tomate bien frito, sin sabor a crudo: es la mitad del guiso."
+     },
+     {
+      "t": "El sofrito, en el robot",
+      "m": 12,
+      "x": "Pon {cebolla} y {tomate} en el vaso y pica 3 segundos a velocidad media. Añade {aceite} y sofríe 10 minutos a 120 °C, velocidad suave, hasta que el tomate pierda el sabor a crudo.",
+      "tim": 10,
+      "solo": [
+       "robot"
+      ],
+      "e": {
+       "k": "bol",
+       "c": "#C0392B",
+       "i": [
+        [
+         "cebolla",
+         4
+        ],
+        [
+         "tomate",
+         3
+        ]
+       ]
+      },
+      "ab": "El tomate bien frito, sin sabor a crudo: es la mitad del guiso."
      }
     ]
    },
@@ -12405,10 +12487,13 @@
     "p": [
      {
       "t": "Patatas al fumet",
-      "m": 20,
+      "m": 15,
       "x": "Pela y chasca las {patata}, añádelas al sofrito con el {vino} y deja evaporar 2 minutos. Cubre con el fumet caliente y guisa 15-18 minutos, hasta que la patata esté casi lista.",
-      "tim": 16,
+      "tim": 15,
       "f": 2,
+      "solo": [
+       "cazuela"
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -12425,11 +12510,34 @@
       "ab": "La patata chascada (rota a cuchara, no cortada del todo) suelta el almidón y espesa el caldo."
      },
      {
+      "t": "Las patatas, en el robot",
+      "m": 20,
+      "x": "Añade {patata} chascadas y {vino} al vaso y dales 2 minutos a 120 °C. Cubre con el {fumet} caliente, pon la mariposa y programa 18 minutos a 100 °C con giro a la izquierda y velocidad cuchara, hasta que la patata esté casi lista.",
+      "tim": 18,
+      "solo": [
+       "robot"
+      ],
+      "e": {
+       "k": "bol",
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "patata",
+         6
+        ]
+       ]
+      },
+      "ab": "La mariposa puesta siempre: con la cuchilla al aire, la patata se tritura."
+     },
+     {
       "t": "El pescado, al final",
       "m": 8,
-      "x": "Sala las rodajas de pescado y colócalas en la cazuela con los langostinos. Guisa tapado 5-6 minutos. Añade la picada diluida en un cacillo de caldo, menea la cazuela y apaga en 2 minutos.",
+      "x": "Sala las rodajas de {pescado} y colócalas en la cazuela con los {langostino}. Guisa tapado 5-6 minutos (el temporizador cuenta este tramo). Añade la picada diluida en un cacillo de caldo, menea la cazuela y apaga en 2 minutos.",
       "tim": 6,
       "f": 2,
+      "solo": [
+       "cazuela"
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -12448,6 +12556,30 @@
        "tapa": 2
       },
       "ab": "El pescado se hace con el calor justo; si hierve fuerte, se deshace."
+     },
+     {
+      "t": "El pescado, al varoma",
+      "m": 10,
+      "x": "Sala las rodajas de {pescado} y ponlas en el recipiente varoma con los {langostino}. Encaja el varoma sobre el vaso y programa 10 minutos a temperatura varoma, velocidad suave: se hacen con el vapor del propio guiso. Saca el varoma, añade la picada diluida en un cacillo de caldo al vaso y remueve con la espátula.",
+      "tim": 10,
+      "solo": [
+       "robot"
+      ],
+      "e": {
+       "k": "bol",
+       "c": "#E9D2A6",
+       "i": [
+        [
+         "pescado",
+         3
+        ],
+        [
+         "patata",
+         3
+        ]
+       ]
+      },
+      "ab": "Al vapor del guiso, el pescado queda jugoso y entero: no necesita hervir dentro."
      }
     ]
    },
