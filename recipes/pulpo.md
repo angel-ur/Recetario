@@ -34,18 +34,22 @@ Como en las ferias gallegas: el pulpo asustado tres veces, cortado con tijera so
    > Asustarlo hace que los tentáculos se ricen y que la piel no se despegue al cocer.
 3. **Cuece** (40 min) - Cuece a fuego medio unos 40 minutos para un pulpo de 2 kg, unos 20 minutos por kilo. Pincha la parte gruesa de un tentáculo: debe entrar con facilidad, con un punto firme.
    > Ni duro ni chicloso: tierno, pero que la piel no se deshaga.
-4. **En la exprés, sin asustar** (15 min) - Pon el pulpo en la olla exprés con agua que apenas lo cubra, sin sal. Cierra y, desde que suba la válvula, cuece 12 minutos a fuego suave para un pulpo de 2 kg (unos 6 por kilo). Suelta la presión, pincha la parte gruesa de un tentáculo: debe entrar con facilidad, con un punto firme. Déjalo reposar en su agua diez minutos.
-   > En exprés no hace falta asustarlo: la presión lo deja tierno igual y la piel aguanta. Si al pincharlo resiste, dale dos minutos más.
-5. **Reposa en su agua** (10 min) - Apaga el fuego y déjalo reposar en el agua diez minutos. Sácalo y resérvalo.
+4. **Carga la exprés** (5 min) - Pon el pulpo en la olla exprés con agua que apenas lo cubra, sin sal. Cierra la olla como indica su fabricante y ponla a fuego fuerte hasta que suba la válvula.
+   > En exprés no hace falta asustarlo: la presión lo deja tierno igual y la piel aguanta.
+5. **Cocción con presión** (14 min) - Cuando suba la válvula, baja el fuego y cuenta el tiempo de presión. Para un pulpo de unos 2 kg, unos 12 minutos es el punto de partida, pero manda el manual de tu olla. Pasado el tiempo, suelta la presión como indique el fabricante antes de abrir.
+   > Los tiempos de presión cambian de una olla a otra: el manual de la tuya manda sobre cualquier receta, esta incluida.
+6. **Comprueba y reposa** (12 min) - Pincha la parte gruesa de un tentáculo: debe entrar con facilidad, con un punto firme. Si resiste, cierra y dale dos minutos más de presión. Luego déjalo reposar en su agua diez minutos.
    > El reposo termina de ablandarlo y asienta la piel.
-6. **Cachelos en el agua del pulpo** (25 min) - Cuece patatas medianas para cachelos peladas y en trozos grandes en esa misma agua, unos 20 o 25 minutos, hasta que estén tiernas.
+7. **Reposa en su agua** (10 min) - Apaga el fuego y déjalo reposar en el agua diez minutos. Sácalo y resérvalo.
+   > El reposo termina de ablandarlo y asienta la piel.
+8. **Cachelos en el agua del pulpo** (25 min) - Cuece patatas medianas para cachelos peladas y en trozos grandes en esa misma agua, unos 20 o 25 minutos, hasta que estén tiernas.
    > El agua del pulpo les da a los cachelos un color rosado y un sabor que no se consigue de otra forma.
 
 ### Al plato
 
-7. **Corta con tijera** (5 min) - Corta los tentáculos en rodajas con unas tijeras, directamente sobre un plato de madera, con los cachelos en rodajas debajo.
+9. **Corta con tijera** (5 min) - Corta los tentáculos en rodajas con unas tijeras, directamente sobre un plato de madera, con los cachelos en rodajas debajo.
    > La tijera y el plato de madera son de feria: la madera absorbe el agua y el pulpo no se enfría.
-8. **Sal, pimentón y aceite** (2 min) - Espolvorea sal gorda, pimentón dulce y pimentón picante, y riega con aceite de oliva virgen extra. A la mesa enseguida.
+10. **Sal, pimentón y aceite** (2 min) - Espolvorea sal gorda, pimentón dulce y pimentón picante, y riega con aceite de oliva virgen extra. A la mesa enseguida.
    > El orden de las pulpeiras: primero la sal gorda, luego el pimentón y el aceite al final.
 ## Secretos de la abuela
 

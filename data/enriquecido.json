@@ -7337,13 +7337,51 @@
       ]
      },
      {
-      "t": "En la exprés, sin asustar",
-      "m": 15,
+      "t": "Carga la exprés",
+      "m": 5,
+      "f": 5,
+      "x": "Pon el pulpo en la olla exprés con agua que apenas lo cubra, sin sal. Cierra la olla como indica su fabricante y ponla a fuego fuerte hasta que suba la válvula.",
+      "ab": "En exprés no hace falta asustarlo: la presión lo deja tierno igual y la piel aguanta.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 5,
+       "c": "#9CC8EA",
+       "burbujas": 1
+      },
+      "solo": [
+       "expres"
+      ]
+     },
+     {
+      "t": "Cocción con presión",
+      "m": 14,
       "tim": 12,
       "w": 1,
-      "f": 3,
-      "x": "Pon el pulpo en la olla exprés con agua que apenas lo cubra, sin sal. Cierra y, desde que suba la válvula, cuece 12 minutos a fuego suave para un pulpo de 2 kg (unos 6 por kilo). Suelta la presión, pincha la parte gruesa de un tentáculo: debe entrar con facilidad, con un punto firme. Déjalo reposar en su agua diez minutos.",
-      "ab": "En exprés no hace falta asustarlo: la presión lo deja tierno igual y la piel aguanta. Si al pincharlo resiste, dale dos minutos más.",
+      "f": 2,
+      "x": "Cuando suba la válvula, baja el fuego y cuenta el tiempo de presión. Para un pulpo de unos 2 kg, unos 12 minutos es el punto de partida, pero manda el manual de tu olla. Pasado el tiempo, suelta la presión como indique el fabricante antes de abrir.",
+      "ab": "Los tiempos de presión cambian de una olla a otra: el manual de la tuya manda sobre cualquier receta, esta incluida.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#9CC8EA",
+       "tapa": 1,
+       "vapor": 1,
+       "reloj": "12 min"
+      },
+      "solo": [
+       "expres"
+      ]
+     },
+     {
+      "t": "Comprueba y reposa",
+      "m": 12,
+      "tim": 10,
+      "w": 1,
+      "f": "a",
+      "x": "Pincha la parte gruesa de un tentáculo: debe entrar con facilidad, con un punto firme. Si resiste, cierra y dale dos minutos más de presión. Luego déjalo reposar en su agua diez minutos.",
+      "ab": "El reposo termina de ablandarlo y asienta la piel.",
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -7612,11 +7650,12 @@
       ]
      },
      {
-      "t": "Todo al robot",
-      "m": 30,
-      "tim": 28,
+      "t": "La verdura, en el robot",
+      "m": 27,
+      "tim": 25,
+      "w": 1,
       "f": 0,
-      "x": "En el vaso del robot, pon {aceite}, la cebolla y el calabacín con sal y programa 25 minutos a 100 °C, velocidad cuchara, quitando el cubilete los últimos 10 para que evapore. Bate ligeramente {huevo}, añádelos y dale 1 minuto más removiendo: tienen que quedar jugosos.",
+      "x": "En el vaso del robot, pon {aceite}, la cebolla y el calabacín con sal y programa 25 minutos a 100 °C, velocidad cuchara, quitando el cubilete los últimos 10 minutos para que evapore.",
       "ab": "Sin cubilete al final, que el zarangollo no puede quedar aguado.",
       "e": {
        "k": "bol",
@@ -7741,6 +7780,24 @@
       },
       "solo": [
        "micro"
+      ]
+     },
+     {
+      "t": "El huevo, un minuto",
+      "m": 2,
+      "tim": 1,
+      "f": 0,
+      "x": "Bate ligeramente {huevo}, añádelos al vaso y dale 1 minuto más a 100 °C, removiendo: tienen que quedar jugosos, como un revuelto poco hecho.",
+      "ab": "Mejor corto que pasado: el calor de la verdura termina de cuajarlo.",
+      "e": {
+       "k": "bol",
+       "c": "#E8C84A",
+       "cae": [
+        "huevo"
+       ]
+      },
+      "solo": [
+       "robot"
       ]
      },
      {

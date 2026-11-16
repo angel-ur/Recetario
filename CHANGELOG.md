@@ -3,6 +3,8 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Pulpo en exprés, por partes: cargar la olla, la cocción con presión y la comprobación con reposo son pasos separados, y el tiempo de presión remite al manual de cada olla (12 min como punto de partida para 2 kg, sin regla por kilo).
+- Zarangollo en robot: la verdura (25 min) y el huevo (1 minuto) son pasos separados, y la fase «El huevo» ya no se queda solo con el «Sirve» en ese método.
 - Pulpo a feira: selector "Cómo lo vas a hacer" (en olla, la de siempre, asustado; o en olla exprés, 12 minutos con presión y sin asustar), cantidades ajustadas dentro de los pasos y variantes (solo dulce, sin patatas como en O Carballiño, ajos fritos).
 - Zarangollo murciano: selector "Cómo lo vas a hacer" (a fuego lento, la de siempre; en robot de cocina; o al microondas), cantidades ajustadas dentro de los pasos y variantes (con patata, ajo, queso fundido, huevo entero cuajado).
 - Los pasos al horno (o freidora de aire) ya no llevan la etiqueta «Fuego medio»: dicen «Horno 200 °C» (o 180), en croquetas, paella, tumbet, pisto, sopa castellana, migas, santiago y arroz al horno.
