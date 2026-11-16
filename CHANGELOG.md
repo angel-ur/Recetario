@@ -4,6 +4,8 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+- Pochas: borboteo suave pero constante explícito en cazuela y robot (hervor real hasta ablandar, no programa tibio), sin equivalencias inventadas para la exprés.
+
 - Pochas: identidad del ingrediente aclarada (pocha seca de la cosecha del año, no fresca), agua de remojo que se tira y enjuague (EFSA), guiso en cazuela de 1 h 30 a 2 h, y nota de la pocha fresca de temporada (sin remojo, 35-45 min).
 
 - Corrige la clave de ingrediente del guiso de pochas en robot ({pocha}), que quedaba literal en la web.

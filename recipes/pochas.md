@@ -50,13 +50,13 @@ La pocha es la alubia blanca de Navarra, recolectada tierna, de piel fina y carn
 2. **Hierve, espuma y asústalas** (15 min) - Lleva a ebullición a fuego fuerte, retira la espuma que suba y asusta las pochas con un vaso de agua fría. Repite el susto una vez más cuando vuelva a hervir.
    > El susto corta el hervor de golpe: la piel queda firme y el interior, cremoso.
 
-3. **Fuego suave y a menear** (90 min) - Baja el fuego al mínimo, tapa a medias y guisa entre 1 hora y media y 2 horas, según lo tierna que venga la cosecha, meneando la cazuela en círculos de vez en cuando. Sala a media cocción y pruébalas a partir de la hora y media.
-   > Ni cuchara ni cucharón, que rompen las pochas. Si el caldo baja, añade agua caliente, nunca fría.
+3. **Fuego suave y a menear** (90 min) - Baja el fuego hasta mantener un borboteo suave pero constante, tapa a medias y guisa entre 1 hora y media y 2 horas, según lo tierna que venga la cosecha, meneando la cazuela en círculos de vez en cuando. Sala a media cocción y pruébalas a partir de la hora y media.
+   > Borboteo suave, sí, pero continuo: la legumbre seca necesita hervor de verdad hasta ablandar, no un baño tibio. Ni cuchara ni cucharón, que rompen las pochas; si el caldo baja, añade agua caliente, nunca fría.
 
 4. **Con presión** (12 min) - Lleva a ebullición con la olla abierta y retira la espuma que suba. Cierra como indica su manual y, cuando suba la válvula, baja el fuego al mínimo que mantenga la presión: de 12 a 20 minutos según tu olla y lo tierna que venga la pocha. Apaga y deja que la presión baje sola.
    > Si van duras, cierra y dales cinco minutos más: la legumbre no perdona las prisas.
 
-5. **El guiso, en el robot** (60 min) - Pon pochas de Navarra en el vaso, vuelca encima el sofrito y cubre con agua fría hasta dos dedos por encima, sin pasar nunca del límite del vaso de tu robot (si no cabe, haz media receta). Programa 60 minutos a 100 °C con giro a la izquierda, velocidad cuchara y la mariposa puesta. La alubia seca es cabezona: puede pedir hasta una hora y media; prueba una y, si va dura, alarga en bloques de 15 minutos.
+5. **El guiso, en el robot** (60 min) - Pon pochas de Navarra en el vaso, vuelca encima el sofrito y cubre con agua fría hasta dos dedos por encima, sin pasar nunca del límite del vaso de tu robot (si no cabe, haz media receta). Programa 60 minutos a 100 °C con giro a la izquierda, velocidad cuchara y la mariposa puesta: el caldo tiene que borbotear suavemente todo el rato; si tu robot no llega a ese borboteo, no vale un programa tibio. La alubia seca es cabezona: puede pedir hasta una hora y media; prueba una y, si va dura, alarga en bloques de 15 minutos hasta que esté bien tierna.
    > El hervor del robot es suave, pero la alubia seca tiene la piel delicada: con la mariposa puesta no suele sufrir, y si la ves resentirse, para la máquina un momento, echa un chorrito de agua fría por el bocal y sigue.
 
 6. **El caldo meloso** (10 min) - Saca un cacillo de pochas con un poco de caldo, pásalo por el pasapurés y devuélvelo a la cazuela. Menea un par de minutos hasta que el caldo quede meloso.
