@@ -4,6 +4,10 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+- Pulpo, riojana y pochas: pastilla de duración y temporizador alineados en el mínimo del rango (11, 5, 12 y 25/60 min), para que no parezcan instrucciones contradictorias; el rango completo sigue en el texto del paso.
+- Pochas en robot: tiempo de guiso con evidencia de alubia seca remojada (60 min iniciales, puede pedir hasta 1 h 30; alarga de 15 en 15), límite de llenado del vaso explícito y nota honesta sobre la piel (mariposa; susto opcional parando la máquina).
+- Riojana en robot: aviso de capacidad del vaso (media receta si no cabe) y duración alineada a 25 min.
+
 - Riojana y pochas: selector "Como lo vas a hacer" con tres metodos (cazuela, olla expres y robot de cocina), tiempos de presion variables por olla y pasos de robot con giro a la izquierda y mariposa; cada una gana su comentario "A gustos, colores".
 
 - Pulpo: "un dedo de agua" queda acotado por el liquido minimo y el limite de llenado del fabricante (normalmente dos tercios).

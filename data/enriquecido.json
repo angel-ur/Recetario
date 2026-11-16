@@ -7458,7 +7458,7 @@
      },
      {
       "t": "Cocción con presión",
-      "m": 16,
+      "m": 11,
       "tim": 11,
       "w": 1,
       "f": 2,
@@ -8295,7 +8295,7 @@
      },
      {
       "t": "Con presión",
-      "m": 8,
+      "m": 5,
       "tim": 5,
       "w": 1,
       "f": 2,
@@ -8315,11 +8315,11 @@
      },
      {
       "t": "El guiso, en el robot",
-      "m": 27,
+      "m": 25,
       "tim": 25,
       "w": 1,
       "f": 0,
-      "x": "Echa {patata} chascadas en el vaso con {agua} caliente, {laurel} y sal: programa 25 minutos a 100 °C, giro a la izquierda y velocidad cuchara, con la mariposa puesta si tu robot la tiene. Pincha una patata: si va justa, alarga 5 minutos más.",
+      "x": "Echa {patata} chascadas en el vaso y cubre con agua caliente hasta un dedo por encima, sin pasar nunca del límite del vaso de tu robot (un kilo de patatas con su caldo no cabe en los vasos pequeños: si no cabe, haz media receta). Programa 25 minutos a 100 °C con giro a la izquierda y velocidad suave. Comprueba la punta: la patata tiene que ceder pero no deshacerse; alarga de 5 en 5 minutos si va justa.",
       "ab": "El giro a la izquierda mueve sin romper: con la cuchilla normal triturarías la patata.",
       "e": {
        "k": "bol",
@@ -9249,7 +9249,7 @@
      },
      {
       "t": "Con presión",
-      "m": 15,
+      "m": 12,
       "tim": 12,
       "w": 1,
       "f": 2,
@@ -9269,12 +9269,12 @@
      },
      {
       "t": "El guiso, en el robot",
-      "m": 45,
-      "tim": 45,
+      "m": 60,
+      "tim": 60,
       "w": 1,
       "f": 0,
-      "x": "Añade las {pocha} escurridas y la {laurel}, y cubre con agua fría dos dedos por encima. Programa 45 minutos a 100 °C, giro a la izquierda y velocidad cuchara, con la mariposa puesta. Prueba una pocha: si va dura, alarga de 5 en 5 minutos.",
-      "ab": "En el robot no hace falta asustarlas: el hervor es tan suave que la piel no sufre.",
+      "x": "Pon {pochas} en el vaso, vuelca encima el sofrito y cubre con agua caliente hasta dos dedos por encima, sin pasar nunca del límite del vaso de tu robot (si no cabe, haz media receta). Programa 60 minutos a 100 °C con giro a la izquierda, velocidad cuchara y la mariposa puesta. La alubia seca es cabezona: puede pedir hasta una hora y media; prueba una y, si va dura, alarga en bloques de 15 minutos.",
+      "ab": "El hervor del robot es suave, pero la alubia seca tiene la piel delicada: con la mariposa puesta no suele sufrir, y si la ves resentirse, para la máquina un momento, echa un chorrito de agua fría por el bocal y sigue.",
       "e": {
        "k": "bol",
        "c": "#B9C89A",

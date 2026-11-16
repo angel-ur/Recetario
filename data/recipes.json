@@ -9225,7 +9225,7 @@
      {
       "t": "Pochas en remojo",
       "m": 720,
-      "x": "Pon las {pocha} en remojo en agua fría, unas doce horas.",
+      "x": "Pon las pochas de navarra en remojo en agua fría, unas doce horas.",
       "f": 0,
       "pre": 1,
       "e": {
@@ -9321,7 +9321,7 @@
      {
       "t": "Pochas al agua fría",
       "m": 5,
-      "x": "Añade las {pocha} escurridas y la {laurel}, y cubre con agua fría dos dedos por encima.",
+      "x": "Añade las pochas de navarra escurridas y la hoja de laurel, y cubre con agua fría dos dedos por encima.",
       "f": 0,
       "solo": [
        "olla",
@@ -9396,7 +9396,7 @@
      },
      {
       "t": "Con presión",
-      "m": 15,
+      "m": 12,
       "x": "Lleva a ebullición con la olla abierta y retira la espuma que suba. Cierra como indica su manual y, cuando suba la válvula, baja el fuego al mínimo que mantenga la presión: de 12 a 20 minutos según tu olla y lo tierna que venga la pocha. Apaga y deja que la presión baje sola.",
       "tim": 12,
       "f": 2,
@@ -9416,9 +9416,9 @@
      },
      {
       "t": "El guiso, en el robot",
-      "m": 45,
-      "x": "Añade las {pocha} escurridas y la {laurel}, y cubre con agua fría dos dedos por encima. Programa 45 minutos a 100 °C, giro a la izquierda y velocidad cuchara, con la mariposa puesta. Prueba una pocha: si va dura, alarga de 5 en 5 minutos.",
-      "tim": 45,
+      "m": 60,
+      "x": "Pon {pochas} en el vaso, vuelca encima el sofrito y cubre con agua caliente hasta dos dedos por encima, sin pasar nunca del límite del vaso de tu robot (si no cabe, haz media receta). Programa 60 minutos a 100 °C con giro a la izquierda, velocidad cuchara y la mariposa puesta. La alubia seca es cabezona: puede pedir hasta una hora y media; prueba una y, si va dura, alarga en bloques de 15 minutos.",
+      "tim": 60,
       "f": 0,
       "w": 1,
       "solo": [
@@ -9438,7 +9438,7 @@
         ]
        ]
       },
-      "ab": "En el robot no hace falta asustarlas: el hervor es tan suave que la piel no sufre."
+      "ab": "El hervor del robot es suave, pero la alubia seca tiene la piel delicada: con la mariposa puesta no suele sufrir, y si la ves resentirse, para la máquina un momento, echa un chorrito de agua fría por el bocal y sigue."
      },
      {
       "t": "El caldo meloso",
@@ -9695,7 +9695,7 @@
      },
      {
       "t": "Cocción con presión",
-      "m": 16,
+      "m": 11,
       "x": "Cuando suba la válvula, baja el fuego al mínimo que mantenga la presión y cuenta: para un pulpo de unos 2 kg, de 11 a 16 minutos en olla rápida (las de dos anillas piden menos) y de 20 a 22 en una exprés tradicional; ante la duda, por lo bajo, y manda siempre el manual de la tuya. El temporizador del paso es orientativo: queda en el mínimo del rango y se ajusta con los botones de -5 y +5 min, también antes de empezar, a lo que mande tu olla. Pasado el tiempo, apaga y deja que la presión baje sola, unos minutos más.",
       "tim": 11,
       "f": 2,
@@ -10734,7 +10734,7 @@
      },
      {
       "t": "Con presión",
-      "m": 8,
+      "m": 5,
       "x": "Cubre con {agua} caliente justo hasta tapar las patatas, sin pasar del límite de llenado de tu olla, añade {laurel} y sal, y cierra como indica su manual. Cuando suba la válvula, baja el fuego al mínimo que mantenga la presión: de 5 a 8 minutos según tu olla; en una tradicional, manda su tabla. Apaga y deja que la presión baje sola.",
       "tim": 5,
       "f": 2,
@@ -10754,8 +10754,8 @@
      },
      {
       "t": "El guiso, en el robot",
-      "m": 27,
-      "x": "Echa {patata} chascadas en el vaso con {agua} caliente, {laurel} y sal: programa 25 minutos a 100 °C, giro a la izquierda y velocidad cuchara, con la mariposa puesta si tu robot la tiene. Pincha una patata: si va justa, alarga 5 minutos más.",
+      "m": 25,
+      "x": "Echa {patata} chascadas en el vaso y cubre con agua caliente hasta un dedo por encima, sin pasar nunca del límite del vaso de tu robot (un kilo de patatas con su caldo no cabe en los vasos pequeños: si no cabe, haz media receta). Programa 25 minutos a 100 °C con giro a la izquierda y velocidad suave. Comprueba la punta: la patata tiene que ceder pero no deshacerse; alarga de 5 en 5 minutos si va justa.",
       "tim": 25,
       "f": 0,
       "w": 1,
