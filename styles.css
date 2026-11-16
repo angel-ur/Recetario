@@ -443,11 +443,12 @@ body {
 @keyframes pulso { 50% { transform: scale(1.05); } }
 .t-progreso { width: 90px; height: 7px; background: var(--lienzo); border-radius: 999px; overflow: hidden; border: 1px solid var(--linea); }
 .t-progreso i { display: block; height: 100%; background: var(--ocre); }
-.t-extra { display: inline-flex; gap: 6px; align-items: center; }
+.t-extra { display: inline-flex; gap: 6px; align-items: center; flex-wrap: wrap; }
 .t-mas, .t-reset {
   font: inherit; font-size: 12.5px; font-weight: 700;
   background: var(--tarjeta-bg); color: var(--anil);
   border: 1.5px solid var(--anil); border-radius: 999px; padding: 4px 11px; cursor: pointer;
+  white-space: nowrap;
 }
 .t-est { font-size: 12.5px; font-weight: 700; color: var(--ocre); }
 

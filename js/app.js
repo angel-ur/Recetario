@@ -1336,12 +1336,12 @@
       var k = box.getAttribute('data-t'), seg = +box.getAttribute('data-seg'), t = T[k], e = t ? t.e : 'parado', r = restante(k, now, seg);
       box.setAttribute('data-estado', e);
       $('.t-txt', box).textContent = e === 'listo' ? '¡Tiempo!' : fmt(r / 1000);
-      $('.t-est', box).textContent = e === 'pausa' ? (t.ajustado ? 'Ajustado: dale al play' : 'En pausa') : '';
+      $('.t-est', box).textContent = e === 'pausa' ? (t.ajustado ? 'Ajustado' : 'En pausa') : '';
       var lab = e === 'parado' ? 'Iniciar temporizador de ' + durTxt(seg / 60) : e === 'marcha' ? 'Pausar temporizador' : e === 'pausa' ? (t.ajustado ? 'Iniciar temporizador ajustado' : 'Reanudar temporizador') : 'Parar la alarma';
       var b = $('.t-btn', box); if (b.getAttribute('aria-label') !== lab) b.setAttribute('aria-label', lab);
       $('.t-extra', box).hidden = false;
       $('.t-reset', box).hidden = !(e === 'marcha' || e === 'pausa');
-      $('.t-progreso', box).hidden = !(e === 'marcha' || e === 'pausa');
+      $('.t-progreso', box).hidden = !(e === 'marcha' || (e === 'pausa' && !t.ajustado));
       if (t && t.total) $('.t-progreso i', box).style.width = Math.max(0, Math.min(100, (1 - r / t.total) * 100)).toFixed(2) + '%';
     });
     pintaDock(now);
