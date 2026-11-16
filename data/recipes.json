@@ -203,7 +203,7 @@
       "m": 25,
       "x": "Precalienta el horno a 200 °C. Mete la cazuela, con calor arriba y abajo, 20-25 minutos, hasta que el arroz beba todo el caldo y haga una costra dorada arriba.",
       "tim": 20,
-      "f": 0,
+      "f": "h200",
       "w": 1,
       "solo": [
        "barro",
@@ -4309,7 +4309,7 @@
       "m": 12,
       "x": "Calienta el horno o la freidora de aire a 200 °C. Pon las croquetas en la bandeja sobre papel de horno, pulverízalas con aceite y hornea de 10 a 12 minutos, dándoles la vuelta a mitad, hasta que doren.",
       "tim": 12,
-      "f": 0,
+      "f": "h200",
       "solo": [
        "horno"
       ],
@@ -7276,7 +7276,7 @@
       "m": 35,
       "x": "Calienta el horno a 200 °C. Mezcla el pan humedecido con el aceite de freír la carne, extiéndelo en una bandeja amplia y hornea de 25 a 30 minutos, removiendo bien cada 8 minutos, hasta que esté dorado y suelto. Mezcla con {pimenton}, los ajos, la panceta y el chorizo.",
       "tim": 25,
-      "f": 3,
+      "f": "h200",
       "solo": [
        "horno"
       ],
@@ -7795,7 +7795,7 @@
       "m": 18,
       "x": "Cinco minutos a fuego fuerte y, sin dejar de hervir, mete la paella en el horno a 200 °C unos trece minutos más, hasta que el grano esté hecho y el caldo, consumido. Pon {romero} encima al meterla.",
       "tim": 18,
-      "f": 3,
+      "f": "h200",
       "w": 1,
       "solo": [
        "horno"
@@ -8873,7 +8873,7 @@
       "m": 50,
       "x": "Calienta el horno a 200 °C. Reparte la cebolla, los pimientos y el calabacín en una bandeja grande, riega con {aceite}, sala y asa unos 40 minutos, removiendo a mitad de tiempo. Añade el tomate troceado, mezcla bien y deja 10 minutos más, hasta que no quede caldo.",
       "tim": 40,
-      "f": 3,
+      "f": "h200",
       "solo": [
        "horno"
       ],
@@ -10791,7 +10791,7 @@
       "m": 35,
       "x": "A 180 °C. Forra un molde redondo de unos 22 cm con papel de horno, vierte la masa y hornea de 30 a 35 minutos, hasta que esté dorada y al pinchar salga la aguja limpia.",
       "tim": 32,
-      "f": 0,
+      "f": "h180",
       "e": {
        "k": "horno",
        "t": "180 °C",
@@ -11389,7 +11389,7 @@
       "m": 10,
       "x": "Calienta el horno a 200 °C. Reparte la sopa en cazuelitas aptas para horno, casca {huevo} sobre cada una y hornea unos 8 minutos, hasta que la clara cuaje y la yema siga blanda.",
       "tim": 8,
-      "f": 3,
+      "f": "h200",
       "solo": [
        "horno"
       ],
@@ -13054,7 +13054,7 @@
       "m": 30,
       "x": "Calienta el horno a 200 °C. Reparte {patata} en rodajas, la berenjena y {pimrojo} en una o dos bandejas, pinta todo con aceite por los dos lados, sala y hornea unos 25 o 30 minutos, dándoles la vuelta a mitad, hasta que estén tiernas y doradas.",
       "tim": 25,
-      "f": 3,
+      "f": "h200",
       "solo": [
        "horno"
       ],
@@ -13087,7 +13087,7 @@
       "m": 25,
       "x": "En la freidora de aire a 200 °C, por tandas y sin amontonar: {patata} en rodajas unos 12-15 minutos, la berenjena unos 10 y {pimrojo} unos 8, sacudiendo la cesta a mitad de tiempo. Pinta todo ligeramente con aceite y sala.",
       "tim": 15,
-      "f": 3,
+      "f": "h200",
       "solo": [
        "aire"
       ],

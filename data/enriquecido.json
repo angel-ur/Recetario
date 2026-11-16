@@ -520,7 +520,7 @@
       "t": "Al horno o freidora de aire",
       "m": 12,
       "tim": 12,
-      "f": 0,
+      "f": "h200",
       "x": "Calienta el horno o la freidora de aire a 200 °C. Pon las croquetas en la bandeja sobre papel de horno, pulverízalas con aceite y hornea de 10 a 12 minutos, dándoles la vuelta a mitad, hasta que doren.",
       "ab": "No quedan como fritas, pero muy dignas: la costra cruje si el horno va bien caliente.",
       "e": {
@@ -3934,7 +3934,7 @@
       "m": 18,
       "tim": 18,
       "w": 1,
-      "f": 3,
+      "f": "h200",
       "x": "Cinco minutos a fuego fuerte y, sin dejar de hervir, mete la paella en el horno a 200 °C unos trece minutos más, hasta que el grano esté hecho y el caldo, consumido. Pon {romero} encima al meterla.",
       "ab": "El horno calienta por igual sin girar nada: es el truco para cuando el fuego de casa no da para una paella grande.",
       "e": {
@@ -4674,7 +4674,7 @@
       "t": "Las verduras, al horno",
       "m": 30,
       "tim": 25,
-      "f": 3,
+      "f": "h200",
       "x": "Calienta el horno a 200 °C. Reparte {patata} en rodajas, la berenjena y {pimrojo} en una o dos bandejas, pinta todo con aceite por los dos lados, sala y hornea unos 25 o 30 minutos, dándoles la vuelta a mitad, hasta que estén tiernas y doradas.",
       "ab": "Pintar con aceite, no bañar: la berenjena chupa lo que le pongas, así que poco y bien extendido.",
       "e": {
@@ -4707,7 +4707,7 @@
       "t": "En la freidora de aire",
       "m": 25,
       "tim": 15,
-      "f": 3,
+      "f": "h200",
       "x": "En la freidora de aire a 200 °C, por tandas y sin amontonar: {patata} en rodajas unos 12-15 minutos, la berenjena unos 10 y {pimrojo} unos 8, sacudiendo la cesta a mitad de tiempo. Pinta todo ligeramente con aceite y sala.",
       "ab": "Sin amontonar, que el aire tiene que correr: mejor tres tandas que una verdura pálida y gomosa.",
       "e": {
@@ -5751,7 +5751,7 @@
       "t": "Las verduras, asadas",
       "m": 50,
       "tim": 40,
-      "f": 3,
+      "f": "h200",
       "x": "Calienta el horno a 200 °C. Reparte la cebolla, los pimientos y el calabacín en una bandeja grande, riega con {aceite}, sala y asa unos 40 minutos, removiendo a mitad de tiempo. Añade el tomate troceado, mezcla bien y deja 10 minutos más, hasta que no quede caldo.",
       "ab": "Asado, el pisto queda más meloso y con un punto tostado. En verano, además, no se enciende el fuego.",
       "e": {
@@ -6126,7 +6126,7 @@
       "t": "Los huevos, al horno",
       "m": 10,
       "tim": 8,
-      "f": 3,
+      "f": "h200",
       "x": "Calienta el horno a 200 °C. Reparte la sopa en cazuelitas aptas para horno, casca {huevo} sobre cada una y hornea unos 8 minutos, hasta que la clara cuaje y la yema siga blanda.",
       "ab": "La yema tiene que quedar líquida, para romperla dentro de la sopa.",
       "e": {
@@ -7043,7 +7043,7 @@
       "t": "Las migas, al horno",
       "m": 35,
       "tim": 25,
-      "f": 3,
+      "f": "h200",
       "x": "Calienta el horno a 200 °C. Mezcla el pan humedecido con el aceite de freír la carne, extiéndelo en una bandeja amplia y hornea de 25 a 30 minutos, removiendo bien cada 8 minutos, hasta que esté dorado y suelto. Mezcla con {pimenton}, los ajos, la panceta y el chorizo.",
       "ab": "Cuanto más extendido el pan, más se tuesta. Remover tres veces, ni una menos: la capa de abajo se hace antes.",
       "e": {
@@ -8901,7 +8901,7 @@
       "t": "Molde y al horno",
       "m": 35,
       "tim": 32,
-      "f": 0,
+      "f": "h180",
       "x": "A 180 °C. Forra un molde redondo de unos 22 cm con papel de horno, vierte la masa y hornea de 30 a 35 minutos, hasta que esté dorada y al pinchar salga la aguja limpia.",
       "ab": "Si se dora demasiado pronto, cúbrela con un papel y sigue: la almendra se tuesta rápido.",
       "e": {
@@ -9621,7 +9621,7 @@
       "t": "Al horno",
       "m": 25,
       "tim": 20,
-      "f": 0,
+      "f": "h200",
       "w": 1,
       "solo": [
        "barro",
