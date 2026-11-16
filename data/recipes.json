@@ -9225,7 +9225,7 @@
      {
       "t": "Pochas en remojo",
       "m": 720,
-      "x": "Pon las pochas de navarra en remojo en agua fría, unas doce horas.",
+      "x": "Pon las {pocha} en remojo en agua fría, unas doce horas.",
       "f": 0,
       "pre": 1,
       "e": {
@@ -9321,7 +9321,7 @@
      {
       "t": "Pochas al agua fría",
       "m": 5,
-      "x": "Añade las pochas de navarra escurridas y la hoja de laurel, y cubre con agua fría dos dedos por encima.",
+      "x": "Añade las {pocha} escurridas y la {laurel}, y cubre con agua fría dos dedos por encima.",
       "f": 0,
       "solo": [
        "olla",
@@ -9417,7 +9417,7 @@
      {
       "t": "El guiso, en el robot",
       "m": 60,
-      "x": "Pon {pochas} en el vaso, vuelca encima el sofrito y cubre con agua caliente hasta dos dedos por encima, sin pasar nunca del límite del vaso de tu robot (si no cabe, haz media receta). Programa 60 minutos a 100 °C con giro a la izquierda, velocidad cuchara y la mariposa puesta. La alubia seca es cabezona: puede pedir hasta una hora y media; prueba una y, si va dura, alarga en bloques de 15 minutos.",
+      "x": "Pon {pocha} en el vaso, vuelca encima el sofrito y cubre con agua caliente hasta dos dedos por encima, sin pasar nunca del límite del vaso de tu robot (si no cabe, haz media receta). Programa 60 minutos a 100 °C con giro a la izquierda, velocidad cuchara y la mariposa puesta. La alubia seca es cabezona: puede pedir hasta una hora y media; prueba una y, si va dura, alarga en bloques de 15 minutos.",
       "tim": 60,
       "f": 0,
       "w": 1,

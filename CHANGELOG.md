@@ -4,6 +4,8 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
 
+- Corrige la clave de ingrediente del guiso de pochas en robot ({pocha}), que quedaba literal en la web.
+
 - Pulpo, riojana y pochas: pastilla de duración y temporizador alineados en el mínimo del rango (11, 5, 12 y 25/60 min), para que no parezcan instrucciones contradictorias; el rango completo sigue en el texto del paso.
 - Pochas en robot: tiempo de guiso con evidencia de alubia seca remojada (60 min iniciales, puede pedir hasta 1 h 30; alarga de 15 en 15), límite de llenado del vaso explícito y nota honesta sobre la piel (mariposa; susto opcional parando la máquina).
 - Riojana en robot: aviso de capacidad del vaso (media receta si no cabe) y duración alineada a 25 min.
