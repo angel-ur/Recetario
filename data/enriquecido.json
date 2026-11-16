@@ -6746,7 +6746,35 @@
         ]
        ],
        "vierte": "aceite"
-      }
+      },
+      "solo": [
+       "mortero"
+      ]
+     },
+     {
+      "t": "La salsa, en batidora",
+      "m": 10,
+      "f": 0,
+      "x": "En el vaso de la batidora (o con la túrmix en un vaso alto), pon los ajos asados con sal, {almendra}, {avellana}, {pans}, la carne de ñora y el tomate, y tritúralo todo. Con la máquina en marcha, añade {aceite} en hilo y luego {vinagre}, hasta tener una salsa espesa.",
+      "ab": "En batidora queda más fina. Si quieres la textura rústica del mortero, pica los frutos secos a cuchillo y mézclalos al final.",
+      "e": {
+       "k": "bol",
+       "c": "#B8432C",
+       "i": [
+        [
+         "ajo",
+         2
+        ],
+        [
+         "tomate",
+         2
+        ]
+       ],
+       "vierte": "aceite"
+      },
+      "solo": [
+       "batidora"
+      ]
      }
     ]
    },
@@ -6820,7 +6848,23 @@
    [
     "La salsa aguanta",
     "Hecha la víspera está todavía mejor. Guárdala tapada en la nevera."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien le da unas gotas de coñac a la salsa, quien la hace solo con almendras y quien desmiga también las anchoas dentro de la salsa. En la ruta del xató de Vilanova la sirven generosa, que casi hay más salsa que escarola."
    ]
+  ],
+  "met": [
+   {
+    "id": "mortero",
+    "n": "En el mortero, la de siempre",
+    "d": "a brazo, con textura rústica"
+   },
+   {
+    "id": "batidora",
+    "n": "La salsa en batidora",
+    "d": "la misma salsa triturada, 10 minutos"
+   }
   ]
  },
  {
@@ -6990,7 +7034,54 @@
        ],
        "cuchara": 1,
        "agita": 1
-      }
+      },
+      "solo": [
+       "sarten"
+      ]
+     },
+     {
+      "t": "Las migas, al horno",
+      "m": 35,
+      "tim": 25,
+      "f": 3,
+      "x": "Calienta el horno a 200 °C. Mezcla el pan humedecido con el aceite de freír la carne, extiéndelo en una bandeja amplia y hornea de 25 a 30 minutos, removiendo bien cada 8 minutos, hasta que esté dorado y suelto. Mezcla con {pimenton}, los ajos, la panceta y el chorizo.",
+      "ab": "Cuanto más extendido el pan, más se tuesta. Remover tres veces, ni una menos: la capa de abajo se hace antes.",
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "bandeja",
+       "c": "#C89B5A",
+       "i": [
+        [
+         "ajo",
+         3
+        ]
+       ]
+      },
+      "solo": [
+       "horno"
+      ]
+     },
+     {
+      "t": "Las migas, en el robot",
+      "m": 32,
+      "tim": 30,
+      "f": 0,
+      "x": "En el robot con la pala, pon el pan humedecido con el aceite de freír la carne y programa 30 minutos a 100 °C, velocidad suave, sin tapar demasiado para que suelte el vapor. Añade {pimenton}, los ajos, la panceta y el chorizo y dale 2 minutos más.",
+      "ab": "La pala las mueve sola, pero la gracia está igual: que queden sueltas y doradas, no apelmazadas.",
+      "e": {
+       "k": "bol",
+       "c": "#C89B5A",
+       "i": [
+        [
+         "ajo",
+         3
+        ]
+       ]
+      },
+      "solo": [
+       "robot"
+      ]
      },
      {
       "t": "Pimentón y carne",
@@ -7022,7 +7113,10 @@
         ]
        ],
        "polvo": "#8E1B13"
-      }
+      },
+      "solo": [
+       "sarten"
+      ]
      },
      {
       "t": "Sirve",
@@ -7069,7 +7163,28 @@
    [
     "Cada casa, su compaña",
     "En unas casas con uvas, en otras con melón, sardinas, pimientos fritos o un huevo frito."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien las hace solo con ajos, sin carne, y quien les pone pimientos fritos o unas sardinas encima. En Teruel las rematan con un huevo frito y en La Mancha, con uvas o granada. Y hay casas que rocían el pan con leche en vez de agua con sal, que quedan más tiernas."
    ]
+  ],
+  "met": [
+   {
+    "id": "sarten",
+    "n": "En sartén, a brazo",
+    "d": "la de siempre, 25 minutos sin parar"
+   },
+   {
+    "id": "horno",
+    "n": "Al horno, en bandeja",
+    "d": "sin dar vueltas: removiendo tres veces"
+   },
+   {
+    "id": "robot",
+    "n": "En robot de cocina",
+    "d": "la pala las mueve por ti, 30 minutos"
+   }
   ]
  },
  {
