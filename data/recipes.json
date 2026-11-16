@@ -7825,6 +7825,23 @@
    4,
    6
   ],
+  "met": [
+   {
+    "id": "siempre",
+    "n": "Olla y mortero, la de siempre",
+    "d": "25 minutos de cocción y mojos al mortero"
+   },
+   {
+    "id": "expres",
+    "n": "En olla exprés",
+    "d": "6 minutos con presión, mojos al mortero"
+   },
+   {
+    "id": "batidora",
+    "n": "Los mojos en batidora",
+    "d": "las papas en olla y los mojos triturados"
+   }
+  ],
   "heroe": {
    "k": "ilu",
    "svg": "<defs><radialGradient id=\"i_papas_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_papas_fondo)\"/><defs><radialGradient id=\"i_papas_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><radialGradient id=\"i_papas_mojo1\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#C03418\"/><stop offset=\"1\" stop-color=\"#8E2410\"/></radialGradient><radialGradient id=\"i_papas_mojo2\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#4E7A2E\"/><stop offset=\"1\" stop-color=\"#355A1C\"/></radialGradient></defs><ellipse cx=\"140\" cy=\"152\" rx=\"104\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.25\"/><ellipse cx=\"140\" cy=\"110\" rx=\"112\" ry=\"48\" fill=\"#D4CCBB\"/><ellipse cx=\"140\" cy=\"106\" rx=\"112\" ry=\"48\" fill=\"url(#i_papas_pl)\"/><ellipse cx=\"140\" cy=\"108\" rx=\"88\" ry=\"34\" fill=\"none\" style=\"stroke:var(--anil)\" stroke-width=\"3.5\"/><ellipse cx=\"96\" cy=\"103\" rx=\"17\" ry=\"8\" fill=\"#000\" opacity=\".14\"/><g transform=\"translate(96 100) rotate(-15)\"><ellipse rx=\"17\" ry=\"12\" fill=\"#4A3A2C\"/><ellipse rx=\"14\" ry=\"9\" fill=\"#5C4A38\"/><path d=\"M-8 -6q2 6 0 12\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M-3 -6q2 6 0 12\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M3 -6q2 6 0 12\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M9 -6q2 6 0 12\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/></g><ellipse cx=\"132\" cy=\"95\" rx=\"19\" ry=\"10\" fill=\"#000\" opacity=\".14\"/><g transform=\"translate(132 92) rotate(10)\"><ellipse rx=\"19\" ry=\"13\" fill=\"#4A3A2C\"/><ellipse rx=\"15\" ry=\"10\" fill=\"#5C4A38\"/><path d=\"M-10 -7q2 7 0 13\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M-3 -7q2 7 0 13\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M3 -7q2 7 0 13\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M10 -7q2 7 0 13\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/></g><ellipse cx=\"168\" cy=\"103\" rx=\"17\" ry=\"8\" fill=\"#000\" opacity=\".14\"/><g transform=\"translate(168 100) rotate(30)\"><ellipse rx=\"17\" ry=\"12\" fill=\"#4A3A2C\"/><ellipse rx=\"14\" ry=\"9\" fill=\"#5C4A38\"/><path d=\"M-8 -6q2 6 0 12\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M-3 -6q2 6 0 12\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M3 -6q2 6 0 12\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M9 -6q2 6 0 12\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/></g><ellipse cx=\"112\" cy=\"121\" rx=\"15\" ry=\"8\" fill=\"#000\" opacity=\".14\"/><g transform=\"translate(112 118) rotate(45)\"><ellipse rx=\"15\" ry=\"10\" fill=\"#4A3A2C\"/><ellipse rx=\"12\" ry=\"8\" fill=\"#5C4A38\"/><path d=\"M-8 -5q2 5 0 10\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M-2 -5q2 5 0 10\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M3 -5q2 5 0 10\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M8 -5q2 5 0 10\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/></g><ellipse cx=\"152\" cy=\"117\" rx=\"16\" ry=\"8\" fill=\"#000\" opacity=\".14\"/><g transform=\"translate(152 114) rotate(-30)\"><ellipse rx=\"16\" ry=\"11\" fill=\"#4A3A2C\"/><ellipse rx=\"13\" ry=\"8\" fill=\"#5C4A38\"/><path d=\"M-8 -6q2 6 0 11\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M-3 -6q2 6 0 11\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M3 -6q2 6 0 11\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M8 -6q2 6 0 11\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/></g><ellipse cx=\"136\" cy=\"113\" rx=\"14\" ry=\"7\" fill=\"#000\" opacity=\".14\"/><g transform=\"translate(136 110) rotate(0)\"><ellipse rx=\"14\" ry=\"10\" fill=\"#4A3A2C\"/><ellipse rx=\"11\" ry=\"7\" fill=\"#5C4A38\"/><path d=\"M-7 -5q2 5 0 10\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M-2 -5q2 5 0 10\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M3 -5q2 5 0 10\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/><path d=\"M7 -5q2 5 0 10\" stroke=\"#3A2C20\" stroke-width=\"1.1\" fill=\"none\" opacity=\".7\"/></g><circle cx=\"78.3\" cy=\"104.5\" r=\"0.8\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"122.7\" cy=\"107.4\" r=\"1.1\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"144.0\" cy=\"115.3\" r=\"1.2\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"153.4\" cy=\"106.9\" r=\"0.9\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"147.1\" cy=\"90.0\" r=\"1.1\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"154.6\" cy=\"97.8\" r=\"1.0\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"157.6\" cy=\"120.8\" r=\"0.7\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"133.5\" cy=\"91.0\" r=\"1.0\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"153.8\" cy=\"123.6\" r=\"0.9\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"78.1\" cy=\"110.0\" r=\"1.1\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"119.9\" cy=\"113.5\" r=\"1.2\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"122.7\" cy=\"86.9\" r=\"1.0\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"150.3\" cy=\"100.3\" r=\"0.9\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"150.0\" cy=\"87.5\" r=\"1.1\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"110.0\" cy=\"91.4\" r=\"1.0\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"81.0\" cy=\"113.2\" r=\"0.9\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"130.7\" cy=\"116.3\" r=\"0.8\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"99.0\" cy=\"92.9\" r=\"0.7\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"131.5\" cy=\"124.7\" r=\"0.9\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"114.1\" cy=\"91.6\" r=\"0.8\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"177.4\" cy=\"100.9\" r=\"0.8\" fill=\"#FBF6E6\" opacity=\".9\"/><circle cx=\"104.2\" cy=\"98.3\" r=\"1.2\" fill=\"#FBF6E6\" opacity=\".9\"/><ellipse cx=\"258\" cy=\"120.0\" rx=\"24.0\" ry=\"8\" fill=\"#4A2E10\" opacity=\"0.25\"/><path d=\"M228 92c2 18 10 24 30 24s24-6 30 -24z\" fill=\"#F4F0E6\"/><ellipse cx=\"258\" cy=\"92\" rx=\"30\" ry=\"8\" fill=\"#E4DECF\"/><ellipse cx=\"258\" cy=\"93\" rx=\"25\" ry=\"6\" fill=\"url(#i_papas_mojo1)\"/><ellipse cx=\"250\" cy=\"164.8\" rx=\"20.8\" ry=\"8\" fill=\"#4A2E10\" opacity=\"0.25\"/><path d=\"M224 140c2 16 9 21 26 21s20-5 26 -21z\" fill=\"#F4F0E6\"/><ellipse cx=\"250\" cy=\"140\" rx=\"26\" ry=\"7\" fill=\"#E4DECF\"/><ellipse cx=\"250\" cy=\"141\" rx=\"21\" ry=\"5\" fill=\"url(#i_papas_mojo2)\"/><ellipse cx=\"250\" cy=\"90\" rx=\"10\" ry=\"1.6\" fill=\"#fff\" opacity=\".3\"/>"
@@ -7845,6 +7862,10 @@
    [
     "El agua justa",
     "Si pones mucha agua no se arrugan: tiene que evaporarse casi del todo en la olla."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien le echa un pimiento rojo asado al mojo picón y quien no concibe el verde sin un punto de comino. Con gofio escaldado o un pescado frito es comida completa. Y si la costra de sal te asusta, enjuágalas medio segundo al sacarlas: la sal se queda en la piel."
    ]
   ],
   "ing": [
@@ -7938,9 +7959,13 @@
      {
       "t": "Cuece con mucha sal",
       "m": 25,
-      "x": "Lava bien 1 kg de papas pequeñas (mejor papa negra o bonita) sin pelar y ponlas en una olla con agua que apenas las cubra (1 litro) y 150 g de sal gorda. Cuécelas 20-25 minutos, hasta que se pinchen con facilidad.",
+      "x": "Lava bien {papa} sin pelar y ponlas en una olla con agua que apenas las cubra y {salg}. Cuécelas unos 20 o 25 minutos, hasta que se pinchen con facilidad.",
       "tim": 25,
       "f": 3,
+      "solo": [
+       "siempre",
+       "batidora"
+      ],
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -7954,7 +7979,35 @@
        ],
        "burbujas": 1
       },
-      "ab": "Poca agua y mucha sal, «como agua de mar» (unos 150 g por litro): la sal sube la temperatura de ebullición y forma la costra blanca. Por eso luego se cubren de sal blanca."
+      "ab": "Poca agua y mucha sal, «como agua de mar». Por eso luego se cubren de sal blanca."
+     },
+     {
+      "t": "En la exprés, con su sal",
+      "m": 12,
+      "x": "Lava bien {papa} sin pelar y ponlas en la olla exprés con agua que apenas las cubra y {salg}. Cierra y, desde que suba la válvula, cuece 6 minutos a fuego suave. Suelta la presión y abre.",
+      "tim": 6,
+      "f": 2,
+      "w": 1,
+      "solo": [
+       "expres"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 3,
+       "c": "#BFDDF2",
+       "i": [
+        [
+         "papa",
+         10
+        ]
+       ],
+       "burbujas": 1,
+       "tapa": 1,
+       "vapor": 1,
+       "reloj": "6 min"
+      },
+      "ab": "Seis minutos justos: las papas pequeñas se pasan en un descuido y se rompen al arrugarlas."
      },
      {
       "t": "Arrúgalas",
@@ -7986,8 +8039,12 @@
      {
       "t": "Mojo picón",
       "m": 10,
-      "x": "En el mortero, maja 4 dientes de ajo con 2 pimientas palmeras o guindillas secas sin semillas, 1 cucharadita de comino en grano y una pizca de sal gorda. Añade 1 cucharadita de pimentón dulce y ve incorporando 100 ml de aceite de oliva y 2 cucharadas de vinagre de vino poco a poco.",
+      "x": "En el mortero, maja {ajo} con {guindilla} sin semillas, {comino} y una pizca de sal gorda. Añade {pimenton} y ve incorporando {aceite} y {vinagre} poco a poco.",
       "f": 0,
+      "solo": [
+       "siempre",
+       "expres"
+      ],
       "e": {
        "k": "mortero",
        "c": "#B83A22",
@@ -8009,13 +8066,42 @@
        ],
        "vierte": "aceite"
       },
-      "ab": "En el mortero, no en batidora: la textura rústica es la gracia. El aceite, en hilo, para que ligue."
+      "ab": "El aceite, en hilo y poco a poco, para que el mojo ligue. En el mortero queda rústico, que es la gracia."
+     },
+     {
+      "t": "Mojo picón en batidora",
+      "m": 10,
+      "x": "En el vaso de la batidora, pon {ajo}, {guindilla} sin semillas, {comino} y una pizca de sal gorda, y tritúralo. Añade {pimenton} y, con la batidora en marcha, echa {aceite} en hilo y luego {vinagre}, hasta que ligue.",
+      "f": 0,
+      "solo": [
+       "batidora"
+      ],
+      "e": {
+       "k": "bol",
+       "c": "#B83A22",
+       "i": [
+        [
+         "ajo",
+         3
+        ],
+        [
+         "guindilla",
+         2
+        ]
+       ],
+       "vierte": "aceite"
+      },
+      "ab": "En batidora liga antes y queda más fino. Si lo quieres rústico, pica las guindillas a cuchillo y mézclalas al final."
      },
      {
       "t": "Mojo verde",
       "m": 10,
-      "x": "Maja 2 dientes de ajo con una pizca de sal, añade 1 manojo de cilantro y 1 pimiento verde picados y machácalos bien. Liga con 80 ml de aceite de oliva y 1 cucharada de vinagre de vino.",
+      "x": "Maja {ajov} con sal, añade {cilantro} y {pimiento} picados y machácalos bien. Liga con {aceitev} y {vinagrev}.",
       "f": 0,
+      "solo": [
+       "siempre",
+       "expres"
+      ],
       "e": {
        "k": "mortero",
        "c": "#5E8C2E",
@@ -8035,6 +8121,31 @@
          1
         ]
        ]
+      },
+      "ab": "Hay casas de mojo verde con cilantro y casas con perejil. Las dos son de verdad."
+     },
+     {
+      "t": "Mojo verde en batidora",
+      "m": 10,
+      "x": "Tritura {ajov} con sal, {cilantro} y {pimiento} en el vaso de la batidora y liga con {aceitev} en hilo y {vinagrev}.",
+      "f": 0,
+      "solo": [
+       "batidora"
+      ],
+      "e": {
+       "k": "bol",
+       "c": "#5E8C2E",
+       "i": [
+        [
+         "perejil",
+         3
+        ],
+        [
+         "pimiento",
+         2
+        ]
+       ],
+       "vierte": "aceite"
       },
       "ab": "Hay casas de mojo verde con cilantro y casas con perejil. Las dos son de verdad."
      },
@@ -12356,6 +12467,23 @@
    4,
    6
   ],
+  "met": [
+   {
+    "id": "sarten",
+    "n": "Frita en sartén, la de siempre",
+    "d": "cada verdura por separado, en buen aceite"
+   },
+   {
+    "id": "horno",
+    "n": "Las verduras al horno",
+    "d": "menos aceite, 25 min a 200 °C"
+   },
+   {
+    "id": "aire",
+    "n": "En freidora de aire",
+    "d": "200 °C, por tandas"
+   }
+  ],
   "heroe": {
    "k": "ilu",
    "svg": "<defs><radialGradient id=\"i_tumbet_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_tumbet_fondo)\"/><defs><radialGradient id=\"i_tumbet_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_tumbet_barro\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_tumbet_tom\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#C23418\"/><stop offset=\"1\" stop-color=\"#96220E\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"152\" rx=\"116\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M48 92c0 34 28 52 112 52s112-18 112-52z\" fill=\"url(#i_tumbet_barro)\"/><rect x=\"22\" y=\"88\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><rect x=\"268\" y=\"88\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"92\" rx=\"112\" ry=\"26\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"92\" rx=\"104\" ry=\"22\" fill=\"url(#i_tumbet_tom)\"/><g transform=\"translate(242.0 92.0) rotate(90)\"><ellipse rx=\"16\" ry=\"8.5\" fill=\"#F2E0A8\"/><ellipse rx=\"12\" ry=\"5.5\" fill=\"#F8ECC0\"/></g><g transform=\"translate(222.8 102.6) rotate(130)\"><ellipse rx=\"16\" ry=\"8.5\" fill=\"#6A4A5E\"/><ellipse rx=\"12\" ry=\"5.5\" fill=\"#7E5A70\"/></g><g transform=\"translate(174.2 108.2) rotate(170)\"><ellipse rx=\"16\" ry=\"8.5\" fill=\"#F2E0A8\"/><ellipse rx=\"12\" ry=\"5.5\" fill=\"#F8ECC0\"/></g><g transform=\"translate(119.0 106.3) rotate(210)\"><ellipse rx=\"16\" ry=\"8.5\" fill=\"#6A4A5E\"/><ellipse rx=\"12\" ry=\"5.5\" fill=\"#7E5A70\"/></g><g transform=\"translate(82.9 97.6) rotate(250)\"><ellipse rx=\"16\" ry=\"8.5\" fill=\"#F2E0A8\"/><ellipse rx=\"12\" ry=\"5.5\" fill=\"#F8ECC0\"/></g><g transform=\"translate(82.9 86.4) rotate(290)\"><ellipse rx=\"16\" ry=\"8.5\" fill=\"#6A4A5E\"/><ellipse rx=\"12\" ry=\"5.5\" fill=\"#7E5A70\"/></g><g transform=\"translate(119.0 77.7) rotate(330)\"><ellipse rx=\"16\" ry=\"8.5\" fill=\"#F2E0A8\"/><ellipse rx=\"12\" ry=\"5.5\" fill=\"#F8ECC0\"/></g><g transform=\"translate(174.2 75.8) rotate(370)\"><ellipse rx=\"16\" ry=\"8.5\" fill=\"#6A4A5E\"/><ellipse rx=\"12\" ry=\"5.5\" fill=\"#7E5A70\"/></g><g transform=\"translate(222.8 81.4) rotate(410)\"><ellipse rx=\"16\" ry=\"8.5\" fill=\"#F2E0A8\"/><ellipse rx=\"12\" ry=\"5.5\" fill=\"#F8ECC0\"/></g><ellipse cx=\"160\" cy=\"90\" rx=\"64\" ry=\"14\" fill=\"url(#i_tumbet_tom)\"/><ellipse cx=\"223.9\" cy=\"96.5\" rx=\"6.0\" ry=\"1.6\" fill=\"#D04828\" opacity=\".8\"/><ellipse cx=\"195.8\" cy=\"98.9\" rx=\"5.7\" ry=\"1.8\" fill=\"#B83A1C\" opacity=\".8\"/><ellipse cx=\"124.1\" cy=\"101.1\" rx=\"3.5\" ry=\"2.1\" fill=\"#D04828\" opacity=\".8\"/><ellipse cx=\"199.0\" cy=\"99.1\" rx=\"5.4\" ry=\"2.1\" fill=\"#B83A1C\" opacity=\".8\"/><ellipse cx=\"210.8\" cy=\"95.9\" rx=\"3.2\" ry=\"2.4\" fill=\"#B83A1C\" opacity=\".8\"/><ellipse cx=\"142.1\" cy=\"95.4\" rx=\"3.1\" ry=\"2.6\" fill=\"#B83A1C\" opacity=\".8\"/><ellipse cx=\"164.5\" cy=\"95.1\" rx=\"4.0\" ry=\"2.3\" fill=\"#A82810\" opacity=\".8\"/><ellipse cx=\"131.3\" cy=\"85.6\" rx=\"5.0\" ry=\"1.8\" fill=\"#D04828\" opacity=\".8\"/><ellipse cx=\"102.4\" cy=\"87.4\" rx=\"5.3\" ry=\"2.0\" fill=\"#B83A1C\" opacity=\".8\"/><ellipse cx=\"205.0\" cy=\"85.9\" rx=\"6.0\" ry=\"2.5\" fill=\"#B83A1C\" opacity=\".8\"/><ellipse cx=\"206.4\" cy=\"81.3\" rx=\"5.7\" ry=\"2.2\" fill=\"#D04828\" opacity=\".8\"/><ellipse cx=\"112.1\" cy=\"80.5\" rx=\"4.8\" ry=\"1.9\" fill=\"#D04828\" opacity=\".8\"/><ellipse cx=\"177.0\" cy=\"81.2\" rx=\"3.7\" ry=\"2.1\" fill=\"#D04828\" opacity=\".8\"/><ellipse cx=\"74.7\" cy=\"94.9\" rx=\"3.9\" ry=\"2.1\" fill=\"#A82810\" opacity=\".8\"/><ellipse cx=\"240.7\" cy=\"96.8\" rx=\"4.3\" ry=\"1.6\" fill=\"#B83A1C\" opacity=\".8\"/><ellipse cx=\"202.1\" cy=\"81.7\" rx=\"5.0\" ry=\"2.2\" fill=\"#B83A1C\" opacity=\".8\"/><ellipse cx=\"192.2\" cy=\"95.9\" rx=\"3.9\" ry=\"2.5\" fill=\"#D04828\" opacity=\".8\"/><ellipse cx=\"136.9\" cy=\"89.4\" rx=\"3.6\" ry=\"1.7\" fill=\"#A82810\" opacity=\".8\"/><ellipse cx=\"125.7\" cy=\"82.4\" rx=\"4.9\" ry=\"1.7\" fill=\"#B83A1C\" opacity=\".8\"/><ellipse cx=\"165.3\" cy=\"90.9\" rx=\"5.7\" ry=\"2.5\" fill=\"#B83A1C\" opacity=\".8\"/><ellipse cx=\"150.6\" cy=\"79.7\" rx=\"3.3\" ry=\"1.6\" fill=\"#B83A1C\" opacity=\".8\"/><ellipse cx=\"242.2\" cy=\"92.7\" rx=\"3.8\" ry=\"1.6\" fill=\"#B83A1C\" opacity=\".8\"/><ellipse cx=\"175.1\" cy=\"74.0\" rx=\"5.3\" ry=\"1.5\" fill=\"#B83A1C\" opacity=\".8\"/><ellipse cx=\"213.4\" cy=\"91.1\" rx=\"4.2\" ry=\"1.9\" fill=\"#A82810\" opacity=\".8\"/><ellipse cx=\"128.5\" cy=\"92.2\" rx=\"4.3\" ry=\"2.2\" fill=\"#B83A1C\" opacity=\".8\"/><ellipse cx=\"181.0\" cy=\"86.2\" rx=\"4.3\" ry=\"1.9\" fill=\"#D04828\" opacity=\".8\"/><g transform=\"translate(110 84) rotate(20)\"><rect x=\"-14\" y=\"-3\" width=\"28\" height=\"6\" rx=\"3\" fill=\"#4E7A2E\"/><rect x=\"-12\" y=\"-2\" width=\"24\" height=\"2\" rx=\"1\" fill=\"#6E9A3E\"/></g><g transform=\"translate(150 94) rotate(-15)\"><rect x=\"-14\" y=\"-3\" width=\"28\" height=\"6\" rx=\"3\" fill=\"#4E7A2E\"/><rect x=\"-12\" y=\"-2\" width=\"24\" height=\"2\" rx=\"1\" fill=\"#6E9A3E\"/></g><g transform=\"translate(196 86) rotate(40)\"><rect x=\"-14\" y=\"-3\" width=\"28\" height=\"6\" rx=\"3\" fill=\"#4E7A2E\"/><rect x=\"-12\" y=\"-2\" width=\"24\" height=\"2\" rx=\"1\" fill=\"#6E9A3E\"/></g><ellipse cx=\"128\" cy=\"84\" rx=\"22\" ry=\"2.6\" fill=\"#fff\" opacity=\".3\"/>"
@@ -12376,6 +12504,10 @@
    [
     "El aceite se aprovecha",
     "Fríe de más suave a más fuerte de sabor y filtra el aceite después: aún sirve para otra fritura."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien añade una capa de calabacín frito y quien pone ajos tiernos entre las capas. Con un huevo frito encima es cena completa, y hay quien lo gratina con un poco de queso, aunque eso ya no es tumbet de libro."
    ]
   ],
   "ing": [
@@ -12438,7 +12570,7 @@
      {
       "t": "Sala la berenjena",
       "m": 30,
-      "x": "Corta 2 berenjenas en rodajas de medio centímetro, sálalas con 1 cucharadita de sal y déjalas en un colador 30 minutos. Sécalas con papel.",
+      "x": "Corta {berenjena} en rodajas de medio centímetro, sálalas y déjalas en un colador media hora. Sécalas con papel.",
       "tim": 30,
       "f": 0,
       "w": 1,
@@ -12458,7 +12590,7 @@
      {
       "t": "Salsa de tomate lenta",
       "m": 30,
-      "x": "Mientras, sofríe 3 dientes de ajo laminados en 2 cucharadas del aceite, añade 800 g de tomates maduros pelados y troceados, 1 cucharadita de sal y 1 cucharadita de azúcar, y deja que se haga despacio 30 minutos, hasta que espese.",
+      "x": "Mientras, sofríe {ajo} en láminas con un poco de aceite, añade {tomate} pelados y troceados, sal y {azucar}, y deja que se haga despacio media hora, hasta que espese.",
       "tim": 30,
       "f": 2,
       "durante": 1,
@@ -12490,9 +12622,12 @@
      {
       "t": "Fríe la patata",
       "m": 15,
-      "x": "Fríe 600 g de patatas en rodajas de 3-4 mm en el aceite de oliva (400 ml, a unos 160 °C) 10-12 minutos, hasta que estén tiernas y doradas. Escúrrelas y sálalas.",
+      "x": "Fríe {patata} en rodajas finas en {aceite} hasta que estén tiernas y doradas. Escúrrelas y sálalas.",
       "tim": 12,
       "f": 4,
+      "solo": [
+       "sarten"
+      ],
       "e": {
        "k": "fuego",
        "v": "sarten",
@@ -12511,10 +12646,13 @@
      {
       "t": "Fríe berenjena y pimiento",
       "m": 15,
-      "x": "En el mismo aceite, fríe la berenjena hasta que esté dorada y luego 2 pimientos rojos en tiras, 5-6 minutos cada uno. Escurre todo sobre papel.",
+      "x": "En el mismo aceite, fríe la berenjena hasta que esté dorada y luego {pimrojo} en tiras. Escurre todo sobre papel.",
       "tim": 12,
       "f": 4,
       "enlaza": true,
+      "solo": [
+       "sarten"
+      ],
       "e": {
        "k": "fuego",
        "v": "sarten",
@@ -12535,6 +12673,72 @@
        "burbujas": "#F7DC8F"
       },
       "ab": "El aceite, siempre caliente: la berenjena en aceite tibio se empapa como una esponja."
+     },
+     {
+      "t": "Las verduras, al horno",
+      "m": 30,
+      "x": "Calienta el horno a 200 °C. Reparte {patata} en rodajas, la berenjena y {pimrojo} en una o dos bandejas, pinta todo con aceite por los dos lados, sala y hornea unos 25 o 30 minutos, dándoles la vuelta a mitad, hasta que estén tiernas y doradas.",
+      "tim": 25,
+      "f": 3,
+      "solo": [
+       "horno"
+      ],
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "bandeja",
+       "c": "#E3C062",
+       "i": [
+        [
+         "patata",
+         6
+        ],
+        [
+         "berenjena",
+         4
+        ],
+        [
+         "pimiento",
+         3,
+         1,
+         "rojo"
+        ]
+       ]
+      },
+      "ab": "Pintar con aceite, no bañar: la berenjena chupa lo que le pongas, así que poco y bien extendido."
+     },
+     {
+      "t": "En la freidora de aire",
+      "m": 25,
+      "x": "En la freidora de aire a 200 °C, por tandas y sin amontonar: {patata} en rodajas unos 12-15 minutos, la berenjena unos 10 y {pimrojo} unos 8, sacudiendo la cesta a mitad de tiempo. Pinta todo ligeramente con aceite y sala.",
+      "tim": 15,
+      "f": 3,
+      "solo": [
+       "aire"
+      ],
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "bandeja",
+       "c": "#E3C062",
+       "i": [
+        [
+         "patata",
+         6
+        ],
+        [
+         "berenjena",
+         4
+        ],
+        [
+         "pimiento",
+         3,
+         1,
+         "rojo"
+        ]
+       ]
+      },
+      "ab": "Sin amontonar, que el aire tiene que correr: mejor tres tandas que una verdura pálida y gomosa."
      }
     ]
    },
@@ -12573,7 +12777,7 @@
      {
       "t": "Un golpe de horno",
       "m": 15,
-      "x": "Si quieres, mételo 10-15 minutos en el horno a 180 °C para que se asienten los sabores. Se toma templado.",
+      "x": "Si quieres, dale un golpe de horno de diez o quince minutos a 180 °C para que se asienten los sabores. Se toma templado.",
       "tim": 15,
       "f": "h180",
       "w": 1,

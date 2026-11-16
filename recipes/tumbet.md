@@ -28,30 +28,34 @@ Patata, berenjena y pimiento fritos por separado y una salsa de tomate de cocci�
 
 ### Preparar
 
-1. **Sala la berenjena** (30 min) - Corta 2 berenjenas en rodajas de medio centímetro, sálalas con 1 cucharadita de sal y déjalas en un colador 30 minutos. Sécalas con papel.
+1. **Sala la berenjena** (30 min) - Corta berenjenas en rodajas de medio centímetro, sálalas y déjalas en un colador media hora. Sécalas con papel.
    > La sal le saca el amargor y el agua, y luego chupa mucho menos aceite al freírla.
-2. **Salsa de tomate lenta** (30 min) - Mientras, sofríe 3 dientes de ajo laminados en 2 cucharadas del aceite, añade 800 g de tomates maduros pelados y troceados, 1 cucharadita de sal y 1 cucharadita de azúcar, y deja que se haga despacio 30 minutos, hasta que espese.
+2. **Salsa de tomate lenta** (30 min) - Mientras, sofríe dientes de ajo en láminas con un poco de aceite, añade tomates maduros pelados y troceados, sal y azúcar, y deja que se haga despacio media hora, hasta que espese.
    > La pizca de azúcar corrige la acidez del tomate. Tiene que quedar espesa, casi como una mermelada.
 
 ### Freír
 
-3. **Fríe la patata** (15 min) - Fríe 600 g de patatas en rodajas de 3-4 mm en el aceite de oliva (400 ml, a unos 160 °C) 10-12 minutos, hasta que estén tiernas y doradas. Escúrrelas y sálalas.
+3. **Fríe la patata** (15 min) - Fríe patatas en rodajas finas en aceite de oliva para freír hasta que estén tiernas y doradas. Escúrrelas y sálalas.
    > Cada verdura se fríe por separado, porque cada una necesita su tiempo.
-4. **Fríe berenjena y pimiento** (15 min) - En el mismo aceite, fríe la berenjena hasta que esté dorada y luego 2 pimientos rojos en tiras, 5-6 minutos cada uno. Escurre todo sobre papel.
+4. **Fríe berenjena y pimiento** (15 min) - En el mismo aceite, fríe la berenjena hasta que esté dorada y luego pimientos rojos en tiras. Escurre todo sobre papel.
    > El aceite, siempre caliente: la berenjena en aceite tibio se empapa como una esponja.
+5. **Las verduras, al horno** (30 min) - Calienta el horno a 200 °C. Reparte patatas en rodajas, la berenjena y pimientos rojos en una o dos bandejas, pinta todo con aceite por los dos lados, sala y hornea unos 25 o 30 minutos, dándoles la vuelta a mitad, hasta que estén tiernas y doradas.
+   > Pintar con aceite, no bañar: la berenjena chupa lo que le pongas, así que poco y bien extendido.
+6. **En la freidora de aire** (25 min) - En la freidora de aire a 200 °C, por tandas y sin amontonar: patatas en rodajas unos 12-15 minutos, la berenjena unos 10 y pimientos rojos unos 8, sacudiendo la cesta a mitad de tiempo. Pinta todo ligeramente con aceite y sala.
+   > Sin amontonar, que el aire tiene que correr: mejor tres tandas que una verdura pálida y gomosa.
 
 ### Montar
 
-5. **Monta las capas** (10 min) - En una greixonera o fuente de horno, pon una capa de patata, otra de berenjena y otra de pimiento, y cubre con la salsa de tomate.
+7. **Monta las capas** (10 min) - En una greixonera o fuente de horno, pon una capa de patata, otra de berenjena y otra de pimiento, y cubre con la salsa de tomate.
    > El orden de siempre: la patata abajo, que aguanta, y el tomate cubriéndolo todo.
-6. **Un golpe de horno** (15 min) - Si quieres, mételo 10-15 minutos en el horno a 180 °C para que se asienten los sabores. Se toma templado.
+8. **Un golpe de horno** (15 min) - Si quieres, dale un golpe de horno de diez o quince minutos a 180 °C para que se asienten los sabores. Se toma templado.
    > Recién hecho está rico, pero al día siguiente, a temperatura ambiente, está mejor.
-
 ## Secretos de la abuela
 
 - **Solo o acompañando**: Se toma como plato o acompañando pescado frito, carne o un huevo frito.
 - **La greixonera**: Es la cazuela de barro mallorquina. Cualquier fuente de barro o de horno sirve.
 - **El aceite se aprovecha**: Fríe de más suave a más fuerte de sabor y filtra el aceite después: aún sirve para otra fritura.
+- **A gustos, colores**: Hay quien añade una capa de calabacín frito y quien pone ajos tiernos entre las capas. Con un huevo frito encima es cena completa, y hay quien lo gratina con un poco de queso, aunque eso ya no es tumbet de libro.
 
 ## En la tienda
 

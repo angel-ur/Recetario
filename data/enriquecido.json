@@ -4595,7 +4595,7 @@
       "m": 30,
       "tim": 30,
       "f": 2,
-      "x": "Mientras, sofríe {ajo} laminado en un poco de aceite, añade {tomate} pelados y troceados, sal y {azucar}, y deja que se haga despacio media hora, hasta que espese.",
+      "x": "Mientras, sofríe {ajo} en láminas con un poco de aceite, añade {tomate} pelados y troceados, sal y {azucar}, y deja que se haga despacio media hora, hasta que espese.",
       "ab": "La pizca de azúcar corrige la acidez del tomate. Tiene que quedar espesa, casi como una mermelada.",
       "e": {
        "k": "fuego",
@@ -4641,7 +4641,10 @@
         ]
        ],
        "burbujas": "#F7DC8F"
-      }
+      },
+      "solo": [
+       "sarten"
+      ]
      },
      {
       "t": "Fríe berenjena y pimiento",
@@ -4669,7 +4672,76 @@
        ],
        "burbujas": "#F7DC8F"
       },
-      "enlaza": true
+      "enlaza": true,
+      "solo": [
+       "sarten"
+      ]
+     },
+     {
+      "t": "Las verduras, al horno",
+      "m": 30,
+      "tim": 25,
+      "f": 3,
+      "x": "Calienta el horno a 200 °C. Reparte {patata} en rodajas, la berenjena y {pimrojo} en una o dos bandejas, pinta todo con aceite por los dos lados, sala y hornea unos 25 o 30 minutos, dándoles la vuelta a mitad, hasta que estén tiernas y doradas.",
+      "ab": "Pintar con aceite, no bañar: la berenjena chupa lo que le pongas, así que poco y bien extendido.",
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "bandeja",
+       "c": "#E3C062",
+       "i": [
+        [
+         "patata",
+         6
+        ],
+        [
+         "berenjena",
+         4
+        ],
+        [
+         "pimiento",
+         3,
+         1,
+         "rojo"
+        ]
+       ]
+      },
+      "solo": [
+       "horno"
+      ]
+     },
+     {
+      "t": "En la freidora de aire",
+      "m": 25,
+      "tim": 15,
+      "f": 3,
+      "x": "En la freidora de aire a 200 °C, por tandas y sin amontonar: {patata} en rodajas unos 12-15 minutos, la berenjena unos 10 y {pimrojo} unos 8, sacudiendo la cesta a mitad de tiempo. Pinta todo ligeramente con aceite y sala.",
+      "ab": "Sin amontonar, que el aire tiene que correr: mejor tres tandas que una verdura pálida y gomosa.",
+      "e": {
+       "k": "horno",
+       "t": "200 °C",
+       "d": "bandeja",
+       "c": "#E3C062",
+       "i": [
+        [
+         "patata",
+         6
+        ],
+        [
+         "berenjena",
+         4
+        ],
+        [
+         "pimiento",
+         3,
+         1,
+         "rojo"
+        ]
+       ]
+      },
+      "solo": [
+       "aire"
+      ]
      }
     ]
    },
@@ -4711,7 +4783,7 @@
       "tim": 15,
       "w": 1,
       "f": "h180",
-      "x": "Si quieres, mételo diez o quince minutos en el horno a 180 °C para que se asienten los sabores. Se toma templado.",
+      "x": "Si quieres, dale un golpe de horno de diez o quince minutos a 180 °C para que se asienten los sabores. Se toma templado.",
       "ab": "Recién hecho está rico, pero al día siguiente, a temperatura ambiente, está mejor.",
       "e": {
        "k": "horno",
@@ -4747,7 +4819,28 @@
    [
     "El aceite se aprovecha",
     "Fríe de más suave a más fuerte de sabor y filtra el aceite después: aún sirve para otra fritura."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien añade una capa de calabacín frito y quien pone ajos tiernos entre las capas. Con un huevo frito encima es cena completa, y hay quien lo gratina con un poco de queso, aunque eso ya no es tumbet de libro."
    ]
+  ],
+  "met": [
+   {
+    "id": "sarten",
+    "n": "Frita en sartén, la de siempre",
+    "d": "cada verdura por separado, en buen aceite"
+   },
+   {
+    "id": "horno",
+    "n": "Las verduras al horno",
+    "d": "menos aceite, 25 min a 200 °C"
+   },
+   {
+    "id": "aire",
+    "n": "En freidora de aire",
+    "d": "200 °C, por tandas"
+   }
   ]
  },
  {
@@ -4882,7 +4975,39 @@
         ]
        ],
        "burbujas": 1
-      }
+      },
+      "solo": [
+       "siempre",
+       "batidora"
+      ]
+     },
+     {
+      "t": "En la exprés, con su sal",
+      "m": 12,
+      "tim": 6,
+      "w": 1,
+      "f": 2,
+      "x": "Lava bien {papa} sin pelar y ponlas en la olla exprés con agua que apenas las cubra y {salg}. Cierra y, desde que suba la válvula, cuece 6 minutos a fuego suave. Suelta la presión y abre.",
+      "ab": "Seis minutos justos: las papas pequeñas se pasan en un descuido y se rompen al arrugarlas.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 3,
+       "c": "#BFDDF2",
+       "i": [
+        [
+         "papa",
+         10
+        ]
+       ],
+       "burbujas": 1,
+       "tapa": 1,
+       "vapor": 1,
+       "reloj": "6 min"
+      },
+      "solo": [
+       "expres"
+      ]
      },
      {
       "t": "Arrúgalas",
@@ -4916,7 +5041,7 @@
       "m": 10,
       "f": 0,
       "x": "En el mortero, maja {ajo} con {guindilla} sin semillas, {comino} y una pizca de sal gorda. Añade {pimenton} y ve incorporando {aceite} y {vinagre} poco a poco.",
-      "ab": "En el mortero, no en batidora: la textura rústica es la gracia. El aceite, en hilo, para que ligue.",
+      "ab": "El aceite, en hilo y poco a poco, para que el mojo ligue. En el mortero queda rústico, que es la gracia.",
       "e": {
        "k": "mortero",
        "c": "#B83A22",
@@ -4937,7 +5062,36 @@
         ]
        ],
        "vierte": "aceite"
-      }
+      },
+      "solo": [
+       "siempre",
+       "expres"
+      ]
+     },
+     {
+      "t": "Mojo picón en batidora",
+      "m": 10,
+      "f": 0,
+      "x": "En el vaso de la batidora, pon {ajo}, {guindilla} sin semillas, {comino} y una pizca de sal gorda, y tritúralo. Añade {pimenton} y, con la batidora en marcha, echa {aceite} en hilo y luego {vinagre}, hasta que ligue.",
+      "ab": "En batidora liga antes y queda más fino. Si lo quieres rústico, pica las guindillas a cuchillo y mézclalas al final.",
+      "e": {
+       "k": "bol",
+       "c": "#B83A22",
+       "i": [
+        [
+         "ajo",
+         3
+        ],
+        [
+         "guindilla",
+         2
+        ]
+       ],
+       "vierte": "aceite"
+      },
+      "solo": [
+       "batidora"
+      ]
      },
      {
       "t": "Mojo verde",
@@ -4964,7 +5118,36 @@
          1
         ]
        ]
-      }
+      },
+      "solo": [
+       "siempre",
+       "expres"
+      ]
+     },
+     {
+      "t": "Mojo verde en batidora",
+      "m": 10,
+      "f": 0,
+      "x": "Tritura {ajov} con sal, {cilantro} y {pimiento} en el vaso de la batidora y liga con {aceitev} en hilo y {vinagrev}.",
+      "ab": "Hay casas de mojo verde con cilantro y casas con perejil. Las dos son de verdad.",
+      "e": {
+       "k": "bol",
+       "c": "#5E8C2E",
+       "i": [
+        [
+         "perejil",
+         3
+        ],
+        [
+         "pimiento",
+         2
+        ]
+       ],
+       "vierte": "aceite"
+      },
+      "solo": [
+       "batidora"
+      ]
      },
      {
       "t": "Sirve",
@@ -4998,7 +5181,28 @@
    [
     "El agua justa",
     "Si pones mucha agua no se arrugan: tiene que evaporarse casi del todo en la olla."
+   ],
+   [
+    "A gustos, colores",
+    "Hay quien le echa un pimiento rojo asado al mojo picón y quien no concibe el verde sin un punto de comino. Con gofio escaldado o un pescado frito es comida completa. Y si la costra de sal te asusta, enjuágalas medio segundo al sacarlas: la sal se queda en la piel."
    ]
+  ],
+  "met": [
+   {
+    "id": "siempre",
+    "n": "Olla y mortero, la de siempre",
+    "d": "25 minutos de cocción y mojos al mortero"
+   },
+   {
+    "id": "expres",
+    "n": "En olla exprés",
+    "d": "6 minutos con presión, mojos al mortero"
+   },
+   {
+    "id": "batidora",
+    "n": "Los mojos en batidora",
+    "d": "las papas en olla y los mojos triturados"
+   }
   ]
  },
  {

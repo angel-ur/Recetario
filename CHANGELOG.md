@@ -3,6 +3,8 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/).
 
 ## [Sin publicar]
+- Tumbet: selector con sartén (la de siempre), verduras al horno y freidora de aire; pasos a fichas; variantes (calabacín, ajos tiernos, huevo frito).
+- Papas arrugadas: selector con olla y mortero, olla exprés y mojos en batidora; variantes (pimiento asado al picón, gofio, enjuague rápido).
 - Paella valenciana: nuevo selector "Cómo lo vas a hacer" (al fuego, la de siempre; en vitro o inducción, girándola; o terminada al horno, que reparte el calor por ti), cantidades que se ajustan dentro de los pasos y secretos con las variantes de cada casa.
 - Pollo al chilindrón: nuevo selector "Cómo lo vas a hacer" (en cazuela, la de siempre; o en olla exprés, 8 minutos con presión), cantidades que se ajustan dentro de los pasos y secretos con variantes.
 - Arroz con leche: nuevo selector "Cómo lo vas a hacer" (al fuego, la de siempre; en olla exprés, 5 minutos con presión; o en robot de cocina, que remueve por ti), cantidades que se ajustan dentro de los pasos y secretos con las variantes de cada casa.
