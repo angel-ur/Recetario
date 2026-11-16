@@ -2993,25 +2993,6 @@
       "solo": [
        "olla"
       ],
-      "alt": {
-       "expres": {
-        "t": "Olla exprés",
-        "m": 55,
-        "tim": 40,
-        "f": 3,
-        "x": "Cierra la olla exprés con las carnes y los garbanzos. Cuando suba la válvula, baja el fuego y cuenta 40 minutos; deja que baje la presión y abre.",
-        "ab": "En olla exprés pon menos agua: lo justo para cubrir, sin pasar de dos tercios de la olla.",
-        "e": {
-         "k": "fuego",
-         "v": "olla",
-         "f": 3,
-         "tapa": 1,
-         "vapor": 1,
-         "reloj": "40 min",
-         "rf": 0.67
-        }
-       }
-      },
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -3033,25 +3014,6 @@
       "solo": [
        "expres"
       ],
-      "alt": {
-       "expres": {
-        "t": "Olla exprés",
-        "m": 55,
-        "tim": 40,
-        "f": 3,
-        "x": "Cierra la olla exprés con las carnes y los garbanzos. Cuando suba la válvula, baja el fuego y cuenta 40 minutos; deja que baje la presión y abre.",
-        "ab": "En olla exprés pon menos agua: lo justo para cubrir, sin pasar de dos tercios de la olla.",
-        "e": {
-         "k": "fuego",
-         "v": "olla",
-         "f": 3,
-         "tapa": 1,
-         "vapor": 1,
-         "reloj": "40 min",
-         "rf": 0.67
-        }
-       }
-      },
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -3071,13 +3033,6 @@
       "solo": [
        "olla"
       ],
-      "alt": {
-       "expres": {
-        "m": 30,
-        "tim": 25,
-        "x": "Abre la olla, añade {zanahoria}, {puerro} y {patata} enteros, y deja cocer sin tapar unos 25 minutos, hasta que estén tiernos."
-       }
-      },
       "e": {
        "k": "fuego",
        "v": "olla",
@@ -3111,13 +3066,6 @@
       "solo": [
        "expres"
       ],
-      "alt": {
-       "expres": {
-        "m": 30,
-        "tim": 25,
-        "x": "Abre la olla, añade {zanahoria}, {puerro} y {patata} enteros, y deja cocer sin tapar unos 25 minutos, hasta que estén tiernos."
-       }
-      },
       "e": {
        "k": "fuego",
        "v": "olla",

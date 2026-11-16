@@ -2268,25 +2268,6 @@
        "reloj": "1½ h",
        "rf": 0.125
       },
-      "alt": {
-       "expres": {
-        "t": "Olla exprés",
-        "m": 55,
-        "tim": 40,
-        "f": 3,
-        "x": "Cierra la olla exprés con las carnes y los garbanzos. Cuando suba la válvula, baja el fuego y cuenta 40 minutos; deja que baje la presión y abre.",
-        "ab": "En olla exprés pon menos agua: lo justo para cubrir, sin pasar de dos tercios de la olla.",
-        "e": {
-         "k": "fuego",
-         "v": "olla",
-         "f": 3,
-         "tapa": 1,
-         "vapor": 1,
-         "reloj": "40 min",
-         "rf": 0.67
-        }
-       }
-      },
       "solo": [
        "olla"
       ]
@@ -2305,25 +2286,6 @@
        "f": 2,
        "c": "#D9B36B",
        "tapa": 1
-      },
-      "alt": {
-       "expres": {
-        "t": "Olla exprés",
-        "m": 55,
-        "tim": 40,
-        "f": 3,
-        "x": "Cierra la olla exprés con las carnes y los garbanzos. Cuando suba la válvula, baja el fuego y cuenta 40 minutos; deja que baje la presión y abre.",
-        "ab": "En olla exprés pon menos agua: lo justo para cubrir, sin pasar de dos tercios de la olla.",
-        "e": {
-         "k": "fuego",
-         "v": "olla",
-         "f": 3,
-         "tapa": 1,
-         "vapor": 1,
-         "reloj": "40 min",
-         "rf": 0.67
-        }
-       }
       },
       "solo": [
        "expres"
@@ -2358,13 +2320,6 @@
        ],
        "tapa": 2
       },
-      "alt": {
-       "expres": {
-        "m": 30,
-        "tim": 25,
-        "x": "Abre la olla, añade {zanahoria}, {puerro} y {patata} enteros, y deja cocer sin tapar unos 25 minutos, hasta que estén tiernos."
-       }
-      },
       "solo": [
        "olla"
       ]
@@ -2397,13 +2352,6 @@
         ]
        ],
        "tapa": 2
-      },
-      "alt": {
-       "expres": {
-        "m": 30,
-        "tim": 25,
-        "x": "Abre la olla, añade {zanahoria}, {puerro} y {patata} enteros, y deja cocer sin tapar unos 25 minutos, hasta que estén tiernos."
-       }
       },
       "solo": [
        "expres"
