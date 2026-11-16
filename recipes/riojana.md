@@ -31,17 +31,26 @@ Guiso humilde y redondo: patatas chascadas que espesan el caldo, buen chorizo ri
 
 ### El sofrito
 
-1. **Sofrito suave** (12 min) - En una cazuela con aceite de oliva, calienta 3 cucharadas de aceite y pocha a fuego suave 10-12 minutos 1 cebolla, 1 pimiento verde y 2 dientes de ajo picados.
-2. **Chorizo y choricero** (4 min) - Añade 200 g de chorizo riojano en rodajas de 1 cm y rehógalo 2 minutos. Agrega 1 cucharada de carne de pimiento choricero y 1 cucharadita de pimentón dulce o picante, 10 segundos, sin que se queme.
+1. **Sofrito suave** (12 min) - En la cazuela o en la propia olla, abierta, pocha a fuego suave cebollas, pimientos verdes y dientes de ajo picados con aceite de oliva.
+   > La cebolla tiene que quedar blanda y dulce: es la mitad del guiso.
+2. **El sofrito, en el robot** (12 min) - Pon cebollas, pimientos verdes y dientes de ajo en el vaso y pícalos 3 segundos a velocidad media. Añade aceite de oliva y sofríe 10 minutos a 120 °C, velocidad suave.
+   > Que quede menudo, no puré: el sofrito es el fondo del guiso.
+3. **Chorizo y choricero** (4 min) - Añade chorizo riojano en rodajas gruesas y rehógalo un par de minutos. Agrega carne de pimiento choricero y pimentón dulce o picante, sin que se queme.
    > El chorizo suelta su grasa roja, que es el color del guiso.
+4. **El chorizo, en el robot** (4 min) - Añade chorizo riojano en rodajas gruesas y programa 2 minutos a 120 °C, giro a la izquierda y velocidad suave. Suma carne de pimiento choricero y pimentón dulce o picante y dale medio minuto más, sin que se queme.
+   > El pimentón amarga si se pasa: medio minuto y listo.
 
 ### Guisar
 
-3. **Patatas chascadas** (5 min) - Echa 1 kg de patatas chascadas en trozos de 3-4 cm y dales unas vueltas para que se impregnen.
+5. **Patatas chascadas** (5 min) - Echa patatas chascadas en trozos medianos y dales unas vueltas para que se impregnen.
    > Chascar es clavar el cuchillo y romper la patata en vez de cortarla del todo. Así suelta almidón y el caldo espesa solo.
-4. **Cubre y cuece** (30 min) - Cubre con 1,2 litros de agua caliente, justo hasta tapar las patatas, añade 1 hoja de laurel y 1 cucharadita rasa de sal, y cuece a fuego suave unos 30 minutos.
+6. **Cubre y cuece** (30 min) - Cubre con agua caliente justo hasta tapar las patatas, añade hoja de laurel y sal, y cuece a fuego suave unos 30 minutos.
    > No remuevas con cuchara: menea la cazuela para que no se rompan las patatas.
-5. **Reposa y sirve** (10 min) - Apaga y deja reposar 10 minutos antes de servir: el caldo espesa y los sabores se asientan. Con guindillas en vinagre para acompañar.
+7. **Con presión** (8 min) - Cubre con agua caliente justo hasta tapar las patatas, sin pasar del límite de llenado de tu olla, añade hoja de laurel y sal, y cierra como indica su manual. Cuando suba la válvula, baja el fuego al mínimo que mantenga la presión: de 5 a 8 minutos según tu olla; en una tradicional, manda su tabla. Apaga y deja que la presión baje sola.
+   > No la abras antes de tiempo: la patata se termina de hacer con la olla apagada.
+8. **El guiso, en el robot** (27 min) - Echa patatas chascadas en el vaso con agua caliente, hoja de laurel y sal: programa 25 minutos a 100 °C, giro a la izquierda y velocidad cuchara, con la mariposa puesta si tu robot la tiene. Pincha una patata: si va justa, alarga 5 minutos más.
+   > El giro a la izquierda mueve sin romper: con la cuchilla normal triturarías la patata.
+9. **Reposa y sirve** (10 min) - Apaga y deja reposar diez minutos antes de servir: el caldo espesa y los sabores se asientan. Con guindillas en vinagre para acompañar.
    > Si el caldo queda claro, chafa un par de trozos de patata contra la cazuela y menea.
 
 ## Secretos de la abuela
@@ -49,6 +58,7 @@ Guiso humilde y redondo: patatas chascadas que espesan el caldo, buen chorizo ri
 - **Chorizo riojano**: Curado y con buen pimentón. Dulce o picante, según la casa.
 - **Patata de guisar**: Mejor variedades harinosas, que espesan más el caldo.
 - **Con guindilla**: Unas guindillas en vinagre al lado del plato son la compañía de toda la vida.
+- **A gustos, colores**: Hay casas que le echan una costilla adobada o unas tiras de panceta junto al chorizo, quien pone ñora cuando no hay choricero y quien la sirve con las guindillas picadas por dentro en vez de al lado. Con media cucharadita de pimentón picante, riojanísima.
 
 ## En la tienda
 

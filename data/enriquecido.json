@@ -8111,7 +8111,7 @@
       "m": 12,
       "tim": 10,
       "f": 2,
-      "x": "En una cazuela con {aceite}, pocha a fuego suave {cebolla}, {pimiento} y {ajo} picados.",
+      "x": "En la cazuela o en la propia olla, abierta, pocha a fuego suave {cebolla}, {pimiento} y {ajo} picados con {aceite}.",
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -8134,7 +8134,41 @@
         ]
        ],
        "cuchara": 1
-      }
+      },
+      "solo": [
+       "olla",
+       "expres"
+      ],
+      "ab": "La cebolla tiene que quedar blanda y dulce: es la mitad del guiso."
+     },
+     {
+      "t": "El sofrito, en el robot",
+      "m": 12,
+      "tim": 10,
+      "f": 0,
+      "x": "Pon {cebolla}, {pimiento} y {ajo} en el vaso y pícalos 3 segundos a velocidad media. Añade {aceite} y sofríe 10 minutos a 120 °C, velocidad suave.",
+      "ab": "Que quede menudo, no puré: el sofrito es el fondo del guiso.",
+      "e": {
+       "k": "bol",
+       "c": "#8FA84B",
+       "i": [
+        [
+         "cebolla",
+         4
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "ajo",
+         2
+        ]
+       ]
+      },
+      "solo": [
+       "robot"
+      ]
      },
      {
       "t": "Chorizo y choricero",
@@ -8158,7 +8192,36 @@
         ]
        ],
        "polvo": "#8E1B13"
-      }
+      },
+      "solo": [
+       "olla",
+       "expres"
+      ]
+     },
+     {
+      "t": "El chorizo, en el robot",
+      "m": 4,
+      "tim": 3,
+      "f": 0,
+      "x": "Añade {chorizo} en rodajas gruesas y programa 2 minutos a 120 °C, giro a la izquierda y velocidad suave. Suma {choricero} y {pimenton} y dale medio minuto más, sin que se queme.",
+      "ab": "El pimentón amarga si se pasa: medio minuto y listo.",
+      "e": {
+       "k": "bol",
+       "c": "#B8432C",
+       "i": [
+        [
+         "cebolla",
+         4
+        ],
+        [
+         "pimiento",
+         2
+        ]
+       ]
+      },
+      "solo": [
+       "robot"
+      ]
      }
     ]
    },
@@ -8191,7 +8254,11 @@
         "patata",
         "patata"
        ]
-      }
+      },
+      "solo": [
+       "olla",
+       "expres"
+      ]
      },
      {
       "t": "Cubre y cuece",
@@ -8221,7 +8288,56 @@
         ]
        ],
        "agita": 1
-      }
+      },
+      "solo": [
+       "olla"
+      ]
+     },
+     {
+      "t": "Con presión",
+      "m": 8,
+      "tim": 5,
+      "w": 1,
+      "f": 2,
+      "x": "Cubre con {agua} caliente justo hasta tapar las patatas, sin pasar del límite de llenado de tu olla, añade {laurel} y sal, y cierra como indica su manual. Cuando suba la válvula, baja el fuego al mínimo que mantenga la presión: de 5 a 8 minutos según tu olla; en una tradicional, manda su tabla. Apaga y deja que la presión baje sola.",
+      "ab": "No la abras antes de tiempo: la patata se termina de hacer con la olla apagada.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#C79AA8",
+       "tapa": 1,
+       "vapor": 1
+      },
+      "solo": [
+       "expres"
+      ]
+     },
+     {
+      "t": "El guiso, en el robot",
+      "m": 27,
+      "tim": 25,
+      "w": 1,
+      "f": 0,
+      "x": "Echa {patata} chascadas en el vaso con {agua} caliente, {laurel} y sal: programa 25 minutos a 100 °C, giro a la izquierda y velocidad cuchara, con la mariposa puesta si tu robot la tiene. Pincha una patata: si va justa, alarga 5 minutos más.",
+      "ab": "El giro a la izquierda mueve sin romper: con la cuchilla normal triturarías la patata.",
+      "e": {
+       "k": "bol",
+       "c": "#C79AA8",
+       "i": [
+        [
+         "patata",
+         6
+        ],
+        [
+         "cebolla",
+         3
+        ]
+       ]
+      },
+      "solo": [
+       "robot"
+      ]
      },
      {
       "t": "Reposa y sirve",
@@ -8267,6 +8383,23 @@
     "Con guindilla",
     "Unas guindillas en vinagre al lado del plato son la compañía de toda la vida."
    ]
+  ],
+  "met": [
+   {
+    "id": "olla",
+    "n": "En la cazuela, la de siempre",
+    "d": "sofrito, chascado y media hora de fuego suave"
+   },
+   {
+    "id": "expres",
+    "n": "En olla exprés",
+    "d": "de 5 a 8 minutos con presión según tu olla"
+   },
+   {
+    "id": "robot",
+    "n": "En el robot de cocina",
+    "d": "giro a la izquierda, sin remover tú"
+   }
   ]
  },
  {
@@ -8971,7 +9104,7 @@
       "m": 15,
       "tim": 15,
       "f": 3,
-      "x": "Calienta {aceite} en una cazuela y rehoga {cebolla} y {ajo} picados 5 minutos. Añade {pimverde} y {zanahoria} en daditos y sofríe 5 minutos más. Suma {tomate} rallados y deja que se haga 5 minutos, hasta que esté meloso.",
+      "x": "Calienta {aceite} en la cazuela o en la olla, abierta, y rehoga {cebolla} y {ajo} picados 5 minutos. Añade {pimverde} y {zanahoria} en daditos y sofríe 5 minutos más. Suma {tomate} rallados y deja que se haga 5 minutos, hasta que esté meloso.",
       "ab": "La zanahoria en daditos pequeños, que se deshaga: da dulzor y luego ayuda a ligar el caldo.",
       "e": {
        "k": "fuego",
@@ -8997,7 +9130,40 @@
         ]
        ],
        "vapor": 1
-      }
+      },
+      "solo": [
+       "olla",
+       "expres"
+      ]
+     },
+     {
+      "t": "El sofrito, en el robot",
+      "m": 14,
+      "tim": 12,
+      "f": 0,
+      "x": "Pon {cebolla}, {pimverde}, {zanahoria}, {tomate} y {ajo} en el vaso con {aceite}: pica 3 segundos a velocidad media y sofríe 12 minutos a 120 °C, velocidad suave.",
+      "ab": "La verdura bien hecha es el fondo del guiso: dale sus minutos.",
+      "e": {
+       "k": "bol",
+       "c": "#8FA84B",
+       "i": [
+        [
+         "cebolla",
+         4
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "tomate",
+         2
+        ]
+       ]
+      },
+      "solo": [
+       "robot"
+      ]
      }
     ]
    },
@@ -9026,7 +9192,11 @@
          1
         ]
        ]
-      }
+      },
+      "solo": [
+       "olla",
+       "expres"
+      ]
      },
      {
       "t": "Hierve, espuma y asústalas",
@@ -9047,7 +9217,10 @@
          24
         ]
        ]
-      }
+      },
+      "solo": [
+       "olla"
+      ]
      },
      {
       "t": "Fuego suave y a menear",
@@ -9069,7 +9242,56 @@
         ]
        ],
        "vapor": 1
-      }
+      },
+      "solo": [
+       "olla"
+      ]
+     },
+     {
+      "t": "Con presión",
+      "m": 15,
+      "tim": 12,
+      "w": 1,
+      "f": 2,
+      "x": "Lleva a ebullición con la olla abierta y retira la espuma que suba. Cierra como indica su manual y, cuando suba la válvula, baja el fuego al mínimo que mantenga la presión: de 12 a 20 minutos según tu olla y lo tierna que venga la pocha. Apaga y deja que la presión baje sola.",
+      "ab": "Si van duras, cierra y dales cinco minutos más: la legumbre no perdona las prisas.",
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#B9C89A",
+       "tapa": 1,
+       "vapor": 1
+      },
+      "solo": [
+       "expres"
+      ]
+     },
+     {
+      "t": "El guiso, en el robot",
+      "m": 45,
+      "tim": 45,
+      "w": 1,
+      "f": 0,
+      "x": "Añade las {pocha} escurridas y la {laurel}, y cubre con agua fría dos dedos por encima. Programa 45 minutos a 100 °C, giro a la izquierda y velocidad cuchara, con la mariposa puesta. Prueba una pocha: si va dura, alarga de 5 en 5 minutos.",
+      "ab": "En el robot no hace falta asustarlas: el hervor es tan suave que la piel no sufre.",
+      "e": {
+       "k": "bol",
+       "c": "#B9C89A",
+       "i": [
+        [
+         "judia",
+         6
+        ],
+        [
+         "cebolla",
+         3
+        ]
+       ]
+      },
+      "solo": [
+       "robot"
+      ]
      },
      {
       "t": "El caldo meloso",
@@ -9121,6 +9343,23 @@
       }
      }
     ]
+   }
+  ],
+  "met": [
+   {
+    "id": "olla",
+    "n": "En la cazuela, despacio",
+    "d": "remojo, dos sustos y hora y pico de fuego suave"
+   },
+   {
+    "id": "expres",
+    "n": "En olla exprés",
+    "d": "de 12 a 20 minutos con presión según tu olla"
+   },
+   {
+    "id": "robot",
+    "n": "En el robot de cocina",
+    "d": "mariposa y giro a la izquierda, sin vigilar"
    }
   ]
  },

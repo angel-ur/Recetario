@@ -33,23 +33,29 @@ La pocha es la alubia blanca y tierna de Navarra, de piel fina y carne mantecosa
 
 ### El sofrito
 
-2. **Sofrito de huerta** (15 min) - Calienta aceite de oliva en una cazuela y rehoga cebolla y dientes de ajo picados 5 minutos. Añade pimiento verde y zanahoria en daditos y sofríe 5 minutos más. Suma tomates maduros rallados y deja que se haga 5 minutos, hasta que esté meloso.
+2. **Sofrito de huerta** (15 min) - Calienta aceite de oliva en la cazuela o en la olla, abierta, y rehoga cebollas y dientes de ajo picados 5 minutos. Añade pimientos verdes y zanahorias en daditos y sofríe 5 minutos más. Suma tomates maduros rallados y deja que se haga 5 minutos, hasta que esté meloso.
    > La zanahoria en daditos pequeños, que se deshaga: da dulzor y luego ayuda a ligar el caldo.
+3. **El sofrito, en el robot** (14 min) - Pon cebollas, pimientos verdes, zanahorias, tomates maduros y dientes de ajo en el vaso con aceite de oliva: pica 3 segundos a velocidad media y sofríe 12 minutos a 120 °C, velocidad suave.
+   > La verdura bien hecha es el fondo del guiso: dale sus minutos.
 
 ### El guiso
 
-3. **Pochas al agua fría** (5 min) - Añade las pochas de Navarra escurridas y la hoja de laurel, y cubre con agua fría dos dedos por encima.
+4. **Pochas al agua fría** (5 min) - Añade las pochas de Navarra escurridas y la hoja de laurel, y cubre con agua fría dos dedos por encima.
    > Como con las fabes: se empieza siempre en agua fría, nunca caliente.
-4. **Hierve, espuma y asústalas** (15 min) - Lleva a ebullición a fuego fuerte, retira la espuma que suba y asusta las pochas con un vaso de agua fría. Repite el susto una vez más cuando vuelva a hervir.
+5. **Hierve, espuma y asústalas** (15 min) - Lleva a ebullición a fuego fuerte, retira la espuma que suba y asusta las pochas con un vaso de agua fría. Repite el susto una vez más cuando vuelva a hervir.
    > El susto corta el hervor de golpe: la piel queda firme y el interior, cremoso.
-5. **Fuego suave y a menear** (75 min) - Baja el fuego al mínimo, tapa a medias y guisa entre 1 hora y 1 hora y media, meneando la cazuela en círculos de vez en cuando. Sala a media cocción.
+6. **Fuego suave y a menear** (75 min) - Baja el fuego al mínimo, tapa a medias y guisa entre 1 hora y 1 hora y media, meneando la cazuela en círculos de vez en cuando. Sala a media cocción.
    > Ni cuchara ni cucharón, que rompen las pochas. Si el caldo baja, añade agua caliente, nunca fría.
-6. **El caldo meloso** (10 min) - Saca un cacillo de pochas con un poco de caldo, pásalo por el pasapurés y devuélvelo a la cazuela. Menea un par de minutos hasta que el caldo quede meloso.
+7. **Con presión** (15 min) - Lleva a ebullición con la olla abierta y retira la espuma que suba. Cierra como indica su manual y, cuando suba la válvula, baja el fuego al mínimo que mantenga la presión: de 12 a 20 minutos según tu olla y lo tierna que venga la pocha. Apaga y deja que la presión baje sola.
+   > Si van duras, cierra y dales cinco minutos más: la legumbre no perdona las prisas.
+8. **El guiso, en el robot** (45 min) - Añade las pochas de Navarra escurridas y la hoja de laurel, y cubre con agua fría dos dedos por encima. Programa 45 minutos a 100 °C, giro a la izquierda y velocidad cuchara, con la mariposa puesta. Prueba una pocha: si va dura, alarga de 5 en 5 minutos.
+   > En el robot no hace falta asustarlas: el hervor es tan suave que la piel no sufre.
+9. **El caldo meloso** (10 min) - Saca un cacillo de pochas con un poco de caldo, pásalo por el pasapurés y devuélvelo a la cazuela. Menea un par de minutos hasta que el caldo quede meloso.
    > Este es el gesto que convierte un guiso de alubias correcto en uno de abuela.
 
 ### Servir
 
-7. **Sirve con su caldo** (5 min) - Reparte las pochas bien calientes en platos hondos o cazuelitas de barro, con su caldo por encima.
+10. **Sirve con su caldo** (5 min) - Reparte las pochas bien calientes en platos hondos o cazuelitas de barro, con su caldo por encima.
    > Como toda legumbre, reposadas de un día para otro ganan muchísimo.
 
 ## Secretos de la abuela
@@ -58,6 +64,7 @@ La pocha es la alubia blanca y tierna de Navarra, de piel fina y carne mantecosa
 - **Menear, no remover**: La cuchara rompe las pochas. La cazuela se menea en círculos y ellas solas se van moviendo.
 - **Los sustos**: Dos sustos con agua fría en el primer hervor: piel firme por fuera, mantequilla por dentro.
 - **De víspera**: Reposadas, el caldo liga aún más. Recaliéntalas a fuego muy suave, con un chorrito de agua si hace falta.
+- **A gustos, colores**: Sola, con su huerta, es la pocha de Sanfermines, pero hay quien no la concibe sin codornices, quien le echa chorizo y panceta y quien la acaba con almejas o con unas hojas de acelga. Eso sí: con guindillas de Ibarra al lado.
 
 ## En la tienda
 

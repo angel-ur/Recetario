@@ -9115,6 +9115,23 @@
    4,
    6
   ],
+  "met": [
+   {
+    "id": "olla",
+    "n": "En la cazuela, despacio",
+    "d": "remojo, dos sustos y hora y pico de fuego suave"
+   },
+   {
+    "id": "expres",
+    "n": "En olla exprés",
+    "d": "de 12 a 20 minutos con presión según tu olla"
+   },
+   {
+    "id": "robot",
+    "n": "En el robot de cocina",
+    "d": "mariposa y giro a la izquierda, sin vigilar"
+   }
+  ],
   "heroe": {
    "k": "ilu",
    "svg": "<defs><radialGradient id=\"i_pochas_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_pochas_fondo)\"/><defs><linearGradient id=\"i_pochas_barro\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_pochas_caldo\" cx=\".45\" cy=\".4\" r=\".85\"><stop offset=\"0\" stop-color=\"#F2DFAF\"/><stop offset=\"1\" stop-color=\"#D6B67E\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"116\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M48 90c0 40 28 60 112 60s112-20 112-60z\" fill=\"url(#i_pochas_barro)\"/><rect x=\"22\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><rect x=\"268\" y=\"86\" width=\"30\" height=\"9\" rx=\"4.5\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"90\" rx=\"112\" ry=\"26\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"92\" rx=\"102\" ry=\"21\" fill=\"url(#i_pochas_caldo)\"/><ellipse cx=\"140.1\" cy=\"105.7\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"167.6\" cy=\"80.8\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"116.9\" cy=\"88.4\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"133.7\" cy=\"80.4\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"121.4\" cy=\"96.8\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"246.9\" cy=\"89.2\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"192.6\" cy=\"88.9\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"145.2\" cy=\"88.6\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"97.7\" cy=\"91.4\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"217.5\" cy=\"83.4\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"105.9\" cy=\"107.7\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"169.8\" cy=\"89.9\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"180.1\" cy=\"109.0\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"231.8\" cy=\"97.5\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"75.1\" cy=\"100.3\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"198.8\" cy=\"100.8\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"99.5\" cy=\"84.3\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"158.3\" cy=\"95.0\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"155.8\" cy=\"104.1\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"224.3\" cy=\"89.5\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"219.9\" cy=\"105.4\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"90.7\" cy=\"98.0\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"115.4\" cy=\"80.4\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><ellipse cx=\"136.0\" cy=\"98.4\" rx=\"9.5\" ry=\"4.6\" fill=\"#4A2E10\" opacity=\".10\"/><g transform=\"translate(140.1 103.1) rotate(-25)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(167.6 78.2) rotate(-2)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(116.9 85.8) rotate(0)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(133.7 77.8) rotate(-17)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(121.4 94.2) rotate(-19)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(246.9 86.6) rotate(-15)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(192.6 86.3) rotate(-16)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(145.2 86.0) rotate(7)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(97.7 88.8) rotate(26)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(217.5 80.8) rotate(22)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(105.9 105.1) rotate(22)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(169.8 87.3) rotate(-12)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(180.1 106.4) rotate(20)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(231.8 94.9) rotate(-2)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(75.1 97.7) rotate(28)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(198.8 98.2) rotate(-27)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(99.5 81.7) rotate(-1)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(158.3 92.4) rotate(-21)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(155.8 101.5) rotate(-11)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(224.3 86.9) rotate(-16)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(219.9 102.8) rotate(20)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(90.7 95.4) rotate(-3)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(115.4 77.8) rotate(-27)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(136.0 95.8) rotate(17)\"><ellipse rx=\"9\" ry=\"5\" fill=\"#F1E4C4\"/><ellipse cy=\"-.6\" rx=\"7.5\" ry=\"4\" fill=\"#F8EFDB\"/><path d=\"M-5 1.4q5 2.6 10 0\" stroke=\"#D9C49A\" stroke-width=\"1.1\" fill=\"none\"/></g><g transform=\"translate(142.1 85.8) rotate(39)\"><rect x=\"-3.5\" y=\"-2.5\" width=\"7.0\" height=\"5.0\" rx=\"1.8\" fill=\"#4E7A2E\"/><rect x=\"-2.5\" y=\"-1.9\" width=\"5.0\" height=\"1.8\" rx=\".9\" fill=\"#6E9A3E\"/></g><g transform=\"translate(78.6 87.4) rotate(309)\"><rect x=\"-3.5\" y=\"-2.5\" width=\"7.0\" height=\"5.0\" rx=\"1.8\" fill=\"#4E7A2E\"/><rect x=\"-2.5\" y=\"-1.9\" width=\"5.0\" height=\"1.8\" rx=\".9\" fill=\"#6E9A3E\"/></g><g transform=\"translate(160.3 97.4) rotate(70)\"><rect x=\"-3.5\" y=\"-2.5\" width=\"7.0\" height=\"5.0\" rx=\"1.8\" fill=\"#4E7A2E\"/><rect x=\"-2.5\" y=\"-1.9\" width=\"5.0\" height=\"1.8\" rx=\".9\" fill=\"#6E9A3E\"/></g><g transform=\"translate(86.3 97.7) rotate(223)\"><rect x=\"-3.5\" y=\"-2.5\" width=\"7.0\" height=\"5.0\" rx=\"1.8\" fill=\"#4E7A2E\"/><rect x=\"-2.5\" y=\"-1.9\" width=\"5.0\" height=\"1.8\" rx=\".9\" fill=\"#6E9A3E\"/></g><g transform=\"translate(198.2 88.3) rotate(315)\"><rect x=\"-3.5\" y=\"-2.5\" width=\"7.0\" height=\"5.0\" rx=\"1.8\" fill=\"#4E7A2E\"/><rect x=\"-2.5\" y=\"-1.9\" width=\"5.0\" height=\"1.8\" rx=\".9\" fill=\"#6E9A3E\"/></g><g transform=\"translate(104.3 92.6) rotate(60)\"><rect x=\"-3.5\" y=\"-2.5\" width=\"7.0\" height=\"5.0\" rx=\"1.8\" fill=\"#4E7A2E\"/><rect x=\"-2.5\" y=\"-1.9\" width=\"5.0\" height=\"1.8\" rx=\".9\" fill=\"#6E9A3E\"/></g><g transform=\"translate(155.1 86.4) rotate(61)\"><rect x=\"-3.5\" y=\"-2.5\" width=\"7.0\" height=\"5.0\" rx=\"1.8\" fill=\"#4E7A2E\"/><rect x=\"-2.5\" y=\"-1.9\" width=\"5.0\" height=\"1.8\" rx=\".9\" fill=\"#6E9A3E\"/></g><g transform=\"translate(87.4 92.4) rotate(274)\"><rect x=\"-3.0\" y=\"-2.5\" width=\"6.0\" height=\"5.0\" rx=\"1.8\" fill=\"#D07A28\"/><rect x=\"-2.0\" y=\"-1.9\" width=\"4.0\" height=\"1.8\" rx=\".9\" fill=\"#E89A4A\"/></g><g transform=\"translate(126.7 83.7) rotate(255)\"><rect x=\"-3.0\" y=\"-2.5\" width=\"6.0\" height=\"5.0\" rx=\"1.8\" fill=\"#D07A28\"/><rect x=\"-2.0\" y=\"-1.9\" width=\"4.0\" height=\"1.8\" rx=\".9\" fill=\"#E89A4A\"/></g><g transform=\"translate(245.8 92.1) rotate(304)\"><rect x=\"-3.0\" y=\"-2.5\" width=\"6.0\" height=\"5.0\" rx=\"1.8\" fill=\"#D07A28\"/><rect x=\"-2.0\" y=\"-1.9\" width=\"4.0\" height=\"1.8\" rx=\".9\" fill=\"#E89A4A\"/></g><g transform=\"translate(164.8 101.1) rotate(4)\"><rect x=\"-3.0\" y=\"-2.5\" width=\"6.0\" height=\"5.0\" rx=\"1.8\" fill=\"#D07A28\"/><rect x=\"-2.0\" y=\"-1.9\" width=\"4.0\" height=\"1.8\" rx=\".9\" fill=\"#E89A4A\"/></g><g transform=\"translate(82.4 92.6) rotate(229)\"><rect x=\"-3.0\" y=\"-2.5\" width=\"6.0\" height=\"5.0\" rx=\"1.8\" fill=\"#D07A28\"/><rect x=\"-2.0\" y=\"-1.9\" width=\"4.0\" height=\"1.8\" rx=\".9\" fill=\"#E89A4A\"/></g><g transform=\"translate(156.6 100.4) rotate(121)\"><rect x=\"-3.0\" y=\"-2.5\" width=\"6.0\" height=\"5.0\" rx=\"1.8\" fill=\"#D07A28\"/><rect x=\"-2.0\" y=\"-1.9\" width=\"4.0\" height=\"1.8\" rx=\".9\" fill=\"#E89A4A\"/></g><g transform=\"translate(232 84) rotate(35)\"><path d=\"M0-9C7-7 8 4 0 9-8 4-7-7 0-9z\" fill=\"#3E5E26\"/><path d=\"M0-7V7\" stroke=\"#2E4A1C\" stroke-width=\"1.1\"/></g><ellipse cx=\"126\" cy=\"84\" rx=\"24\" ry=\"2.8\" fill=\"#fff\" opacity=\".30\"/>"
@@ -9139,6 +9156,10 @@
    [
     "De víspera",
     "Reposadas, el caldo liga aún más. Recaliéntalas a fuego muy suave, con un chorrito de agua si hace falta."
+   ],
+   [
+    "A gustos, colores",
+    "Sola, con su huerta, es la pocha de Sanfermines, pero hay quien no la concibe sin codornices, quien le echa chorizo y panceta y quien la acaba con almejas o con unas hojas de acelga. Eso sí: con guindillas de Ibarra al lado."
    ]
   ],
   "ing": [
@@ -9228,9 +9249,13 @@
      {
       "t": "Sofrito de huerta",
       "m": 15,
-      "x": "Calienta {aceite} en una cazuela y rehoga {cebolla} y {ajo} picados 5 minutos. Añade {pimverde} y {zanahoria} en daditos y sofríe 5 minutos más. Suma {tomate} rallados y deja que se haga 5 minutos, hasta que esté meloso.",
+      "x": "Calienta {aceite} en la cazuela o en la olla, abierta, y rehoga {cebolla} y {ajo} picados 5 minutos. Añade {pimverde} y {zanahoria} en daditos y sofríe 5 minutos más. Suma {tomate} rallados y deja que se haga 5 minutos, hasta que esté meloso.",
       "tim": 15,
       "f": 3,
+      "solo": [
+       "olla",
+       "expres"
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -9257,6 +9282,35 @@
        "vapor": 1
       },
       "ab": "La zanahoria en daditos pequeños, que se deshaga: da dulzor y luego ayuda a ligar el caldo."
+     },
+     {
+      "t": "El sofrito, en el robot",
+      "m": 14,
+      "x": "Pon {cebolla}, {pimverde}, {zanahoria}, {tomate} y {ajo} en el vaso con {aceite}: pica 3 segundos a velocidad media y sofríe 12 minutos a 120 °C, velocidad suave.",
+      "tim": 12,
+      "f": 0,
+      "solo": [
+       "robot"
+      ],
+      "e": {
+       "k": "bol",
+       "c": "#8FA84B",
+       "i": [
+        [
+         "cebolla",
+         4
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "tomate",
+         2
+        ]
+       ]
+      },
+      "ab": "La verdura bien hecha es el fondo del guiso: dale sus minutos."
      }
     ]
    },
@@ -9269,6 +9323,10 @@
       "m": 5,
       "x": "Añade las {pocha} escurridas y la {laurel}, y cubre con agua fría dos dedos por encima.",
       "f": 0,
+      "solo": [
+       "olla",
+       "expres"
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -9293,6 +9351,9 @@
       "x": "Lleva a ebullición a fuego fuerte, retira la espuma que suba y asusta las pochas con un vaso de agua fría. Repite el susto una vez más cuando vuelva a hervir.",
       "tim": 15,
       "f": 5,
+      "solo": [
+       "olla"
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -9314,6 +9375,9 @@
       "x": "Baja el fuego al mínimo, tapa a medias y guisa entre 1 hora y 1 hora y media, meneando la cazuela en círculos de vez en cuando. Sala a media cocción.",
       "tim": 75,
       "f": 1,
+      "solo": [
+       "olla"
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -9329,6 +9393,52 @@
        "vapor": 1
       },
       "ab": "Ni cuchara ni cucharón, que rompen las pochas. Si el caldo baja, añade agua caliente, nunca fría."
+     },
+     {
+      "t": "Con presión",
+      "m": 15,
+      "x": "Lleva a ebullición con la olla abierta y retira la espuma que suba. Cierra como indica su manual y, cuando suba la válvula, baja el fuego al mínimo que mantenga la presión: de 12 a 20 minutos según tu olla y lo tierna que venga la pocha. Apaga y deja que la presión baje sola.",
+      "tim": 12,
+      "f": 2,
+      "w": 1,
+      "solo": [
+       "expres"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#B9C89A",
+       "tapa": 1,
+       "vapor": 1
+      },
+      "ab": "Si van duras, cierra y dales cinco minutos más: la legumbre no perdona las prisas."
+     },
+     {
+      "t": "El guiso, en el robot",
+      "m": 45,
+      "x": "Añade las {pocha} escurridas y la {laurel}, y cubre con agua fría dos dedos por encima. Programa 45 minutos a 100 °C, giro a la izquierda y velocidad cuchara, con la mariposa puesta. Prueba una pocha: si va dura, alarga de 5 en 5 minutos.",
+      "tim": 45,
+      "f": 0,
+      "w": 1,
+      "solo": [
+       "robot"
+      ],
+      "e": {
+       "k": "bol",
+       "c": "#B9C89A",
+       "i": [
+        [
+         "judia",
+         6
+        ],
+        [
+         "cebolla",
+         3
+        ]
+       ]
+      },
+      "ab": "En el robot no hace falta asustarlas: el hervor es tan suave que la piel no sufre."
      },
      {
       "t": "El caldo meloso",
@@ -10313,6 +10423,23 @@
    4,
    6
   ],
+  "met": [
+   {
+    "id": "olla",
+    "n": "En la cazuela, la de siempre",
+    "d": "sofrito, chascado y media hora de fuego suave"
+   },
+   {
+    "id": "expres",
+    "n": "En olla exprés",
+    "d": "de 5 a 8 minutos con presión según tu olla"
+   },
+   {
+    "id": "robot",
+    "n": "En el robot de cocina",
+    "d": "giro a la izquierda, sin remover tú"
+   }
+  ],
   "heroe": {
    "k": "ilu",
    "svg": "<defs><radialGradient id=\"i_riojana_fondo\" cx=\".5\" cy=\".55\" r=\".75\"><stop offset=\"0\" stop-color=\"#FFFBF0\"/><stop offset=\"1\" stop-color=\"#F1E8D4\"/></radialGradient></defs><rect width=\"320\" height=\"180\" fill=\"url(#i_riojana_fondo)\"/><defs><radialGradient id=\"i_riojana_pl\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"1\" stop-color=\"#E1D9C8\"/></radialGradient></defs><defs><linearGradient id=\"i_riojana_barro7\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#C96F40\"/><stop offset=\"1\" stop-color=\"#8F4222\"/></linearGradient><radialGradient id=\"i_riojana_rio\" cx=\".42\" cy=\".35\" r=\".8\"><stop offset=\"0\" stop-color=\"#D88A42\"/><stop offset=\"1\" stop-color=\"#B06428\"/></radialGradient></defs><ellipse cx=\"160\" cy=\"154\" rx=\"114\" ry=\"10\" fill=\"#4A2E10\" opacity=\"0.28\"/><path d=\"M52 90c0 40 28 60 108 60s108-20 108-60z\" fill=\"url(#i_riojana_barro7)\"/><ellipse cx=\"160\" cy=\"90\" rx=\"108\" ry=\"26\" fill=\"#A9552C\"/><ellipse cx=\"160\" cy=\"92\" rx=\"98\" ry=\"21\" fill=\"url(#i_riojana_rio)\"/><g transform=\"translate(133.2 87.7) rotate(-29)\"><path d=\"M-11 -2l4 -7l8 2l5 -3l4 8l-5 6l-9 1z\" fill=\"#F2DEA0\"/><path d=\"M-11 -2l4 -7l8 2l5 -3l4 8l-5 6l-9 1z\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.2\"/></g><g transform=\"translate(202.8 93.5) rotate(-10)\"><path d=\"M-11 -2l4 -7l8 2l5 -3l4 8l-5 6l-9 1z\" fill=\"#F2DEA0\"/><path d=\"M-11 -2l4 -7l8 2l5 -3l4 8l-5 6l-9 1z\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.2\"/></g><g transform=\"translate(169.0 88.1) rotate(-16)\"><path d=\"M-11 -2l4 -7l8 2l5 -3l4 8l-5 6l-9 1z\" fill=\"#F2DEA0\"/><path d=\"M-11 -2l4 -7l8 2l5 -3l4 8l-5 6l-9 1z\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.2\"/></g><g transform=\"translate(159.2 90.1) rotate(28)\"><path d=\"M-11 -2l4 -7l8 2l5 -3l4 8l-5 6l-9 1z\" fill=\"#F2DEA0\"/><path d=\"M-11 -2l4 -7l8 2l5 -3l4 8l-5 6l-9 1z\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.2\"/></g><g transform=\"translate(135.4 79.8) rotate(-5)\"><path d=\"M-11 -2l4 -7l8 2l5 -3l4 8l-5 6l-9 1z\" fill=\"#F2DEA0\"/><path d=\"M-11 -2l4 -7l8 2l5 -3l4 8l-5 6l-9 1z\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.2\"/></g><g transform=\"translate(100.0 99.6) rotate(15)\"><path d=\"M-11 -2l4 -7l8 2l5 -3l4 8l-5 6l-9 1z\" fill=\"#F2DEA0\"/><path d=\"M-11 -2l4 -7l8 2l5 -3l4 8l-5 6l-9 1z\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.2\"/></g><g transform=\"translate(150.9 87.9) rotate(0)\"><path d=\"M-11 -2l4 -7l8 2l5 -3l4 8l-5 6l-9 1z\" fill=\"#F2DEA0\"/><path d=\"M-11 -2l4 -7l8 2l5 -3l4 8l-5 6l-9 1z\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.2\"/></g><g transform=\"translate(213.6 85.1) rotate(-29)\"><path d=\"M-11 -2l4 -7l8 2l5 -3l4 8l-5 6l-9 1z\" fill=\"#F2DEA0\"/><path d=\"M-11 -2l4 -7l8 2l5 -3l4 8l-5 6l-9 1z\" fill=\"none\" stroke=\"#C8A45E\" stroke-width=\"1.2\"/></g><g transform=\"translate(118 88) rotate(-16)\"><circle r=\"8\" fill=\"#B34434\"/><circle r=\"8\" fill=\"none\" stroke=\"#8E2E22\" stroke-width=\"1.4\"/><circle cx=\"1.2\" cy=\"1.8\" r=\"1.3\" fill=\"#E8A06A\"/><circle cx=\"-1.4\" cy=\"-1.3\" r=\"1.3\" fill=\"#E8A06A\"/><circle cx=\"3.5\" cy=\"0.6\" r=\"1.3\" fill=\"#E8A06A\"/></g><g transform=\"translate(150 96) rotate(8)\"><circle r=\"8\" fill=\"#B34434\"/><circle r=\"8\" fill=\"none\" stroke=\"#8E2E22\" stroke-width=\"1.4\"/><circle cx=\"0.8\" cy=\"-2.1\" r=\"1.3\" fill=\"#E8A06A\"/><circle cx=\"3.0\" cy=\"3.0\" r=\"1.3\" fill=\"#E8A06A\"/><circle cx=\"3.0\" cy=\"3.0\" r=\"1.3\" fill=\"#E8A06A\"/></g><g transform=\"translate(192 88) rotate(-6)\"><circle r=\"8\" fill=\"#B34434\"/><circle r=\"8\" fill=\"none\" stroke=\"#8E2E22\" stroke-width=\"1.4\"/><circle cx=\"-1.2\" cy=\"3.0\" r=\"1.3\" fill=\"#E8A06A\"/><circle cx=\"0.4\" cy=\"0.1\" r=\"1.3\" fill=\"#E8A06A\"/><circle cx=\"-3.8\" cy=\"-2.9\" r=\"1.3\" fill=\"#E8A06A\"/></g><g transform=\"translate(216 96) rotate(26)\"><circle r=\"8\" fill=\"#B34434\"/><circle r=\"8\" fill=\"none\" stroke=\"#8E2E22\" stroke-width=\"1.4\"/><circle cx=\"1.7\" cy=\"3.8\" r=\"1.3\" fill=\"#E8A06A\"/><circle cx=\"2.1\" cy=\"2.1\" r=\"1.3\" fill=\"#E8A06A\"/><circle cx=\"1.7\" cy=\"-2.9\" r=\"1.3\" fill=\"#E8A06A\"/></g><g transform=\"translate(170 84) rotate(40)\"><circle r=\"8\" fill=\"#B34434\"/><circle r=\"8\" fill=\"none\" stroke=\"#8E2E22\" stroke-width=\"1.4\"/><circle cx=\"1.0\" cy=\"-1.0\" r=\"1.3\" fill=\"#E8A06A\"/><circle cx=\"3.4\" cy=\"1.6\" r=\"1.3\" fill=\"#E8A06A\"/><circle cx=\"-0.2\" cy=\"0.3\" r=\"1.3\" fill=\"#E8A06A\"/></g><ellipse cx=\"126\" cy=\"82\" rx=\"22\" ry=\"2.6\" fill=\"#fff\" opacity=\".25\"/><g transform=\"translate(268 130) rotate(16)\"><path d=\"M-8 0q0 -18 8 -18q8 0 8 18q0 10 -8 10q-8 0 -8 -10z\" fill=\"#8E3A22\"/><path d=\"M-2 -18l2 -8\" stroke=\"#5E4A2E\" stroke-width=\"2.4\"/></g>"
@@ -10333,6 +10460,10 @@
    [
     "Con guindilla",
     "Unas guindillas en vinagre al lado del plato son la compañía de toda la vida."
+   ],
+   [
+    "A gustos, colores",
+    "Hay casas que le echan una costilla adobada o unas tiras de panceta junto al chorizo, quien pone ñora cuando no hay choricero y quien la sirve con las guindillas picadas por dentro en vez de al lado. Con media cucharadita de pimentón picante, riojanísima."
    ]
   ],
   "ing": [
@@ -10417,9 +10548,13 @@
      {
       "t": "Sofrito suave",
       "m": 12,
-      "x": "En una cazuela con aceite de oliva, calienta 3 cucharadas de aceite y pocha a fuego suave 10-12 minutos 1 cebolla, 1 pimiento verde y 2 dientes de ajo picados.",
+      "x": "En la cazuela o en la propia olla, abierta, pocha a fuego suave {cebolla}, {pimiento} y {ajo} picados con {aceite}.",
       "tim": 10,
       "f": 2,
+      "solo": [
+       "olla",
+       "expres"
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -10442,13 +10577,47 @@
         ]
        ],
        "cuchara": 1
-      }
+      },
+      "ab": "La cebolla tiene que quedar blanda y dulce: es la mitad del guiso."
+     },
+     {
+      "t": "El sofrito, en el robot",
+      "m": 12,
+      "x": "Pon {cebolla}, {pimiento} y {ajo} en el vaso y pícalos 3 segundos a velocidad media. Añade {aceite} y sofríe 10 minutos a 120 °C, velocidad suave.",
+      "tim": 10,
+      "f": 0,
+      "solo": [
+       "robot"
+      ],
+      "e": {
+       "k": "bol",
+       "c": "#8FA84B",
+       "i": [
+        [
+         "cebolla",
+         4
+        ],
+        [
+         "pimiento",
+         3
+        ],
+        [
+         "ajo",
+         2
+        ]
+       ]
+      },
+      "ab": "Que quede menudo, no puré: el sofrito es el fondo del guiso."
      },
      {
       "t": "Chorizo y choricero",
       "m": 4,
-      "x": "Añade 200 g de chorizo riojano en rodajas de 1 cm y rehógalo 2 minutos. Agrega 1 cucharada de carne de pimiento choricero y 1 cucharadita de pimentón dulce o picante, 10 segundos, sin que se queme.",
+      "x": "Añade {chorizo} en rodajas gruesas y rehógalo un par de minutos. Agrega {choricero} y {pimenton}, sin que se queme.",
       "f": 3,
+      "solo": [
+       "olla",
+       "expres"
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -10467,6 +10636,31 @@
        "polvo": "#8E1B13"
       },
       "ab": "El chorizo suelta su grasa roja, que es el color del guiso."
+     },
+     {
+      "t": "El chorizo, en el robot",
+      "m": 4,
+      "x": "Añade {chorizo} en rodajas gruesas y programa 2 minutos a 120 °C, giro a la izquierda y velocidad suave. Suma {choricero} y {pimenton} y dale medio minuto más, sin que se queme.",
+      "tim": 3,
+      "f": 0,
+      "solo": [
+       "robot"
+      ],
+      "e": {
+       "k": "bol",
+       "c": "#B8432C",
+       "i": [
+        [
+         "cebolla",
+         4
+        ],
+        [
+         "pimiento",
+         2
+        ]
+       ]
+      },
+      "ab": "El pimentón amarga si se pasa: medio minuto y listo."
      }
     ]
    },
@@ -10477,8 +10671,12 @@
      {
       "t": "Patatas chascadas",
       "m": 5,
-      "x": "Echa 1 kg de patatas chascadas en trozos de 3-4 cm y dales unas vueltas para que se impregnen.",
+      "x": "Echa {patata} chascadas en trozos medianos y dales unas vueltas para que se impregnen.",
       "f": 3,
+      "solo": [
+       "olla",
+       "expres"
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -10504,10 +10702,13 @@
      {
       "t": "Cubre y cuece",
       "m": 30,
-      "x": "Cubre con 1,2 litros de agua caliente, justo hasta tapar las patatas, añade 1 hoja de laurel y 1 cucharadita rasa de sal, y cuece a fuego suave unos 30 minutos.",
+      "x": "Cubre con {agua} caliente justo hasta tapar las patatas, añade {laurel} y sal, y cuece a fuego suave unos 30 minutos.",
       "tim": 30,
       "f": 2,
       "w": 1,
+      "solo": [
+       "olla"
+      ],
       "e": {
        "k": "fuego",
        "v": "cazuela",
@@ -10532,9 +10733,55 @@
       "ab": "No remuevas con cuchara: menea la cazuela para que no se rompan las patatas."
      },
      {
+      "t": "Con presión",
+      "m": 8,
+      "x": "Cubre con {agua} caliente justo hasta tapar las patatas, sin pasar del límite de llenado de tu olla, añade {laurel} y sal, y cierra como indica su manual. Cuando suba la válvula, baja el fuego al mínimo que mantenga la presión: de 5 a 8 minutos según tu olla; en una tradicional, manda su tabla. Apaga y deja que la presión baje sola.",
+      "tim": 5,
+      "f": 2,
+      "w": 1,
+      "solo": [
+       "expres"
+      ],
+      "e": {
+       "k": "fuego",
+       "v": "olla",
+       "f": 2,
+       "c": "#C79AA8",
+       "tapa": 1,
+       "vapor": 1
+      },
+      "ab": "No la abras antes de tiempo: la patata se termina de hacer con la olla apagada."
+     },
+     {
+      "t": "El guiso, en el robot",
+      "m": 27,
+      "x": "Echa {patata} chascadas en el vaso con {agua} caliente, {laurel} y sal: programa 25 minutos a 100 °C, giro a la izquierda y velocidad cuchara, con la mariposa puesta si tu robot la tiene. Pincha una patata: si va justa, alarga 5 minutos más.",
+      "tim": 25,
+      "f": 0,
+      "w": 1,
+      "solo": [
+       "robot"
+      ],
+      "e": {
+       "k": "bol",
+       "c": "#C79AA8",
+       "i": [
+        [
+         "patata",
+         6
+        ],
+        [
+         "cebolla",
+         3
+        ]
+       ]
+      },
+      "ab": "El giro a la izquierda mueve sin romper: con la cuchilla normal triturarías la patata."
+     },
+     {
       "t": "Reposa y sirve",
       "m": 10,
-      "x": "Apaga y deja reposar 10 minutos antes de servir: el caldo espesa y los sabores se asientan. Con guindillas en vinagre para acompañar.",
+      "x": "Apaga y deja reposar diez minutos antes de servir: el caldo espesa y los sabores se asientan. Con {guindilla}.",
       "f": 0,
       "w": 1,
       "e": {
